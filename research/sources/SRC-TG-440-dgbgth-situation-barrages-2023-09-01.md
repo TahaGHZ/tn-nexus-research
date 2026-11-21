@@ -52,7 +52,7 @@ NB:Actualisation des courbes"hauteur/Volume"* *( Lakhmes : 2000); (Bir Mchergua 
 (Sidi Salem: 2018); (Siliana : 2020), (Nebhana, Lebna, Chiba : 2022)
 * Capacité utile. :
 Capacité utilisable (à la date de la dernière opération de mesure bathymétrique)
-* Capacité utile. calculée : =Capacité utile.-Volume de vase arrivé après la date de la dernière opération de mesure bathymétrique Kamel Nasri / Mob. 98 133 834
+* Capacité utile. calculée : =Capacité utile.-Volume de vase arrivé après la date de la dernière opération de mesure bathymétrique
 ```
 
 English gloss: dam characteristics table. After catchment area and mean annual inflow, the columns give the minimum volume since impoundment, normal retention level, initial total capacity, current useful capacity (at the last bathymetric survey), regulated volume, max spillway discharge, measured siltation (Mm3), annual siltation (Mm3/yr), percentage silted, catchment erosion (mm/yr), and calculated useful capacity (useful capacity minus silt deposited since the last survey), followed by previous-year and current water levels and volumes.

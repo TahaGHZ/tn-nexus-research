@@ -51,7 +51,7 @@ TOTAL GENERAL 40410 1 801,79 0,00 3 021,11 2 347,26 1 417,30 0 673,84 13,22 0,00
 NB:Actualisation des courbes"hauteur/Volume"* *( Lakhmes : 2000); (Bir Mchergua : 2002); (Bizirk : 2004); (Bouheurtma: 2005); (Kasseb, Bni Mtir: 2006); (Sidi el barraK : 2009); (Ghzala, El Houareb,El Abid,Rmel,Masri, El hma : 2011); (joumine,Sidi Saad : 2013); (Mellègue : 2014); (Sidi Salem: 2018)
 * Capacité utile. :
 Capacité utilisable (à la date de la dernière opération de mesure bathymétrique)
-* Capacité utile. calculée : =Capacité utile.-Volume de vase arrivé après la date de la dernière opération de mesure bathymétrique Kamel Nasri / Mob. 98 133 834
+* Capacité utile. calculée : =Capacité utile.-Volume de vase arrivé après la date de la dernière opération de mesure bathymétrique
 ```
 
 English gloss: dam characteristics table. After catchment area and mean annual inflow, the columns give the minimum volume since impoundment, normal retention level, initial total capacity, current useful capacity (at the last bathymetric survey), regulated volume, max spillway discharge, measured siltation (Mm3), annual siltation (Mm3/yr), percentage silted, catchment erosion (mm/yr), and calculated useful capacity (useful capacity minus silt deposited since the last survey), followed by previous-year and current water levels and volumes.
