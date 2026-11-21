@@ -68,7 +68,7 @@ indicators:
   - name: Annual cost of rangeland degradation
     value: 224
     unit: million TND per year
-    year: 2015 study (Croitoru and Daly), cited 2017
+    year: 2017 (workshop report; underlying study not named in the passage)
     geography: national
     source: SRC-TG-767
   - name: Cost of rangeland degradation as share of economic value generated
@@ -171,8 +171,8 @@ Lower biomass and bare ground are symptoms. The record points to these causes:
 
 ## Evidence
 
-- Area 6.1 million ha (2005) to 5.5 million ha (2012) (SRC-TG-767). The ICARDA brief gives the same loss of "some 600,000 ha" over 2005-2012 (SRC-TG-768). Both trace to Croitoru and Daly (2015) for the DGF and the World Bank, so they are one underlying source. The brief's "34,000 ha per year" does not match 600,000 ha over seven years (about 86,000 ha a year) and is not used.
-- Degradation cost is disputed: the 2017 workshop reports 49.8 TND/ha/year and 224 million TND/year (21.1%); the 2019 brief reports 74 million TND (18%), apparently citing the same 2015 study, and does not state whether the latter is annual (SRC-TG-767, SRC-TG-768).
+- Area 6.1 million ha (2005) to 5.5 million ha (2012) (SRC-TG-767). The ICARDA brief gives the same loss of "some 600,000 ha" over 2005-2012 (SRC-TG-768). The ICARDA brief footnotes Croitoru and Daly (2015) for this; the workshop passage names no source, so a common underlying study is likely but not established. The brief's "34,000 ha per year" does not match 600,000 ha over seven years (about 86,000 ha a year) and is not used.
+- Degradation cost is disputed: the 2017 workshop reports 49.8 TND/ha/year and 224 million TND/year (21.1%); the 2019 brief reports 74 million TND (18%), citing both Croitoru and Daly (2015) and Sarniguet, Bruzon and Makhlouf (1995), and does not state whether it is annual. 74 million is 7.0% of the 1,062 million TND base both sources use, not 18%, so the two figures cannot share one base (SRC-TG-767, SRC-TG-768) (SRC-TG-767, SRC-TG-768).
 - Forage now makes up only about 18% of the economic value of rangelands, a share of value, not of feed (SRC-TG-767).
 - The Fourth National Communication puts rangeland supply at approximately 16% of herd needs in 2020 and projects 8–10% by 2050 (SRC-TG-885). The separate historical series cited in SRC-TG-769 has a different provenance and is not joined to this projection.
 - Drought relief scale. The 1988-89 programme cost 74 million TND, 6.9% of agricultural value added (SRC-TG-770). Animal feed subsidies peaked at 49 million TND in the 1989 drought and fell to 4 million TND in 1992-93 (SRC-TG-921).
@@ -181,7 +181,7 @@ Lower biomass and bare ground are symptoms. The record points to these causes:
 
 ## Why confidence is what it is
 
-Medium. The area loss comes from a DGF and World Bank study cited by two ICARDA documents (tier B), effectively one source. The degradation-cost figures conflict: 224 million TND/year (21.1%) versus 74 million TND (18%); periodicity and attribution are unresolved. The feed-share collapse from 80% to 20% is the most striking number but rests on a single communications page without method (tier C), so that indicator is low confidence. The national communication gives an approximate baseline and a conditional projection (SRC-TG-885). The causal role of drought relief is plausible and named by the Tunisian workshop. The mechanism itself comes from an IFPRI discussion paper that is regional and hedged ("probably"), not a Tunisian measurement. The 1994 relief volume is contested between IFPRI and the World Bank. No post-2012 area or condition data were found. No quantified projection is retained because the cited UNFCCC figure could not be verified.
+Medium. The area loss comes from a DGF and World Bank study cited by two ICARDA documents (tier B), probably one underlying source, though the workshop passage does not name it. The degradation-cost figures conflict: 224 million TND/year (21.1%) versus 74 million TND (18%); periodicity and attribution are unresolved. The feed-share collapse from 80% to 20% is the most striking number but rests on a single communications page without method (tier C), so that indicator is low confidence. The national communication gives an approximate baseline and a conditional projection (SRC-TG-885). The causal role of drought relief is plausible and named by the Tunisian workshop. The mechanism itself comes from an IFPRI discussion paper that is regional and hedged ("probably"), not a Tunisian measurement. The 1994 relief volume is contested between IFPRI and the World Bank. No post-2012 area or condition data were found. No quantified projection is retained because the cited UNFCCC figure could not be verified.
 
 ## Links to other sectors
 
@@ -202,4 +202,6 @@ Medium. The area loss comes from a DGF and World Bank study cited by two ICARDA 
 
 The original UNFCCC national communication confirms the 2020 baseline and 2050 range. The ICARDA cost estimates of 224 million and 74 million TND differ in reported scope or periodicity, which the sources do not settle. Neither is presented as the single national degradation cost or confused with the historical emergency relief expenditure.
 
-**Outstanding verification:** The 16% baseline and 8–10% projection are confirmed in the climate communication. The two published damage-cost estimates remain unreconciled.
+**Independent review, 21 November 2026:** not passed (record stays draft). Checked the Fourth National Communication (SRC-TG-885, 16% in 2020 and 8-10% by 2050 sentence), the 2017 workshop report (SRC-TG-767, 224 million TND passage) and the ICARDA/OEP brief (SRC-TG-768, p.1, 74 million TND and 1,062 million TND passages). The 16% baseline and 8-10% projection match. Corrections: the 224 million attribution to Croitoru and Daly is removed because the workshop passage names no source; the 74 million estimate is attributed to the brief's two cited sources; the arithmetic mismatch (74/1,062 = 7.0%, not 18%) is stated.
+
+**Outstanding verification:** Checked in the original: the 16% baseline and 8-10% projection (SRC-TG-885) and both damage-cost passages (SRC-TG-767, SRC-TG-768). Not settled: whether 224 million TND/year and 74 million TND share a base year, period or annual basis; the brief's 18% implies a base of about 411 million TND, not 1,062. The original Croitoru and Daly (2015) DGF/World Bank report and Sarniguet, Bruzon and Makhlouf (1995), World Bank Report No. 14927 MNA, would settle it. The 87% arid-zone share and the feed-share series were not rechecked.

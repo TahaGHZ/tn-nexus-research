@@ -77,13 +77,13 @@ indicators:
   - name: Farm heads under 5 ha who applied for investment credit
     value: "5.2 (vs 18.4 for 100 ha and more)"
     unit: percent of farm heads
-    year: "2004-05 survey (credit period not stated; related 6.3% figure dated 1999-2004 by FAO/CIHEAM)"
+    year: "2003-04 campaign (reference campaign of the 2004-05 survey, ESEA p.3; the credit sub-tables are not separately dated)"
     geography: national
     source: SRC-TG-780
   - name: Refusal rate of investment credit applications, farms under 5 ha
     value: "67.6 (large farms: 80.6% of applications satisfied)"
     unit: percent of applications
-    year: "2004-05 survey (credit period not stated; related 6.3% figure dated 1999-2004 by FAO/CIHEAM)"
+    year: "2003-04 campaign (reference campaign of the 2004-05 survey, ESEA p.3; the credit sub-tables are not separately dated)"
     geography: national
     source: SRC-TG-780
   - name: Parcels per farm
@@ -96,7 +96,7 @@ stakeholders: [smallholder farmers, heirs of farm households, young people seeki
 related: [FND-TG-781, FND-TG-782, FND-TG-921, FND-TG-720, FND-TG-742]
 sources: [SRC-TG-780, SRC-TG-781, SRC-TG-782, SRC-TG-793]
 data_gaps:
-  - "No national farm-structure data found after the 2004-05 survey (one search for later survey rounds found none; studies of 2017 and c. 2020 still use 2004-05). Press snippets (not opened) say the first general agricultural census is planned for 2026-2027 (reference season 2025-26; the source says the launch date was yet to be announced) and has no results yet. Press estimates of about 830,000 or 'nearly one million' farms were not opened and are not used."
+  - "No national farm-structure data found after the 2004-05 survey (one search for later survey rounds found none; studies of 2017 and c. 2020 still use 2004-05). A press article (SRC-TG-793) says the first general agricultural census is planned for 2026-2027 (reference season 2025-26; the source says the launch date was yet to be announced) and has no results yet. Press estimates of about 830,000 or 'nearly one million' farms were not opened and are not used."
   - "No sourced current figure for the age of farm heads; a press claim that over 50% are now over 60 was not sourced and is not used."
   - "No sourced projection of farm numbers, average size or farm-head ageing; no predicted finding could be written."
   - "No data linking farm size to yields or income per hectare in Tunisia were found in this run."
@@ -129,7 +129,7 @@ The absence of data since 2005 is not a cause of fragmentation, but it means far
 - Size classes in 2004-05: under 5 ha, 54% of farms and 11% of area; under 10 ha, 75% and 25%; over 50 ha, 3% and 34% (SRC-TG-780).
 - Ageing: heads aged 60+ were 21% / 37% / 43% of farm heads and held 24% / 40% / 46% of farmland; 84% of heads had at most primary education (SRC-TG-780).
 - Investment, 2000-2004: 26% of all heads invested; 22.8% of those under 5 ha and 61% of those over 100 ha. Help from relatives was a more common source of finance than bank credit or leasing (SRC-TG-780).
-- Credit, campaign 2003-04: 87.5% of heads did not apply, 6.3% applied and obtained credit, 6.2% applied and were refused. Investment-credit applications came from 5.2% of heads under 5 ha and 18.4% of those over 100 ha. Refusal rates for small farms were 41.6% (seasonal) and 67.6% (investment); large farms had 93.8% and 80.6% of applications satisfied. Non-applicants cited access difficulty (28%) and fear of debt (27%) (SRC-TG-780).
+- Credit, campaign 2003-04: 87.5% of heads did not apply, 6.3% applied and obtained credit, 6.2% applied and were refused. Investment-credit applications came from 5.2% of heads under 5 ha and 18.4% of those over 100 ha. Refusal rates for small farms were 41.6% (seasonal) and 67.6% (investment); large farms had 93.8% and 80.6% of applications satisfied. Non-applicants cited access difficulty (28%) and fear of debt (27%) (SRC-TG-780). The same page also gives 63.8% (investment) and 30.7% (seasonal) as overall unsatisfied-request rates, without a clear base; these are not used here.
 - The FTDES study gives about 470,000 ha for farms under 5 ha in 2005 (SRC-TG-782). That is the survey's 1994-95 value; the 2004-05 value is 556,000 ha (SRC-TG-780). We use the survey.
 
 ## Why confidence is what it is
@@ -148,8 +148,14 @@ Water: in 2004-05 farms under 5 ha irrigated 16% of their cultivated area, compa
 
 ## Leads for phase 2
 
-- First general agricultural census 2026-2027 (Ministry of Agriculture, DGEDA, with FAO support): https://www.webmanagercenter.com/2026/10/14/574646/recensement-agricole-2026-2027-la-tunisie-mise-sur-la-donnee-numerique/
+- First general agricultural census 2026-2027 (Ministry of Agriculture, DGEDA, with Tunisie Télécom as technical partner, SRC-TG-793): https://www.webmanagercenter.com/2026/10/14/574646/recensement-agricole-2026-2027-la-tunisie-mise-sur-la-donnee-numerique/
 - Land loan (prêt foncier) for agricultural technicians and young farmers; ceiling raised by decree 2008-3263 of 13 October 2008 (cited in SRC-TG-781).
 - Land consolidation (remembrement) in public irrigated schemes (SRC-TG-781); an ICARDA/IRA report on land consolidation in the Jeffara, seen in search results and not opened: https://mel.cgiar.org/reporting/download/hash/LJPZ38GG
 - Agricultural service cooperatives (SMSA) and agricultural development groups (GDA) as aggregation of small farms (SRC-TG-782).
 - World Bank 2014 recommendations to ease plot consolidation, create local one-stop shops for land transactions and develop the land market (The Unfinished Revolution, ch. 9, p. 273): https://worldbank.org/content/dam/Worldbank/document/MNA/tunisia_report/the_unfinished_revolution_eng_chap9.pdf
+
+## Verification
+
+Figures were taken from the ESEA 2004-05 report (SRC-TG-780), the FAO/CIHEAM study (SRC-TG-781) and the FTDES/Oxfam study (SRC-TG-782).
+
+**Independent review, 21 November 2026:** pass after corrections. Checked in the ESEA 2004-05 original: p.3 (summary, sample, reference campaign), p.5 (farm number, size and area tables), p.10 and p.12 (parcels), p.13 (tenure), p.15 (legal persons), p.24 (age and education), p.49 (irrigation), p.63 and p.67-68 (investment and credit); FAO/CIHEAM 2017 p.46-47; FTDES structure section; web article on the census (SRC-TG-793). Corrections: credit indicator period changed from "credit period not stated" to the 2003-04 campaign (ESEA p.3); Leads text "with FAO support" replaced by Tunisie Télécom as technical partner (SRC-TG-793 does not mention FAO); note added that p.68 also gives 63.8% and 30.7% unsatisfied-request rates without a clear base. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

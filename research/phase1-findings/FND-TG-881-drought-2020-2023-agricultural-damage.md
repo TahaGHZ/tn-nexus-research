@@ -1,6 +1,6 @@
 ---
 id: FND-TG-881
-title: Tunisia’s 2023 drought coincided with a 16.1% contraction in real agriculture, forestry and fishing value added in the revised INS accounts
+title: Tunisia’s 2023 drought coincided with a 16.1% contraction in real agriculture, forestry and fishing value added in the INS update of 3 August 2026
 status: in-review
 sectors:
   - agriculture
@@ -151,6 +151,9 @@ data_gaps:
   - 'Peer-reviewed drought-index analyses were not opened in full: Mohamed et al. 2023 (Scientific African 21:e01766) only as an abstract (ScienceDirect
     returned HTTP 403); Ben Abdelmalek and Nouiri 2020 (Sci. Total Environ. 734:139311, 1973-2016) not at all. No SPI/SPEI analysis of 2020-2023
     was found.'
+  - 'not independently reopened: observed warming of about 2.1°C attributed to 1978-2012 (p. 19) and to 1951-2010 (p. 129) (SRC-TG-885)'
+  - 'not independently reopened: NC4 rainfall statements, a slight upward trend for 1978-2012 (p. 19) and a 2-16% decline against 1961-1990 (p. 130) (SRC-TG-885)'
+  - 'not independently reopened: after the 2016-2018 drought farmers offset losses with groundwater, even saline (SRC-TG-885)'
   - 'The GIEWS brief of 31 May 2019 (forecasting a bumper crop of almost 2.2 Mt) is in the archive, but its extract is not recorded in shared
     source SRC-TG-700. This record''s 2019 comparison therefore rests on the World Bank''s statement that 2023 cereal output was just over 22%
     of the 2019 level; coordinator follow-up: add and verify the 2019 GIEWS extract in SRC-TG-700.'
@@ -245,3 +248,5 @@ Medium.
 ## Verification
 
 INS’s 3 August 2026 national accounts give -16.1% for calendar 2023 and +8.6% for 2024 in agriculture, forestry and fishing at previous-year prices. The spring 2024 World Bank estimate (-11%) is preserved as an earlier publication, separate from half-year measures. The annual accounts do not isolate the causal share attributable to drought (SRC-TG-890, SRC-TG-883).
+
+**Independent review, 21 November 2026:** pass after corrections. Checked against the originals: INS national accounts table, value-added at previous-year prices, agriculture, sylviculture et pêche row (2023 -16.1%, 2024 +8.6%, update 3 August 2026); World Bank Tunisia Economic Monitor Spring 2024, Overview p. 1-2 and Autumn 2023 (French), Overview p. 1-2; CCDR full report (French, media mirror), p. 7, 8 and 11 and fn 62; CCDR executive summary (English), p. ii; FAO GIEWS briefs of 29 November 2023 and 30 May 2024 and the 2024 and 2025 briefs; Mohamed et al. 2023, abstract only. Corrections made: the title no longer calls the INS figures "revised", because the INS page shows an update date but no revision note. The reviewer's objection to the rainfall-trend wording was not confirmed: the abstract reports non-significant changes at every station (a decrease at nine, an increase at seven), so "no statistically significant trend at any station" stands. Claims resting on the 4th National Communication (SRC-TG-885), which could not be opened, are listed under data_gaps as not independently reopened. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

@@ -1,7 +1,7 @@
 ---
 id: FND-TG-722
 title: The national adaptation study projects Tunisian olive oil output 11-35% below its modelled reference by 2050 and 20-70% below by 2100,
-  with yield losses up to 51-86% in the Sfax-Kairouan-Sidi Bouzid-Mahdia core under RCP8.5
+  with yield losses of 51-86% by 2100 under RCP8.5 in the Sfax-Kairouan-Sidi Bouzid-Mahdia core
 status: in-review
 sectors:
   - agriculture
@@ -27,7 +27,7 @@ root_causes:
       - SRC-TG-729
       - SRC-TG-886
   - cause: Exposure is high because production is concentrated in rainfed groves in arid and semi-arid central and southern governorates (see
-      FND-TG-720).
+      FND-TG-720). The rainfed share is the 2010-2012 position (SRC-TG-726); the 2021 study says the irrigated share is poorly known but growing (SRC-TG-886).
     type: technical
     legacy_decision: true
     sources:
@@ -145,7 +145,7 @@ This record gives the olive-specific detail behind the cross-crop projection fin
 **Symptom vs cause.** The projected output decline is the symptom. The causes are hotter, drier conditions acting on an olive system concentrated in the arid Centre and South and mostly rainfed (FND-TG-720).
 
 - **Climate drivers.** Mean temperature rises +1.5 to +1.9°C by 2050 and +1.9 to +3.9°C by 2100, and annual rainfall falls 6-9% by 2050 and 9-18% by 2100, relative to 1981-2010 (SRC-TG-729). All regions face more heatwave days combined with water stress, and milder winters with few cool days that threaten the chill requirement for flowering (SRC-TG-886). The olive is drought-resistant but sensitive to extreme heat above 40°C, which is expected to become more frequent and longer in the Centre and South, which produce 77% of national output (SRC-TG-886).
-- **Exposure from the existing production model (legacy).** About 97% of groves were rainfed around 2010-2012, with 85% in the Centre and South (SRC-TG-726). National output therefore tracks climate directly.
+- **Exposure from the existing production model (legacy).** About 97% of groves were rainfed around 2010-2012, with 85% in the Centre and South (SRC-TG-726). That is the 2010-2012 position: the 2021 study says the irrigated share of production is "mal connue" (poorly known) but growing with state-aided planting (SRC-TG-886). National output therefore tracks climate directly.
 - **The offset is constrained by water.** The study expects continued area growth, "en particulier en irrigué" (especially irrigated), to at least partly compensate. It adds that declining conventional water will be a further limit (SRC-TG-886).
 
 ## Evidence
@@ -153,7 +153,7 @@ This record gives the olive-specific detail behind the cross-crop projection fin
 - Tables 21-22 and the yield table of the MARHP/AFD impacts study (SRC-TG-886). It uses 12 RCP4.5 and 18 RCP8.5 models, horizons 2036-2065 and 2071-2100, a 1981-2010 reference and current technology.
 - Favourable suitability area falls by a median 14%, and up to 34%, under RCP8.5 by 2100. Under RCP4.5 the changes are significant only by 2100 (SRC-TG-886).
 - **Disagreement on the projected olive loss.** The World Bank CCDR (2023), citing an earlier 2020 deliverable of the same programme, gives olive yield losses of up to 69% under RCP8.5 and 67% under RCP4.5 (SRC-TG-881). Its text does not tie the olive figure clearly to a horizon: "d'ici 2050" (by 2050) attaches to the wheat and barley figures. These figures do not match the final 2021 tables, where the yield loss is -32% (RCP8.5, 2050) and -61% (RCP8.5, 2100), and a larger loss under RCP4.5 than RCP8.5 is unexplained. The final 2021 tables are preferred here. FND-TG-880 documents the same mismatch across crops.
-- **Disagreement on the baseline.** The study's text gives 2010-2019 average production as about 900,000 t of olives, or about 180 kt of oil (SRC-TG-886). Its modelled reference is 1,033,000 t of olives, or 207 kt of oil, at the same 20% conversion (SRC-TG-886). So the gap comes from the olive tonnage, not the conversion rate. The IOC mean for 2010/11-2019/20 is about 208 kt and for 1990/91-2009/10 about 162 kt, our calculation from SRC-TG-720. The 207 kt reference is therefore a modelled value close to the 2010s average, not a 1981-2010 production level.
+- **Disagreement on the baseline.** The study's text gives 2010-2019 average production as about 900,000 t of olives, or about 180 kt of oil (SRC-TG-886). Its modelled reference is 1,033,000 t of olives, or 207 kt of oil, at the same 20% conversion (SRC-TG-886). So the gap comes from the olive tonnage, not the conversion rate. The IOC mean for 2010/11-2019/20 is about 208 kt and for 1990/91-2009/10 about 162 kt, our calculation from SRC-TG-720. Our reading, not stated by the study, is that the 207 kt reference is a modelled value close to the 2010s average, not a 1981-2010 production level.
 
 ## Why confidence is what it is
 
@@ -174,3 +174,5 @@ Medium. The direction (decline) is consistent across the summary note, the full 
 ## Verification
 
 Reopened the national adaptation study, printed p. 105, Tables 21–22. Relative to the 207 kt oil reference, the 2050 outputs span 134–184 kt, and the 2100 outputs span 61–165 kt. The source converts olives to oil at 20% by weight. These are conditional projections under two pathways and two area assumptions, not observed harvests.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked against the originals: MARHP/AFD impacts study, Tables 21 and 22 (printed p.105), the yield table (section 2.4.3.1), section 2.4.3.2 on governorate yield losses (51-86% under RCP8.5 by 2100), section 2.4.1 and section 3.1.2 (SRC-TG-886); the study's summary note on the -23% to -70% olive range (SRC-TG-729); World Bank CCDR text and footnote 90 on olive yield losses of 69% and 67% (SRC-TG-881); FAO 2015 on 3% irrigated groves and 85% in the Centre and South (SRC-TG-726). Corrections: headline range reworded from "up to 51-86%" to "51-86% by 2100 under RCP8.5"; the rainfed-share root cause now dates the 97% rainfed figure to 2010-2012 and notes the 2021 study says irrigation is growing; the 207 kt baseline reading is labelled as our own interpretation. The source record with the same number as this finding (the IOC 118th-session key figures) is unrelated to this finding and is not in its sources. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

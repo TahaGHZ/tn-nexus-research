@@ -25,8 +25,8 @@ root_causes:
       - SRC-TG-742
       - SRC-TG-744
   - cause: 'State oasis-creation programmes favoured Deglet Nour: Rjim Maatoug was planted with the variety, and the FAO consultant report says
-      state-created extensions were exclusively Deglet Nour; a 15% common-variety share was an extension recommendation and planting-protocol
-      requirement, reportedly not respected'
+      state-created extensions were exclusively Deglet Nour; the FAO report says extension services recommended a 15% common-variety share and, in a separate passage, that
+      an orchard installation protocol required 15% and it was not respected (no protocol text located)'
     type: policy
     legacy_decision: true
     sources:
@@ -74,7 +74,7 @@ indicators:
     unit: '% of date exports (volume or value not stated)'
     year: 2022/2023
     geography: national
-    source: SRC-TG-741
+    source: SRC-TG-741 (relaying ONAGRI 2023; not in SRC-TG-743)
   - name: Deglet Nour share of plantations younger than 5 years
     value: 94
     unit: '%'
@@ -140,7 +140,8 @@ data_gaps:
   - No official time series of the number of distinct date cultivars still cultivated; only a literature count (about 250, more than 250, 300
     or 150 depending on source) and no measured rate of cultivar disappearance
   - Ministry date statistics (DGEDA oasis survey) stopped after 2018 according to SRC-TG-742; no newer varietal census found
-  - ONAGRI 2023 note giving Deglet Nour at 85.7% of exports not opened directly (relayed via SRC-TG-741)
+  - ONAGRI 2023 note giving Deglet Nour at 85.7% of exports not opened directly (relayed via SRC-TG-741; not in SRC-TG-743)
+  - Orchard installation protocol or cahier des charges requiring 15% common varieties not located; FAO states it without citation (SRC-TG-742)
   - 2023/24 export volume, value and destination shares (Morocco reported as first market) seen only in press relaying ONAGRI notes; not sourced
   - No quantified field loss rate for the date moth (Ectomyelois ceratoniae) in Tunisia from a document we opened; a 20% loss figure for Deglet
     Nour at Tozeur appeared only in a search snippet
@@ -159,17 +160,17 @@ Tunisia's date economy rests on one variety. Deglet Nour went from 44.9% of the 
 The symptom is a near-monoculture and a shrinking share of common varieties. The causes are past and present choices:
 
 - **Colonial and post-independence export orientation (legacy).** The FAO report links the start of Deglet Nour monoculture to colonial-era drilling for export to France. It says that for decades Tunisian date policy aimed at "une extension maximale de la variété Deglet Nour, en vue de son exportation" ("maximum extension of Deglet Nour for export"), and that premiums and subsidies still favour it (SRC-TG-742). In the 1970s the government built an agro-industrial export chain focused on Deglet Nour (SRC-TG-741). Under the Plan Directeur des Eaux du Sud, rehabilitation works in the 1970s-1980s sometimes uprooted old common-variety palms and replaced them with Deglet Nour (SRC-TG-744).
-- **State oasis creation and planting standards favoured Deglet Nour (legacy).** Rjim Maatoug started in 1984 under the Plan Directeur des Eaux du Sud (1980-1992). It is run by an office of the Ministry of National Defence created in 1989. One of its stated objectives was more Deglet Nour, and it created 2,500 ha of Deglet Nour plantations, allotted at 1.5 ha per ordinary beneficiary. It produces about 12,000 t, around 5% of Kebili's output (SRC-TG-742). The report states that state-created extensions were exclusively Deglet Nour; it separately describes the 15% common-variety share as both an extension recommendation and planting-protocol requirement, reportedly not respected (SRC-TG-742).
+- **State oasis creation and planting standards favoured Deglet Nour (legacy).** Rjim Maatoug started in 1984 under the Plan Directeur des Eaux du Sud (1980-1992). It is run by an office of the Ministry of National Defence created in 1989. One of its stated objectives was more Deglet Nour, and it created 2,500 ha of Deglet Nour plantations, allotted at 1.5 ha per ordinary beneficiary. It produces about 12,000 t, around 5% of Kebili's output (SRC-TG-742). The report states that state-created extensions were exclusively Deglet Nour; the report says extension services recommended a 15% common-variety share (SRC-TG-742). In a separate passage it says the 15% was required by a palm-orchard installation protocol and was not respected (SRC-TG-742). No protocol text was located.
 - **Private incentives.** Deglet Nour was first promoted by the state, then followed and overtaken by private planting, especially in illicit extensions (SRC-TG-744; see FND-TG-741). It sells at more than twice the price of most common varieties (SRC-TG-744). Without production stress it is the most profitable variety, while common varieties performed better under the study's stress conditions (SRC-TG-741).
 - **Market constraints on common varieties.** A large share of common varieties are soft dates (SRC-TG-741, SRC-TG-742). Soft varieties must be sold within two to four weeks and are mostly self-consumed (SRC-TG-741). This keeps their market thin.
 
 ## Evidence
 
 - Varietal shift, 1977-2002 (Enquêtes oasis, Ministry of Agriculture): Deglet Nour went from 1,004,400 palms (44.9%) to 2,595,209 (61.3%). Other varieties went from 1,233,000 to 1,635,886 palms (SRC-TG-742).
-- 2018 oasis survey: Deglet Nour is 2.66 million of 3.9 million productive palms (68.2%) and Alig is 0.44 million (11.3%) (SRC-TG-743). The FAO report gives 2,777,408 of 3,841,485 (72.3%) (SRC-TG-742). **The two sources disagree; both are recorded.**
+- 2018 oasis survey: Deglet Nour is 2.66 million of 3.9 million productive palms (68.2%) and Alig is 0.44 million (11.3%) (SRC-TG-743). The 68.2% is 2.66/3.9 from rounded figures; ONAGRI's own count of 2,667,798 gives 68.4% of 3.9 million (SRC-TG-743). ONAGRI's total of 5.213 million palms (74.8% productive) also differs from the FAO report's 5,961,360 total, so the two sources use different denominators (SRC-TG-742, SRC-TG-743). The FAO report gives 2,777,408 of 3,841,485 (72.3%) (SRC-TG-742). **The two sources disagree; both are recorded.**
 - Number of cultivars: "close to 250" described (SRC-TG-746); "more than 250" (SRC-TG-741); 300 according to a former director of the Degache date centre (SRC-TG-742); OTE says 150 other local varieties (SRC-TG-744). **The counts differ by source and none is a recent census.**
 - Genetic erosion: a peer-reviewed SSR study of Nefzaoua oases says date palm diversity is "endangered due to the severe genetic erosion resulting from the predominance of the elite 'Deglet Nour' cultivar in new plantings" (SRC-TG-746). The study also finds that diversity among the surviving accessions is still high (SRC-TG-746).
-- Export dependence: Deglet Nour was 85.7% of exports in 2022/23 (SRC-TG-741). OTE gives 80%, from an older source (SRC-TG-744). In 2021 Tunisia exported 119.8 kt worth 716.6 MTND, about 12.1% of the world date market (SRC-TG-743). **The export value disagrees by source:** the FAO report gives 441.4 MTND for 2021 and 468.4 MTND for 2022 (SRC-TG-742), against ONAGRI's 716.6 MTND for 2021 (SRC-TG-743). The FAO figure is inconsistent with itself: it pairs 468.4 MDT with a 15.2% share of food exports, next to olive oil at 1,545 MDT = 33%, which implies about 710 MDT for dates (SRC-TG-742). ONAGRI's 716.6 MTND is therefore taken as the reliable value.
+- Export dependence: Deglet Nour was 85.7% of exports in 2022/23 according to Dagher et al., who cite ONAGRI 2023; this figure is not in the ONAGRI sheet we opened (SRC-TG-741, SRC-TG-743). OTE gives 80%, from an older source (SRC-TG-744). In 2021 Tunisia exported 119.8 kt worth 716.6 MTND, about 12.1% of the world date market (SRC-TG-743). **The export value disagrees by source:** the FAO report gives 441.4 MTND for 2021 and 468.4 MTND for 2022 (SRC-TG-742), against ONAGRI's 716.6 MTND for 2021 (SRC-TG-743). The FAO figure is inconsistent with itself: it pairs 468.4 MDT with a 15.2% share of food exports, next to olive oil at 1,545 MDT = 33%, which implies about 710 MDT for dates (SRC-TG-742). ONAGRI's 716.6 MTND is therefore taken as the reliable value.
 - Market structure: Kebili hosts 5 of 65 exporters and 13 of 75 packing units, and exports barely 10% of its output directly. Producers have little bargaining power with collectors despite GIFruits reference prices (SRC-TG-744; tier B, partly relaying a 2015 environment-ministry monograph we did not open).
 - Vulnerability: in 2021 a dust-mite (*Oligonychus afrasiaticus*) outbreak during heat and drought "seriously affected yields and farm incomes", and Deglet Nour is more sensitive to it than several common varieties (SRC-TG-741). Real labour costs for date production rose 14.5% a year from 2015 to 2022, and Deglet Nour is the labour-intensive variety (SRC-TG-741). The FAO consultant report says Tunisia's date palm groves have so far been spared bayoud and warns of a risk from infected offshoot imports from Algeria; it does not give the disease's botanical name (SRC-TG-742).
 
@@ -203,6 +204,8 @@ Medium. Historical survey series relayed in an FAO consultancy and ONAGRI statis
 
 ## Verification
 
-Reopened the ONAGRI indicator sheet, the FAO date-sector study and the field study. Survey denominators explain why shares of all palms and productive palms must be identified separately. The planting protocol and advisory recommendation are distinguished from a statutory quota (SRC-TG-741, SRC-TG-742, SRC-TG-743). The MEDD monograph is indirect wherever relayed by another publication.
+Reopened the ONAGRI indicator sheet, the FAO date-sector study and the field study. Survey denominators explain why shares of all palms and productive palms must be identified separately. The 15% common-variety share is recorded as an extension recommendation (SRC-TG-742) and, in one FAO passage, as an installation-protocol requirement that FAO does not cite. No protocol text or statutory quota was located. The MEDD monograph is indirect wherever relayed by another publication.
 
-**Outstanding verification:** The ONAGRI sheet and FAO planting protocol are reopened. Some cultivar and damage claims rely on an indirectly cited monograph.
+**Independent review, 21 November 2026:** pass after corrections for the points checked. Checked the ONAGRI date sheet (SRC-TG-743, p.2 table rows on productive palms, exports and food-export share; p.3 export effort), the FAO study (SRC-TG-742, section 1.3.1 and the two 15% passages) and Dagher et al. 2025 (SRC-TG-741, introduction, 85.7% sentence). The 68.2%, 72.3%, 716.6 MTND, 15.7%, 119.8 kt, 12.1% and 36.1% values match as printed. Corrections: the 15% common-variety share is now stated as two separate FAO statements (recommendation; protocol requirement) with no protocol text located; the 85.7% indicator is labelled as relayed via SRC-TG-741 and absent from SRC-TG-743; the 68.2% rounding and the FAO/ONAGRI total-palm denominators are noted.
+
+**Outstanding verification:** Checked in the original: the 68.2%, 72.3%, export value, 15.7%, 36.1% and 12.1% indicators and both FAO 15% passages. Not reopened: the 94% share of young plantations, the cultivar-count figures and the 1977-2002 survey series via indirect or unopened sources, and the 85.7% export share (ONAGRI 2023 note). The installation protocol or cahier des charges for palm orchards (Ministry of Agriculture, DGPA/DGEDA or CRDA Kebili/Tozeur) and the ONAGRI 2023 dates note would settle the open points.

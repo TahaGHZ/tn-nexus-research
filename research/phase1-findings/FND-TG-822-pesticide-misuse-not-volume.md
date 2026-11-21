@@ -15,7 +15,7 @@ root_causes:
     type: technical
     legacy_decision: false
     sources: [SRC-TG-832]
-  - cause: "The 1992 plant protection law built a registration (homologation) system, but there is no systematic monitoring of use by crop, residues or health effects, and some substances banned in Europe stay on the market"
+  - cause: "The 1992 plant protection law built a registration (homologation) system, but no systematic statistics are collected on pesticide use by crop or on health or environmental effects (the sources opened describe no residue-monitoring programme), and some substances banned in Europe stay on the market"
     type: institutional
     legacy_decision: true
     sources: [SRC-TG-834, SRC-TG-833, SRC-TG-832]
@@ -136,3 +136,9 @@ Water: the 2024 national plant genetic resources report lists irrational pestici
 - Distributing protective equipment with pesticide purchases, proposed by workers (SRC-TG-832).
 - Biological control studies cited by Böll: mass trapping of the carob moth, entomopathogenic nematodes (SRC-TG-833).
 - ILO Convention C184 on Safety and Health in Agriculture, not ratified by Tunisia according to Böll (SRC-TG-833).
+
+## Verification
+
+Use, import, residue and legal figures were checked against the cited sources.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked in the originals: FAOSTAT pesticides (SRC-TG-831; checked in the saved transcript of the bulk CSV rows, items 1357, 1331, elements 5157 and 5159, 2010-2024, because the bulk file and API could not be fetched live); Toumi et al. 2018 (SRC-TG-832) abstract p.127, methods and results p.131-132; Böll 2025 (SRC-TG-833) paras. 1-6; Law 92-72 (SRC-TG-834) arts. 1 and 16. Corrections: root cause 2 no longer says there is "no systematic monitoring of use by crop, residues or health effects"; it now says no systematic statistics are collected on use by crop or on health or environmental effects, and that the sources opened describe no residue-monitoring programme (Böll does not mention residues in that sentence). Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

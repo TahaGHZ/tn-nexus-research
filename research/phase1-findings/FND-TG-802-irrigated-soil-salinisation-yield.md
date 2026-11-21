@@ -58,7 +58,7 @@ indicators:
     value: 41710
     unit: "ha (9% of irrigated perimeters)"
     year: "2012 (GIZ estimate cited in 2020 report)"
-    geography: "south-west, south-east"
+    geography: "national (oases; the source gives no regional breakdown)"
     source: SRC-TG-800
 stakeholders: ["irrigating farmers in Kairouan, Mahdia and the oases", "oasis GDAs", "CRDA irrigation services", "INRGREF", "Ministry of Agriculture"]
 related: [FND-TG-800, FND-TG-741]
@@ -108,3 +108,9 @@ Low. National area figures are secondary: studies from 1994 and 2012 are cited i
 - IFAD/ACSAD applied research programme on brackish and saline water use (from 2001-2002), in SRC-TG-810
 - Oasis drainage network rehabilitation and maintenance by GDAs, PAN-LCD
 - Farmer coping measures in geothermal greenhouses: sequential salt-tolerant crops, sand amendments, summer leaching, rotation, in SRC-TG-813
+
+## Verification
+
+Area, yield, salinity and drainage figures were checked against the saved copies of the cited sources.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked in the originals: PAN-LCD 2018-2030 (SRC-TG-800) soil resources section p.24 (1.5 Mha, 10,000 ha, 41,710 ha oases, 60 t/ha, drainage); Hachicha et al. 2006 (SRC-TG-810) introduction, methods, results and discussion; Bouksila 2011 thesis record (SRC-TG-811); Hachicha 2012 Tozeur (SRC-TG-813) abstract. Corrections: geography of the oasis-area indicator changed from "south-west, south-east" to national (oases), because the PAN-LCD sentence gives 41,710 ha with no regional breakdown. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

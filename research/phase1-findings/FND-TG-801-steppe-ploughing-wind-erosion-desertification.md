@@ -70,9 +70,9 @@ indicators:
     year: "2012"
     geography: national
     source: SRC-TG-800
-  - name: "Share of land in desertification hazard classes, including already desertified land (MEAT)"
+  - name: "Share of total land described as threatened by desertification (MEAT slide headline)"
     value: 94
-    unit: "% of land in low, moderate, high hazard or already desertified classes"
+    unit: "% of total land 'threatened by desertification' (the slide's table classes low 24.6 / moderate 34.2 / high 18.3 / already desertified 22.9 sum to 100% of the 15.4 Mha tabulated, not to 94%)"
     year: "1998"
     geography: national
     source: SRC-TG-805
@@ -119,7 +119,7 @@ In the central high and low steppes and in southern Tunisia, rangeland has been 
 
 It expects the steppes to keep being cleared "pour une céréaliculture épisodique et marginale" that then exposes them to erosion (SRC-TG-800).
 
-The scale is often quoted as "94%" or "three quarters" of Tunisia being threatened by desertification. That is a measure of sensitivity, not of land actually degraded (see Evidence).
+The scale is often quoted as "94%" or "three quarters" of Tunisia being threatened by desertification. The 94% is the MEAT 1998 slide's headline for land 'threatened by desertification'; its own hazard table sums to 100%. Both are measures of sensitivity and hazard, not of land actually degraded (see Evidence).
 
 ## Root causes
 
@@ -134,7 +134,7 @@ The scale is often quoted as "94%" or "three quarters" of Tunisia being threaten
 - **Loss of steppe.** Rangeland converted or degraded by overgrazing: 34,000 ha a year (SRC-TG-800). An ICARDA workshop report gives rangeland area falling from 6.1 Mha (2005) to 5.5 Mha (2012), with clearing for agriculture first among the direct drivers (SRC-TG-767). That is about 86,000 ha a year (our arithmetic), so the two rates disagree. About half of the 3 Mha of collective land in the centre and south has been settled into private property (Gharbi 1998, cited in SRC-TG-781). Alfa steppe in the centre is down to 350,000 ha, and steppe rangelands and alfa steppes are "en régression constante", mainly through clearing for cereals and tree crops (SRC-TG-800). Irreversible land loss to the various forms of desertification: about 25,000 ha a year (SNDD 2014, cited in SRC-TG-800).
 - **Local case (Bled Amra, Gafsa, high steppes).** After allotment in 1977, private wells rose from 270 (1978) to 1,025 (1986) and 3,000 (2001). Aquifer exploitation rose from 13% to 182% and 18% of wells were abandoned. Between 20 and 30% of right-holders had to sell their land (Ben Saad 2002, cited in SRC-TG-806).
 - **Desertification hazard and sensitivity.**
-  - MEAT (1998): the seminar slide reports 94% across hazard classes: 24.6% lowly, 34.2% moderately, 18.3% highly affected and 22.9% already desertified (SRC-TG-805).
+  - MEAT (1998): the seminar slide's headline says 94% of the total lands are threatened by desertification. Its table classes the 15.4 Mha tabulated as 24.6% lowly, 34.2% moderately, 18.3% highly affected and 22.9% already desertified, which sum to 100%, not 94% (SRC-TG-805).
   - SNDD (2014): "plus des trois quarts" of the country is threatened (cited in SRC-TG-800).
   - PAN-LCD introduction: about 80% of agricultural land is threatened (SRC-TG-800).
 
@@ -147,7 +147,7 @@ Medium. The mechanism (privatisation, then ploughing, then wind erosion and over
 
 - the wind-erosion areas have no source or year;
 - the conversion rate mixes conversion with overgrazing, and it disagrees with the 2005-2012 rangeland area series (34,000 vs about 86,000 ha/yr); neither quantifies ploughing alone;
-- the hazard-class percentages include land already desertified and do not directly measure current degradation; the separate SNDD figure describes more than three quarters as threatened.
+- the MEAT 94% headline and the hazard-class percentages (which sum to 100% and include land already desertified) do not directly measure current degradation; the separate SNDD figure describes more than three quarters as threatened.
 
 No peer-reviewed time series of ploughed steppe area was opened. Trend is set to worsening because both the rangeland area series (SRC-TG-767) and the PAN-LCD ("en régression constante", SRC-TG-800) report continuing loss of steppe.
 
@@ -165,3 +165,9 @@ No peer-reviewed time series of ploughed steppe area was opened. Trend is set to
 - LDN target: stop conversion of forests, grasslands and steppe to cropland by restoring 738,600 ha (PAN-LCD, p.67)
 - Cogestion plans for collective rangelands under forest regime (PSRF), PAN-LCD
 - Fauche de Stipa lagascae and rehabilitation of private land in pre-Saharan Tunisia (Visser et al., Cahiers Agricultures): https://revues.cirad.fr/index.php/cahiers-agricultures/article/download/30364/30124/30599
+
+## Verification
+
+Wind-erosion, rangeland, NDVI, hazard and tenure figures were checked against the saved copies of the cited sources.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked in the originals: PAN-LCD 2018-2030 (SRC-TG-800) p.21, 23, 24, 26, 66; ICARDA 2017 (SRC-TG-767) opening paragraph; MEAT 1998 slides (SRC-TG-805) headline and hazard table; Bourbouze 2003 (SRC-TG-806) p.3; LADA reports (SRC-TG-803, SRC-TG-807); FAO/CIHEAM 2017 (SRC-TG-781); Law 64-28 (SRC-TG-783). Corrections: MEAT 1998 indicator, Problem and Evidence text changed from "94% across hazard classes" to the slide's headline of 94% of land "threatened by desertification", noting that the four table classes (24.6, 34.2, 18.3, 22.9) sum to 100%. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

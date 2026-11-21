@@ -175,6 +175,7 @@ data_gaps:
   - "A consistent national projection of cereal yields under climate change: only two single-study abstracts found, with conflicting results (SRC-TG-708, SRC-TG-709); the full CCDR agriculture chapter was not found (only the executive summary, which gives no cereal figure)."
   - "Irrigation water volume needed to reach the 120,000 ha irrigated wheat target."
   - "Economic losses to farmers from the 2023 failure and how much was compensated (FIDAC payouts)."
+  - "The SRC-TG-707 URL is the WDI cereal yield series (AG.YLD.CREL.KG). The 2023 production value of 612,415 t and the 1990-2024 production range come from the WDI production series AG.PRD.CREL.MT, api.worldbank.org/v2/country/TUN/indicator/AG.PRD.CREL.MT?format=json&date=1990:2024. The source record should be updated by its owner."
 author: TahaGHZ
 ---
 
@@ -190,7 +191,7 @@ A poor harvest is the symptom. Low yields are a co-symptom (see Evidence), not a
 - **Climate shock, compounding over years.** 2023 was the fourth below-average rainfall year in a row (SRC-TG-705). FAO says the drought conditions had not been experienced in over two decades (SRC-TG-700). The failed 2022/23 durum harvest did not leave enough seed for 2023/24, so the government imported seed and farmers switched to barley (SRC-TG-700, SRC-TG-703). One bad year therefore weakens the next.
 - **How failure shows in the data.** Yield per harvested hectare does not capture a collapse well. WDI yield for 2023 was 1,300 kg/ha, close to normal, because harvested area fell to 471,000 ha (SRC-TG-707). USDA's Ministry-based tables show 952,000 ha of wheat and barley seeded but only 437,000 ha harvested in MY 2023/24 (SRC-TG-704). The earlier USDA report had 634,000 ha harvested (SRC-TG-703). Much of the sown area was simply not harvested.
 
-**What the evidence does not support.** We found no clear evidence that average yields are falling. Our calculation from WDI gives a mean of 1,246 kg/ha over 1990-1999 and 1,473 kg/ha over 2015-2024 (SRC-TG-707). Variability is similar or slightly higher: the coefficient of variation is 16.8% in the 1990s and 19.1% over 2015-2024 (SRC-TG-707). ITES describes a "slight downward trend" in production over 2010-2018 (SRC-TG-706). The problem is better stated as low and highly volatile yields than as declining yields.
+**What the evidence does not support.** We found no clear evidence that average yields are falling. Our calculation from WDI gives a mean of 1,246 kg/ha over 1990-1999 and 1,473 kg/ha over 2015-2024 (SRC-TG-707). Variability is similar or slightly higher: the coefficient of variation is 16.8% in the 1990s and 19.1% over 2015-2024 (SRC-TG-707). ITES describes a "slight downward trend" in cereal production, in a section whose chart covers 2004-2018 (SRC-TG-706). The problem is better stated as low and highly volatile yields than as declining yields.
 
 ## Evidence
 
@@ -218,3 +219,7 @@ High that cereal output is rainfall-driven and that 2023 was a severe failure: G
 - Conservation agriculture or no-till on durum wheat (seen in search results, not opened)
 - Drought-tolerant varieties from INRAT and INGC (ONAGRI Lettre 2022 variety list, SRC-TG-701)
 - Supplementary irrigation of wheat towards 120,000 ha (SRC-TG-704)
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Checked against the originals: GIEWS country briefs of 29 November 2023 (p.14) and 30 May 2024 (p.12) (SRC-TG-700); USDA GAIN TS2026-0004 Tables 1-2 and TS2024-0003 Table 1 (SRC-TG-704, SRC-TG-703); World Bank PAD5602 Table 1 and paragraph 9 (SRC-TG-705); World Bank WDI AG.PRD.CREL.MT 2023 and the yield series rows 1990-2024, with the 1990-2024 production range (0.55 Mt in 2002, 2.9 Mt in 1996) rechecked on the API (SRC-TG-707); ITES section "La production de cereales" (SRC-TG-706). Corrections: the ITES "slight downward trend" is no longer tied to 2010-2018 (its chart covers 2004-2018); the WDI production citation gap is recorded in data_gaps. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

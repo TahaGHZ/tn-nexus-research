@@ -47,9 +47,9 @@ indicators:
     geography: national
     source: SRC-TG-781
   - name: Collective land in centre and south already settled into private plots
-    value: 1500000
+    value: "about half of 3,000,000 ha (derived: the source states 'half of 3 million ha', not a figure in ha)"
     unit: ha
-    year: "c. 2017"
+    year: "c. 2017 (FAO/CIHEAM 2017; settlement date not given)"
     geography: national
     source: SRC-TG-781
   - name: Farm heads who did not apply for any credit
@@ -73,6 +73,9 @@ data_gaps:
   - "No current official figure for the total area of collective land, the area already privatised, or the area still under collective status; a figure of about one million ha seen in a search snippet was not opened."
   - "Only article 5 of the investment law 2016-71 was checked: it frees acquisition of non-agricultural real estate only (SRC-TG-794). Law 64-5 of 12 May 1964 restricting agricultural land ownership was not opened; iort.gov.tn and legislation.tn were not reached in this run."
   - "No sourced projection."
+  - "not independently reopened: 50% of land potential registered and nearly one third of farms without title or possession certificate, attributed by FAO/CIHEAM to a World Bank 2006 study (SRC-TG-781)"
+  - "not independently reopened: about 60% of titles frozen, attributed by FAO/CIHEAM to Gharbi 1998 (SRC-TG-781)"
+  - "Law 2016-69 text was read as a partly OCR-degraded copy; the referral of unattributed files to the Land Court section after the five-year deadline is in article 6 of that text."
 author: TahaGHZ
 ---
 
@@ -105,7 +108,7 @@ Confidence is low:
 
 - The quantitative title figures are second-hand. FAO/CIHEAM cites them from a 2006 World Bank study we could not find and from a 1998 book (SRC-TG-781). They describe the situation roughly 20-28 years ago.
 - The claim that missing titles cause credit exclusion is an assertion in two tier B reports (SRC-TG-781, SRC-TG-782). It is not tested against data. The only national credit data (SRC-TG-780) show very low demand for credit and cite access difficulty and debt risk. They do not break results down by title status, so they are equally consistent with low income and climate risk being the main barrier, as FAO/CIHEAM itself also says (SRC-TG-781).
-- The original 1964 legal text (SRC-TG-783) was checked against OCR; Law 2016-69 was reopened as a clean JORT/FAOLEX PDF (SRC-TG-795). Later amendments after 2016 have not been checked. The statute required attribution within five years (by about September 2021), but current completion rates are not established here.
+- The original 1964 legal text (SRC-TG-783) was checked against OCR; Law 2016-69 was reopened as a clean JORT/FAOLEX PDF (SRC-TG-795). Later amendments after 2016 have not been checked. The statute required attribution within five years (five years from publication in the JORT of the law of 10 August 2016), but current completion rates are not established here.
 - The 2026 reform signal rests on tier C press (SRC-TG-792).
 
 The older registration figures and the extent to which title status, rather than poverty and risk, drives credit exclusion remain unestablished. Later amendments to Law 64-28 after 2016 were not checked.
@@ -122,3 +125,9 @@ Water: FND-TG-741 records that Kebili's unauthorised palm extensions, now most o
 - World Bank 2014 recommendation to simplify land registration and the cadastre and allow longer leases (The Unfinished Revolution, ch. 9, p. 273): https://worldbank.org/content/dam/Worldbank/document/MNA/tunisia_report/the_unfinished_revolution_eng_chap9.pdf
 - Arab Land Initiative (GLTN), Tunisia land sector snapshot 2023 and SDG land-indicator data review (could not be opened, Cloudflare block): https://arablandinitiative.gltn.net/sites/default/files/2023-10/docs/tunisia-land-sector-snapshot-3.8.2023.pdf
 - Microcredit and Banque Tunisienne de Solidarité loans as non-collateral finance for small farmers (SRC-TG-782).
+
+## Verification
+
+Law 2016-69 was reopened as a JORT/FAOLEX PDF; Law 64-28 was checked against an OCR copy; the survey credit figures were taken from the ESEA report.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked in the originals: ESEA 2004-05 p.67-68 (credit applications, non-applicants); FAO/CIHEAM 2017 p.46-47 and p.50 (registration, collective land, banks, ministries); FTDES p.25-26; Law 64-28 arts. 2-5 (OCR); Law 2016-69 arts. 2, 5 (new), 6 and the five-year clause; Law 2016-71 art. 5; draft decree-law article of 14 July 2026. The three title figures (50% registered, nearly one third untitled, about 60% frozen) are second-hand in FAO/CIHEAM (World Bank 2006, Gharbi 1998) and the primary studies were not reached, so they are kept as attributed figures and listed in data_gaps. Corrections: collective-land indicator changed from 1,500,000 ha to "about half of 3,000,000 ha (derived)", because the source gives only the proportion; the Law 2016-69 deadline restated as five years from publication instead of "about September 2021". Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

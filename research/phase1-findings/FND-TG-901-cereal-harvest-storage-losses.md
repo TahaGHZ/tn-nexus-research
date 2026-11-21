@@ -28,28 +28,28 @@ root_causes:
     legacy_decision: false
     sources: [SRC-TG-901]
 indicators:
-  - name: "Average cereal loss on farms (FAO/ministry estimate as reported in press; survey year not stated, project fieldwork 2017-2018)"
+  - name: "Average cereal loss on farms (FAO/ministry estimate as reported in press; survey year not stated; project fieldwork dating of 2017-2018 is an unverified lead)"
     value: "4.6 (Bizerte) to 7.3 (Siliana)"
     unit: "% of production"
-    year: 2017
+    year: "not stated in source (press, 2018)"
     geography: "bizerte, siliana"
     source: SRC-TG-908
   - name: "Average post-harvest cereal loss (same study, different press report)"
     value: "3.6 (Bizerte) to 5.4 (Siliana)"
     unit: "%"
-    year: 2017
+    year: "not stated in source (press, 2018)"
     geography: "bizerte, siliana"
     source: SRC-TG-909
   - name: "Cereal loss at collection"
     value: "0.38 (Bizerte); 0.24 (Siliana)"
     unit: "%"
-    year: 2017
+    year: "not stated in source (press, 2018)"
     geography: "bizerte, siliana"
     source: SRC-TG-908
   - name: "Income shortfall per cereal farmer from losses"
     value: "832 (Bizerte); 578 (Siliana)"
     unit: TND per farmer per year
-    year: 2017
+    year: "not stated in source (press, 2018)"
     geography: "bizerte, siliana"
     source: SRC-TG-908
   - name: "Farm machines older than 25 years"
@@ -80,7 +80,7 @@ stakeholders: [cereal farmers, owners of combine harvesters, collection centres 
 related: [FND-TG-702, FND-TG-701, FND-TG-700, FND-TG-900]
 sources: [SRC-TG-901, SRC-TG-904, SRC-TG-905, SRC-TG-908, SRC-TG-909, SRC-TG-900, SRC-TG-705]
 data_gaps:
-  - "The FAO/ministry phase 2 report that measured cereal losses in Bizerte and Siliana (2017-2018) was not found online; its figures reach us only through two press articles that disagree (4.6-7.3% vs 3.6-5.4%)."
+  - "The FAO/ministry phase 2 report that measured cereal losses in Bizerte and Siliana was not found online; its fieldwork year (2017-2018 per our earlier note) is unverified; its figures reach us only through two press articles that disagree (4.6-7.3% vs 3.6-5.4%)."
   - "No national cereal loss estimate: FAO Food Loss Index (SDG 12.3.1a) has no value for Tunisia (SRC-TG-900); FAOSTAT food balance 'losses' for wheat could not be retrieved (the API now requires authorisation)."
   - "Whether the ministry actually added loss measurement to its annual agricultural surveys, as planned (SRC-TG-904)."
   - "Storage losses in Office des Céréales silos and in big harvest years when open-air storage is used: no figures found."
@@ -109,7 +109,7 @@ See indicators. Measured rates exist only for two northern governorates and come
 
 ## Why confidence is what it is
 
-Low. The causes rest on one FAO/ministry diagnostic (tier B) that itself says the losses were not yet measured. The only loss rates are tier C (press summaries of an unpublished or unfound report), cover two governorates and one season, and disagree with each other. There is no national figure from FAOSTAT or the SDG database. The 60% machinery age figure is second-hand (the diagnostic citing the ministry) and covers all farm machinery, not combines only.
+Low. The causes rest on one FAO/ministry diagnostic (tier B) that itself says the losses were not yet measured. The only loss rates are tier C (press summaries of an unpublished or unfound report), cover two governorates, state no survey year, and disagree with each other. There is no national figure from FAOSTAT or the SDG database. The 60% machinery age figure is second-hand (the diagnostic citing the ministry) and covers all farm machinery, not combines only.
 
 ## Links to other sectors
 
@@ -124,3 +124,9 @@ Low. The causes rest on one FAO/ministry diagnostic (tier B) that itself says th
 - Investment code 2017 implementing decrees: up to 50% support for renewing farm machinery (SRC-TG-901)
 - Ambient-air aeration and adaptive pest management for stored wheat (SRC-TG-905)
 - World Bank-supported grain value chain reforms, including digital tracking of durum distribution (in FND-TG-702, SRC-TG-705)
+
+## Verification
+
+Machinery, storage, chain and projection claims were traced to the local full text of the FAO/ministry diagnostic (SRC-TG-901) and the MDPI paper (SRC-TG-905); loss rates were traced to the two press pages, opened live.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked: SRC-TG-901 PDF pp. 12, 34, 56, 61, 70-72, 94 (60% of machines over 25 years, 100 million TND, collection 40-50% of harvest, collection-centre storage, Office des Céréales costs, coordination); SRC-TG-908 article (4.6-7.3%, 0.38% and 0.24%, 832 and 578 TND); SRC-TG-909 article (3.6-5.4%); SRC-TG-905 abstract and results (-25% aeration hours; reproduction -20 to -30%, survival -5 to -10%). Corrections: the year 2017 on the four press-based loss indicators changed to "not stated in source (press, 2018)", neither article gives a survey year; "one season" removed from the confidence section; fieldwork dating marked unverified. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

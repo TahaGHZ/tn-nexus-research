@@ -19,7 +19,7 @@ root_causes:
     type: technical
     legacy_decision: false
     sources: [SRC-TG-808]
-  - cause: "The two decadal national CES strategies set oversized, multi-purpose targets, were underfunded, underestimated unit costs and built some works without a scientific basis, limiting reported implementation"
+  - cause: "The two decadal national CES strategies set oversized, multi-purpose targets, were underfunded, underestimated unit costs and built many works without a scientific basis, limiting reported implementation"
     type: policy
     legacy_decision: true
     sources: [SRC-TG-800, SRC-TG-803]
@@ -82,10 +82,10 @@ indicators:
     year: "published 2019 (sampling year not specified)"
     geography: "Wadi Beja watershed, beja"
     source: SRC-TG-808
-  - name: "Economic impact of land degradation (CCDR internal-note estimate)"
+  - name: "Economic impact of land degradation (CCDR estimate citing a water-sector note)"
     value: "2-7"
     unit: "% of GDP per year"
-    year: "2023 (report year; internal note dated April 2023)"
+    year: "2023 (report year; the CCDR cites 'Note sur le secteur de l'eau, CCDR Tunisie, avril 2023')"
     geography: national
     source: SRC-TG-881
 stakeholders: ["rainfed cereal farmers of the Tell and Dorsale", "Ministry of Agriculture DG ACTA (CES)", "CRDA regional offices", "GDA farmer groups", "dam and irrigation users downstream"]
@@ -96,10 +96,10 @@ data_gaps:
   - "No primary DG ACTA balance sheet of the 1990-2000 and 2001/2002-2011 CES strategies (targets vs hectares achieved, budget) was found; only the PAN-LCD summary and the 1999-2001 UNCCD figures."
   - "Strategy dates differ across documents: the PAN-LCD names the second strategy 2002-2011 while its historical section calls the complementary strategy 2001-2011. The CES law is numbered 'loi n°95-70' in SRC-TG-800 and 'loi n° 70-95 du 17 Juillet 1995' in SRC-TG-803; not checked in the JORT."
   - "The PAN-LCD says about one quarter of utilised agricultural area was treated cumulatively by the two strategies; its extract does not show whether overlapping treatment areas were deduplicated."
-  - "The CCDR's 2-7% of GDP estimate is attributed to an unpublished internal water-sector note; its soil-specific scope and method are unknown."
+  - "The CCDR's 2-7% of GDP estimate cites a CCDR water-sector note of April 2023 (footnote 45 of the CCDR), which we have not seen; its soil-specific scope and method are unknown."
   - "No national time series of soil organic carbon under cereals; Brahim et al. 2010 (Tunisian SOC stocks) not opened; Tlili et al. 2022 read as abstract only, without the size of the 1971-2019 decline."
   - "No sourced estimate of cereal yield loss attributable to erosion or SOC decline."
-  - "The CCDR 2-7% of GDP figure rests on an unpublished internal note; the method is unknown."
+  - "The CCDR 2-7% of GDP figure rests on a cited CCDR water-sector note (April 2023) that was not seen; the method is unknown."
 author: TahaGHZ
 ---
 
@@ -152,3 +152,9 @@ Medium. The national extent figures are second-hand in a 2020 government program
 - Contour ridges, micro-basins and community soil-conservation programmes, in the World Bank CCDR: https://www.worldbank.org/en/country/tunisia/publication/tunisia-country-climate-and-development-report
 - AFD project "Lutter contre l'érosion de la terre": https://www.afd.fr/fr/carte-des-projets/lutter-contre-lerosion-de-la-terre
 - ICARDA/CGIAR recommended policy, institutional and technology package, in Yigezu et al. 2025 (limited access): https://hdl.handle.net/20.500.11766/70570
+
+## Verification
+
+Extent, loss-rate, siltation, SOC, conservation-effort and projection figures were checked against the saved copies of the cited sources.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked in the originals: PAN-LCD 2018-2030 (SRC-TG-800) soil resources section and p.19-20, 24, 26; Boufaroua 2006 (SRC-TG-802) p.1 and p.3; CCDR 2023 (SRC-TG-881) water section, footnote 45 and figure captions; UNCCD 2002 (SRC-TG-804) p.17; Jendoubi 2019 (SRC-TG-808) section 3.3; Tlili 2022 abstract (SRC-TG-809); LADA 2006 (SRC-TG-803). Corrections: the 2-7% of GDP figure no longer described as an "unpublished internal note" (the CCDR cites a titled note of April 2023, footnote 45, not seen by us); root cause 3 "some works" changed to "many works" as in the PAN-LCD. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

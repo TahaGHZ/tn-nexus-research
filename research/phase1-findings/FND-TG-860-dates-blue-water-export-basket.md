@@ -11,7 +11,7 @@ severity: high
 trend: worsening
 confidence: medium
 root_causes:
-  - cause: "State investment in water mobilisation, generous on-farm irrigation incentives and supported irrigation water prices made irrigated expansion profitable without pricing the scarcity of the water used; exports of irrigated produce were an official justification for this expansion"
+  - cause: "State investment in water mobilisation, generous on-farm irrigation incentives and supported irrigation water prices expanded irrigated agriculture (SRC-TG-864); our reading, not stated by the source, is that this made expansion profitable without pricing the scarcity of the water used. The national agricultural studies centre calls exports from irrigated agriculture one of the major justifications for irrigated agriculture"
     type: policy
     legacy_decision: true
     sources: [SRC-TG-864]
@@ -150,7 +150,7 @@ author: TahaGHZ
 
 Olive oil and dates dominate Tunisia's agricultural exports: together they were 45% of agricultural export value in 2010 (SRC-TG-860). Of the two, dates depend most on blue water:
 - they are fully irrigated (SRC-TG-860);
-- they have the highest blue water footprint per tonne among Tunisia's main crops in two separate estimates, 5,000 m3/t for 1981-2010 (SRC-TG-860) and 3,270 m3/t for 1996-2005 (SRC-TG-868), against 50-180 m3/t for tomatoes;
+- they have the highest blue water footprint per tonne among Tunisia's main crops in two separate estimates, 5,000 m3/t for 1981-2010 (SRC-TG-860) and 3,270 m3/t for 1996-2005 (SRC-TG-868), against 180 m3/t blue for tomatoes for 1981-2010 (SRC-TG-860);
 - they are grown only in the south, the most water-scarce part of the country (SRC-TG-860);
 - date palms need 15,000 to 20,000 m3/ha per year, against an average of 4,500 m3 per irrigated hectare (SRC-TG-864).
 
@@ -226,3 +226,9 @@ The policy causes rest on a tier B national report (SRC-TG-864), a tier B resear
 - FOPRODEX export transport support (Fonds de promotion des exportations), seen in press only.
 - Higher charges for blue water in export value chains, suggested in SRC-TG-861.
 - Expanding irrigation only for crops with high water productivity and a large irrigated-versus-rainfed land productivity gap, suggested in SRC-TG-868.
+
+## Verification
+
+Date and tomato footprints, returns per m3 and per ha, production and area, and the ONAGRI and virtual-water indicators were traced to the cited copies. The FAOSTAT trade file (SRC-TG-863) was opened directly as the original bulk file.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked: SRC-TG-860 Table 5 p. 291 and discussion p. 295; SRC-TG-868 water footprint text, Table 8 (dates blue EWP 0.11, column alignment inferred from text extraction) and Table 9 text; SRC-TG-864 sections on water demand, mobilisation, exports and typology; SRC-TG-862 FAOSTAT QCL rows (dates production and area, 2000, 2010, 2022); SRC-TG-863 FAOSTAT TCL bulk file, rows Tunisia / Dates / Export quantity (22,411 t in 2000, 130,307 t in 2022, flag A) and Export value (256,663 thousand US$ in 2023); SRC-TG-743 Figure 11 and indicator table; SRC-TG-861 abstract and section 4; SRC-TG-740 section 2; SRC-TG-866. Corrections: root cause 1 "official justification" reworded to "one of the major justifications" (SRC-TG-864); the "without pricing the scarcity" causal chain labelled as our reading; tomato blue footprint "50-180 m3/t" corrected to 180 m3/t blue (SRC-TG-860). Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

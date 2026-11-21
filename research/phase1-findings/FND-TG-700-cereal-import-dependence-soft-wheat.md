@@ -1,6 +1,6 @@
 ---
 id: FND-TG-700
-title: "Tunisia imports roughly half of its cereals and almost all of its soft (bread) wheat, even in good harvest years"
+title: "Tunisia imports more than half of its cereals (about 60% on ITES averages) and almost all of its soft (bread) wheat, even in good harvest years"
 status: in-review
 sectors: [agriculture]
 theme: cereals
@@ -15,7 +15,7 @@ root_causes:
     type: economic
     legacy_decision: false
     sources: [SRC-TG-710]
-  - cause: "Demand for bread wheat, growing about 2% a year, is kept high by universal bread and flour subsidies, with documented waste"
+  - cause: "Total wheat consumption tracks population growth of about 2% a year (USDA), and universal bread and flour subsidies keep demand high, with documented waste"
     type: policy
     legacy_decision: true
     sources: [SRC-TG-701, SRC-TG-703, SRC-TG-704, SRC-TG-705, SRC-TG-706]
@@ -54,7 +54,7 @@ indicators:
     year: 2021
     geography: national
     source: SRC-TG-701
-  - name: "Share of domestic annual needs covered by local production (GIEWS wording, after 2025 harvest)"
+  - name: "Share of domestic annual wheat needs covered by local wheat production (GIEWS wording, after 2025 harvest)"
     value: 60
     unit: "%"
     year: 2025
@@ -78,7 +78,7 @@ indicators:
     year: 2021
     geography: national
     source: SRC-TG-701
-  - name: "Imports of wheat other than durum (HS 100199), calendar year"
+  - name: "Imports of wheat other than durum (HS 100199), calendar year (Comtrade estimated quantity, not reported)"
     value: 1587.2
     unit: "thousand t"
     year: 2024
@@ -112,12 +112,13 @@ data_gaps:
   - "A modelled projection of cereal import needs to 2030-2050: the only forward figures found are the ITES 2035 trend scenario, which holds the ten-year average constant (57% cereals, 84% soft wheat), and an unsourced-method '75%' in the ONAGRI Lettre citing Tanchum 2021."
   - "Whether food subsidies and energy subsidies compete within the same compensation budget (suspected, not sourced)."
   - "Calendar-year trade data (Comtrade) and July/June marketing-year balances (USDA, GIEWS) could not be reconciled."
+  - "The SRC-TG-702 URL is the HS 1001 (all wheat) 2023 query and does not return the HS 100199 2024 quantity or the HS 10 2023 value. Those come from comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=788&period=2024&partnerCode=0&cmdCode=100199&flowCode=M and the same query with period=2023 and cmdCode=10. The source record should be updated by its owner."
+  - "not independently reopened: World Bank analysis of 2000-2008 data published in 2014 (publication year not seen in the copy of the chapter; SRC-TG-710)."
 author: TahaGHZ
 ---
-
 ## Problem
 
-Tunisia depends on world markets for a large share of its staple cereals, and for almost all of its bread wheat. Dependence estimates vary by method and year. ONAGRI's 2021 balance sheet puts the foreign dependence coefficient at 93.1% for soft wheat, 35% for durum wheat and 75.6% for barley (SRC-TG-701). The World Bank, citing the Office des Céréales, says Tunisia is 95% dependent on imports for soft wheat (SRC-TG-705). ITES gives long-run averages of 80% for soft wheat, 40% for durum and 50% for barley, about 60% for all cereals (SRC-TG-706). FAO GIEWS says imports cover more than half of cereal needs (SRC-TG-700). After the above-average 2025 harvest, GIEWS says local production covers about 60% of "domestic annual needs" (SRC-TG-700). USDA's balance for the same marketing year gives 1,318 kt of wheat produced against 2,950 kt consumed, about 45% by our calculation (SRC-TG-704). The two figures disagree; the GIEWS one does not say how needs are defined. Wheat imports were about 1.9-2.0 million t a year in calendar 2021-2023, of which 1.18-1.32 million t was non-durum wheat. Non-durum wheat imports reached 1.59 million t in 2024 (SRC-TG-702). Non-durum wheat is mostly bread wheat but may include some feed wheat (see SRC-TG-702 notes). Cereal imports cost 1.15-1.58 billion USD a year over 2021-2024 (SRC-TG-702).
+Tunisia depends on world markets for a large share of its staple cereals, and for almost all of its bread wheat. Dependence estimates vary by method and year. ONAGRI's 2021 balance sheet puts the foreign dependence coefficient at 93.1% for soft wheat, 35% for durum wheat and 75.6% for barley (SRC-TG-701). The World Bank, citing the Office des Céréales, says Tunisia is 95% dependent on imports for soft wheat (SRC-TG-705). ITES gives long-run averages of 80% for soft wheat, 40% for durum and 50% for barley, about 60% for all cereals (SRC-TG-706). FAO GIEWS says imports cover more than half of cereal needs (SRC-TG-700). After the above-average 2025 harvest, GIEWS says local wheat production covers about 60% of "domestic annual needs" (SRC-TG-700). USDA's balance for the same marketing year gives 1,318 kt of wheat produced against 2,950 kt consumed, about 45% by our calculation (SRC-TG-704). The two figures disagree; the GIEWS one does not say how needs are defined. Wheat imports were about 1.9-2.0 million t a year in calendar 2021-2023, of which 1.18-1.32 million t was non-durum wheat. Non-durum wheat imports reached 1.59 million t in 2024 (SRC-TG-702). Non-durum wheat is mostly bread wheat but may include some feed wheat (see SRC-TG-702 notes). Cereal imports cost 1.15-1.58 billion USD a year over 2021-2024 (SRC-TG-702).
 
 ## Root causes
 
@@ -125,18 +126,18 @@ The symptom is a large, recurring import bill. Two different gaps cause it.
 
 **Structural soft wheat gap.** Bread is made from soft wheat, and Tunisia hardly grows it; that is the symptom. Common wheat was 32-70 thousand ha seeded a year over MY 2021/22-2026/27, against 514-550 thousand ha of durum (SRC-TG-703, SRC-TG-704). Common wheat production was 14 thousand t in the 2023 drought harvest and 78-200 thousand t in other recent years (SRC-TG-703, SRC-TG-704). Consumption is about 1.2 million t (2021, SRC-TG-701). ITES reports that soft wheat production fell 25% over 2010-2018 while durum rose 27% (SRC-TG-706). Part of this gap is comparative advantage, not policy failure. The World Bank's 2014 analysis found Tunisia competitive in durum wheat. It found soft wheat competitive only on irrigated land and in the wetter north and north-west, and only temporarily during the 2008 price spike (SRC-TG-710). That analysis uses 2000-2008 data and was published in 2014, so it may be dated. This weakens the common belief that the soft wheat gap can be closed by producing more at home. Imports of soft wheat may be the cheaper option for the country. The real problem is then the exposure to price shocks and foreign-currency shortages that comes with them.
 
-**Demand kept high by subsidies.** The state subsidises flour, semolina and bread for the whole population at below-market prices (SRC-TG-703, SRC-TG-704). This system goes back to the creation of the CGC in 1970/71 (SRC-TG-705, SRC-TG-706). The World Bank reports waste of 900,000 baguettes a day (an INC estimate dated 2014, repeated without date; see FND-TG-702), use of subsidised semolina as animal feed, and leakage to neighbouring countries (SRC-TG-705). USDA reports that bread waste had been 5-8% before the 2023/24 shortages reduced it (SRC-TG-703). ONAGRI's 2021 balance puts soft wheat consumption at 101.6 kg per person. This is above the 84.9 kg found in the INS 2015 household survey (SRC-TG-701). The past decision behind this is described in FND-TG-702.
+**Demand kept high by subsidies.** The state subsidises flour, semolina and bread for the whole population at below-market prices (SRC-TG-703, SRC-TG-704). This system goes back to the creation of the CGC in 1970/71 (SRC-TG-705, SRC-TG-706). The World Bank reports waste of 900,000 baguettes a day (an INC-based estimate; the year given for it differs between sources and the World Bank gives none; see FND-TG-702), use of subsidised semolina as animal feed, and leakage to neighbouring countries (SRC-TG-705). USDA reports that bread waste had been 5-8% before the 2023/24 shortages reduced it (SRC-TG-703). ONAGRI's 2021 balance puts soft wheat consumption at 101.6 kg per person. This is above the 84.9 kg found in the INS 2015 household survey (SRC-TG-701). The past decision behind this is described in FND-TG-702.
 
 **Variable durum and barley gap.** For durum wheat and barley, dependence changes from year to year with the weather (SRC-TG-701). In the 2023 drought the Office des Céréales planned additional durum and barley imports. It faced a financing gap of about US$522 million for July 2023-June 2024 (SRC-TG-705). See FND-TG-701.
 
 ## Evidence
 
 - Dependence coefficients for 2021: soft wheat 93.1%, durum 35%, barley 75.6% (SRC-TG-701). Soft wheat 95% (World Bank 2024, SRC-TG-705). Soft wheat 80%, durum 40%, barley 50% (ITES average, SRC-TG-706). The sources differ in year and method: ONAGRI uses a net import/consumption balance, while ITES does not state a period. All of them agree that soft wheat is mostly imported.
-- Comtrade, calendar years (SRC-TG-702). Imports of non-durum wheat were 1,324 kt (2021), 1,313 kt (2022), 1,182 kt (2023) and 1,587 kt (2024). Durum imports were 566 kt (2021) and rose to 846 kt in the 2023 drought year. The 2022 wheat weights were revised in the API after the first query; SRC-TG-702 uses the current values.
+- Comtrade, calendar years (SRC-TG-702). Imports of non-durum wheat were 1,324 kt (2021), 1,313 kt (2022), 1,182 kt (2023) and 1,587 kt (2024; the API flags the 2024 quantity as a Comtrade estimate, not a reported value). Durum imports were 566 kt (2021) and rose to 846 kt in the 2023 drought year. The 2022 wheat weights were revised in the API after the first query; SRC-TG-702 uses the current values.
 - Own cross-check: comparing Comtrade non-durum wheat imports (SRC-TG-702) with USDA/Ministry common wheat production (SRC-TG-703, SRC-TG-704) gives an import share of about 92% (2021), 87% (2022), 99% (2023) and 93% (2024). Calendar years are compared with marketing years, stocks and exports are ignored, and HS 100199 may include feed wheat, so this is only a rough check. It agrees with the 80-95% range above. Total cereal imports cost 1,231 M USD (2021), 1,493 M USD (2022), 1,579 M USD (2023) and 1,151 M USD (2024).
 - Price exposure: the average import price of soft wheat rose from USD 231/t (2020) to USD 416/t (2022). For durum it rose from USD 327/t to USD 665/t (SRC-TG-700).
 - Supplier concentration: over 2016-2020, almost 40% of wheat imports came from Ukraine and 7% from Russia (SRC-TG-700). Over July 2023-May 2024, Russia and Ukraine supplied about half of wheat imports (SRC-TG-700).
-- Consumption grows about 2% a year. USDA estimates wheat consumption at 2.95 Mt in MY 2025/26 and forecasts 3.0 Mt in 2026/27 (SRC-TG-704).
+- USDA ties the growth of total wheat consumption to a population growth trend of about two percent. It estimates wheat consumption at 2.95 Mt in MY 2025/26 and forecasts 3.0 Mt in 2026/27 (SRC-TG-704). It does not give a separate growth rate for bread wheat.
 - The government has a self-sufficiency goal of 3 Mt of cereals, including 1.7 Mt of durum (SRC-TG-703). FAO also cites the 3 Mt target (SRC-TG-700).
 - Forward-looking: the ITES trend scenario to 2035 keeps cereal dependence at 57% (soft wheat 84%, durum 41%, barley 51%). Its footnote says this is the ten-year average held constant (SRC-TG-706). ONAGRI's Lettre cites a view that dependence could reach 75%, without a stated method (SRC-TG-701). Neither is a modelled projection, so no predicted finding is made.
 
@@ -157,3 +158,7 @@ High that soft wheat dependence is structural and close to or above 80-95%. Thre
 - EIB loan for wheat purchases and grain silo modernisation: https://www.eib.org/de/stories/tunisia-food-security?lang=en (not opened)
 - ITES proposal for a single purchasing centre for strategic food imports, and better distribution of cereal silos (SRC-TG-706)
 - Irrigated wheat expansion target of 120,000 ha, with irrigation water subsidy (SRC-TG-704)
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Checked against the originals: ONAGRI Lettre 1-2022 balance tables for soft wheat, durum and barley (SRC-TG-701); World Bank PAD5602 of 1 March 2024, footnote to Table 1 (SRC-TG-705); ITES section "Zoom sur la filiere cereales" (SRC-TG-706); GIEWS country briefs of 29 November 2023, 30 May 2024 and 18 February 2026 (SRC-TG-700); USDA GAIN TS2026-0004 Tables 1-2 and consumption section (SRC-TG-704); Comtrade preview API for HS 100199 2024 and HS 10 2023 (SRC-TG-702); World Bank Unfinished Revolution ch. 9 (SRC-TG-710). Corrections: headline changed from "roughly half" to "more than half (about 60% on ITES averages)"; the 60% GIEWS indicator relabelled as wheat only; the 2% growth root cause reworded as total wheat consumption tracking population growth; the 900,000-baguette date attribution corrected; Comtrade 2024 quantity labelled as an estimate and the citation gap recorded. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

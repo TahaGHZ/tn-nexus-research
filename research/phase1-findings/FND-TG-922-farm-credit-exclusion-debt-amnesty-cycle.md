@@ -1,6 +1,6 @@
 ---
 id: FND-TG-922
-title: "Around 2011, fewer than one farmer in ten borrowed from banks while about a quarter were barred by old arrears; repeated debt write-offs since 1999 have not broken the cycle"
+title: "In a 2012 World Bank study, fewer than one farmer in ten borrowed from banks while about a quarter were barred by old arrears; repeated debt write-offs since 1999 have not broken the cycle"
 status: in-review
 sectors: [agriculture]
 theme: legacy-policy
@@ -31,25 +31,25 @@ indicators:
   - name: Share of farmers with bank loans
     value: "7 (at most)"
     unit: percent of farmers
-    year: "around 2010-2012"
+    year: "not stated in the report text (study dated 7 May 2012)"
     geography: national
     source: SRC-TG-925
   - name: Farmers indebted and listed in the credit registry
     value: "about 120,000 (23% of farmers)"
     unit: farmers
-    year: "around 2011"
+    year: "not stated in the report text (study dated 7 May 2012)"
     geography: national
     source: SRC-TG-925
   - name: Overdue agricultural loans, all institutions
     value: about 750
     unit: million TND
-    year: "around 2011"
+    year: "not stated in the report text (study dated 7 May 2012)"
     geography: national
     source: SRC-TG-925
   - name: Overdue agricultural loans held by BNA
     value: "708 (110,000 cases)"
     unit: million TND
-    year: "around 2011"
+    year: "not stated in the report text (study dated 7 May 2012)"
     geography: national
     source: SRC-TG-925
   - name: BNA unpaid and litigation agricultural loans (BNA/BCT series)
@@ -73,7 +73,7 @@ indicators:
   - name: Bank credit share of agricultural investment
     value: 11
     unit: percent
-    year: "around 2010"
+    year: "not stated in the report text (study dated 7 May 2012)"
     geography: national
     source: SRC-TG-925
   - name: Farmers reporting their credit demand satisfied
@@ -106,24 +106,24 @@ indicators:
     year: "end June 2025"
     geography: national
     source: SRC-TG-933
-  - name: "Outstanding agricultural bank credit (tier C; 21.5% classified in parliamentary-day figures)"
+  - name: "Amounts owed on agricultural bank loans (tier C; 'sommes dues', nature not stated; 21.5% classified, parliamentary study day)"
     value: "4,400 (21.5% classified)"
     unit: million TND
-    year: "January 2026 study day; TN reports about 4,600 outstanding at end November 2025"
+    year: "January 2026 study day (reported March 2026); Tunisie Numérique of 12 Jan 2026 quotes a ministry official for about 4,600 outstanding at end November 2025"
     geography: national
     source: SRC-TG-931
 stakeholders: [small farmers, fishers, Banque Nationale Agricole (BNA), private banks, Banque Centrale de Tunisie, Banque Tunisienne de Solidarité, microfinance institutions, CTAMA (mutual insurer), Ministry of Agriculture, Ministry of Finance, Parliament]
 related: [FND-TG-920, FND-TG-921, FND-TG-701, FND-TG-702, FND-TG-780, FND-TG-781, FND-TG-881]
 sources: [SRC-TG-705, SRC-TG-924, SRC-TG-925, SRC-TG-926, SRC-TG-927, SRC-TG-928, SRC-TG-929, SRC-TG-930, SRC-TG-931, SRC-TG-932, SRC-TG-933]
 data_gaps:
-  - "A recent measured share of farmers with access to formal credit: the 7% figure dates from around 2010-2012 and is repeated, not remeasured, in 2017 (SRC-TG-926). No farm survey after 2005 on credit use was found."
+  - "A recent measured share of farmers with access to formal credit: the 7% figure comes from the May 2012 study (data year not stated) and is repeated, not remeasured, in 2017 (SRC-TG-926). No farm survey after 2005 on credit use was found."
   - "Official text of Loi n° 2013-54 (Finance Law 2014) on agricultural debt write-off: not opened (the only full-text copy found, on an ESMAP server, was behind a bot check). Its threshold is disputed (press says loans whose principal 'dépasse' TND 5,000, SRC-TG-928; other coverage seen only in search results says a ceiling of TND 5,000)."
-  - "The TND 4.4 billion / 21.5% values are tier C figures reported from a January 2026 parliamentary study day. They likely describe outstanding agricultural credit, not arrears; Tunisie Numérique reported about TND 4.6 billion outstanding at end-November 2025 (SRC-TG-931, SRC-TG-933)."
+  - "The TND 4.4 billion / 21.5% values are tier C figures reported from a January 2026 parliamentary study day. The source calls the 4.4 billion 'sommes dues par les agriculteurs' and does not say whether it is outstanding credit or arrears; Tunisie Numérique reported about TND 4.6 billion outstanding at end-November 2025, attributed to a Ministry of Agriculture official (SRC-TG-931, SRC-TG-933)."
   - "Finance Law 2026 article 59 (a second agricultural debt measure reported by the press for debts up to TND 10,000 principal): not opened, so not used."
   - "Share of the registry series (SRC-TG-926) that are defaulters versus performing borrowers: the source does not say. Its size (112,000-119,000 in 2010-2014) matches the 120,000 indebted farmers of SRC-TG-925, not the roughly 36,000 implied by 7% of 516,000 holdings; this reading is our inference."
-  - "All-bank overdue agricultural loans around 2010-2011: about TND 750 million (SRC-TG-925) versus TND 477-540 million in the BCT series for Dec 2010-Dec 2011 (SRC-TG-926). Not reconciled."
+  - "All-bank overdue agricultural loans in the 2012 study: about TND 750 million (SRC-TG-925) versus TND 477-540 million in the BCT series for Dec 2010-Dec 2011 (SRC-TG-926). Not reconciled."
   - "Number of beneficiaries and cost of each write-off since 1999 (1999, 2014-15, reported 2015 and 2017 measures): only one tier C figure (80,000 farmers, TND 115 million, SRC-TG-928)."
-  - "Overdue BNA agricultural loans around 2011: TND 708 million (SRC-TG-925) versus TND 419-440 million in the BNA/BCT series for 2011-2012 (SRC-TG-926). Definitions (overdue vs unpaid plus litigation, principal vs interest) are not reconciled."
+  - "Overdue BNA agricultural loans in the 2012 study: TND 708 million (SRC-TG-925) versus TND 419-440 million in the BNA/BCT series for 2011-2012 (SRC-TG-926). Definitions (overdue vs unpaid plus litigation, principal vs interest) are not reconciled."
   - "Agricultural investment trend after 2012 (APIA investment statistics, ONAGRI) not sourced here."
   - "No sourced projection of farm debt or credit access."
 author: TahaGHZ
@@ -131,28 +131,28 @@ author: TahaGHZ
 
 ## Problem
 
-Formal credit reached very few Tunisian farmers around 2010-2012: no more than 7% had bank loans, banks financed 11% of agricultural investment, and seasonal credit covered one-fourteenth of input use (SRC-TG-925). At the same time about 120,000 farmers (23% of the total) were listed in the credit registry as defaulters and barred from new formal loans. The study found total overdue agricultural loans of about TND 750 million, TND 708 million of it at the state-owned BNA (SRC-TG-925). In a separate BCT series that uses a different definition, unpaid and litigation agricultural loans across banks rose from TND 477 million in December 2010 to TND 705 million in December 2016 (SRC-TG-926). Lack of investment follows. The share of farmers whose credit demand was satisfied fell from 54% (1990-94) to 36% (2000-04), and the share investing from 36% to 26% (SRC-TG-925). In March 2026 another regularisation law was enacted, Law 2026-5 (SRC-TG-932). Tier C reporting of a BCT statement puts 33,535 agricultural actors in categories 4-5 at public banks in June 2025, including 28,750 individuals and 4,785 firms (SRC-TG-933).
+Formal credit reached very few Tunisian farmers according to a 2012 World Bank study (data year not stated): no more than 7% had bank loans, banks financed 11% of agricultural investment, and seasonal credit covered one-fourteenth of input use (SRC-TG-925). At the same time about 120,000 farmers (23% of the total) were listed in the credit registry as defaulters and barred from new formal loans. The study found total overdue agricultural loans of about TND 750 million, TND 708 million of it at the state-owned BNA (SRC-TG-925). In a separate BCT series that uses a different definition, unpaid and litigation agricultural loans across banks rose from TND 477 million in December 2010 to TND 705 million in December 2016 (SRC-TG-926). Lack of investment follows. The share of farmers whose credit demand was satisfied fell from 54% (1990-94) to 36% (2000-04), and the share investing from 36% to 26% (SRC-TG-925). In March 2026 another regularisation law was enacted, Law 2026-5 (SRC-TG-932). Tier C reporting of a BCT statement puts 33,535 agricultural actors in categories 4-5 at public banks in June 2025, including 28,750 individuals and 4,785 firms (SRC-TG-933).
 
 ## Root causes
 
 **Symptom versus cause.** Low credit use and high arrears are symptoms. The sources point to four causes.
 
 1. **Administered credit (legacy).** Under the "supervised credit" system, cereal smallholders received BNA loans from budget funds based on standard requirements, with local authorities deciding and the BNA bearing no risk. Repayment averaged 38%, against 73% for comparable BNA own-risk loans (SRC-TG-925). Seasonal credit for smallholders was in practice limited to cereals: vegetables had no direct seasonal loans after 2004 and tree crops none after 2001 (SRC-TG-925). This links to the cereal bias of support policy (FND-TG-921).
-2. **Repeated write-offs without a framework (legacy).** Law 99-65 of 15 July 1999 covered loans funded from state budget resources or external credit borrowed directly by the state. It wrote off principal and interest on qualifying agricultural loans up to TND 2,000 per farmer obtained before 1999 (ceiling TND 100 million). For loans of TND 2,000-40,000 it waived late interest and half of contractual interest; the state repaid banks over 20 years for written-off principal up to TND 2,000, while banks could deduct 50% of waived interest from taxable profit for the TND 2,000-40,000 band (SRC-TG-927). Finance Law 2014 (Law 2013-54) reportedly waived principal and interest on agricultural loans obtained up to December 2012 (tier C; official text not opened; SRC-TG-928). SRC-TG-929 is cited only as reporting the legal basis for BNA write-offs. The minister put beneficiaries at over 80,000 farmers and the amount at over TND 115 million (SRC-TG-928, tier C). Since 2012 several write-offs for small farmers and fishers have been made under finance laws (SRC-TG-926). Law 2026-5 of 11 March 2026 obliges all banks to reschedule category 4+ agricultural debts classified before 30 September 2025 over up to seven years, including one grace year. It waives late penalties against a 5% down payment. Debtors who pay in full within six months also get 50% of the original contractual interest waived. The Central Bank must then automatically delete the beneficiaries' negative classifications (SRC-TG-932). Press reported the early-payment benefit as a 50% discount on amounts due, including contractual interest (SRC-TG-930); the law limits it to 50% of original contractual interest plus late penalties. The 2012 World Bank study already listed "repeated debt cancellations and rescheduling" among measures that had not improved access. It noted that Tunisia has no legal framework for debt negotiation or adjustment for over-indebted persons (SRC-TG-925). The sources do not test whether expected amnesties reduce repayment, so that link is a hypothesis, not a finding.
+2. **Repeated write-offs without a framework (legacy).** Law 99-65 of 15 July 1999 covered loans funded from state budget resources or external credit borrowed directly by the state. It wrote off principal and interest on qualifying agricultural loans up to TND 2,000 per farmer obtained before 1999 (ceiling TND 100 million). For loans of TND 2,000-40,000 it waived late interest and half of contractual interest; the state repaid banks over 20 years for written-off principal up to TND 2,000, while banks could deduct 50% of the abandoned contractual interest on campaign credits obtained before 31 December 1998 from taxable profit (Art. 4; SRC-TG-927). Finance Law 2014 reportedly waived principal and interest on agricultural loans obtained up to December 2012 (tier C; official text not opened; SRC-TG-928). The law number, 2013-54, appears in SRC-TG-929, not in SRC-TG-928. The minister put beneficiaries at over 80,000 farmers and the amount at over TND 115 million (SRC-TG-928, tier C). Since 2012 several write-offs for small farmers and fishers have been made under finance laws (SRC-TG-926). Law 2026-5 of 11 March 2026 obliges all banks to reschedule category 4+ agricultural debts classified before 30 September 2025 over up to seven years, including one grace year. It waives late penalties against a 5% down payment. Debtors who pay in full within six months also get 50% of the original contractual interest waived. The Central Bank must then automatically delete the beneficiaries' negative classifications (SRC-TG-932). Press reported the early-payment benefit as a 50% discount on amounts due, including contractual interest (SRC-TG-930); the law limits it to 50% of original contractual interest plus late penalties. The 2012 World Bank study already listed "repeated debt cancellations and rescheduling" among measures that had not improved access. It noted that Tunisia has no legal framework for debt negotiation or adjustment for over-indebted persons (SRC-TG-925). The sources do not test whether expected amnesties reduce repayment, so that link is a hypothesis, not a finding.
 3. **Eligibility and collateral.** Any overdue debt makes a farmer ineligible. The 2017 AICS study concludes that indebtedness has become "a real factor of exclusion" from institutional finance, and it also cites missing or uncertain land titles (SRC-TG-926). FND-TG-781 shows that the title-to-credit link is widely asserted but not tested with data.
 4. **Uninsured climate risk.** Only about 7% of farmers are insured (35,000 of 516,000 holdings), insurance is usually a condition for a bank loan, and drought, the main hazard, is not covered (SRC-TG-925, SRC-TG-926). About a quarter of surveyed farmers do not ask for credit for fear of indebtedness (SRC-TG-925).
 
 ## Evidence
 
-- 7% of farmers with bank loans; banks fund 11% of investment, own resources 70%, state grants about 20%. BNA provides 36% of bank lending to agriculture (SRC-TG-925, para. 1-2). The 2017 AICS report repeats the 7% figure (SRC-TG-926, p. 51). This is one data point, not a trend.
+- 7% of farmers with bank loans; banks fund 11% of investment and own resources 70% (SRC-TG-925, para. 4); for Banque Tunisienne de Solidarité individual loans only, the financing split is 70% BTS, 20% government grants and 10% investor (SRC-TG-925, BTS section). BNA provides 36% of bank lending to agriculture (SRC-TG-925, para. 1-2). The 2017 AICS report repeats the 7% figure (SRC-TG-926, p. 51). This is one data point, not a trend.
 - 120,000 farmers (23%) indebted and barred. TND 750 million overdue, TND 708 million at BNA. 78% of BNA overdue cases average under TND 5,000 and total TND 260 million. Many loans have been overdue for over ten years (SRC-TG-925, para. 28).
 - Agriculture's share of direct bank lending fell from above 9% to below 4% over 2003-2008, while total bank lending rose 58% (SRC-TG-925, para. 34).
 - In the 2008/09 season fewer than 5,000 farmers, under 1% of the total, received direct bank input loans (SRC-TG-925, para. 33).
 - BCT risk registry: farmers and fishers recorded for agricultural credit numbered 111,785 (Dec 2010) and 119,031 (Dec 2014), then 80,758 (Dec 2015) and 61,355 (May 2017) (SRC-TG-926, Tableau 13). AICS reads these as farmers who received credit and attributes the fall to loan refusals and abstention (SRC-TG-926). Two points cut against that reading. The 2010-2014 level (112,000-119,000) is close to the 120,000 indebted farmers in the 2012 study (SRC-TG-925), and far above the roughly 36,000 farmers that 7% of 516,000 holdings would imply. The sharp drop in 2015 also coincides with the Finance Law 2014 write-off. Our inference is that the series largely tracks the indebted stock, and that part of the fall reflects written-off loans leaving the registry rather than fewer borrowers. The source does not examine this.
 - Unpaid and litigation agricultural loans, all banks and leasing: TND 477 million (2010), 629 million (2013), 705 million (2016), 671 million (May 2017). The private bank share rose from TND 47 million to 123 million (SRC-TG-926, Tableau 14).
-- 2026 (tier C): La Presse reports more than 33,000 farmers excluded from bank finance, an estimated TND 4.4 billion with 21.5% classified, and agriculture below 7% of BNA's portfolio (SRC-TG-931). The TND 4.4 billion / 21.5% figures were presented at a parliamentary study day in January 2026; they likely refer to outstanding agricultural credit rather than arrears. Tunisie Numérique separately quotes BCT figures of about TND 4.6 billion outstanding at end-November 2025 and 33,535 high-risk actors at public banks in June 2025 (SRC-TG-933).
+- 2026 (tier C): La Presse reports more than 33,000 farmers excluded from bank finance, an estimated TND 4.4 billion owed, of which 21.5% classified, and agricultural credit at most 7% of BNA's portfolio (SRC-TG-931). The TND 4.4 billion / 21.5% figures were presented at a parliamentary study day in January 2026; the source does not say whether the sum is outstanding credit or arrears. Tunisie Numérique separately quotes a Ministry of Agriculture official for about TND 4.6 billion outstanding at end-November 2025, and the BCT for 33,535 high-risk actors at public banks in June 2025 (SRC-TG-933).
 
-**Disagreements.** BNA overdue agricultural loans around 2011 are TND 708 million in the World Bank study (SRC-TG-925), but TND 419-440 million for 2011-2012 in the BNA/BCT series reported by AICS (SRC-TG-926). All-bank totals also differ: about TND 750 million (SRC-TG-925) against TND 477-540 million for 2010-2011 (SRC-TG-926). The definitions probably differ (all overdue amounts including interest vs unpaid plus litigation), but neither source says so. Both sets of values are recorded.
+**Disagreements.** BNA overdue agricultural loans in the 2012 study are TND 708 million in the World Bank study (SRC-TG-925), but TND 419-440 million for 2011-2012 in the BNA/BCT series reported by AICS (SRC-TG-926). All-bank totals also differ: about TND 750 million (SRC-TG-925) against TND 477-540 million for 2010-2011 (SRC-TG-926). The definitions probably differ (all overdue amounts including interest vs unpaid plus litigation), but neither source says so. Both sets of values are recorded.
 
 **Stock versus flow.** The 7% (current borrowers) and the 23% (farmers carrying old arrears) are compatible. The arrears are an old stock, often over ten years old (SRC-TG-925), that excludes people from new borrowing.
 
@@ -179,3 +179,9 @@ Medium. The core diagnosis comes from a detailed World Bank/FAO/AFD study (SRC-T
 - Agricultural insurance (CTAMA), the 50% premium subsidy for hail on cereals, and the missing drought cover (SRC-TG-926).
 - APIA investment grants under Decree n° 94-427 (SRC-TG-924, SRC-TG-925).
 - World Bank 2012 Agricultural Finance Study recommendations on microfinance, risk management and producer organisations (SRC-TG-925).
+
+## Verification
+
+Bank-credit figures were traced to the World Bank 2012 study and the AICS 2017 report (local full text); the 1999 law, the 2026 law and the 2026 press pieces were opened in their original wording (the Arabic text of Law 2026-5 was read directly).
+
+**Independent review, 21 November 2026:** pass after corrections. Checked: SRC-TG-925 paras. 4, 7, 26, 28, 29, 33-35 and the BTS section; SRC-TG-926 Tableaux 13 and 14 and the BNA and total rows of the unpaid-loans table; SRC-TG-927 Arts. 1-4 of Law 99-65; SRC-TG-928 article of 22 January 2015 (80,000 farmers and TND 115 million, attributed there to the Minister of Agriculture); SRC-TG-929 (law number 2013-54); SRC-TG-930, SRC-TG-931 and SRC-TG-933 articles; SRC-TG-932 Arts. 1-3 of Law 2026-5; SRC-TG-705 section on OC finance. Corrections: Art. 4 of Law 99-65 no longer tied to the TND 2,000-40,000 band; the 20% grant share restricted to BTS individual loans; the TND 4.4 billion re-labelled "amounts owed" with its nature not stated; the TND 4.6 billion attributed to a Ministry of Agriculture official instead of the BCT; law number 2013-54 cited to SRC-TG-929; "BNA below 7%" changed to "at most 7%"; data years of the 2012 study's figures changed to not stated. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

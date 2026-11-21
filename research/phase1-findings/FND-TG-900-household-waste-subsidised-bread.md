@@ -1,6 +1,6 @@
 ---
 id: FND-TG-900
-title: "Households throw away about a sixth of the subsidised bread they buy; the World Bank and FAO name the universal cereal price subsidy as a driver, though household surveys find little direct price effect"
+title: "Households throw away about a sixth of the bread they buy; the World Bank names the universal cereal price subsidy as a driver and the FAO lists it as a possible cause, though household surveys find little direct price effect"
 status: in-review
 sectors: [agriculture]
 theme: food-loss
@@ -64,12 +64,12 @@ indicators:
     year: 2016
     geography: national
     source: SRC-TG-906
-  - name: "Share of bread bought that households waste (INC 2016 surveys)"
+  - name: "Share of bread bought that households waste (INC, as reported by Kapitalis/TAP; SRC-TG-906 gives the same 15.7% as bread's share of household food waste, so the base is disputed)"
     value: 15.7
     unit: "% of bread purchased"
-    year: 2016
+    year: "not stated in source (Kapitalis article of 20 Nov 2018)"
     geography: national
-    source: SRC-TG-906
+    source: SRC-TG-907
   - name: "Share of bread bought that households waste (INC study published 2019, survey year not stated)"
     value: 16
     unit: "% of bread purchased"
@@ -171,6 +171,7 @@ related: [FND-TG-702, FND-TG-700, FND-TG-901]
 sources: [SRC-TG-900, SRC-TG-901, SRC-TG-903, SRC-TG-705, SRC-TG-906, SRC-TG-907, SRC-TG-909, SRC-TG-910, SRC-TG-911]
 data_gaps:
   - "The INC survey reports themselves (2014 estimate, 2016 household survey of bread and food waste, 2019 study): inc.nat.tn had an expired TLS certificate and no PDF was found elsewhere; all INC numbers here come from press or from World Bank and FAO reports that cite them. Sample size and method are unknown."
+  - "The base of the 15.7% figure is unresolved: SRC-TG-907 says households waste 15.7% of their bread purchases, SRC-TG-906 gives 15.7% as bread's share of household food waste. The INC reports were not seen."
   - "No new household bread-waste measurement after 2016-2019 was found; 2026 press repeats the 900,000 loaves figure (SRC-TG-910), so the trend is unknown."
   - "The UNEP Food Waste Index 2024 report (wedocs.unep.org, behind a Cloudflare challenge) could not be opened to see which Tunisian or regional study supports the medium-confidence 2022 estimate."
   - "Quantity of subsidised bread used as livestock feed: the World Bank states it happens but gives no tonnage."
@@ -183,7 +184,7 @@ author: TahaGHZ
 
 ## Problem
 
-Tunisian households throw away a large share of the bread they buy. The Institut National de la Consommation (INC) estimated in 2014 that about 900,000 loaves were thrown away each day, equal to 102,000 tonnes and 100 million TND a year (SRC-TG-906). Its May-June 2016 household surveys put bread waste at 42 kg per household a year, 113,000 tonnes in total, or 15.7% of the bread households buy (SRC-TG-906, SRC-TG-907). An INC study published in 2019, cited by the World Bank, gives 16% of bread bought and 10% of cereals; its survey year is not stated (SRC-TG-903). A 2025 peer-reviewed paper cites INC (2025) for the same 113,000 t, about 16% of household bread expenditure and 5% of food expenditure (SRC-TG-911), and 2026 press repeats them (SRC-TG-910); since the values are unchanged, the current level is not newly measured. By waste rate, bread is the most wasted food in every INC figure we found. Waste rises in Ramadan: 46% of INC respondents name bread among the foods most wasted then, after cooked dishes (66.6%); these are shares of respondents, not waste rates (SRC-TG-906). Total household food waste was valued at 570-572 million TND a year in 2018 (SRC-TG-909, SRC-TG-907). Since over 80% of soft wheat is imported (SRC-TG-901, SRC-TG-907; other sources give a higher share, see FND-TG-700), much of the wasted bread was bought abroad with foreign currency.
+Tunisian households throw away a large share of the bread they buy. The Institut National de la Consommation (INC) estimated in 2014 that about 900,000 loaves were thrown away each day, equal to 102,000 tonnes and 100 million TND a year (SRC-TG-906). Its May-June 2016 household surveys put bread waste at 42 kg per household a year, 113,000 tonnes in total (SRC-TG-906, SRC-TG-907). The Kapitalis/TAP report of INC findings puts bread waste at 15.7% of the bread households buy (SRC-TG-907), while the Économiste Maghrébin article gives 15.7% as bread's share of household food waste (SRC-TG-906), so the base of that figure is unclear. An INC study published in 2019, cited by the World Bank, gives 16% of bread bought and 10% of cereals; its survey year is not stated (SRC-TG-903). A 2025 peer-reviewed paper cites INC (2025) for the same 113,000 t, about 16% of household bread expenditure and 5% of food expenditure (SRC-TG-911), and 2026 press repeats them (SRC-TG-910); since the values are unchanged, the current level is not newly measured. By waste rate, bread is the most wasted food in every INC figure we found. Waste rises in Ramadan: 46% of INC respondents name bread among the foods most wasted then, after cooked dishes (66.6%); these are shares of respondents, not waste rates (SRC-TG-906). Total household food waste was valued at 570-572 million TND a year in 2018 (SRC-TG-909, SRC-TG-907). Since over 80% of soft wheat is imported (SRC-TG-901, SRC-TG-907; other sources give a higher share, see FND-TG-700), much of the wasted bread was bought abroad with foreign currency.
 
 ## Root causes
 
@@ -193,12 +194,12 @@ Tunisian households throw away a large share of the bread they buy. The Institut
 2. **Supply-side incentives.** Subsidies are paid on volumes, so processors have an incentive to produce more to receive more subsidy (SRC-TG-903). Bakeries buy flour from mills at a negative price and are also subsidised for water, electricity and labour (SRC-TG-903).
 3. **Household behaviour and bread quality.** INC respondents name over-buying (87.9%), cooking too much (87.3%) and unplanned purchases (84%) as the main causes (SRC-TG-906). In a 2023 online survey of 320 Tunisians, 61.5% named misjudging the quantity bought, 12.8% bread quality, 9% poor storage and 2.6% over-production (SRC-TG-911). The FAO/ministry study suggests flour quality and bakery processes may also explain bread waste (SRC-TG-901); in 2016, 56% of INC respondents rated subsidised bread quality as average or poor (SRC-TG-906).
 
-**Evidence that complicates the subsidy explanation.** In the same INC survey, 73% of respondents said the current bread price does not encourage them to buy more than they need, and only 1-2% knew the real size of the subsidy on the baguette or "gros pain" (SRC-TG-906). An independent peer-reviewed survey (Sept-Dec 2023, convenience sample of 320 Tunisians, mostly university-educated women) found only 14.1% of respondents named government subsidies as a main cause, described bread wastage as "limited" (5.8% consistently discard stored bread), and "found no direct correlation between perceived price and waste" (SRC-TG-911). The price link therefore rests on the World Bank's cross-country reasoning and the FAO/ministry SWOT statement, not on household evidence. Low price may work by making waste feel costless rather than by conscious over-buying, but no Tunisian study tests this.
+**Evidence that complicates the subsidy explanation.** In the same INC survey, 73% of respondents said the current bread price does not encourage them to buy more than they need, and only 1-2% knew the real size of the subsidy on the baguette or "gros pain" (SRC-TG-906). An independent peer-reviewed survey (Sept-Dec 2023, convenience sample of 320 Tunisians, mostly university-educated women) found only 14.1% of respondents named government subsidies as a main cause, described bread wastage as "limited" (5.8% consistently discard stored bread), and "found no direct correlation between perceived price and waste" (SRC-TG-911). The price link therefore rests mainly on the World Bank's cross-country reasoning and the FAO/ministry SWOT statement, not on household evidence. Low price may work by making waste feel costless rather than by conscious over-buying, but no Tunisian study tests this.
 
 ## Evidence
 
 - Bread waste volume, two INC estimates: 102,000 t/year (2014 estimate from 900,000 loaves a day) and 113,000 t/year (2016 surveys, 42 kg per household, 2.7 million households) (SRC-TG-906, SRC-TG-907).
-- Share of bread wasted: 15.7% of bread purchased (2016 surveys, SRC-TG-906; SRC-TG-907); 16% of bread bought (INC study published 2019, SRC-TG-903; also in 2026 press, SRC-TG-910); about 16% of household bread expenditure (INC 2025 as cited in SRC-TG-911).
+- Share of bread wasted: 15.7% of bread purchased (INC as reported by SRC-TG-907, survey year not stated; SRC-TG-906 gives 15.7% as bread's share of household food waste, a different base); 16% of bread bought (INC study published 2019, SRC-TG-903; also in 2026 press, SRC-TG-910); about 16% of household bread expenditure (INC 2025 as cited in SRC-TG-911).
 - Value: 100 million TND a year for bread (SRC-TG-906). Total household food waste: "over 570 million TND" (Minister of Trade, December 2018, SRC-TG-909), 572 million TND (INC via TAP, November 2018, SRC-TG-907), 570 million TND (2026 press, SRC-TG-910).
 - **Share of food spending wasted, sources disagree:** 5% of household food spending, or 17 TND per household per month (INC 2016 surveys, SRC-TG-906; repeated in SRC-TG-907, SRC-TG-910) vs 18% of food spending (INC study published in 2019, as cited in a World Bank footnote, SRC-TG-903). We could not see either INC report to reconcile them.
 - **UNEP Food Waste Index:** household food waste of 88 kg per capita in 2019 (very low confidence) and 172 kg per capita, 2.12 million tonnes, in 2022 (medium confidence) (SRC-TG-900). The jump is a change of method and confidence class between the 2021 and 2024 editions, not a trend. The UNEP figures include inedible parts and cover all foods, so they are not comparable with INC bread figures. They do suggest household waste in Tunisia is not small.
@@ -206,7 +207,7 @@ Tunisian households throw away a large share of the bread they buy. The Institut
 
 ## Why confidence is what it is
 
-Medium. The existence and rough size of bread waste are supported beyond the press: the 900,000 loaves a day, 100 million TND and 16% figures appear in tier B reports (World Bank, FAO/ministry), and 113,000 t, about 16% and 5% of food spending appear in a tier A peer-reviewed paper (SRC-TG-911), though only as a restatement of INC figures (one co-author works at the INC), not as an independent measurement. Claims still resting only on tier C press reports: 102,000 t a year, 42 kg per household, 15.7% of bread purchased, 570-572 million TND, and the 400 and 450 million TND bread subsidy figures. The causal attribution to the subsidy is contested: the World Bank and FAO/ministry name it, while two household surveys (SRC-TG-906, SRC-TG-911) find little direct price effect. All INC figures reach us second-hand (press, or World Bank and FAO reports citing them), come from surveys of 2014-2016 (2019 at the latest) with unknown samples, and disagree on the share of food spending (5% vs 18%) and on volume (102,000 vs 113,000 t). The UNEP estimate is modelled and its 2022 value rests on a study we could not identify. The subsidy-causes-waste link is contradicted by household self-reports (SRC-TG-906, SRC-TG-911).
+Medium. The existence and rough size of bread waste are supported beyond the press: the 900,000 loaves a day, 100 million TND and 16% figures appear in tier B reports (World Bank, FAO/ministry), and 113,000 t, about 16% and 5% of food spending appear in a tier A peer-reviewed paper (SRC-TG-911), though only as a restatement of INC figures (one co-author works at the INC), not as an independent measurement. Claims still resting only on tier C press reports: 102,000 t a year, 42 kg per household, 15.7% of bread purchased, 570-572 million TND, and the 400 and 450 million TND bread subsidy figures. The causal attribution to the subsidy is contested: the World Bank and FAO/ministry name it, while two household surveys (SRC-TG-906, SRC-TG-911) find little direct price effect. All INC figures reach us second-hand (press, or World Bank and FAO reports citing them), come from surveys of 2014-2016 (2019 at the latest) with unknown samples, and disagree on the share of food spending (5% vs 18%) and on volume (102,000 vs 113,000 t). The UNEP estimate is modelled and its 2022 value rests on a study we could not identify. Household self-reports do not confirm a direct price effect: 73% say the price does not push them to buy more (SRC-TG-906), and 14.1% name subsidies, with no direct correlation found with perceived price (SRC-TG-911), though the abstract of SRC-TG-911 lists subsidised bread prices among the leading causes of waste in both countries it studied.
 
 ## Links to other sectors
 
@@ -222,3 +223,9 @@ Medium. The existence and rough size of bread waste are supported beyond the pre
 - World Bank proposal to replace universal cereal price subsidies with cash transfers to households (SRC-TG-903); grain value chain reform measures under the Tunisia Emergency Food Security Response Project (SRC-TG-705; detail in FND-TG-702)
 - FAO "guide des bonnes pratiques contre le gaspillage alimentaire" for Tunisia (seen in search results, not opened)
 - Food bank or bread redistribution schemes: none found in this search
+
+## Verification
+
+Figures were traced to the cited press pages (opened live), the UN SDG API, and local full-text copies of the World Bank monitor, the FAO/ministry report and the 2025 paper.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked: SRC-TG-903 footnote 11 (16% of bread bought, 18% of food spending) and subsidy passages; SRC-TG-901 SWOT pp. 61-62; SRC-TG-906 article (900,000 loaves, 102,000 and 113,000 t, 42 kg, 73%, 87.9/87.3/84%); SRC-TG-907 Arabic article (572 million, 450 million, 15.7% of bread purchases); SRC-TG-909 (570 million); SRC-TG-900 UN SDG API (88.3 and 171.7 kg per capita; 2,121,810 t); SRC-TG-911 introduction, abstract, results and discussion. Corrections: the 15.7% indicator re-sourced to SRC-TG-907 with the base dispute noted (SRC-TG-906 gives it as bread's share of household food waste) and its year changed to not stated; title no longer says "subsidised" bread or that the FAO names the subsidy as a driver; the "contradicted by household self-reports" wording softened to match SRC-TG-911. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

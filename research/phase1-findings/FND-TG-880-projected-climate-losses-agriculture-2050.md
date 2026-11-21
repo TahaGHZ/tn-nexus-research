@@ -1,6 +1,6 @@
 ---
 id: FND-TG-880
-title: "Warming and drying are projected to cut Tunisian agricultural output and value added by roughly 15-33% by 2030-2050, but the circulating headline numbers trace back to two studies, and some are quoted at the wrong horizon or do not match the study they cite"
+title: "Warming and drying are projected to cut Tunisian agricultural value added about 15% by 2030 and 29% by 2050 (World Bank CCDR, RCP 8.5, against a past-trend baseline), but the circulating crop-level numbers trace back to two studies, and some are quoted at the wrong horizon or do not match the study they cite"
 status: in-review
 sectors: [agriculture, water]
 theme: drought-climate
@@ -15,10 +15,10 @@ root_causes:
     type: climatic
     legacy_decision: false
     sources: [SRC-TG-887]
-  - cause: "Projected decline in rainfall (-6% to -9% by 2050, -9% to -18% by 2100), concentrated in the humid and sub-humid north where rainfed cereals are grown, and a shift of bioclimatic zones northwards"
+  - cause: "Projected decline in rainfall (-6% to -9% by 2050, -9% to -18% by 2100) and a northward shift of bioclimatic zones"
     type: climatic
     legacy_decision: false
-    sources: [SRC-TG-887, SRC-TG-885]
+    sources: [SRC-TG-887, SRC-TG-881]
   - cause: "Exposure is structural: about 90% of arable land is rainfed, so yields follow rainfall; the irrigated 36% of value added depends on water that the same projections shrink"
     type: technical
     legacy_decision: false
@@ -43,8 +43,8 @@ indicators:
     geography: national
     source: SRC-TG-881
   - name: "Projected frequency of dry years, 2031-2050"
-    value: "52% (10 of 19 years) under RCP 4.5; 79% (15 of 19) under RCP 8.5"
-    unit: "share of years"
+    value: "CCDR wording: dry-year frequency 'devrait augmenter de 52 % (10 années sur 19)' under RCP 4.5, reaching 79% (15 of 19) under RCP 8.5; 'dry year' is not defined"
+    unit: "dry years in the 19-year window 2031-2050, as the CCDR states it"
     year: "2031-2050"
     geography: national
     source: SRC-TG-881
@@ -63,7 +63,7 @@ indicators:
   - name: "Projected agricultural production vs no-climate-stress scenario (water-shortage driven, partial equilibrium)"
     value: "-29.1% (RCP 4.5) / -33.1% (RCP 8.5); TND 4.0-4.6 billion, 2.8-3.2% of GDP at 2022 prices"
     unit: "% of production"
-    year: "2050 (inferred: the sentence has no horizon; the paragraph opens with water losses 'd'ici à 2050')"
+    year: "not stated in the CCDR sentence"
     geography: national
     source: SRC-TG-881
   - name: "Projected decrease in share of agricultural production in national GDP"
@@ -89,7 +89,7 @@ indicators:
     unit: "% of suitable area"
     year: 2100
     geography: national
-    source: SRC-TG-885
+    source: SRC-TG-886
   - name: "Projected share of livestock feed needs met by natural rangelands"
     value: "8-10% by 2050, vs about 16% in 2020"
     unit: "% of herd needs"
@@ -125,12 +125,18 @@ data_gaps:
   - "The CCDR's yield figures do not match the deliverable its bibliography links to (identical to SRC-TG-886); no earlier 2020 draft was found."
   - "National adaptation figures (NDC 2021, NC4 2023) mix studies, scenarios and horizons; this is an evidence-quality problem for planning, described in the body, not a cause of the projected losses."
   - "No projection includes technological progress, new varieties or adaptation, so all losses are 'no-adaptation' estimates."
+  - "not independently reopened: projected change in consecutive dry days by 2050, +9.3 (RCP 4.5) / +17.1 (RCP 8.5) (SRC-TG-885)"
+  - "not independently reopened: natural rangelands meet 8-10% of herd feed needs by 2050 vs about 16% in 2020 (SRC-TG-885)"
+  - "not independently reopened: NC4 job-loss figures, 30% by 2050 attached to cereals and at least 20% with a 30-50% income fall (SRC-TG-885)"
+  - "not independently reopened: the NC4's wording of the cereal 'almost 40% by 2050' figure and its swapped rainfall labels (-14 mm for RCP 8.5, -22 mm for RCP 4.5) (SRC-TG-885); the study, the INM portal and the NDC sides were checked"
+  - "not independently reopened: about +32 to +39 heatwave days per year by 2050, and the history of earlier projection exercises (SRC-TG-885)"
+  - "No source opened says the projected rainfall decline is concentrated in the humid and sub-humid north; that claim was removed."
 author: TahaGHZ
 ---
 
 ## Problem
 
-Official and donor projections agree on direction: by 2050 Tunisia should be warmer by about 1.6°C (RCP 4.5) to 1.9°C (RCP 8.5) and drier by 6-9% in annual rainfall relative to 1981-2010, with the largest rainfall losses in the humid and sub-humid north (SRC-TG-887). By 2100 the RCP 8.5 values reach +3.9°C and -18% (SRC-TG-887). Because about 90% of arable land is rainfed (SRC-TG-881), this translates into lower yields, a northward retreat of the zones suitable for cereals, olives and rangeland plants, and less irrigation water. The World Bank projects agricultural value added 15% below a past-trend baseline by 2030 and 29% below it by 2050 under RCP 8.5 without action (SRC-TG-880). The updated NDC projects a 5-10% fall in agriculture's share of GDP by 2030 (SRC-TG-884). The predicted problem is real and large, but most specific crop and job numbers in circulation are weaker than they look: they come from two studies, the national cereal figure is quoted at the wrong horizon, and the CCDR's 2050 wheat and barley yield figures are about three times the values in the study it cites (see Evidence).
+Official and donor projections agree on direction: by 2050 Tunisia should be warmer by about 1.6°C (RCP 4.5) to 1.9°C (RCP 8.5) and drier by 6-9% in annual rainfall relative to 1981-2010, (SRC-TG-887). By 2100 the RCP 8.5 values reach +3.9°C and -18% (SRC-TG-887). Because about 90% of arable land is rainfed (SRC-TG-881), this translates into lower yields, a northward shift of bioclimatic zones (SRC-TG-881), a smaller climatically suitable area for cereals, olives and rangeland plants (SRC-TG-886), and less irrigation water. The World Bank projects agricultural value added 15% below a past-trend baseline by 2030 and 29% below it by 2050 under RCP 8.5 without action (SRC-TG-880). The updated NDC projects a 5-10% fall in agriculture's share of GDP by 2030 (SRC-TG-884). The predicted problem is real and large, but most specific crop and job numbers in circulation are weaker than they look: they come from two studies, the national cereal figure is quoted at the wrong horizon, and the CCDR's 2050 wheat and barley yield figures are about three times the values in the study it cites (see Evidence).
 
 ## Root causes
 
@@ -152,12 +158,12 @@ The symptom is projected lower yields and output. The causes are climatic and st
 
 These ranges differ by reference period, scenario generation and model set. The INM/PNA RCP figures are the most recent official set.
 
-**Drought frequency.** The CCDR projects that 10 of 19 years (52%) in 2031-2050 will be dry under RCP 4.5 and 15 of 19 (79%) under RCP 8.5, but it does not define a dry year (SRC-TG-881). The PNA downscaling projects +9.3 (RCP 4.5) and +17.1 (RCP 8.5) consecutive dry days per year by 2050, not significant until 2100 (SRC-TG-885).
+**Drought frequency.** The CCDR says the frequency of dry years "devrait augmenter de 52 % (10 années sur 19) entre 2031 et 2050" under RCP 4.5 and will reach 79% (15 of 19 years) under RCP 8.5; it calls this an increase and does not define a dry year (SRC-TG-881). The PNA downscaling projects +9.3 (RCP 4.5) and +17.1 (RCP 8.5) consecutive dry days per year by 2050, not significant until 2100 (SRC-TG-885).
 
 **Agriculture-wide output and value added.** There are three related but different metrics, all ultimately from the CCDR modelling or the NDC:
 
 - **Value added (CCDR, RCP 8.5):** -15% by 2030 and -29% by 2050 against a past-trend baseline (SRC-TG-880).
-- **Production (CCDR, partial equilibrium):** -29.1% (RCP 4.5) and -33.1% (RCP 8.5) against a no-climate-stress projection, worth TND 4.0-4.6 billion, or 2.8-3.2% of GDP at 2022 prices (SRC-TG-881). The CCDR sentence gives no horizon; 2050 is inferred from the paragraph. The World Bank's Autumn 2023 monitor repeats the 29.1-33.1% range, but it states the impact as a 4.1-4.6% fall in real GDP rather than 2.8-3.2% of GDP, and it dates an olive production fall of 69% to 2050 (SRC-TG-882).
+- **Production (CCDR, partial equilibrium):** -29.1% (RCP 4.5) and -33.1% (RCP 8.5) against a no-climate-stress projection, worth TND 4.0-4.6 billion, or 2.8-3.2% of GDP at 2022 prices (SRC-TG-881). The CCDR sentence gives no horizon. The World Bank's Autumn 2023 monitor repeats the 29.1-33.1% range, but it states the impact as a 4.1-4.6% fall in real GDP rather than 2.8-3.2% of GDP, and it dates an olive production fall of 69% to 2050 (SRC-TG-882).
 - **Share of GDP (NDC):** -5% to -10% by 2030, depending on trade-openness scenarios (SRC-TG-884).
 
 **Cross-crop modelling (primary study, constant area and technology).** The MARHP/AFD 2021 study projects these changes in national cereal production:
@@ -174,7 +180,7 @@ For olive oil, with the suitable area shifting, it projects:
 | RCP 4.5 | -23% | -28% |
 | RCP 8.5 | -35% | -70% |
 
-The study gives an uncertainty of plus or minus 15% around the mean (SRC-TG-886). By 2100 under RCP 8.5, the climatically suitable area would shrink by about 16% for cereals, 14% for olives and 19% for pastoral plants, with wide model ranges (SRC-TG-885). Natural rangelands would meet only 8-10% of herd feed needs by 2050, against about 16% in 2020 (SRC-TG-885). The IPCC's Mediterranean assessment cites a Tunisian estimate that cereal production falls 0.79% for every 1% fall in precipitation. It also cites a study finding some vegetable crops non-viable in Tunisia beyond 2°C of warming where irrigation water falls (SRC-TG-888).
+The study gives an uncertainty of plus or minus 15% around the mean (SRC-TG-886). By 2100 under RCP 8.5, the climatically suitable area would shrink by about 16% for cereals, 14% for olives and 19% for pastoral plants, with wide model ranges (SRC-TG-886). Natural rangelands would meet only 8-10% of herd feed needs by 2050, against about 16% in 2020 (SRC-TG-885). The IPCC's Mediterranean assessment cites a Tunisian estimate that cereal production falls 0.79% for every 1% fall in precipitation. It also cites a study finding that where irrigation water availability falls, some crops may become non-viable in some locations, for example in Tunisia beyond 2°C of warming (SRC-TG-888).
 
 **Result: some headline figures do not match their primary source.** This is reported as a finding in its own right; crop-level detail is left to the cereal and olive records.
 
@@ -197,7 +203,7 @@ Medium.
 
 - **Direction is solid.** Every source projects warming, drying and output losses. Warming is also the robust observed signal (FND-TG-881).
 - **Few independent sources.** There are effectively two modelling exercises: the MARHP/AFD 2021 PNA study and the World Bank CCDR model. The NDC, the 4th National Communication and the World Bank economic monitors repeat them, and the NC4 cites the CCDR while it was still forthcoming (SRC-TG-885).
-- **Wide uncertainty.** Model ranges are wide: suitable-area changes span roughly -30% to +5%, and production carries plus or minus 15% (SRC-TG-885, SRC-TG-886).
+- **Wide uncertainty.** Model ranges are wide: suitable-area changes span roughly -30% to +5%, and production carries plus or minus 15% (SRC-TG-886).
 - **No adaptation in the estimates.** None of the projections includes technical progress (SRC-TG-886), and the CCDR value-added figures assume no adaptation under RCP 8.5. The CCDR itself calls RCP 8.5 overly pessimistic for long-term emissions (SRC-TG-880).
 - **Quotation errors.** Specific crop and job percentages in policy documents should not be quoted without checking the horizon against SRC-TG-886. The job figures are low confidence.
 
@@ -215,3 +221,7 @@ Medium.
 - 2006-2007 MARHP/GIZ national adaptation strategy for agriculture and ecosystems (partial chapters at KIT library: https://publikationen.bibliothek.kit.edu/1000014858/1116689)
 - INM climate-services portal Climat-c: https://climat-c.tn
 - CCDR and Autumn 2023 Economic Monitor recommendations: climate-smart agriculture, nature-based solutions for groundwater recharge, index-based agricultural insurance, hydromet early warning
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Checked against the originals: World Bank CCDR executive summary (English), p. vi (value added -15% by 2030, -29% by 2050, past-trend baseline); CCDR full report (French, read from a media mirror), p. 4 and fn 22, p. 9, p. 24 and fn 90 and 93, p. 25, Box 10; INM Climat-c temperature and precipitation pages; MARHP/AFD 2021 PNA study, cereal table, Tableaux 9, 10 and 22, suitable-area text; updated NDC section 2.1.2; IPCC AR6 WGII CCP4, Mediterranean section. Corrections made: the title no longer joins value added (-15% by 2030, -29% by 2050) with production (-29.1% to -33.1%, horizon not stated), and the production indicator no longer infers a 2050 horizon; suitable-area figures re-attributed from SRC-TG-885 to SRC-TG-886; the dry-year figures now use the CCDR's own wording ("augmenter de 52 %") and state that "dry year" is undefined; the IPCC non-viability finding now says "crops", not "vegetable crops"; the unsourced claim that the rainfall decline is concentrated in the humid and sub-humid north was removed. Claims resting on the 4th National Communication (SRC-TG-885), which could not be opened, are listed under data_gaps as not independently reopened. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

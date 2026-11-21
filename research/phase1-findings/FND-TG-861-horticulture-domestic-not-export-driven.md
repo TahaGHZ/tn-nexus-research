@@ -11,7 +11,7 @@ severity: medium
 trend: unknown
 confidence: medium
 root_causes:
-  - cause: "State water mobilisation and on-farm incentives expanded irrigable land, and this expansion achieved national self-sufficiency in fruit and vegetables; output of fresh vegetables and citrus therefore goes mainly to the home market, with only small export volumes"
+  - cause: "State water mobilisation and on-farm incentives expanded irrigable land, and the resulting irrigation potential allows national self-sufficiency in fruit and vegetables (SRC-TG-864); output of fresh vegetables and citrus therefore goes mainly to the home market, with only small export volumes"
     type: policy
     legacy_decision: true
     sources: [SRC-TG-864, SRC-TG-865]
@@ -67,7 +67,7 @@ indicators:
   - name: Share of citrus production absorbed by domestic demand (source says more than 90)
     value: 90
     unit: percent
-    year: 2012
+    year: "not stated in text (World Bank 2014 report, data 1990-2012)"
     geography: national
     source: SRC-TG-710
   - name: Use of EU preferential quota for citrus (quota 39,355 t)
@@ -105,7 +105,7 @@ related: [FND-TG-860, FND-TG-700, FND-TG-702]
 sources: [SRC-TG-710, SRC-TG-860, SRC-TG-861, SRC-TG-862, SRC-TG-863, SRC-TG-864, SRC-TG-865, SRC-TG-867, SRC-TG-868]
 data_gaps:
   - "Sidi Bouzid and Kairouan: no governorate-level series of irrigated vegetable area, crop mix or market destination was opened (CIHEAM and Cahiers Agricultures papers could not be downloaded). That their vegetables go to the domestic market is inferred from national export shares, not shown for these governorates."
-  - "Strawberry production and area: FAOSTAT shows a flat, estimated 10,000 t, which conflicts with the fast export-led growth reported in Cap Bon (SRC-TG-867). No official series was found."
+  - "Strawberry production and area: FAOSTAT shows about 6,000-10,000 t a year (official figures through 2012, imputed or estimated since 2013, about 9,500-10,300 t), which conflicts with the fast export-led growth reported in Cap Bon (SRC-TG-867). No official series was found."
   - "Off-season (primeurs) and greenhouse vegetable exports: no product-level series separating early vegetables from seasonal production was opened."
   - "Investment code advantages for export agriculture (1993 Code d'incitation aux investissements, fully exporting firms regime, 2016 investment law) and FOPRODEX support: only press coverage was found, no legal text opened, so their effect on crop choice is unknown."
   - "EU-Tunisia agricultural protocol: the legal text was not opened. Sources disagree on tomatoes: a 18,816 t quota in 2010-2011 (SRC-TG-710) against unlimited duty-free access from 1 October to 31 May (SRC-TG-865)."
@@ -123,7 +123,7 @@ A common view holds that Tunisia drains its water by exporting thirsty fruit and
 
 The symptom is heavy irrigation of vegetables and citrus in water-short areas. The causes are domestic food policy and irrigation policy, not export promotion.
 
-- **Past decision: irrigation expansion that achieved self-sufficiency.** Irrigable area rose from about 65,000 ha (1956) to over 496,000 ha (2015). The national studies centre states that this potential makes Tunisia self-sufficient in fruit and vegetables, with irrigated exports adding over 30% of agricultural exports (SRC-TG-864). Irrigated agriculture's share of agri-food exports was 24% in 1995, 33% in 2010 and 29% in 2014, and the same report calls this contribution "one of the major justifications" for irrigated agriculture (SRC-TG-864). Exports were thus part of the official case for irrigation. For fresh vegetables and citrus, however, the volumes exported remain small. The export value of irrigated agriculture is concentrated in dates (FND-TG-860); the per-crop breakdown in SRC-TG-864 is unusable.
+- **Past decision: irrigation expansion that achieved self-sufficiency.** Irrigable area rose from about 65,000 ha (1956) to over 496,000 ha (2015). The national studies centre states that this potential allows Tunisia to be self-sufficient in fruit and vegetables, with irrigated exports adding over 30% of agricultural exports (SRC-TG-864). Irrigated agriculture's share of agri-food exports was 24% in 1995, 33% in 2010 and 29% in 2014, and the same report calls this contribution "one of the major justifications" for irrigated agriculture (SRC-TG-864). Exports were thus part of the case made for irrigation. For fresh vegetables and citrus, however, the volumes exported remain small. The export value of irrigated agriculture is concentrated in dates (FND-TG-860); the per-crop breakdown in SRC-TG-864 is unusable.
 - **Past decision: an anti-export bias.** Using 1990-2012 data (1990-2010 growth shares, 2000-2008 competitiveness, 1998-2011 quotas, 2008-2009 subsidies), the World Bank (2014) found that policy distorted production "away from Mediterranean products" toward cereals, milk and beef. Non-competitive products made up 39% of production but about 52% of sector growth, and protection introduced "an anti-export bias" (SRC-TG-710). In 2008-2009, irrigation subsidies were about 18% of input subsidies (SRC-TG-710). This contradicts the idea that export incentives pushed farmers into water-intensive horticulture. The same source rates Tunisia as competitive in tomatoes, oranges and potatoes (SRC-TG-710).
 - **Symptom of the bias: unused export access.** Tunisia used about 55% of its EU citrus quota in 1998 and 60-62% in 2010-2011, 25% of its tomato quota in 1998 and 52-71% in 2010-2011, and about 20% of its conditioned olive oil quota (SRC-TG-710).
 - **Regional pattern.** In Cap Bon, private perimeters developed citrus and vegetables "at the expense of" groundwater overexploitation. Safeguard programmes then brought in northern water (SRC-TG-864). From the late 1980s the state launched a water mobilisation programme to safeguard irrigated agriculture and supply urban drinking water, relying on five dams and the Medjerda-Cap Bon canal (SRC-TG-867). SONEDE's withdrawals from that canal have doubled since 1997, and the split has reversed in favour of drinking water (SRC-TG-867). In central Tunisia, the private irrigated sector is "dynamic" but overdraws shallow groundwater (SRC-TG-864).
@@ -135,7 +135,7 @@ The symptom is heavy irrigation of vegetables and citrus in water-short areas. T
 - Orange exports were a larger share in the past: 22,214 t of 115,000 t in 2000 (about 19%) and 24,580 t of 136,700 t in 2010 (about 18%), against 3.7% in 2022 (our calculation, SRC-TG-862, SRC-TG-863). Recorded orange production nearly doubles between 2017 and 2018, which may be a series break, so part of the fall in the share may be statistical (SRC-TG-862).
 - A peer-reviewed study agrees that tomatoes are "exported to a little extent" (SRC-TG-860). Vegetables' virtual water is about 60% blue (SRC-TG-861).
 - Value per m3: irrigated vegetables returned 1.098 DT/m3 with the PNEEI programme and 1.234 DT/m3 without. Seasonal tomato and summer onion value water least among high-yield vegetables, while early pepper values it better (SRC-TG-864). Tomatoes have the highest blue economic water productivity of the main crops, at US$1.13/m3 for 1996-2005 (SRC-TG-868, relayed in SRC-TG-860).
-- **Conflicting evidence on strawberries.** A 2013 IRMC field note says Cap Bon strawberry area is growing fast and is "mainly destined for export", extending peak irrigation demand from May to September (SRC-TG-867). FAOSTAT records only 688 t of exports in 2022, against an estimated production of about 10,000 t that has been flat for 20 years (SRC-TG-862, SRC-TG-863). The FAOSTAT production series is estimated or imputed, so the conflict cannot be settled here.
+- **Conflicting evidence on strawberries.** A 2013 IRMC field note says Cap Bon strawberry area is growing fast and is "mainly destined for export", extending peak irrigation demand from May to September (SRC-TG-867). FAOSTAT records only 688 t of exports in 2022, against FAOSTAT production of about 6,000-10,000 t a year since 2000, official through 2012 and imputed or estimated since 2013 (SRC-TG-862, SRC-TG-863). Because the recent production series is imputed or estimated,  the conflict cannot be settled here.
 - **Conflicting evidence on EU tomato access.** One source gives an 18,816 t EU tomato quota for 2010-2011 (SRC-TG-710). Another gives unlimited duty-free access from 1 October to 31 May (SRC-TG-865).
 
 ## Why confidence is what it is
@@ -157,3 +157,9 @@ The finding refutes the framing only for fresh vegetables, watermelons, citrus a
 - Reorienting support from continental to Mediterranean products, and horizontal (non crop-specific) policies, as proposed by the World Bank (SRC-TG-710).
 - Better use of EU preferential quotas for citrus and tomatoes, and harvest and post-harvest quality improvements for citrus (SRC-TG-710).
 - Zoning crops by virtual water content and bioclimatic area (SRC-TG-861).
+
+## Verification
+
+Export shares use FAOSTAT production (SRC-TG-862) and the FAOSTAT trade bulk file (SRC-TG-863), both opened in the original dataset. Policy claims were traced to the World Bank 2014 chapter and the FAO/CNEA report.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked: SRC-TG-862 FAOSTAT QCL rows (tomatoes 1,160,000 t, watermelons 450,000 t, oranges 345,000 t in 2022; strawberry production 2000-2022 with flags); SRC-TG-863 FAOSTAT TCL bulk file, rows Tunisia / Export quantity (tomatoes 27,263.84 t, watermelons 18,332.64 t, oranges 12,637.64 t, strawberries 687.91 t, tomato paste 33,416.19 t in 2022; oranges 22,214 t in 2000 and 24,580 t in 2010, flag A); SRC-TG-865 production and EU access sections; SRC-TG-710 chapter 9 (anti-export bias, Table 9.2, Box 9.1, citrus passage); SRC-TG-864 introduction, exports, water valorisation and typology sections; SRC-TG-867 introduction and mobilisation section. Corrections: root cause 1 "achieved self-sufficiency" reworded to the source's "potential allows self-sufficiency"; "official case for irrigation" reworded; citrus 90% indicator year changed to "not stated in text (report data 1990-2012)"; strawberry production described as 6,000-10,000 t a year, official through 2012 and imputed or estimated since 2013, instead of "flat, estimated". Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

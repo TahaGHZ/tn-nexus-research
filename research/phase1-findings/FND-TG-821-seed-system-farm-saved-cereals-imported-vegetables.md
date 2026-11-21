@@ -115,3 +115,9 @@ Water: the gene bank head says local varieties withstand climate shocks better t
 - BNG on-farm conservation programmes, started with 200 producers and now covering more than 300 ha, and the repatriation of about 6,000 samples (SRC-TG-830).
 - National gene bank database (www.tn-grin.nat.tn) (SRC-TG-828).
 - Digital platforms and participatory governance for the wheat seed system (SRC-TG-827).
+
+## Verification
+
+Seed-system, trade, gene-bank and legal figures were checked against the cited sources.
+
+**Independent review, 21 November 2026:** pass. Checked in the originals: Gharbi 2026 (Frontiers, SRC-TG-827) abstract, introduction para. 2 and section 3.3; UN Comtrade HS 120991 imports for 2023 and 2013 (SRC-TG-824); La Presse 18 Nov 2026 on the gene bank (SRC-TG-830; the sentence on lower yields of some local varieties was confirmed in the saved transcript only, not in the live page fetch); Law 99-42 (SRC-TG-829) JORT header and arts. 1, 4, 9, 50; TIRPAA 2024 report (SRC-TG-828) art. 5 question 6, p.5. No corrections. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

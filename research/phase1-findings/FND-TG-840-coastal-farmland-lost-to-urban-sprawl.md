@@ -85,7 +85,7 @@ indicators:
   - name: "Urban land consumption (all land types), of which unplanned expansion"
     value: "about 4,000 ha/yr; about 40% unplanned"
     unit: ha per year
-    year: "c. 2025"
+    year: "not stated in source (La Presse article dated 18 May 2026)"
     geography: national
     source: SRC-TG-852
   - name: "Total farmland loss from erosion and urbanisation combined (press; paragraph footnoted to Elloumi 2011)"
@@ -148,7 +148,7 @@ The symptom is farmland turned into housing, industry and infrastructure. The ca
 - 2,000-3,000 ha/yr of farmland lost to urban pressure, around 2012, as a separate figure from 15,000-20,000 ha/yr lost to erosion. This is a secondary citation of the EU-funded 2012 environmental profile, which was not opened (SRC-TG-854).
 - About 400 ha/yr of farmland changed vocation for public facilities and economic projects (Habitat III national report, 2016; no stated period or method) (SRC-TG-846).
 - 1,370 ha changed vocation in 2011-2021, about 137 ha/yr, from an ongoing DGAT study known only through press, with unclear geography (SRC-TG-850). If national, it is well below the 400 ha/yr in SRC-TG-846.
-- About 4,000 ha/yr of urban land consumption around 2025, nearly 40% of it unplanned. This is an expert's figure reported in the press, and it covers all land types, not only farmland (SRC-TG-852).
+- About 4,000 ha/yr of urban land consumption (no year stated; La Presse article of 18 May 2026), nearly 40% of it unplanned. This is an expert's figure reported in the press, and it covers all land types, not only farmland (SRC-TG-852).
 - "Over 20,000 ha/yr" (SRC-TG-850), "25,000 ha/yr" (SRC-TG-851) and "about 23,000 ha/yr estimated in the mid-1990s" (SRC-TG-850) are total farmland losses from erosion and urbanisation combined. The Nawaat paragraph is footnoted to Elloumi (2011, CIHEAM), which could not be opened.
 
 The change-of-vocation figures cover only formal decisions and miss informal building, which probably explains part of the gap with the 2,000-3,000 ha/yr estimate.
@@ -158,7 +158,7 @@ The change-of-vocation figures cover only formal decisions and miss informal bui
 **National aggregates do not show the loss.** FAO-based agricultural land (arable land, permanent crops and pasture) rose from 90,610 km2 in 1980 to 100,380 km2 in 2010, then eased to 96,469 km2 in 2023 (SRC-TG-849). Arable land fell from 3.19 Mha in 1980 to 2.77 Mha in 2023, but the series does not attribute the change to any cause (SRC-TG-849). The loss is concentrated on fertile, irrigated, near-market land. We hypothesise, without a source linking the two, that marginal land such as rangeland or new olive plantations is being added elsewhere and masks it in the totals. A soil-loss framing does not fit this evidence, so the theme is land-structure.
 
 **Local case studies (Cap Bon, Sahel):**
-- **Kelibia, Nabeul, 2012-2016:** urban area grew from 458 to 756 ha; built-up area on farmland from 13 to 44 ha (Table 5). The "400%" stated in the paper's text does not match its table (SRC-TG-847).
+- **Kelibia, Nabeul, 2012-2016:** urban area grew from 458 to 756 ha; built-up area on farmland from 13 to 44 ha (Table 7 for 458 to 756 ha; Table 5 for 13 to 44 ha). The "400%" stated in the paper's text does not match its table (SRC-TG-847).
 - **Kalâa Kebira, Sousse, 2012-2023:** urban area +417 ha (890 to 1,307 ha); tree crops -621 ha; mixed crops -111 ha; pasture and uncultivated land +315 ha. Urbanisation explains only part of the crop loss; drought and abandonment also play a role. The source is an unreviewed preprint with internal errors (SRC-TG-848).
 - **Manouba, Ben Arous, Ariana:** the press cites AUGT studies giving the share of construction in protected zones as 66.5%, about 35% and over 50%. The base of these percentages is unclear (SRC-TG-850).
 
@@ -196,3 +196,9 @@ Water-lane researchers may want to quantify the irrigated perimeter area lost to
 - Urban densification and in-fill policy (intensification of existing urban fabric), mentioned in SRC-TG-846
 - Remote-sensing monitoring of urban growth (Pleiades / Landsat methods in SRC-TG-847, SRC-TG-848)
 - Profil environnemental de la Tunisie (Euronet Consortium, 2012), cited in SRC-TG-854
+
+## Verification
+
+Headline figures and indicators were traced to the cited copies (CIHEAM Mediterra 2018 ch. 8, Mehat 2014 report, Habitat III national report, Kassouk 2022, Ghenimi preprint, World Bank WDI API, press articles).
+
+**Independent review, 21 November 2026:** pass after corrections. Checked: SRC-TG-854 ch. 8 (2,000-3,000 and 15,000-20,000 ha/yr, as stated by that chapter; Euronet 2012 itself not opened), SRC-TG-845 section "Accès au foncier" (3,970 and 2,440 ha), SRC-TG-846 (400 ha/yr; 61.6% and 17.2%; AFH 1,094 ha), SRC-TG-847 Tables 5 and 7, SRC-TG-848 Table 2, SRC-TG-849 World Bank API (1980, 2010, 2023), SRC-TG-850 and SRC-TG-851 articles, SRC-TG-852 article. Corrections: urban land consumption year "c. 2025" changed to "not stated in source (article dated 18 May 2026)"; Kelibia locator corrected to Table 7 (458 to 756 ha) and Table 5 (13 to 44 ha). Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

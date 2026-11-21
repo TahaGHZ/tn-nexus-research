@@ -19,7 +19,7 @@ root_causes:
     type: policy
     legacy_decision: true
     sources: [SRC-TG-710]
-  - cause: "The Office des Céréales held the wheat import monopoly until at least 2016 (WTO); in 2024 the World Bank described a de jure grain monopoly except barley. The state also holds the sugar import monopoly within its tariff quota and fixes consumer prices and margins for many foods, a structure PASA did not dismantle"
+  - cause: "The Office des Céréales held the wheat import monopoly until at least 2016 (WTO); in 2024 the World Bank described a de jure grain monopoly except barley. The OCT imports sugar in a de facto monopoly (WTO, citing Tunisia's 2006 state-trading notification), and the state fixes consumer prices and margins for many foods, a structure PASA did not dismantle"
     type: institutional
     legacy_decision: true
     sources: [SRC-TG-924, SRC-TG-921, SRC-TG-705]
@@ -67,9 +67,9 @@ indicators:
     geography: national
     source: SRC-TG-710
   - name: Consumer subsidies for cereals (CGC)
-    value: "170 (2004) to 1,360 (2014)"
+    value: "170 (2004) to 1,360 (2014) per WTO text para. 4.34; the same report's Table 3.20 gives 170.9 (2005), 1,152.4 (2014) and 1,359.3 (2015)"
     unit: million TND
-    year: 2004-2014
+    year: 2004-2015
     geography: national
     source: SRC-TG-924
   - name: Official farmgate price relative to OC import cost, durum wheat / barley
@@ -88,6 +88,7 @@ data_gaps:
   - "Distribution of support by farm size class (share of transfers going to the largest farms): the claim of regressivity is stated qualitatively by SRC-TG-710 without a quantified distribution."
   - "Status of the Office des Céréales wheat import monopoly after 2016 remains ambiguous: the WTO says it ended in 2016 (SRC-TG-924, para. 4.35); the World Bank in 2024 describes a de jure grain monopoly except barley (SRC-TG-705). The legal text resolving the apparent conflict was not found."
   - "The World Bank wording on beef and milk growth is 'almost one-third (17 percent of the value)' while total agricultural output value grew 67%; 17/67 is about 25%, so the intended denominator is unclear (SRC-TG-710)."
+  - "Table 9.3 of SRC-TG-710 sums to about 31.7% (2000) and 54.2% (2009) for market price support plus input subsidies, against the text values of 31% and 53% used here."
   - "No sourced projection of how the support structure will evolve (e.g. under an EU DCFTA agricultural chapter)."
 author: TahaGHZ
 ---
@@ -102,7 +103,7 @@ Tunisian agricultural policy works mainly through guaranteed producer prices for
 
 1. **Self-sufficiency in staples as the policy goal (legacy).** The state cereal system set up in the 1960s-70s is covered in FND-TG-702. The PASA reforms of 1986-1995 cut input subsidies but kept administered wheat prices and the offices' marketing role (FND-TG-920, SRC-TG-921). The guaranteed-price and state-trading structure in place in 2016 is the result (SRC-TG-924).
 2. **Output-based and area-based support.** Because support is based on output and farm size, it goes mostly to a few large landowners. The World Bank says this contradicts the common belief in Tunisia that the policy protects small family farms (SRC-TG-710).
-3. **State trading and price controls.** The Office des Céréales held the wheat import monopoly until 2016 under the WTO account; the World Bank later described a de jure grain monopoly except barley (SRC-TG-924, SRC-TG-705). The OCT held the sugar import monopoly within the tariff quota. The state fixed consumer prices for bread, flour, couscous, oil, sugar, milk and tea, and margins for rice, poultry, eggs and many fruits and vegetables (SRC-TG-924). The ONH guarantees a minimum price to olive oil producers who cannot sell (SRC-TG-924).
+3. **State trading and price controls.** The Office des Céréales held the wheat import monopoly until 2016 under the WTO account; the World Bank later described a de jure grain monopoly except barley (SRC-TG-924, SRC-TG-705). The OCT imported sugar in a de facto monopoly according to Tunisia's 2006 state-trading notification (SRC-TG-924, para. 3.168). The state fixed consumer prices for bread, flour, couscous, oil, sugar, milk and tea, and margins for rice, poultry, eggs and many fruits and vegetables (SRC-TG-924). The ONH guarantees a minimum price to olive oil producers who cannot sell (SRC-TG-924).
 4. **Drift back towards distorting instruments.** Tunisia committed at the Uruguay Round (1994) to reduce domestic support from USD 76 million to 66 million, yet agricultural support spending rose steadily over the 2000s (SRC-TG-710). After PASA removed fertiliser and feed subsidies (FND-TG-920), input subsidies, mainly fuel, milk collection premia and irrigation, made up 20-25% of transfers by 2008-2009 (SRC-TG-710).
 
 ## Evidence
@@ -112,7 +113,7 @@ Tunisian agricultural policy works mainly through guaranteed producer prices for
 - Average MFN tariff on agri-food is 24.6%, against 16.5% for all products. 60.5% of agricultural tariff lines exceed 15% (SRC-TG-710, p. 266).
 - Budget cost was reported as TND 350 million (0.8% of GDP) in 2010; Table 9.3 gives TND 350.6 million for 2009 and has no 2010 column. The share of price support and input subsidies rose from 31% (2000) to 53% (2009) (SRC-TG-710, p. 266).
 - Agricultural output grew 67% in value over 1990-2010. The source says "almost one-third (17 percent of the value)" came from beef and milk; 17/67 is about 25%, so the denominator is ambiguous (SRC-TG-710, p. 265).
-- Consumer subsidies for cereals rose from TND 170 million (2004) to TND 1,360 million (2014) (SRC-TG-924, para. 4.34).
+- Consumer subsidies for cereals rose from TND 170 million (2004) to TND 1,360 million (2014) according to the WTO text (SRC-TG-924, para. 4.34). The same report's Table 3.20 gives cereals and derivatives at TND 170.9 million (2005), 1,152.4 million (2014) and 1,359.3 million (2015), so the source is internally inconsistent on the 2014 value; roughly TND 1.2-1.4 billion in 2014-15.
 - Model estimates from World Bank (2006), cited in 2014. Agricultural trade protection costs consumers 4-5.6% of spending. Removing tariffs would raise GDP by about 0.8% but shift about 87,000 agricultural jobs to other sectors. About 70% of farms would gain from removing price distortions, mostly olive, fruit, vegetable and sheep farms in the centre and south. Losers would be cereal farms in the north and north-west (SRC-TG-710, pp. 267-268). These are counterfactual simulations, not measurements.
 
 **Counter-view.** Boughzala and Elloumi (1992) found, with a risk-constrained farm model, that full liberalisation was not in Tunisia's interest while the EEC protected and subsidised its own agriculture. They found Tunisia would gain only if major producers also liberalised (SRC-TG-922). The 2014 World Bank simulation includes a scenario without EU subsidies that still shows gains (SRC-TG-710), but the two studies use different models and periods. This record does not settle the disagreement.
@@ -137,3 +138,9 @@ Medium. The description of instruments (administered prices, state monopolies, p
 - Zero wheat import duty from January 2016 (SRC-TG-924, para. 4.35).
 - Investment incentives code and Decree n° 94-427 of 14 February 1994 on agricultural investment grants (SRC-TG-924, para. 4.13).
 - ONH minimum price guarantee for olive oil (SRC-TG-924, para. 4.48).
+
+## Verification
+
+Claims were traced to the World Bank 2014 report chapter 9 (SRC-TG-710), the WTO Trade Policy Review of 2016 (SRC-TG-924), the World Bank grain note of March 2024 (SRC-TG-705) and the Persee copy of SRC-TG-922.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked: SRC-TG-710 pp. 264-267 and 277 (0.8% of GDP and TND 350 million, Table 9.3, 31 to 53%, milk over 50%, 24.6% tariff, 17% of value, 4 to 5.6% consumer cost, 76 to 66 million USD commitment, input-subsidy split, 70% of farms gain, losers are cereal farms in the north and north-west, little support and difficult finance for interior Mediterranean crops; the last two passages were located by me in the original after the reviewer could not find them); SRC-TG-924 paras. 3.168, 4.34, 4.35, 4.48 and Table 3.20; SRC-TG-705 footnote 3 and Box 1; SRC-TG-922 résumé p. 74. Corrections: sugar monopoly "within its tariff quota" replaced by the source's "de facto monopoly"; cereal subsidy figures now give both the text and Table 3.20 values; Table 9.3 arithmetic noted as a data gap. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

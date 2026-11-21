@@ -1,7 +1,7 @@
 ---
 id: FND-TG-720
 title: Tunisian olive oil production varies sharply between seasons
-status: draft
+status: in-review
 sectors:
   - agriculture
   - water
@@ -203,6 +203,9 @@ data_gaps:
   - No opened source attributes the 2022/23 production to drought with a measured rainfall link. The rainfall-production relationship for olive
     regions is described qualitatively but not quantified.
   - Irrigated olive area by governorate and its share of production (only a 2020 national statement of 80 kt of oil from irrigated groves).
+  - 'not independently reopened: irrigated olive area of 60,000 ha (3.5%) and the 3.5% share for 2010-2012 as a standalone figure, and the Chemlali and 80-120 trees/ha statements (SRC-TG-726, SRC-TG-725)'
+  - 'not independently reopened: FAOSTAT 1,200,000 t olive production, 2022 (SRC-TG-862); about 100,000 ha irrigated, 2020 (SRC-TG-730); domestic bulk price fall from 18 to about 14 TND/litre (SRC-TG-731)'
+  - 'not independently reopened: about 310,000 farmers and nearly 1 million dependants, and the 25% of trees over 70 years age claim (SRC-TG-724, SRC-TG-726)'
 author: TahaGHZ
 ---
 
@@ -257,4 +260,6 @@ Medium. The national production series and computed volatility are supported by 
 
 The IOC seasonal series establishes output volatility. Rainfed cultivation and alternate bearing are documented features of production, but the sources do not quantify the share of national variation explained by either. No causal attribution coefficient is claimed (SRC-TG-720, SRC-TG-726).
 
-**Outstanding verification:** The national production series is verified. The study evidence does not isolate the separate contributions of rainfall exposure, alternate bearing and management.
+The sources that discuss causes, Lavie et al. 2023 (SRC-TG-725) and FAO/EBRD 2015 (SRC-TG-726), describe rainfall dependence and alternate bearing (about one crop every three years, SRC-TG-725) qualitatively. Neither estimates their share of national variation. Recent IOC revisions are in SRC-TG-721 and SRC-TG-723.
+
+**Independent review, 21 November 2026:** pass. Checked against the originals: IOC Table 1, Production 1990/91-2024/25, Tunisia row, p.1, with the 35 kt minimum (2001/02) and 440 kt maximum (2019/20) confirmed (SRC-TG-720); IOC key figures, 122nd session, Tunisia rows 2024/25 (340 kt) and 2025/26 estimate (450 kt) (SRC-TG-721); Lavie et al. 2023, Geographica Helvetica 78, p.418, on rainfall dependence and fruiting every third year (SRC-TG-725); FAO/EBRD 2015 passages on rainfall influence, plus the 0.4% a year yield decline, last of nine producers, and 0.47 and 0.63 t/ha (SRC-TG-726); ONAGRI export prices of 24.5 and 12.8 TND/kg and the 6% irrigated share as cited in the Tresor note (SRC-TG-724). No corrections. The claims listed under data_gaps as not independently reopened were not rechecked. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

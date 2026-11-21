@@ -1,6 +1,6 @@
 ---
 id: FND-TG-902
-title: "About 7-10% of milk is lost between farm and dairy in Bizerte and Mahdia, mostly at collection and processing, with on-farm cooling on fewer than one farm in six"
+title: "About 6.5-10% of milk is lost between farm and dairy in Bizerte and Mahdia, mostly at collection and processing, with on-farm cooling on fewer than one farm in six"
 status: in-review
 sectors: [agriculture, water]
 theme: food-loss
@@ -11,7 +11,7 @@ severity: medium
 trend: unknown
 confidence: medium
 root_causes:
-  - cause: "Almost no on-farm cooling (3.7% of farms in Mahdia, 16.3% in Bizerte), so milk quality degrades before collection and milk is refused"
+  - cause: "Almost no on-farm cooling (3.7% of farms in Mahdia, 16.3% in Bizerte), which the FAO calls a decisive factor for preserving milk quality"
     type: technical
     legacy_decision: false
     sources: [SRC-TG-902]
@@ -19,7 +19,7 @@ root_causes:
     type: institutional
     legacy_decision: false
     sources: [SRC-TG-902]
-  - cause: "Long waits for milk reception at dairies in the high-lactation season, when supply exceeds processing and collection capacity"
+  - cause: "Long waits for milk reception at dairies in the high-lactation season; the FAO recommends scheduling deliveries and receptions (the report does not state a capacity shortfall)"
     type: technical
     legacy_decision: false
     sources: [SRC-TG-902]
@@ -96,7 +96,7 @@ data_gaps:
   - "The summary rates (9.1% / 6.5%) and the table totals (9.84% / 6.88%) in the same FAO report are not reconciled; the table totals are a simple sum of stage rates on different volume bases."
   - "Whether the dairy-chain loss-reduction charter supported by the FAO project (SRC-TG-904) was signed and implemented, and any follow-up loss measurement: not found."
   - "A full water footprint of lost milk: the report's 10 L/L coefficient is unreferenced and far narrower than feed and drinking water; no Tunisian dairy water footprint source was opened."
-  - "Losses after the dairy (retail, households): household dairy waste was reported at 2.3% of purchases in the INC 2016 survey (SRC-TG-906), but no retail figure was found."
+  - "Losses after the dairy (retail, households): dairy products were reported as 2.3% of household food waste in the INC 2016 survey (SRC-TG-906), which is a share of waste, not of purchases, but no retail figure was found."
 author: TahaGHZ
 ---
 
@@ -106,9 +106,9 @@ The only measured estimate of milk losses in Tunisia, an FAO case study of the B
 
 ## Root causes
 
-- **No cold chain on the farm.** Only 3.7% of surveyed farms in Mahdia and 16.3% in Bizerte have milk cooling (SRC-TG-902). Milk that is not cooled loses quality before collection. One of the FAO's recommendations for producers is to develop on-farm cooling for small and medium farms with the involvement of dairies and collection centres (SRC-TG-902).
+- **No cold chain on the farm.** Only 3.7% of surveyed farms in Mahdia and 16.3% in Bizerte have milk cooling (SRC-TG-902). The FAO calls on-farm cooling a decisive factor for preserving milk quality (SRC-TG-902). One of the FAO's recommendations for producers is to develop on-farm cooling for small and medium farms with the involvement of dairies and collection centres (SRC-TG-902).
 - **Quality-related losses.** Most loss happens after the farm: 4.38% (Bizerte) and 2.65% (Mahdia) at collection, and 3.5% at industrial dairies, of which 3% is milk refused and 0.5% is processing loss (SRC-TG-902). The report identifies milking hygiene, antibiotic residues and fraud among the underlying issues, and the FAO recommends harmonising acceptance standards across seasons (SRC-TG-902). The report says 33 Bizerte farmers named antibiotic residues and 24 named high lactation; in Mahdia, lack of financing was the most frequently named cause (59 farmers) (SRC-TG-902).
-- **Seasonal glut.** The FAO recommends reducing the time milk waits for reception at dairies in the high-lactation season (SRC-TG-902), which points to processing and collection capacity that does not match seasonal supply.
+- **Waits at dairies in high lactation.** The FAO recommends reducing the time milk waits for reception at dairies in the high-lactation season by scheduling deliveries and receptions (SRC-TG-902). The report does not say that supply exceeds processing or collection capacity.
 
 These are technical and organisational causes. No past policy decision is identified in the sources as their origin; milk is on the list of subsidised goods (SRC-TG-903), but no source links the subsidy to chain losses.
 
@@ -132,3 +132,9 @@ Medium. The source is an FAO technical report (tier B) based on a field survey o
 - Charter between dairies (centrales laitières) to apply acceptance standards all year (SRC-TG-902) and FAO support for loss-reduction charters in the milk chain (SRC-TG-904)
 - Quality-based payment by the Vitalait dairy (Mahdia) to farmers and to collection centres (SRC-TG-902)
 - FAO guide on good practices for reducing losses in dairies (seen on the FAO Near East platform, not opened)
+
+## Verification
+
+Loss rates, volumes, values and survey facts were traced to the local full text of the FAO 2021 report (SRC-TG-902; the FAO URL returned HTTP 403 on the review date).
+
+**Independent review, 21 November 2026:** pass after corrections. Checked: SRC-TG-902 Résumé p. xi (9.1% and 6.5%; 21.13 million TND; 201 million litres of water), Tableaux 13 and 16 pp. 38-39 (9.84% and 6.88%; 20.1 million litres; 729 and 1,220 TND), pp. 24-26 (cooling on 3.7% and 16.3% of farms; causes named by farmers), pp. 30-37 (collection and dairy stages). Corrections: headline range "7-10%" changed to "6.5-10%"; root cause 1 no longer says milk is refused for lack of cooling; root cause 3 no longer states that supply exceeds capacity; the 2.3% dairy figure relabelled as a share of household food waste. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

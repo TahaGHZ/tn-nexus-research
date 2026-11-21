@@ -11,14 +11,14 @@ severity: high
 trend: unknown
 confidence: low
 root_causes:
-  - cause: "1964 nationalisation of colonial land (law 64-5 of 12 May 1964) and habous recovery gave the state about 800,000 ha, mostly in the fertile north"
+  - cause: "The 1964 nationalisation of foreign-owned land (law 64-5 of 12 May 1964, about 300,000 ha by the law itself) together with colonial land already taken over and habous recovery gave the state about 800,000 ha"
+    type: policy
+    legacy_decision: true
+    sources: [SRC-TG-781, SRC-TG-785]
+  - cause: "Forced cooperative experiment of 1961-1969 (SRC-TG-785; the start date is not confirmed in SRC-TG-786) on and around state land, abandoned in September 1969; cooperatives kept on state land"
     type: policy
     legacy_decision: true
     sources: [SRC-TG-781, SRC-TG-785, SRC-TG-786]
-  - cause: "Forced cooperative experiment of 1964-1969 on and around state land, abandoned in September 1969; cooperatives kept on state land"
-    type: policy
-    legacy_decision: true
-    sources: [SRC-TG-781, SRC-TG-786]
   - cause: "From the 1980s, under structural adjustment, management of state farms was privatised through long leases to SMVDA and technician lots, with allocations used for political patronage up to 2011"
     type: policy
     legacy_decision: true
@@ -33,7 +33,7 @@ root_causes:
     sources: [SRC-TG-786]
 indicators:
   - name: State land holding after nationalisation and habous recovery
-    value: "about 800,000 (about 10% of farmland)"
+    value: "about 800,000 (about 10% of farmland); components given are 600,000 ha colonial land and 160,000 ha habous, which sum to 760,000, a gap the source does not reconcile"
     unit: ha
     year: "1964 onward"
     geography: national
@@ -132,24 +132,28 @@ data_gaps:
   - "Jemna plantation area, palm count and revenue appear only in press articles not opened; not used."
   - "Area figures differ between dates and sources (SMVDA 145,000 ha in 2001 vs 80,000 ha in 2024; OTD 150,000 ha in Elloumi vs 76,000 + 157,000 ha in 2024 press); no source reconciles them."
   - "No sourced projection."
+  - "not independently reopened: claims resting only on Gana and Taleb 2019 (SRC-TG-786), whose original could not be opened (archive.org, HAL and Cairn blocked): 33 SMVDA (22,377 ha) forfeited in 2012 and 178 (73,446 ha) by 2016; 20,330 ha of occupied state land in 2016; 42 young-farmer lots (406.55 ha) after the February 2017 circular; 43 SMVDA (32,154 ha) re-awarded; law 2016-08 debt rescheduling; the lessees' unmet-commitments grievance; the March 2012 Jemna founding date; the claim that the 1964 estate lay mostly in the fertile north; the split of privatised management between technicians and SMVDA (SRC-TG-786)"
+  - "not independently reopened: the cooperative start date of 1964 originally given (SRC-TG-786); the record now uses 1961-1969 from SRC-TG-785"
+  - "Law 95-21 was read as an OCR-degraded copy: the 25-year and 40-year lease durations are in article 11, but the split by lessee type (SMVDA versus technicians and young farmers) and the inalienability wording of articles 2-3, and the link of article 17 to Law 70-25, were not cleanly confirmed (SRC-TG-784)."
+  - "The 2024 press total (500,000 ha) names no source; the Court of Accounts, the 2015 commissions and the census of state land were not independently checked beyond SRC-TG-788 to SRC-TG-791."
 author: TahaGHZ
 ---
 
 ## Problem
 
-Tunisia's state owns about 500,000 ha of agricultural land according to the minister of State Domains in 2026, of which only 38% is operated under lease contracts (SRC-TG-789). A 2024 press breakdown gives 310,000 ha "structured" (leased or allocated) and 190,000 ha "unstructured", mostly run directly by the Office des Terres Domaniales (SRC-TG-788). In 2022 the then minister said more than 50,000 people farm state land without regularised status (SRC-TG-790). In 2026 bill sponsors said the commissions created in 2015 to regularise them had settled no more than 15% of files in ten years (SRC-TG-791). The state estate formed from the 1964 nationalisation was mostly in the fertile north (SRC-TG-786); state land has since been reallocated with each political turn, and its use and productivity are not tracked in any published inventory we found. The problem is a large, high-quality land reserve whose operators' rights keep changing and, for many, remain unregularised. We found no data on how this affects investment or output on the land.
+Tunisia's state owns about 500,000 ha of agricultural land according to the minister of State Domains in 2026, of which only 38% is operated under lease contracts (SRC-TG-789). A 2024 press breakdown gives 310,000 ha "structured" (leased or allocated) and 190,000 ha "unstructured", mostly run directly by the Office des Terres Domaniales (SRC-TG-788). In 2022 the then minister said more than 50,000 people farm state land without regularised status (SRC-TG-790). In 2026 bill sponsors said the commissions created in 2015 to regularise them had settled no more than 15% of files in ten years (SRC-TG-791). The state estate formed from the 1964 nationalisation and habous recovery reached about 800,000 ha (SRC-TG-785); state land has since been reallocated with each political turn, and its use and productivity are not tracked in any published inventory we found. The problem is a large, high-quality land reserve whose operators' rights keep changing and, for many, remain unregularised. We found no data on how this affects investment or output on the land.
 
 ## Root causes
 
 The symptom is contested, partly idle and partly unregularised state land. The causes are a sequence of past decisions:
 
-1. **Nationalisation (1964).** Law 64-5 of 12 May 1964 nationalised foreign-owned land (SRC-TG-781). Together with earlier purchases and the recovery of public habous, it gave the state about 800,000 ha, roughly 10% of farmland, mostly in the fertile north (SRC-TG-785, SRC-TG-786).
-2. **Forced cooperatives (1964-1969).** The state grouped small farmers with under 40 ha around former colonial farms in production cooperatives. Small farmers resisted from the start; the 1969 plan to extend cooperatives to all agriculture met fierce opposition from large farmers and the experiment was stopped in September 1969 (SRC-TG-781, SRC-TG-786). Small farmers took back their land, but cooperatives remained on state land alongside OTD farms (SRC-TG-786). FTDES notes the word "cooperative" is still tainted by this episode (SRC-TG-782).
+1. **Nationalisation (1964).** Law 64-5 of 12 May 1964 nationalised foreign-owned land (SRC-TG-781); the law itself nationalised about 300,000 ha (SRC-TG-785, para. 41). Together with colonial land already taken over by earlier purchases and agreements and the recovery of public habous, the state's estate reached about 800,000 ha, roughly 10% of farmland (SRC-TG-785). The components given (600,000 ha colonial land, 160,000 ha habous) sum to 760,000 ha and the source does not reconcile the difference. The claim that this land lay mostly in the fertile north rests on SRC-TG-786, which was not reopened (see `data_gaps`).
+2. **Forced cooperatives (1961-1969).** The state grouped small farmers with under 40 ha around former colonial farms in production cooperatives. Small farmers resisted from the start; the 1969 plan to extend cooperatives to all agriculture met fierce opposition from large farmers and the experiment was stopped in September 1969 (SRC-TG-781, SRC-TG-786). Elloumi dates the forced cooperatives from 1961 (SRC-TG-785, section "La coopérativisation forcée : 1961-1969"); an earlier draft of this record gave 1964 on the strength of SRC-TG-786, which was not reopened. Small farmers took back their land, but cooperatives remained on state land alongside OTD farms (SRC-TG-786). FTDES notes the word "cooperative" is still tainted by this episode (SRC-TG-782).
 3. **Privatised management under structural adjustment (1980s-2011).** From the mid-1980s, management of state farms passed mainly to agronomist technicians and SMVDA companies (SRC-TG-786). Between 1981 and 1995, 143,000 ha were transferred to private management (SRC-TG-785). Law 95-21 kept ownership with the state. It made the land inalienable except for regularisation or exchange, and set lease terms of 25 years extendable to 40 for SMVDA and up to 40 years for technicians and young farmers (SRC-TG-784). By 2001 SMVDA held 145,000 ha, while young farmers had only 15,000 ha in 8-ha lots (SRC-TG-785). Because ownership stayed with the state, allocation became a patronage tool: more than 12,000 ha went to relatives of the deposed president (SRC-TG-785). This sits within the wider structural adjustment covered by FND-TG-920.
 4. **Unmet lessee commitments and the 2011 occupations.** According to state-domain officials relaying occupiers’ grievances, lessees had not kept commitments to hire locally and invest (SRC-TG-786); this is a reported grievance, not a verified finding. After 14 January 2011, more than a hundred SMVDA and technician farms covering several tens of thousands of hectares were occupied or looted (SRC-TG-786).
 5. **Changing post-2011 policy.** Governments forfeited the rights of 178 SMVDA (73,446 ha) by 2016 and returned their farms to OTD (SRC-TG-786). They counted 20,330 ha of occupied land in 2016 (SRC-TG-786). They rescheduled lessees' debts by law 2016-08 (SRC-TG-786) and re-awarded 43 SMVDA (32,154 ha), according to the authors through clientelist networks (SRC-TG-786). Awards to young farmers stopped in 2011-2017 and then covered only 406.55 ha (SRC-TG-786). In 2025-2026 a new allocation channel to sociétés communautaires opened, with 24 state farms of more than 11,000 ha made available (SRC-TG-789).
 
-**Jemna as a case.** In January 2011 residents of Jemna (Kebili) occupied a state palm grove that had been run as an SMVDA by promoters close to the old regime, and ran it through a local association (SRC-TG-786, SRC-TG-787). In 2016 the Ministry of State Domains ordered the association to stop and had its bank accounts frozen. It offered a 49/51 state-association SMVDA, which the association refused (SRC-TG-787). An agreement was reached in September 2017 under the Ministry of Agriculture; the author notes it does not question state ownership of the land (SRC-TG-787). The sources disagree on when the association was founded: right after 14 January 2011 according to Vico (SRC-TG-787), March 2012 according to Gana and Taleb (SRC-TG-786).
+**Jemna as a case.** In January 2011 residents of Jemna (Kebili) occupied a state palm grove that had been run as an SMVDA by private investors (SRC-TG-787), and ran it through a local association (SRC-TG-786, SRC-TG-787). In 2016 the Ministry of State Domains ordered the association to stop and had its bank accounts frozen. It offered a 49/51 state-association SMVDA, which the association refused (SRC-TG-787). An agreement was reached in September 2017 under the Ministry of Agriculture; the author notes it does not question state ownership of the land (SRC-TG-787). The sources disagree on when the association was founded: right after 14 January 2011 according to Vico (SRC-TG-787), March 2012 according to Gana and Taleb (SRC-TG-786).
 
 ## Evidence
 
@@ -182,3 +186,9 @@ Water: much state land lies in the irrigated and higher-rainfall north. Jemna is
 - Census of state agricultural land reported ordered in May 2025 (search result, not opened): https://www.leconomistemaghrebin.com/2025/05/13/lancement-recensement-terres-agricoles-domaniales/
 - Young-farmer lots under the circular of 9 February 2017 (SRC-TG-786).
 - Law 70-25 of 1970 on the cession of state agricultural land, referred to in law 95-21 (SRC-TG-784; not opened).
+
+## Verification
+
+The history was checked against Elloumi 2013 (SRC-TG-785) and the 2024-2026 press reports; the Gana and Taleb 2019 article (SRC-TG-786) could not be opened.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked in the originals: Elloumi 2013 (openedition) paras. 3, 12, 41, 44, 45, 48, 62, 65, 66, 71; FAO/CIHEAM 2017 p.42-43; FTDES p.52; Vico 2021 (Jemna sections); Law 95-21 art. 11, 17, 33 (OCR); La Presse 16 Oct 2024 and 7 Nov 2026; L'Economiste Maghrebin 6 Jul 2022; La Presse/AllAfrica 27 Feb 2026 (decree 1870 of 2015 and the 15% rate are in the article). Corrections: root cause 1 no longer credits law 64-5 with 800,000 ha (the law itself nationalised about 300,000 ha; the 800,000 ha is the total, and the 600,000 + 160,000 components sum to 760,000); cooperative experiment dated 1961-1969 (Elloumi) instead of 1964-1969; the unsupported "mostly in the fertile north" removed from the Problem and root cause text; Jemna promoters "close to the old regime" replaced by "private investors" (not in Vico). Claims resting only on SRC-TG-786 are kept and listed in data_gaps as not independently reopened. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

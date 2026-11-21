@@ -24,8 +24,8 @@ root_causes:
     legacy_decision: true
     sources: [SRC-TG-921]
 indicators:
-  - name: Nominal protection coefficient, durum wheat (1980-85 vs import-equivalent price; 1988 vs formula price)
-    value: "0.89 (1980-85) to 1.04 (1988; basis differs)"
+  - name: Nominal protection coefficient, durum wheat (1980-85, price base not stated in the report; 1988, per the report)
+    value: "0.89 (1980-85) to 1.04 (1988; the two values may not share a price base)"
     unit: ratio
     year: 1980-1988
     geography: national
@@ -62,14 +62,14 @@ indicators:
     source: SRC-TG-921
   - name: Real increase in irrigation tariffs under ASAL II
     value: 40
-    unit: percent (cumulative, real)
-    year: 1989-1995
+    unit: "percent real increase (period and cumulative basis not stated in the source)"
+    year: "not stated (ICR 1996 summary)"
     geography: national
     source: SRC-TG-921
   - name: Private participants entering domestic cereals collection after liberalisation
     value: 3
     unit: firms
-    year: 1995
+    year: "1990s (ICR dated 1996; year not stated in the passage)"
     geography: national
     source: SRC-TG-921
 stakeholders: [small and medium farmers, Office des Céréales, Office National de l'Huile, Office de l'Elevage et des Pâturages, El Louhoum, Caisse Générale de Compensation, Ministry of Agriculture, World Bank]
@@ -90,7 +90,7 @@ Tunisia's agricultural structural adjustment programme (PASA, also MTASAP) ran f
 
 ## Root causes
 
-**Before 1986 (symptom: low private investment; cause: implicit taxation).** At the time ASAL I was designed, output and input prices were fixed below world prices on a cost-plus basis, and agriculture faced "negative protection rates" and worsening terms of trade with industry, which deterred private investment (SRC-TG-920). The PCR reports 1980-85 cereal NPCs of 0.89 (durum), 0.98 (bread wheat) and 0.82 (barley), but Annex 2 Table 1 shows those early ratios use import-equivalent prices, not the later formula; by 1985/86, the ratios were 1.16 for durum, 1.18 for bread wheat and 1.16 for barley. The 1988 leg (1.04 for durum) is against the formula, so the comparison mixes bases (SRC-TG-920).
+**Before 1986 (symptom: low private investment; cause: implicit taxation).** At the time ASAL I was designed, output and input prices were fixed below world prices on a cost-plus basis, and agriculture faced "negative protection rates" and worsening terms of trade with industry, which deterred private investment (SRC-TG-920). The PCR reports 1980-85 cereal NPCs of 0.89 (durum), 0.98 (bread wheat) and 0.82 (barley), but does not state their price base. Annex 2 Table 1 gives actual to import-equivalent ratios of 0.75, 0.76 and 0.86 for durum in 1982/83 to 1984/85, which are different numbers from the 0.89 cited in the text; by 1985/86, the ratios were 1.16 for durum, 1.18 for bread wheat and 1.16 for barley. The 1988 value (1.04 for durum) is reported without a stated base either, so the 1980-85 to 1988 comparison may not be like for like (SRC-TG-920).
 
 **The 1986 decision.** Under balance-of-payments and employment imbalances and pressure from international financial institutions, Tunisia adopted a structural adjustment plan from late 1986 with a large agricultural component (SRC-TG-922). Its stated aim was to bring producer prices to world levels with slight protection for "strategic" products, liberalise marketing and phase out production subsidies (SRC-TG-922).
 
@@ -101,10 +101,10 @@ Tunisia's agricultural structural adjustment programme (PASA, also MTASAP) ran f
 ## Evidence
 
 - Pre-1986 prices fixed below world prices, cost-plus (SRC-TG-920, para. 6.11).
-- Cereal NPCs: the PCR reports 0.89/0.98/0.82 in 1980-85 and 1.04/1.03/0.90 in 1988; Annex 2 Table 1 shows early values are against import-equivalent prices while 1988 is against formula prices. 1985/86 ratios were already above 1 (durum 1.16, bread wheat 1.18, barley 1.16). Late 1987 actual-world-price NPCs were 1.37/1.27/1.29 (SRC-TG-920, paras. 6.12-6.13 and Annex 2 Table 1).
-- Input subsidies (CGC): TND 73 million (1989) to under 15 million (1993). Fertiliser subsidy TND 20 million to 3 million. Fertiliser subsidies ended for Super 16 (1991), Ammonitre 33 (1992) and DAP (1993); Super 45, about a quarter of volumes, was still subsidised in 1995 (SRC-TG-921, paras. 26-27).
+- Cereal NPCs: the PCR reports 0.89/0.98/0.82 in 1980-85 and 1.04/1.03/0.90 in 1988; The text does not state the price base of either series; Annex 2 Table 1 gives actual to import-equivalent ratios of 0.75, 0.76 and 0.86 for durum in 1982/83 to 1984/85. 1985/86 ratios were already above 1 (durum 1.16, bread wheat 1.18, barley 1.16). Late 1987 actual-world-price NPCs were 1.37/1.27/1.29 (SRC-TG-920, paras. 6.12-6.13 and Annex 2 Table 1).
+- Input subsidies (CGC): TND 73 million (1989) to under 15 million (1993). Fertiliser subsidy TND 20 million to 3 million. Fertiliser subsidies ended for Super 16 (1991), Ammonitre 33 (1992) and DAP (1993); Super 45, about a quarter of volumes, was still subsidised, with a declining subsidy, when the ICR was written in 1996 (SRC-TG-921, paras. 26-27).
 - Feed subsidies: TND 49 million (1989) to 4 million (1992-93); maize subsidy ended 1992, soybean meal 1993 (SRC-TG-921, para. 28).
-- Irrigation tariffs: +40% in real terms; average 41 millimes/m3 in 1993, about 63-75% of O&M cost depending on definition (SRC-TG-921, paras. vi, 31).
+- Irrigation tariffs: about 40% real increase (ICR summary; period and cumulative basis not stated); the body gives average annual real increases of 12% in 1991-93 and about 7% in 1994; average 41 millimes/m3 in 1993, about 63-75% of O&M cost depending on definition (SRC-TG-921, paras. vi, 31).
 - Rural credit subsidy budget cut by two-thirds (SRC-TG-921, para. vi).
 - No backtracking on subsidy cuts during the 1994 and 1995 droughts (SRC-TG-921, para. 59).
 - Income effects: realised price changes alone would have reduced value added by 1.3%; modelled real incomes fell by under 1% a year, except for low-income groups in the north and centre; net incomes of four representative rainfed farms (5-80 ha) were "stagnant at best" for small types and declined for the largest from 1989 (SRC-TG-921, paras. 62-63).
@@ -119,7 +119,7 @@ Medium. The policy chronology and subsidy amounts come from two World Bank compl
 
 ## Links to other sectors
 
-- **Water.** The programme raised irrigation tariffs by 40% in real terms and set a target of covering 100% of O&M costs per CRDA. In 1993 tariffs covered about 63-75% of O&M (SRC-TG-921). This is the origin of later irrigation water pricing debates (water lane, theme water-governance).
+- **Water.** The programme raised irrigation tariffs by about 40% in real terms (period not stated) and set a target of covering 100% of O&M costs per CRDA. In 1993 tariffs covered about 63-75% of O&M (SRC-TG-921). This is the origin of later irrigation water pricing debates (water lane, theme water-governance).
 - **Energy.** By 2008-2009, fuel subsidies were about 40% of agricultural input subsidies (SRC-TG-710). The input subsidy base had moved from fertiliser and feed (cut under PASA) to energy. The causal link to PASA is not established in the sources.
 
 ## Leads for phase 2
@@ -130,3 +130,9 @@ Medium. The policy chronology and subsidy amounts come from two World Bank compl
 - Variable levy on milk powder imports targeting 15% nominal protection (SRC-TG-921, paras. 19-20).
 - Binomial irrigation tariff decree (1992) and CRDA commercial cost accounting (SRC-TG-921, paras. 30-31).
 - Private cereal storage payments (monthly storage premiums), reported as successful (SRC-TG-921, para. 16).
+
+## Verification
+
+Programme chronology, subsidy amounts and NPCs were traced to the World Bank text versions of the ICR (SRC-TG-921) and PCR (SRC-TG-920) and local transcripts.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked: SRC-TG-921 ICR summary para. vi and paras. 13, 15, 26-28, 31, 62-63; SRC-TG-920 PCR paras. 1.05, 6.11-6.13 and Annex 2 Table 1 (durum and bread wheat rows opened again; the table gives actual to import-equivalent ratios of 0.75, 0.76, 0.86, 1.16, 1.37 for durum). Corrections: the claim that Annex 2 Table 1 shows the 1980-85 NPCs use import-equivalent prices removed, the report does not state their base; irrigation tariff "40% cumulative 1989-1995" changed to "about 40% real increase, period not stated" with the annual rates of the body added; the year 1995 removed from the cereal-collection and Super 45 statements. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

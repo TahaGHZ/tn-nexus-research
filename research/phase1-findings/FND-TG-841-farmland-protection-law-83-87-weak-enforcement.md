@@ -156,3 +156,9 @@ The legal history from 1983 to 1996 rests on gazette texts (tier A: SRC-TG-840, 
 - Governorate safeguard-zone decrees and agricultural land protection maps (e.g. Ben Arous decree 2005-2765, Sfax decree 2007-2740, Nabeul decree 86-104, Gafsa decree 88-692)
 - Code de l'aménagement du territoire et de l'urbanisme (law 94-122), arts. 80-84 on building offences
 - National technical commission for delimiting zones to declassify in PAU studies (ministerial council of 29 October 2005), cited in SRC-TG-845
+
+## Verification
+
+The legal history 1983-1996 and the decree and arrêté cases were traced to the gazette scans (FAOLEX copies). The 2019-2023 loosening rests on a tier C legal-database summary (SRC-TG-853) and its original texts (law 2019-47, decree-law 2022-68, the arrêté of 3 May 2023) were not opened; that caveat stands.
+
+**Independent review, 21 November 2026:** pass. Checked: SRC-TG-840 arts. 4, 6, 8, 14; SRC-TG-841 arts. 11 and 13 (nouveau); SRC-TG-842 arts. 8, 10, 13, 14 (nouveau) and the repeal of art. 13 bis; SRC-TG-843 (arrêté of 24 March 2022 and, opened again, decree 2022-57 of 26 January 2022, 1.40 ha, Sakiet Ezzit); SRC-TG-844 (decrees 2008-157 and 2008-158 and, opened again, decree 2024-59 of 11 January 2024, whose visas cite decree-law 2022-68 and which repeals decree 2018-484); SRC-TG-845 (penalty reading and 2011 remark); SRC-TG-853 (sections a to c). No corrections. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.
