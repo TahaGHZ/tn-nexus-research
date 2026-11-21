@@ -27,15 +27,35 @@ Résumé, recommendations, p. xi-xii:
 
 English gloss: Recommendations: ensure milk is bought whatever the season with harmonised acceptance standards and rigorous control; develop on-farm cooling for small and medium producers with dairies and collection centres; apply acceptance standards strictly all year through a charter between dairies; reduce waiting time for milk at dairies in the high-lactation season by planning deliveries with a shared IT application.
 
+p. 26 (text above Tableau 6, Bizerte farms):
+
+> Selon les déclarations fournies par les éleveurs à Bizerte, 33 d'entre eux estiment que se sont les résidus d'antibiotiques qui sont la cause de cette perte, suivie de la haute lactation pour un nombre de 24 éleveurs et ensuite vient le délai entre la traite et le ramassage du lait par le transporteur pour 15 éleveurs (tableau 6).
+
+p. 26-27 (text above Tableau 7, Mahdia farms):
+
+> Pour ce qui est des éleveurs de Mahdia, 59 d'entre eux estiment que ce sont les moyens financiers qui sont la cause des pertes de lait, suivie des résidus antibiotiques pour 24 éleveurs et les normes d'acceptation de lait de la part des centres de collecte de lait pour 21 éleveurs (voir tableau 7).
+
+English gloss: Bizerte farmers most often name antibiotic residues (33), then high lactation (24), then delay between milking and pick-up (15). Mahdia farmers most often name lack of financial means (59), then antibiotic residues (24), then collection-centre acceptance standards (21).
+
 p. 27 (Tableau 7, causes at Mahdia farms): causes listed include "Hygiène de la traite", "Délai entre traite et ramassage", "Froid à la ferme", "Normes d'acceptation des centres de collecte du lait", "Absence de contrats de vente", "Moyens de financement", "Résidus antibiotiques".
 
 p. 30 (transporters):
+
+> En termes de pourcentage, le taux de perte de lait est de 2,10 pour cent à Bizerte et de 0,84 pour cent à Mahdia (figure 20).
+
+p. 31-32 (collection centres, Tableau 12):
+
+> L'estimation des pertes de lait en pourcentage au niveau des centres de collecte est de 2,28 pour cent à Bizerte et de 1,81 pour cent à Mahdia (voir figure 24 et tableau 12).
+
+English gloss: Transport losses are 2.10% (Bizerte) and 0.84% (Mahdia); collection-centre losses 2.28% and 1.81%. Added together they give the "Collecte" row of Tableau 13 (4.38% and 2.65%).
+
+p. 30 (transporters, causes):
 
 > pour Bizerte: la qualité physicochimique du lait pour 91 pour cent des transporteurs, les fraudes pour 36 pour cent des transporteurs et la qualité microbiologique du lait pour 27 pour cent des transporteurs; - pour Mahdia: la qualité microbiologique du lait pour 50 pour cent des transporteurs et les fraudes pour 50 pour cent des transporteurs.
 
 English gloss: Farm-level causes of loss include milking hygiene, delay between milking and pick-up, lack of cooling, collection-centre acceptance standards, absence of sales contracts, financing and antibiotic residues. Transporters cite physico-chemical quality, fraud and microbiological quality.
 
-p. 37 (collection-centre quality bonuses): "Bonus flores totales: 0,010 TND/litre si germes totaux sont inférieurs à 1 million ou 0,005 TND/litre si les germes totaux sont inférieurs à 2 millions/ml." "Bonus prime de fidélité: 0,010 TND/litre."
+p. 37 (quality-based payment by the Vitalait dairy, Mahdia): "La laiterie de Vitalait (à Mahdia) a mis en place un système de paiement du lait à la qualité comme suit:" with separate scales "Pour les centres de collecte" and "Pour les éleveurs". The amounts below are from the scale for farmers ("Pour les éleveurs"): "Bonus flores totales: 0,010 TND/litre si germes totaux sont inférieurs à 1 million ou 0,005 TND/litre si les germes totaux sont inférieurs à 2 millions/ml." "Bonus prime de fidélité: 0,010 TND/litre."
 
 p. 24 (Froid à la ferme):
 
@@ -72,5 +92,6 @@ English gloss: Stage loss rates for 2017; totals of 9.84% (Bizerte) and 6.88% (M
 
 - Two governorates only (Bizerte, Mahdia); survey July-October 2017 (400 farmers, transporters, collection centres, two dairies). Not a national estimate.
 - Internal inconsistency: the summary gives 9.1% / 6.5%, Tableaux 13 and 16 give 9.84% / 6.88%. The table totals equal the simple sum of the three stage rates, each on a different volume base, so they are not a chain-weighted loss rate. Neither the method behind 9.1/6.5 nor the reason for the difference is explained.
-- Collection-stage rate for Bizerte is 4.38% in Tableau 13; press reports of the same study give 2.28% (see SRC-TG-908).
+- The "Collecte" stage in Tableau 13 (4.38% Bizerte, 2.65% Mahdia) is the sum of transport (2.10% / 0.84%, p. 30) and collection centres (2.28% / 1.81%, Tableau 12). Press (SRC-TG-908) reports the collection-centre sub-stage; there is no discrepancy.
+- In Tableau 13 the Mahdia processing base is 180 million litres, above Mahdia's 130 million litres of production, so it includes milk from outside the governorate. Processing losses (6.30 million litres, 7.56 of 11.28 million TND) are about 61% of Mahdia's lost volume and occur at the dairy, not on farms. The 20.1 million litres total and the 1,220 TND "per farmer" shortfall in Mahdia should be read with this in mind.
 - The water impact uses 10 L of water per litre of milk without a cited reference, so 201 million litres is 10 x 20.1 million litres of milk and is a narrow metric, not a full water footprint.

@@ -69,11 +69,11 @@ PDF p. 55:
 
 English gloss: OC's share of physical collection fell from 32% in 2005 to 2% in 2012, in favour of private operators (58%) and agricultural service cooperatives (40%).
 
-PDF p. 121, trend micro-scenario (H1, "au fil de l'eau"), horizon 2035, V12-H1:
+PDF p. 116 (printed p. 114; page corrected by source-verifier, previously given as p. 121), trend micro-scenario (H1, "au fil de l'eau"), horizon 2035, V12-H1:
 
 > La dépendance au marché international se poursuit pour les produits de base et les intrants (Taux de dépendance moyen des céréales 57% dont le Blé tendre avec 84%, le blé dur 41% et l'orge 51%)
 
-PDF p. 108, footnote 94 to the same figures:
+PDF p. 108, footnote 94 to the same figures: (footnote text not found again by text search on re-check; page unconfirmed)
 
 > Maintien de la moyenne des dix dernières années. Source : Observatoire Tunisien de l'Economie, 2023. Dépendance aux importations de blé.
 

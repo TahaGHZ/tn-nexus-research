@@ -33,7 +33,11 @@ Materials and methods, p. 128:
 
 Results, p. 131 to 132:
 
+> More than 20% have no idea about the recommended dosage of the PPPs and use them based on their experience or according to their supplier indications. The majority harvest their products without respect of the PHI, sometimes the day after treatment. Regarding security, 57 operators never wear Plant Protection Equipment (PPE) during mixing and loading or cleaning of the spray equipment.
+
 > very few wear appropriate protective equipment such as gloves (8.3%), aprons (15%) or special clothing (22%).
+
+(The 8.3% glove figure refers to farm workers re-entering treated greenhouses after treatment.)
 
 > Problems are mainly linked to regulation weaknesses, the lack of awareness and monitoring, but also to the inefficacy of some PPP leading them to increase the dosage or application frequency.
 

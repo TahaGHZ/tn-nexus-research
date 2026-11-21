@@ -17,6 +17,8 @@ p. 1, "The strategic importance of Tunisia's rangelands":
 
 > Tunisia's rangelands occupy approximately 5.5 million hectares (ha), 87 percent of which are in arid and desert areas. They provide the main feed source of traditional livestock rearing systems
 
+> The corresponding losses are estimated at 74 million TND – or 18 percent of the economic value of rangeland products and services (Croitoru and Daly, 2015; Sarniguet, Bruzon and Makhlouf, 1995).
+
 > From 2005 to 2012, some 600,000 ha of productive rangeland were lost at a rate of approximately 34,000 ha per year.
 
 > Degradation is driven by a combination of pressures, including population growth, overgrazing, and the worsening impacts of climate change—Tunisia and the North Africa region are expected to become drought hotspots over the coming decades.
@@ -39,4 +41,4 @@ English gloss: not needed (English).
 
 ## Notes
 
-Co-authored with an OEP officer. Internal inconsistencies: 600,000 ha over 2005-2012 is about 86,000 ha a year, not "34,000 ha per year"; the brief also converts 1,062 million TND to "US$ 340 000", plainly an error. Only the 5.5 million ha, the 87% arid share and the 600,000 ha (2005-2012) figures are used, and the latter matches SRC-TG-767 (6.1 to 5.5 million ha). Both rest on Croitoru and Daly (2015), so they are one underlying source. The "drought hotspot" statement is qualitative, not a quantified projection.
+Co-authored with an OEP officer. Internal inconsistencies: 600,000 ha over 2005-2012 is about 86,000 ha a year, not "34,000 ha per year"; the brief also converts 1,062 million TND to "US$ 340 000", plainly an error. The 74 million TND (18%) loss figure conflicts with the 224 million TND per year (21.1%) degradation cost in SRC-TG-767, although both appear to rest on Croitoru and Daly (2015); the brief does not say whether 74 million is annual. Only the 5.5 million ha, the 87% arid share and the 600,000 ha (2005-2012) figures are used, and the latter matches SRC-TG-767 (6.1 to 5.5 million ha). Both rest on Croitoru and Daly (2015), so they are one underlying source. The "drought hotspot" statement is qualitative, not a quantified projection.

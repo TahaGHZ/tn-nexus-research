@@ -39,4 +39,4 @@ English gloss: Tunisia exported 286,190 t of DAP worth US$182.7 million in 2023,
 
 ## Notes
 
-netWgt is in kg; primaryValue is in current US$ (CIF for imports, FOB for exports). The 2023 query for vegetable seed exports (flowCode=X) returned no record; treated as missing, not zero. Queries for ammonium nitrate imports (HS 310230) returned 5,190 t for 2023 and a 2021 record with netWgt 0. Both are inconsistent with the 60,000 t import reported by FAO (SRC-TG-820), so they are not used. Partner (mirror) data were not checked.
+The DAP and ammonia records also carry a classificationCode (H6 for 2023, H3 for 2010 as reported by the source-verifier), not copied above. netWgt is in kg; primaryValue is in current US$ (CIF for imports, FOB for exports). The 2023 query for vegetable seed exports (flowCode=X) returned no record; treated as missing, not zero. Queries for ammonium nitrate imports (HS 310230) returned 5,190 t for 2023 and a 2021 record with netWgt 0. Both are inconsistent with the 60,000 t import reported by FAO (SRC-TG-820), so they are not used. Partner (mirror) data were not checked.

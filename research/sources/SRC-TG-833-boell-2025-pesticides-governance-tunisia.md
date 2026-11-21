@@ -23,6 +23,8 @@ added_by: TahaGHZ
 
 > The study ultimately highlighted that a large percentage of the farmers surveyed (81 percent) had a low level of education (primary and secondary), and that 91 percent had not received training on best practices for pesticides use.
 
+> Although they are aware of their importance, various reasons were cited for not using PPE, such as high costs (no subsidy scheme), unavailability on the market, bulkiness, or unsuitability due to high temperatures.
+
 > This is evident from practices such as 'burning empty packaging outdoors' (63 percent), 'abandoning waste in nature' (30 percent), 'storing pesticide at homes' (22 percent), and frequently disregarding the recommended dosages and pre-harvest intervals.
 
 > Law No. 92-72 of 3 August 1992, and its implementing decree No. 92-2246 of 28 December 1992,

@@ -29,4 +29,4 @@ English gloss: Average losses on cereal farms range from 4.6% (Bizerte) to 7.3% 
 
 - Press summary of the FAO/MARHP/INC phase 2 loss estimates; the cereal loss report itself was not found online.
 - Disagrees with SRC-TG-909, which gives 3.6% (Bizerte) to 5.4% (Siliana) "post-récolte" for the same study. The two may measure different scopes (farm stage vs whole post-harvest), but neither article says so.
-- The milk collection-centre rate for Bizerte (2.28%) differs from the 4.38% collection rate in the FAO report's Tableau 13 (SRC-TG-902).
+- The milk collection-centre rates (2.28% Bizerte, 1.81% Mahdia) match the FAO report's collection-centre sub-stage (Tableau 12, SRC-TG-902); the report's "Collecte" stage of 4.38% / 2.65% adds transport losses (2.10% / 0.84%).

@@ -27,6 +27,14 @@ p. 43:
 
 English gloss: In the 2020-21 cereal season, fertiliser consumption fell to only 9,000 t TSP, 153,000 t ammonium nitrate and 71,000 t DAP.
 
+Figure 25, p. 43, title and ammonium nitrate data labels (thousand tonnes, seasons 2010-2011 to 2020-2021 in order), as read from the text layer:
+
+> figure 25. Évolution des quantités d'engrais utilisées en céréaliculture (1 000 tonnes)
+
+> 152 188 176 214 196 194 181 187 190 157 153
+
+English gloss: Fertiliser used in cereal growing. Ammonium nitrate on cereals: 152 kt (2010-11), 188, 176, 214, 196, 194, 181, 187, 190, 157 and 153 kt (2020-21).
+
 p. 43:
 
 > Force est de rappeler que le Groupe chimique tunisien (GCT) traverse depuis quelques années de grandes difficultés pour poursuivre sa production des engrais phosphatés destinés essentiellement au marché national, notamment l'ammonitrate agricole et le di-ammonium phosphate70. En 2020, le manque des engrais sur le marché intérieur, a contraint les autorités en place à importer, via le GCT, 60 000 tonnes d'ammonitrate, principalement de la Fédération de Russie. Ces achats d'un montant de 45 MDT sont destinés principalement à couvrir les besoins des grandes cultures.
@@ -80,4 +88,4 @@ English gloss: Strengthen subsidies on selected and certified cereal seed prices
 
 ## Notes
 
-FAO-published study by named authors; views are the authors'. Fertiliser need figures come from a 2021 ministerial press release; the consumption series (figure 25) is built from DGEDA and ONAGRI data. Chart values in figures 25 and 27 were scrambled in text extraction and are not used; only running-text figures are cited. The 25% coverage figure is attributed only to "certaines sources" and is weak. The statement that GCT fertilisers are "destinés essentiellement au marché national" should be read against UN Comtrade data showing large DAP exports (SRC-TG-824).
+FAO-published study by named authors; views are the authors'. Fertiliser "need" figures come from a ministerial press release; SRC-TG-836 shows they are the quantities programmed for the 2020/21 season. The consumption series (figure 25, built from DGEDA and ONAGRI data) covers cereals only, not all crops. The figure 25 ammonium nitrate labels are legible in the text layer (series ordered from 2010-11 to 2020-21, one value per season); DAP and TSP labels and figure 27 values are less clearly ordered and are not used. The 25% coverage figure is attributed only to "certaines sources" and is weak. The statement that GCT fertilisers are "destinés essentiellement au marché national" should be read against UN Comtrade data showing large DAP exports (SRC-TG-824).

@@ -37,6 +37,10 @@ English gloss: extensions are illicit because their boreholes lie in the safegua
 
 English gloss: the administration once tried coercive measures (seizing drilling rigs, prosecutions), but they were short-lived and had very little effect, leading in practice to laisser-faire.
 
+> "Dans les anciennes oasis de Kébili, les agriculteurs ont en général accès à l'eau dans le cadre de périmètres public irrigués (PPI). Ces oasis souffrent aujourd'hui d'une grande vulnérabilité : les parcelles sont très petites et morcelées, la pénurie d'eau touche la plupart des exploitations et la rentabilité est faible. Ces difficultés expliquent que de nombreux agriculteurs familiaux donnent une moindre importance aux terres dans les anciennes oasis, voire parfois les abandonnent, et préfèrent se concentrer sur les extensions."
+
+English gloss: old oases are very vulnerable (very small fragmented plots, water shortage on most farms, low profitability), so many family farmers neglect or sometimes abandon their old-oasis land and concentrate on extensions.
+
 ## Notes
 
 Policy brief (September 2024) from the Massire project (2019-2024), by the same research team as SRC-TG-740, so its 80% share is not independent of SRC-TG-740's 85%; both are recorded. The decree numbers and dates are cited by the brief; the JORT texts themselves were not opened. Ligatures "fi" were missing in the PDF text ("dé ni", "identi er") and are restored above.
