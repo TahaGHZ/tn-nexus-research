@@ -75,6 +75,33 @@ p. 17, 4.3, same list (added for FND-TG-132):
 English gloss: relaunch oil and gas exploration, with an indicative target of 30 wells by 2035.
 Rehabilitate and extend the STIR refinery (50% more capacity) before 2030.
 
+p. 12, text before Figure 3 (added for FND-TG-292):
+
+> L'Efficacité énergétique et la sobriété énergétique permettent la maîtrise de la demande finale dont l'intensité énergétique baisserait à un taux moyen d'environ 2,8% par an entre 2021 et 2035.
+
+English gloss: under the strategy, final energy intensity would fall by about 2.8% a year on
+average between 2021 and 2035.
+
+p. 13, text before Figure 4 "Evolution de l'intensité d'énergie primaire selon les scénarios":
+
+> L'intensité énergétique primaire devrait baisser à un rythme annuel moyen de 3.6%.
+
+English gloss: primary energy intensity should fall by 3.6% a year on average (2021-2035). The
+Figure 4 data labels (0.135, 0.147, 0.146, 0.143, 0.130, 0.103, 0.085) are not tied to years or
+units in the text layer and are not used.
+
+p. 17, "Energies renouvelables et efficacité énergétique":
+
+> Développement de larges programmes d'efficacité énergétique dans les secteurs de l'industrie, bâtiment et transport.
+
+p. 19, "Le renforcement de l'efficacité énergétique et des énergies renouvelables":
+
+> Réviser le cadre réglementaire de l'efficacité énergétique et réformer le Fonds de Transition Energétique (FTE) afin de renforcer la politique de maîtrise de la demande d'énergie.
+
+English gloss: the strategy calls for large efficiency programmes in industry, buildings and
+transport, and a revision of the energy-efficiency regulatory framework and of the Energy
+Transition Fund.
+
 ## Notes
 
 This is a synthesis only. The full strategy and its modelling (scenarios, electricity demand,
