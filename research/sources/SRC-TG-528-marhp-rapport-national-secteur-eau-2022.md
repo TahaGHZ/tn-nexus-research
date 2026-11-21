@@ -55,6 +55,36 @@ Section III.3.1, printed pages 77-78:
 
 English gloss: Rehabilitation projects aim at 80% network efficiency "instead of nearly 50% currently". They are generally much delayed: the 9,000 ha central PPI project planned for 2018-2022 is only 40% complete.
 
+Section III.3, printed page 77:
+
+> L'année 2022 a vu l'entrée en exploitation de 4 nouveaux PPI, sur une surface de 1049 ha. Ces périmètres sont situés dans les gouvernorats de Tataouine, Sousse, Gafsa et Gabes. Ils sont implantés autour des forages. Par ailleurs, la réhabilitation de 1072 ha répartis sur 12 PPI a été achevée au cours de l'année.
+
+> La surface totale des PPI faisant l'objet de projets d'aménagement en cours de réalisation en 2022 a atteint près de 58 000 ha répartis sur 21 gouvernorats. [...] Le cout total de ces projets est de 909,303 Millions de dinars.
+
+English gloss: In 2022 four new borehole-based PPIs (1,049 ha) came into operation, and rehabilitation of 1,072 ha on 12 PPIs was completed. Projects under way covered about 58,000 ha in 21 governorates, costing 909.3 MTND.
+
+Section III.3.1, printed page 78 (reasons for delay):
+
+> retards dans la réalisation des études, retards dans les procédures de passation des marchés, problèmes fonciers d'expropriation des terres et refus des riverains de l'implantation des ouvrages sur leurs terrains, difficultés compte tenu des multiples intervenants dans les différentes composantes des projets, résiliation des marchés, manque de certains matériaux de construction et leur prix exagérément élevé, refus de bénéficiaires de participer financièrement au projet de la valorisation des PPI du Centre, retard dans la création de l'entreprise publique chargée de la gestion des PPI pour le PIAIT
+
+> Le PIAIT est sur la voie d'une restructuration, qui devrait permettre d'accélérer les décaissements et les résultats de terrain, en favorisant le financement des travaux de réhabilitation de la composante 2 (accroissement budgétaire pour couvrir les surcoûts) [...] et ce, au détriment de la composante 3 de mise en valeur et commercialisation / valorisation de l'eau.
+
+English gloss: Delays come from late studies and procurement, land expropriation disputes, multiple actors, contract terminations, scarce and costly materials, beneficiaries refusing to co-finance the central PPI project, and late creation of the PIAIT management company. PIAIT is being restructured to fund cost overruns on rehabilitation works at the expense of its crop-valorisation component.
+
+Section III.3.2, printed page 78 (assets):
+
+> Les PPI abritent de multiples équipements et systèmes hydrauliques : 1358 stations de pompage de faible et moyenne capacités, 90 grandes stations de pompage, 500 000 km de réseaux d'irrigation, 21 000 km de réseaux d'assainissement et drainage, 8 000 km de pistes agricoles.
+
+English gloss: PPIs contain 1,358 small and medium pumping stations, 90 large pumping stations, "500,000 km" of irrigation networks (as printed; likely an error), 21,000 km of drainage and 8,000 km of farm tracks.
+
+Section III.4, printed pages 78-79:
+
+> Refus de paiement de la part des exploitants pour de multiples raisons : revenus insuffisants, volumes facturés mis en cause, mauvaise qualité de service avec des pannes et arrêts de distribution à l'origine de la perte de la production [...]
+
+> Envers la STEG, l'endettement des 10 CRDA qui gèrent des grandes stations de pompage (Bizerte, Nabeul, Ben Arous, Béja, Ariana, Kairouan, Siliana, Gafsa, Jendouba, Manouba) a atteint 49 MD dont 24 pour le CRDA de Jendouba et 8,8 pour le CRDA de Béja.
+
+English gloss: Farmers refuse to pay for several reasons, including poor service with breakdowns and interruptions causing crop losses. The 10 CRDAs running large pumping stations owed STEG 49 MTND (Jendouba 24, Béja 8.8).
+
 Section III.3.2, printed page 78:
 
 > Un budget de 22,2 millions de dinars (MD) a été réservé pour la maintenance de ces infrastructures. En plus, un budget de 18,9 MD à l'amélioration des conditions de leur exploitation. [...] Toutefois, une bonne partie des actions de l'amélioration des conditions d'exploitation, estimée à près de 50%, a été reportée pour insuffisance de crédits.

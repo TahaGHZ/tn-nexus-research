@@ -95,7 +95,7 @@ English gloss: The 2022-23 drought raised the irrigated share of olive productio
 
 Section I.8 "L'économie de l'eau d'irrigation", printed page 53:
 
-> le Programme National d'Economie de l'Eau en Irrigation PNEEI a permis d'équiper 424 700 ha en équipements d'économie d'eau à la parcelle sur 442 000 ha de PI. [...] Les investissements pour l'équipement en économie d'eau ont atteint depuis le démarrage du PNEE en 1995 jusqu'à 2023, le montant de 1692 MDT dont 768 MDT de subventions.
+> Le taux d'équipement des PI est un indicateur GBO pour la gestion de l'eau à la demande (Indicateur 3.1.1). [...] le Programme National d'Economie de l'Eau en Irrigation PNEEI a permis d'équiper 424 700 ha en équipements d'économie d'eau à la parcelle sur 442 000 ha de PI. [...] Les investissements pour l'équipement en économie d'eau ont atteint depuis le démarrage du PNEE en 1995 jusqu'à 2023, le montant de 1692 MDT dont 768 MDT de subventions.
 
 English gloss: PNEEI has equipped 424,700 of 442,000 ha of irrigated perimeters; investment 1995-2023 totalled 1,692 MTND including 768 MTND of subsidies.
 

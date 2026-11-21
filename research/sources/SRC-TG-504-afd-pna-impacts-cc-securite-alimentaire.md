@@ -118,6 +118,18 @@ Table 30, printed page 115 (`pdftotext -raw`). Columns: 2018 MARHP | ITES 2050 |
 
 English gloss: Total demand is 3,103 Mm3 (2018), 3,976 Mm3 (STUDI 2050), 4,117 Mm3 (PNA RCP8.5 2050) and 4,255 Mm3 (2100). Conventional resources go from 4,508 Mm3 (2018) to 3,101 (STUDI 2050), 2,912 (PNA RCP8.5 2050) and 1,689 Mm3 (2100). Total resources are 4,574, 4,594 (STUDI, including 626 non-conventional and 867 savings), 2,978 and 1,755 Mm3. The balance is +1,471, +1,208, +618, -1,139 and -2,500 Mm3. Coverage of demand is 147%, 137%, 116%, 72% and 41%.
 
+Printed page 115, below Table 30 (the ITES column):
+
+> Les prévisions déjà publiées à l'horizon 2050 (ITES) se basent sur l'hypothèse d'une baisse maitrisée de la demande en eau agricole et sur une augmentation sensible de la demande en eau potable tous secteurs confondus (domestique, industriel, touristique) selon le MARHP dans la stratégie EAU2030, mais ne tient pas compte les effets du CC sur les ressources comme sur la demande.
+
+English gloss: The earlier published 2050 projections (ITES) assume a controlled fall in agricultural water demand and a marked rise in drinking-water demand (MARHP Eau 2030 strategy), but do not account for climate change effects on resources or demand.
+
+Printed page 116 (reuse of STUDI-GKW inputs):
+
+> Les hypothèses retenues dans la présente étude tiennent compte des calculs de STUDI-GKW sur les ressources et la demande en eau agricole et eau potable.
+
+English gloss: This study's assumptions take into account STUDI-GKW's calculations of resources and of agricultural and drinking-water demand.
+
 Printed page 116, text after Table 30:
 
 > Les ressources conventionnelles mobilisables (eaux bleues) pourraient diminuer de 35% en 2050 et de 63% en 2100 par rapport aux observations de 2018. L'estimation pour l'horizon 2050 est très proche (- 6%) de celle proposée par STUDI-GKW.

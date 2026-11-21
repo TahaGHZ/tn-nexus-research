@@ -1,7 +1,7 @@
 ---
 id: FND-TG-501
 title: Without action, Tunisia's water balance is projected to turn negative by 2030-2050, leaving about 28% of demand unmet by 2050 under RCP8.5
-status: draft
+status: in-review
 sectors: [water, agriculture, energy]
 theme: water-governance
 timeframe: predicted
@@ -125,7 +125,7 @@ sources: [SRC-TG-482, SRC-TG-503, SRC-TG-504, SRC-TG-506, SRC-TG-507, SRC-TG-508
 data_gaps:
   - The Eau 2050 "do-nothing" balance behind the 2030 "crash hydrique" statement; the synthesis gives the conclusion but no figures (stage-3 report not opened)
   - MARHP 2022 source and definition for 357 to 268 m3/capita; not opened
-  - Independent (non-AFD) national projection of the 2050 supply-demand gap; the CCDR figure derives from the AFD study
+  - Independent (non-AFD) national projection of the 2050 supply-demand gap; the CCDR figure derives from the AFD study. The source-verifier found none. The ITES 2019 "Tunisie Eau 2050" report (surplus, no climate change) is known only through AFD Table 30 and was not opened
   - WRI Aqueduct 2030/2050 baseline water stress projections for Tunisia; not opened
   - Projected drinking-water demand under other population variants (UN high and low variants are shown in SRC-TG-504 but were not extracted)
 author: TahaGHZ
@@ -148,18 +148,20 @@ The Eau 2050 diagnostic, run on the ministry's hydro-economic model, concluded t
    - Supply has always been at subsidised tariffs "entirely disconnected from costs".
    - The arid character of the country was not sufficiently taken into account.
    - Irrigated agriculture uses 80% of resources and is "far from operating at its optimum".
-   (SRC-TG-503.) This supply-led model explains why demand was allowed to exceed renewable supply (groundwater exploitation above 100%) before any climate signal (SRC-TG-503, SRC-TG-504).
+   (SRC-TG-503.) The synthesis presents these as background factors, not as stated causes of overexploitation. The causal link is stated by the World Bank: the low cost of irrigation water has led to its over-exploitation, and the public-scheme price has been unchanged since 2004 (SRC-TG-482). Together they explain why demand was allowed to exceed renewable supply (groundwater exploitation above 100%) before any climate signal (SRC-TG-503, SRC-TG-504, SRC-TG-482).
 
 ## Evidence
 
 **Supply-demand balances compared (AFD/PNA Table 30, SRC-TG-504)**
 
-| | 2018 (MARHP) | Eau 2050 / STUDI 2050 | PNA RCP8.5 2050 | PNA RCP8.5 2100 |
-|---|---|---|---|---|
-| Agricultural demand (Mm3) | 2,440 | 3,063 | 3,204 | 3,342 |
-| Total resources (Mm3) | 4,574 | 4,594 | 2,978 | 1,755 |
-| Balance (Mm3) | +1,471 | +618 | -1,139 | -2,500 |
-| Coverage of demand | 147% | 116% | 72% | 41% |
+| | 2018 (MARHP) | ITES 2050 (no climate change) | Eau 2050 / STUDI 2050 | PNA RCP8.5 2050 | PNA RCP8.5 2100 |
+|---|---|---|---|---|---|
+| Agricultural demand (Mm3) | 2,440 | 2,000 | 3,063 | 3,204 | 3,342 |
+| Total resources (Mm3) | 4,574 | 4,508 | 4,594 | 2,978 | 1,755 |
+| Balance (Mm3) | +1,471 | +1,208 | +618 | -1,139 | -2,500 |
+| Coverage of demand | 147% | 137% | 116% | 72% | 41% |
+
+The ITES column is the earlier published 2050 projection. It assumes a controlled fall in agricultural demand and ignores climate effects on resources and demand, and it shows a surplus (SRC-TG-504).
 
 The STUDI (Eau 2050) column reaches +16% only by adding 626 Mm3 of non-conventional water (ten times current volumes) and about 900 Mm3 of water savings. The AFD study calls this conditional on the investments being made (SRC-TG-504). The Eau 2050 synthesis table reaches balance in 2050 only under its strategy scenario, with irrigation demand assumed to fall from 3,382 to 2,502 Mm3 (SRC-TG-503).
 
@@ -183,7 +185,7 @@ The CCDR figures (210 and 122 m3) do not appear in the final April 2021 AFD stud
 
 ## Why confidence is what it is
 
-- **Solid.** Current overexploitation (exploitation above 100% of resources) appears in two independent tier-B sources (SRC-TG-503, SRC-TG-504). Every no-action projection shows a gap by 2050.
+- **Solid.** Current overexploitation (exploitation above 100% of resources) appears in two tier-B sources (SRC-TG-503, SRC-TG-504). They are not independent: the AFD study reuses STUDI-GKW (Eau 2050) calculations, and its 2018 column is MARHP data (SRC-TG-504). Every no-action projection shows a gap by 2050.
 - **Thin.** The quantified 2050 deficit (1,139 Mm3 / 28%) rests on a single study (AFD/PNA). The CCDR repeats it rather than confirming it. The 2030 "water crash" is stated in the official strategy without figures in the synthesis.
 - **Scenario-dependent.** The official strategy shows the gap can close on paper only with large investment. Its own synthesis estimates the required annual investment at 63% of the whole public capital budget (Titre II), "inenvisageable" (SRC-TG-503).
 - All sources are tier B. Hence `medium`.
@@ -191,7 +193,7 @@ The CCDR figures (210 and 122 m3) do not appear in the final April 2021 AFD stud
 ## Links to other sectors
 
 - **Agriculture.** Agriculture uses three quarters of exploited resources: 2.4 billion m3 for 406,540 ha in 2018, 84% from groundwater (SRC-TG-504). Quotas for public irrigated schemes were cut to 27% of normal supply in the third drought year of 2015-2018 (SRC-TG-504). The CCDR projects agricultural value added falling 15% by 2030 and 29% by 2050 under RCP8.5 inaction, driven largely by water shortages (English executive summary, SRC-TG-482). The AFD study notes that net virtual-water imports (4.7 billion m3 in 2013) already exceed national mobilisable resources (SRC-TG-504).
-- **Energy.** Closing the gap with desalination and deeper pumping raises energy demand. The CCDR reports that SONEDE's "average energy cost" of drinking water rose from 0.82 DT/m3 (2015) to 1.30 DT/m3 (2021) after its desalination plants came online (SRC-TG-482, SRC-TG-482). SRC-TG-482 notes that this series is probably total cost, mislabelled as energy cost.
+- **Energy.** Closing the gap with desalination raises energy demand. SONEDE's reliance on desalination has already raised its energy costs (0.67 kWh/m3 in 2021). The CCDR reports that SONEDE's "average energy cost" of drinking water rose from 0.82 DT/m3 (2015) to 1.30 DT/m3 (2021) after its desalination plants came online (SRC-TG-482). SRC-TG-482 notes that this series is probably total cost, mislabelled as energy cost.
 
 ## Leads for phase 2
 

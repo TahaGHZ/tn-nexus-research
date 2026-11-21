@@ -85,7 +85,7 @@ data_gaps:
   - "Number of meters installed or replaced per year and the post-2017 meter coverage rate were not found."
   - "Total PPI rehabilitation needs (ha, MTND) against annual budgets were not found. Only 2022 figures exist: 58,000 ha under way for 909 MTND, and 22.2 MTND for maintenance."
   - "Sources disagree on intensification: the 2017 report calls PPI use 'insatisfaisante', with under-use of equipped areas (SRC-TG-402, p. 72); the 2024 report gives an average intensification of about 90% (SRC-TG-530). Definitions are not given in the passages read."
-  - "Extracts to add to SRC-TG-402 (not edited): p. 71 (efficiencies 38-100%, mean 59% over 2010-2016; norm about 10% losses for pressurised networks; low efficiency due mainly to 'pertes administratives'; about 40% of irrigators have meters; vandalism after 2011; users used to 'une eau quasi gratuite'; over-irrigation from not knowing crop water needs), p. 72 (under-use of equipped PPI areas, low intensification) and p. 73 (strengthen the PPI monitoring system: equipped area, actually irrigated area, consumption)."
+  - "Extracts to add to SRC-TG-402 (not edited): p. 70 (rehabilitated networks have a modest lifetime), p. 71 (efficiencies 38-100%, mean 59% over 2010-2016; norm about 10% losses for pressurised networks; low efficiency due mainly to 'pertes administratives'; about 40% of irrigators have meters; vandalism after 2011; users used to 'une eau quasi gratuite'; over-irrigation from not knowing crop water needs), p. 72 (under-use of equipped PPI areas, low intensification; farmers buying poor-quality equipment on the informal market, citing the PNEEI evaluation) and p. 73 (strengthen the PPI monitoring system: equipped area, actually irrigated area, consumption)."
   - "Extract to add to SRC-TG-430: p. 12 (in large northern PPIs irrigation demand rarely exceeds 60% of allocations; on-farm efficiency often 50-60%)."
 author: TahaGHZ
 ---
@@ -109,7 +109,7 @@ Water delivered in bulk to Tunisia's public irrigated perimeters (PPI, about 250
 - Utilisation and intensification of the perimeters: the 2017 report calls water use in PPIs "insatisfaisante", with under-use of equipped areas and low intensification (SRC-TG-402, p. 72). The 2024 report gives an average intensification rate of about 90%, "très variable d'un périmètre à un autre" (SRC-TG-530, p. 7). **These two statements disagree**, and the definitions are not given. Both are recorded.
 - Coverage: rehabilitation projects concern public perimeters only. Private perimeters, "close to 50%" of irrigated area, are not covered (SRC-TG-529, p. 83).
 
-**Representativeness.** The 59% figure comes from a sample of perimeters diagnosed in a tariff study. The 50% figure applies to perimeters selected for rehabilitation, which are probably the worst. Neither is a census of the 1,350 PPIs. The direction is consistent across three ministry reports from 2007, 2017 and 2022.
+**Representativeness.** The 59% figure comes from a sample of perimeters diagnosed in a tariff study. The 50% figure applies to perimeters selected for rehabilitation, which are probably the worst. Neither is a census of the roughly 1,350 PPIs (SRC-TG-402, p. 65). The direction is consistent across three ministry reports from 2007, 2017 and 2022.
 
 ## Why confidence is what it is
 
