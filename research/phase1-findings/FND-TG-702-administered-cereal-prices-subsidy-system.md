@@ -15,22 +15,34 @@ root_causes:
     type: policy
     legacy_decision: true
     sources: [SRC-TG-705, SRC-TG-706, SRC-TG-711]
-  - cause: "Creation of the Caisse Générale de Compensation (1970 or 1971) to subsidise cereal products for all consumers; reform repeatedly postponed since the 1984 bread riots"
+  - cause: "Creation of the Caisse Générale de Compensation (1970 or 1971) to subsidise cereal products for all consumers; bread prices stay politically sensitive since the 1983-84 bread riots, and subsidy reform has been postponed so far"
     type: policy
     legacy_decision: true
     sources: [SRC-TG-700, SRC-TG-705, SRC-TG-706]
-  - cause: "CGC pays the Office des Céréales late and only partly, pushing it into bank debt"
-    type: institutional
+  - cause: "Subsidy needs rise with world grain prices and bad harvests, while budget transfers to the system do not keep pace"
+    type: economic
     legacy_decision: false
-    sources: [SRC-TG-705]
+    sources: [SRC-TG-700, SRC-TG-705]
 indicators:
-  - name: "CGC transfers due to OC vs received, 2022-2023"
-    value: "6,625 due / 2,543 received (38%)"
+  - name: "CGC transfers due to OC, 2022-2023"
+    value: 6625
     unit: million TND
     year: "2022-2023"
     geography: national
     source: SRC-TG-705
-  - name: "Office des Céréales debt to commercial banks"
+  - name: "CGC transfers actually received by OC, 2022-2023"
+    value: 2543
+    unit: million TND
+    year: "2022-2023"
+    geography: national
+    source: SRC-TG-705
+  - name: "Share of due CGC transfers received by OC, 2022-2023"
+    value: 38
+    unit: "%"
+    year: "2022-2023"
+    geography: national
+    source: SRC-TG-705
+  - name: "Office des Céréales debt to commercial banks (as of February 2024)"
     value: 6343
     unit: million TND
     year: 2024
@@ -42,57 +54,123 @@ indicators:
     year: 2023
     geography: national
     source: SRC-TG-705
-  - name: "Guaranteed farmgate price, durum / soft wheat / barley"
-    value: "1,300 / 1,000 / 800"
+  - name: "Guaranteed farmgate price, durum wheat"
+    value: 1300
     unit: TND per t
     year: 2023
     geography: national
     source: SRC-TG-700
-  - name: "Farmgate price increase 2021-2023, durum / soft wheat / barley"
-    value: "60.9 / 64.2 / 60.7"
+  - name: "Guaranteed farmgate price, soft wheat"
+    value: 1000
+    unit: TND per t
+    year: 2023
+    geography: national
+    source: SRC-TG-700
+  - name: "Guaranteed farmgate price, barley"
+    value: 800
+    unit: TND per t
+    year: 2023
+    geography: national
+    source: SRC-TG-700
+  - name: "Farmgate price increase 2021-2023, durum wheat"
+    value: 60.9
     unit: "%"
     year: 2023
     geography: national
     source: SRC-TG-705
-  - name: "Farmgate price vs OC import cost, durum / barley"
-    value: "3% / 14% below"
+  - name: "Farmgate price increase 2021-2023, soft wheat"
+    value: 64.2
+    unit: "%"
+    year: 2023
+    geography: national
+    source: SRC-TG-705
+  - name: "Farmgate price increase 2021-2023, barley"
+    value: 60.7
+    unit: "%"
+    year: 2023
+    geography: national
+    source: SRC-TG-705
+  - name: "Durum farmgate price below OC import cost (February 2024)"
+    value: 3
     unit: "%"
     year: 2024
     geography: national
     source: SRC-TG-705
-  - name: "Base producer price, durum / soft wheat (2011 harvest)"
-    value: "43 / 35"
+  - name: "Barley farmgate price below OC import cost (February 2024)"
+    value: 14
+    unit: "%"
+    year: 2024
+    geography: national
+    source: SRC-TG-705
+  - name: "Base producer price, durum wheat, 2011 harvest (decree 2012-754)"
+    value: 43
     unit: TND per quintal
     year: 2011
     geography: national
     source: SRC-TG-711
-  - name: "Budget cost of food subsidies"
-    value: "about 1.5 (2009), over 3 (2012)"
+  - name: "Base producer price, soft wheat, 2011 harvest (decree 2012-754)"
+    value: 35
+    unit: TND per quintal
+    year: 2011
+    geography: national
+    source: SRC-TG-711
+  - name: "Budget cost of food subsidies (approximately)"
+    value: 1.5
     unit: "% of GDP"
-    year: "2009-2012"
+    year: 2009
     geography: national
     source: SRC-TG-710
-  - name: "Daily waste of subsidised baguettes"
-    value: 900000
-    unit: baguettes per day
-    year: 2024
+  - name: "Budget cost of food subsidies (lower bound, 'over three percent')"
+    value: 3
+    unit: "% of GDP"
+    year: 2012
     geography: national
-    source: SRC-TG-705
+    source: SRC-TG-710
+  - name: "Household bread waste estimated by INC (relayed without date by the World Bank in 2024 and by ITES)"
+    value: 900000
+    unit: loaves per day
+    year: 2014
+    geography: national
+    source: SRC-TG-906
   - name: "Share of bread ('gros pain') subsidy reaching poorest two quintiles"
     value: 43.3
     unit: "%"
     year: 2022
     geography: national
     source: SRC-TG-705
-  - name: "OC share of physical grain collection"
-    value: "32 (2005) to 2 (2012)"
+  - name: "OC share of physical grain collection operations (ITES)"
+    value: 32
     unit: "%"
-    year: "2005-2012"
+    year: 2005
     geography: national
     source: SRC-TG-706
+  - name: "OC share of physical grain collection operations (ITES)"
+    value: 2
+    unit: "%"
+    year: 2012
+    geography: national
+    source: SRC-TG-706
+  - name: "Cereal Board collection as share of wheat production, low end of USDA range"
+    value: 40
+    unit: "%"
+    year: 2024
+    geography: national
+    source: SRC-TG-703
+  - name: "Cereal Board collection as share of wheat production, high end of USDA range"
+    value: 60
+    unit: "%"
+    year: 2024
+    geography: national
+    source: SRC-TG-703
+  - name: "Grain collected by Office des Céréales"
+    value: 1284.7
+    unit: thousand t
+    year: 2019
+    geography: national
+    source: SRC-TG-705
 stakeholders: [Office des Céréales, Caisse Générale de Compensation, Ministry of Agriculture, Ministry of Trade, Ministry of Finance, Banque Nationale Agricole, millers, bakeries, private collectors and SMSA cooperatives, cereal farmers, consumers]
-related: [FND-TG-700, FND-TG-701]
-sources: [SRC-TG-700, SRC-TG-703, SRC-TG-704, SRC-TG-705, SRC-TG-706, SRC-TG-710, SRC-TG-711]
+related: [FND-TG-700, FND-TG-701, FND-TG-900]
+sources: [SRC-TG-700, SRC-TG-703, SRC-TG-704, SRC-TG-705, SRC-TG-706, SRC-TG-710, SRC-TG-711, SRC-TG-906]
 data_gaps:
   - "Annual CGC spending on cereals (budget and outturn) from Ministry of Finance documents; the Budget citoyen 2025 Arabic PDF did not extract and press figures were not used."
   - "Founding texts: decree-law 62-10 of 3 April 1962 is cited in the 2012 decree (SRC-TG-711); the CGC founding law was not opened, hence the 1970 vs 1971 discrepancy is unresolved."
@@ -104,7 +182,7 @@ author: TahaGHZ
 
 ## Problem
 
-Cereal marketing in Tunisia is run by state bodies created soon after independence. The Office des Céréales (OC) was created in 1962 (SRC-TG-705, SRC-TG-706). It controls wheat imports and sells imported wheat at subsidised prices (SRC-TG-704). Cereal producer and resale prices are fixed by government decree each campaign (SRC-TG-711, SRC-TG-705). The Caisse Générale de Compensation (CGC) pays operators along the chain the gap between market and administered prices. Bread, pasta and couscous therefore reach consumers at subsidised prices (SRC-TG-705). Sources give 1970 (SRC-TG-705) and 1971 (SRC-TG-706) as the CGC's creation date. The system now costs the state large sums it does not pay on time. For 2022-2023 the OC was owed TND 6,625 million by the CGC but received only 38%. Its bank debt reached TND 6,343 million, 83% of it to the Banque Nationale Agricole, and its unaudited 2023 balance was TND -900 million (SRC-TG-705). The World Bank links OC's financing gap to its trouble securing imports. USDA and FAO report wheat and flour shortages in 2023/24 caused by weaker procurement capacity (SRC-TG-703, SRC-TG-700).
+Cereal marketing in Tunisia is run by state bodies created soon after independence. The Office des Céréales (OC) was created in 1962 (SRC-TG-705, SRC-TG-706). It controls wheat imports and sells imported wheat at subsidised prices (SRC-TG-704). Cereal producer and resale prices are fixed by government decree each campaign (SRC-TG-711, SRC-TG-705). The Caisse Générale de Compensation (CGC) pays operators along the chain the gap between market and administered prices. Bread, pasta and couscous therefore reach consumers at subsidised prices (SRC-TG-705). Sources give 1970 (SRC-TG-705) and 1971 (SRC-TG-706) as the CGC's creation date. The system now costs the state large sums it does not pay on time. For 2022-2023 the OC was owed TND 6,625 million by the CGC but received only 38%. Its bank debt reached TND 6,343 million, 83% of it to the Banque Nationale Agricole, and its unaudited 2023 balance was TND -900 million (SRC-TG-705). The World Bank links OC's financing gap to its trouble securing imports: it finds it "very difficult" for the OC to get more bank financing for grain imports (SRC-TG-705). USDA and FAO report wheat and flour shortages in 2023/24 caused by weaker procurement capacity (SRC-TG-703, SRC-TG-700).
 
 ## Root causes
 
@@ -117,13 +195,13 @@ Cereal marketing in Tunisia is run by state bodies created soon after independen
 **How the system shapes incentives today.**
 
 - *Producer side.* The sources disagree, and they describe different periods. The World Bank's 2014 review describes guaranteed cereal prices as market price support: cereals took about a third of market price support spending. That review found support skewed towards large wheat farms, because it is paid on output and farm size (SRC-TG-710). The World Bank's 2024 paper says OC farmgate prices "have been below import-parity prices". Even after increases of about 61-64% between 2021 and 2023, the February 2024 farmgate prices for durum and barley were 3% and 14% below OC import cost (SRC-TG-705). Whether producer prices act as a subsidy or a tax therefore depends on world prices in a given year. The decreed price is fixed for the whole season. The 2014 review also notes "inadequate quality bonuses" for cereals (SRC-TG-710).
-- *Collection.* The brief described the OC as having a collection monopoly. The sources disagree. The World Bank says the OC has a de jure monopoly over domestic collection and imports (SRC-TG-705). USDA says collection has been privatised for both wheat and barley (SRC-TG-703). ITES reports that the OC's share of physical collection fell from 32% in 2005 to 2% in 2012, as private operators and SMSA cooperatives took over (SRC-TG-706). The firmer monopoly today is over wheat imports and the sale of wheat to millers (SRC-TG-704). Barley imports were opened to private firms in April 2023 (SRC-TG-705).
-- *Consumer side.* Universal subsidies keep demand for bread wheat high and encourage waste and misuse. The World Bank reports 900,000 baguettes wasted daily, semolina used as animal feed and leakage across borders (SRC-TG-705). This feeds the import dependence in FND-TG-700. The subsidy is not well targeted. The World Bank's 2022 incidence analysis found 43.3% of the 'gros pain' bread subsidy goes to the poorest two quintiles (SRC-TG-705). An older INS 2013 analysis cited by ITES found only 9.2% of all food subsidies reached the poorest households in 2010 (SRC-TG-706, citing INS). These two figures measure different things and should not be compared directly.
+- *Collection.* The sources disagree on whether the OC still controls collection. The World Bank says the OC has a de jure monopoly over domestic collection and imports (SRC-TG-705). USDA says collection has been privatised for both wheat and barley (SRC-TG-703). ITES reports that the OC's share of physical collection fell from 32% in 2005 to 2% in 2012, as private operators (58%) and SMSA cooperatives (40%) took over (SRC-TG-706). This does not mean the OC handles only 2% of the market. USDA says collection by the Cereal Board accounts for 40-60% of wheat production and 10-40% of barley (SRC-TG-703), and the OC collected 1,284.7 kt in 2019 (SRC-TG-705). Our reading, not stated by the sources, is that ITES counts only collection the OC performs with its own facilities, while private and cooperative collectors buy grain that then enters the OC system at decreed prices. The 2% figure should not be read as the OC's current market share. The firmer monopoly today is over wheat imports and the sale of wheat to millers (SRC-TG-704). Barley imports were opened to private firms in April 2023 (SRC-TG-705).
+- *Consumer side.* Universal subsidies keep demand for bread wheat high and encourage waste and misuse. The World Bank reports 900,000 baguettes wasted daily, semolina used as animal feed and leakage across borders (SRC-TG-705). The World Bank gives no year for the baguette figure. ITES attributes the same 900,000 loaves a day to the Institut National de la Consommation (INC) (SRC-TG-706), and a 2017 press report of INC data dates the estimate to 2014 (SRC-TG-906, tier C). It is therefore a 2014 estimate repeated in later documents, not a 2024 measurement (see FND-TG-900). This feeds the import dependence in FND-TG-700. The subsidy is not well targeted. The World Bank's 2022 incidence analysis found 43.3% of the 'gros pain' bread subsidy goes to the poorest two quintiles (SRC-TG-705). An older INS 2013 analysis cited by ITES found only 9.2% of all food subsidies reached the poorest households in 2010 (SRC-TG-706, citing INS). These two figures measure different things and should not be compared directly.
 - *Fiscal.* Food subsidies cost about 1.5% of GDP in 2009 and over 3% in 2012 (SRC-TG-710). The CGC's arrears to the OC are a symptom. The cause is that subsidy needs rise with world prices and bad harvests, while budget transfers do not keep pace (SRC-TG-705, SRC-TG-700).
 
 ## Evidence
 
-See indicators. Key figures from the World Bank's March 2024 project paper (OC data, unaudited) are the arrears, the bank debt and the 2023 deficit (SRC-TG-705). The 2011 decree shows the mechanism. It fixed base producer prices (43 TND/q durum, 35 TND/q soft wheat) and an intervention price for barley, along with resale prices to millers (SRC-TG-711). By 2023 producer prices had reached 1,300 TND/t for durum (130 TND/q) and 1,000 TND/t for soft wheat (SRC-TG-700, SRC-TG-704).
+See indicators. Key figures from the World Bank's March 2024 project paper (OC data, unaudited) are the arrears, the bank debt and the 2023 deficit (SRC-TG-705). Decree 2012-754 (prices for the 2011 harvest) shows the mechanism. It fixed base producer prices (43 TND/q durum, 35 TND/q soft wheat) and an intervention price for barley, along with resale prices to millers (SRC-TG-711). By 2023 producer prices had reached 1,300 TND/t for durum (130 TND/q) and 1,000 TND/t for soft wheat (SRC-TG-700, SRC-TG-704).
 
 ## Why confidence is what it is
 
