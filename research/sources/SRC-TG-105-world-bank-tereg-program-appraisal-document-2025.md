@@ -158,6 +158,18 @@ energy injected. Energy injected is STEG net generation plus imports plus IPP ou
 self-consumption). Sales include recovered fraud and pro-rata amounts. ONEM instead divides
 network losses by gross production (SRC-TG-222).
 
+Page 26, results framework, DLI 3 (added for FND-TG-221):
+
+> DLI3: Reduction in the total electricity losses (technical and commercial) (Percentage) DLI
+> Dec/2023 18.40 | Dec/2028 15
+
+Page 29, results table, DLI 3 path:
+
+> 18.40 | | 17 | 16 | 15.50 | 15
+
+English gloss: the loss baseline is 18.4% (December 2023). The target is 15% by December 2028,
+via 17%, 16% and 15.5%.
+
 ## Notes
 
 The cover is marked "FOR OFFICIAL USE ONLY", but the document is publicly listed and

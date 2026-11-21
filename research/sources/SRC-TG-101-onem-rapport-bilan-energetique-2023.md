@@ -55,6 +55,16 @@ and 7% natural gas (531 ktep in 2022, 524 ktep in 2023 per the figure). ONEM not
 of photovoltaics for agricultural pumping under the self-production regime, which it links to the
 electricity share rising from 24.1% to 27%.
 
+p. 18, "Secteur industriel" (added for FND-TG-290):
+
+> Entre 2022 et 2023, la part de gaz naturel a diminué en faveur de celle des produits pétroliers qui est passée de 35% à 37% suite notamment à la substitution partielle du gaz naturel par le petcoke chez certaines cimenteries en plus de la baisse de la demande du gaz naturel dans la plupart des industries.
+
+> Le pet coke est le principal produit pétrolier utilisé dans l'industrie et plus précisément dans les cimenteries, il représente 71% du total produits pétroliers suivi par le fuel lourd avec 18% du total.
+
+English gloss: between 2022 and 2023 the gas share in industry fell and petroleum products rose
+from 35% to 37%, notably because some cement plants partly replaced natural gas with petcoke;
+petcoke was 71% of the petroleum products used by industry in 2023.
+
 ## Notes
 
 Annual energy balance analysis by the national energy observatory. The 95% share is measured
