@@ -27,16 +27,6 @@
   image-rendering: crisp-edges;
 }
 
-/* Subtle topographic / grid background for hero */
-.nexus-hero-grid {
-  background-image:
-    radial-gradient(circle at 75% 38%, rgba(16, 185, 129, 0.16), transparent 44%),
-    radial-gradient(circle at 86% 62%, rgba(14, 165, 233, 0.18), transparent 46%),
-    linear-gradient(to right, rgba(148, 163, 184, 0.06) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
-  background-size: 100% 100%, 100% 100%, 36px 36px, 36px 36px;
-}
-
 @keyframes floatSlow {
   0%, 100% {
     transform: translateY(0px);

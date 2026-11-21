@@ -27,7 +27,7 @@ export function ModulesPage({ data }: ModulesPageProps) {
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       {/* Header banner */}
-      <div className="overflow-hidden rounded-3xl bg-[#0B1320] p-8 text-white nexus-hero-grid sm:p-10">
+      <div className="overflow-hidden rounded-3xl bg-[#0B1320] p-8 text-white sm:p-10">
         <div className="grid items-center gap-8 md:grid-cols-12">
           <div className="md:col-span-8">
             <span className="inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-500/15 px-3 py-1 font-mono text-xs font-semibold text-sky-300">
@@ -44,7 +44,7 @@ export function ModulesPage({ data }: ModulesPageProps) {
           </div>
           <div className="flex justify-center md:col-span-4 md:justify-end">
             <div className="rounded-2xl border border-slate-700/80 bg-slate-900/80 p-4">
-              <PixelGolem size={168} mode="nexus" interactive />
+              <PixelGolem size={168} mode="nexus" animation="auto" interactive />
             </div>
           </div>
         </div>

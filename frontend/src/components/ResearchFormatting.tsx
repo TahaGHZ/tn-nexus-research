@@ -1,4 +1,70 @@
-import type { Confidence, RecordStatus, Sector, Severity, SourceTier, Timeframe, Trend } from '../types/research';
+﻿import type {
+  Confidence,
+  RecordStatus,
+  Sector,
+  Severity,
+  SourceTier,
+  Timeframe,
+  TrustLevel,
+  Trend,
+} from '../types/research';
+
+export const TRUST_ORDER: TrustLevel[] = ['strong', 'solid', 'mixed', 'weak'];
+
+export const TRUST_META: Record<
+  TrustLevel,
+  {
+    label: string;
+    short: string;
+    rule: string;
+    advice: string;
+    badge: string;
+    bar: string;
+    text: string;
+    dot: string;
+  }
+> = {
+  strong: {
+    label: 'Strongly evidenced',
+    short: 'Strong',
+    rule: 'Confidence not low, 4+ sources, at least 80% tier A/B and 40% tier A.',
+    advice: 'Safe to quote. Built mostly on official statistics and peer-reviewed work.',
+    badge: 'bg-emerald-600 text-white border-emerald-700',
+    bar: 'bg-emerald-600',
+    text: 'text-emerald-700',
+    dot: 'bg-emerald-600',
+  },
+  solid: {
+    label: 'Well sourced',
+    short: 'Solid',
+    rule: 'Confidence not low, at least 70% tier A/B and one tier A source.',
+    advice: 'Reliable. Check the tier B reports behind any single headline number.',
+    badge: 'bg-sky-600 text-white border-sky-700',
+    bar: 'bg-sky-600',
+    text: 'text-sky-700',
+    dot: 'bg-sky-600',
+  },
+  mixed: {
+    label: 'Mixed evidence',
+    short: 'Mixed',
+    rule: 'Confidence not low, but leans on press material or has no tier A source.',
+    advice: 'Use the direction, not the exact figures. Cross-check before citing.',
+    badge: 'bg-amber-500 text-slate-950 border-amber-600',
+    bar: 'bg-amber-500',
+    text: 'text-amber-700',
+    dot: 'bg-amber-500',
+  },
+  weak: {
+    label: 'Treat with caution',
+    short: 'Caution',
+    rule: 'The record declares low confidence, or half or more of its sources are tier C.',
+    advice: 'Hypothesis stage. Do not quote figures without checking the source.',
+    badge: 'bg-rose-600 text-white border-rose-700',
+    bar: 'bg-rose-600',
+    text: 'text-rose-700',
+    dot: 'bg-rose-600',
+  },
+};
 
 export const SECTOR_META: Record<
   Sector,
@@ -9,7 +75,6 @@ export const SECTOR_META: Record<
     border: string;
     dot: string;
     text: string;
-    gradient: string;
     heroPhoto: string;
     heroAlt: string;
     summary: string;
@@ -22,7 +87,6 @@ export const SECTOR_META: Record<
     border: 'border-sky-200',
     dot: 'bg-sky-500',
     text: 'text-sky-700',
-    gradient: 'from-sky-500 to-cyan-400',
     heroPhoto:
       'https://images.pexels.com/photos/10615217/pexels-photo-10615217.jpeg?auto=compress&cs=tinysrgb&w=1200',
     heroAlt: 'Water dam and reservoir storage basin',
@@ -36,7 +100,6 @@ export const SECTOR_META: Record<
     border: 'border-amber-200',
     dot: 'bg-amber-500',
     text: 'text-amber-700',
-    gradient: 'from-amber-500 to-yellow-400',
     heroPhoto:
       'https://images.pexels.com/photos/37684096/pexels-photo-37684096.jpeg?auto=compress&cs=tinysrgb&w=1200',
     heroAlt: 'Solar power station in North African desert landscape',
@@ -50,7 +113,6 @@ export const SECTOR_META: Record<
     border: 'border-emerald-200',
     dot: 'bg-emerald-500',
     text: 'text-emerald-700',
-    gradient: 'from-emerald-500 to-teal-400',
     heroPhoto:
       'https://images.pexels.com/photos/28697751/pexels-photo-28697751.jpeg?auto=compress&cs=tinysrgb&w=1200',
     heroAlt: 'Green olives growing in Jendouba, Tunisia',
@@ -199,4 +261,46 @@ export function safeExternalUrl(raw: string): string | null {
   } catch {
     return null;
   }
+}
+
+/** Thin stacked bar showing how many of a finding's sources are tier A, B and C. */
+export function TierMixBar({
+  mix,
+  className = '',
+}: {
+  mix: { A: number; B: number; C: number };
+  className?: string;
+}) {
+  const total = mix.A + mix.B + mix.C;
+  if (!total) return null;
+  const parts: Array<{ tier: SourceTier; color: string }> = [
+    { tier: 'A', color: 'bg-emerald-600' },
+    { tier: 'B', color: 'bg-sky-600' },
+    { tier: 'C', color: 'bg-amber-500' },
+  ];
+  return (
+    <div className={className}>
+      <div
+        className="flex h-2 overflow-hidden rounded-full bg-stone-100"
+        title={`Sources: ${mix.A} tier A, ${mix.B} tier B, ${mix.C} tier C`}
+      >
+        {parts.map((p) =>
+          mix[p.tier] ? (
+            <div key={p.tier} className={p.color} style={{ width: `${(mix[p.tier] / total) * 100}%` }} />
+          ) : null
+        )}
+      </div>
+      <div className="mt-1 flex gap-3 font-mono text-[10px] text-stone-500">
+        <span>
+          <span className="text-emerald-700">A</span> {mix.A}
+        </span>
+        <span>
+          <span className="text-sky-700">B</span> {mix.B}
+        </span>
+        <span>
+          <span className="text-amber-700">C</span> {mix.C}
+        </span>
+      </div>
+    </div>
+  );
 }

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, BarChart3, Clock, FileCheck2, Link2 } from 'lucide-react';
+import { ArrowUpRight, BarChart3, Clock, FileCheck2, Link2, ShieldCheck } from 'lucide-react';
 import type { FindingSummary } from '../types/research';
 import {
   CONFIDENCE_META,
@@ -7,6 +7,8 @@ import {
   SEVERITY_META,
   STATUS_META,
   TIMEFRAME_META,
+  TRUST_META,
+  TierMixBar,
   formatTheme,
 } from './ResearchFormatting';
 
@@ -20,6 +22,7 @@ export function FindingCard({ finding }: FindingCardProps) {
   const timeframe = TIMEFRAME_META[finding.timeframe] || TIMEFRAME_META.current;
   const confidence = CONFIDENCE_META[finding.confidence] || CONFIDENCE_META.medium;
   const status = STATUS_META[finding.status] || STATUS_META['in-review'];
+  const trust = TRUST_META[finding.trust] || TRUST_META.mixed;
 
   return (
     <Link
@@ -34,7 +37,7 @@ export function FindingCard({ finding }: FindingCardProps) {
           loading="lazy"
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/25 to-slate-950/15" />
+        <div className="absolute inset-0 bg-slate-950/50" />
 
         {/* Top pills */}
         <div className="absolute top-3 left-3 right-3 flex items-center justify-between gap-2">
@@ -85,6 +88,13 @@ export function FindingCard({ finding }: FindingCardProps) {
       <div className="flex flex-1 flex-col p-5">
         <div className="flex flex-wrap items-center gap-2 text-[11px]">
           <span
+            className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 font-semibold ${trust.badge}`}
+            title={trust.advice}
+          >
+            <ShieldCheck className="h-3 w-3" />
+            {trust.label}
+          </span>
+          <span
             className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 font-medium ${status.className}`}
           >
             <FileCheck2 className="h-3 w-3" />
@@ -108,6 +118,8 @@ export function FindingCard({ finding }: FindingCardProps) {
         <p className="mt-2.5 line-clamp-3 flex-1 text-sm leading-relaxed text-stone-600">
           {finding.excerpt}
         </p>
+
+        <TierMixBar mix={finding.tierMix} className="mt-4" />
 
         {/* Footer metadata */}
         <div className="mt-4 flex items-center justify-between border-t border-stone-100 pt-3.5 text-xs text-stone-500">

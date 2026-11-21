@@ -443,6 +443,60 @@ for (const file of sourceFiles) {
   sourcesMap.set(srcObj.id, srcObj);
 }
 
+// Every SRC id a finding relies on: frontmatter, indicators, root causes, projection, inline body.
+function collectCitedSourceIds(f) {
+  const ids = new Set(f.sources);
+  for (const ind of f.indicators) if (ind.source) ids.add(ind.source);
+  for (const rc of f.rootCauses) for (const s of rc.sources) ids.add(s);
+  if (f.projection?.source) ids.add(f.projection.source);
+  for (const sec of f.sections) {
+    for (const m of sec.content.matchAll(/\bSRC-[A-Z]+-\d+\b/g)) ids.add(m[0]);
+  }
+  return ids;
+}
+
+// Trust classification. Deterministic and derived only from record metadata:
+//   - the confidence the record itself declares (frontmatter `confidence`)
+//   - the tier mix of the SRC records it cites (A official/peer-reviewed, B institutional, C press)
+// Levels, from most to least trustworthy:
+//   strong  confidence is not low, >= 4 sources, >= 80% tier A/B and >= 40% tier A
+//   solid   confidence is not low, >= 70% tier A/B and at least one tier A source
+//   mixed   confidence is not low, but leans on press material or has no tier A source
+//   weak    record declares low confidence, or half or more of its sources are tier C
+function classifyTrust(finding, tierMix, sourceTotal) {
+  const { A, B, C } = tierMix;
+  const reasons = [];
+  const share = (n) => (sourceTotal ? n / sourceTotal : 0);
+  const ab = share(A + B);
+  const a = share(A);
+  const lowConfidence = finding.confidence === 'low';
+
+  reasons.push(`${sourceTotal} cited sources: ${A} tier A, ${B} tier B, ${C} tier C`);
+  reasons.push(`Record declares ${finding.confidence} confidence`);
+
+  let level;
+  if (lowConfidence || share(C) >= 0.5 || sourceTotal === 0) {
+    level = 'weak';
+    if (lowConfidence) reasons.push('Author flagged low confidence');
+    if (share(C) >= 0.5) reasons.push('Half or more of the sources are press or secondary material');
+    if (sourceTotal === 0) reasons.push('No resolvable source records');
+  } else if (sourceTotal >= 4 && ab >= 0.8 && a >= 0.4) {
+    level = 'strong';
+    reasons.push(`${Math.round(a * 100)}% of sources are official statistics or peer-reviewed`);
+  } else if (ab >= 0.7 && A >= 1) {
+    level = 'solid';
+    reasons.push(`${Math.round(ab * 100)}% of sources are tier A or B`);
+  } else {
+    level = 'mixed';
+    if (A === 0) reasons.push('No tier A (official or peer-reviewed) source');
+    if (share(C) > 0.3) reasons.push(`${Math.round(share(C) * 100)}% of sources are press or secondary material`);
+  }
+  if (finding.dataGaps.length) {
+    reasons.push(`${finding.dataGaps.length} open data gaps are listed in the record`);
+  }
+  return { level, reasons };
+}
+
 // 2. Load all findings
 const findingFiles = fs.readdirSync(findingsDir).filter((f) => f.endsWith('.md')).sort();
 const allFindings = [];
@@ -519,6 +573,21 @@ for (const file of findingFiles) {
 
   finding.image = pickImage(finding);
 
+  const tierMix = { A: 0, B: 0, C: 0 };
+  let resolvedCount = 0;
+  for (const srcId of collectCitedSourceIds(finding)) {
+    const src = sourcesMap.get(srcId);
+    if (!src) continue;
+    resolvedCount++;
+    if (tierMix[src.tier] !== undefined) tierMix[src.tier]++;
+  }
+  const trust = classifyTrust(finding, tierMix, resolvedCount);
+  finding.tierMix = tierMix;
+  finding.trust = trust.level;
+  finding.trustReasons = trust.reasons;
+  finding.dataGapCount = finding.dataGaps.length;
+  finding.citedSourceCount = resolvedCount;
+
   if (status === 'in-review' || status === 'validated') {
     verifiedCount++;
     if (status === 'validated') peerValidatedCount++;
@@ -536,11 +605,29 @@ const verifiedById = new Map(allFindings.map((f) => [f.id, f]));
 const sectorCounts = { water: 0, energy: 0, agriculture: 0 };
 const timeframeCounts = { past: 0, current: 0, predicted: 0 };
 const themeSet = new Set();
+const trustCounts = { strong: 0, solid: 0, mixed: 0, weak: 0 };
+const confidenceCounts = { high: 0, medium: 0, low: 0 };
+const severityCounts = { critical: 0, high: 0, medium: 0, low: 0 };
+const trendCounts = { worsening: 0, stable: 0, improving: 0, unknown: 0 };
+let totalIndicators = 0;
+let totalDataGaps = 0;
+let projectionCount = 0;
+let nexusCount = 0;
+const citedSourceIdsAll = new Set();
 
 const findingsIndex = allFindings.map((f) => {
   if (sectorCounts[f.mainSector] !== undefined) sectorCounts[f.mainSector]++;
   if (timeframeCounts[f.timeframe] !== undefined) timeframeCounts[f.timeframe]++;
   if (f.theme) themeSet.add(f.theme);
+  if (trustCounts[f.trust] !== undefined) trustCounts[f.trust]++;
+  if (confidenceCounts[f.confidence] !== undefined) confidenceCounts[f.confidence]++;
+  if (severityCounts[f.severity] !== undefined) severityCounts[f.severity]++;
+  if (trendCounts[f.trend] !== undefined) trendCounts[f.trend]++;
+  totalIndicators += f.indicators.length;
+  totalDataGaps += f.dataGaps.length;
+  if (f.projection) projectionCount++;
+  if (f.sectors.length > 1) nexusCount++;
+  for (const id of collectCitedSourceIds(f)) if (sourcesMap.has(id)) citedSourceIdsAll.add(id);
 
   // Pick a crisp headline indicator for card display
   const topIndicator =
@@ -564,6 +651,11 @@ const findingsIndex = allFindings.map((f) => {
     readTimeMinutes: f.readTimeMinutes,
     indicatorCount: f.indicators.length,
     sourceCount: f.sources.length,
+    citedSourceCount: f.citedSourceCount,
+    tierMix: f.tierMix,
+    trust: f.trust,
+    trustReasons: f.trustReasons,
+    dataGapCount: f.dataGapCount,
     topIndicator,
     stakeholders: f.stakeholders,
     hasProjection: Boolean(f.projection),
@@ -586,16 +678,7 @@ for (const existing of fs.readdirSync(publicFindingsDir)) {
 
 // Write per-finding detail files
 for (const f of allFindings) {
-  const citedSourceIds = new Set(f.sources);
-  for (const ind of f.indicators) if (ind.source) citedSourceIds.add(ind.source);
-  for (const rc of f.rootCauses) for (const s of rc.sources) citedSourceIds.add(s);
-  if (f.projection?.source) citedSourceIds.add(f.projection.source);
-
-  // Also grab any SRC-XX-NNN mentioned inline in the markdown body
-  for (const sec of f.sections) {
-    const inlineMatches = sec.content.matchAll(/\bSRC-[A-Z]+-\d+\b/g);
-    for (const m of inlineMatches) citedSourceIds.add(m[0]);
-  }
+  const citedSourceIds = collectCitedSourceIds(f);
 
   const resolvedSources = [];
   for (const srcId of Array.from(citedSourceIds).sort()) {
@@ -644,6 +727,15 @@ const indexPayload = {
     sectorCounts,
     timeframeCounts,
     themeCount: themeSet.size,
+    trustCounts,
+    confidenceCounts,
+    severityCounts,
+    trendCounts,
+    totalIndicators,
+    totalDataGaps,
+    projectionCount,
+    nexusCount,
+    citedSources: citedSourceIdsAll.size,
   },
   phases: parsePhases(),
   themes: Array.from(themeSet).sort(),

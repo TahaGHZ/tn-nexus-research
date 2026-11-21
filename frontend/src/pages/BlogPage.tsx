@@ -7,6 +7,7 @@ import {
   LayoutGrid,
   List,
   Search,
+  ShieldCheck,
   SlidersHorizontal,
   X,
 } from 'lucide-react';
@@ -16,16 +17,33 @@ import {
   SECTOR_META,
   SEVERITY_META,
   TIMEFRAME_META,
+  TRUST_META,
+  TRUST_ORDER,
   formatTheme,
 } from '../components/ResearchFormatting';
-import type { Confidence, ResearchIndex, Sector, Severity, Timeframe } from '../types/research';
+import type {
+  Confidence,
+  ResearchIndex,
+  Sector,
+  Severity,
+  Timeframe,
+  TrustLevel,
+} from '../types/research';
 
 interface BlogPageProps {
   data: ResearchIndex;
 }
 
 type SectorFilter = 'all' | Sector | 'nexus';
-type SortOption = 'id' | 'severity' | 'indicators' | 'sources';
+type SortOption = 'id' | 'trust' | 'severity' | 'indicators' | 'sources';
+type TrustFilter = 'all' | TrustLevel;
+
+const TRUST_RANK: Record<TrustLevel, number> = {
+  strong: 4,
+  solid: 3,
+  mixed: 2,
+  weak: 1,
+};
 
 const SEVERITY_RANK: Record<Severity, number> = {
   critical: 4,
@@ -45,6 +63,9 @@ export function BlogPage({ data }: BlogPageProps) {
   const severityFilter = (searchParams.get('severity') as Severity | 'all') || 'all';
   const confidenceFilter = (searchParams.get('confidence') as Confidence | 'all') || 'all';
   const themeFilter = searchParams.get('theme') || 'all';
+  const rawTrust = searchParams.get('trust');
+  const trustFilter: TrustFilter =
+    rawTrust && rawTrust in TRUST_META ? (rawTrust as TrustLevel) : 'all';
 
   const updateParam = (key: string, value: string) => {
     const next = new URLSearchParams(searchParams);
@@ -82,6 +103,7 @@ export function BlogPage({ data }: BlogPageProps) {
       if (severityFilter !== 'all' && f.severity !== severityFilter) return false;
       if (confidenceFilter !== 'all' && f.confidence !== confidenceFilter) return false;
       if (themeFilter !== 'all' && f.theme !== themeFilter) return false;
+      if (trustFilter !== 'all' && f.trust !== trustFilter) return false;
 
       if (q) {
         const haystack = [
@@ -102,7 +124,10 @@ export function BlogPage({ data }: BlogPageProps) {
     });
 
     return [...matched].sort((a, b) => {
-      if (sortBy === 'severity') {
+      if (sortBy === 'trust') {
+        const diff = (TRUST_RANK[b.trust] || 0) - (TRUST_RANK[a.trust] || 0);
+        if (diff !== 0) return diff;
+      } else if (sortBy === 'severity') {
         const diff = (SEVERITY_RANK[b.severity] || 0) - (SEVERITY_RANK[a.severity] || 0);
         if (diff !== 0) return diff;
       } else if (sortBy === 'indicators') {
@@ -122,6 +147,7 @@ export function BlogPage({ data }: BlogPageProps) {
     severityFilter,
     confidenceFilter,
     themeFilter,
+    trustFilter,
     sortBy,
   ]);
 
@@ -131,7 +157,8 @@ export function BlogPage({ data }: BlogPageProps) {
     timeframeFilter !== 'all' ||
     severityFilter !== 'all' ||
     confidenceFilter !== 'all' ||
-    themeFilter !== 'all';
+    themeFilter !== 'all' ||
+    trustFilter !== 'all';
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
@@ -226,6 +253,53 @@ export function BlogPage({ data }: BlogPageProps) {
           })}
         </div>
 
+        {/* Trust classification */}
+        <div className="mt-4 flex flex-wrap items-center gap-2">
+          <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-900">
+            <ShieldCheck className="h-3.5 w-3.5 text-emerald-600" />
+            Evidence strength:
+          </span>
+          <button
+            type="button"
+            onClick={() => updateParam('trust', 'all')}
+            className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition ${
+              trustFilter === 'all'
+                ? 'border-slate-950 bg-slate-950 text-white'
+                : 'border-stone-200 bg-white text-slate-700 hover:border-stone-400'
+            }`}
+          >
+            All {data.stats.verifiedFindings}
+          </button>
+          {TRUST_ORDER.map((level) => {
+            const meta = TRUST_META[level];
+            const active = trustFilter === level;
+            return (
+              <button
+                key={level}
+                type="button"
+                onClick={() => updateParam('trust', active ? 'all' : level)}
+                title={meta.rule}
+                aria-pressed={active}
+                className={`inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-xs font-semibold transition ${
+                  active
+                    ? meta.badge
+                    : 'border-stone-200 bg-white text-slate-700 hover:border-stone-400'
+                }`}
+              >
+                <span className={`h-2 w-2 rounded-full ${active ? 'bg-white' : meta.dot}`} />
+                {meta.label}
+                <span className="font-mono">{data.stats.trustCounts[level]}</span>
+              </button>
+            );
+          })}
+        </div>
+        {trustFilter !== 'all' && (
+          <p className="mt-2 text-xs text-stone-600">
+            <strong>{TRUST_META[trustFilter].label}:</strong> {TRUST_META[trustFilter].advice}{' '}
+            <span className="text-stone-500">Rule: {TRUST_META[trustFilter].rule}</span>
+          </p>
+        )}
+
         {/* Secondary filters row */}
         <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
           <div className="flex flex-wrap items-center gap-2">
@@ -307,6 +381,7 @@ export function BlogPage({ data }: BlogPageProps) {
                 className="rounded-lg border border-stone-200 bg-[#FAF8F4] px-2.5 py-1.5 text-xs font-medium text-slate-800 focus:border-emerald-500 focus:outline-none"
               >
                 <option value="id">Sort: Record ID</option>
+                <option value="trust">Sort: Most Trustworthy</option>
                 <option value="severity">Sort: Highest Severity</option>
                 <option value="indicators">Sort: Most Indicators</option>
                 <option value="sources">Sort: Most Sources</option>
@@ -391,6 +466,11 @@ export function BlogPage({ data }: BlogPageProps) {
                   <div className="min-w-0 flex-1">
                     <div className="flex flex-wrap items-center gap-2 text-[11px]">
                       <span className="font-mono font-semibold text-emerald-800">{f.id}</span>
+                      <span
+                        className={`rounded-full border px-2 py-0.5 font-semibold ${TRUST_META[f.trust].badge}`}
+                      >
+                        {TRUST_META[f.trust].label}
+                      </span>
                       <span className={`rounded-full border px-2 py-0.5 font-medium ${sec.badge}`}>
                         {sec.label}
                       </span>

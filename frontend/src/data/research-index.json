@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:52:53.290Z",
+  "generatedAt": "2026-11-21T18:56:19.189Z",
   "stats": {
     "totalFindingsInRepo": 78,
     "verifiedFindings": 56,
@@ -22,7 +22,35 @@
       "current": 35,
       "predicted": 13
     },
-    "themeCount": 24
+    "themeCount": 24,
+    "trustCounts": {
+      "strong": 17,
+      "solid": 22,
+      "mixed": 4,
+      "weak": 13
+    },
+    "confidenceCounts": {
+      "high": 6,
+      "medium": 40,
+      "low": 10
+    },
+    "severityCounts": {
+      "critical": 3,
+      "high": 36,
+      "medium": 17,
+      "low": 0
+    },
+    "trendCounts": {
+      "worsening": 23,
+      "stable": 6,
+      "improving": 0,
+      "unknown": 27
+    },
+    "totalIndicators": 670,
+    "totalDataGaps": 344,
+    "projectionCount": 15,
+    "nexusCount": 34,
+    "citedSources": 240
   },
   "phases": [
     {
@@ -90,6 +118,20 @@
       "readTimeMinutes": 5,
       "indicatorCount": 10,
       "sourceCount": 10,
+      "citedSourceCount": 10,
+      "tierMix": {
+        "A": 3,
+        "B": 4,
+        "C": 3
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "10 cited sources: 3 tier A, 4 tier B, 3 tier C",
+        "Record declares medium confidence",
+        "70% of sources are tier A or B",
+        "8 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Share of natural gas in electricity production",
         "value": "53.6",
@@ -140,6 +182,20 @@
       "readTimeMinutes": 5,
       "indicatorCount": 15,
       "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 3,
+        "B": 4,
+        "C": 1
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "8 cited sources: 3 tier A, 4 tier B, 1 tier C",
+        "Record declares high confidence",
+        "88% of sources are tier A or B",
+        "6 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "Share of natural gas in electricity production (including renewable self-production), January-September cumulative",
         "value": "91.3",
@@ -190,6 +246,20 @@
       "readTimeMinutes": 3,
       "indicatorCount": 11,
       "sourceCount": 5,
+      "citedSourceCount": 5,
+      "tierMix": {
+        "A": 1,
+        "B": 4,
+        "C": 0
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "5 cited sources: 1 tier A, 4 tier B, 0 tier C",
+        "Record declares low confidence",
+        "Author flagged low confidence",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "Natural gas share of primary energy mix, business-as-usual scenario",
         "value": "59",
@@ -238,6 +308,20 @@
       "readTimeMinutes": 5,
       "indicatorCount": 16,
       "sourceCount": 4,
+      "citedSourceCount": 4,
+      "tierMix": {
+        "A": 3,
+        "B": 1,
+        "C": 0
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "4 cited sources: 3 tier A, 1 tier B, 0 tier C",
+        "Record declares low confidence",
+        "Author flagged low confidence",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Indicative cumulative oil and gas exploration-well target by 2035",
         "value": "30",
@@ -285,6 +369,20 @@
       "readTimeMinutes": 4,
       "indicatorCount": 25,
       "sourceCount": 6,
+      "citedSourceCount": 6,
+      "tierMix": {
+        "A": 0,
+        "B": 3,
+        "C": 3
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "6 cited sources: 0 tier A, 3 tier B, 3 tier C",
+        "Record declares medium confidence",
+        "Half or more of the sources are press or secondary material",
+        "6 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "STEG projected net result before subsidy and corporate tax, without TEREG",
         "value": "-5103",
@@ -333,6 +431,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 9,
       "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 4,
+        "B": 2,
+        "C": 2
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "8 cited sources: 4 tier A, 2 tier B, 2 tier C",
+        "Record declares medium confidence",
+        "75% of sources are tier A or B",
+        "6 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "Installed wind capacity",
         "value": "245",
@@ -382,6 +494,20 @@
       "readTimeMinutes": 5,
       "indicatorCount": 11,
       "sourceCount": 12,
+      "citedSourceCount": 12,
+      "tierMix": {
+        "A": 4,
+        "B": 7,
+        "C": 1
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "12 cited sources: 4 tier A, 7 tier B, 1 tier C",
+        "Record declares low confidence",
+        "Author flagged low confidence",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Renewable capacity target, Tunisian Solar Plan 2015",
         "value": "3815",
@@ -431,6 +557,20 @@
       "readTimeMinutes": 2,
       "indicatorCount": 4,
       "sourceCount": 3,
+      "citedSourceCount": 3,
+      "tierMix": {
+        "A": 3,
+        "B": 0,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "3 cited sources: 3 tier A, 0 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "1 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 1,
       "topIndicator": {
         "name": "SONEDE electricity consumption",
         "value": "563",
@@ -477,6 +617,20 @@
       "readTimeMinutes": 3,
       "indicatorCount": 5,
       "sourceCount": 7,
+      "citedSourceCount": 7,
+      "tierMix": {
+        "A": 3,
+        "B": 4,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "7 cited sources: 3 tier A, 4 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "43% of sources are official statistics or peer-reviewed",
+        "2 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 2,
       "topIndicator": {
         "name": "Scenario seawater desalination volume",
         "value": "192",
@@ -522,6 +676,20 @@
       "readTimeMinutes": 2,
       "indicatorCount": 2,
       "sourceCount": 4,
+      "citedSourceCount": 4,
+      "tierMix": {
+        "A": 2,
+        "B": 2,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "4 cited sources: 2 tier A, 2 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "50% of sources are official statistics or peer-reviewed",
+        "2 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 2,
       "topIndicator": {
         "name": "Tunisia position among ten countries shown in World Bank cement Trade Exposure Index chart",
         "value": "3",
@@ -567,6 +735,20 @@
       "readTimeMinutes": 2,
       "indicatorCount": 6,
       "sourceCount": 5,
+      "citedSourceCount": 5,
+      "tierMix": {
+        "A": 2,
+        "B": 3,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "5 cited sources: 2 tier A, 3 tier B, 0 tier C",
+        "Record declares high confidence",
+        "40% of sources are official statistics or peer-reviewed",
+        "3 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 3,
       "topIndicator": {
         "name": "Transport final energy consumption",
         "value": "2721",
@@ -613,6 +795,20 @@
       "readTimeMinutes": 3,
       "indicatorCount": 2,
       "sourceCount": 2,
+      "citedSourceCount": 2,
+      "tierMix": {
+        "A": 1,
+        "B": 1,
+        "C": 0
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "2 cited sources: 1 tier A, 1 tier B, 0 tier C",
+        "Record declares low confidence",
+        "Author flagged low confidence",
+        "4 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 4,
       "topIndicator": {
         "name": "World Bank estimate of fuel consumed from informal Algerian imports (author estimate; method not demonstrated by its cited footnote)",
         "value": "25",
@@ -668,6 +864,20 @@
       "readTimeMinutes": 7,
       "indicatorCount": 22,
       "sourceCount": 7,
+      "citedSourceCount": 7,
+      "tierMix": {
+        "A": 4,
+        "B": 2,
+        "C": 1
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "7 cited sources: 4 tier A, 2 tier B, 1 tier C",
+        "Record declares medium confidence",
+        "57% of sources are official statistics or peer-reviewed",
+        "8 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Deep-aquifer exploitation rate, national",
         "value": "133",
@@ -723,6 +933,20 @@
       "readTimeMinutes": 5,
       "indicatorCount": 13,
       "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 6,
+        "B": 2,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "8 cited sources: 6 tier A, 2 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "75% of sources are official statistics or peer-reviewed",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "Shallow-aquifer exploitation rate, national",
         "value": "85",
@@ -770,6 +994,20 @@
       "readTimeMinutes": 4,
       "indicatorCount": 7,
       "sourceCount": 7,
+      "citedSourceCount": 7,
+      "tierMix": {
+        "A": 3,
+        "B": 3,
+        "C": 1
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "7 cited sources: 3 tier A, 3 tier B, 1 tier C",
+        "Record declares low confidence",
+        "Author flagged low confidence",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Aquifer exploitation rate, strategy scenario",
         "value": "139",
@@ -821,6 +1059,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 17,
       "sourceCount": 15,
+      "citedSourceCount": 15,
+      "tierMix": {
+        "A": 12,
+        "B": 1,
+        "C": 2
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "15 cited sources: 12 tier A, 1 tier B, 2 tier C",
+        "Record declares high confidence",
+        "80% of sources are official statistics or peer-reviewed",
+        "6 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "Total stock in large dams on 1 September (end of hydrological year)",
         "value": "1184.43",
@@ -873,6 +1125,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 10,
       "sourceCount": 5,
+      "citedSourceCount": 5,
+      "tierMix": {
+        "A": 2,
+        "B": 3,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "5 cited sources: 2 tier A, 3 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "40% of sources are official statistics or peer-reviewed",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Share of water investment spent on reservoir dams and transfer mains",
         "value": "19",
@@ -928,6 +1194,20 @@
       "readTimeMinutes": 8,
       "indicatorCount": 12,
       "sourceCount": 13,
+      "citedSourceCount": 13,
+      "tierMix": {
+        "A": 10,
+        "B": 3,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "13 cited sources: 10 tier A, 3 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "77% of sources are official statistics or peer-reviewed",
+        "6 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "Capacity loss of 30 monitored dams (useful 2,078 vs initial 2,787)",
         "value": "25",
@@ -987,6 +1267,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 8,
       "sourceCount": 11,
+      "citedSourceCount": 11,
+      "tierMix": {
+        "A": 2,
+        "B": 3,
+        "C": 6
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "11 cited sources: 2 tier A, 3 tier B, 6 tier C",
+        "Record declares medium confidence",
+        "Half or more of the sources are press or secondary material",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "SONEDE systems with summer supply disruptions",
         "value": "224",
@@ -1041,6 +1335,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 18,
       "sourceCount": 9,
+      "citedSourceCount": 9,
+      "tierMix": {
+        "A": 2,
+        "B": 5,
+        "C": 2
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "9 cited sources: 2 tier A, 5 tier B, 2 tier C",
+        "Record declares high confidence",
+        "78% of sources are tier A or B",
+        "6 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "Rural drinking-water coverage",
         "value": "25",
@@ -1090,6 +1398,20 @@
       "readTimeMinutes": 7,
       "indicatorCount": 20,
       "sourceCount": 6,
+      "citedSourceCount": 6,
+      "tierMix": {
+        "A": 2,
+        "B": 3,
+        "C": 1
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "6 cited sources: 2 tier A, 3 tier B, 1 tier C",
+        "Record declares medium confidence",
+        "83% of sources are tier A or B",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "SONEDE operating ratio (operating revenues / operating costs incl. depreciation)",
         "value": "1.07",
@@ -1142,6 +1464,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 14,
       "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 2,
+        "B": 6,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "8 cited sources: 2 tier A, 6 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "8 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Renewable internal freshwater resources per capita",
         "value": "972",
@@ -1192,6 +1528,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 15,
       "sourceCount": 7,
+      "citedSourceCount": 7,
+      "tierMix": {
+        "A": 1,
+        "B": 6,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "7 cited sources: 1 tier A, 6 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Blue-water demand",
         "value": "3103",
@@ -1243,6 +1593,20 @@
       "readTimeMinutes": 4,
       "indicatorCount": 8,
       "sourceCount": 5,
+      "citedSourceCount": 5,
+      "tierMix": {
+        "A": 1,
+        "B": 4,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "5 cited sources: 1 tier A, 4 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "6 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "Piezometric level in Korba coastal aquifer depressions",
         "value": "about -12",
@@ -1293,6 +1657,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 16,
       "sourceCount": 11,
+      "citedSourceCount": 11,
+      "tierMix": {
+        "A": 7,
+        "B": 4,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "11 cited sources: 7 tier A, 4 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "64% of sources are official statistics or peer-reviewed",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Share of irrigated perimeters equipped with water-saving equipment",
         "value": "37",
@@ -1349,6 +1727,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 14,
       "sourceCount": 6,
+      "citedSourceCount": 6,
+      "tierMix": {
+        "A": 4,
+        "B": 2,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "6 cited sources: 4 tier A, 2 tier B, 0 tier C",
+        "Record declares high confidence",
+        "67% of sources are official statistics or peer-reviewed",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "Dam-water quota allocated to public irrigated perimeters",
         "value": "235",
@@ -1402,6 +1794,20 @@
       "readTimeMinutes": 4,
       "indicatorCount": 6,
       "sourceCount": 5,
+      "citedSourceCount": 5,
+      "tierMix": {
+        "A": 4,
+        "B": 1,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "5 cited sources: 4 tier A, 1 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "80% of sources are official statistics or peer-reviewed",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Distribution efficiency between delivery point and irrigators' hydrants, diagnosed PPIs (range 38-100%)",
         "value": "59",
@@ -1451,6 +1857,20 @@
       "readTimeMinutes": 3,
       "indicatorCount": 7,
       "sourceCount": 4,
+      "citedSourceCount": 4,
+      "tierMix": {
+        "A": 2,
+        "B": 2,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "4 cited sources: 2 tier A, 2 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "50% of sources are official statistics or peer-reviewed",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "ONAS treatment plants reported with tertiary-treatment equipment",
         "value": "28 of 125",
@@ -1496,6 +1916,20 @@
       "readTimeMinutes": 2,
       "indicatorCount": 2,
       "sourceCount": 3,
+      "citedSourceCount": 3,
+      "tierMix": {
+        "A": 1,
+        "B": 2,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "3 cited sources: 1 tier A, 2 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "2024 drinking-water salinity baseline, lower endpoint of national north–south range",
         "value": "1.5",
@@ -1544,6 +1978,20 @@
       "readTimeMinutes": 7,
       "indicatorCount": 15,
       "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 3,
+        "B": 5,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "8 cited sources: 3 tier A, 5 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "9 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 9,
       "topIndicator": {
         "name": "Deep-aquifer exploitation rate, Kébili governorate",
         "value": "171",
@@ -1596,6 +2044,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 13,
       "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 2,
+        "B": 6,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "8 cited sources: 2 tier A, 6 tier B, 0 tier C",
+        "Record declares high confidence",
+        "100% of sources are tier A or B",
+        "6 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "Foreign dependence coefficient, soft wheat (net imports / consumption)",
         "value": "93.1",
@@ -1646,6 +2108,20 @@
       "readTimeMinutes": 5,
       "indicatorCount": 24,
       "sourceCount": 9,
+      "citedSourceCount": 9,
+      "tierMix": {
+        "A": 4,
+        "B": 5,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "9 cited sources: 4 tier A, 5 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "44% of sources are official statistics or peer-reviewed",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "Cereal production 2023, FAO GIEWS estimate (Nov 2023)",
         "value": "302000",
@@ -1693,6 +2169,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 24,
       "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 1,
+        "B": 6,
+        "C": 1
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "8 cited sources: 1 tier A, 6 tier B, 1 tier C",
+        "Record declares medium confidence",
+        "88% of sources are tier A or B",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "CGC transfers due to OC, 2022-2023",
         "value": "6625",
@@ -1749,6 +2239,20 @@
       "readTimeMinutes": 5,
       "indicatorCount": 9,
       "sourceCount": 6,
+      "citedSourceCount": 6,
+      "tierMix": {
+        "A": 1,
+        "B": 5,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "6 cited sources: 1 tier A, 5 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "6 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "Median loss of climatically favourable olive area, RCP8.5 2100 (up to 34%)",
         "value": "14",
@@ -1796,6 +2300,20 @@
       "readTimeMinutes": 5,
       "indicatorCount": 17,
       "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 3,
+        "B": 4,
+        "C": 1
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "8 cited sources: 3 tier A, 4 tier B, 1 tier C",
+        "Record declares medium confidence",
+        "88% of sources are tier A or B",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Maize production",
         "value": "0",
@@ -1846,6 +2364,20 @@
       "readTimeMinutes": 7,
       "indicatorCount": 17,
       "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 2,
+        "B": 3,
+        "C": 3
+      },
+      "trust": "mixed",
+      "trustReasons": [
+        "8 cited sources: 2 tier A, 3 tier B, 3 tier C",
+        "Record declares medium confidence",
+        "38% of sources are press or secondary material",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "Fresh milk production",
         "value": "1230",
@@ -1895,6 +2427,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 12,
       "sourceCount": 4,
+      "citedSourceCount": 4,
+      "tierMix": {
+        "A": 1,
+        "B": 2,
+        "C": 1
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "4 cited sources: 1 tier A, 2 tier B, 1 tier C",
+        "Record declares medium confidence",
+        "75% of sources are tier A or B",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Farmland held by heads aged 60 and over",
         "value": "46",
@@ -1945,6 +2491,20 @@
       "readTimeMinutes": 5,
       "indicatorCount": 6,
       "sourceCount": 7,
+      "citedSourceCount": 7,
+      "tierMix": {
+        "A": 4,
+        "B": 2,
+        "C": 1
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "7 cited sources: 4 tier A, 2 tier B, 1 tier C",
+        "Record declares low confidence",
+        "Author flagged low confidence",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Share of land potential registered (immatriculé)",
         "value": "50",
@@ -1997,6 +2557,20 @@
       "readTimeMinutes": 7,
       "indicatorCount": 15,
       "sourceCount": 12,
+      "citedSourceCount": 12,
+      "tierMix": {
+        "A": 6,
+        "B": 2,
+        "C": 4
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "12 cited sources: 6 tier A, 2 tier B, 4 tier C",
+        "Record declares low confidence",
+        "Author flagged low confidence",
+        "6 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "State land transferred to private operators (mainly leases)",
         "value": "143000",
@@ -2051,6 +2625,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 10,
       "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 2,
+        "B": 6,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "8 cited sources: 2 tier A, 6 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "8 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Land affected by water erosion",
         "value": "3.56",
@@ -2101,6 +2689,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 11,
       "sourceCount": 11,
+      "citedSourceCount": 11,
+      "tierMix": {
+        "A": 1,
+        "B": 10,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "11 cited sources: 1 tier A, 10 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "8 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Land affected by strong wind erosion",
         "value": "7.356",
@@ -2153,6 +2755,20 @@
       "readTimeMinutes": 4,
       "indicatorCount": 6,
       "sourceCount": 4,
+      "citedSourceCount": 4,
+      "tierMix": {
+        "A": 1,
+        "B": 3,
+        "C": 0
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "4 cited sources: 1 tier A, 3 tier B, 0 tier C",
+        "Record declares low confidence",
+        "Author flagged low confidence",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Naturally salt-affected soils (PAN-LCD reported estimate)",
         "value": "1.5",
@@ -2199,6 +2815,20 @@
       "readTimeMinutes": 3,
       "indicatorCount": 7,
       "sourceCount": 6,
+      "citedSourceCount": 6,
+      "tierMix": {
+        "A": 3,
+        "B": 2,
+        "C": 1
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "6 cited sources: 3 tier A, 2 tier B, 1 tier C",
+        "Record declares medium confidence",
+        "50% of sources are official statistics or peer-reviewed",
+        "9 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 9,
       "topIndicator": {
         "name": "Certified cereal seed adoption",
         "value": "20",
@@ -2250,6 +2880,20 @@
       "readTimeMinutes": 4,
       "indicatorCount": 11,
       "sourceCount": 5,
+      "citedSourceCount": 5,
+      "tierMix": {
+        "A": 3,
+        "B": 2,
+        "C": 0
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "5 cited sources: 3 tier A, 2 tier B, 0 tier C",
+        "Record declares low confidence",
+        "Author flagged low confidence",
+        "9 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 9,
       "topIndicator": {
         "name": "Pesticide use per area of cropland (FAOSTAT estimate)",
         "value": "0.83",
@@ -2308,6 +2952,20 @@
       "readTimeMinutes": 7,
       "indicatorCount": 12,
       "sourceCount": 11,
+      "citedSourceCount": 11,
+      "tierMix": {
+        "A": 4,
+        "B": 3,
+        "C": 4
+      },
+      "trust": "mixed",
+      "trustReasons": [
+        "11 cited sources: 4 tier A, 3 tier B, 4 tier C",
+        "Record declares medium confidence",
+        "36% of sources are press or secondary material",
+        "8 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Agricultural land lost to urban pressure (secondary citation of Euronet Consortium 2012, Profil environnemental de la Tunisie)",
         "value": "2,000-3,000",
@@ -2359,6 +3017,20 @@
       "readTimeMinutes": 7,
       "indicatorCount": 7,
       "sourceCount": 7,
+      "citedSourceCount": 7,
+      "tierMix": {
+        "A": 5,
+        "B": 1,
+        "C": 1
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "7 cited sources: 5 tier A, 1 tier B, 1 tier C",
+        "Record declares medium confidence",
+        "71% of sources are official statistics or peer-reviewed",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "Maximum fine for changing the use of farmland (after 1996 amendment)",
         "value": "20000",
@@ -2409,6 +3081,20 @@
       "readTimeMinutes": 7,
       "indicatorCount": 18,
       "sourceCount": 10,
+      "citedSourceCount": 10,
+      "tierMix": {
+        "A": 6,
+        "B": 4,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "10 cited sources: 6 tier A, 4 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "60% of sources are official statistics or peer-reviewed",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "Blue water footprint of dates, AquaCrop estimate (highest of three estimates; others 3,270 m3/t blue for 1996-2005 in SRC-TG-868 and about 2,900 m3/t total for 2013 exports in SRC-TG-861)",
         "value": "5000",
@@ -2459,6 +3145,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 12,
       "sourceCount": 9,
+      "citedSourceCount": 9,
+      "tierMix": {
+        "A": 4,
+        "B": 5,
+        "C": 0
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "9 cited sources: 4 tier A, 5 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "44% of sources are official statistics or peer-reviewed",
+        "8 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Share of fresh tomato production exported (our calculation, 27,264 t exported / 1,160,000 t produced, both official FAOSTAT figures)",
         "value": "2.4",
@@ -2513,6 +3213,20 @@
       "readTimeMinutes": 8,
       "indicatorCount": 14,
       "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 2,
+        "B": 6,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "8 cited sources: 2 tier A, 6 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "8 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Projected decrease in share of agricultural production in national GDP",
         "value": "-5% to -10%",
@@ -2565,6 +3279,20 @@
       "readTimeMinutes": 6,
       "indicatorCount": 13,
       "sourceCount": 9,
+      "citedSourceCount": 9,
+      "tierMix": {
+        "A": 2,
+        "B": 7,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "9 cited sources: 2 tier A, 7 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "Annual real value-added growth, agriculture, forestry and fishing, INS August 2026 release",
         "value": "-16.1",
@@ -2614,6 +3342,20 @@
       "readTimeMinutes": 7,
       "indicatorCount": 23,
       "sourceCount": 9,
+      "citedSourceCount": 9,
+      "tierMix": {
+        "A": 2,
+        "B": 3,
+        "C": 4
+      },
+      "trust": "mixed",
+      "trustReasons": [
+        "9 cited sources: 2 tier A, 3 tier B, 4 tier C",
+        "Record declares medium confidence",
+        "44% of sources are press or secondary material",
+        "8 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Bread thrown away per day (INC estimate)",
         "value": "900000",
@@ -2667,6 +3409,20 @@
       "readTimeMinutes": 4,
       "indicatorCount": 8,
       "sourceCount": 7,
+      "citedSourceCount": 7,
+      "tierMix": {
+        "A": 2,
+        "B": 3,
+        "C": 2
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "7 cited sources: 2 tier A, 3 tier B, 2 tier C",
+        "Record declares low confidence",
+        "Author flagged low confidence",
+        "6 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "Farm machines older than 25 years",
         "value": "60",
@@ -2717,6 +3473,20 @@
       "readTimeMinutes": 3,
       "indicatorCount": 10,
       "sourceCount": 6,
+      "citedSourceCount": 6,
+      "tierMix": {
+        "A": 0,
+        "B": 3,
+        "C": 3
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "6 cited sources: 0 tier A, 3 tier B, 3 tier C",
+        "Record declares medium confidence",
+        "Half or more of the sources are press or secondary material",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Milk lost per year, both governorates",
         "value": "20.1",
@@ -2766,6 +3536,20 @@
       "readTimeMinutes": 5,
       "indicatorCount": 8,
       "sourceCount": 4,
+      "citedSourceCount": 4,
+      "tierMix": {
+        "A": 1,
+        "B": 3,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "4 cited sources: 1 tier A, 3 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
       "topIndicator": {
         "name": "Nominal protection coefficient, durum wheat (producer price vs actual world price, late 1987)",
         "value": "1.37",
@@ -2819,6 +3603,20 @@
       "readTimeMinutes": 7,
       "indicatorCount": 9,
       "sourceCount": 6,
+      "citedSourceCount": 6,
+      "tierMix": {
+        "A": 1,
+        "B": 5,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "6 cited sources: 1 tier A, 5 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "Milk share of market price support expenditure",
         "value": "over 50",
@@ -2871,6 +3669,20 @@
       "readTimeMinutes": 7,
       "indicatorCount": 14,
       "sourceCount": 11,
+      "citedSourceCount": 11,
+      "tierMix": {
+        "A": 2,
+        "B": 4,
+        "C": 5
+      },
+      "trust": "mixed",
+      "trustReasons": [
+        "11 cited sources: 2 tier A, 4 tier B, 5 tier C",
+        "Record declares medium confidence",
+        "45% of sources are press or secondary material",
+        "10 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 10,
       "topIndicator": {
         "name": "Share of farmers with bank loans",
         "value": "7 (at most)",

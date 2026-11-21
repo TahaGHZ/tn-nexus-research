@@ -6,13 +6,18 @@ import {
   CheckCircle2,
   Droplets,
   Lock,
-  ShieldCheck,
   Sparkles,
   Sprout,
   Unlock,
   Zap,
 } from 'lucide-react';
-import { PixelGolem, type GolemMode } from '../components/PixelGolem';
+import {
+  GOLEM_ANIMATIONS,
+  PixelGolem,
+  type GolemAnimation,
+  type GolemMode,
+} from '../components/PixelGolem';
+import { EvidenceDashboard } from '../components/EvidenceDashboard';
 import { FindingCard } from '../components/FindingCard';
 import { SECTOR_META } from '../components/ResearchFormatting';
 import { NEXUS_MODULES } from '../modules/registry';
@@ -62,7 +67,20 @@ const GOLEM_QUOTES: Array<{ id: string; sector: GolemMode; text: string }> = [
 export function HomePage({ data }: HomePageProps) {
   const { stats, phases, findings } = data;
   const [golemMode, setGolemMode] = useState<GolemMode>('nexus');
+  const [golemAnim, setGolemAnim] = useState<GolemAnimation>('auto');
   const [quoteIdx, setQuoteIdx] = useState(0);
+
+  const handleSelectAnimation = (id: GolemAnimation) => {
+    const entry = GOLEM_ANIMATIONS.find((a) => a.id === id);
+    const nextMode = entry?.mode ?? 'nexus';
+    setGolemAnim(id);
+    setGolemMode(nextMode);
+    // Sector moves show a fact from the matching sector.
+    if (nextMode !== 'nexus') {
+      const match = GOLEM_QUOTES.findIndex((q) => q.sector === nextMode);
+      if (match >= 0) setQuoteIdx(match);
+    }
+  };
 
   const findingById = new Map<string, FindingSummary>(findings.map((f) => [f.id, f]));
   const featuredFindings = FEATURED_IDS.map((id) => findingById.get(id)).filter(
@@ -111,7 +129,7 @@ export function HomePage({ data }: HomePageProps) {
   return (
     <div>
       {/* HERO SECTION */}
-      <section className="relative overflow-hidden bg-[#0B1320] text-white nexus-hero-grid">
+      <section className="relative overflow-hidden bg-[#0B1320] text-white">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-22 lg:px-8 lg:py-24">
           <div className="grid items-center gap-12 lg:grid-cols-12">
             {/* Left copy */}
@@ -123,9 +141,7 @@ export function HomePage({ data }: HomePageProps) {
 
               <h1 className="mt-6 font-display text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-[3.4rem] lg:leading-[1.08]">
                 Mapping Tunisia’s{' '}
-                <span className="bg-gradient-to-r from-sky-400 via-cyan-300 to-emerald-400 bg-clip-text text-transparent">
-                  Water, Energy &amp; Agriculture
-                </span>{' '}
+                <span className="text-emerald-400">Water, Energy &amp; Agriculture</span>{' '}
                 Nexus.
               </h1>
 
@@ -139,7 +155,7 @@ export function HomePage({ data }: HomePageProps) {
               <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   to="/blog"
-                  className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-sky-500 px-6 py-3.5 text-sm font-semibold text-slate-950 shadow-lg shadow-emerald-950/40 transition hover:brightness-110"
+                  className="inline-flex items-center gap-2 rounded-xl bg-emerald-500 px-6 py-3.5 text-sm font-semibold text-slate-950 transition hover:bg-emerald-400"
                 >
                   <BookOpen className="h-4 w-4" />
                   Browse {stats.verifiedFindings} Verified Findings
@@ -153,43 +169,39 @@ export function HomePage({ data }: HomePageProps) {
                 </Link>
               </div>
 
-              {/* Live Repo Stats Strip */}
+              {/* Headline numbers, counted from the repository at build time */}
               <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
-                <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-3.5 backdrop-blur-xs">
-                  <div className="font-display text-2xl font-bold text-emerald-400">
-                    {stats.verifiedFindings}
+                {[
+                  { value: stats.verifiedFindings, label: 'Verified findings', tone: 'text-emerald-400' },
+                  { value: stats.totalIndicators, label: 'Sourced data points', tone: 'text-sky-400' },
+                  { value: stats.citedSources, label: 'Sources cited', tone: 'text-white' },
+                  {
+                    value: stats.trustCounts.strong + stats.trustCounts.solid,
+                    label: 'Rated strong or solid',
+                    tone: 'text-amber-300',
+                  },
+                ].map((item) => (
+                  <div
+                    key={item.label}
+                    className="rounded-xl border border-slate-700 bg-slate-900 p-4"
+                  >
+                    <div className={`font-display text-4xl font-bold leading-none ${item.tone}`}>
+                      {item.value}
+                    </div>
+                    <div className="mt-2 text-xs font-medium text-slate-300">{item.label}</div>
                   </div>
-                  <div className="mt-0.5 text-xs text-slate-400">Verified Findings</div>
-                </div>
-                <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-3.5 backdrop-blur-xs">
-                  <div className="font-display text-2xl font-bold text-sky-400">
-                    {stats.totalSources}
-                  </div>
-                  <div className="mt-0.5 text-xs text-slate-400">Cited Sources</div>
-                </div>
-                <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-3.5 backdrop-blur-xs">
-                  <div className="font-display text-2xl font-bold text-white">
-                    {stats.sourceTiers.A}
-                  </div>
-                  <div className="mt-0.5 text-xs text-slate-400">Tier A Official Data</div>
-                </div>
-                <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-3.5 backdrop-blur-xs">
-                  <div className="font-display text-2xl font-bold text-amber-300">
-                    {stats.themeCount}
-                  </div>
-                  <div className="mt-0.5 text-xs text-slate-400">Nexus Themes</div>
-                </div>
+                ))}
               </div>
             </div>
 
             {/* Right: Interactive Animated Pixel-Art Golem Stage */}
             <div className="lg:col-span-5">
-              <div className="relative mx-auto max-w-md rounded-3xl border border-slate-700/80 bg-gradient-to-b from-slate-900/90 to-slate-950/95 p-6 shadow-2xl">
+              <div className="relative mx-auto max-w-md rounded-3xl border border-slate-700 bg-slate-900 p-6">
                 {/* Corner pixel accents */}
                 <div className="mb-3 flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                    <span className="h-2.5 w-2.5 rounded-xs bg-emerald-400 shadow-[0_0_8px_#34d399]" />
-                    <span className="h-2.5 w-2.5 rounded-xs bg-sky-400 shadow-[0_0_8px_#38bdf8]" />
+                    <span className="h-2.5 w-2.5 rounded-xs bg-emerald-400" />
+                    <span className="h-2.5 w-2.5 rounded-xs bg-sky-400" />
                     <span className="font-mono text-[11px] font-medium uppercase tracking-wider text-slate-400">
                       NEXUS GUARDIAN · PIXEL CORE
                     </span>
@@ -217,35 +229,30 @@ export function HomePage({ data }: HomePageProps) {
                 </Link>
 
                 {/* Golem Canvas Stage */}
-                <div className="relative flex items-center justify-center rounded-2xl border border-slate-800 bg-[radial-gradient(circle_at_center,rgba(16,185,129,0.12)_0%,rgba(14,165,233,0.1)_40%,rgba(2,6,23,0.85)_100%)] py-5">
+                <div className="relative flex items-center justify-center rounded-2xl border border-slate-800 bg-slate-950 py-5">
                   <PixelGolem
                     size={252}
                     mode={golemMode}
+                    animation={golemAnim}
                     interactive
                     onSurge={handleGolemSurge}
                   />
                 </div>
 
-                {/* Gem Mode Switcher */}
+                {/* Animation switcher: each move also sets the gem colour */}
                 <div className="mt-4 flex flex-wrap items-center justify-center gap-1.5">
-                  {(
-                    [
-                      { id: 'nexus', label: 'Dual Core', color: 'border-emerald-400/50 bg-emerald-500/15 text-emerald-200' },
-                      { id: 'water', label: 'Blue Gem · Water', color: 'border-sky-400/50 bg-sky-500/15 text-sky-200' },
-                      { id: 'agriculture', label: 'Green Gem · Agri', color: 'border-emerald-400/50 bg-emerald-500/15 text-emerald-200' },
-                      { id: 'energy', label: 'Surge · Energy', color: 'border-amber-400/50 bg-amber-500/15 text-amber-200' },
-                    ] as const
-                  ).map((item) => {
-                    const active = golemMode === item.id;
+                  {GOLEM_ANIMATIONS.map((item) => {
+                    const active = golemAnim === item.id;
                     return (
                       <button
                         key={item.id}
                         type="button"
-                        onClick={() => setGolemMode(item.id)}
+                        onClick={() => handleSelectAnimation(item.id)}
+                        aria-pressed={active}
                         className={`rounded-lg border px-2.5 py-1 font-mono text-[11px] transition ${
                           active
-                            ? item.color
-                            : 'border-slate-800 bg-slate-900/80 text-slate-400 hover:border-slate-600 hover:text-slate-200'
+                            ? 'border-emerald-400 bg-emerald-500 text-slate-950'
+                            : 'border-slate-700 bg-slate-900 text-slate-300 hover:border-slate-500 hover:text-white'
                         }`}
                       >
                         {item.label}
@@ -258,6 +265,9 @@ export function HomePage({ data }: HomePageProps) {
           </div>
         </div>
       </section>
+
+      {/* EVIDENCE AT A GLANCE: global stats and trust classification */}
+      <EvidenceDashboard data={data} />
 
       {/* THREE SECTORS OF THE NEXUS */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
@@ -292,7 +302,7 @@ export function HomePage({ data }: HomePageProps) {
                     loading="lazy"
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/35 to-transparent" />
+                  <div className="absolute inset-0 bg-slate-950/55" />
                   <div className="absolute top-3.5 left-3.5 inline-flex items-center gap-1.5 rounded-full bg-slate-950/75 px-3 py-1 text-xs font-semibold text-white backdrop-blur-sm">
                     <Icon className="h-3.5 w-3.5 text-emerald-400" />
                     {meta.label}
@@ -369,62 +379,6 @@ export function HomePage({ data }: HomePageProps) {
               phase 1 records ({stats.draftFindings} drafts remain in verification).
             </p>
 
-            <div className="mt-6 rounded-2xl border border-stone-200 bg-white p-5">
-              <div className="flex items-center gap-2 font-mono text-xs font-semibold uppercase tracking-wider text-slate-900">
-                <ShieldCheck className="h-4 w-4 text-emerald-600" />
-                Source Tier Breakdown ({stats.totalSources} SRC Records)
-              </div>
-              <div className="mt-4 space-y-3 text-xs">
-                <div>
-                  <div className="flex justify-between font-medium text-slate-800">
-                    <span>Tier A · Official stats, laws &amp; peer-reviewed papers</span>
-                    <span className="font-mono font-semibold text-emerald-700">
-                      {stats.sourceTiers.A}
-                    </span>
-                  </div>
-                  <div className="mt-1 h-2 overflow-hidden rounded-full bg-stone-100">
-                    <div
-                      className="h-full rounded-full bg-emerald-500"
-                      style={{
-                        width: `${Math.round((stats.sourceTiers.A / Math.max(1, stats.totalSources)) * 100)}%`,
-                      }}
-                    />
-                  </div>
-                </div>
-                <div>
-                  <div className="flex justify-between font-medium text-slate-800">
-                    <span>Tier B · Institutional, donor &amp; NGO reports</span>
-                    <span className="font-mono font-semibold text-sky-700">
-                      {stats.sourceTiers.B}
-                    </span>
-                  </div>
-                  <div className="mt-1 h-2 overflow-hidden rounded-full bg-stone-100">
-                    <div
-                      className="h-full rounded-full bg-sky-500"
-                      style={{
-                        width: `${Math.round((stats.sourceTiers.B / Math.max(1, stats.totalSources)) * 100)}%`,
-                      }}
-                    />
-                  </div>
-                </div>
-                <div>
-                  <div className="flex justify-between font-medium text-slate-800">
-                    <span>Tier C · Press &amp; company material (flagged low)</span>
-                    <span className="font-mono font-semibold text-amber-700">
-                      {stats.sourceTiers.C}
-                    </span>
-                  </div>
-                  <div className="mt-1 h-2 overflow-hidden rounded-full bg-stone-100">
-                    <div
-                      className="h-full rounded-full bg-amber-400"
-                      style={{
-                        width: `${Math.round((stats.sourceTiers.C / Math.max(1, stats.totalSources)) * 100)}%`,
-                      }}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="grid gap-4 sm:grid-cols-3 lg:col-span-7">
@@ -450,7 +404,7 @@ export function HomePage({ data }: HomePageProps) {
                   key={phase.number}
                   className={`flex flex-col justify-between rounded-2xl border p-5 ${
                     unlocked
-                      ? 'border-emerald-300 bg-gradient-to-b from-emerald-50/80 to-white shadow-sm'
+                      ? 'border-emerald-300 bg-emerald-50'
                       : 'border-stone-200 bg-stone-50/70 text-stone-500'
                   }`}
                 >

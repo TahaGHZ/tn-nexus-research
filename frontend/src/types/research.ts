@@ -5,6 +5,13 @@ export type Trend = 'worsening' | 'stable' | 'improving' | 'unknown';
 export type Confidence = 'low' | 'medium' | 'high';
 export type RecordStatus = 'draft' | 'in-review' | 'validated' | 'rejected';
 export type SourceTier = 'A' | 'B' | 'C';
+export type TrustLevel = 'strong' | 'solid' | 'mixed' | 'weak';
+
+export interface TierMix {
+  A: number;
+  B: number;
+  C: number;
+}
 
 export interface CuratedImage {
   url: string;
@@ -83,6 +90,11 @@ export interface FindingSummary {
   readTimeMinutes: number;
   indicatorCount: number;
   sourceCount: number;
+  citedSourceCount: number;
+  tierMix: TierMix;
+  trust: TrustLevel;
+  trustReasons: string[];
+  dataGapCount: number;
   topIndicator: Indicator | null;
   stakeholders: string[];
   hasProjection: boolean;
@@ -120,6 +132,15 @@ export interface SiteStats {
   sectorCounts: { water: number; energy: number; agriculture: number };
   timeframeCounts: { past: number; current: number; predicted: number };
   themeCount: number;
+  trustCounts: Record<TrustLevel, number>;
+  confidenceCounts: Record<Confidence, number>;
+  severityCounts: Record<Severity, number>;
+  trendCounts: Record<Trend, number>;
+  totalIndicators: number;
+  totalDataGaps: number;
+  projectionCount: number;
+  nexusCount: number;
+  citedSources: number;
 }
 
 export interface ResearchIndex {

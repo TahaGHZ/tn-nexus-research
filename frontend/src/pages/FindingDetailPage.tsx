@@ -26,6 +26,8 @@ import {
   SEVERITY_META,
   STATUS_META,
   TIER_META,
+  TRUST_META,
+  TierMixBar,
   TIMEFRAME_META,
   TREND_META,
   formatGeography,
@@ -146,6 +148,7 @@ export function FindingDetailPage({ indexData }: FindingDetailPageProps) {
   const confidence = CONFIDENCE_META[finding.confidence] || CONFIDENCE_META.medium;
   const trend = TREND_META[finding.trend] || TREND_META.unknown;
   const status = STATUS_META[finding.status] || STATUS_META['in-review'];
+  const trust = TRUST_META[finding.trust] || TRUST_META.mixed;
 
   const visibleIndicators = showAllIndicators
     ? finding.indicators
@@ -184,7 +187,7 @@ export function FindingDetailPage({ indexData }: FindingDetailPageProps) {
               alt={finding.image.alt}
               className="h-full w-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/55 to-slate-950/15" />
+            <div className="absolute inset-0 bg-slate-950/70" />
 
             <div className="absolute right-6 bottom-6 left-6 sm:right-8 sm:bottom-8 sm:left-8">
               <div className="flex flex-wrap items-center gap-2">
@@ -289,6 +292,45 @@ export function FindingDetailPage({ indexData }: FindingDetailPageProps) {
             </div>
           </div>
         </div>
+
+        {/* Trust assessment */}
+        <section className="mt-6 rounded-2xl border border-stone-200 bg-white p-6">
+          <div className="grid gap-6 md:grid-cols-12">
+            <div className="md:col-span-5">
+              <div className="font-mono text-[10px] uppercase tracking-wider text-stone-500">
+                How far can you trust this finding?
+              </div>
+              <div
+                className={`mt-2 inline-flex items-center gap-2 rounded-lg border px-3.5 py-2 font-display text-xl font-bold ${trust.badge}`}
+              >
+                <ShieldCheck className="h-5 w-5" />
+                {trust.label}
+              </div>
+              <p className="mt-3 text-sm leading-relaxed text-slate-800">{trust.advice}</p>
+              <Link
+                to={`/blog?trust=${finding.trust}`}
+                className="mt-3 inline-block text-xs font-semibold text-emerald-800 hover:underline"
+              >
+                See all “{trust.label}” findings →
+              </Link>
+            </div>
+            <div className="md:col-span-7">
+              <div className="font-mono text-[10px] uppercase tracking-wider text-stone-500">
+                Why it is rated this way
+              </div>
+              <TierMixBar mix={finding.tierMix} className="mt-2" />
+              <ul className="mt-3 space-y-1.5 text-sm text-slate-700">
+                {finding.trustReasons.map((reason) => (
+                  <li key={reason} className="flex gap-2">
+                    <span className={`mt-2 h-1.5 w-1.5 shrink-0 rounded-full ${trust.dot}`} />
+                    {reason}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-3 text-xs text-stone-500">Rule: {trust.rule}</p>
+            </div>
+          </div>
+        </section>
 
         {/* Main 2-column layout */}
         <div className="mt-8 grid gap-8 lg:grid-cols-12">
