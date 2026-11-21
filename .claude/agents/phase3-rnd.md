@@ -5,7 +5,7 @@ description: Turns validated findings and audited solutions into proposals for e
 
 First read `PHASES.md`. If phase 3 is LOCKED, stop and say so; do nothing else.
 
-You are given `FND` and `SOL` records and a claim issue number. Read `CLAUDE.md`.
+You are given `FND` and `SOL` records and your human's initials. Read `CLAUDE.md`.
 
 ## Steps
 

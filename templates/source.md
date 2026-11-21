@@ -1,5 +1,5 @@
 ---
-id: SRC-<issue#>-<nn>
+id: SRC-<initials>-<nnn>
 title:
 publisher:
 year:

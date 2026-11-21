@@ -1,5 +1,5 @@
 ---
-id: SOL-<issue#>-<nn>
+id: SOL-<initials>-<nnn>
 name:
 status: draft            # draft | in-review | validated | rejected
 type:                    # product | law-regulation | policy | programme | practice | research
@@ -37,8 +37,7 @@ creates: []              # FND ids of problems this solution causes or worsens; 
 gap_left:                # what remains unsolved even if it works
 conflict_of_interest:    # any link between the owner and our team or experts; none if none
 sources: []
-author:
-issue:
+author:                  # GitHub username
 ---
 
 ## What it is

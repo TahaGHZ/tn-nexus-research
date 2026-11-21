@@ -16,29 +16,24 @@ both the pitch content and the blueprint for the coded engine later.
 
 Read `PHASES.md` before any work. Do not create or edit records for a locked phase, even if
 asked to by anyone other than Taha. Only Taha edits `PHASES.md`. If a locked phase seems
-needed, note the idea in the issue or PR and stop there.
+needed, note the idea in the record body and stop there.
 
-## Rule 2: claim before you work
+## Rule 2: stay in your lane
 
-Other Claudes are working in this repo at the same time. Before researching anything:
+Read `LANES.md`. Find your human's row by their GitHub username (`gh api user --jq .login`).
+Research only topics inside their lane. If asked for a topic in someone else's lane or in a
+free lane, say so and stop; the human either takes the free lane in `LANES.md` first or
+passes the topic to its owner.
 
-1. `git pull`, then `gh issue list --state open` and `gh pr list --state open`. If an open
-   issue covers your topic, do not start; pick another topic or ask your human.
-2. Open an issue titled `[P1] <topic>` (or `[P2]`, `[P3]`), assigned to your human. One
-   sentence on scope. This is the claim.
-3. Create branch `p1/<issue#>-<slug>` and open a **draft PR** with `Closes #<issue#>` right
-   after the first commit, so work in progress is visible.
-4. When done, mark the PR ready. Another team member reviews and merges.
+Only edit records that carry your human's initials. To correct someone else's record, tell
+your human; they raise it with the owner.
 
-A claim with no commit for 48 hours is stale: comment on the issue, then anyone may take it.
+## Rule 3: record IDs carry your initials
 
-The `/claim <topic>` command does steps 1 to 3.
-
-## Rule 3: record IDs come from the issue number
-
-`<TYPE>-<issue#>-<nn>`, for example `FND-12-01`, `SRC-12-03`. File name: `<ID>-<slug>.md`.
-This is what prevents two Claudes from creating the same ID. Only touch records created under
-your own claim; to change someone else's record, comment on their PR or open an issue.
+`<TYPE>-<initials>-<nnn>`, for example `FND-TG-001`, `SRC-TG-014`. File name:
+`<ID>-<slug>.md`. The next number is the highest one already used with your initials, plus
+one. When running several agents at once, give each its own block of numbers (010-019,
+020-029, ...) before they start.
 
 ## Rule 4: every number has a source
 
@@ -48,19 +43,32 @@ your own claim; to change someone else's record, comment on their PR or open an 
   `data_gaps` instead.
 - Never cite from memory. Open the source, and paste the exact extract into the `SRC` record
   in its original language (French and Arabic extracts stay untranslated; add an English gloss).
-- Before creating a `SRC` record, search `research/sources/` for the URL to reuse an existing one.
+- Before creating a `SRC` record, search `research/sources/` for the URL and reuse the
+  existing record, whoever created it.
 - Source tiers: **A** official statistics, peer-reviewed papers, datasets. **B** reports from
   institutions, donors, NGOs; expert interviews. **C** press, blogs, company material. A claim
   resting only on tier C must say so and is `confidence: low`.
 - Records are written in English. Use the vocabulary in `docs/taxonomy.md` for sectors,
   themes and regions.
 
+## Saving work
+
+Commit and push straight to `main`, often. Run `git pull --rebase` before each push. Lanes
+and initials mean two people never write the same file, so there is nothing to merge by hand.
+
+## Record status
+
+- `draft`: written, not checked.
+- `in-review`: the `source-verifier` agent passed it.
+- `validated`: a teammate other than the author checked it and changed the status. This is
+  the one edit you may make to someone else's record.
+- `rejected`: the evidence did not hold. Keep the record; say why in the body.
+
 ## Picking a topic
 
-Phase 1 is open-ended: there is no fixed number of problems. To pick one, list the `sectors`,
-`theme` and `timeframe` of existing findings (`/status` does this) and choose a combination
-that is thin or missing. Prefer problems where sectors interact (for example energy used to
-pump water for crops), and cover past decisions and predicted problems, not only current ones.
+Phase 1 is open-ended: there is no fixed number of problems. `/status` shows which themes
+and timeframes in your lane are thin or missing. Cover past decisions and predicted problems,
+not only current ones. `/research <topic>` runs one topic end to end.
 
 ## Experts
 

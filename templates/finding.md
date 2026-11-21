@@ -1,5 +1,5 @@
 ---
-id: FND-<issue#>-<nn>
+id: FND-<initials>-<nnn>
 title:
 status: draft            # draft | in-review | validated | rejected
 sectors: []              # water, energy, agriculture
@@ -32,7 +32,6 @@ related: []              # other FND ids
 sources: []              # all SRC ids used
 data_gaps: []            # what we looked for and could not source
 author:                  # GitHub username
-issue:                   # claim issue number
 ---
 
 ## Problem
@@ -50,6 +49,11 @@ The data behind the indicators, with source ids inline, e.g. (SRC-12-01).
 ## Why confidence is what it is
 
 What is solid, what is contested, what rests on a single or weak source.
+
+## Links to other sectors
+
+How this problem feeds into or depends on another sector. One line each, for the
+cross-sector lane owner to pick up. Write "none found" if none.
 
 ## Leads for phase 2
 

@@ -1,5 +1,5 @@
 ---
-id: PRP-<issue#>-<nn>
+id: PRP-<initials>-<nnn>
 title:
 status: draft            # draft | in-review | sent-to-experts | supported | refuted | parked
 type:                    # improve | combine | new | transfer
@@ -21,8 +21,7 @@ outreach:
     date:
     response:
 sources: []
-author:
-issue:
+author:                  # GitHub username
 ---
 
 ## The gap

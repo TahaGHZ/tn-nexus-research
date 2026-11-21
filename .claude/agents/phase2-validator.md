@@ -5,7 +5,7 @@ description: Audits existing solutions against validated phase 1 findings. Only 
 
 First read `PHASES.md`. If phase 2 is LOCKED, stop and say so; do nothing else.
 
-You are given one or more validated `FND` records and a claim issue number. Read `CLAUDE.md`.
+You are given one or more validated `FND` records and your human's initials. Read `CLAUDE.md`.
 
 ## Steps
 
@@ -28,7 +28,7 @@ You are given one or more validated `FND` records and a claim issue number. Read
      against the evidence.
    - **Trade-offs**: follow the consequences into the other sectors and into the long term.
      If the solution causes or worsens another problem, link the finding under `creates`, or
-     describe the problem so it can be claimed as a new phase 1 topic.
+     describe the problem so its lane owner can research it in phase 1.
 6. Record what stays unsolved (`gap_left`).
 
 Laws, regulations and incentives are solutions too and get their own `SOL` record: they can
