@@ -35,6 +35,12 @@ Section "Un arsenal juridique inadapté ?":
 
 English gloss: total farmland loss was estimated in the mid-1990s at about 23,000 ha per year, mainly from erosion and urbanisation.
 
+Footnote [2], attached to this paragraph:
+
+> [2] Elloumi M. Agriculture périurbaine et nouvelles fonctions du foncier rural en Tunisie. In : Elloumi M. (ed.), Jouve A.-M. (ed.), Napoléone C. (ed.), Paoli J.C. (ed.). Régulation foncière et protection des terres agricoles en Méditerranée. Montpellier : CIHEAM, 2011. p. 159-169 (Options Méditerranéennes : Série B. Etudes et Recherches; n. 66)
+
+English gloss: the paragraph, including the 23,000 ha/yr estimate, draws on Elloumi (2011, CIHEAM). The footnote marker sits after the quoted phrase in the following sentence. Elloumi's paper itself could not be downloaded.
+
 > Un arsenal juridique et institutionnel qui « ne semble pas avoir l'efficacité requise afin d'infléchir la progression de l'urbanisation aux dépens des terres agricoles »
 
 English gloss: the legal framework "does not seem effective enough" to slow urbanisation on farmland (quoted from a cited academic article).

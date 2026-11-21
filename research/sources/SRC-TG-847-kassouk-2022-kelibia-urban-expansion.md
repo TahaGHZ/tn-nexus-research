@@ -15,7 +15,7 @@ added_by: TahaGHZ
 
 Abstract, p. 1:
 
-> In southern Mediterranean countries, coastal urbanization often occurs on croplands. This expansion is frequently on most productive croplands and emerges as an important sustainability concern. [...] We describe the changes in urban structures during the period of 2012–2016 by using Multi dates Pleiades images [...] The results illustrated a dramatic increase of urban areas at the expense of agricultural land, maritime public domain (MPD) and hydraulic public domain (HPD).
+> In southern Mediterranean countries, coastal urbanization often occurs on croplands. This expansion is frequently on most productive croplands and emerges as an important sustainability concern. [...] We describe the changes in urban structures during the period of 2012–2016 by using Multi dates Pleiades images [...] The results illustrated a dramatic increase of urban areas at the expense of agricultural land, maritime public domain (MPD) and hydraulic public domain (HPD). [...] For this reason, the implementation of systematic strategies for urban monitoring requires citizen awareness, law enforcement, and scientific supervision to mitigate land consumption, reduce flooding vulnerability, and to control the environmental impacts of urbanization.
 
 Results, p. 6:
 

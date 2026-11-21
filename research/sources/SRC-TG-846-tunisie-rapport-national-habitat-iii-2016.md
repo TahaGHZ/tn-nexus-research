@@ -41,6 +41,12 @@ p. 21:
 
 English gloss: the public housing land agency (AFH) serviced 1,094 ha in 1995-2014, about 55 ha per year nationwide.
 
+p. 21:
+
+> En dépit de la disproportion de la production des terres par rapport aux besoins, l'Agence Foncière d'Habitation a bien réussi à offrir des lotissements urbains pilotes [...] D'ailleurs, c'est ce qui a contribué à l'organisation de l'espace urbain et à la réduction de l'étalement anarchique des villes au détriment des terres agricoles.
+
+English gloss: although its land output is out of proportion to needs, the AFH delivered model subdivisions, which the report says helped organise urban space and reduce unplanned sprawl onto farmland.
+
 ## Notes
 
 Official government report, but a policy document rather than a statistical publication; the 400 ha/yr figure has no stated method, year range or source. Page numbers are the printed page numbers.

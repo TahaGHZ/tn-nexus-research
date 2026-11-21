@@ -37,4 +37,4 @@ Indicator definition (sourceNote, extract):
 
 ## Notes
 
-FAOSTAT-based national aggregates. Agricultural land includes permanent pasture and permanent crops (olive expansion), so a gain in rangeland or olive plantations can mask the loss of high-value peri-urban plots. Arable land fell from 3.19 Mha (1980) to 2.77 Mha (2023), but these series do not attribute change to any cause; nothing here links the decline to urbanisation. Year-to-year values are partly carried forward (2020 = 2021, 2022 = 2023).
+FAOSTAT-based national aggregates. Agricultural land includes permanent pasture and permanent crops (olive expansion), so a gain in rangeland or olive plantations can mask the loss of high-value peri-urban plots. Arable land fell from 3.19 Mha (1980) to 2.77 Mha (2023), but these series do not attribute change to any cause; nothing here links the decline to urbanisation. Some values are carried forward: arable land 2020 = 2021 and 2022 = 2023; agricultural land 2022 = 2023 (2020 and 2021 differ slightly).

@@ -37,6 +37,18 @@ p. 30, on PIF (land intervention perimeters):
 
 English gloss: nothing prevents public land-intervention perimeters outside urban plans; e.g. Ennasr II (Ariana) started in 1987 while the land was only declassified in 1993.
 
+p. 30, on regional master plans (SDA):
+
+> les orientations des SDA sont d'une part déconnectées des réels besoins des communes en zones agricoles à déclasser et d'autre part les zones définies pour l'urbanisation à moyen et long terme, même si elles doivent être respectées par les PAU, ne revêtent pas de caractère obligatoire et ne sont que formelles
+
+English gloss: SDA orientations are disconnected from municipalities' real needs for land to declassify, and the zones they set for medium- and long-term urbanisation are not binding and only formal.
+
+p. 31, on public operators:
+
+> La logique sectorielle de l'opérateur public l'emporte souvent sur la vision stratégique des planificateurs, et ce en raison des besoins en terrains pour satisfaire les demandes en logements croissantes et des pressions de l'AFH pour valoriser des réserves foncières acquises dans les années 1970, à des prix très bas.
+
+English gloss: the public operator's sector logic often overrides planners' strategy, because of land needs for growing housing demand and AFH pressure to develop land reserves bought very cheaply in the 1970s.
+
 p. 30, procedure:
 
 > la procédure de déclassement est longue et ne permet pas d'anticiper l'avancée de l'habitat spontané qui se fait généralement aux dépens de ces terrains en friches mais revêtant encore le caractère agricole.

@@ -1,6 +1,6 @@
 ---
 id: SRC-TG-844
-title: "JORT: Décret n° 2008-157 du 22 janvier 2008 (Ben Arous, 107 ha safeguard zone to industrial zone) and Décret n° 2024-59 du 11 janvier 2024 (repeal of a 2018 Nabeul change of vocation)"
+title: "JORT: Décrets n° 2008-157 (Ben Arous, 107 ha safeguard zone to industrial zone) and 2008-158 (Gafsa, other agricultural zone) du 22 janvier 2008, and Décret n° 2024-59 du 11 janvier 2024 (repeal of a 2018 Nabeul change of vocation)"
 publisher: "République Tunisienne, Journal Officiel (n° 8, 25 janvier 2008, p. 544-545; n° 9, 19 janvier 2024, p. 310-311); scans hosted by FAO FAOLEX"
 year: 2024
 type: official-statistics

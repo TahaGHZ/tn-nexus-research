@@ -4,7 +4,7 @@ title: "Data on Land Cover Transitions and Threats to Almond Tree Diversity in t
 publisher: "EasyChair preprint (Ghenimi W., Gouta H., Geoffriau E., Carcaud N., Allouche Khebour F., Rejeb H.)"
 year: 2025
 type: institutional-report
-tier: B
+tier: C
 url: https://easychair.org/publications/preprint/PGCZV/open
 accessed: 2026-11-21
 language: en
@@ -25,4 +25,4 @@ Table 2 (Kalâa Kebira delegation, 5,271 ha), 2012 to 2023 change: urban +417.2 
 
 ## Notes
 
-Not peer-reviewed (preprint; a Springer journal version exists but was not opened, paywalled). Internal errors: "2014" in the results text where the abstract and table say 2023; "83.72% increase" for 145 to 890 ha (the 83.7% is the share of 2012 urban area that is new, not an increase); mixed crops 1980-2012 given as -75.4 ha in text but -1,147 ha in the table. Between 2012 and 2023, urban area grew by 417 ha while 732 ha of crops were lost and pasture/uncultivated land grew by 315 ha, so not all crop loss is urbanisation; drought and abandonment also play a role.
+Unreviewed preprint, hence tier C. The template has no preprint type, so `institutional-report` is kept as the closest value. A Springer journal version exists but was not opened (paywalled). Internal errors: "2014" in the results text where the abstract and table say 2023; "83.72% increase" for 145 to 890 ha (the 83.7% is the share of 2012 urban area that is new, not an increase); mixed crops 1980-2012 given as -75.4 ha in text but -1,147 ha in the table. Between 2012 and 2023, urban area grew by 417 ha while 732 ha of crops were lost and pasture/uncultivated land grew by 315 ha, so not all crop loss is urbanisation; drought and abandonment also play a role.
