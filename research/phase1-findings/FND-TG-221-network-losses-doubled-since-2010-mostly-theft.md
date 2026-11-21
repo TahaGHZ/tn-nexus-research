@@ -1,6 +1,6 @@
 ---
 id: FND-TG-221
-title: STEG's network losses roughly doubled from about 11-12% in 2010 to about 20% since 2021, and the increase appears to be mainly non-technical (theft), although the split is disputed
+title: ONEM reports total network losses rising from 11.4% in 2010 to 21.1% in 2024; the increase appears mainly non-technical, although the split is disputed
 status: draft
 sectors: [energy]
 theme: grid
@@ -15,7 +15,7 @@ root_causes:
     type: behavioural
     legacy_decision: false
     sources: [SRC-TG-222, SRC-TG-224, SRC-TG-105, SRC-TG-231, SRC-TG-232]
-  - cause: No advanced metering infrastructure (AMI) to detect fraud
+  - cause: Insufficient advanced metering infrastructure (AMI) to detect fraud
     type: institutional
     legacy_decision: false
     sources: [SRC-TG-105]
@@ -201,3 +201,7 @@ agriculture: none found.
 - STEG smart-grid (smart meter) project financed by AFD (not opened):
   https://www.tresor.economie.gouv.fr/Articles/2025/02/28/projet-smart-grid-de-la-steg-finance-par-l-afd-succes-de-la-phase-experimentale-et-lancement-de-la-mise-en-production
 - STEG anti-theft inspection campaigns (SRC-TG-232).
+
+## Verification status
+
+Draft retained. Outstanding exact issue: ONEM attributes most of the 2024 loss rate to electricity diversion, but the available series does not separately measure theft; technical-loss shares are also reported as ranges. Keep “mostly theft” attributed to ONEM and do not present the residual as an independently measured theft rate.

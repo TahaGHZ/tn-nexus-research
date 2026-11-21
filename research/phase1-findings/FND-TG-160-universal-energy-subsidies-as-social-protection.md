@@ -23,12 +23,12 @@ root_causes:
     type: economic
     legacy_decision: true
     sources: [SRC-TG-162]
-  - cause: Regulated prices of state companies, STEG among them, were not aligned with their costs, and the resulting losses were absorbed by budget transfers instead of price adjustment, so the cost of the price policy was moved from consumers to the state budget.
-    type: policy
-    legacy_decision: true
-    sources: [SRC-TG-163, SRC-TG-164]
+  - cause: In 2013, the IMF classified gross energy subsidies at 4,434 MDT (5.9% of GDP); its reported outturn shows the fiscal scale of administered energy pricing, while the legal tariff-setting process and exact transfer channel are not established by the sources reviewed here.
+    type: institutional
+    legacy_decision: false
+    sources: [SRC-TG-163]
 indicators:
-  - name: Energy subsidies (World Bank, total incl. refinery and power producers, April 2013 estimate)
+  - name: World Bank 2013 energy subsidy estimate (November forecast; composition differs from April estimate)
     value: 4.7
     unit: "% of GDP"
     year: 2013
@@ -143,9 +143,10 @@ From the 1970s Tunisia relied on universal, untargeted energy and food subsidies
 social protection tool (SRC-TG-162). Energy subsidies were not reformed in depth for four decades.
 Their cost rose sharply when oil prices climbed. Total subsidies went from 2% of GDP in 2005 to 7%
 in 2013, and energy subsidies rose about fourfold, becoming about two-thirds of all subsidies
-(SRC-TG-162). Estimates of the 2013 level differ by definition: 4.7% of GDP (World Bank, April
-2013, of which 3.3% direct price subsidies and 1.4% to the refinery and power producers;
-SRC-TG-172) and 5.9% of GDP, or 4,434 MDT, in the IMF's later gross series (SRC-TG-163). Direct
+(SRC-TG-162). Estimates of the 2013 level differ by definition: 4.7% of GDP is a November 2013
+forecast in the World Bank working paper and its composition is ambiguous; the World Bank policy
+note separately reports 3.3% direct plus 1.4% to refinery and power producers (SRC-TG-162,
+SRC-TG-172). The IMF's later gross series gives 5.9% of GDP, or 4,434 MDT (SRC-TG-163). Direct
 price subsidies had been 0.9% of GDP in 2010 (SRC-TG-172). The benefits went disproportionately to richer
 households: the bottom 40% received 29% of energy subsidies, and in a simulation on 2010 survey
 data the poorest fifth received 14.9% of residential energy subsidies against 25% for the richest
@@ -169,10 +170,9 @@ fifth (SRC-TG-162). At the same time, STEG led the loss-making state enterprises
   7% of GDP (SRC-TG-163). The deficit and the transfers are symptoms; the mechanism is the choice to
   fund the price gap from the budget.
 
-**Who decides:** fuel prices are set administratively. Under the 2013-2015 IMF Stand-By
-Arrangement, a Ministry of Industry decree approving a new automatic fuel pricing formula was a
-structural benchmark marked completed (SRC-TG-163, Annex Table 1); by timing it is the January 2014
-gasoline formula (SRC-TG-162). The 2016 symmetric formula was a government commitment in the MEFP
+**Who decides:** fuel prices are set administratively. The January 2014 gasoline formula was associated with a Ministry of Industry decree under the
+2013-2015 IMF Stand-By Arrangement (SRC-TG-163, Annex Table 1; SRC-TG-162). This decree benchmark
+is distinct from the 2016 symmetric formula, which was a government commitment in the MEFP
 (SRC-TG-163); the act adopting it was not found. Who sets electricity tariffs is not sourced
 here (see data gaps). Today the hydrocarbon subsidy line is split between STIR and STEG in budget
 execution reports (SRC-TG-161), consistent with direct grants to the two companies. The common description of energy subsidies as run by
@@ -192,9 +192,12 @@ cost recovery with a lifeline tariff (SRC-TG-163). How that mechanism fared late
 
 - Total subsidies 2% (2005) to 7% (2013); energy share from one-third to about two-thirds
   (SRC-TG-162, pp. 4-6, Figure 1, Ministry of Finance data).
-- 2013 energy subsidies: 4.7% of GDP in April 2013 (3.3% direct + 1.4% to refinery and power
-  producers), with 4.7% direct planned for end-2013 and 6.6% including 1.9% implicit (SRC-TG-172,
-  PDF pp. 9, 17); 4,434 MDT or 5.9% of GDP in the IMF gross series, which then fell to an estimated
+- 2013 energy subsidies: the World Bank working paper reports a 4.7% of GDP November 2013 forecast,
+  with composition not clear (SRC-TG-162, Figure 1). A separate World Bank policy note reports
+  3.3% direct plus 1.4% to refinery and power producers in April 2013; this is a distinct estimate,
+  not a confirmed decomposition of the November forecast. It also reports 4.7% direct planned for
+  end-2013 and 6.6% including 1.9% implicit (SRC-TG-172, PDF pp. 9, 17). The IMF reports 4,434
+  MDT or 5.9% of GDP in its separate gross series, which then fell to an estimated
   918 MDT (1.1%) in 2015 with lower oil prices (SRC-TG-163, Tables 4a-4b).
 - Incidence: bottom 40% captured 29% of energy subsidies (World Bank 2014, cited in SRC-TG-162,
   p. 2); poorest quintile 14.9%, richest 25% of residential energy subsidy benefits (SRC-TG-162,
@@ -233,3 +236,7 @@ opened quantifies the agricultural share of energy subsidies. Listed as a lead, 
 - Cash transfer programme PNAFN (Programme National d'Aide aux Familles Nécessiteuses) expansion
   (SRC-TG-162).
 - 1991-1993 gradual food subsidy reform as a reference case (SRC-TG-162).
+
+## Verification status
+
+Draft retained. Outstanding exact issue: the 4.7% figure is a November 2013 forecast with ambiguous composition, while the separate April policy note's 3.3% plus 1.4% breakdown is a different estimate; no official 2013 outturn on a stated definition was found. Legal instruments for adopting the 2016 formula also remain unverified.

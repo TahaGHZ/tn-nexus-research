@@ -1,6 +1,6 @@
 ---
 id: FND-TG-132
-title: The supply side of the 2035 strategy rests on an exploration relaunch that is only barely under way, with no new permits or discoveries, and on a main Algerian gas contract expiring in 2027-2029
+title: The 2035 supply strategy relies on an exploration relaunch that has barely begun
 status: draft
 sectors: [energy]
 theme: energy-imports
@@ -19,53 +19,67 @@ root_causes:
     type: institutional
     legacy_decision: true
     sources: [SRC-TG-221, SRC-TG-100]
-  - cause: The renewed Sonatrach-STEG gas purchase contract runs to 2027 with a two-year extension option, while purchased Algerian gas already supplies 57% of national gas. Supply security after 2027-2029 depends on renegotiation with one supplier (claim on contract dates rests on tier C).
-    type: economic
-    legacy_decision: true
-    sources: [SRC-TG-140, SRC-TG-221]
 indicators:
   - name: Indicative exploration target
     value: 30
-    unit: wells (cumulative to 2035)
-    year: 2023-2035
+    unit: wells
+    year: 2035
     geography: national
     source: SRC-TG-103
   - name: Exploration wells drilled
-    value: 1 (2024), 0 (2025)
+    value: 1
     unit: wells
-    year: 2024-2025
+    year: 2024
+    geography: national
+    source: SRC-TG-221
+  - name: Exploration wells drilled
+    value: 0
+    unit: wells
+    year: 2025
     geography: national
     source: SRC-TG-221
   - name: Exploration wells drilled
     value: 2
     unit: wells
-    year: 2026 (January-September)
+    year: 2026
     geography: national
     source: SRC-TG-100
   - name: New hydrocarbon permits granted
     value: 0
     unit: permits
-    year: 2024 and 2025
+    year: 2024
     geography: national
     source: SRC-TG-221
   - name: New hydrocarbon permits granted
     value: 0
     unit: permits
-    year: 2026 (January-September)
+    year: 2025
+    geography: national
+    source: SRC-TG-221
+  - name: New hydrocarbon permits granted
+    value: 0
+    unit: permits
+    year: 2026
     geography: national
     source: SRC-TG-100
   - name: Exploration discoveries
-    value: 1 (2024), 0 (2025), 0 (2026 January-September)
+    value: 1
     unit: discoveries
-    year: 2024-2026
+    year: 2024
     geography: national
     source: SRC-TG-221
-  - name: Sonatrach-STEG gas contract end date (option to extend 2 years)
-    value: 2027 (2029)
-    unit: year
-    year: 2020 (date of amendment)
+  - name: Exploration discoveries
+    value: 0
+    unit: discoveries
+    year: 2025
     geography: national
-    source: SRC-TG-140
+    source: SRC-TG-221
+  - name: Exploration discoveries
+    value: 0
+    unit: discoveries
+    year: 2026
+    geography: national
+    source: SRC-TG-100
 projection:
   horizon: 2035
   scenario: Trend (BaU) scenario of the national energy strategy to 2035, against the strategy scenario
@@ -73,7 +87,7 @@ projection:
   source: SRC-TG-103
 stakeholders: [Ministry of Industry Mines and Energy, ETAP, STEG, Sonatrach, international oil companies, Assembly of the Representatives of the People, Central Bank of Tunisia, energy consumers]
 related: [FND-TG-130, FND-TG-131, FND-TG-102, FND-TG-101, FND-TG-222]
-sources: [SRC-TG-100, SRC-TG-103, SRC-TG-131, SRC-TG-133, SRC-TG-140, SRC-TG-221]
+sources: [SRC-TG-100, SRC-TG-103, SRC-TG-131, SRC-TG-133, SRC-TG-221, SRC-TG-140]
 data_gaps:
   - A field-by-field production forecast for Tunisian oil and gas (ETAP, ministry, IEA, OIES or Wood Mackenzie). None was opened; Wood Mackenzie's outlook was seen only as a search snippet (paywalled).
   - The status of the Zarat field after its research permit ended on 11 August 2025: whether a development concession is pending. The ONEM bulletin lists the expiry only (SRC-TG-221), and the 2025 concessions granted (Aziza, Sabah) are other fields.
@@ -84,6 +98,12 @@ data_gaps:
   - Contradictory exploration-well counts. The December 2025 bulletin gives 0 for 2025 (SRC-TG-221); the September 2026 bulletin gives 0 for full-year 2025 but 1 for January-September 2025 (SRC-TG-100).
 author: TahaGHZ
 ---
+
+## Verification status
+
+Draft retained. Outstanding exact issue: the September 2026 ONEM bulletin gives a different count
+for 2025 exploration wells in its year-end and January-September series (zero full-year versus one
+January-September); this inconsistency must be resolved before those annual indicators can pass.
 
 ## Problem
 
@@ -97,10 +117,7 @@ years into the plan, exploration has barely moved. No permit was granted in 2024
 January-September 2026. One exploration well was drilled in 2024, none in 2025 and two in
 January-September 2026. There was one discovery in 2024 and none since (SRC-TG-221, SRC-TG-100).
 The 2026 pace roughly matches what the target needs, but it starts from a base of only 11 valid
-permits. The Zarat research permit
-reached the end of its validity on 11 August 2025 (SRC-TG-221). Meanwhile the main import
-contract, Sonatrach-STEG, was renewed in 2020 only to 2027, with a two-year option (SRC-TG-140,
-tier C).
+permits. The Zarat research permit reached the end of its validity on 11 August 2025 (SRC-TG-221).
 
 ## Root causes
 
@@ -114,12 +131,6 @@ tier C).
   the acreage available to drill keeps shrinking.
   The causes of the stall are not documented in the sources opened (see FND-TG-130 for the
   historical factors).
-- **Single-supplier contract horizon (economic, legacy).** The 1997 gas contract was extended in
-  2020 by eight years to 2027, "avec possibilité d'extension de 2 ans", with a 20% volume increase
-  from 2025 (SRC-TG-140). Purchased Algerian gas was 57% of national gas supply in 2025
-  (SRC-TG-221). The contract therefore comes up for renegotiation at a time of growing dependence.
-  This dependence is not a problem in itself, but it leaves little bargaining room. The contract
-  dates rest on a press relay of a Sonatrach communiqué only.
 
 ## Evidence
 

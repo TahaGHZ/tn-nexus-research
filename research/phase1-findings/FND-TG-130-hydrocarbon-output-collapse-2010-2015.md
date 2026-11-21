@@ -1,6 +1,6 @@
 ---
 id: FND-TG-130
-title: Between 2010 and 2015 domestic energy production fell by almost a quarter while exploration stalled, doubling Tunisia's energy deficit
+title: Between 2010 and 2015 domestic energy production fell by almost a quarter while reported exploration activity weakened and the energy deficit more than doubled
 status: draft
 sectors: [energy]
 theme: energy-imports
@@ -11,15 +11,15 @@ severity: high
 trend: worsening
 confidence: medium
 root_causes:
-  - cause: Mature oil and gas fields declined naturally and new discoveries did not replace them. Production started falling in 2010-2011, before the 2014 Constitution and before the largest social blockades.
+  - cause: Mature oil and gas fields declined naturally and new discoveries did not replace them. ONEM records show production fell from 8,293 ktep in 2010 to 7,616 in 2011 and continued falling before the 2014 Constitution; the available sources do not date or measure blockade effects.
     type: technical
     legacy_decision: false
     sources: [SRC-TG-130, SRC-TG-139]
-  - cause: Upstream investment slowed after 2011. The minister cites company reluctance to invest because of social protests; a business source reports only three wells drilled by international companies in 2015 and operators leaving over work stoppages and permit non-renewals.
+  - cause: The minister attributed company reluctance to invest to social protests in a 2021 parliamentary hearing reported by WMC/TAP; Oxford Business Group separately reported three wells drilled by international oil companies in 2015 and cited work stoppages and permit non-renewals. These sources do not establish an annual investment trend or quantify the effects of protests.
     type: institutional
     legacy_decision: false
     sources: [SRC-TG-139, SRC-TG-138]
-  - cause: Article 13 of the 2014 Constitution made parliamentary approval mandatory for resource contracts. According to Oxford Business Group (tier C, the only source opened on this), the parliamentary energy committee refused all permit renewals in 2014 pending implementing laws. The Hydrocarbons Code was only amended in April 2017. The evidence that this delayed exploration is tier B/C only and its size is unmeasured.
+  - cause: Article 13 of the 2014 Constitution made parliamentary approval mandatory for resource contracts. Oxford Business Group (tier C, the only source opened on this) reports that the parliamentary energy committee refused permit renewals in 2014 pending implementing laws; the number is disputed, and a lead suggests only two permits. The Hydrocarbons Code was only amended in April 2017. The evidence that this delayed exploration is tier B/C only and its size is unmeasured.
     type: policy
     legacy_decision: true
     sources: [SRC-TG-136, SRC-TG-138, SRC-TG-137]
@@ -75,13 +75,19 @@ indicators:
   - name: Valid hydrocarbon permits (17 research + 8 prospecting)
     value: 25
     unit: permits
-    year: 2020 (end of March)
+    year: 2020
     geography: national
     source: SRC-TG-131
   - name: Net energy imports
-    value: 2.1 (2010) to 6.5 (2019)
+    value: 2.1
     unit: Mtep
-    year: 2010-2019
+    year: 2010
+    geography: national
+    source: SRC-TG-130
+  - name: Net energy imports
+    value: 6.5
+    unit: Mtep
+    year: 2019
     geography: national
     source: SRC-TG-130
 stakeholders: [Ministry of Industry Mines and Energy, ETAP, international oil companies, Assembly of the Representatives of the People (energy committee), communities in producing regions, STEG]
@@ -99,17 +105,21 @@ data_gaps:
 author: TahaGHZ
 ---
 
+## Verification status
+
+Draft retained. Outstanding exact issue: primary output and balance series are official, but the
+claim that Article 13 materially delayed exploration relies on tier-B/C sources, and the claim
+the OBG account of 2014 permit-renewal refusals is tier C and its count is unresolved; a search lead suggests two permits, but the underlying NRGI source could not be opened. The magnitude of Article 13's contribution cannot be established.
+
 ## Problem
 
 Tunisia moved from an energy surplus to a deficit around 2000-2001. Official charts show the
-primary balance at "Equilibre" in 2000 and in deficit from 2001 (SRC-TG-141). By 2010 it was a
-net importer, but a small one. Over 2010-2015 national
+primary balance at "Equilibre" in 2000 and in deficit from 2001 (SRC-TG-141). By 2010 it was a net importer. Over 2010-2015 national
 primary energy production fell from 8,293 ktep to 6,397 ktep, a 23% drop, and kept falling to
 5,077 ktep in 2019 (SRC-TG-130). Demand was roughly flat over the same years, so the energy
 deficit more than doubled. It rose from 19.5% of gross inland consumption in 2010 to 41.5% in
 2015 and 54.9% in 2019 (SRC-TG-130). Net energy imports went from 2.1 Mtep to 6.5 Mtep between
-2010 and 2019 (SRC-TG-130). At the same time the exploration effort that could have replaced the
-depleting fields collapsed. The minister reported 56 valid permits in 2010 against 23 at end-2020
+2010 and 2019 (SRC-TG-130). Over the following years the cited permit counts and selected ONEM bulletins show lower reported activity, but do not establish a continuous exploration collapse. The minister reported 56 valid permits in 2010 against 23 at end-2020
 (SRC-TG-139). ONEM counted 25 in March 2020 (SRC-TG-131).
 
 ## Root causes
@@ -124,20 +134,18 @@ partly institutional, and the sources do not allow them to be weighed against ea
   constitutional change.
 - **Post-2011 investment slowdown and social conflict (institutional).** The minister also cites
   "la réticence des entreprises à investir, en raison des protestations sociales" (SRC-TG-139).
-  Oxford Business Group reports only three wells drilled by international oil companies in 2015.
+  Oxford Business Group separately reports only three wells drilled by international oil companies in 2015; this is a single-year count, not a post-2011 trend.
   It also says some operators were leaving over "work stoppages" and "non-renewal of drilling
   permits" (SRC-TG-138, tier C).
 - **Past decision: Article 13 and the approval regime (policy, legacy).** The 2014 Constitution
   made natural resources the property of the people. It requires investment agreements to go to
   a parliamentary committee and the related conventions to be approved by the Assembly
   (SRC-TG-136). Under the old code, the executive approved conventions by decree and granted or
-  renewed permits by ministerial order (SRC-TG-137). According to OBG, in 2014 the energy
-  committee refused to renew all hydrocarbon permits until Article 13's implementing laws were in
-  place (SRC-TG-138). The code was only amended to comply on 18 April 2017. A legal expert noted
+  renewed permits by ministerial order (SRC-TG-137). Oxford Business Group reports that the energy committee refused permit renewals pending Article 13's implementing laws; the count is disputed and may have been two (SRC-TG-138). The code was only amended to comply on 18 April 2017. A legal expert noted
   at the time that permits were expiring and others waiting (SRC-TG-137). This decision plausibly
   added delay, but no opened source measures its effect. The commonly stated belief that Article
   13 "caused" the production collapse is **not supported** by the timeline: output was already
-  falling in 2010-2013. At most it is a contributing factor to the exploration standstill.
+  falling in 2010-2013. At most it is a possible source of delay in exploration; the evidence does not establish an exploration standstill or quantify this effect.
 
 ## Evidence
 

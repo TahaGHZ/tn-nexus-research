@@ -1,12 +1,12 @@
 ---
 id: FND-TG-191
-title: Ten years after Law 2015-12, renewables give about 5-8% of Tunisian electricity; utility-scale projects took about six years from award to first output, while rooftop solar ran ahead of plan
+title: Ten years after Law 2015-12, renewables contribute a small share of Tunisian electricity; project delivery remains slow while rooftop solar has expanded
 status: draft
 sectors: [energy]
 theme: renewables
 timeframe: current
 period: 2015-2026
-geography: [national, kairouan, sidi-bouzid, tozeur, gafsa, tataouine]
+geography: [national, kairouan, sidi_bouzid, tozeur, gafsa, tataouine]
 severity: high
 trend: improving
 confidence: medium
@@ -15,7 +15,7 @@ root_causes:
     type: policy
     legacy_decision: true
     sources: [SRC-TG-191, SRC-TG-195, SRC-TG-105, SRC-TG-196, SRC-TG-106]
-  - cause: The law layers approvals (annual quota notice, technical commission, parliamentary committee, parliamentary approval of concession agreements) and many ministries are involved; procedures take at least three years before production
+  - cause: FNF reports procedures can take at least three years before production and describes multiple approvals; Article 25 concerns export concessions, while domestic authorisation agreements follow a separate regime; Law 2019-47 effects were not checked
     type: institutional
     legacy_decision: true
     sources: [SRC-TG-191, SRC-TG-106, SRC-TG-195]
@@ -165,10 +165,7 @@ The low share and the delays are symptoms. The causes documented are:
   hindered scaling up private investment in RE" (SRC-TG-105), and that energy SOE deficits make
   private renewable investment harder to attract (SRC-TG-196). STEG's deficit itself is covered in
   FND-TG-161.
-- **Layered approvals (institutional, from the 2015 law).** In the 2015 text, authorisations
-  follow an annual notice of national needs and the technical commission's opinion, and contracts
-  go to a special parliamentary committee; concession agreements must be approved by parliament
-  (SRC-TG-191, art. 12, 13, 25). Whether the 2019 amendment changed these steps was not checked. After a long debate on guaranteed tariffs, authorisations were granted only
+- **Layered approvals (institutional, from the 2015 law).** In the 2015 text, authorisations follow an annual notice of national needs and the technical commission's opinion; Article 12 sends those contracts to a special parliamentary committee. For domestic projects above the Article 12 ceiling, Article 13 requires investment contracts to go to that committee and related conventions to be approved by the Assembly. Article 25 is a separate export-concession provision. Law 2019-47 may have changed the framework and was not checked (SRC-TG-191, arts. 12, 13, 25). After a long debate on guaranteed tariffs, authorisations were granted only
   through ministry calls within an annual quota (SRC-TG-106). The 2019 concession agreements were
   approved by five decree-laws ("مراسيم") in December 2021, two years after the award
   (SRC-TG-195). Developers
@@ -265,3 +262,7 @@ large (FND-TG-192).
 - ANME help desk and proposed single online platform for permits (SRC-TG-106).
 - Proposed pre-allocated land bank with grid connection prepared before tenders (SRC-TG-195):
   https://www.freiheit.org/sites/default/files/2024-03/bramj-altaqat-almtjddt-fy-twns.pdf
+
+## Verification status
+
+Draft retained. Outstanding exact issue: Law 2019-47 and Decree 2016-1123 named in the finding have not been opened; the cited legal framework and multi-cause account of project delays need confirmation against their original texts and project-level evidence.

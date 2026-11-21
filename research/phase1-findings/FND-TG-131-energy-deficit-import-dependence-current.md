@@ -40,14 +40,20 @@ indicators:
     year: 2025
     geography: national
     source: SRC-TG-221
-  - name: Energy independence rate, royalty counted / excluded
-    value: 32 / 26
+  - name: Energy independence rate, royalty counted
+    value: 32
     unit: "%"
-    year: 2026 (January-September)
+    year: 2026
+    geography: national
+    source: SRC-TG-100
+  - name: Energy independence rate, royalty excluded
+    value: 26
+    unit: "%"
+    year: 2026
     geography: national
     source: SRC-TG-100
   - name: Primary energy deficit, royalty counted
-    value: 6305 (6248 in the later revision)
+    value: 6305
     unit: ktep
     year: 2025
     geography: national
@@ -79,11 +85,23 @@ indicators:
   - name: Energy share of total trade deficit (computed, 10308.4 / 20168.5)
     value: 51
     unit: "%"
-    year: 2025 (January-November)
+    year: 2025
     geography: national
     source: SRC-TG-135
-  - name: Energy imports by value, crude oil / petroleum products / natural gas
-    value: 1362 / 7762 / 4225
+  - name: Crude oil imports by value
+    value: 1362
+    unit: million TND
+    year: 2025
+    geography: national
+    source: SRC-TG-221
+  - name: Petroleum products imports by value
+    value: 7762
+    unit: million TND
+    year: 2025
+    geography: national
+    source: SRC-TG-221
+  - name: Natural gas imports by value
+    value: 4225
     unit: million TND
     year: 2025
     geography: national
@@ -100,28 +118,34 @@ indicators:
     year: 2025
     geography: national
     source: SRC-TG-221
-  - name: Electricity bought from Algeria and Libya
-    value: 2463 (0 in 2015, 3125 in 2024)
+  - name: Electricity imports from Algeria and Libya
+    value: 2463
     unit: GWh
     year: 2025
     geography: national
     source: SRC-TG-221
   - name: Domestic natural gas production
-    value: 2231 (2015) to 1129 (2025)
+    value: 1129
     unit: ktep-pci
-    year: 2015-2025
+    year: 2025
     geography: national
     source: SRC-TG-221
   - name: Crude oil and condensate production
-    value: 2394 (2015) to 1231 (2025)
+    value: 1231
     unit: ktep-pci
-    year: 2015-2025
+    year: 2025
     geography: national
     source: SRC-TG-221
   - name: Valid hydrocarbon permits
-    value: 12 (end-2025), 11 (end-September 2026)
+    value: 12
     unit: permits
-    year: 2025-2026
+    year: 2025
+    geography: national
+    source: SRC-TG-100
+  - name: Valid hydrocarbon permits
+    value: 11
+    unit: permits
+    year: 2026
     geography: national
     source: SRC-TG-100
 stakeholders: [Ministry of Industry Mines and Energy, ONEM, ETAP, STEG, STIR, Sonatrach, Sonelgaz, Central Bank of Tunisia (foreign exchange), Ministry of Finance, communities in producing regions, energy consumers]
@@ -139,6 +163,13 @@ data_gaps:
   - IEA or World Bank WDI series on net energy imports for Tunisia, for an independent cross-check. Not opened.
 author: TahaGHZ
 ---
+
+## Verification status
+
+Draft retained. Outstanding exact issue: supply shares, trade values, and blockade attribution
+still require a complete source-by-source comparison. The 2025 deficit is 6,305 ktep in the
+December ONEM bulletin; a later 6,248 ktep value is not supported by that cached source and has
+been removed.
 
 ## Problem
 
@@ -164,9 +195,10 @@ The symptom is a rising import bill and falling coverage. The causes:
   not stop. Between 2015 and 2025, domestic gas production fell from 2,231 to 1,129 ktep-pci, and
   crude oil and condensate from 2,394 to 1,231 ktep-pci (SRC-TG-221). Both roughly halved.
   Primary demand rose from 8,916 to 9,684 ktep (SRC-TG-221).
-- **Exploration standstill (institutional, legacy).** In 2019, 6 permits were granted, 6
-  exploration wells drilled and 4 discoveries made (SRC-TG-131). No permit was granted in 2024 or
-  2025 and none to September 2026. 2025 saw no discovery and three permit abandonments. Valid
+- **Reduced recent exploration activity (institutional, attributed to dated series).** In 2019, 6 permits were granted, 6
+  exploration wells drilled and 4 discoveries made (SRC-TG-131). The cited ONEM bulletins list no permit granted in 2024 or
+  2025 and none to September 2026; this is a recent period of low reported activity, not evidence
+  that exploration stopped across the entire period. 2025 saw no discovery and three permit abandonments. Valid
   permits fell from 25 (March 2020, SRC-TG-131) to 12 at end-2025 and 11 in September 2026
   (SRC-TG-221, SRC-TG-100).
 - **Social blockades (behavioural).** ONEM's own production chart marks "Arrêt de la production

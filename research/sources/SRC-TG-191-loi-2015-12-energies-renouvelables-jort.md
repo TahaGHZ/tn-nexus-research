@@ -3,7 +3,7 @@ id: SRC-TG-191
 title: Loi n° 2015-12 du 11 mai 2015, relative à la production d'électricité à partir des énergies renouvelables (JORT n° 38 du 12 mai 2015, pp. 926-932)
 publisher: Journal Officiel de la République Tunisienne (copy of the issue hosted by FAO FAOLEX)
 year: 2015
-type: official-statistics
+type: institutional-report
 tier: A
 url: https://faolex.fao.org/docs/pdf/Tun181322.pdf
 accessed: 2026-11-21

@@ -1,6 +1,6 @@
 ---
 id: FND-TG-162
-title: Without tariff increases, the World Bank projects STEG to lose 2.3 to 3.7 billion dinars a year before subsidy in 2026-2028 even if its reform programme succeeds; press reports of the draft 2027 budget show the subsidy bill rising
+title: World Bank projects STEG losses of 3.4-3.7 billion TND without the programme and 2.3-3.1 billion with it in 2026-2028
 status: draft
 sectors: [energy]
 theme: energy-subsidies
@@ -11,33 +11,43 @@ severity: high
 trend: unknown
 confidence: medium
 root_causes:
-  - cause: The projections assume no tariff increase, so the gap between supply cost and tariff remains and must be covered by subsidy or debt.
-    type: policy
-    legacy_decision: true
-    sources: [SRC-TG-105]
   - cause: STEG's cost depends on imported gas partly indexed to Brent; the projection assumes gas prices falling from 10.3 to 7.8 US$/MMBtu, while the 2026 oil price rose well above budget assumptions (press).
     type: economic
     legacy_decision: false
-    sources: [SRC-TG-105, SRC-TG-170]
-  - cause: Accumulated arrears and debt (unpaid subsidies, unpaid public bills, supplier debts) carry over and keep STEG's liabilities high.
-    type: institutional
-    legacy_decision: false
-    sources: [SRC-TG-105, SRC-TG-167]
+    sources: [SRC-TG-105]
 indicators:
-  - name: STEG net result before subsidy and tax, without the TEREG programme
-    value: "-5,103 (2025), -3,720 (2026), -3,585 (2027), -3,395 (2028)"
+  - name: STEG net result before subsidy and tax, without programme, 2026
+    value: -3720
+    unit: million TND
+    year: 2026
+    geography: national
+    source: SRC-TG-105
+  - name: STEG net result before subsidy and tax, without programme, 2028
+    value: -3395
     unit: million TND
     year: 2028
     geography: national
     source: SRC-TG-105
-  - name: STEG net result before subsidy and tax, with the TEREG programme
-    value: "-4,691 (2025), -3,086 (2026), -2,787 (2027), -2,288 (2028)"
+  - name: STEG net result before subsidy and tax, with programme, 2026
+    value: -3086
+    unit: million TND
+    year: 2026
+    geography: national
+    source: SRC-TG-105
+  - name: STEG net result before subsidy and tax, with programme, 2028
+    value: -2288
     unit: million TND
     year: 2028
     geography: national
     source: SRC-TG-105
-  - name: Cumulative STEG net result before subsidy 2025-2028, without / with programme
-    value: "-15,803 / -12,852"
+  - name: Cumulative STEG net result before subsidy 2025-2028, without programme
+    value: -15803
+    unit: million TND
+    year: 2028
+    geography: national
+    source: SRC-TG-105
+  - name: Cumulative STEG net result before subsidy 2025-2028, with programme
+    value: -12852
     unit: million TND
     year: 2028
     geography: national
@@ -61,7 +71,7 @@ indicators:
     geography: national
     source: SRC-TG-105
   - name: Gas price assumed in the projection
-    value: "10.3 (2025) to 7.8 (2028)"
+    value: 7.8
     unit: US$/MMBtu
     year: 2028
     geography: national
@@ -84,10 +94,16 @@ indicators:
     year: 2026
     geography: national
     source: SRC-TG-166
-  - name: Total subsidies, draft 2027 budget vs LF 2026 (press)
-    value: "11,846 vs 9,772"
+  - name: Total subsidies in draft 2027 budget (press)
+    value: 11846
     unit: million TND
     year: 2027
+    geography: national
+    source: SRC-TG-170
+  - name: Total subsidies in 2026 budget law (press)
+    value: 9772
+    unit: million TND
+    year: 2026
     geography: national
     source: SRC-TG-170
   - name: Brent assumption, draft 2027 budget (press)
@@ -96,29 +112,29 @@ indicators:
     year: 2027
     geography: national
     source: SRC-TG-167
-  - name: Sensitivity of subsidy spending to Brent (PLF 2027 per press; expert estimate differs)
-    value: "172 (PLF 2027) vs 140-150 (expert)"
-    unit: million TND per US$1/bbl
-    year: 2027
-    geography: national
-    source: SRC-TG-170
 projection:
   horizon: 2028
-  scenario: World Bank "without the Program" and "with the Program" scenarios for STEG's net result before subsidy and corporate tax, 2025-2028; no tariff increase; gas price falling from 11.1 US$/MMBtu (2024) to 7.8 (2028). The 2027 budget figures are the government's draft (PLF 2027) assuming Brent at US$80.
-  method: World Bank estimates from STEG's financial statements and STEG's financial modelling tool (PAD Table 5); Ministry of Finance budget projections reported in press.
+  scenario: World Bank "without the Program" and "with the Program" scenarios for STEG's net result before subsidy and corporate tax.
+  method: PAD Table 5 uses STEG financial statements and modelling for 2025-2028; no tariff increase; gas price path from 11.1 US$/MMBtu in 2024 to 7.8 in 2028. Press-reported draft PLF 2027 budget assumes Brent at US$80.
   source: SRC-TG-105
 stakeholders: [STEG, Ministry of Finance, Ministry of Industry Mines and Energy, World Bank, households, industry, STEG suppliers and lenders]
 related: [FND-TG-161, FND-TG-160, FND-TG-102, FND-TG-222]
-sources: [SRC-TG-105, SRC-TG-164, SRC-TG-166, SRC-TG-167, SRC-TG-168, SRC-TG-170]
+sources: [SRC-TG-105, SRC-TG-167, SRC-TG-166, SRC-TG-170]
 data_gaps:
   - The official PLF 2027 budget report and medium-term budget framework 2027-2029 (not found online; only press summaries SRC-TG-167, SRC-TG-170).
   - TEREG Technical Assessment Report with the full STEG financial model (referred to in the PAD, not opened).
-  - Any IMF or World Bank fiscal projection of total energy subsidies as % of GDP beyond 2027; the last IMF Article IV opened is from 2021 (SRC-TG-164).
+  - Any IMF or World Bank fiscal projection of total energy subsidies as % of GDP beyond 2027.
   - Projection sensitivity to gas prices; the PAD gives one gas price path and no high-price case.
   - Projection of STEG's financing need or subsidy need in dinars beyond 2028.
   - Any projection that includes a tariff increase, for comparison.
 author: TahaGHZ
 ---
+
+## Verification status
+
+Draft retained. Outstanding exact issue: the draft-budget values rely on tier-C press summaries
+without the underlying official PLF 2027 document. The press-only claims lack an independent
+primary-source cross-check.
 
 ## Problem
 
@@ -134,9 +150,7 @@ in the 2026 draft budget, according to press reports (SRC-TG-166, SRC-TG-167).
 
 ## Root causes
 
-- **No tariff path.** The government has chosen efficiency measures over tariff increases
-  (SRC-TG-105), so the projections keep a structural gap that the budget must cover (see
-  FND-TG-161).
+- **No tariff path.** The World Bank projection assumes unchanged tariffs while including efficiency and other programme measures (SRC-TG-105). The resulting financing and subsidy needs are not fully specified in the cited passage (see FND-TG-161).
 - **Fuel cost exposure and an optimistic gas price path.** The projection's gas price falls from
   10.3 to 7.8 US$/MMBtu over 2025-2028 (SRC-TG-105), and imported gas is partly indexed to Brent
   (SRC-TG-105). In 2026 Brent averaged 91.21 dollars to end-August against a 63.3-dollar budget
@@ -144,7 +158,7 @@ in the 2026 draft budget, according to press reports (SRC-TG-166, SRC-TG-167).
   losses are a lower bound; this is an inference, not a modelled result.
 - **Legacy arrears.** The draft 2027 budget includes settling about 500 MDT of STEG claims for
   2017-2023 (SRC-TG-167), and the World Bank programme targets cutting end-2023 subsidy arrears by
-  900 MDT by 2028 (SRC-TG-105), showing that arrears are expected to be cleared slowly.
+  900 MDT by 2028 (SRC-TG-105). These are separate budget and programme targets; the sources do not establish their effect on projected STEG liabilities.
 - In the "with programme" case, the World Bank attributes the cost recovery gain to "fuel cost
   reduction, higher share of RE in the power generation mix, and measures supported under the
   Program" (SRC-TG-105, para. 47); see also FND-TG-102.
@@ -159,7 +173,7 @@ in the 2026 draft budget, according to press reports (SRC-TG-166, SRC-TG-167).
 - PLF 2027 (press): 7,090 MDT (3,676 STEG, 3,414 STIR), Brent at 80 dollars, total subsidies 11,846
   MDT against 9,772 MDT in the LF 2026; financing need of the hydrocarbons, electricity and gas
   system 6,870 MDT; each extra dollar per barrel adds about 172 MDT (SRC-TG-167, SRC-TG-170). An
-  expert quoted in press gives 140-150 MDT per dollar (SRC-TG-168).
+  expert quoted in press gives 140-150 MDT per dollar; this is not used as a finding claim.
 
 ## Why confidence is what it is
 

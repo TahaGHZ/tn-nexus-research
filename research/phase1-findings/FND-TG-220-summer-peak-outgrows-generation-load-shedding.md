@@ -82,10 +82,10 @@ indicators:
     year: 2022
     geography: national
     source: SRC-TG-224
-  - name: Estimated risk of peak-hour shortage, about 16% of peak demand (PAD dated 2025, base year not stated)
+  - name: Estimated peak-hour generation deficit (PAD dated 2025; base year not stated)
     value: 770
     unit: MW
-    year: 2025
+    year: 2022
     geography: national
     source: SRC-TG-105
   - name: Algeria-Tunisia import flow raised above the established transfer capacity during a shortfall ("last summer" in a June 2026 report)
@@ -130,7 +130,7 @@ indicators:
     year: 2023
     geography: national
     source: SRC-TG-105
-  - name: Energy not supplied (6.3 GWh in 2018)
+  - name: Energy not supplied annually (ENS)
     value: 10
     unit: GWh
     year: 2019
@@ -138,7 +138,7 @@ indicators:
     source: SRC-TG-105
 stakeholders: [STEG, "Ministry of Industry, Mines and Energy", households, industry and SMEs, Fédération générale de l'électricité et du gaz, World Bank, Sonelgaz, GECOL]
 related: [FND-TG-101, FND-TG-102, FND-TG-131, FND-TG-161, FND-TG-221, FND-TG-222]
-sources: [SRC-TG-100, SRC-TG-105, SRC-TG-220, SRC-TG-221, SRC-TG-223, SRC-TG-224, SRC-TG-226, SRC-TG-227, SRC-TG-228, SRC-TG-229, SRC-TG-230, SRC-TG-233, SRC-TG-234]
+sources: [SRC-TG-100, SRC-TG-105, SRC-TG-220, SRC-TG-221, SRC-TG-223, SRC-TG-224, SRC-TG-226, SRC-TG-227, SRC-TG-228, SRC-TG-229, SRC-TG-230, SRC-TG-233, SRC-TG-234, SRC-TG-225]
 data_gaps:
   - "Official 2026 peak: ONEM gives a record of 5,089 MW to the end of September 2026 (SRC-TG-100). An MP and the press speak of a peak near 6,000 MW, not validated (SRC-TG-228, SRC-TG-233). No source says whether ONEM's peak is load actually served (which load shedding would cap) or estimated unconstrained demand."
   - "Volume, duration and location of load shedding in July 2023 and summer 2026: no STEG communiqué or statistic was found, only press accounts. Dates for 2026 are sourced only for July 2026 (SRC-TG-228, SRC-TG-233) and late August 2026 (SRC-TG-229)."
@@ -262,3 +262,7 @@ the load-shedding events and the causes cited from tier C.
   off-peak tariff incentives, voluntary industrial curtailment (SRC-TG-234).
 - Kairouan 100 MW solar plant (SRC-TG-233).
 - Bazma (Kébili) solar and battery tender, 2026 (SRC-TG-228).
+
+## Verification status
+
+Draft retained. Outstanding exact issue: the 2023 and 2026 load-shedding events in the finding are supported only by press reports; no STEG, ministry or regulator operational confirmation was found. The cited peak and capacity figures still need a complete independent source comparison.

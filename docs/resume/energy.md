@@ -1,4 +1,19 @@
-# Resume: energy lane, phase 1 (paused 2026-11-21)
+# Resume: energy lane, phase 1 (coordinated 2026-11-21)
+
+## Final coordination state
+
+Recomputed from finding frontmatter: 23 findings, 3 `in-review` (100, 101, 102) and 20
+`draft` (130, 131, 132, 160, 161, 162, 190, 191, 192, 220, 221, 222, 250, 251, 270, 271,
+290, 291, 310 and 311). The 12 audited earlier drafts remain draft because of unresolved
+evidence/interpretation matters listed below and in the individual finding bodies. The eight
+new findings complete the four partial topics; they remain draft pending complete source
+verification, including their indicator-to-source checks. No unrelated leads were started. This is a coordinated research handoff, not a completed verification pass: all 20 drafts still require source-by-source review before any can become `in-review`.
+
+Structural lint blockers were repaired: every cited SRC ID is listed under `sources` for
+FND-TG-132, 220, 222, 291 and 310. Root-level independent-audit markdown files were temporary
+coordinator scratch files and are not part of the research corpus. Remaining independent review
+work covers all energy drafts: 130-132, 160-162, 190-192, 220-222, 250-251, 270-271, 290-291
+and 310-311. Preserve their draft status until the original sources are separately reopened.
 
 Lane: energy, owner Taha (`TahaGHZ`, initials `TG`), record numbers 100-399. All work was
 paused on Taha's instruction. Every running agent was stopped mid-task, and every file was
@@ -75,7 +90,7 @@ findings. Check each flag below against the files before re-verifying.
 
 ### 190-219: renewables deployment. Written, verification interrupted.
 
-FND-TG-190 (past, wind stuck at 245 MW), FND-TG-191 (current) and FND-TG-192 (predicted)
+FND-TG-190 (past, capacity flat at 245 MW in the cited 2015 and 2024 observations), FND-TG-191 (current) and FND-TG-192 (predicted)
 are `draft`. Their sources are SRC-TG-190 to 199. They also use appended blocks in
 SRC-TG-105, 106 and 226.
 
@@ -84,8 +99,8 @@ SRC-TG-105, 106 and 226.
   - The causes of the fall in wind output are tier C only.
   - The 2030 target is stated five different ways across documents.
   - Law 2019-47 and Decree 2016-1123 were not opened (ESMAP returned 403).
-  - SRC-TG-191 (a law) uses `type: official-statistics`, because the template has no type
-    for laws.
+  - Law 2019-47 and Decree 2016-1123 remain unopened; Law 2019-47 may affect the approval rules
+    described in FND-TG-191. Article 25 concerns export concessions, not domestic ones.
 
 ### 220-249: grid peaks, outages, losses and ELMED. Verifier flags applied, not yet re-verified.
 
@@ -218,5 +233,67 @@ These came out of the investigators' reports:
   - There is no frontmatter field for disagreeing values, so they go in the body and as
     separate indicators.
   - Geography values cannot express an international link such as ELMED.
+
+## Batch update: 2026-11-21
+
+This batch continued energy only. Existing files in other lanes were already modified in the
+shared worktree; do not stage them. The four paused blocks now have two energy-framed findings
+each:
+
+- Cooling: FND-TG-250 (current summer peak) and FND-TG-251 (AC baseline forecast plus separate
+  climate projection; heatwave demand increment is not quantified).
+- Water supply energy: FND-TG-270 (SONEDE electricity use and cost) and FND-TG-271 (Eau 2050
+  desalination volumes; electricity requirement remains unknown). SRC-TG-282 was added from
+  SONEDE's official Arabic energy-management page.
+- Heavy industry: FND-TG-290 records the Ministry's audit counts and the missing denominator;
+  it does not assert weak enforcement. FND-TG-291 records the World Bank's qualitative cement
+  exposure ranking under CBAM, not a numeric payment forecast. SRC-TG-295 records the Ministry's
+  annual audit-count table.
+- Transport/fuel: FND-TG-310 records the official 2024 transport energy balance; FND-TG-311
+  keeps the old World Bank informal-fuel estimate explicitly historical and method-sensitive.
+- SRC-TG-283 records the national climate projection used to contextualize the cooling scenario.
+
+Applied verifier corrections include split numeric indicators; subsidy attribution and caveats;
+updated titles and causes; narrowed FND-TG-131 exploration wording; and corrected SRC-TG-191's
+source type. The final pre-push audit also required further qualification of FND-TG-191's
+Article 25 scope, and outstanding interpretation/source issues remain in FND-TG-131 and
+FND-TG-162; all remain draft.
+
+No draft was promoted to `in-review`. The external evidence directory already held same-day
+original-text downloads for the cited records across IDs 100-141, 160-164, 166-170, 172-173,
+190-199, 220-234, 250-253, 270-278, 280-281, 290-294 and 310-311; these were read during this
+pass. `SRC-TG-165.txt` is missing. Newly opened originals for SONEDE, UNFCCC and the Ministry
+audit-count webpage (SRC-TG-282, 283, 295) were extracted into tracked source records but could
+not be added as `.txt` files to the external directory because it is outside the writable root.
+Other primary originals were opened through their official text layer as needed. Do not treat
+download presence alone as verification; the issues below still need resolution.
+
+Still draft and requiring a final source-by-source verifier pass:
+
+- FND-TG-130: Article 13 causal weight is unmeasured; the “all permits refused” claim conflicts
+  with an unresolved lead that only two permits were refused; claim magnitude and exploration trend remain uncertain.
+- FND-TG-131: supplier shares, the trade series, and blockade attribution require each cited
+  sources to be checked; narrow exploration wording to recent reported activity, not a standstill. The revised deficit figure was checked against December ONEM; origin of oil imports remains unknown.
+- FND-TG-132: ONEM's 2025 well counts conflict between its year-end and September bulletins.
+- FND-TG-160: the World Bank's 4.7% 2013 forecast has ambiguous composition; official outturn
+  and legal acts for the fuel formula remain missing.
+- FND-TG-161: the 974.1 MDT guarantees are press-only; fuel-price suspension and 2024 cash-payment
+  interpretation remain unconfirmed.
+- FND-TG-162: draft-budget claims are press-only and the underlying PLF 2027 document was not obtained; remove unsupported arrears causality and reconcile remaining projection evidence.
+- FND-TG-190: causes of wind-output decline rest on tier-C material; wind series and claimed
+  “stalled” causes need complete comparison.
+- FND-TG-191: Law 2019-47 and Decree 2016-1123 remain unopened; Article 25 applies to export concessions. Multi-cause attribution and target comparability remain unverified.
+- FND-TG-192: 2030 renewables targets use different measures across plans, and the project pipeline
+  must be rechecked against original documents.
+- FND-TG-220: 2023/2026 load-shedding claims are press-reported; capacity and peak values need
+  source-by-source comparison; the 770 MW base year is 2022 and ENS wording should match its value.
+- FND-TG-221: confirm the reported theft share against the original ONEM and STEG reports; the
+  technical/commercial loss remainder is inferred, not a direct measurement.
+- FND-TG-222: Med-TSO's 2030 loss-of-load figure conflicts between text and figure/table; the
+  2023/2026 load-shedding press claims lack primary operational confirmation.
+
+The listed unresolved issues are recorded in the corresponding finding bodies. Continue the
+independent pass from the primary URLs and source extracts; do not start any additional energy
+topic until these are resolved.
 - **Method change from Taha:** start from concrete issues and work outward, and use the
   taxonomy only as a coverage check afterwards.

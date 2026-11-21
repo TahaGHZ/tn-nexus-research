@@ -1,21 +1,21 @@
 ---
 id: FND-TG-190
-title: Tunisia's wind power stopped growing in 2012 at 245 MW, all built by STEG; the 2015 plan for 775 MW by 2020 was missed and wind output has since halved
+title: Tunisia's wind capacity remained 245 MW between 2015 and end-2024; the 2015 plan's 775 MW target for 2020 was missed and reported output fell in 2024-2025
 status: draft
 sectors: [energy]
 theme: renewables
 timeframe: past
 period: 2001-2025
-geography: [national, nabeul, bizerte]
+geography: [national, nabeul]
 severity: medium
 trend: worsening
 confidence: medium
 root_causes:
-  - cause: Before 2015 the law allowed private power only through state-tendered concessions, so wind was built only by STEG with public funds, and that programme ended with the 2012 Bizerte farms
+  - cause: The available record shows the existing fleet was built by STEG before the private-project framework; it does not establish that the law alone caused the absence of further capacity.
     type: policy
     legacy_decision: true
     sources: [SRC-TG-106]
-  - cause: After 2015, private wind did not start. Standard contracts were not bankable in the first authorisation call (2017), and wind concessions tendered in 2018 were still at the wind-measurement stage in 2026
+  - cause: FNF reports that standard contracts in the 2017 authorisation call were not bankable and describes later project procedures; its account does not establish the 2026 status of all projects or prove that Law 2015-12 caused the delays.
     type: institutional
     legacy_decision: false
     sources: [SRC-TG-106, SRC-TG-193, SRC-TG-195]
@@ -69,13 +69,7 @@ indicators:
   - name: STEG wind generation
     value: 259
     unit: GWh
-    year: 2025
-    geography: national
-    source: SRC-TG-193
-  - name: Wind share of electricity generation (including self-produced PV in the total)
-    value: 1.3
-    unit: percent
-    year: 2025
+    year: 2024
     geography: national
     source: SRC-TG-193
   - name: Current production capacity of the Sidi Daoud (El Haouaria) wind farm (tier C)
@@ -104,9 +98,7 @@ stayed at 245 MW since: it was 245 MW at the end of 2015 (SRC-TG-192) and still 
 of 2024, with zero change over 2019-2024 (SRC-TG-190). The 2015 Tunisian Solar Plan had planned
 775 MW of wind by 2020 and 1,305 MW by 2025 (SRC-TG-192). Output from the existing fleet has
 fallen: from a peak of 507 GWh in 2014 (SRC-TG-106) to 465 GWh in 2020 (SRC-TG-194), 337 GWh in
-2024 and 259 GWh in 2025 (SRC-TG-193). In 2025 wind supplied 1.3% of the country's electricity
-(SRC-TG-193). Wind was the main renewable source before 2015; the programme that built it largely
-ended in 2012, and its effects are still felt.
+2024 and 259 GWh in 2025 (SRC-TG-193). Wind was the main renewable source before 2015. Capacity was 245 MW in the 2015 plan baseline and remained 245 MW at end-2024 (SRC-TG-192, SRC-TG-190); the sources reviewed here do not establish the date or cause of the subsequent capacity plateau.
 
 ## Root causes
 
@@ -173,3 +165,7 @@ that is over 90% gas (FND-TG-101).
   https://www.freiheit.org/sites/default/files/2024-03/bramj-altaqat-almtjddt-fy-twns.pdf
 - Revised standard PPA for wind under the authorisation regime (SRC-TG-106):
   https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Jun/IRENA_RRA_Tunisia-2021.pdf
+
+## Verification status
+
+Draft retained. Outstanding exact issue: the 245 MW capacity and output series need complete source-by-source comparison, and the claimed causes of the fall in wind generation rely on tier-C reporting without primary confirmation.

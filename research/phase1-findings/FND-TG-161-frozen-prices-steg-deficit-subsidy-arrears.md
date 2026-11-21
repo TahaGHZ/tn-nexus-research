@@ -84,19 +84,25 @@ indicators:
     source: SRC-TG-161
   - name: Subsidy to STEG from the state budget
     value: 4.0
-    unit: billion TND (2.5% of GDP)
+    unit: billion TND
     year: 2023
     geography: national
     source: SRC-TG-105
   - name: Subsidies to STEG
-    value: "1 (2021) to 2.5 (2023)"
+    value: 1
+    unit: "% of GDP"
+    year: 2021
+    geography: national
+    source: SRC-TG-105
+  - name: Subsidies to STEG
+    value: 2.5
     unit: "% of GDP"
     year: 2023
     geography: national
     source: SRC-TG-105
   - name: Subsidies share of total budget expenditure
     value: 20
-    unit: "%"
+    unit: percent
     year: 2024
     geography: national
     source: SRC-TG-161
@@ -107,26 +113,32 @@ indicators:
     geography: national
     source: SRC-TG-161
   - name: STEG loss before subsidy
-    value: "5.0 (2022), 4.5 (2023)"
+    value: 5.0
+    unit: billion TND
+    year: 2022
+    geography: national
+    source: SRC-TG-105
+  - name: STEG loss before subsidy
+    value: 4.5
     unit: billion TND
     year: 2023
     geography: national
     source: SRC-TG-105
   - name: Electricity tariff cost recovery (average tariff / supply cost), described as current in April 2025
     value: 60
-    unit: "%"
+    unit: percent
     year: 2025
     geography: national
     source: SRC-TG-105
-  - name: Outstanding public-sector electricity and gas invoices
-    value: "183% of annual sales (22 months)"
-    unit: share of annual sales
+  - name: Outstanding public-sector electricity and gas invoices, months of sales
+    value: 22
+    unit: months
     year: 2023
     geography: national
     source: SRC-TG-105
-  - name: Outstanding private-sector electricity and gas invoices
-    value: "31% of annual sales (3.7 months)"
-    unit: share of annual sales
+  - name: Outstanding private-sector electricity and gas invoices, months of sales
+    value: 3.7
+    unit: months
     year: 2023
     geography: national
     source: SRC-TG-105
@@ -154,31 +166,43 @@ indicators:
     year: 2020
     geography: national
     source: SRC-TG-164
-  - name: Fuel price increases in 2022 before suspension of the mechanism (press; four by 21 October, five for the year)
-    value: "4 to 5"
+  - name: Fuel price increases by 21 October 2022 (press)
+    value: 4
+    unit: count
+    year: 2022
+    geography: national
+    source: SRC-TG-169
+  - name: Fuel price increases during 2022 (press)
+    value: 5
     unit: count
     year: 2022
     geography: national
     source: SRC-TG-168
   - name: Subsidy as share of real cost, household low-voltage electricity (PLF 2027, press)
     value: 44
-    unit: "%"
+    unit: percent
     year: 2027
     geography: national
     source: SRC-TG-167
   - name: Subsidy as share of real cost, household low-pressure gas (PLF 2027, press)
     value: 60
-    unit: "%"
+    unit: percent
     year: 2027
     geography: national
     source: SRC-TG-167
-  - name: Brent average to end-August 2026 vs LF 2026 assumption (press report of PLF 2027)
-    value: "91.21 vs 63.3"
+  - name: Brent average to end-August 2026 (press report of PLF 2027)
+    value: 91.21
     unit: US$/bbl
     year: 2026
     geography: national
     source: SRC-TG-170
-  - name: State guarantees granted to STEG
+  - name: LF 2026 Brent assumption (press report of PLF 2027)
+    value: 63.3
+    unit: US$/bbl
+    year: 2026
+    geography: national
+    source: SRC-TG-170
+  - name: State guarantees granted to STEG (tier-C press report)
     value: 974.1
     unit: million TND
     year: 2025
@@ -186,10 +210,10 @@ indicators:
     source: SRC-TG-170
 stakeholders: [households, industry, STEG, STIR, Ministry of Finance, Ministry of Industry Mines and Energy (MIME), public administrations as unpaying customers, IMF, World Bank, STEG suppliers]
 related: [FND-TG-160, FND-TG-162, FND-TG-101, FND-TG-131, FND-TG-221]
-sources: [SRC-TG-105, SRC-TG-160, SRC-TG-161, SRC-TG-163, SRC-TG-164, SRC-TG-165, SRC-TG-166, SRC-TG-167, SRC-TG-168, SRC-TG-169, SRC-TG-170, SRC-TG-171]
+sources: [SRC-TG-105, SRC-TG-160, SRC-TG-161, SRC-TG-163, SRC-TG-164, SRC-TG-165, SRC-TG-166, SRC-TG-167, SRC-TG-168, SRC-TG-169, SRC-TG-170, SRC-TG-173]
 data_gaps:
   - Official decision (JORT or ministry) suspending the automatic fuel price adjustment mechanism, and the date of the last retail price change; only press sources (SRC-TG-168, SRC-TG-169) were found.
-  - Outcome of the October 2022 IMF staff-level agreement (Executive Board approval or abandonment); no document stating it was opened (SRC-TG-171 is only consistent with no programme).
+  - Outcome of the October 2022 IMF staff-level agreement (Executive Board approval or abandonment); no document stating it was opened (SRC-TG-173 is only consistent with no programme).
   - STEG audited financial statements for 2024 and 2025 (net result, debt, receivables). Press reports cite a 2024 net loss of 229.76 million TND and debt of 7.356 billion TND at a June 2026 parliamentary hearing (e.g. https://www.lapresse.tn/2026/06/27/steg-un-endettement-de-7356-milliards-de-dinars-et-des-creances-impayees-de-plus-de-6-milliards/), but these were not opened and are not used.
   - Split of the 2022, 2023 and 2025 "Carburants" line between STIR and STEG from an official source (only 2024 is split, SRC-TG-161).
   - Reconciliation of the 2025 hydrocarbon subsidy figures - 7,112 MDT (Ministry execution report), 5,719 MDT (PLF 2026 per press) and 8,060 MDT (PLF 2025 per press, source not opened).
@@ -197,15 +221,24 @@ data_gaps:
   - Current stock of state subsidy arrears owed to STEG; the PAD sets a reduction target of 900 MDT but the opened text does not give the stock.
   - Electricity tariff schedule, the legal authority that sets it, and the date of the last tariff change.
   - Distribution of electricity and gas subsidies across household income groups after 2010.
+  - Whether the 2024 subsidy amounts labelled "paid" are cash disbursements: the reported STEG and STIR amounts equal the PLF 2024 allocations, so they may be appropriations rather than paid outturn.
 author: TahaGHZ
 ---
+
+## Verification status
+
+Draft retained. Outstanding exact issue: the 974.1 MDT state-guarantee figure is reported only
+by a tier-C press source and is not independently corroborated by a primary budget or guarantee
+document. Also, the cached downloaded original text for SRC-TG-165 is missing, leaving the October
+2022 IMF agreement claim without the requested original-text comparison.
 
 ## Problem
 
 Tunisia spends about 11.3-12.0 billion dinars a year on subsidies, of which about 7.0-7.6 billion
 goes to hydrocarbons (fuels through STIR, electricity and gas through STEG) in 2022-2025
-(SRC-TG-160). In 2024 subsidies were 20% of budget expenditure and 7.1% of GDP, and STEG alone
-received 4,019 million dinars (SRC-TG-161). Subsidies to STEG rose from 1% of GDP in 2021 to 2.5%
+(SRC-TG-160). In 2024 subsidies were 20% of budget expenditure and 7.1% of GDP, and the Ministry
+report labels 4,019 million dinars for STEG as paid (SRC-TG-161). These amounts equal the PLF 2024
+allocations and may be appropriations rather than cash transfers. Subsidies to STEG rose from 1% of GDP in 2021 to 2.5%
 in 2023 (SRC-TG-105). Even after subsidy STEG is in financial distress: it lost 5.0 billion dinars
 before subsidy in 2022 and 4.5 billion in 2023, has cumulative losses of 3.68 billion dinars,
 negative equity of 1.59 billion and current liabilities of 10.1 billion at end-2023, and its
@@ -230,7 +263,7 @@ Causes:
    The IMF staff-level agreement of October 2022 (US$1.9 billion, 48 months) was built on regular
    price adjustments linked to international prices and awaited board approval in December 2022
    (SRC-TG-165). The IMF country page in November 2026 lists the last Article IV consultation in
-   February 2021 and shows no approval item (SRC-TG-171); the outcome itself was not sourced.
+   February 2021 and shows no approval item (SRC-TG-173); the outcome itself was not sourced.
 3. **Late and incomplete subsidy payment, and unpaid public bills.** Subsidy delays and
    shortfalls force STEG to borrow short and medium term and delay payments to suppliers
    (SRC-TG-105). Public-sector customers owed STEG 22 months of bills at end-2023 (SRC-TG-105). At

@@ -15,7 +15,7 @@ root_causes:
     type: climatic
     legacy_decision: false
     sources: [SRC-TG-226, SRC-TG-224]
-  - cause: Capacity has been added slowly (about 100 MW a year before 2023), so the 2030 adequacy result rests on a build-out far faster than the track record
+  - cause: Capacity has been added slowly (about 100 MW a year in recent years, as reported in 2023), so the 2030 adequacy result rests on a build-out far faster than the track record
     type: institutional
     legacy_decision: false
     sources: [SRC-TG-224, SRC-TG-226, SRC-TG-105]
@@ -110,12 +110,6 @@ indicators:
     year: 2030
     geography: national
     source: SRC-TG-224
-  - name: ELMED total estimated cost, Tunisian and Italian sides combined (2023 estimate)
-    value: 964.2
-    unit: million EUR
-    year: 2023
-    geography: Tunisia and Italy
-    source: SRC-TG-224
 projection:
   horizon: 2027 and 2030 (Med-TSO mid-term); summer 2026 (Med-TSO Summer Outlook); 2030 and 2040 (World Bank ELMED dispatch model)
   scenario: Med-TSO reference adequacy scenarios with TSO-submitted demand and capacity, 36 climate years, isolated and interconnected modes. World Bank base case and a reduced-renewables case.
@@ -123,7 +117,7 @@ projection:
   source: SRC-TG-226, SRC-TG-234, SRC-TG-224
 stakeholders: [STEG, Terna, "Ministry of Industry, Mines and Energy", Med-TSO, World Bank, Sonelgaz, GECOL, households and industry]
 related: [FND-TG-220, FND-TG-221, FND-TG-102]
-sources: [SRC-TG-100, SRC-TG-105, SRC-TG-224, SRC-TG-225, SRC-TG-226, SRC-TG-234]
+sources: [SRC-TG-100, SRC-TG-105, SRC-TG-224, SRC-TG-225, SRC-TG-226, SRC-TG-234, SRC-TG-103]
 data_gaps:
   - "Official Tunisian peak demand forecast (STEG generation plan, Ministry): not found. The Strategy 2035 synthesis (SRC-TG-103) gives no peak figure. The JICA power development plan report (https://openjicareport.jica.go.jp/pdf/12342291.pdf) was not opened."
   - "Med-TSO 2030 loss of load is unresolved. The section 5.5 text says 3 h interconnected and negligible isolated; Figure 3 and Figure 39 say 3 h isolated and about 0 h interconnected; Table 12 shows zero adequacy exchanges on every Tunisian link, which fits neither reading cleanly (SRC-TG-226)."
@@ -134,11 +128,19 @@ data_gaps:
 author: TahaGHZ
 ---
 
+## Verification status
+
+Draft retained. Outstanding exact issue: SRC-TG-226 gives inconsistent 2030 loss-of-load values
+for the interconnected and isolated cases between its figure and table; the national 2030 loss of
+load cannot be reported as a single verified value until this conflict is resolved against the
+original report. The 2023 and 2026 load-shedding events cited elsewhere in this finding remain
+press-reported and lack primary operational confirmation.
+
 ## Problem
 
 Projections show the summer peak continuing to grow. Med-TSO's mid-term adequacy study puts
 Tunisia's highest hourly peak, across 36 simulated climate years, at 6,796 MW in 2027 and
-7,678 MW in 2030, up 0.9 GW (13.2%). Average consumption grows 4.10% a year in 2027-2030. The
+7,678 MW in 2030, up 882 MW (13.0%, calculated from the cited exact values). Average consumption grows 4.10% a year in 2027-2030. The
 maximum falls in July-August because of air-conditioning load (SRC-TG-226). For 2027 the study
 finds "structural adequacy risks". The thermal margin often "approaches zero" in July-August, and
 expected loss of load is 17 hours a year isolated against 2 hours interconnected. That relief
@@ -155,7 +157,7 @@ models and inputs.
   June-August because of the summer peak (SRC-TG-226). Gas units lose output in the heat, which cut
   the real reserve below 10% in 2022 (SRC-TG-224).
 - **Build-out vs track record.** The 2030 case assumes about 10.5 GW installed (SRC-TG-226).
-  Installed capacity was 5,982 MW at the end of 2023 (SRC-TG-105), and before 2023 it grew by about
+  Installed capacity was 5,982 MW at the end of 2023 (SRC-TG-105); the World Bank reports recent additions of about
   100 MW a year against a government estimate of 400-600 MW needed every two years (SRC-TG-224). The
   2030 improvement depends on closing that gap.
 
@@ -188,7 +190,7 @@ is not the main driver of the projected 2027 risk; ELMED is not assumed in servi
 - **Adequacy in 2030:** zero exchanges are needed on the Algeria, Libya and Italy links, with Tunisia
   "able to rely more on internal resources". The loss of load figure is unresolved (SRC-TG-226; see
   data_gaps).
-- **Summer 2026:** worst-case thermal margin zero throughout July and August, and the 500 MW of
+- **Summer 2026 (seasonal outlook, not annual):** worst-case thermal margin zero throughout July and August, and the 500 MW of
   import capacity "a practical necessity" (SRC-TG-234).
 - **ELMED:** 600 MW, 500 kV, from Partanna (Sicily) to Mlaabi (Cap Bon), 220 km of which 200 km is
   undersea, commissioning assumed by 2028 (SRC-TG-226). Total cost €964.2 million for both sides

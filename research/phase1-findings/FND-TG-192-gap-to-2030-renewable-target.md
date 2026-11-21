@@ -1,6 +1,6 @@
 ---
 id: FND-TG-192
-title: The 2030 renewable target needs roughly three to four times today's capacity in five years; the identified project pipeline falls short, the regional adequacy model simply assumes the target is met, and the target itself is stated in several different ways
+title: Tunisia's updated 2030 renewable capacity target is about 4.4 times IRENA's end-2024 baseline; project delivery and target definitions remain uncertain
 status: draft
 sectors: [energy]
 theme: renewables
@@ -11,11 +11,11 @@ severity: high
 trend: unknown
 confidence: low
 root_causes:
-  - cause: The pace of commissioning under Law 2015-12 (about six years from award to first output for concessions) is far slower than the build rate the targets require
+  - cause: "Observed delivery has been slow: Kairouan was commissioned about 7.5 years after the May 2018 prequalification; FNF reports procedures take at least three years, but these sources do not establish that Law 2015-12 caused the delay."
     type: institutional
     legacy_decision: true
     sources: [SRC-TG-106, SRC-TG-193, SRC-TG-195]
-  - cause: Targets were raised (30% to 35%, 3,815 MW to 4,800 MW) without a published delivery plan or projection, and different documents use different metrics
+  - cause: "The updated 4,800 MW target cited by the World Bank has no year-by-year delivery pathway in the sources reviewed; the 2015 plan has intermediate milestones and TEREG has a 2028 milestone, while percentage targets refer to different or unspecified metrics."
     type: policy
     legacy_decision: false
     sources: [SRC-TG-192, SRC-TG-103, SRC-TG-105, SRC-TG-196, SRC-TG-195]
@@ -36,13 +36,13 @@ indicators:
     year: 2030
     geography: national
     source: SRC-TG-192
-  - name: Renewable capacity target, updated strategy as cited by the World Bank
+  - name: Renewable capacity target, updated strategy (4,800 MW; reported current equivalent 4,800/1,086 based on end-2024 baseline)
     value: 4800
     unit: MW
     year: 2030
     geography: national
     source: SRC-TG-105
-  - name: Renewable share target "in the energy mix", updated strategy as cited by the World Bank
+  - name: Renewable share target "in the energy mix" (metric not specified in cited World Bank summary)
     value: 35
     unit: percent
     year: 2030
@@ -78,13 +78,13 @@ indicators:
     year: 2026
     geography: national
     source: SRC-TG-100
-  - name: Renewable share of installed capacity assumed in the Med-TSO adequacy model (of 10,520 MW; solar 30%, wind 15%)
+  - name: Renewable share of installed capacity assumed in Med-TSO model (reported 46.9%; components 30% solar, 15% wind, 5% batteries do not reconcile)
     value: 46.9
     unit: percent
     year: 2030
     geography: national
     source: SRC-TG-226
-  - name: Renewable share of installed capacity assumed in the Med-TSO adequacy model (of 7,316 MW)
+  - name: Renewable share of installed capacity assumed in Med-TSO model (reported 30.1%; components do not reconcile)
     value: 30.1
     unit: percent
     year: 2027
@@ -92,8 +92,8 @@ indicators:
     source: SRC-TG-226
 projection:
   horizon: 2030
-  scenario: Med-TSO mid-term adequacy model input (TSO-submitted data) with renewables at 46.9% of 10,520 MW installed capacity in 2030; compared here with the ONEM project pipeline at end 2025
-  method: The Med-TSO figure is an assumed capacity mix fed into a Monte Carlo adequacy model, not a forecast of what will be built. No modelled forecast of renewable capacity or share for 2030 was found. The pipeline gap is our own arithmetic (shown in the body)
+  scenario: Med-TSO mid-term adequacy model input (TSO-submitted data) with a separately reported 46.9% renewable share of 10,520 MW installed capacity in 2030; component shares conflict; compared here with the incomplete ONEM project pipeline at end 2025
+  method: The Med-TSO figure is an assumed capacity mix fed into a Monte Carlo adequacy model, not a forecast of what will be built. No modelled forecast of renewable capacity or share for 2030 was found. The derived capacity is approximate, based on the separately reported 46.9%; the pipeline comparison is conditional on the listed mixed-stage projects being built and no additional capacity beyond the additions described
   source: SRC-TG-226
 stakeholders: [Ministry of Industry, Mines and Energy, ANME, STEG, private IPP developers, World Bank and other lenders, electricity consumers]
 related: [FND-TG-102, FND-TG-161, FND-TG-162, FND-TG-190, FND-TG-191, FND-TG-222]
@@ -111,15 +111,15 @@ author: TahaGHZ
 
 Tunisia's 2030 renewable target is large compared with what is built. The 2015 Solar Plan set
 3,815 MW and about 30% of generation for 2030 (SRC-TG-192). The World Bank cites the updated
-strategy as 4,800 MW and 35% "in the energy mix" by 2030, and 8,350 MW by 2035 (SRC-TG-105,
-SRC-TG-103). Against this, IRENA counts 1,086 MW at the end of 2024 (SRC-TG-190), and renewables
+strategy as 4,800 MW and 35% "in the energy mix" by 2030 (not directly comparable to the 2015 plan's generation share), and 8,350 MW by 2035 (SRC-TG-105,
+SRC-TG-103). Against this, IRENA reported 1,086 MW at end-2024 (SRC-TG-190), and renewables
 supplied 8.3% of generation in January-September 2026 (SRC-TG-100). Meeting 3,815 MW means about
-3.5 times the 2024 capacity; meeting 4,800 MW means about 4.4 times, in roughly five years (our
+3.5 times the 2024 capacity; meeting 4,800 MW means about 4.4 times, in roughly six years (our
 arithmetic from SRC-TG-192, SRC-TG-105 and SRC-TG-190; IRENA's 1,086 MW includes 66 MW of hydro,
 which the Solar Plan's 3,815 MW excludes, so the real multiple is slightly higher). No opened
 source forecasts whether the target will be met. The Mediterranean TSOs' adequacy study instead
 assumes it is: renewables at 46.9% of 10,520 MW of capacity in 2030, with wind at 15% of the fleet
-(SRC-TG-226), against 245 MW of wind today (FND-TG-190).
+(SRC-TG-226), against 245 MW of wind in the cited end-2024 data (FND-TG-190).
 
 ## Root causes
 
@@ -128,8 +128,7 @@ assumes it is: renewables at 46.9% of 10,520 MW of capacity in 2030, with wind a
   and procedures take at least three years before production (SRC-TG-195). Projects awarded in
   2024-2025 are expected in service in 2027 (SRC-TG-193). The causes of this pace are set out in
   FND-TG-191.
-- **Targets without a delivery projection (policy).** The target has moved and is stated in
-  different metrics (see Evidence). The 2035 strategy synthesis gives two figures for the same
+- **Targets without a delivery projection (policy).** The updated capacity target is distinct from the 2015 generation-share target; they are not a direct percentage trend (see Evidence). The 2035 strategy synthesis gives two figures for the same
   target (8,530 MW on p. 12 and 8,350 MW on p. 17) (SRC-TG-103). No published plan shows how the
   2030 capacity would be reached year by year.
 - **Finance (economic).** The World Bank says scale-up "will depend on the availability of
@@ -203,3 +202,7 @@ imports (FND-TG-102, FND-TG-222).
   https://documents1.worldbank.org/curated/en/099041025150537909/text/BOSIB-5b68fe2f-7a73-435b-930b-ec670325463c.txt
 - Battery storage and shorter delivery times called for by the CONECT renewable energy group
   (SRC-TG-199): https://www.webmanagercenter.com/2026/09/08/572436/energies-renouvelables-la-tunisie-plafonne-a-92-alors-que-les-35-sont-vises-des-2030/
+
+## Verification status
+
+Draft retained. Outstanding exact issue: source documents express the 2030 target as different capacity and generation-share measures (including 3,815/4,800 MW and 30/35%); the finding's gap calculation cannot pass until the target definitions and comparable denominator are reconciled.
