@@ -1,7 +1,7 @@
 ---
 id: FND-TG-702
 title: "The state cereal system (Office des Céréales monopoly, decreed prices, CGC subsidies) built in 1962-1971 now strains public finances and blunts market signals"
-status: draft
+status: in-review
 sectors: [agriculture]
 theme: cereals
 timeframe: current

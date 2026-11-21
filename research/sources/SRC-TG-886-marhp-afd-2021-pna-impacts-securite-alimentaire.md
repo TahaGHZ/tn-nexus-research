@@ -24,6 +24,19 @@ Method, p. 22-23:
 
 English gloss: Reference period 1981-2010; "2050" means 2036-2065 and "2100" means 2071-2100; RCP 4.5 (12 models) and RCP 8.5 (18 models). Mean temperature rises +1.5°C (RCP 4.5) to +1.9°C (RCP 8.5) by 2050 and +1.9°C to +3.9°C by 2100.
 
+Table 9, p. 48, national rainfed cereal yields (multi-model), % change vs reference:
+
+> Scénarios et périodes  RCP 4.5 2050 / 2100  RCP8.5 2050 / 2100
+> Blé dur (% variation)  -14,1% / -14,3%  -9,0% / -26,1%
+> Blé tendre (% variation)  -16,6% / -18,5%  -13,0% / -33,2%
+> Orge (% Variation)  -13,7% / -15,4%  -11,2% / -31,5%
+
+English gloss: Rainfed yield change at 2050: durum -14.1% (RCP 4.5) / -9.0% (RCP 8.5); soft wheat -16.6% / -13.0%; barley -13.7% / -11.2%. At 2100: durum -14.3% / -26.1%; soft wheat -18.5% / -33.2%; barley -15.4% / -31.5%. (Absolute yields in quintals/ha also given; table reassembled from the column layout.)
+
+Table 10, p. 61, olive-for-oil yield (kg/ha), reference 663:
+
+> Variation en %  -17% / -26% [RCP 4.5 2050 / 2100]  -32% / -61% [RCP8.5 2050 / 2100]
+
 Rainfed cereal yields, p. 50:
 
 > Pour le RCP 8.5, les baisses des rendements peuvent dépasser les 20% pour tous les gouvernorats et les trois céréales.
@@ -79,7 +92,9 @@ English gloss: Falling water resources, especially in the centre and south where
 
 ## Notes
 
-This is the primary modelling study behind the agricultural projections quoted in the updated NDC (SRC-TG-884), the 4th National Communication (SRC-TG-885) and, through an earlier 2020 deliverable, the World Bank CCDR (SRC-TG-881). Downloaded as PDF (12.5 MB) from ONAGRI and converted with pdftotext; tables were reassembled from the column layout. Page numbers are the printed page numbers.
+This is the primary modelling study behind the agricultural projections quoted in the updated NDC (SRC-TG-884), the 4th National Communication (SRC-TG-885) and the World Bank CCDR (SRC-TG-881). The CCDR bibliography (p. 78) cites "Agence française de développement. 2020. Impacts des effets du changement climatique sur la sécurité alimentaire" with the ONAGRI URL http://www.onagri.nat.tn/uploads/Etudes/4a.%20Impacts%20des%20effets%20du%20CC%20-%20securite%20alimentaire.pdf. According to the source-verifier (2026-11-21), that URL serves the same April 2021 deliverable, with a workshop annex added. The CCDR's 2050 yield figures (soft wheat -35%, barley -41%) do not match Table 9 of this document.
+
+The olive-yield value for RCP 8.5 at 2100 is internally inconsistent: the text says "autour de 66%" (p. 61, also in the executive summary), while Table 10 gives -61% (663 to 257 kg/ha). Downloaded as PDF (12.5 MB) from ONAGRI and converted with pdftotext; tables were reassembled from the column layout. Page numbers are the printed page numbers.
 
 The yield projections isolate climate effects at constant area and constant technology. Uncertainty is plus or minus 15% around the multi-model mean. The study explicitly does not include technical progress. The rangeland and livestock figures are a citation of a 2010 World Bank report, not output of this study. No agricultural employment percentage (20% or 30%) was found in the parts searched.
 

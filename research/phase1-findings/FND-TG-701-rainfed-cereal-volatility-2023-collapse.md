@@ -1,7 +1,7 @@
 ---
 id: FND-TG-701
 title: "Rainfed cereal output swings with rainfall and collapsed in the 2023 drought, cutting the harvest by roughly two-thirds or more"
-status: draft
+status: in-review
 sectors: [agriculture, water]
 theme: cereals
 timeframe: current

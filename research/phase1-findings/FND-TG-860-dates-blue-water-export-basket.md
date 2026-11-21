@@ -19,10 +19,10 @@ root_causes:
     type: institutional
     legacy_decision: true
     sources: [SRC-TG-740, SRC-TG-864]
-  - cause: "With water unpriced, farmers' choices follow return per hectare rather than per m3, and dates have a high return per hectare despite a low return per m3"
+  - cause: "With irrigation water prices supported, farmers' choices follow return per hectare rather than per m3, and dates have a high return per hectare despite a low return per m3"
     type: economic
     legacy_decision: false
-    sources: [SRC-TG-868]
+    sources: [SRC-TG-868, SRC-TG-864]
 indicators:
   - name: Blue water footprint of dates, AquaCrop estimate (highest of three estimates; others 3,270 m3/t blue for 1996-2005 in SRC-TG-868 and about 2,900 m3/t total for 2013 exports in SRC-TG-861)
     value: 5000
@@ -170,7 +170,7 @@ The symptom is a growing volume of irrigation water leaving the country embedded
 
   The national agricultural studies centre calls exports from irrigated agriculture in general "one of the major justifications" for irrigated agriculture (SRC-TG-864).
 - **Past decision: groundwater infrastructure and tolerated extensions in the south.** The government developed groundwater infrastructure to revive and create oases. Private extensions grew from the 2000s, even though individual drilling outside traditional oases was not allowed (SRC-TG-740). The sibling records FND-TG-741 (unauthorised extensions) and FND-TG-740 (Deglet Nour monoculture) cover these in detail; this record does not repeat them.
-- **Return per hectare, not per m3, drives the choice.** The return per m3 of blue water on irrigated dates is low, about US$0.11/m3 against US$1.13 for tomatoes and US$0.97 for potatoes (1996-2005). Dates nonetheless rank among the highest returns per hectare (US$3,080/ha), behind oranges and tomatoes (SRC-TG-868). The same authors note that return per hectare explains Tunisian cropping patterns better than return per m3 (SRC-TG-868). With water barely priced, a farmer gains from the crop that pays most per hectare, even where it pays little per m3. The national studies centre likewise reports weak economic water value in the southern oases because of the trend toward date palm monoculture (SRC-TG-864).
+- **Return per hectare, not per m3, drives the choice.** The return per m3 of blue water on irrigated dates is low, about US$0.11/m3 against US$1.13 for tomatoes and US$0.97 for potatoes (1996-2005). Dates nonetheless rank among the highest returns per hectare (US$3,080/ha), behind oranges and tomatoes (SRC-TG-868). The same authors note that return per hectare explains Tunisian cropping patterns better than return per m3 (SRC-TG-868). With irrigation water prices supported by the state (SRC-TG-864), a farmer gains from the crop that pays most per hectare, even where it pays little per m3. The national studies centre likewise reports weak economic water value in the southern oases because of the trend toward date palm monoculture (SRC-TG-864).
 
 ## Evidence
 
