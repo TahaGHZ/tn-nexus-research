@@ -1,7 +1,7 @@
 ---
 id: FND-TG-290
 title: Tunisia recorded fewer industrial energy audits in 2018 than in 2011; official counts do not measure compliance
-status: in-review
+status: draft
 sectors:
   - energy
 theme: industrial-efficiency
@@ -133,3 +133,5 @@ This is an industrial energy-use finding. Cement and other mineral products are 
 ## Verification
 
 The ministry publishes annual audit counts of 103 in 2011 and 21 in 2018; no eligible-establishment denominator or audit-outcome measure is provided (SRC-TG-295). Industrial energy use is separately defined in the official balance. Neither series measures compliance.
+
+**Outstanding verification:** Industrial energy use and stated audit counts are documented. The counting unit, eligible establishments and compliance outcomes remain unknown.

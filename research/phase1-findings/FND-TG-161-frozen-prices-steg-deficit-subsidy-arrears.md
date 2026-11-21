@@ -2,7 +2,7 @@
 id: FND-TG-161
 title: Hydrocarbon subsidies remained about 7.0–7.6 billion TND in 2022–2025; end-2023 data show STEG financial stress, while press reports a
   fuel-price freeze after 2022
-status: in-review
+status: draft
 sectors:
   - energy
 theme: energy-subsidies
@@ -394,3 +394,5 @@ Medium for the core finding: the subsidy scale is supported by a Ministry execut
   (SRC-TG-165).
 - Planned law establishing an independent electricity regulatory authority (mentioned in the
   TEREG PAD, para. 8, https://documents1.worldbank.org/curated/en/099041025150537909/text/BOSIB-5b68fe2f-7a73-435b-930b-ec670325463c.txt).
+
+**Outstanding verification:** The staff-level agreement and July 2016 pricing rule are confirmed. The guarantee, 2025 budget-scope difference and cash-versus-booked treatment lack primary reconciliation.

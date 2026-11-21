@@ -1,7 +1,7 @@
 ---
 id: FND-TG-251
 title: LBNL projects rising AC electricity use through 2040; climate increment unquantified
-status: in-review
+status: draft
 sectors:
   - energy
 theme: buildings-cooling
@@ -116,3 +116,5 @@ Higher cooling demand would contribute to electricity system load and potentiall
 ## Verification
 
 The dated equipment model supplies stock and electricity-use projections. Heatwave projections come from separate climate modelling. The finding does not combine their outputs into an unsupported additional power-demand forecast.
+
+**Outstanding verification:** The stock-turnover model and climate projections are distinct. The model chart readings lack an underlying numeric series to verify their precision.

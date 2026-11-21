@@ -2,7 +2,7 @@
 id: FND-TG-820
 title: 'Farmers face recurrent fertiliser shortfalls although Tunisia mines phosphate and exports DAP: phosphate and DAP output fell sharply after
   2010, ammonium nitrate depends on imported ammonia, and administered prices complicate supply'
-status: in-review
+status: draft
 sectors:
   - agriculture
 theme: inputs
@@ -248,3 +248,5 @@ Energy: ammonium nitrate depends on imported ammonia (SRC-TG-825, SRC-TG-824), s
 ## Verification
 
 The distinction between the programme announcement, subsequent reporting, and the customs series resolves the erroneous use of 60,000 t as a verified customs outturn. The indicator records the plan. The domestic supply shortfall and the dated planned cereal-season quantities remain independently evidenced.
+
+**Outstanding verification:** The 60,000-tonne plan and first 6,000-tonne shipment are distinguished. No source establishes the final quantity under definitions comparable with the customs series.

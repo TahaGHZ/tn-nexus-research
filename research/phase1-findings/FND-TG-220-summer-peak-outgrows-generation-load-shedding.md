@@ -1,7 +1,7 @@
 ---
 id: FND-TG-220
 title: Tunisia's summer electricity peak is rising while modeled capacity margins are tight; imports and demand response support adequacy
-status: in-review
+status: draft
 sectors:
   - energy
 theme: grid
@@ -282,3 +282,5 @@ Confidence is medium for a current adequacy concern: the observed ONEM peak seri
 ## Verification
 
 Dated national peaks and the published adequacy studies have different periods and methods. The official peak series is used for observed values. Press accounts are attributed as reports; undocumented comparisons and residual capacity estimates do not establish actual outages.
+
+**Outstanding verification:** The observed peak is distinguished from the reported and modelled values. Event attribution and undated capacity-margin estimates remain unconfirmed.

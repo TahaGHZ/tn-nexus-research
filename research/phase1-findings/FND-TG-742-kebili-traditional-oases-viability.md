@@ -2,7 +2,7 @@
 id: FND-TG-742
 title: Traditional oases in Kebili face water, crop-layer and profitability pressures; Dagher projects negative Deglet Nour income by 2030 on
   traditional-oasis plots without an individual borehole
-status: in-review
+status: draft
 sectors:
   - agriculture
   - water
@@ -170,3 +170,5 @@ Low.
 ## Verification
 
 Reopened the original study of individual farmers and plots (SRC-TG-741). Collective boreholes are managed by water-user associations; a farmer-level borehole measure is distinct from the share of plots. The 2021–22 field evidence reflects mite and water stress. The 2030 result is a study projection by plot type and variety, not an observed loss for the whole governorate.
+
+**Outstanding verification:** The projection’s original paper was reopened. A separate claim-level pass is still required for the full set of field comparisons and governance attributions.

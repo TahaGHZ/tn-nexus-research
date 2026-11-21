@@ -252,3 +252,5 @@ will be covered under buildings-cooling.
 ## Verification
 
 Med-TSO’s summary, figure and table disagree on the national 2030 loss-of-load estimate. The competing statements remain attributed individually. The source does not establish a unique number; an author correction or a reproducible result is still required for that indicator (SRC-TG-226).
+
+**Outstanding verification:** The publisher’s figure and table still disagree on the 2030 model output; no reproducible correction was found.

@@ -1,7 +1,7 @@
 ---
 id: FND-TG-160
 title: Untargeted energy subsidies expanded with partial price pass-through and delivered larger absolute benefits to richer households
-status: in-review
+status: draft
 sectors:
   - energy
 theme: energy-subsidies
@@ -294,3 +294,5 @@ opened quantifies the agricultural share of energy subsidies. Listed as a lead, 
 ## Verification status
 
 Article 5 of the 15 July 2016 joint order documents the quarterly fuel-price procedure (SRC-TG-175). The IMF’s January 2014 benchmark and announced changes to the future review frequency are separate events (SRC-TG-163). IMF Tables 4a/4b report gross subsidies of 4,434 million TND and 5.9% of GDP for 2013. The November estimate of 4.7% was a forecast on a different basis. The incidence comparisons retain their source populations, dates where known, and limits (SRC-TG-163, SRC-TG-172).
+
+**Outstanding verification:** The July 2016 order and IMF gross-subsidy outturn are now sourced. The earlier incidence studies still have unresolved observation periods and populations.

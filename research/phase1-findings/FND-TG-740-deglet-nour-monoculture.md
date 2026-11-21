@@ -1,7 +1,7 @@
 ---
 id: FND-TG-740
 title: Tunisian date production and exports depend heavily on Deglet Nour; official and FAO estimates differ by denominator
-status: in-review
+status: draft
 sectors:
   - agriculture
   - water
@@ -204,3 +204,5 @@ Medium. Historical survey series relayed in an FAO consultancy and ONAGRI statis
 ## Verification
 
 Reopened the ONAGRI indicator sheet, the FAO date-sector study and the field study. Survey denominators explain why shares of all palms and productive palms must be identified separately. The planting protocol and advisory recommendation are distinguished from a statutory quota (SRC-TG-741, SRC-TG-742, SRC-TG-743). The MEDD monograph is indirect wherever relayed by another publication.
+
+**Outstanding verification:** The ONAGRI sheet and FAO planting protocol are reopened. Some cultivar and damage claims rely on an indirectly cited monograph.

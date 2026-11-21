@@ -1,7 +1,7 @@
 ---
 id: FND-TG-450
 title: SONEDE records about two-thirds of production as consumed; ageing pipes and slow renewal threaten network performance
-status: in-review
+status: draft
 sectors:
   - water
 theme: drinking-water
@@ -224,3 +224,5 @@ Break counts compare "casses" (2004, 2013, 2017) with "casses réparées" (2023)
 ## Verification
 
 The 2023 SONEDE statistical summary distinguishes produced, distributed, and billed plus unbilled consumed volumes. The production-to-consumption gap cannot be used as a direct measurement of physical leaks. Primary data do not establish a national breakdown by cause.
+
+**Outstanding verification:** The production-to-consumption arithmetic and official definitions are documented; the national physical/commercial split and attribution to network age remain unverified.

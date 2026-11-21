@@ -1,7 +1,7 @@
 ---
 id: FND-TG-720
 title: Tunisian olive oil production varies sharply between seasons
-status: in-review
+status: draft
 sectors:
   - agriculture
   - water
@@ -256,3 +256,5 @@ Medium. The national production series and computed volatility are supported by 
 ## Verification
 
 The IOC seasonal series establishes output volatility. Rainfed cultivation and alternate bearing are documented features of production, but the sources do not quantify the share of national variation explained by either. No causal attribution coefficient is claimed (SRC-TG-720, SRC-TG-726).
+
+**Outstanding verification:** The national production series is verified. The study evidence does not isolate the separate contributions of rainfall exposure, alternate bearing and management.

@@ -1,7 +1,7 @@
 ---
 id: FND-TG-477
 title: Published data through 2021 show irrigation tariffs below reported costs in Tunisian public schemes
-status: in-review
+status: draft
 sectors:
   - water
   - agriculture
@@ -250,3 +250,5 @@ The pricing facts and the debt mechanism rest on a ministry report (tier A), the
 ## Verification
 
 The price, cost-recovery and group-debt figures are tied to their source years and survey populations. The title and period now refer to the historical evidence through 2021. No later national tariff, debt trajectory or maintenance outcome is inferred.
+
+**Outstanding verification:** The evidence is scoped to historical prices. The underlying tariff instrument and a national cost-recovery denominator have not been independently confirmed.

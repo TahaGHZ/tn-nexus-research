@@ -1,7 +1,7 @@
 ---
 id: FND-TG-475
 title: The 1975 Water Code established centralised water administration and left pricing mechanisms to orders and decrees
-status: in-review
+status: draft
 sectors:
   - water
   - agriculture
@@ -139,3 +139,5 @@ The legal facts rest on tier A texts (code, ARP report). The causal claim that t
 ## Verification
 
 The historical statute and legislative filing are dated separately. The ARP’s filing date takes precedence over press accounts; disputed revision-start dates and the current status of the replacement bill are outside the verified historical claim.
+
+**Outstanding verification:** Historical legal claims are dated. A current authoritative legal-status check for the replacement code remains outstanding.

@@ -1,7 +1,7 @@
 ---
 id: FND-TG-741
 title: Unauthorised private palm extensions in Kebili now outweigh documented public oasis area
-status: in-review
+status: draft
 sectors:
   - agriculture
   - water
@@ -228,3 +228,5 @@ The water-resource consequences belong to the water lane and are only summarised
 ## Verification
 
 The Kébili studies support the extent of private extension and report mechanisms described by farmers and administrators. Interview accounts are identified as such. Administrative approval dates, the timing of enforcement changes and their causal effects are unconfirmed (SRC-TG-740, SRC-TG-747).
+
+**Outstanding verification:** Area estimates and interview provenance are distinguished. The reported chronology of local authorisations and enforcement is not independently corroborated.

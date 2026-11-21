@@ -1,7 +1,7 @@
 ---
 id: FND-TG-191
 title: Renewable generation remains below plan as utility-scale project delivery lags rooftop PV expansion
-status: in-review
+status: draft
 sectors:
   - energy
 theme: renewables
@@ -284,3 +284,5 @@ Confidence is medium. Outcome evidence is mainly tier A ONEM and IRENA reporting
 ## Verification status
 
 Article 7 of Law 2019-47 replaced article 9 on self-production. Article 14 of the original 2016 decree sets domestic authorisation ceilings of 10 MW for photovoltaic and 30 MW for wind projects. Neither provision measures the contribution of permitting to delays. Dated outcomes, accounts of individual project delays and general legal requirements are reported separately (SRC-TG-200, SRC-TG-201, SRC-TG-191).
+
+**Outstanding verification:** The original laws and implementing decree are identified. The relative contribution of financing, procedural and project-specific delays remains unverified.

@@ -1,7 +1,7 @@
 ---
 id: FND-TG-130
 title: Tunisia national primary energy production fell 23% between 2010 and 2015 as the full-balance energy deficit more than doubled
-status: in-review
+status: draft
 sectors:
   - energy
 theme: energy-imports
@@ -232,3 +232,5 @@ not another sector.
 ## Verification
 
 The ONEM production series establishes the dated decline. Article 13 was adopted after the decline began, and the sources cannot apportion it between resource maturity, investment, disruption and regulation. Reported permit disputes provide context only.
+
+**Outstanding verification:** The competing accounts of the 2014 permit decisions have not been checked against the committee record.

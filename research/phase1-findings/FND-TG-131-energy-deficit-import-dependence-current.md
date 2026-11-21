@@ -2,7 +2,7 @@
 id: FND-TG-131
 title: Tunisia covered 35% of primary energy demand in 2025 including transit royalty, with a large energy trade deficit and reliance on Algerian
   gas
-status: in-review
+status: draft
 sectors:
   - energy
 theme: energy-imports
@@ -284,3 +284,5 @@ water pumping and irrigation is covered in FND-TG-101.
 - Electricity imports from Sonelgaz (Algeria) and Gecol (Libya) as a stop-gap (SRC-TG-221).
 - New exploitation concessions granted in 2025: "Aziza" (7 July 2025) and "Sabah" (7 October 2025) (SRC-TG-221).
 - Agreements ending the El Kamour blockades (2017, 2020): seen only as the events marked on the ONEM chart (SRC-TG-132); no agreement text was opened.
+
+**Outstanding verification:** The corrected annual energy balance is documented; the full claim-level recheck of the detailed import and trade series is outstanding.

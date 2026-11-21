@@ -72,7 +72,7 @@ stakeholders:
   - ANME
   - households
   - Ministry of Industry Mines and Energy
-status: in-review
+status: draft
 theme: buildings-cooling
 timeframe: current
 title: Air conditioning was a material reported contributor to Tunisia's summer peak demand in 2021
@@ -139,3 +139,5 @@ cited sources do not quantify the distribution of AC ownership, use, or expendit
 ## Verification
 
 ONEM confirms the 2021 national peak. LBNL attributes the 44% estimate to STEG; the primary calculation was not available. It is an attributed estimate with undisclosed method, distinct from household ownership and annual consumption.
+
+**Outstanding verification:** The 2021 national peak is confirmed. The utility calculation underlying LBNL’s 44% attribution and the survey methodology have not been independently reproduced.

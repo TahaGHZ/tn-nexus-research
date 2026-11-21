@@ -1,7 +1,7 @@
 ---
 id: FND-TG-626
 title: State-supported oasis expansion extended into 2023 as southern aquifer withdrawals grew and natural springs declined
-status: in-review
+status: draft
 sectors:
   - water
   - agriculture
@@ -189,3 +189,5 @@ Medium. The trend data (SASS withdrawals, oasis areas, Rjim Maâtoug piezometry)
 ## Verification
 
 The scope now includes the historical policy and its documented continuation through 2023. The transboundary SASS series and Tunisia-only series retain distinct geographic coverage (SRC-TG-628, SRC-TG-629, SRC-TG-634).
+
+**Outstanding verification:** The timeframe now includes 2023. The causal connection from national policy to local spring decline still needs an independently checked regional water balance.

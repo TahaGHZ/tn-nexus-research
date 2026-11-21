@@ -1,7 +1,7 @@
 ---
 id: FND-TG-221
 title: ONEM reports national network losses rose from 11.4% in 2010 to 21.1% in 2024; theft attribution is unverified
-status: in-review
+status: draft
 sectors:
   - energy
 theme: grid
@@ -218,3 +218,5 @@ agriculture: none found.
 ## Verification
 
 The national loss series is directly observed. ONEM’s attribution of diversion is identified as the agency’s assessment. The studies’ incompatible theft and technical-loss estimates do not yield a measured national theft fraction.
+
+**Outstanding verification:** The aggregate loss series is supported; the technical/commercial breakdowns use different methods and cannot establish a measured theft share.

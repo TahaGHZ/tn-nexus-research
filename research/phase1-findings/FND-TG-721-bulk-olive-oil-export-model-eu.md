@@ -1,7 +1,7 @@
 ---
 id: FND-TG-721
 title: Published trade studies consistently report that most Tunisian olive oil was exported in bulk during their respective observation periods
-status: in-review
+status: draft
 sectors:
   - agriculture
 theme: olives
@@ -211,3 +211,5 @@ None found directly in the opened sources. Indirectly, the export-first model re
 ## Verification
 
 FAO and the French Treasury independently publish dated estimates of bottled or bulk shares. Administrative trade tables underlying the newer summary were not independently reproduced. Export composition is measurable, while the amount of foregone domestic value added cannot be inferred from the bulk share alone (SRC-TG-724, SRC-TG-726).
+
+**Outstanding verification:** The reported figures are attributed and dated. The underlying export series and comparison of bulk and bottled margins have not been independently checked.

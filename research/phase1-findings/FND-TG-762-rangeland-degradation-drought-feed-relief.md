@@ -2,7 +2,7 @@
 id: FND-TG-762
 title: Steppe rangelands are shrinking and degrading (6.1 to 5.5 million ha, 2005-2012), and drought feed relief that keeps flocks on the range
   has probably sped this up, pushing herders onto purchased and imported barley
-status: in-review
+status: draft
 sectors:
   - agriculture
   - water
@@ -201,3 +201,5 @@ Medium. The area loss comes from a DGF and World Bank study cited by two ICARDA 
 ## Verification
 
 The original UNFCCC national communication confirms the 2020 baseline and 2050 range. The ICARDA cost estimates of 224 million and 74 million TND differ in reported scope or periodicity, which the sources do not settle. Neither is presented as the single national degradation cost or confused with the historical emergency relief expenditure.
+
+**Outstanding verification:** The 16% baseline and 8–10% projection are confirmed in the climate communication. The two published damage-cost estimates remain unreconciled.
