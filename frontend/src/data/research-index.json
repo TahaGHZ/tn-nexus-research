@@ -1,56 +1,56 @@
 {
-  "generatedAt": "2026-11-21T18:56:19.189Z",
+  "generatedAt": "2026-11-21T19:06:50.223Z",
   "stats": {
     "totalFindingsInRepo": 78,
-    "verifiedFindings": 56,
-    "inReviewFindings": 56,
+    "verifiedFindings": 65,
+    "inReviewFindings": 65,
     "peerValidatedFindings": 0,
-    "draftFindings": 22,
-    "totalSources": 330,
+    "draftFindings": 13,
+    "totalSources": 331,
     "sourceTiers": {
       "A": 133,
       "B": 123,
-      "C": 74
+      "C": 75
     },
     "sectorCounts": {
       "water": 18,
-      "energy": 12,
-      "agriculture": 26
+      "energy": 20,
+      "agriculture": 27
     },
     "timeframeCounts": {
-      "past": 8,
-      "current": 35,
-      "predicted": 13
+      "past": 9,
+      "current": 41,
+      "predicted": 14
     },
-    "themeCount": 24,
+    "themeCount": 25,
     "trustCounts": {
-      "strong": 17,
-      "solid": 22,
-      "mixed": 4,
-      "weak": 13
+      "strong": 19,
+      "solid": 26,
+      "mixed": 6,
+      "weak": 14
     },
     "confidenceCounts": {
-      "high": 6,
-      "medium": 40,
-      "low": 10
+      "high": 8,
+      "medium": 46,
+      "low": 11
     },
     "severityCounts": {
-      "critical": 3,
-      "high": 36,
-      "medium": 17,
+      "critical": 4,
+      "high": 43,
+      "medium": 18,
       "low": 0
     },
     "trendCounts": {
-      "worsening": 23,
-      "stable": 6,
-      "improving": 0,
-      "unknown": 27
+      "worsening": 25,
+      "stable": 9,
+      "improving": 1,
+      "unknown": 30
     },
-    "totalIndicators": 670,
-    "totalDataGaps": 344,
-    "projectionCount": 15,
+    "totalIndicators": 814,
+    "totalDataGaps": 445,
+    "projectionCount": 16,
     "nexusCount": 34,
-    "citedSources": 240
+    "citedSources": 277
   },
   "phases": [
     {
@@ -70,6 +70,7 @@
     }
   ],
   "themes": [
+    "buildings-cooling",
     "cereals",
     "crop-choices",
     "drinking-water",
@@ -99,7 +100,7 @@
     {
       "id": "FND-TG-100",
       "slug": "FND-TG-100-power-system-locked-into-gas-1990s-2000s",
-      "title": "Tunisia locked its power system into gas in the 1990s and 2000s, when Algerian transit royalty gas and new domestic fields made gas look secure",
+      "title": "Tunisia locked its power system into gas in the 1990s and 2000s, when Algerian transit royalty gas and new domestic fields gave it a gas supply base",
       "status": "in-review",
       "sectors": [
         "energy"
@@ -115,7 +116,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "From the early 1990s, Tunisia built almost all of its electricity generation on one fuel, natural gas. In 1992-1993 oil and gas still shared generation: gas supplied 53.6% and 50.2%, and oil 45.4% and 48.8%. Gas reached…",
-      "readTimeMinutes": 5,
+      "readTimeMinutes": 6,
       "indicatorCount": 10,
       "sourceCount": 10,
       "citedSourceCount": 10,
@@ -129,9 +130,9 @@
         "10 cited sources: 3 tier A, 4 tier B, 3 tier C",
         "Record declares medium confidence",
         "70% of sources are tier A or B",
-        "8 open data gaps are listed in the record"
+        "9 open data gaps are listed in the record"
       ],
-      "dataGapCount": 8,
+      "dataGapCount": 9,
       "topIndicator": {
         "name": "Share of natural gas in electricity production",
         "value": "53.6",
@@ -178,8 +179,8 @@
       "severity": "high",
       "trend": "stable",
       "confidence": "high",
-      "excerpt": "Tunisia generates over 90% of its electricity from natural gas. The share was 91.3% for January-September 2026, counting renewable self-production. It was 93.9% in 2024 and 95% of generation input in 2023. In full-year…",
-      "readTimeMinutes": 5,
+      "excerpt": "Tunisia generates over 90% of its electricity from natural gas. The share was 91.3% for January-September 2026, counting renewable self-production. It was 93.9% in 2024 and 95% of electricity produced in 2023. In…",
+      "readTimeMinutes": 7,
       "indicatorCount": 15,
       "sourceCount": 8,
       "citedSourceCount": 8,
@@ -243,7 +244,7 @@
       "trend": "unknown",
       "confidence": "low",
       "excerpt": "The official outlook to 2035 does not show Tunisia leaving gas behind. In the ministry's business-as-usual scenario, natural gas rises from 56% of primary energy in 2021 to 59% in 2035, and the energy deficit could…",
-      "readTimeMinutes": 3,
+      "readTimeMinutes": 4,
       "indicatorCount": 11,
       "sourceCount": 5,
       "citedSourceCount": 5,
@@ -283,6 +284,133 @@
         "url": "https://images.pexels.com/photos/15345341/pexels-photo-15345341.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "alt": "Thermal power station and high-voltage transmission lines",
         "credit": "Shuaizhi Tian / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-130",
+      "slug": "FND-TG-130-hydrocarbon-output-collapse-2010-2015",
+      "title": "Tunisia national primary energy production fell 23% between 2010 and 2015 as the full-balance energy deficit more than doubled",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "energy-imports",
+      "timeframe": "past",
+      "period": "2010-2015",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Tunisia moved from an energy surplus to a deficit around 2000-2001. Official charts show the primary balance at \"Equilibre\" in 2000 and in deficit from 2001. By 2010 Tunisia was already a net energy importer. From 2010…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 10,
+      "sourceCount": 10,
+      "citedSourceCount": 10,
+      "tierMix": {
+        "A": 6,
+        "B": 1,
+        "C": 3
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "10 cited sources: 6 tier A, 1 tier B, 3 tier C",
+        "Record declares medium confidence",
+        "70% of sources are tier A or B",
+        "9 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 9,
+      "topIndicator": {
+        "name": "National primary energy production (full national energy balance)",
+        "value": "8293",
+        "unit": "ktep",
+        "year": "2010",
+        "geography": "national",
+        "source": "SRC-TG-130"
+      },
+      "stakeholders": [
+        "Ministry of Industry Mines and Energy",
+        "ETAP",
+        "international oil companies",
+        "Assembly of the Representatives of the People (energy committee)",
+        "communities in producing regions",
+        "STEG"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/38835689/pexels-photo-38835689.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Natural gas production and flare infrastructure",
+        "credit": "Phil Evenden / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-131",
+      "slug": "FND-TG-131-energy-deficit-import-dependence-current",
+      "title": "Tunisia covered 35% of primary energy demand in 2025 including transit royalty, with a large energy trade deficit and reliance on Algerian gas",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "energy-imports",
+      "timeframe": "current",
+      "period": "2015-2026",
+      "geography": [
+        "national"
+      ],
+      "severity": "critical",
+      "trend": "unknown",
+      "confidence": "high",
+      "excerpt": "In 2025 Tunisia's own primary energy resources covered 35% of its primary demand, counting the Algerian gas transit royalty as a national resource. Without the royalty, coverage was 27%. In 2024 the figures were 41% and…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 20,
+      "sourceCount": 8,
+      "citedSourceCount": 8,
+      "tierMix": {
+        "A": 7,
+        "B": 0,
+        "C": 1
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "8 cited sources: 7 tier A, 0 tier B, 1 tier C",
+        "Record declares high confidence",
+        "88% of sources are official statistics or peer-reviewed",
+        "9 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 9,
+      "topIndicator": {
+        "name": "Energy independence rate (primary resources / primary demand), royalty counted as national resource",
+        "value": "35",
+        "unit": "%",
+        "year": "2025",
+        "geography": "national",
+        "source": "SRC-TG-221"
+      },
+      "stakeholders": [
+        "Ministry of Industry Mines and Energy",
+        "ONEM",
+        "ETAP",
+        "STEG",
+        "STIR",
+        "Sonatrach",
+        "Sonelgaz",
+        "Central Bank of Tunisia (foreign exchange)",
+        "Ministry of Finance",
+        "communities in producing regions",
+        "energy consumers"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/38835689/pexels-photo-38835689.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Natural gas production and flare infrastructure",
+        "credit": "Phil Evenden / Pexels"
       },
       "author": "TahaGHZ"
     },
@@ -366,7 +494,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "The World Bank's April 2025 appraisal of Tunisia's 2025-2028 TEREG programme models STEG's net result before subsidy and corporate tax under two scenarios. Without TEREG, it forecasts a result of TND -3,720m in 2026 and…",
-      "readTimeMinutes": 4,
+      "readTimeMinutes": 5,
       "indicatorCount": 25,
       "sourceCount": 6,
       "citedSourceCount": 6,
@@ -428,20 +556,20 @@
       "trend": "worsening",
       "confidence": "medium",
       "excerpt": "Tunisia's current wind-generation fleet was developed by STEG in two main build-outs: Sidi Daoud began operating in 2001 and reached 55 MW in 2008; Metline and Kchabta in Bizerte entered in 2012 with 190 MW combined…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 9,
-      "sourceCount": 8,
-      "citedSourceCount": 8,
+      "sourceCount": 9,
+      "citedSourceCount": 9,
       "tierMix": {
-        "A": 4,
+        "A": 5,
         "B": 2,
         "C": 2
       },
       "trust": "solid",
       "trustReasons": [
-        "8 cited sources: 4 tier A, 2 tier B, 2 tier C",
+        "9 cited sources: 5 tier A, 2 tier B, 2 tier C",
         "Record declares medium confidence",
-        "75% of sources are tier A or B",
+        "78% of sources are tier A or B",
         "6 open data gaps are listed in the record"
       ],
       "dataGapCount": 6,
@@ -473,6 +601,77 @@
       "author": "TahaGHZ"
     },
     {
+      "id": "FND-TG-191",
+      "slug": "FND-TG-191-renewables-framework-slow-utility-scale-behind-plan",
+      "title": "Renewable generation remains below plan as utility-scale project delivery lags rooftop PV expansion",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "renewables",
+      "timeframe": "current",
+      "period": "2015-2026",
+      "geography": [
+        "national",
+        "kairouan",
+        "sidi bouzid",
+        "tozeur",
+        "gafsa",
+        "tataouine"
+      ],
+      "severity": "high",
+      "trend": "improving",
+      "confidence": "medium",
+      "excerpt": "The 2015 Tunisian Solar Plan set a 14% renewable share of electricity generation for 2020 and 30% for 2030. ONEM reported 2.6% in 2020 excluding self-producers. Later ONEM series include self-produced PV: 5.2% in 2024…",
+      "readTimeMinutes": 11,
+      "indicatorCount": 20,
+      "sourceCount": 15,
+      "citedSourceCount": 15,
+      "tierMix": {
+        "A": 10,
+        "B": 4,
+        "C": 1
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "15 cited sources: 10 tier A, 4 tier B, 1 tier C",
+        "Record declares medium confidence",
+        "67% of sources are official statistics or peer-reviewed",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
+      "topIndicator": {
+        "name": "Renewable share of electricity generation, 2015 Solar Plan interim target",
+        "value": "14",
+        "unit": "percent",
+        "year": "2020",
+        "geography": "national",
+        "source": "SRC-TG-192"
+      },
+      "stakeholders": [
+        "STEG",
+        "Ministry of Industry",
+        "Mines and Energy",
+        "ANME",
+        "Assembly of the Representatives of the People",
+        "Ministry of Agriculture",
+        "Ministry of National Defence",
+        "private IPP developers",
+        "households with rooftop PV",
+        "installer firms",
+        "World Bank"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/35741218/pexels-photo-35741218.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Wind turbines and solar panels on Mediterranean hillside",
+        "credit": "Reinhard Bruckner / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
       "id": "FND-TG-192",
       "slug": "FND-TG-192-gap-to-2030-renewable-target",
       "title": "Tunisia's 2030 renewable-capacity targets are 3.5× and 4.4× IRENA's end-2024 baseline; delivery remains uncertain",
@@ -491,7 +690,7 @@
       "trend": "unknown",
       "confidence": "low",
       "excerpt": "Tunisia's 2030 renewable target is large compared with what is built. The 2015 Solar Plan set 3,815 MW, about 30% of generation and about 35% of installed capacity for 2030. The World Bank cites the updated strategy as…",
-      "readTimeMinutes": 5,
+      "readTimeMinutes": 7,
       "indicatorCount": 11,
       "sourceCount": 12,
       "citedSourceCount": 12,
@@ -524,6 +723,252 @@
         "private IPP developers",
         "World Bank and other lenders",
         "electricity consumers"
+      ],
+      "hasProjection": true,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/37684096/pexels-photo-37684096.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Solar power station in North African desert landscape",
+        "credit": "pierre matile / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-220",
+      "slug": "FND-TG-220-summer-peak-outgrows-generation-load-shedding",
+      "title": "Tunisia's summer electricity peak reached a record 5,089 MW by September 2026 while modelled summer 2026 margins are tight; imports and demand measures are reported, not shown to be effective",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "grid",
+      "timeframe": "current",
+      "period": "2014-2026",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Tunisia's electricity demand peaks in summer, and official annual peak records show a longer-run rise: ONEM's chart labels 3,465 MW in 2014, while its September 2026 bulletin reports a January-September record of 5,089…",
+      "readTimeMinutes": 8,
+      "indicatorCount": 22,
+      "sourceCount": 13,
+      "citedSourceCount": 13,
+      "tierMix": {
+        "A": 4,
+        "B": 4,
+        "C": 5
+      },
+      "trust": "mixed",
+      "trustReasons": [
+        "13 cited sources: 4 tier A, 4 tier B, 5 tier C",
+        "Record declares medium confidence",
+        "38% of sources are press or secondary material",
+        "12 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 12,
+      "topIndicator": {
+        "name": "Annual peak electricity demand, observed through September (new national record)",
+        "value": "5089",
+        "unit": "MW",
+        "year": "2026",
+        "geography": "national",
+        "source": "SRC-TG-100"
+      },
+      "stakeholders": [
+        "STEG",
+        "Ministry of Industry, Mines and Energy",
+        "households",
+        "industry and SMEs",
+        "Fédération générale de l'électricité et du gaz",
+        "World Bank",
+        "Sonelgaz",
+        "GECOL",
+        "Med-TSO"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/16928001/pexels-photo-16928001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "High-voltage electricity transmission tower",
+        "credit": "Necip Duman / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-221",
+      "slug": "FND-TG-221-network-losses-rising-since-2010",
+      "title": "ONEM reports national network losses rose from 11.4% in 2010 to 21.1% in 2024; theft attribution is unverified",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "grid",
+      "timeframe": "current",
+      "period": "2010-2024",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "stable",
+      "confidence": "medium",
+      "excerpt": "ONEM’s national gross-production series reports that combined technical and commercial electricity network losses rose from 11.4% in 2010 to 21.1% in 2024, with a peak of 21.7% in 2022. This measures total network…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 16,
+      "sourceCount": 7,
+      "citedSourceCount": 7,
+      "tierMix": {
+        "A": 2,
+        "B": 2,
+        "C": 3
+      },
+      "trust": "mixed",
+      "trustReasons": [
+        "7 cited sources: 2 tier A, 2 tier B, 3 tier C",
+        "Record declares medium confidence",
+        "43% of sources are press or secondary material",
+        "5 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 5,
+      "topIndicator": {
+        "name": "Total network loss rate (technical + commercial), share of gross production",
+        "value": "11.4",
+        "unit": "percent",
+        "year": "2010",
+        "geography": "national",
+        "source": "SRC-TG-222"
+      },
+      "stakeholders": [
+        "STEG",
+        "Ministry of Industry, Mines and Energy",
+        "paying customers",
+        "State budget",
+        "World Bank"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/32502650/pexels-photo-32502650.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Water pumping and energy utility infrastructure",
+        "credit": "adib aqil / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-222",
+      "slug": "FND-TG-222-peak-adequacy-to-2030-depends-on-build-out-and-elmed",
+      "title": "Med-TSO projects rising summer peaks and 2027 adequacy risk; its lower 2030 risk depends on assumed capacity build-out, while the 2026 summer outlook reports separate seasonal stress",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "grid",
+      "timeframe": "predicted",
+      "period": "horizon 2030 (ELMED flows to 2040)",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "low",
+      "excerpt": "Projections show the summer peak continuing to grow. Med-TSO's mid-term adequacy study puts Tunisia's highest hourly peak, across 36 simulated climate years, at 6,796 MW in 2027 and 7,678 MW in 2030, up 882 MW (about…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 15,
+      "sourceCount": 7,
+      "citedSourceCount": 7,
+      "tierMix": {
+        "A": 1,
+        "B": 6,
+        "C": 0
+      },
+      "trust": "weak",
+      "trustReasons": [
+        "7 cited sources: 1 tier A, 6 tier B, 0 tier C",
+        "Record declares low confidence",
+        "Author flagged low confidence",
+        "7 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 7,
+      "topIndicator": {
+        "name": "Projected maximum peak demand (highest hour across 36 climate years, Med-TSO mid-term)",
+        "value": "6796",
+        "unit": "MW",
+        "year": "2027",
+        "geography": "national",
+        "source": "SRC-TG-226"
+      },
+      "stakeholders": [
+        "STEG",
+        "Terna",
+        "Ministry of Industry, Mines and Energy",
+        "Med-TSO",
+        "World Bank",
+        "Sonelgaz",
+        "GECOL",
+        "households and industry"
+      ],
+      "hasProjection": true,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/16928001/pexels-photo-16928001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "High-voltage electricity transmission tower",
+        "credit": "Necip Duman / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-251",
+      "slug": "FND-TG-251-projected-ac-demand-rises-to-2040",
+      "title": "LBNL projects rising AC electricity use through 2040; climate increment unquantified",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "buildings-cooling",
+      "timeframe": "predicted",
+      "period": "forecast to 2040; climate projection to 2050",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Lawrence Berkeley National Laboratory's 2023 cost-benefit analysis presents a national business-as-usual (BAU) forecast of air-conditioning electricity consumption through 2040. The approximate chart readings are about…",
+      "readTimeMinutes": 4,
+      "indicatorCount": 5,
+      "sourceCount": 3,
+      "citedSourceCount": 3,
+      "tierMix": {
+        "A": 1,
+        "B": 2,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "3 cited sources: 1 tier A, 2 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "3 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 3,
+      "topIndicator": {
+        "name": "BAU AC electricity consumption, approximate chart reading",
+        "value": "3000",
+        "unit": "GWh/year",
+        "year": "2030",
+        "geography": "national",
+        "source": "SRC-TG-251"
+      },
+      "stakeholders": [
+        "STEG",
+        "ANME",
+        "households",
+        "Ministry of Industry Mines and Energy"
       ],
       "hasProjection": true,
       "isCrossSector": false,
@@ -597,7 +1042,7 @@
     {
       "id": "FND-TG-271",
       "slug": "FND-TG-271-desalination-expansion-energy-demand-risk",
-      "title": "Tunisia’s 2030 desalination scenario implies material electricity demand; its scale depends on the intensity assumed",
+      "title": "Tunisia’s 2030 seawater desalination scenario, at an assumed 2.4 kWh/m³, illustrates about 460 GWh/year of electricity; the source gives no electricity figure",
       "status": "in-review",
       "sectors": [
         "energy",
@@ -614,7 +1059,7 @@
       "trend": "worsening",
       "confidence": "medium",
       "excerpt": "The Ministry's Eau 2050 synthesis gives a national seawater-desalination scenario of 192 million m³/year in 2030, 265 million m³/year in 2035, and 265 million m³/year in both 2040 and 2050. These are scenario…",
-      "readTimeMinutes": 3,
+      "readTimeMinutes": 4,
       "indicatorCount": 5,
       "sourceCount": 7,
       "citedSourceCount": 7,
@@ -655,6 +1100,65 @@
       "author": "TahaGHZ"
     },
     {
+      "id": "FND-TG-290",
+      "slug": "FND-TG-290-industrial-energy-use-and-petcoke",
+      "title": "Tunisia's ministry reported fewer industrial energy audits in 2018 than in 2011; the counts do not measure compliance",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "industrial-efficiency",
+      "timeframe": "current",
+      "period": "2010-2024 (audit counts 2010-2019; energy balance 2023-2024)",
+      "geography": [
+        "national"
+      ],
+      "severity": "medium",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Tunisia's 2024 national energy balance records 1,914 ktep of industrial final energy consumption, 25% of national final demand when biomass is included. In the same balance, industry used 473 ktep of petcoke in 2024…",
+      "readTimeMinutes": 4,
+      "indicatorCount": 9,
+      "sourceCount": 3,
+      "citedSourceCount": 3,
+      "tierMix": {
+        "A": 2,
+        "B": 1,
+        "C": 0
+      },
+      "trust": "solid",
+      "trustReasons": [
+        "3 cited sources: 2 tier A, 1 tier B, 0 tier C",
+        "Record declares medium confidence",
+        "100% of sources are tier A or B",
+        "4 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 4,
+      "topIndicator": {
+        "name": "Industrial final energy consumption (including biomass)",
+        "value": "1914",
+        "unit": "ktep",
+        "year": "2024",
+        "geography": "national",
+        "source": "SRC-TG-222"
+      },
+      "stakeholders": [
+        "cement producers",
+        "other non-metallic minerals producers",
+        "Ministry of Industry Mines and Energy",
+        "ANME"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/13990607/pexels-photo-13990607.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Heavy industrial plant and emissions stacks",
+        "credit": "Daniel Trylski / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
       "id": "FND-TG-291",
       "slug": "FND-TG-291-cement-cbam-exposure-estimate",
       "title": "World Bank model places Tunisia third among selected cement exporters for CBAM trade exposure",
@@ -687,9 +1191,9 @@
         "4 cited sources: 2 tier A, 2 tier B, 0 tier C",
         "Record declares medium confidence",
         "50% of sources are official statistics or peer-reviewed",
-        "2 open data gaps are listed in the record"
+        "3 open data gaps are listed in the record"
       ],
-      "dataGapCount": 2,
+      "dataGapCount": 3,
       "topIndicator": {
         "name": "Tunisia position among ten countries shown in World Bank cement Trade Exposure Index chart",
         "value": "3",
@@ -729,10 +1233,10 @@
         "national"
       ],
       "severity": "high",
-      "trend": "worsening",
+      "trend": "unknown",
       "confidence": "high",
       "excerpt": "ONEM's 2024 national energy balance records 2,721 ktep of final energy consumption by transport, the largest sector. The report narrative gives its share as 35%; Table 6 reports 35% with biomass included and 37% without…",
-      "readTimeMinutes": 2,
+      "readTimeMinutes": 3,
       "indicatorCount": 6,
       "sourceCount": 5,
       "citedSourceCount": 5,
@@ -746,9 +1250,9 @@
         "5 cited sources: 2 tier A, 3 tier B, 0 tier C",
         "Record declares high confidence",
         "40% of sources are official statistics or peer-reviewed",
-        "3 open data gaps are listed in the record"
+        "4 open data gaps are listed in the record"
       ],
-      "dataGapCount": 3,
+      "dataGapCount": 4,
       "topIndicator": {
         "name": "Transport final energy consumption",
         "value": "2721",
@@ -792,7 +1296,7 @@
       "trend": "unknown",
       "confidence": "low",
       "excerpt": "Tunisia's official energy accounts omit quantities of fuel supplied through the parallel market, leaving a material measurement gap in transport-fuel consumption. ONEM's retrospective national balance for 2010-2019 says…",
-      "readTimeMinutes": 3,
+      "readTimeMinutes": 4,
       "indicatorCount": 2,
       "sourceCount": 2,
       "citedSourceCount": 2,
@@ -855,14 +1359,15 @@
         "kairouan",
         "sidi-bouzid",
         "kasserine",
-        "nabeul"
+        "nabeul",
+        "kebili"
       ],
       "severity": "high",
       "trend": "worsening",
       "confidence": "medium",
       "excerpt": "Tunisia's deep aquifers were drawn at 133% of their estimated resource in 2016 (1,895 Mm3 against 1,422 Mm3) and at 134% in 2020. The national figure hides a sharp regional pattern. Withdrawals from the deep aquifers of…",
       "readTimeMinutes": 7,
-      "indicatorCount": 22,
+      "indicatorCount": 24,
       "sourceCount": 7,
       "citedSourceCount": 7,
       "tierMix": {
@@ -930,7 +1435,7 @@
       "trend": "worsening",
       "confidence": "medium",
       "excerpt": "Tunisia's shallow aquifers (nappes phréatiques) have been drawn beyond their renewable resource for about thirty years. Nationally the exploitation rate went from 85% in 1985 to above 100% by 1995. It then stayed…",
-      "readTimeMinutes": 5,
+      "readTimeMinutes": 6,
       "indicatorCount": 13,
       "sourceCount": 8,
       "citedSourceCount": 8,
@@ -974,7 +1479,7 @@
     {
       "id": "FND-TG-410",
       "slug": "FND-TG-410-groundwater-overdraft-projected-to-persist-to-2040",
-      "title": "Even the national water strategy's own target scenario keeps aquifers overdrawn until the 2040s, and earlier projections of the groundwater resource have already proved unreliable",
+      "title": "Even the national water strategy's own target scenario keeps aquifers overdrawn until the 2040s, and an earlier projection of the groundwater resource fell below later resource estimates",
       "status": "in-review",
       "sectors": [
         "water",
@@ -991,7 +1496,7 @@
       "trend": "unknown",
       "confidence": "low",
       "excerpt": "The 2050 national water strategy (EAU 2050) starts from an aquifer exploitation rate of 139% in 2020: 865 Mm3 a year drawn beyond 2,190 Mm3 of renewable groundwater. Its target scenario lowers the rate to 115% in 2030…",
-      "readTimeMinutes": 4,
+      "readTimeMinutes": 5,
       "indicatorCount": 7,
       "sourceCount": 7,
       "citedSourceCount": 7,
@@ -1056,7 +1561,7 @@
       "trend": "unknown",
       "confidence": "high",
       "excerpt": "Tunisia's surface storage sits mainly in 37 large dams at end-2017. About 90% of their mean annual inflow (1,613 of 1,802 Mm3) comes from the northern dams. Over the ten hydrological years 2015/16 to 2024/25, inflows…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 17,
       "sourceCount": 15,
       "citedSourceCount": 15,
@@ -1070,9 +1575,9 @@
         "15 cited sources: 12 tier A, 1 tier B, 2 tier C",
         "Record declares high confidence",
         "80% of sources are official statistics or peer-reviewed",
-        "6 open data gaps are listed in the record"
+        "7 open data gaps are listed in the record"
       ],
-      "dataGapCount": 6,
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "Total stock in large dams on 1 September (end of hydrological year)",
         "value": "1184.43",
@@ -1136,9 +1641,9 @@
         "5 cited sources: 2 tier A, 3 tier B, 0 tier C",
         "Record declares medium confidence",
         "40% of sources are official statistics or peer-reviewed",
-        "5 open data gaps are listed in the record"
+        "6 open data gaps are listed in the record"
       ],
-      "dataGapCount": 5,
+      "dataGapCount": 6,
       "topIndicator": {
         "name": "Share of water investment spent on reservoir dams and transfer mains",
         "value": "19",
@@ -1166,71 +1671,67 @@
       "author": "TahaGHZ"
     },
     {
-      "id": "FND-TG-427",
-      "slug": "FND-TG-427-dam-siltation-storage-loss-projections",
-      "title": "Silt already fills about a quarter of Tunisia's large-dam capacity (81% at Mellègue), and without sediment countermeasures Sidi Salem is projected to lose 42% of its usable water-use volume within 30 years. Official estimates of the loss disagree.",
+      "id": "FND-TG-450",
+      "slug": "FND-TG-450-sonede-network-losses-ageing-pipes",
+      "title": "SONEDE records about two-thirds of production as consumed; ageing pipes and slow renewal threaten network performance",
       "status": "in-review",
       "sectors": [
-        "water",
-        "agriculture",
-        "energy"
+        "water"
       ],
       "mainSector": "water",
-      "theme": "surface-water",
-      "timeframe": "predicted",
-      "period": "dams commissioned 1954-2020; measured to 2014-2021 surveys; horizons 2030, 2050 and +10/+30/+100 years",
+      "theme": "drinking-water",
+      "timeframe": "current",
+      "period": "2004-2023",
       "geography": [
         "national",
-        "north-west",
-        "kef",
-        "beja",
-        "siliana",
-        "kairouan"
+        "gabes",
+        "tataouine",
+        "medenine",
+        "gafsa"
       ],
       "severity": "high",
-      "trend": "worsening",
-      "confidence": "medium",
-      "excerpt": "Tunisia's large dams lose storage to silt every year. The 2021 DGBGTH bulletin records 674.89 Mm3 of measured silt against 2,988.11 Mm3 of initial capacity, about 22.6%. The 2017 national report puts the loss at 25% for…",
-      "readTimeMinutes": 8,
-      "indicatorCount": 12,
-      "sourceCount": 13,
-      "citedSourceCount": 13,
+      "trend": "stable",
+      "confidence": "high",
+      "excerpt": "In 2023 SONEDE reported 773.3 Mm3 produced, 667.9 Mm3 distributed and 516.0 Mm3 consumed. The arithmetic difference between production and recorded consumption is 257.3 Mm3, or 33.3% of produced volume; it is a…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 16,
+      "sourceCount": 6,
+      "citedSourceCount": 6,
       "tierMix": {
-        "A": 10,
+        "A": 2,
         "B": 3,
-        "C": 0
+        "C": 1
       },
-      "trust": "strong",
+      "trust": "solid",
       "trustReasons": [
-        "13 cited sources: 10 tier A, 3 tier B, 0 tier C",
-        "Record declares medium confidence",
-        "77% of sources are official statistics or peer-reviewed",
+        "6 cited sources: 2 tier A, 3 tier B, 1 tier C",
+        "Record declares high confidence",
+        "83% of sources are tier A or B",
         "6 open data gaps are listed in the record"
       ],
       "dataGapCount": 6,
       "topIndicator": {
-        "name": "Capacity loss of 30 monitored dams (useful 2,078 vs initial 2,787)",
-        "value": "25",
-        "unit": "%",
-        "year": "2017",
+        "name": "Volume produced by SONEDE",
+        "value": "773.3",
+        "unit": "Mm3",
+        "year": "2023",
         "geography": "national",
-        "source": "SRC-TG-402"
+        "source": "SRC-TG-453"
       },
       "stakeholders": [
-        "DGBGTH",
-        "DGACTA/DGCES (soil and water conservation)",
-        "SECADENORD",
         "SONEDE",
-        "irrigators of the Medjerda valley",
-        "downstream flood-exposed communities of the lower Medjerda",
-        "JICA and KfW as financiers"
+        "Ministry of Agriculture Water Resources and Fisheries (MARHP)",
+        "urban and rural subscribers",
+        "STEG (pumping electricity)",
+        "donors financing network rehabilitation (KfW",
+        "EBRD)"
       ],
-      "hasProjection": true,
-      "isCrossSector": true,
+      "hasProjection": false,
+      "isCrossSector": false,
       "image": {
-        "url": "https://images.pexels.com/photos/13760476/pexels-photo-13760476.jpeg?auto=compress&cs=tinysrgb&w=1200",
-        "alt": "Dam infrastructure bordering agricultural land",
-        "credit": "Quang Nguyen Vinh / Pexels"
+        "url": "https://images.pexels.com/photos/32502650/pexels-photo-32502650.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Water distribution pipes and utility valves",
+        "credit": "adib aqil / Pexels"
       },
       "author": "TahaGHZ"
     },
@@ -1264,7 +1765,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "In 2009 the World Bank described SONEDE supply as running \"24 heures sur 24\", with cuts \"très rares\" and made only for operations. By 2016-2017, summer disruptions were routine: 224 SONEDE localities in summer 2016 and…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 8,
       "sourceCount": 11,
       "citedSourceCount": 11,
@@ -1278,9 +1779,9 @@
         "11 cited sources: 2 tier A, 3 tier B, 6 tier C",
         "Record declares medium confidence",
         "Half or more of the sources are press or secondary material",
-        "7 open data gaps are listed in the record"
+        "9 open data gaps are listed in the record"
       ],
-      "dataGapCount": 7,
+      "dataGapCount": 9,
       "topIndicator": {
         "name": "SONEDE systems with summer supply disruptions",
         "value": "224",
@@ -1331,8 +1832,8 @@
       "severity": "high",
       "trend": "stable",
       "confidence": "high",
-      "excerpt": "Tunisia raised rural drinking-water coverage from 25% in 1984 to 80% in 2000; the World Bank report records an average rural service rate of 90% in 2006, with at least 80% in each governorate. It did so largely by…",
-      "readTimeMinutes": 6,
+      "excerpt": "Tunisia raised rural drinking-water coverage from 25% in 1984 to 80% in 2000; AFD cites a 90% average rural rate in 2006 with at least 80% in each governorate, and the World Bank 2009 report gives 91% rural coverage in…",
+      "readTimeMinutes": 7,
       "indicatorCount": 18,
       "sourceCount": 9,
       "citedSourceCount": 9,
@@ -1346,9 +1847,9 @@
         "9 cited sources: 2 tier A, 5 tier B, 2 tier C",
         "Record declares high confidence",
         "78% of sources are tier A or B",
-        "6 open data gaps are listed in the record"
+        "9 open data gaps are listed in the record"
       ],
-      "dataGapCount": 6,
+      "dataGapCount": 9,
       "topIndicator": {
         "name": "Rural drinking-water coverage",
         "value": "25",
@@ -1409,9 +1910,9 @@
         "6 cited sources: 2 tier A, 3 tier B, 1 tier C",
         "Record declares medium confidence",
         "83% of sources are tier A or B",
-        "7 open data gaps are listed in the record"
+        "9 open data gaps are listed in the record"
       ],
-      "dataGapCount": 7,
+      "dataGapCount": 9,
       "topIndicator": {
         "name": "SONEDE operating ratio (operating revenues / operating costs incl. depreciation)",
         "value": "1.07",
@@ -1461,7 +1962,7 @@
       "trend": "worsening",
       "confidence": "medium",
       "excerpt": "Tunisia's renewable water resources are projected to shrink by 2050 as rainfall falls and evapotranspiration rises. National estimates for 2050 range from about -20% to -41% of surface water, and sources disagree on…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 14,
       "sourceCount": 8,
       "citedSourceCount": 8,
@@ -1507,7 +2008,7 @@
     {
       "id": "FND-TG-501",
       "slug": "FND-TG-501-projected-water-supply-demand-gap-2030-2050",
-      "title": "Without action, Tunisia's water balance is projected to turn negative by 2030-2050, leaving about 28% of demand unmet by 2050 under RCP8.5",
+      "title": "Without action, Tunisia's water balance is projected to turn negative by 2050 under RCP8.5, leaving about 28% of demand unmet; Eau 2050 flags a certain risk of a water crash from 2030 without figures",
       "status": "in-review",
       "sectors": [
         "water",
@@ -1525,7 +2026,7 @@
       "trend": "worsening",
       "confidence": "medium",
       "excerpt": "Tunisia already meets its water demand partly by mining groundwater. In 2018, blue-water demand was about 3.1 billion m3, met with groundwater exploitation above 123% of resources. The Eau 2050 table puts the aquifer…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 15,
       "sourceCount": 7,
       "citedSourceCount": 7,
@@ -1570,7 +2071,7 @@
     {
       "id": "FND-TG-502",
       "slug": "FND-TG-502-sea-level-rise-coastal-aquifer-salinisation-2050",
-      "title": "Sea-level rise will aggravate seawater intrusion that pumping already causes in Tunisia's coastal aquifers; official 2050 loss estimates (50% vs 75%) differ and lack a published method",
+      "title": "Sea-level rise will aggravate seawater intrusion that pumping already causes in Tunisia's coastal aquifers; official 2050 loss estimates (50% vs 75%) differ and the cited passages give no method",
       "status": "in-review",
       "sectors": [
         "water",
@@ -1589,8 +2090,8 @@
       "severity": "high",
       "trend": "worsening",
       "confidence": "medium",
-      "excerpt": "Coastal shallow aquifers supply much of the eastern littoral. In parts of them, seawater intrusion is supported by field evidence and attributed to uncontrolled pumping. In Korba, piezometric levels were about 12 m…",
-      "readTimeMinutes": 4,
+      "excerpt": "Coastal shallow aquifers supply much of the eastern littoral. In parts of them, seawater intrusion is supported by field evidence and attributed to uncontrolled pumping. In Korba, negative piezometric levels of about 12…",
+      "readTimeMinutes": 5,
       "indicatorCount": 8,
       "sourceCount": 5,
       "citedSourceCount": 5,
@@ -1610,7 +2111,7 @@
       "topIndicator": {
         "name": "Piezometric level in Korba coastal aquifer depressions",
         "value": "about -12",
-        "unit": "m relative to sea level",
+        "unit": "m (negative piezometric level, June 2006 map, Fig. 3; datum not stated)",
         "year": "2006",
         "geography": "nabeul",
         "source": "SRC-TG-511"
@@ -1655,7 +2156,7 @@
       "confidence": "medium",
       "excerpt": "Since 1995, Tunisia's PNEEI has supported on-farm water-saving equipment. The reported equipped share rose from 37% in 1995 to 75% in 2005 and 94.5% in 2021, then reached 96.9% (428,500 of 442,500 ha) in 2024. Drip…",
       "readTimeMinutes": 6,
-      "indicatorCount": 16,
+      "indicatorCount": 17,
       "sourceCount": 11,
       "citedSourceCount": 11,
       "tierMix": {
@@ -1668,9 +2169,9 @@
         "11 cited sources: 7 tier A, 4 tier B, 0 tier C",
         "Record declares medium confidence",
         "64% of sources are official statistics or peer-reviewed",
-        "5 open data gaps are listed in the record"
+        "8 open data gaps are listed in the record"
       ],
-      "dataGapCount": 5,
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Share of irrigated perimeters equipped with water-saving equipment",
         "value": "37",
@@ -1724,7 +2225,7 @@
       "trend": "worsening",
       "confidence": "high",
       "excerpt": "Since 2018 Tunisia has applied quotas to dam water for its public irrigated perimeters (PPI) to protect drinking-water supply. In the drought of 2021-2024 the quotas were cut until several perimeters stopped. The…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 14,
       "sourceCount": 6,
       "citedSourceCount": 6,
@@ -1791,7 +2292,7 @@
       "trend": "stable",
       "confidence": "medium",
       "excerpt": "In Tunisia's public irrigated perimeters, reported delivery efficiency is incomplete. In diagnosed public irrigated perimeters, efficiency between the central delivery point and farm hydrants ranged from 38% to 100% and…",
-      "readTimeMinutes": 4,
+      "readTimeMinutes": 5,
       "indicatorCount": 6,
       "sourceCount": 5,
       "citedSourceCount": 5,
@@ -1854,7 +2355,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "The national sector report gives actual irrigation use and area for 2023/24. These figures are narrower than national all-purpose reuse. Treated wastewater reuse in Tunisia remains limited in the available national…",
-      "readTimeMinutes": 3,
+      "readTimeMinutes": 4,
       "indicatorCount": 7,
       "sourceCount": 4,
       "citedSourceCount": 4,
@@ -1975,7 +2476,7 @@
       "trend": "worsening",
       "confidence": "medium",
       "excerpt": "In Kébili governorate (Nefzaoua), the deep aquifers of the Saharan system (Complexe Terminal and Continental Intercalaire) were exploited at 171% of their estimated resource in 2016, second only to Nabeul (195%) among…",
-      "readTimeMinutes": 7,
+      "readTimeMinutes": 8,
       "indicatorCount": 15,
       "sourceCount": 8,
       "citedSourceCount": 8,
@@ -1989,9 +2490,9 @@
         "8 cited sources: 3 tier A, 5 tier B, 0 tier C",
         "Record declares medium confidence",
         "100% of sources are tier A or B",
-        "9 open data gaps are listed in the record"
+        "11 open data gaps are listed in the record"
       ],
-      "dataGapCount": 9,
+      "dataGapCount": 11,
       "topIndicator": {
         "name": "Deep-aquifer exploitation rate, Kébili governorate",
         "value": "171",
@@ -2025,7 +2526,7 @@
     {
       "id": "FND-TG-700",
       "slug": "FND-TG-700-cereal-import-dependence-soft-wheat",
-      "title": "Tunisia imports roughly half of its cereals and almost all of its soft (bread) wheat, even in good harvest years",
+      "title": "Tunisia imports more than half of its cereals (about 60% on ITES averages) and almost all of its soft (bread) wheat, even in good harvest years",
       "status": "in-review",
       "sectors": [
         "agriculture"
@@ -2041,7 +2542,7 @@
       "trend": "stable",
       "confidence": "high",
       "excerpt": "Tunisia depends on world markets for a large share of its staple cereals, and for almost all of its bread wheat. Dependence estimates vary by method and year. ONAGRI's 2021 balance sheet puts the foreign dependence…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 13,
       "sourceCount": 8,
       "citedSourceCount": 8,
@@ -2055,9 +2556,9 @@
         "8 cited sources: 2 tier A, 6 tier B, 0 tier C",
         "Record declares high confidence",
         "100% of sources are tier A or B",
-        "6 open data gaps are listed in the record"
+        "7 open data gaps are listed in the record"
       ],
-      "dataGapCount": 6,
+      "dataGapCount": 7,
       "topIndicator": {
         "name": "Foreign dependence coefficient, soft wheat (net imports / consumption)",
         "value": "93.1",
@@ -2166,7 +2667,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "Cereal marketing in Tunisia is run by state bodies created soon after independence. The Office des Céréales (OC) was created in 1962. It controls wheat imports and sells imported wheat at subsidised prices. Cereal…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 24,
       "sourceCount": 8,
       "citedSourceCount": 8,
@@ -2214,9 +2715,74 @@
       "author": "TahaGHZ"
     },
     {
+      "id": "FND-TG-720",
+      "slug": "FND-TG-720-olive-oil-output-volatility-rainfed",
+      "title": "Tunisian olive oil production varies sharply between seasons",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "olives",
+      "timeframe": "past-current",
+      "period": "1990-2026",
+      "geography": [
+        "national",
+        "centre-east",
+        "centre-west",
+        "south-east"
+      ],
+      "severity": "high",
+      "trend": "stable",
+      "confidence": "medium",
+      "excerpt": "Olive oil is Tunisia's main agricultural export: TND 4.1 billion in 2025, 2.4% of GDP and 6% of total exports. About 310,000 farmers and nearly 1 million people depend on it. Yet one season's output is a poor guide to…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 20,
+      "sourceCount": 10,
+      "citedSourceCount": 10,
+      "tierMix": {
+        "A": 6,
+        "B": 2,
+        "C": 2
+      },
+      "trust": "strong",
+      "trustReasons": [
+        "10 cited sources: 6 tier A, 2 tier B, 2 tier C",
+        "Record declares medium confidence",
+        "60% of sources are official statistics or peer-reviewed",
+        "9 open data gaps are listed in the record"
+      ],
+      "dataGapCount": 9,
+      "topIndicator": {
+        "name": "Olive oil production, minimum of the 1990/91-2024/25 series",
+        "value": "35",
+        "unit": "1,000 t",
+        "year": "2001/02",
+        "geography": "national",
+        "source": "SRC-TG-720"
+      },
+      "stakeholders": [
+        "about 310,000 olive farmers, mostly small family farms (Centre and South)",
+        "oil mills and private exporters",
+        "Office National de l'Huile (ONH)",
+        "Ministry of Agriculture (MARHP)",
+        "Institut de l'Olivier",
+        "EU importers and blenders (Spain, Italy)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/28697751/pexels-photo-28697751.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Green olives growing in Jendouba, Tunisia",
+        "credit": "Mahmoud Yahyaoui / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
       "id": "FND-TG-722",
       "slug": "FND-TG-722-olive-oil-climate-projection-decline",
-      "title": "The national adaptation study projects Tunisian olive oil output 11-35% below its modelled reference by 2050 and 20-70% below by 2100, with yield losses up to 51-86% in the Sfax-Kairouan-Sidi Bouzid-Mahdia core under RCP8.5",
+      "title": "The national adaptation study projects Tunisian olive oil output 11-35% below its modelled reference by 2050 and 20-70% below by 2100, with yield losses of 51-86% by 2100 under RCP8.5 in the Sfax-Kairouan-Sidi Bouzid-Mahdia core",
       "status": "in-review",
       "sectors": [
         "agriculture",
@@ -2236,7 +2802,7 @@
       "trend": "worsening",
       "confidence": "medium",
       "excerpt": "The modelling study behind Tunisia's national adaptation plan (MARHP with AFD Adapt'Action, final version 2021) projects a large fall in olive oil production from a modelled reference of 207 kt/yr. Holding the 2015-2017…",
-      "readTimeMinutes": 5,
+      "readTimeMinutes": 6,
       "indicatorCount": 9,
       "sourceCount": 6,
       "citedSourceCount": 6,
@@ -2281,7 +2847,7 @@
     {
       "id": "FND-TG-760",
       "slug": "FND-TG-760-imported-feed-dependence",
-      "title": "Tunisian livestock runs on imported feed: all maize and soybeans and, in drought years, most barley come from abroad, so world prices, the dinar and import disruptions pass straight into farm costs",
+      "title": "Tunisian livestock runs on imported feed: all maize and soybeans and, in drought years, most barley come from abroad, so feed for livestock is priced on world markets and exposed to the dinar and to import disruptions",
       "status": "in-review",
       "sectors": [
         "agriculture"
@@ -2296,8 +2862,8 @@
       "severity": "high",
       "trend": "worsening",
       "confidence": "medium",
-      "excerpt": "Tunisia grows essentially no maize and no soybeans. In MY 2024/25 it imported 1,033 thousand t of maize, all of it for feed, 507 thousand t of soybeans (447 thousand t crushed and about 75 thousand t fed directly as…",
-      "readTimeMinutes": 5,
+      "excerpt": "Tunisia grows essentially no maize and no soybeans. In MY 2024/25 it imported 1,033 thousand t of maize, all of it for feed, 507 thousand t of soybeans (447 thousand t crushed; USDA's table lists a further 75 thousand t…",
+      "readTimeMinutes": 6,
       "indicatorCount": 17,
       "sourceCount": 8,
       "citedSourceCount": 8,
@@ -2344,7 +2910,7 @@
     {
       "id": "FND-TG-761",
       "slug": "FND-TG-761-dairy-price-cost-squeeze-herd-decline",
-      "title": "The dairy sector built in the 1990s on imported Holstein cows and imported concentrates is contracting: milk output fell about 16% from its 2021 peak to 2025 and the herd shrinks about 2.5% a year after drought and feed price shocks; the ministry and farmers describe a lasting gap between feed costs and the administered milk price, frozen at 1,340 millimes since late 2022 or early 2023",
+      "title": "The dairy sector built in the 1990s on imported Holstein cows and imported concentrates is contracting: milk output fell about 16% from its 2021 peak to 2025 and the estimated herd shrinks about 2.5% a year (no census since 2019) after drought and feed price shocks; the ministry and farmers describe a lasting gap between feed costs and the administered milk price, frozen at 1,340 millimes since late 2022 or early 2023",
       "status": "in-review",
       "sectors": [
         "agriculture",
@@ -2361,7 +2927,7 @@
       "trend": "worsening",
       "confidence": "medium",
       "excerpt": "Fresh milk production peaked at about 1,462 thousand t in 2021 and fell to 1,230 thousand t in 2025, about 16% lower. Over 2016-2025 the average change was -1.5% a year. The dairy herd was estimated at 360,000 female…",
-      "readTimeMinutes": 7,
+      "readTimeMinutes": 8,
       "indicatorCount": 17,
       "sourceCount": 8,
       "citedSourceCount": 8,
@@ -2424,7 +2990,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "Tunisia's farm count rose from 326,000 in 1961-62 to 516,000 in 2004-05 while the farmed area stayed near 5.2-5.3 million ha, so the average farm shrank from 16 ha to 10.2 ha. The growth is concentrated at the bottom…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 12,
       "sourceCount": 4,
       "citedSourceCount": 4,
@@ -2488,7 +3054,7 @@
       "trend": "unknown",
       "confidence": "low",
       "excerpt": "A large part of Tunisian farmland does not carry a title that a bank can take as security, though the national figures are old and second-hand. Law 64-28 was substantially amended in 2016: collective land may now be…",
-      "readTimeMinutes": 5,
+      "readTimeMinutes": 6,
       "indicatorCount": 6,
       "sourceCount": 7,
       "citedSourceCount": 7,
@@ -2502,9 +3068,9 @@
         "7 cited sources: 4 tier A, 2 tier B, 1 tier C",
         "Record declares low confidence",
         "Author flagged low confidence",
-        "5 open data gaps are listed in the record"
+        "8 open data gaps are listed in the record"
       ],
-      "dataGapCount": 5,
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Share of land potential registered (immatriculé)",
         "value": "50",
@@ -2554,7 +3120,7 @@
       "trend": "unknown",
       "confidence": "low",
       "excerpt": "Tunisia's state owns about 500,000 ha of agricultural land according to the minister of State Domains in 2026, of which only 38% is operated under lease contracts. A 2024 press breakdown gives 310,000 ha \"structured\"…",
-      "readTimeMinutes": 7,
+      "readTimeMinutes": 8,
       "indicatorCount": 15,
       "sourceCount": 12,
       "citedSourceCount": 12,
@@ -2568,9 +3134,9 @@
         "12 cited sources: 6 tier A, 2 tier B, 4 tier C",
         "Record declares low confidence",
         "Author flagged low confidence",
-        "6 open data gaps are listed in the record"
+        "10 open data gaps are listed in the record"
       ],
-      "dataGapCount": 6,
+      "dataGapCount": 10,
       "topIndicator": {
         "name": "State land transferred to private operators (mainly leases)",
         "value": "143000",
@@ -2622,7 +3188,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "Water erosion is a major soil problem in Tunisia's rainfed cereal belt in the Tell, the Dorsale and the central uplands. A 2020 government programme repeats older estimates: 3.56 million ha affected, 71% strongly to…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 10,
       "sourceCount": 8,
       "citedSourceCount": 8,
@@ -2812,7 +3378,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "The brief described a dependence on imported certified seed, cereals included, and an erosion of local varieties. The evidence supports only part of that. For **cereals**, seed is overwhelmingly domestic. More than 80%…",
-      "readTimeMinutes": 3,
+      "readTimeMinutes": 4,
       "indicatorCount": 7,
       "sourceCount": 6,
       "citedSourceCount": 6,
@@ -2877,7 +3443,7 @@
       "trend": "worsening",
       "confidence": "low",
       "excerpt": "The brief framed pesticides as a problem of use, residues and regulation. Per-hectare use remains below the world average: FAOSTAT estimates Tunisian use at 0.83 kg of active ingredient per hectare of cropland in 2024…",
-      "readTimeMinutes": 4,
+      "readTimeMinutes": 5,
       "indicatorCount": 11,
       "sourceCount": 5,
       "citedSourceCount": 5,
@@ -2949,7 +3515,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "Tunisia's coastal towns grow mostly onto the farmland around them, which is often the most fertile and best-watered land. In Greater Tunis, 2,440 of the 3,970 ha urbanised between 1986 and 1991 were farmland. The…",
-      "readTimeMinutes": 7,
+      "readTimeMinutes": 8,
       "indicatorCount": 12,
       "sourceCount": 11,
       "citedSourceCount": 11,
@@ -3014,7 +3580,7 @@
       "trend": "worsening",
       "confidence": "medium",
       "excerpt": "Tunisia's main tool for protecting farmland is law 83-87 of 11 November 1983. It sorts agricultural land into prohibition zones, safeguard zones and a residual zone where any change of use needs authorisation. It also…",
-      "readTimeMinutes": 7,
+      "readTimeMinutes": 8,
       "indicatorCount": 7,
       "sourceCount": 7,
       "citedSourceCount": 7,
@@ -3078,7 +3644,7 @@
       "trend": "worsening",
       "confidence": "medium",
       "excerpt": "Olive oil and dates dominate Tunisia's agricultural exports: together they were 45% of agricultural export value in 2010. Of the two, dates depend most on blue water: - they are fully irrigated; - they have the highest…",
-      "readTimeMinutes": 7,
+      "readTimeMinutes": 8,
       "indicatorCount": 18,
       "sourceCount": 10,
       "citedSourceCount": 10,
@@ -3142,7 +3708,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "A common view holds that Tunisia drains its water by exporting thirsty fruit and vegetables such as tomatoes, watermelons, citrus and strawberries. The evidence does not support this for these crops. In 2022, official…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 12,
       "sourceCount": 9,
       "citedSourceCount": 9,
@@ -3189,7 +3755,7 @@
     {
       "id": "FND-TG-880",
       "slug": "FND-TG-880-projected-climate-losses-agriculture-2050",
-      "title": "Warming and drying are projected to cut Tunisian agricultural output and value added by roughly 15-33% by 2030-2050, but the circulating headline numbers trace back to two studies, and some are quoted at the wrong horizon or do not match the study they cite",
+      "title": "Warming and drying are projected to cut Tunisian agricultural value added about 15% by 2030 and 29% by 2050 (World Bank CCDR, RCP 8.5, against a past-trend baseline), but the circulating crop-level numbers trace back to two studies, and some are quoted at the wrong horizon or do not match the study they cite",
       "status": "in-review",
       "sectors": [
         "agriculture",
@@ -3209,8 +3775,8 @@
       "severity": "high",
       "trend": "worsening",
       "confidence": "medium",
-      "excerpt": "Official and donor projections agree on direction: by 2050 Tunisia should be warmer by about 1.6°C (RCP 4.5) to 1.9°C (RCP 8.5) and drier by 6-9% in annual rainfall relative to 1981-2010, with the largest rainfall…",
-      "readTimeMinutes": 8,
+      "excerpt": "Official and donor projections agree on direction: by 2050 Tunisia should be warmer by about 1.6°C (RCP 4.5) to 1.9°C (RCP 8.5) and drier by 6-9% in annual rainfall relative to 1981-2010,. By 2100 the RCP 8.5 values…",
+      "readTimeMinutes": 9,
       "indicatorCount": 14,
       "sourceCount": 8,
       "citedSourceCount": 8,
@@ -3224,9 +3790,9 @@
         "8 cited sources: 2 tier A, 6 tier B, 0 tier C",
         "Record declares medium confidence",
         "100% of sources are tier A or B",
-        "8 open data gaps are listed in the record"
+        "14 open data gaps are listed in the record"
       ],
-      "dataGapCount": 8,
+      "dataGapCount": 14,
       "topIndicator": {
         "name": "Projected decrease in share of agricultural production in national GDP",
         "value": "-5% to -10%",
@@ -3259,7 +3825,7 @@
     {
       "id": "FND-TG-881",
       "slug": "FND-TG-881-drought-2020-2023-agricultural-damage",
-      "title": "Tunisia’s 2023 drought coincided with a 16.1% contraction in real agriculture, forestry and fishing value added in the revised INS accounts",
+      "title": "Tunisia’s 2023 drought coincided with a 16.1% contraction in real agriculture, forestry and fishing value added in the INS update of 3 August 2026",
       "status": "in-review",
       "sectors": [
         "agriculture",
@@ -3276,7 +3842,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "A run of dry years culminated in the 2022/23 season. The latest INS annual previous-year-price series reports a 16.1% contraction for agriculture, forestry and fishing in 2023. In its spring 2024 publication, the World…",
-      "readTimeMinutes": 6,
+      "readTimeMinutes": 7,
       "indicatorCount": 13,
       "sourceCount": 9,
       "citedSourceCount": 9,
@@ -3290,9 +3856,9 @@
         "9 cited sources: 2 tier A, 7 tier B, 0 tier C",
         "Record declares medium confidence",
         "100% of sources are tier A or B",
-        "7 open data gaps are listed in the record"
+        "10 open data gaps are listed in the record"
       ],
-      "dataGapCount": 7,
+      "dataGapCount": 10,
       "topIndicator": {
         "name": "Annual real value-added growth, agriculture, forestry and fishing, INS August 2026 release",
         "value": "-16.1",
@@ -3314,16 +3880,16 @@
       "hasProjection": false,
       "isCrossSector": true,
       "image": {
-        "url": "https://images.pexels.com/photos/14869819/pexels-photo-14869819.jpeg?auto=compress&cs=tinysrgb&w=1200",
-        "alt": "Dry river and canal bed during severe drought",
-        "credit": "jd garrett / Pexels"
+        "url": "https://images.pexels.com/photos/38114844/pexels-photo-38114844.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Palm oasis in Tamerza, Tunisia",
+        "credit": "Narli's Journey Book / Pexels"
       },
       "author": "TahaGHZ"
     },
     {
       "id": "FND-TG-900",
       "slug": "FND-TG-900-household-waste-subsidised-bread",
-      "title": "Households throw away about a sixth of the subsidised bread they buy; the World Bank and FAO name the universal cereal price subsidy as a driver, though household surveys find little direct price effect",
+      "title": "Households throw away about a sixth of the bread they buy; the World Bank names the universal cereal price subsidy as a driver and the FAO lists it as a possible cause, though household surveys find little direct price effect",
       "status": "in-review",
       "sectors": [
         "agriculture"
@@ -3339,7 +3905,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "Tunisian households throw away a large share of the bread they buy. The Institut National de la Consommation (INC) estimated in 2014 that about 900,000 loaves were thrown away each day, equal to 102,000 tonnes and 100…",
-      "readTimeMinutes": 7,
+      "readTimeMinutes": 8,
       "indicatorCount": 23,
       "sourceCount": 9,
       "citedSourceCount": 9,
@@ -3353,9 +3919,9 @@
         "9 cited sources: 2 tier A, 3 tier B, 4 tier C",
         "Record declares medium confidence",
         "44% of sources are press or secondary material",
-        "8 open data gaps are listed in the record"
+        "9 open data gaps are listed in the record"
       ],
-      "dataGapCount": 8,
+      "dataGapCount": 9,
       "topIndicator": {
         "name": "Bread thrown away per day (INC estimate)",
         "value": "900000",
@@ -3406,7 +3972,7 @@
       "trend": "unknown",
       "confidence": "low",
       "excerpt": "Part of Tunisia's cereal harvest is lost before it reaches mills, at harvest, in on-farm storage and at collection centres. Until the FAO/Italy project of 2016-2018 no chain-level estimate existed; the FAO evaluation…",
-      "readTimeMinutes": 4,
+      "readTimeMinutes": 5,
       "indicatorCount": 8,
       "sourceCount": 7,
       "citedSourceCount": 7,
@@ -3452,7 +4018,7 @@
     {
       "id": "FND-TG-902",
       "slug": "FND-TG-902-milk-chain-losses-cold-chain",
-      "title": "About 7-10% of milk is lost between farm and dairy in Bizerte and Mahdia, mostly at collection and processing, with on-farm cooling on fewer than one farm in six",
+      "title": "About 6.5-10% of milk is lost between farm and dairy in Bizerte and Mahdia, mostly at collection and processing, with on-farm cooling on fewer than one farm in six",
       "status": "in-review",
       "sectors": [
         "agriculture",
@@ -3470,7 +4036,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "The only measured estimate of milk losses in Tunisia, an FAO case study of the Bizerte and Mahdia milk chains surveyed in July-October 2017 and published in 2021, finds that 9.1% of milk is lost in Bizerte and 6.5% in…",
-      "readTimeMinutes": 3,
+      "readTimeMinutes": 4,
       "indicatorCount": 10,
       "sourceCount": 6,
       "citedSourceCount": 6,
@@ -3533,7 +4099,7 @@
       "trend": "stable",
       "confidence": "medium",
       "excerpt": "Tunisia's agricultural structural adjustment programme (PASA, also MTASAP) ran from 1986 to about 1995 with two World Bank sector adjustment loans. It cut the input and credit subsidies that the state had paid through…",
-      "readTimeMinutes": 5,
+      "readTimeMinutes": 6,
       "indicatorCount": 8,
       "sourceCount": 4,
       "citedSourceCount": 4,
@@ -3600,7 +4166,7 @@
       "trend": "unknown",
       "confidence": "medium",
       "excerpt": "Tunisian agricultural policy works mainly through guaranteed producer prices for cereals, intervention buying by state offices for milk, sugar beet and tobacco, high tariffs on agri-food imports and fixed consumer…",
-      "readTimeMinutes": 7,
+      "readTimeMinutes": 8,
       "indicatorCount": 9,
       "sourceCount": 6,
       "citedSourceCount": 6,
@@ -3614,9 +4180,9 @@
         "6 cited sources: 1 tier A, 5 tier B, 0 tier C",
         "Record declares medium confidence",
         "100% of sources are tier A or B",
-        "7 open data gaps are listed in the record"
+        "8 open data gaps are listed in the record"
       ],
-      "dataGapCount": 7,
+      "dataGapCount": 8,
       "topIndicator": {
         "name": "Milk share of market price support expenditure",
         "value": "over 50",
@@ -3650,7 +4216,7 @@
     {
       "id": "FND-TG-922",
       "slug": "FND-TG-922-farm-credit-exclusion-debt-amnesty-cycle",
-      "title": "Around 2011, fewer than one farmer in ten borrowed from banks while about a quarter were barred by old arrears; repeated debt write-offs since 1999 have not broken the cycle",
+      "title": "In a 2012 World Bank study, fewer than one farmer in ten borrowed from banks while about a quarter were barred by old arrears; repeated debt write-offs since 1999 have not broken the cycle",
       "status": "in-review",
       "sectors": [
         "agriculture"
@@ -3665,8 +4231,8 @@
       "severity": "high",
       "trend": "unknown",
       "confidence": "medium",
-      "excerpt": "Formal credit reached very few Tunisian farmers around 2010-2012: no more than 7% had bank loans, banks financed 11% of agricultural investment, and seasonal credit covered one-fourteenth of input use. At the same time…",
-      "readTimeMinutes": 7,
+      "excerpt": "Formal credit reached very few Tunisian farmers according to a 2012 World Bank study (data year not stated): no more than 7% had bank loans, banks financed 11% of agricultural investment, and seasonal credit covered…",
+      "readTimeMinutes": 9,
       "indicatorCount": 14,
       "sourceCount": 11,
       "citedSourceCount": 11,
@@ -3687,7 +4253,7 @@
         "name": "Share of farmers with bank loans",
         "value": "7 (at most)",
         "unit": "percent of farmers",
-        "year": "around 2010-2012",
+        "year": "not stated in the report text (study dated 7 May 2012)",
         "geography": "national",
         "source": "SRC-TG-925"
       },
