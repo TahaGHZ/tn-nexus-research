@@ -33,6 +33,10 @@ English gloss: extensions are illicit because their boreholes lie in the safegua
 
 > "Une limitation des consommations en eau des agriculteurs utilisant l'énergie solaire : soit avec la pose de compteurs, et/ou avec des mécanismes incitatifs, notamment la revente des surplus d'énergie produite à la compagnie nationale d'électricité STEG."
 
+> "Cette dernière a par le passé cherché à mettre en place des dispositifs contraignants pour limiter ces pratiques (saisie des foreuses, poursuites judiciaires, etc.). Mais ces dispositifs ont été limités dans le temps et ont eu un impact très faible, conduisant en pratique à une situation de laisser-faire."
+
+English gloss: the administration once tried coercive measures (seizing drilling rigs, prosecutions), but they were short-lived and had very little effect, leading in practice to laisser-faire.
+
 ## Notes
 
 Policy brief (September 2024) from the Massire project (2019-2024), by the same research team as SRC-TG-740, so its 80% share is not independent of SRC-TG-740's 85%; both are recorded. The decree numbers and dates are cited by the brief; the JORT texts themselves were not opened. Ligatures "fi" were missing in the PDF text ("dé ni", "identi er") and are restored above.

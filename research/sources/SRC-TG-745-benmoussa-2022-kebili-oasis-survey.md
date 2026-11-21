@@ -25,4 +25,4 @@ Introduction, p. 2:
 
 ## Notes
 
-Peer-reviewed but small sample (52 plots, 38 farmers, September 2020). Results are qualitative/statistical associations (Chi-2, MCA), not area-wide measures of biodiversity loss.
+Peer-reviewed but small sample (52 plots "owned by 38 farmers", section 2.1; survey September 2020). Results are qualitative/statistical associations (Chi-2, MCA), not area-wide measures of biodiversity loss.

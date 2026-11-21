@@ -42,3 +42,4 @@ English gloss: date palm area 57,385 ha in 2022, of which Kebili 38,000 ha (66.2
 ## Notes
 
 Official ONAGRI sheet, undated (latest data 2022, some marked as estimates). The PDF's two-column table was extracted with labels and values offset; the mapping above was made line by line and should be re-checked against the PDF by the verifier, in particular the order of the four indicators 9.9% / 15.7% / 44.4% / 12.1% (TCAM of export value 2010-2021 = 9.9%, consistent with SRC-TG-742). The 68.2% Deglet Nour share uses the same 2018 oasis survey as SRC-TG-742, which gives 72.3%; the difference is not explained.
+Denominator caveat: the 32.4% / 65.1% / 1.2% shares divide 2018 survey areas (18,590 / 37,387 / 677 ha) by the 2022 DGPA total of 57,385 ha; on the 2018 survey total of 56,654 ha they would be 32.8% / 66.0% / 1.2%.
