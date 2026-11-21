@@ -93,3 +93,5 @@ Water desalination links saline source quality to energy demand; the cited sourc
 ## Verification
 
 The dated drinking-water baseline is distinct from the earlier groundwater resource inventory. Historical water-quality observations without sampling dates remain narrative evidence; the 2035 target is prospective (SRC-TG-605, SRC-TG-603, SRC-TG-604).
+
+**Independent review, 21 November 2026:** pass. Checked against the originals: CDN 3.0 Tableau 11, p. 57 (SRC-TG-605), 2024 drinking-water salinity 1.5-3 g/L and 2035 target; RNE 2001 water-resources section (SRC-TG-603); SONEDE desalination workshop slides, 25 May 2017, salinity table (SRC-TG-604). No corrections. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

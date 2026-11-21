@@ -1,6 +1,6 @@
 ---
 id: FND-TG-501
-title: Without action, Tunisia's water balance is projected to turn negative by 2030-2050, leaving about 28% of demand unmet by 2050 under RCP8.5
+title: Without action, Tunisia's water balance is projected to turn negative by 2050 under RCP8.5, leaving about 28% of demand unmet; Eau 2050 flags a certain risk of a water crash from 2030 without figures
 status: in-review
 sectors: [water, agriculture, energy]
 theme: water-governance
@@ -181,7 +181,7 @@ The CCDR figures (210 and 122 m3) do not appear in the final April 2021 AFD stud
 **What "28%" means.** Three different 28% figures circulate:
 - CCDR: 28% of demand unmet in 2050 under RCP8.5 (SRC-TG-482).
 - AFD summary: resources fall by 28% by 2050 (SRC-TG-504).
-- Gafrej and Pillet: conventional resources fall by 28% by 2030 under HadCM3 A2. That decline is driven mostly by overexploited and saline aquifers; surface water falls only about 5% (SRC-TG-509).
+- Gafrej and Pillet: conventional resources fall by 28% by 2030 under HadCM3 A2. That decline is located mostly in overexploited aquifers, coastal aquifers and deep non-renewable aquifers; surface water falls only about 5% (SRC-TG-509).
 
 ## Why confidence is what it is
 
@@ -192,7 +192,7 @@ The CCDR figures (210 and 122 m3) do not appear in the final April 2021 AFD stud
 
 ## Links to other sectors
 
-- **Agriculture.** Agriculture uses three quarters of exploited resources: 2.4 billion m3 for 406,540 ha in 2018, 84% from groundwater (SRC-TG-504). Quotas for public irrigated schemes were cut to 27% of normal supply in the third drought year of 2015-2018 (SRC-TG-504). The CCDR projects agricultural value added falling 15% by 2030 and 29% by 2050 under RCP8.5 inaction, driven largely by water shortages (English executive summary, SRC-TG-482). The AFD study notes that net virtual-water imports (4.7 billion m3 in 2013) already exceed national mobilisable resources (SRC-TG-504).
+- **Agriculture.** Agriculture uses three quarters of exploited resources: 2.4 billion m3 for 406,540 ha in 2018, 84% from groundwater (SRC-TG-504). Quotas for public irrigated schemes were cut to 27% of normal supply in the third drought year of 2015-2018 (SRC-TG-504). The CCDR projects agricultural value added falling 15% by 2030 and 29% by 2050 under RCP8.5 inaction, driven largely by water shortages (French edition, section 3.1.1, SRC-TG-482). The AFD study notes that net virtual-water imports (4.7 billion m3 in 2013) already exceed national mobilisable resources (SRC-TG-504).
 - **Energy.** Closing the gap with desalination raises energy demand. SONEDE's reliance on desalination has already raised its energy costs (0.67 kWh/m3 in 2021). The CCDR reports that SONEDE's "average energy cost" of drinking water rose from 0.82 DT/m3 (2015) to 1.30 DT/m3 (2021) after its desalination plants came online (SRC-TG-482). SRC-TG-482 notes that this series is probably total cost, mislabelled as energy cost.
 
 ## Leads for phase 2
@@ -204,3 +204,9 @@ The CCDR figures (210 and 122 m3) do not appear in the final April 2021 AFD stud
 - Irrigation water tariff reform (CCDR notes the public-scheme tariff unchanged since 2004)
 - Rehabilitation and modernisation of irrigation networks (Eau 2050 demand axis)
 - Treated wastewater reuse and desalination expansion (Eau 2050 balance lines)
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Originals checked: AFD/PNA study (SRC-TG-504) section 3.3.2 and Table 30 (demand 3,103 and 4,117 Mm3, resources 4,574 and 2,978 Mm3, balance +1,471 to -1,139 Mm3, coverage 72% and 41%, 366 to 200 m3 per capita, 123% exploitation, +38% demand, irrigation +4.6%); Eau 2050 synthesis (SRC-TG-503) balance table (139% aquifer exploitation, 422 to 387 m3, drinking-water and irrigation demand), diagnostic ("crash hydrique" from 2030, "abondance", tariffs "entièrement déconnecté des coûts") and financing section (63% of Titre II); CCDR French edition (SRC-TG-482) Figure 18, section 3.1.1 (28% unmet, 366 to 210 and 122 m3, agricultural value added -15% and -29%) and the tariff and energy sections; Gafrej and Pillet (SRC-TG-509) abstract; World Bank NbS note (SRC-TG-506) introduction (357 to 268 m3). Corrections: title, headline limited to 2050 for the quantified negative balance, with the 2030 "water crash" shown as a risk statement without figures; "overexploited and saline aquifers" replaced by the source's "overexploited, coastal and deep non-renewable aquifers"; the CCDR agricultural value-added figures re-attributed from an "English executive summary" to the French edition, the copy that was read.
+
+Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

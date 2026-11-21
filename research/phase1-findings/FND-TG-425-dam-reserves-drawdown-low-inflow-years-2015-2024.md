@@ -135,6 +135,7 @@ data_gaps:
   - National fill rate for 2015-2018. The bulletins of those years print stock but no percentage. SRC-TG-402 gives 32% on 31 August 2017 for 30 dams.
   - The Arabic summary page of each bulletin did not extract as text and was not used.
   - Mid-season minima (for example spring 2023 and winter 2024). Only 1 September bulletins were read, so the lowest points of the drought are not recorded here.
+  - The meaning of the Mellègue 157.2 Mm3 release column in 2022/23 was not independently checked (SRC-TG-440); the inference about it in Evidence stays an inference.
   - Attribution of the inflow deficit to climate change versus natural variability. Not sourced here; see block 500-524 (FND-TG-500).
 author: TahaGHZ
 ---
@@ -148,7 +149,7 @@ Tunisia's surface storage sits mainly in 37 large dams at end-2017 (SRC-TG-402).
 **Symptom.** Low fill rates. **Causes**, in order of what the data show:
 
 1. **Inflow deficit.** Cumulative inflows per hydrological year, each against the long-term mean printed in the same bulletin:
-   - 2015/16: 650 vs 1,926 Mm3 (34%) (SRC-TG-433). The 2017 bulletin revises 2015/16 to 684 Mm3 (SRC-TG-434).
+   - 2015/16: 650 vs 2,083 Mm3 (31%), from the total row of the bulletin (SRC-TG-433). The bulletin's summary block prints a different mean of 1,925.78 Mm3 (34%), so the baseline is not stable even within one bulletin. The 2017 bulletin prints 684.246 Mm3 for 2015/16 in its prior-year column, a revision of the 650.378 Mm3 (SRC-TG-434).
    - 2016/17: 835 vs 2,015 Mm3 (41%) (SRC-TG-434)
    - 2017/18: 1,079 vs 1,664 Mm3 (65%) (SRC-TG-435)
    - 2018/19: 2,575 vs 1,762 Mm3 (146%) (SRC-TG-436)
@@ -220,3 +221,7 @@ Trend is "unknown". The 2024/25 year partly recovered (712 Mm3, 30.1%), and this
 - Inter-dam connection projects: Melah-Tine-Gamgoum-Harka to the Sidi Barrak-Sejnane-Joumine-Medjerda system; Houareb-Sidi Saad connection; Saida-Belli transfer (SRC-TG-402).
 - Ministry decisions on water quotas and rationing in 2023 (see SRC-TG-459, SRC-TG-460 in the drinking-water block).
 - ONAGRI/DGBGTH daily dam bulletins as a data feed for the engine: https://www.onagri.nat.tn/Situation-des-barrages/fr/19
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Checked against the DGBGTH bulletins of 1 September 2015-2025 (SRC-TG-432 to SRC-TG-442, TOTAL row of each, plus the Sidi Salem and Nebhana rows of the 2024 bulletin and the S/T NORD and TOTAL GENERAL mean-inflow rows of the 2021-2023 bulletins) and against the national water report 2017 (SRC-TG-402: canal withdrawals 205 to 317 Mm3, third consecutive rainfall deficit in section IV.1, 32% fill rate in section IV.2, groundwater 119% to 133%). All eleven stocks and fill rates and the 2016/17-2024/25 inflows were confirmed. Correction: the 2015/16 mean is 2,082.57 Mm3 on the total row, not 1,926 Mm3, so 34% becomes 31%; the bulletin's summary block prints 1,925.78 Mm3 and that is now stated. The 2017 bulletin's 684.246 Mm3 prior-year figure for 2015/16 was located, and the 81.3% Sidi Salem fill of 2019 was located in the 2019 bulletin. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

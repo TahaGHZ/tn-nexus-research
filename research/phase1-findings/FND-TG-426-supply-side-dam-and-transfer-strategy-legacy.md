@@ -66,10 +66,10 @@ indicators:
     year: 2017
     geography: north-east
     source: SRC-TG-402
-  - name: Medjerda-Cap Bon canal share of SONEDE surface-water intake in the northern region
+  - name: Medjerda-Cap Bon canal share of SONEDE's total water intake (JICA text; year not stated there)
     value: 76
-    unit: '%'
-    year: 2019
+    unit: '% of SONEDE total water intake'
+    year: not stated
     geography: north-east
     source: SRC-TG-428
   - name: Share of SONEDE surface-water withdrawals taken from SECADENORD transfer works
@@ -92,6 +92,7 @@ data_gaps:
   - Original design allocation of the Medjerda-Cap Bon canal (commissioning year, design flow, irrigation vs drinking split in m3). SRC-TG-402 states only the reversal of shares from 2/3 irrigation to 2/3 drinking water.
   - SECADENORD and SONEDE withdrawal series after 2019 from primary utility reports. The JICA table values for 2020-2021 are JICA estimates, and its columns did not extract cleanly.
   - Which dams the 2,500 Mm3 target assumed, and on which mean inflows. The long-term mean inflow printed in the 2021 bulletin is 1,801.79 Mm3/yr for all large dams (SRC-TG-438), but the 2,500 Mm3 figure includes hill dams and lakes and is not directly comparable.
+  - "Not independently reopened: the reviewer's only local copy of SRC-TG-430 was a different FAO-hosted document (\"Gestion durable ...\"), so the following were not rechecked in the Plan Bleu 2007 report itself and rest on the extracts pasted in SRC-TG-430: 42 large dams by 2010 and 49 by 2015 (table layout garbled), forecast storage 2,200 to 1,800 Mm3, and the 19%/42% investment shares (SRC-TG-430)."
   - Evaluation of the Eau 2050 strategy's treatment of transfers (block 500-524 holds SRC-TG-503).
 author: TahaGHZ
 ---
@@ -116,7 +117,7 @@ Current effects of the past decision (figures dated; all extracts below are from
 
 - **Concentration on a few dams.** In 2017, 86.7% of SONEDE's surface water came from SECADENORD works on seven dams: Sidi Barrak, Sejnane, Joumine, Ziatine, Sidi Salem, Bouhertma and Nebhana. Only 13.3% came from SONEDE's own dams, Beni Metir, Kasseb and Masri (SRC-TG-402, drinking-water section, after Figure 13 "Répartition du volume produit en 2017 selon la source").
   > à partir des ouvrages gérés par la SECADENORD (ouvrages de transferts des barrages Sidi Barrak, Sejnane, Joumine, Ziatine, Sidi Salem, Bouhertma, et Nebhana) : 86,7% du total des eaux de surface prélevé.
-- **One canal dominates the north.** Withdrawals from the Medjerda-Cap Bon canal account for 76% of SONEDE's surface-water intake in the northern region (SRC-TG-428, p. 2-18; dated 2019 here, the last year JICA reports as observed rather than estimated).
+- **One canal dominates the north.** Withdrawals from the Medjerda-Cap Bon canal account for 76% of SONEDE's total water intake (SRC-TG-428, p. 2-18; the JICA sentence gives no year). The same passage says 84% of SONEDE's total withdrawals are purchased from SECADENORD.
 - **Demand on the canal grew fast.**
   > Le volume prélevé sur le Canal Medjerda Cap Bon a évolué de 205 Mm3 en 2008 à 317 Mm3 en 2017, soit 112 Mm3 (55%) de plus en 10 ans. (SRC-TG-402)
 - **Drinking water displaced irrigation on the canal.**
@@ -154,3 +155,7 @@ Timeframe is `past` because the decisions were made between the 1970s and 2011. 
 - Seawater desalination programme for Djerba, Gabès, Sfax and Sousse (SRC-TG-402), as an alternative to transfers.
 - Eau 2050 strategy (see SRC-TG-503).
 - SONEDE organisational strategic plan (PAPS-Eau), cited in SRC-TG-402.
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Checked against the national water report 2017 (SRC-TG-402: 37 dams and 2,285 Mm3 in section I; 95% target and 92% achieved; canal withdrawals 205 to 317 Mm3 and two-thirds drinking water; Tableaux 12, 23 and 24; 86.7% from SECADENORD works; 56 and 75 millimes/m3) and JICA vol. 1 (SRC-TG-428, p. 2-18: 82/12/6% split and the 76% statement), using local transcripts. Correction: the 76% canal share is a share of SONEDE's total water intake, not of northern surface-water intake, and the source gives no year; indicator and body text changed. The reviewer's objections to the SRC-TG-430 claims (1,800 Mm3 forecast, 19% and 42% shares) were not confirmed: the reviewer's local copy was a different document, and SRC-TG-430 pastes the exact extracts (paragraphs 8 and 14); those claims are listed under data_gaps as not independently reopened. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

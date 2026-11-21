@@ -115,7 +115,7 @@ indicators:
   - name: Irrigation water use per hectare, Saharan oases of Kébili and Tozeur (survey)
     value: 16813
     unit: "m3/ha/yr (3,633 in the Jeffara)"
-    year: 2012
+    year: "2011-2012 survey campaigns"
     geography: south-west
     source: SRC-TG-629
 stakeholders: [oasis extension farmers and investors, GDAs of the old oases, "CRDA Kébili", DGRE, "Ministry of Agriculture (MARHP)", collective-land management councils, ANME, STEG, solar installers, date collectors and exporters, Parliament]
@@ -130,6 +130,8 @@ data_gaps:
   - "Piezometric series specific to the Kébili CT and CI aquifers (DGRE annuaires piézométriques) were not found; only Rjim Maâtoug and Djerid trends are sourced (see FND-TG-626)."
   - "Groundwater salinity trends in the Nefzaoua CT (Zammouri et al. 2007, Hydrogeology Journal) could not be opened (HTTP 410 / paywall)."
   - "Tozeur illicit-well count: DGRE 2016 gives 20 unauthorised boreholes, local sources about 1,000 (SRC-TG-634); no primary inventory was found to settle it."
+  - "Not independently reopened: the PDF page numbers (88 and 111) given for the two RNE 2017 extracts above (SRC-TG-402); the text itself was confirmed in a local transcript because the original URL returned no content."
+  - "Not independently reopened: which survey campaign (2011 or 2012) the 16,813 m3/ha figure comes from (SRC-TG-629); the record states the 2011-2012 campaigns."
   - "Number of illicit boreholes in Kébili plugged or regularised per year was not found."
 author: TahaGHZ
 ---
@@ -155,7 +157,7 @@ The symptom is a deep-aquifer exploitation rate far above 100% and falling water
 - **Kébili, UNECE GIS model (SRC-TG-633).** Irrigation consumption is modelled at 307 Mm3/yr. This is far below DGRE figures, probably because the model's cropped-area mapping misses the extensions; it is not used as an indicator.
 - **Extension area (SRC-TG-631).** About 7,000 ha (1996), 26,020 ha (2016 official census, nearly double 2010) and 32,735 ha mapped in 2021. Earlier, illicit extensions in Kébili were 4,085 ha in 1995 (Hajji 1996, as cited in SRC-TG-634).
 - **Oasis surveys (SRC-TG-634).** Kébili 7,600 ha (1992), 15,960 ha (2001), 36,560 ha (2018); 64.5% of the national oasis area. "Oasis nouvelles privées" make up 37,387 of 56,654 ha nationally. Local sources quoted in the report estimate 9,000-10,000 illicit wells in Kébili after 2011, about twice the DGRE count.
-- **Water use.** A 2012 survey found 16,813 m3/ha in the Kébili-Tozeur oases against 3,633 m3/ha in the Jeffara. Private-access farms used about 7,000 m3/ha and collective schemes about 12,500 m3/ha (SRC-TG-629). Private extensions are therefore not necessarily the heaviest users per hectare; their impact comes from the area added.
+- **Water use.** A survey covering the 2011 and 2012 campaigns found 16,813 m3/ha in the Kébili-Tozeur oases against 3,633 m3/ha in the Jeffara. Private-access farms used about 7,000 m3/ha and collective schemes about 12,500 m3/ha (SRC-TG-629). Private extensions are therefore not necessarily the heaviest users per hectare; their impact comes from the area added.
 - **Consequences reported.** Farmers in the extensions report waterlogging and soil salinisation with no state drainage, and dig informal drains themselves (SRC-TG-631). Water quality is degrading near the chotts and pumping costs are rising as levels fall (SRC-TG-630).
 - **Ministry statements.** The 2017 national water report names the Kébili region among the places where private irrigation spreads through boreholes drilled without authorisation (RNE 2017, PDF p. 88). It reports growing water waste in Kébili oases after solar pumps were installed on illicit boreholes "qui ne peuvent avoir accès à un raccordement STEG" (RNE 2017, PDF p. 111). Both extracts belong to the document in SRC-TG-402 and are not yet in that record (see data_gaps). In 2021 the minister told parliament the ministry was grouping farmers with unauthorised wells in Kébili into water groups to control consumption (SRC-TG-484).
 
@@ -174,7 +176,7 @@ The study filed by the World Bank is of draft quality (see SRC-TG-630 notes), so
 ## Links to other sectors
 
 - **Agriculture (dates-oases):** the extensions produce about 80% of Kébili's Deglet Nour dates (SRC-TG-632). Kébili produced about 250,000 t of dates, as cited in SRC-TG-634. Soil salinisation and waterlogging in undrained extensions are already cutting palm productivity in places such as Om Somâa Sud (SRC-TG-631). Old oases lose labour and water as farmers concentrate on the extensions (SRC-TG-632).
-- **Energy:** most extension pumping is off-grid. STEG representatives "had no idea" of the scale of solar pumping and ignored the existence of the illicit extensions (SRC-TG-631). Energy planning and the ANME installer scheme therefore operate without regard to groundwater limits (SRC-TG-631). The UNECE model gives Tunisia about 67 GWh/yr of irrigation pumping energy in the SASS area, highest in Kébili and Tozeur (SRC-TG-633, model output).
+- **Energy:** most extension pumping is off-grid. STEG representatives had no idea (the source's "n'avaient aucune idée", our translation) of the scale of solar pumping and ignored the existence of the illicit extensions (SRC-TG-631). Energy planning and the ANME installer scheme therefore operate without regard to groundwater limits (SRC-TG-631). The UNECE model gives Tunisia about 67 GWh/yr of irrigation pumping energy in the SASS area, highest in Kébili and Tozeur (SRC-TG-633, model output).
 - **Water quality:** the same pumping is associated with salinisation of soils and the CT near the chotts (SRC-TG-630). Tap-water salinity is a separate topic (records 600-624).
 
 ## Leads for phase 2
@@ -187,3 +189,7 @@ The study filed by the World Bank is of draft quality (see SRC-TG-630 notes), so
 - India's solar-pump buy-back model (Shah et al. 2016), cited in SRC-TG-632.
 - Management "par les forages" or "par les superficies" as alternatives to metering (Bouzidi et al. 2023, cited in SRC-TG-632).
 - APIOS project (Amélioration des Périmètres Irrigués des Oasis du Sud), named in RNE 2017.
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Checked against the originals: RNE 2017 section V.1.2 (SRC-TG-402, local transcript); World Bank water-balance study Tableaux 3 and 4 (SRC-TG-630); FAO date-sector indicators Tableau 21 (SRC-TG-634); Ferchichi et al., Cahiers Agricultures 2024, sections 1, 2.1 and 3 (SRC-TG-631); Massire policy note pp. 2-3 (SRC-TG-632); OSS SASS report Tableau 5 text (SRC-TG-629); parliamentary hearing p. 13 (SRC-TG-484). All headline and indicator values confirmed. Corrections: the 16,813 m3/ha irrigation-use figure is dated to the 2011-2012 survey campaigns rather than 2012; the STEG "had no idea" wording is labelled as a translation; two items not independently reopened are listed in `data_gaps`. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

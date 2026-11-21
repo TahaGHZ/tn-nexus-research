@@ -195,3 +195,9 @@ No single past policy decision causes this finding. Policy decisions shape how t
 - Assisted infiltration of flood waters downstream of dams (225 Mm3 line in the Eau 2050 balance)
 - Water and soil conservation (CES) programmes
 - MARHP hydro-economic model (MHE) as a planning tool
+
+## Verification
+
+**Independent review, 21 November 2026:** pass. Originals checked: World Bank WDI series ER.H2O.INTR.PC (1961, 1990, 1991, 2022); AFD/PNA study (SRC-TG-504) section 3.1 hydrology, Table 6 (surface inflow), Table 8 (groundwater), climate section (precipitation -6% to -9%, warming effect 7-11%) and section 3.3 (11 dry vs 6 wet years); Eau 2050 synthesis (SRC-TG-503) balance table, "Scenario Eau et Développement Durable" (inflow 2,732 to 2,186 Mm3; 851 to 510 Mm3; groundwater 2,190 Mm3); CCDR French edition (SRC-TG-482) section 3.1.1 and footnote 82 (-41%, dry-year shares 52% and 79%); Besbes and Chahed (SRC-TG-510) Table 5 and text (-21%, -37%); World Bank NbS note (SRC-TG-506) Siliana section and introduction (500 m3 threshold). The CCDR -41% being absent from the AFD study (which gives 25-36% to 2050) and the fossil-aquifer statement (AFD p. 42-43) were also confirmed in the AFD text. No corrections.
+
+Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

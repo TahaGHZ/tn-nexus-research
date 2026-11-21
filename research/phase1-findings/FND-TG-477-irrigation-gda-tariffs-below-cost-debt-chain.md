@@ -1,6 +1,6 @@
 ---
 id: FND-TG-477
-title: Published data through 2021 show irrigation tariffs below reported costs in Tunisian public schemes
+title: Published data through 2021 show irrigation tariffs below reported costs in sampled Tunisian public schemes
 status: draft
 sectors:
   - water
@@ -70,25 +70,25 @@ indicators:
     value: 38
     unit: percent
     year: 2017
-    geography: national
+    geography: 'sample: 43 perimeters / 44 GDAs, 12 governorates (DGGREE study, 2015-2017)'
     source: SRC-TG-402
   - name: Average cost recovery by tariffs with renewal, jointly managed pumped public irrigated perimeters (13 PPI sampled)
     value: 23
     unit: percent
     year: 2017
-    geography: national
+    geography: 'sample: 43 perimeters / 44 GDAs, 12 governorates (DGGREE study, 2015-2017)'
     source: SRC-TG-402
   - name: Average cost recovery by tariffs without renewal, autonomous PPI-PMH (12 sampled)
     value: 64
     unit: percent
     year: 2017
-    geography: national
+    geography: 'sample: 43 perimeters / 44 GDAs, 12 governorates (DGGREE study, 2015-2017)'
     source: SRC-TG-402
   - name: Average cost recovery by tariffs with renewal, autonomous PPI-PMH (12 sampled)
     value: 39
     unit: percent
     year: 2017
-    geography: national
+    geography: 'sample: 43 perimeters / 44 GDAs, 12 governorates (DGGREE study, 2015-2017)'
     source: SRC-TG-402
   - name: Irrigation debts in public irrigated perimeters (total)
     value: 50
@@ -160,7 +160,7 @@ indicators:
     value: 0.71
     unit: TND/m3
     year: 2016
-    geography: national
+    geography: 'sample: 681 GDAs in 15 governorates (SRC-TG-487)'
     source: SRC-TG-487
 stakeholders:
   - farmers in public irrigated perimeters
@@ -203,12 +203,12 @@ author: TahaGHZ
 
 ## Problem
 
-Water from large dams delivered to public irrigation schemes, which cover 56% of the irrigable area, has been priced at 0.065 TND/m3 since 2004; in 2018 that covered only 15% of its cost (SRC-TG-482). Further down the chain, a ministry study of sampled public irrigated perimeters found that "whatever the situation", tariffs do not let managers cover their costs: average recovery ranges from 64% (39% with renewal) in autonomous schemes to 38% (23%) in jointly managed pumped schemes, 22-25% in oases and 12% in schemes using treated wastewater (SRC-TG-402, p. 90). Unpaid bills pile up along a chain from farmers to GDAs to CRDAs, STEG and SONEDE: in 2016 irrigation debts in public perimeters totalled 50 million TND, 37 million of it owed by GDAs (SRC-TG-402, p. 91). Rural drinking-water GDAs show the same pattern: their average cost (0.863 TND/m3) exceeds their average tariff (0.730 TND/m3), they owe 10.7 million TND (7.7 million to STEG), and only 20% cover the full maintenance of their systems (SRC-TG-484, p. 16).
+Water from large dams delivered to public irrigation schemes, which cover 56% of the irrigable area, has been priced at 0.065 TND/m3 since 2004; in 2018 that covered only 15% of its cost (SRC-TG-482). Further down the chain, a ministry diagnostic of a sample of 43 public irrigated perimeters / 44 GDAs in 12 governorates found that "whatever the situation", tariffs do not let managers cover their costs: average recovery ranges from 64% (39% with renewal) in autonomous schemes to 38% (23%) in jointly managed pumped schemes, 22-25% in oases and 12% in schemes using treated wastewater (SRC-TG-402, p. 90). Unpaid bills pile up along a chain from farmers to GDAs to CRDAs, STEG and SONEDE: in 2016 irrigation debts in public perimeters totalled 50 million TND, 37 million of it owed by GDAs (SRC-TG-402, p. 91). Rural drinking-water GDAs show the same pattern: their average cost (0.863 TND/m3) exceeds their average tariff (0.730 TND/m3), they owe 10.7 million TND (7.7 million to STEG), and only 20% cover the full maintenance of their systems (SRC-TG-484, p. 16).
 
 ## Root causes
 
 - **Symptom:** GDA debts, cuts by STEG, and degrading schemes are symptoms. The causes are below.
-- **Prices fixed by the State and frozen (policy, legacy).** Irrigation water supply and pricing in public perimeters are set by decree on the Agriculture minister's proposal (art. 106 bis of the code, added 1988, SRC-TG-406). The dam water price has not moved since 2004 (SRC-TG-482). When the CRDA sells the water itself, the State does not allow it to raise its prices, and CRDAs do not encourage GDAs to raise theirs despite visible annual imbalances (SRC-TG-485, pp. 28-29).
+- **Prices fixed by the State and frozen (policy, legacy).** Irrigation water supply and pricing in public perimeters are set by decree on the Agriculture minister's proposal (art. 106 bis of the code, added 1988, SRC-TG-406). The dam water price has not moved since 2004 (SRC-TG-482). When the CRDA sells the water itself, the State does not allow it to raise its prices, and CRDAs do not encourage GDAs to raise theirs despite visible annual imbalances (SRC-TG-485, pp. 28-29). The 1991 cahier des charges (decree 91-1869), cited in SRC-TG-485, is described there as obsolete for water sold to GDAs; its current text was not opened.
 - **Preferential and flat-rate tariffs (policy, 1998).** The preferential tariff introduced in 1998 (50% of the normal price for "strategic" crops, 20 millimes/m3 for treated wastewater) works as a subsidy, and the cheap water is often used on other crops (SRC-TG-402, p. 91). In Bizerte, the farmer price is halved (70 instead of 140 millimes/m3) but the GDA's purchase price only falls from 110 to 55 millimes/m3, so the GDA bears 15 millimes/m3 of the subsidy (SRC-TG-485, p. 30). Flat-rate sales where meters are missing or destroyed remove any incentive to save water (SRC-TG-402, p. 91).
 - **Transfer without means (institutional, from 1987).** Rural water systems have been entrusted to user groups since 1987, run by elected volunteer boards that must cover operation and maintenance (SRC-TG-484, p. 16). Members of parliament blamed their debts to SONEDE and STEG, weak supervision and mismanagement on this voluntary basis and on the lack of a legal framework (SRC-TG-484, pp. 11, 17). The CCDR says the 2,500 GDAs lack technical and operational capacity, which "prevents cost recovery" (SRC-TG-482, p. 26). CRDAs themselves have low budgets, so they cannot maintain the upstream works they still manage, and they struggle to recover the sums GDAs owe them (SRC-TG-485, p. 51).
 - **Non-payment and resistance to price rises (behavioural).** Unpaid member bills explain most GDA financial difficulties; farmers contest price increases (SRC-TG-485, pp. 28-29). After 2011, reluctance to pay and vandalism of meters worsened the drinking-water groups' situation (SRC-TG-465, tier C).
@@ -251,4 +251,6 @@ The pricing facts and the debt mechanism rest on a ministry report (tier A), the
 
 The price, cost-recovery and group-debt figures are tied to their source years and survey populations. The title and period now refer to the historical evidence through 2021. No later national tariff, debt trajectory or maintenance outcome is inferred.
 
-**Outstanding verification:** The evidence is scoped to historical prices. The underlying tariff instrument and a national cost-recovery denominator have not been independently confirmed.
+**Independent review, 21 November 2026:** pass after corrections but remains draft. Checked SRC-TG-406 (art. 106 bis), SRC-TG-485 (decree 91-1869, described as obsolete for GDA supply), SRC-TG-402 (section XIII.1, Tableau 26: sample of 43 perimeters / 44 GDAs in 12 governorates; 38/23 and 64/39), and SRC-TG-402 irrigation debts. Corrections: title and geography of cost-recovery and 0.71 TND/m3 indicators changed from national to sample scope; decree 91-1869 status added.
+
+**Outstanding verification:** The code-level instrument is art. 106 bis (decree-approved cahier des charges); the 1991 decree 91-1869 was not opened and is described in the CIRAD guide as obsolete for GDA supply; the cost-recovery figures come from a 2015-2017 diagnostic sample, not a national denominator; the text of the current cahier des charges and a national cost-recovery denominator would settle it.

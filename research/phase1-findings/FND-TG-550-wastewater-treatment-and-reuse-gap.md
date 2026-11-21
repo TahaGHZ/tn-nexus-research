@@ -21,8 +21,8 @@ root_causes:
     legacy_decision: false
     sources:
       - SRC-TG-558
-  - cause: 'Reuse also depends on conveyance and matching treated-water locations with uses: the Secretary of State for Water told the parliamentary
-      committee that 42% of treated water was in Greater Tunis and that transfer lines were needed to facilitate its use. The report does not
+  - cause: 'Reuse also depends on conveyance and matching treated-water locations with uses: the parliamentary committee report records a statement
+      that 42% of treated water was in Greater Tunis and that transfer lines were needed to facilitate its use. The report does not
       quantify how much this spatial constraint reduces reuse (SRC-TG-559).'
     type: institutional
     legacy_decision: false
@@ -44,13 +44,13 @@ indicators:
   - name: Treated wastewater reported reused annually by ONAS in its review of achievements to end-2023
     value: '57'
     unit: million m3/year
-    year: reference year unspecified; reported in 2024
+    year: to end-2023; reported in 2024
     geography: national
     source: SRC-TG-559
   - name: Treated wastewater reported treated annually by ONAS in its review of achievements to end-2023
     value: '293'
     unit: million m3/year
-    year: reference year unspecified; reported in 2024
+    year: to end-2023; reported in 2024
     geography: national
     source: SRC-TG-559
   - name: Share of treated water reported located in Greater Tunis
@@ -92,10 +92,10 @@ data_gaps:
     125 plants, 28 with tertiary treatment and about 21% recycled; the 21% combines environmental protection, agriculture and irrigation and is
     not an irrigation-only rate.
   - The 2024 parliamentary committee report records ONAS's review of achievements to end-2023 and calls 57 and 293 million m3 annual volumes,
-    but does not specify the observation year or provide an independently auditable series. The 57/293 ratio should not be treated as a verified
+    but does not provide an independently auditable series. The 57/293 ratio should not be treated as a verified
     reuse rate or as directly comparable with the 2021 approximately 21% figure until definitions and periods are confirmed.
-  - The committee states that 42% of treated water is in Greater Tunis and that transfer lines are needed; the geographical denominator, measurement
-    year and underlying distribution series are not supplied in the cited passage.
+  - The committee report records the statement that 42% of treated water is in Greater Tunis and that transfer lines are needed; the speaker's office
+    is not identifiable from the cited pages, and the geographical denominator, measurement year and underlying distribution series are not supplied.
   - The committee records a 2 July 2022 inter-ministerial circular formalising agricultural reuse. Its existence indicates a policy framework,
     but the evidence reviewed does not quantify implementation, compliance, uptake or water-quality outcomes.
   - No verified national measurement was located for actual agricultural reuse or uptake by irrigation perimeters such as Borj Touil. The World
@@ -108,21 +108,21 @@ author: TahaGHZ
 
 The national sector report gives actual irrigation use and area for 2023/24 (SRC-TG-530). These figures are narrower than national all-purpose reuse.
 
-Treated wastewater reuse in Tunisia remains limited in the available national evidence, while reported infrastructure and location constraints affect whether effluent can be reused. JICA's 2023 preparatory report, citing ONAS (2021), states that 28 of 125 ONAS plants had tertiary treatment and about 21% of treated wastewater was recycled for environmental protection, agriculture and irrigation; it says most was discharged to rivers and other water bodies (SRC-TG-558). In 2024, ONAS officials told a parliamentary committee that their review of achievements to end-2023 recorded 293 million m3 treated and 57 million m3 reused annually, but the report does not specify the observation year for these annual volumes (SRC-TG-559). The 2021 and committee figures are distinct reported series and do not establish a trend or a verified agricultural reuse rate.
+Treated wastewater reuse in Tunisia remains limited in the available national evidence, while reported infrastructure and location constraints affect whether effluent can be reused. JICA's 2023 preparatory report, citing ONAS (2021), states that 28 of 125 ONAS plants had tertiary treatment and about 21% of treated wastewater was recycled for environmental protection, agriculture and irrigation; it says most was discharged to rivers and other water bodies (SRC-TG-558). In 2024, ONAS officials told a parliamentary committee that their review of achievements to end-2023 recorded 293 million m3 treated and 57 million m3 reused annually, with the figures tied to that end-2023 review (SRC-TG-559). The 2021 and committee figures are distinct reported series and do not establish a trend or a verified agricultural reuse rate.
 
 ## Root causes
 
-JICA's report links the low reuse share to lower effluent quality at plants without tertiary treatment; this is the report's explanation based on ONAS (2021), not an independently established causal estimate (SRC-TG-558). Reuse also requires conveyance to users: the Secretary of State for Water told the committee that 42% of treated water was located in Greater Tunis and transfer lines were needed to facilitate its use (SRC-TG-559). The source does not quantify the effect of either constraint. The committee also records the Environment Minister's statement that agricultural reuse had been formalised from 2 July 2022 through a joint circular of the environment, agriculture and health ministries; the evidence here does not establish how fully it was implemented (SRC-TG-559).
+JICA's report links the low reuse share to lower effluent quality at plants without tertiary treatment; this is the report's explanation based on ONAS (2021), not an independently established causal estimate (SRC-TG-558). Reuse also requires conveyance to users: the committee report records a statement that 42% of treated water was located in Greater Tunis and transfer lines were needed to facilitate its use (SRC-TG-559). The source does not quantify the effect of either constraint. The committee report also records a statement that agricultural reuse had been formalised from 2 July 2022 through a joint circular of the environment, agriculture and health ministries; the evidence here does not establish how fully it was implemented (SRC-TG-559).
 
 ## Evidence
 
-JICA's December 2023 preparatory report gives national figures attributed to ONAS (2021): 125 operating plants, 28 equipped with tertiary treatment, and about 21% of treated wastewater recycled for environmental protection, agriculture and irrigation. The report links lower effluent quality at non-tertiary plants to the reported reuse share, but the underlying ONAS dataset was not separately opened (SRC-TG-558). In the 2024 committee report, the acting ONAS director general's end-2023 review gives separate annual volumes of 293 million m3 treated and 57 million m3 reused. These are officials' statements recorded in a parliamentary report, not an audited statistical series, and the passage does not explicitly identify their observation year (SRC-TG-559). The Secretary of State for Water's 42% Greater Tunis figure and call for transfer lines are likewise reported statements; the passage supplies no denominator definition or measurement year (SRC-TG-559).
+JICA's December 2023 preparatory report gives national figures attributed to ONAS (2021): 125 operating plants, 28 equipped with tertiary treatment, and about 21% of treated wastewater recycled for environmental protection, agriculture and irrigation. The report links lower effluent quality at non-tertiary plants to the reported reuse share, but the underlying ONAS dataset was not separately opened (SRC-TG-558). In the 2024 committee report, the acting ONAS director general's end-2023 review gives separate annual volumes of 293 million m3 treated and 57 million m3 reused. These are officials' statements recorded in a parliamentary report, not an audited statistical series, and they are tied to the review of achievements to end-2023 (SRC-TG-559). The 42% Greater Tunis figure and call for transfer lines are likewise reported statements; the passage supplies no denominator definition or measurement year (SRC-TG-559).
 
 For the Northern Tunis project, the World Bank says flow regulation at the El Hissiene basin made millions of cubic metres of recycled water available to about 500 farmers in Borj Touil, and reports that plots of three farmers were irrigated with treated wastewater. This project-level account documents availability and demonstration use, not total farmer uptake or a national reuse volume (SRC-TG-556).
 
 ## Why confidence is what it is
 
-Confidence is medium. JICA's institutional report and the parliamentary committee report support the existence and scale of a reuse constraint, and identify technical and conveyance issues. The national figures are reported through secondary institutional documents: the underlying ONAS (2021) data were not separately inspected, while the 2024 volumes and spatial share are statements recorded in committee proceedings. Their reference periods and definitions are incomplete. World Bank project reporting is useful for the Northern Tunis case but does not measure actual uptake at scale. No comparable, independently verified series establishes a trend or agricultural reuse rate.
+Confidence is medium. JICA's institutional report and the parliamentary committee report support the existence and scale of a reuse constraint, and identify technical and conveyance issues. The national figures are reported through secondary institutional documents: the underlying ONAS (2021) data were not separately inspected, while the 2024 volumes and spatial share are statements recorded in committee proceedings. Their definitions are incomplete and the 2021 and end-2023 reference periods differ. World Bank project reporting is useful for the Northern Tunis case but does not measure actual uptake at scale. No comparable, independently verified series establishes a trend or agricultural reuse rate.
 
 ## Links to other sectors
 
@@ -136,3 +136,5 @@ Reuse could provide irrigation water and potentially substitute for freshwater w
 ## Verification
 
 The national water report records about 11.3 million m³ reused for irrigation from 295 million m³ treated and 2,778 ha actually irrigated in 2023/24. The larger all-purpose reuse figures refer to different uses and cannot be substituted. Sources: SRC-TG-530 and SRC-TG-559.
+
+**Independent review, 21 November 2026:** pass after corrections. Checked against the originals: RNE 2024 (SRC-TG-530) Tables VI.5 and VI.6 and the reuse text; JICA December 2023 (SRC-TG-558) national background section; the parliamentary committee report on bill 30/2024 (SRC-TG-559) pp. 7, 9 and 11; the World Bank Northern Tunis feature, 30 August 2022 (SRC-TG-556). Corrections: the 57 and 293 million m3 figures are now dated to the review of achievements to end-2023 as the source states (the "reference year unspecified" wording is removed from the indicators, `data_gaps`, body); the 42% statement and the 2 July 2022 circular are no longer attributed to named office-holders because the cited pages do not name the speakers. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

@@ -1,7 +1,7 @@
 ---
 id: FND-TG-450
 title: SONEDE records about two-thirds of production as consumed; ageing pipes and slow renewal threaten network performance
-status: draft
+status: in-review
 sectors:
   - water
 theme: drinking-water
@@ -25,8 +25,8 @@ root_causes:
       - SRC-TG-455
       - SRC-TG-402
       - SRC-TG-453
-  - cause: SONEDE extended the network substantially each year while rehabilitating about 200 km per year; the ministry says this pace made long-term
-      reduction in losses and breaks unlikely
+  - cause: SONEDE extended the network substantially each year while rehabilitating about 200 km per year; the ministry finds it hard to envisage that
+      losses and breaks from ageing pipes can be reduced in the long term
     type: policy
     legacy_decision: false
     sources:
@@ -172,9 +172,9 @@ In 2023 SONEDE reported 773.3 Mm3 produced, 667.9 Mm3 distributed and 516.0 Mm3 
 
 The symptom is the volume lost. The causes are as follows.
 
-1. **An old network, renewed slowly.** In 2009 the World Bank noted that the assets SONEDE inherited and built in its first years were ageing, especially grey cast-iron mains and lead connections, and needed urgent renewal (SRC-TG-455). In 2017 the ministry reported that more than a quarter of pipes were over 37 years old. At 200 km of rehabilitation a year, it judged that losses and breaks "are unlikely to fall in the long term" (SRC-TG-402). At that pace, renewing the 48,241 km distribution network of 2023 (SRC-TG-453) would take more than two centuries (derived).
-2. **Extension ahead of renewal (inferred).** The ministry notes that SONEDE "réalise des extensions de réseau importantes chaque année" to meet demand (SRC-TG-402), while renewal stays at about 200 km a year. Reports recorded 12,364 breaks in 2004 (SRC-TG-455) and 13,869 in 2013 and 20,375 in 2017 (SRC-TG-402); SONEDE reported 22,191 breaks repaired in 2023 (SRC-TG-453). These categories are not strictly comparable and do not establish a continuous rise. The network kept growing over the same period (transmission plus distribution length went from 58,001 km in 2022 to 58,546 km in 2023, derived from SRC-TG-453). The 2017 report ties the 2017 fall in efficiency directly to the rise in breaks (SRC-TG-402). A 2026 press interview attributes a progressive State withdrawal from infrastructure financing to 1995–1996 (SRC-TG-467, tier C); this is one expert’s attribution and does not establish the cause of the reported rehabilitation pace.
-3. **Possible physical and commercial losses, not quantified here.** The 2025 RVO inventory repeats an undated estimate of physical losses up to 24% nationally and 30% in some regions, plus about 8% unauthorised consumption (SRC-TG-456); its underlying source and reference year are not stated. It also records a Gabès stakeholder interview saying 30 million m³ sold was 55% of distributed volume, with 45% described as losses from leaks, fraud, meter shutdown and other causes. These are secondary and interview-based estimates, not a harmonised or independently measured loss series. A 2026 press interview quotes an expert estimate of 20–25% injected water lost (120–130 Mm³/year) and more than 100,000 faulty meters; the latter is expressly based on information available to him (SRC-TG-467, tier C). None is treated as a confirmed national rate.
+1. **An old network, renewed slowly.** In 2009 the World Bank noted that the assets SONEDE inherited and built in its first years were ageing, especially grey cast-iron mains and lead connections, and needed urgent renewal (SRC-TG-455). In 2017 the ministry reported that more than a quarter of pipes were over 37 years old. At 200 km of rehabilitation a year, the ministry wrote that it is hard to envisage that losses and breaks caused by ageing pipes can be reduced in the long term (SRC-TG-402). At that pace, renewing the 48,241 km distribution network of 2023 (SRC-TG-453) would take more than two centuries (derived).
+2. **Extension ahead of renewal (inferred).** The ministry notes that SONEDE "réalise des extensions de réseau importantes chaque année" to meet demand (SRC-TG-402), while renewal stays at about 200 km a year. Reports recorded 12,364 breaks in 2004 (SRC-TG-455) and 13,869 in 2013 and 20,375 in 2017 (SRC-TG-402); SONEDE reported 22,191 breaks repaired in 2023 (SRC-TG-453). These categories are not strictly comparable and do not establish a continuous rise. The network kept growing over the same period (transmission plus distribution length went from 58,001 km in 2022 to 58,546 km in 2023, derived from SRC-TG-453). The 2017 report says the fall in efficiency "peut être attribuée" (may be attributed) to the rise in breaks (SRC-TG-402). A 2026 press interview attributes a progressive State withdrawal from infrastructure financing to 1995–1996 (SRC-TG-467, tier C); this is one expert’s attribution and does not establish the cause of the reported rehabilitation pace.
+3. **Possible physical and commercial losses, not quantified here.** The 2025 RVO inventory repeats an undated estimate of physical losses up to 24% nationally and 30% in some regions, plus about 8% unauthorised consumption (SRC-TG-456); its underlying source and reference year are not stated. It also records, in a stakeholder-workshop table, a Gabès case saying 30 million m³ sold was 55% of distributed volume, with 45% described as losses from leaks, fraud, meter shutdown and other causes. These are secondary, workshop-based and expert estimates, not a harmonised or independently measured loss series. A 2026 press interview quotes an expert estimate of 20–25% injected water lost (120–130 Mm³/year) and more than 100,000 faulty meters; the latter is expressly based on information available to him (SRC-TG-467, tier C). None is treated as a confirmed national rate.
 
 Low tariffs and SONEDE's financial deficit, which limit its capacity to invest, are covered by the tariffs lane (FND-TG-476). They are noted here only as a cause.
 
@@ -184,7 +184,7 @@ Low tariffs and SONEDE's financial deficit, which limit its capacity to invest, 
 - **Official overall efficiency.** 70.7% (2015), 71.5% (2016) and 70.3% (2017), "after several consecutive years of decline" before 2015 (SRC-TG-402). Distribution efficiency was 76.3% in 2017, and again 76.3% in 2021 (SRC-TG-402, SRC-TG-453). It was about 76-78% in both 2017 and 2021-2023; no data for 2018-2020 was found.
 - **Recoverable volume.** SONEDE estimated in 2017 that recovering real losses would save about 86 Mm3 a year. That is about 20% of water consumed and billed, and more than the capacity of the four seawater desalination plants then under way (SRC-TG-402).
 - **Repairs.** 209,090 leaks and 22,191 breaks were repaired in 2023, about 4 per km of network (SRC-TG-453). These are repair counts, not necessarily unique incidents or directly comparable with older recorded-break totals.
-- **Regional extremes.** Distribution efficiency in 2017 was 53.1% in Tataouine, 57.4% in Gabès, 63.5% in Médenine and 59% in Gafsa, against 83% in Jendouba (SRC-TG-402). In Gabès, a 2025 stakeholder interview gives 45% of distributed water as not sold (SRC-TG-456, interview note).
+- **Regional extremes.** Distribution efficiency in 2017 was 53.1% in Tataouine, 57.4% in Gabès, 63.5% in Médenine and 59% in Gafsa, against 83% in Jendouba (SRC-TG-402). In Gabès, the 2025 RVO inventory states non-revenue water of up to 45% in specific southern districts, attributed to physical leaks, commercial inaccuracies and unauthorised withdrawals (SRC-TG-456, section I.2); a stakeholder-workshop table in the same report gives the same 45% for Gabès (SRC-TG-456).
 
 **These figures describe different measures and evidence types; they should not be combined or quoted interchangeably:**
 
@@ -223,6 +223,6 @@ Break counts compare "casses" (2004, 2013, 2017) with "casses réparées" (2023)
 
 ## Verification
 
-The 2023 SONEDE statistical summary distinguishes produced, distributed, and billed plus unbilled consumed volumes. The production-to-consumption gap cannot be used as a direct measurement of physical leaks. Primary data do not establish a national breakdown by cause.
+The 2023 SONEDE chart page (SRC-TG-453) gives produced and consumed volumes but does not define "consumed" and does not separate billed from unbilled volume. No original reviewed gives a national physical/commercial loss split for a stated year. The 2017 national report (SRC-TG-402) names real and apparent losses as PAP targets without quantifying them; its 59% figure is the company's share of distribution losses that are recoverable, not a physical share. The only national physical-loss figure found (up to 24%, plus about 8% unauthorised) is undated and unsourced (SRC-TG-456). Attribution of breaks and losses to ageing pipes is supported qualitatively by the ministry (2017) and the World Bank (2009); it is not quantified.
 
-**Outstanding verification:** The production-to-consumption arithmetic and official definitions are documented; the national physical/commercial split and attribution to network age remain unverified.
+**Independent review, 21 November 2026:** pass after corrections. Checked SRC-TG-402 (Rapport national 2017, SONEDE section, pp. 75-78, efficiency, breaks, ageing, 86 Mm3), SRC-TG-455 (World Bank 2009, drinking-water section), SRC-TG-456 (RVO 2025, sections I.1 and I.2 and workshop table) and SRC-TG-453 (2021-2023 chart values as recorded in the source record). Corrections: ministry judgement reworded from a quotation to its own wording; "ties directly" changed to "may be attributed"; Gabès 45% re-attributed to the RVO text; verification text no longer says the SONEDE page separates billed and unbilled volume. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

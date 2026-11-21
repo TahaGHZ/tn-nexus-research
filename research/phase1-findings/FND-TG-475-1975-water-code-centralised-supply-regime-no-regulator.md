@@ -50,7 +50,7 @@ indicators:
     year: 2015
     geography: national
     source: SRC-TG-479
-  - name: Water Code promulgation year (Law 75-16)
+  - name: Water Code promulgation year (Loi n°16-75)
     value: 1975
     unit: year
     year: 1975
@@ -83,6 +83,7 @@ sources:
   - SRC-TG-484
   - SRC-TG-488
 data_gaps:
+  - not independently reopened: 18 March 1975 adoption date (SRC-TG-406); only the 31 March 1975 promulgation date and 1 April 1975 JORT date appear in the copy opened.
   - Published text of bill 66/2019 and of the 2026 amended draft (articles on tariffs and on the regulator); only the committee report was opened.
   - Primary source for the interruption of the parliamentary process in July 2021 (only press, SRC-TG-488).
   - Mobilisation rate from a ministry series rather than from the OTE brief citing a book (Elloumi 2018).
@@ -93,7 +94,7 @@ author: TahaGHZ
 
 ## Problem
 
-Tunisia’s Water Code was promulgated by Law 75-16 of 31 March 1975 (SRC-TG-406). In the consolidated text inspected, it assigns administration of the public water domain to the Minister of Agriculture (article 4) and provides for specific charges or tariffs through revisable ministerial scales, ministerial orders and decree-approved specifications (articles 63, 92 and 106 bis); it does not establish the actual tariff levels in those provisions (SRC-TG-406). OTE reports that 98% of mobilisable resources had been mobilised nationally in 2015, attributing the figure to a cited 2018 book; this is a reported estimate, not a directly inspected administrative series (SRC-TG-479). The official Assembly committee report says a replacement bill was referred on 3 October 2019 and committee work ended on 18 June 2021 (SRC-TG-484). WMC attributes to the Agriculture Ministry a transmission of an amended draft on 30 June 2026 and reports that it still awaited Council of Ministers review as of 9 August 2026; this tier C account does not establish current legal status (SRC-TG-488). Current tariff and debt consequences are addressed in FND-TG-476 and FND-TG-477.
+Tunisia’s Water Code was promulgated by Loi n°16-75 of 31 March 1975 (SRC-TG-406). In the consolidated text inspected, it assigns administration of the public water domain to the Minister of Agriculture (article 4) and provides for specific charges or tariffs through revisable ministerial scales, ministerial orders and decree-approved specifications (articles 63, 92 and 106 bis); it does not establish the actual tariff levels in those provisions (SRC-TG-406). OTE reports that 98% of mobilisable resources had been mobilised nationally in 2015, attributing the figure to a cited 2018 book; this is a reported estimate, not a directly inspected administrative series (SRC-TG-479). The official Assembly committee report says a replacement bill was referred on 3 October 2019 and committee work ended on 18 June 2021 (SRC-TG-484). WMC attributes to the Agriculture Ministry a transmission of an amended draft on 30 June 2026 and reports that it still awaited Council of Ministers review as of 9 August 2026; this tier C account does not establish current legal status (SRC-TG-488). Current tariff and debt consequences are addressed in FND-TG-476 and FND-TG-477.
 
 ## Root causes
 
@@ -105,7 +106,7 @@ Tunisia’s Water Code was promulgated by Law 75-16 of 31 March 1975 (SRC-TG-406
 
 ## Evidence
 
-- Law 75-16, adopted 18 March 1975, JORT no. 22 of 1 April 1975 (SRC-TG-406, p. 5).
+- Loi n°16-75 of 31 March 1975 promulgating the Water Code, JORT no. 22 of 1 April 1975, p. 612 (SRC-TG-406).
 - Art. 4: the public water domain is administered by the Minister of Agriculture, assisted by a National Water Council (SRC-TG-406, p. 8). The OTE says the council has been "barely active since its creation" (SRC-TG-479, p. 1).
 - Art. 63: the charge on water withdrawals is a revisable scale set by joint order of the Agriculture and Finance ministers (SRC-TG-406, p. 26). Art. 92: domestic use above norms pays a progressive tariff (p. 36). Art. 106 bis (added 1988, amended 2001): irrigation water supply and pricing in public perimeters by CRDAs is set by a decree-approved specification (p. 40).
 - 98% of mobilisable resources mobilised in 2015 (SRC-TG-479, p. 3).
@@ -140,4 +141,6 @@ The legal facts rest on tier A texts (code, ARP report). The causal claim that t
 
 The historical statute and legislative filing are dated separately. The ARP’s filing date takes precedence over press accounts; disputed revision-start dates and the current status of the replacement bill are outside the verified historical claim.
 
-**Outstanding verification:** Historical legal claims are dated. A current authoritative legal-status check for the replacement code remains outstanding.
+**Independent review, 21 November 2026:** not passed. Checked SRC-TG-406 (promulgation text, law number, date, JORT reference), SRC-TG-484 (ARP committee report, p. 1 dates: 3 Oct 2019, 26 Dec 2019, 18 Jun 2021) and SRC-TG-479 (98% in 2015). Corrections: law number written Loi n°16-75 as in the official text; the unconfirmed 18 March 1975 adoption date removed.
+
+**Outstanding verification:** Law number, 31 March 1975 promulgation and the 2019-2021 ARP filing dates were checked against SRC-TG-406 and SRC-TG-484; the current status of the replacement code is not settled (press of 17-19 Nov 2026 says only "advanced stage"); a Council of Ministers communiqué, an ARP bill registry entry or a ministry statement of the draft's stage after 9 August 2026 would settle it.

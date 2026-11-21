@@ -69,7 +69,7 @@ related: [FND-TG-477, FND-TG-525, FND-TG-526, FND-TG-450, FND-TG-400]
 sources: [SRC-TG-402, SRC-TG-430, SRC-TG-528, SRC-TG-529, SRC-TG-530]
 data_gaps:
   - "Efficiency figures come from a sample of PPIs diagnosed in the DGGREE tariff study (SRC-TG-402) and from a 2022 programme estimate (SRC-TG-528). No national, annually measured efficiency series for public perimeters was found. The split between physical and administrative losses is not quantified."
-  - "No efficiency data for private irrigated perimeters (close to 50% of irrigated area, SRC-TG-529), which are outside rehabilitation projects."
+  - "No efficiency data for private irrigated perimeters (192,000 of 442,500 ha, about 43% of irrigated area, SRC-TG-529; the same report elsewhere says the share approaches 50%), which are outside rehabilitation projects."
   - "Number of meters installed or replaced per year and the post-2017 meter coverage rate were not found."
   - "Total PPI rehabilitation needs (ha, MTND) against annual budgets were not found. Only 2022 figures exist: 58,000 ha under way for 909 MTND, and 22.2 MTND for maintenance."
   - "Sources disagree on intensification: the 2017 report calls PPI use 'insatisfaisante', with under-use of equipped areas (SRC-TG-402, p. 72); the 2024 report gives an average intensification of about 90% (SRC-TG-530). Definitions are not given in the passages read."
@@ -93,7 +93,7 @@ In Tunisia's public irrigated perimeters (PPI, about 250,000 ha in 2022, SRC-TG-
 - Efficiency in diagnosed PPIs: 38-100%, mean 59%, over 2010-2016 (SRC-TG-402, p. 71). About 50% in the 2022 report, with a target of 70% by 2035 (SRC-TG-528, pp. 34, 78). These are different samples and definitions, not a time series.
 - Large northern PPIs: in 2007 the ministry reported the "situation paradoxale" that irrigation demand "dépasse rarement 60% des allocations" (SRC-TG-430, p. 12). In 2021-22, 84% of the dam quota was consumed (SRC-TG-528). By then quotas were far below needs, so under-use of allocations had turned into shortage (FND-TG-526).
 - Utilisation and intensification of the perimeters: the 2017 report calls water use in PPIs "insatisfaisante", with under-use of equipped areas and low intensification (SRC-TG-402, p. 72). The 2024 report gives an average intensification rate of about 90%, "très variable d'un périmètre à un autre" (SRC-TG-530, p. 7). **These two statements disagree**, and the definitions are not given. Both are recorded.
-- Coverage: rehabilitation projects concern public perimeters only. Private perimeters, "close to 50%" of irrigated area, are not covered (SRC-TG-529, p. 83).
+- Coverage: rehabilitation projects concern public perimeters only. Private perimeters, 192,000 of 442,500 ha or about 43% of irrigated area (SRC-TG-529; the report also says they approach 50%, p. 83), are not covered.
 
 **Representativeness.** The 59% figure comes from a sample of diagnosed perimeters. The 50% figure is a programme statement about PPIs in 2022, not a census of all schemes. Neither is a national annual efficiency series. Private perimeters are outside the rehabilitation estimate.
 
@@ -115,3 +115,9 @@ Medium. The ministry reports the efficiency estimates, but one is a diagnosed sa
 - Metering campaigns, CRDA penalties for meter tampering, the circular of 22 March 2021 on cutting water for non-payment (SRC-TG-402, SRC-TG-528).
 - Institutional options study (public company, mixed company, user group) for PPI management (SRC-TG-402).
 - Computerised regional PPI monitoring system (SRC-TG-402).
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Originals checked, through local text transcripts of the PDFs: RNSE 2017 (SRC-TG-402) p. 71 (efficiency 38-100%, mean 59% for 2010-2016, norm about 10% losses, about 40% of irrigators with meters, vandalism after 2011), p. 70 (durée de vie modeste), p. 72 (insatisfaisante, informal equipment market); RNE 2022 (SRC-TG-528) p. 34 (70% by 2035 from nearly 50%), pp. 77-78 (58,000 ha and 909 MTND, delays, 18.9 MTND budget with half postponed, 22.2 MTND maintenance, 1,358 stations), p. 76 (CRDAs receiving less than quota); RNE 2024 (SRC-TG-530) p. 7 (intensification about 90%); RNE 2023 (SRC-TG-529) p. 83 and the summary at transcript lines 2921-2922 (private perimeters). Corrections: the private-perimeter share restated as 192,000 of 442,500 ha (about 43%), noting the report's own wording that it approaches 50%, in the data gaps and the Evidence section. Not all printed page numbers were checked against the page markers; the text was.
+
+Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

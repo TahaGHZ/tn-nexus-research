@@ -77,9 +77,9 @@ indicators:
     geography: centre-west
     source: SRC-TG-403
   - name: Total groundwater withdrawals (shallow and deep)
-    value: "under 1,200 (1985) to about 1,900 (c. 2007)"
-    unit: Mm3/yr
-    year: 2007
+    value: "under 1,200 (1985) to about 1,900 (c. 2008)"
+    unit: "Mm3/yr (c. 2008: the 2008 study says 'actuellement')"
+    year: 2008
     geography: national
     source: SRC-TG-404
   - name: Wells in Kharrouba-El Maloussy (Sidi Bouzid)
@@ -130,7 +130,7 @@ The symptom is an exploitation rate above 100% and falling water tables. The cau
 
 1. **Free access to shallow groundwater in the 1975 Water Code.** Article 9 of Law 75-16 lets anyone dig a well or borehole up to 50 m deep without prior authorisation, outside decreed prohibition or safeguard perimeters. The owner only has to inform the administration (SRC-TG-406). Decree 78-814 of 1978 requires authorisation only beyond 50 m (SRC-TG-406). The 2001 official edition prints Article 9 without the "(nouveau)" marker used for amended articles, so the rule appears to be original 1975 text (SRC-TG-406, notes). *Our inference, not stated in any opened source:* in central Tunisia the productive shallow aquifers lie within this depth, so for decades the bulk of shallow pumping was legally unregulated. The Kairouan model paper supports the general point. It defines shallow wells as those under 50 m and says recent studies point to "legislation related to groundwater access" as a main factor (SRC-TG-408).
 2. **State incentives for private irrigation.** State incentives (subsidised credit, diesel, fertiliser, rural electrification) facilitated private irrigation wells in arid and semi-arid regions (SRC-TG-407). The dates and instruments are not sourced, and we did not open the incentive decrees themselves.
-3. **Groundwater replaced surface water as the irrigation base.** On the Kairouan plain, groundwater has been the main supply for irrigated agriculture since the 1980s. Pumping grew from 31.3 Mm3 (1970) to 111.43 Mm3 (2016), first through shallow wells and then deep wells over 100 m (SRC-TG-408). Upstream dams reduced runoff by about 45% over 1996-2011 and so cut recharge, but the model finds pumping to be the key factor (SRC-TG-408).
+3. **Groundwater replaced surface water as the irrigation base.** On the Kairouan plain, groundwater has been the main supply for irrigated agriculture since the 1980s. Pumping grew from 31.3 Mm3 (1970) to 111.43 Mm3 (2016), first through shallow wells and then deep wells over 100 m (SRC-TG-408). Upstream dams reduced runoff by about 45% over 1996-2011 (a figure the paper cites from another study; its own model reports a 70% fall in dam-era inflow) and so cut recharge, but the model finds pumping to be the key factor (SRC-TG-408).
 4. **Tools left partly unused.** The Code allowed prohibition and safeguard perimeters (SRC-TG-406). In 2017 the ministry found that the deep-aquifer perimeters decreed "depuis plusieurs dizaines d'années" (several decades ago), for example in Nabeul, no longer matched the extent of pumping (SRC-TG-402, PDF p59). This concerns deep aquifers, not the shallow ones that are this finding's subject. New safeguard zones were decreed in 2017 (decrees 2017-1400 and 2017-1401, SRC-TG-402, PDF p54), which qualifies the idea that the tools were left unused. A local study describes "a virtually absence of effective regulation" (SRC-TG-407).
 
 A second legacy is statistical. The resource estimate grew from 160 Mm3 (shallow) in 1968 to 745 Mm3 in 2005 through prospecting (SRC-TG-405), and DGRE now uses 770 Mm3 (SRC-TG-403). Each upward revision lowers the published exploitation rate without any change in pumping. The deep-aquifer rate, for example, fell from 83% to 75% in 1999 after a re-evaluation (SRC-TG-405).
@@ -139,7 +139,7 @@ A second legacy is statistical. The resource estimate grew from 160 Mm3 (shallow
 
 - 1985: 85% (SRC-TG-404). 1995-2004: 103%, 104%, 105%, 106%, 107%, then 106% each year (withdrawals 743 rising to 778 Mm3, against 720-737 Mm3) (SRC-TG-405). The same period is given as "plus de 108%" in 2003 with a 1998 peak of 112% in SRC-TG-404; the two sources disagree by up to 6 points.
 - 2010: 114%. 2015: 117% (SRC-TG-402). 2020: 119% (914 of 770 Mm3); Centre about 140%, South about 95% (SRC-TG-403).
-- Total groundwater withdrawals (shallow and deep): under 1,200 Mm3 in 1985, about 1,900 Mm3 around 2007 (SRC-TG-404).
+- Total groundwater withdrawals (shallow and deep): under 1,200 Mm3 in 1985, about 1,900 Mm3 around 2008 (the study says "actuellement", SRC-TG-404).
 - As early as 2007-2008, the national sustainable development study warned that overexploitation was lowering well yields and salinising aquifers. It said this would eventually shrink irrigated areas in Cap Bon, the Sahel and Sidi Bouzid, and it singled out the Centre-West, North-East and South-West as extremes (SRC-TG-404).
 - Sidi Bouzid (Kharrouba-El Maloussy): wells went from 131 (1987) to ~700 (early 2000s) and 850, with densities up to 20 wells/km2. Pumping depth went from 21-23 m in the early 1990s to over 31 m in 2008 and 34-36 m at the time of writing (SRC-TG-407).
 - Kairouan plain: piezometer 12737/4 fell about 19 m over 1970-2017 (SRC-TG-408).
@@ -162,3 +162,7 @@ Medium.
 - Prohibition and safeguard perimeters under Articles 12-15 of the Water Code (SRC-TG-406).
 - "Programme 2 : la lutte contre la surexploitation des eaux souterraines renouvelables" proposed in the 2008 national study: aquifer modelling, artificial recharge, underground dams, participatory aquifer management through farmer groups (GIC/AIC) (SRC-TG-404).
 - New Water Code under preparation (SRC-TG-402).
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Originals checked: SRC-TG-404 (overexploitation section; EAU 21 projection table), SRC-TG-405 (indicator table 1995-2004; potential estimates 1968-2005), SRC-TG-402 (V.1.2 shallow-aquifer paragraph; V.5 constats; new safeguard zones), SRC-TG-403 (Commentaires, shallow paragraph), SRC-TG-406 (Article 9, Decree 78-814 article 1, Article 11), SRC-TG-407 (introduction and study area), SRC-TG-408 (Results, Introduction, Conclusions), SRC-TG-511 (abstract and results). All 28 claims checked were confirmed. Corrections: the total-withdrawals date changed from c. 2007 to c. 2008 with the source's "actuellement" noted; the 45% runoff decline labelled as the paper's citation of another study, with its own 70% inflow-decline figure added. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

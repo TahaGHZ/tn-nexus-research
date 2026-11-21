@@ -113,7 +113,13 @@ indicators:
     geography: national
     source: SRC-TG-533
   - name: Groundwater share of irrigation water
-    value: "84.5% (2003); 84% (2018); 75% (dry-year average, 2022 report)"
+    value: 84
+    unit: "%"
+    year: 2018
+    geography: national
+    source: SRC-TG-504
+  - name: Groundwater share of irrigation water (dry-year average, 2022 report)
+    value: 75
     unit: "%"
     year: 2022
     geography: national
@@ -132,6 +138,9 @@ data_gaps:
   - "No national time series of irrigation withdrawals on a consistent method. Values found are demand estimates (SRC-TG-430), dry-year consumption (SRC-TG-528), a 2018 use figure (SRC-TG-504), a normative 2020 demand (3,382 Mm3, SRC-TG-503) and interpolated WDI/AQUASTAT withdrawals (SRC-TG-533). They cannot be chained into a trend."
   - "The 1995 decision text raising investment subsidies for irrigation equipment, and the pre-2016 rates by category, were not opened. The '40-60%' range in the research brief is not sourced; only 40%->50% (cat. A) and 50%->55% (cat. B) under the 2016 Investment Code are (SRC-TG-402, p. 97)."
   - "No national study isolates how much of the 1993-2024 growth in irrigated area came from water freed by PNEEI, versus new dams and public perimeters, versus illicit boreholes. Poussin et al. (SRC-TG-531) cover one central plain, abstract only."
+  - "Not independently reopened: irrigable area under full control 328,000 ha (1993), 361,000 (1995), 376,000 (2000), 397,000 (2003) and area actually irrigated 279,000, 315,000, 345,000, 348,000 ha (SRC-TG-430, Tableau 7); the live PDF could not be reached and the local file is a different document."
+  - "Not independently reopened: ministry agricultural water demand 1,386 Mm3 (1990) and 1,918 Mm3 (2003), the derived +38%, 5,500 m3/ha in 2003 and the 29% rise in water productivity (SRC-TG-430, Tableaux 8 and following); same reason."
+  - "A groundwater share of irrigation water for 2003 (earlier draft: 84.5%) is not in SRC-TG-528 or SRC-TG-504 and was removed; a source for it was not found."
   - "Kuper, Ameur and Hammani (2017), a book chapter on why drip irrigation increases pressure on groundwater, was seen only as a catalogue record; its case study is in North Africa and was not confirmed as Tunisian. Not used."
 author: TahaGHZ
 ---
@@ -150,7 +159,7 @@ The evidence shows broad equipment coverage alongside irrigable-area growth, but
 
 ## Evidence
 
-- **Equipment rate:** 37% (1995), 67% (2001), 75% (2005), 92% (2017), 94.5% (2021) (SRC-TG-403, p. 85). 421,000 ha or 95.2% in 2022 (SRC-TG-528, p. 80), 96.1% in 2023 (424,700 of 442,000 ha, SRC-TG-529, p. 53), and 96.8% in 2024 (428,500 of 442,500 ha, SRC-TG-530, p. 58). Investment rose from 1,258 MTND (616 MTND subsidy) by 2017 (SRC-TG-402, p. 97) to 1,672 MTND (759 MTND subsidy) by 2021 (SRC-TG-528, p. 80) and 1,692 MTND (768 MTND) by 2023 (SRC-TG-529). Note that SRC-TG-403 gives 1,665 MTND to 2021, close to but not the same as SRC-TG-528's 1,672 MTND.
+- **Equipment rate:** 37% (1995), 67% (2001), 75% (2005), 92% (2017), 94.5% (2021) (SRC-TG-403, p. 86). 421,000 ha or 95.2% in 2022 (SRC-TG-528, p. 80), 96.1% in 2023 (424,700 of 442,000 ha, derived; the source prints 96.5%, SRC-TG-529, p. 53), and 96.9% in 2024 (428,500 of 442,500 ha, as printed, SRC-TG-530, p. 58). Investment rose from 1,258 MTND (616 MTND subsidy) by 2017 (SRC-TG-402, p. 97) to 1,672 MTND (759 MTND subsidy) by 2021 (SRC-TG-528, p. 80) and 1,692 MTND (768 MTND) by 2023 (SRC-TG-529). Note that SRC-TG-403 gives 1,665 MTND to 2021, close to but not the same as SRC-TG-528's 1,672 MTND.
 - **Area:** irrigable area under full control 328,000 ha (1993), 361,000 (1995), 376,000 (2000), 397,000 (2003). Actually irrigated: 279,000, 315,000, 345,000, 348,000 ha (SRC-TG-430, Tableau 7, p. 11). 435,000 ha in 2017 (SRC-TG-402, p. 65); 442,000 ha in 2022 (SRC-TG-528); 442,500 ha in 2024 (SRC-TG-530). Growth is +35% from 1993 to 2024 (derived). It was fast before 2003 and slow after 2017, when "tous les grands pÃ©rimÃ¨tres ont Ã©tÃ© faits" (SRC-TG-402, p. 65). The official area totals may miss illicit private extensions (SRC-TG-528, p. 84), so the slowdown after 2017 may be partly an artefact of the inventory.
 - **Water use (sources disagree or measure different things; all kept):**
   - Ministry demand estimates: 1,386 Mm3 (1990) and 1,918 Mm3 (2003), +38% (SRC-TG-430, Tableau 8).
@@ -182,3 +191,9 @@ Medium. The equipment and area series come from ministry reports (tier A). The l
 - "Etudes de CaractÃ©risation des Exploitations IrriguÃ©es" recommended by Eau 2050 (SRC-TG-528, p. 84).
 - Updating the agricultural map (carte agricole) and targeting subsidies to low-water crops (SRC-TG-530, SRC-TG-402).
 - AGIRE (GIZ) short training for farmers on water saving with CFPA Kairouan (SRC-TG-402).
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Originals checked, through local text transcripts of the PDFs: RNE 2024 (SRC-TG-530) PNEEI equipment 428,500 of 442,500 ha, printed 96,9; RNE 2023 (SRC-TG-529) 424,700 of 442,000 ha (printed 96,5%) and investment 1,692 MTND with 768 MTND subsidies; RNE 2022 (SRC-TG-528) investment 1,672 MTND, groundwater 75% in dry years, consumption about 2.5 billion m3; Rapport IDD 2023 (SRC-TG-403) printed p. 86 (37% in 1995, 75% in 2005, 94.5% in 2021, aquifer exploitation 82% to 134%); RNSE 2017 (SRC-TG-402) drip 48% and subsidy text; AFD/PNA (SRC-TG-504) 2.4 billion m3 for 406,540 ha with 84% groundwater; World Bank WDI withdrawals and agriculture share (SRC-TG-533); GIZ 2019 executive summary (SRC-TG-532). Corrections: the unsupported "84.5% (2003)" groundwater share removed and the 84% (2018) figure re-cited to SRC-TG-504; SRC-TG-403 page 85 corrected to 86; the 2024 coverage unified at the printed 96.9%; the 2023 figure labelled as derived (96.1%) against the printed 96.5%. The SRC-TG-430 figures could not be reopened and are listed under data gaps; none is in the title.
+
+Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

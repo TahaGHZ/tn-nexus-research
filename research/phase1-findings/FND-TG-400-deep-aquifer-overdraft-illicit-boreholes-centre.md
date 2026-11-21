@@ -6,7 +6,7 @@ sectors: [water, agriculture, energy]
 theme: groundwater
 timeframe: current
 period: 2006-2021
-geography: [national, centre-west, north-east, kairouan, sidi-bouzid, kasserine, nabeul]
+geography: [national, centre-west, north-east, kairouan, sidi-bouzid, kasserine, nabeul, kebili]
 severity: high
 trend: worsening
 confidence: medium
@@ -76,6 +76,12 @@ indicators:
     year: 2016
     geography: sidi-bouzid
     source: SRC-TG-402
+  - name: Deep-aquifer exploitation rate, Kebili
+    value: 171
+    unit: "%"
+    year: 2016
+    geography: kebili
+    source: SRC-TG-402
   - name: Deep-aquifer exploitation rate, DGRE Nord region (whole north)
     value: 88
     unit: "% (276 of 314 Mm3)"
@@ -108,10 +114,16 @@ indicators:
     source: SRC-TG-402
   - name: Deep-aquifer withdrawals by illicit boreholes
     value: 541
-    unit: "Mm3/yr (28% of volume exploited)"
+    unit: "Mm3/yr (28% of volume exploited; undated in source, 2021 assumed as for the 21,279 estimate)"
     year: 2021
     geography: national
     source: SRC-TG-403
+  - name: Illicit boreholes, Kebili
+    value: 4559
+    unit: "boreholes (estimate; 9,252 in the 2023 indicators, SRC-TG-403, the largest governorate figure in that source)"
+    year: 2016
+    geography: kebili
+    source: SRC-TG-402
   - name: Illicit boreholes, Kairouan
     value: 2500
     unit: boreholes (estimate)
@@ -183,7 +195,7 @@ Tunisia's deep aquifers were drawn at 133% of their estimated resource in 2016 (
 
 The symptom is a falling water table and exploitation rates above 100%. The causes the ministry itself names are these (SRC-TG-402):
 
-1. **Illicit drilling.** Withdrawals by illicit boreholes are estimated to have risen from 67 Mm3 (5%) in 2011 to 416 Mm3 (22%) in 2016 (SRC-TG-402), and to about 541 Mm3 in the 2023 indicators (SRC-TG-403). The ministry estimates illicit boreholes at 2,500 in Kairouan, 2,100 in Sidi Bouzid, 1,300 in Kasserine and 1,531 in Nabeul (SRC-TG-402). A 2026 press report attributes the rise to long authorisation procedures and the spread of irrigated crops and greenhouses (SRC-TG-409, tier C).
+1. **Illicit drilling.** Withdrawals by illicit boreholes are estimated to have risen from 67 Mm3 (5%) in 2011 to 416 Mm3 (22%) in 2016 (SRC-TG-402), and to about 541 Mm3 in the 2023 indicators (SRC-TG-403). The ministry estimates illicit boreholes at 4,559 in Kebili (also a 171% deep-aquifer rate, outside the central hotspots), 2,500 in Kairouan, 2,100 in Sidi Bouzid, 1,300 in Kasserine and 1,531 in Nabeul (SRC-TG-402). A 2026 press report attributes the rise to long authorisation procedures, drought, and the spread of irrigated crops and greenhouses (SRC-TG-409, tier C).
 2. **Enforcement that does not reach the borehole.** The 1975 Water Code gives the minister the tools: prohibition and safeguard perimeters, suspension and demolition of works, and a fine of one tenth of the cost of the works (SRC-TG-406). In practice the CRDAs "can only record the facts". In 2017 Sidi Bouzid's CRDA wrote 80 infraction reports and made 2 seizures, but plugged no boreholes, and reports often fail on procedural defects (SRC-TG-402). The perimeters decreed decades ago, for example in Nabeul, no longer match where pumping happens (SRC-TG-402). This is an institutional failure that predates the illicit-drilling surge, so `legacy_decision` is true. Monitoring is shrinking at the same time: 1,940 piezometric points in 2016 against 2,183 in 2010, with very few piezometers installed after 2007 (SRC-TG-402).
 3. **Drought as a trigger, not the root.** The 2016 jump from 119% to 133% came when drought rationing of dam water pushed irrigators onto groundwater (SRC-TG-402). Withdrawals were already rising before the drought: Centre deep-aquifer pumping went from 262 Mm3 (2006) to 413 Mm3 (2015) (SRC-TG-402).
 4. **Free energy for pumping.** The ministry's own report says the state subsidy for photovoltaic irrigation pumps encourages waste by making the water "totalement gratuite", with no STEG bill to pay (SRC-TG-402).
@@ -195,7 +207,7 @@ On the Kairouan plain, a groundwater model attributes the decline mainly to pump
 - National deep-aquifer rate: 82% (2006), 92% (2010), 119% (2015) and 133% (2016). Only the 2014-2016 rates reconcile with the current resource; the earlier ones were computed on an older base (SRC-TG-402, notes). The current resource is 1,422 Mm3, about 47% of which is non-renewable (SRC-TG-402). The 2023 indicators give 82% (1996), 90% (2010) and 134% (2020) (SRC-TG-403). The two disagree slightly on 2010 (92% vs 90%).
 - Regional deep-aquifer rates in 2016: Nord 88%, Centre 162%, Sud 139%. The source does not list which governorates DGRE puts in "Centre". It is tagged `centre-west` here because the overexploited central governorates it names are Kairouan, Kasserine and Sidi Bouzid, but it may also include Sahel governorates. Governorates: Nabeul 195%, Kairouan 127%, Kasserine 120%, Sidi Bouzid 114% (SRC-TG-402).
 - Central Tunisia's aquifers are described as the most exploited, at about 160%, in the 2023 indicators (SRC-TG-403).
-- Illicit boreholes: 13,463 of 28,158 (48%) in 2016 (SRC-TG-402), and 21,279 of 35,428 water points (60%) in the 2023 indicators (SRC-TG-403). The World Bank CCDR gives 20,350 illicit against 14,117 authorised boreholes in 2021, close to the 2023 indicators, and extraction rates of up to 400% in some regions (SRC-TG-482). By governorate, Sidi Bouzid rises from 2,100 to 4,700, Kasserine from 1,300 to 2,430 and Nabeul from 1,531 to 1,796 between the two sources. Kairouan is not listed in the 2023 extract.
+- Illicit boreholes: 13,463 of 28,158 (48%) in 2016 (SRC-TG-402), and 21,279 of 35,428 water points (60%) in the 2023 indicators (SRC-TG-403). The World Bank CCDR gives 20,350 illicit against 14,117 authorised boreholes in 2021, close to the 2023 indicators, and extraction rates of up to 400% in some regions (SRC-TG-482). By governorate, Sidi Bouzid rises from 2,100 to 4,700, Kasserine from 1,300 to 2,430 and Nabeul from 1,531 to 1,796 between the two sources. Kairouan is not listed in the 2023 extract, which gives 9,252 for Kebili, the largest figure (SRC-TG-403).
 - Against a 2016 target of 107.3%, the outcome was 133% (SRC-TG-402).
 - Kairouan plain: pumping went from 31.3 Mm3 (1970) to 111.43 Mm3 (2016). Piezometer 12737/4 fell about 19 m over 1970-2017 (-0.4 m/yr), and the Draa Affane piezometer fell 16 m over 1987-2017 (SRC-TG-408).
 - Consequences named by the sources: rising salinity and seawater intrusion in some coastal aquifers (SRC-TG-403).
@@ -226,3 +238,7 @@ Medium. The direction and the order of magnitude are solid, and they come from t
 - Local intervention committees and enforcement brigades against illicit boreholes (SRC-TG-402).
 - Revision of the Nabeul prohibition and safeguard perimeters (SRC-TG-402).
 - Projet Eau Kasserine, a piezometric and hydrochemical monitoring experience (mentioned in SRC-TG-402).
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Originals checked: SRC-TG-402 (V.1.2 deep-aquifer text, regional table, Tableau 4, Tableau 9; V.5), SRC-TG-403 (Commentaires, deep-aquifer paragraph), SRC-TG-482 (water chapter, unauthorised boreholes passage), SRC-TG-408 (Results, pumping volume and piezometer 7777/4), SRC-TG-409 (article, sections on causes and figures), SRC-TG-406 (Article 11). All 39 claims checked were confirmed. Corrections: drought added to the causes the press report names (SRC-TG-409); "undated in source" added to the 541 Mm3 indicator; Kebili added to geography, indicators and text (SRC-TG-402 gives 4,559 illicit boreholes and a 171% rate; SRC-TG-403 gives 9,252). The "2021" in SRC-TG-403 qualifies 800 wells created, not the estimate, so the 2021 assumption in data_gaps stands. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

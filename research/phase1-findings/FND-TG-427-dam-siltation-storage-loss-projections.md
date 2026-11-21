@@ -1,7 +1,7 @@
 ---
 id: FND-TG-427
 title: Silt already fills about a quarter of Tunisia's large-dam capacity (81% at Mellègue), and without sediment countermeasures Sidi Salem is projected to lose 42% of its usable water-use volume within 30 years. Official estimates of the loss disagree.
-status: in-review
+status: draft
 sectors: [water, agriculture, energy]
 theme: surface-water
 timeframe: predicted
@@ -109,6 +109,9 @@ data_gaps:
   - Recent bathymetric surveys. Many reference surveys in the 2021 bulletin are 10-20 years old (e.g. Nebhana 2010, Mellègue 2014), so 'measured' silt understates the present volume.
   - A national projection of total useful capacity to 2050 with a stated method. SRC-TG-402 lists per-dam 2050 figures without method.
   - "Hill dams and hill lakes: SRC-TG-402 states that no data exist on their useful capacity ('ces infrastructures ne bénéficiant d'aucun suivi régulier'); SRC-TG-430 gives a 4.6%/yr loss rate from 2007."
+  - "Not independently reopened: the Sidi Salem water-use losses of 18% (10 yrs), 42% (30 yrs) and 88% (100 yrs) with 59, 138 and 288 Mm3 (SRC-TG-428). The reviewer confirmed only the 100-year total (about 510 Mm3, about 50% of 960 Mm3) in the JICA summary text; the percentages sit in figures not readable in the text layer. The headline 42% depends on them."
+  - "Not independently reopened: JICA statement that no sediment countermeasures for Sidi Salem had been proposed before the 2017-2018 SAPI study (SRC-TG-428); the 8.1 Mm3/yr figure appears in JICA only in a table without its context."
+  - "Not independently reopened by the reviewer, whose local copy of SRC-TG-430 was a different FAO-hosted document: the 2007 plan's 1.07%/yr (large reservoirs) and 4.6%/yr (hill lakes) loss rates and the 2,200 to 1,800 Mm3 forecast, which rest on the extract pasted in SRC-TG-430. The reviewer's reading of the other copy was 2,200 Mm3 as current capacity with 17.25 Mm3/yr siltation; the two copies disagree and the edition needs to be settled."
   - Cost of siltation. SRC-TG-402 quotes a World Bank 2007 range of 13-29.3 M$, which was not opened.
   - Meaning of the bulletin's total 'annual siltation' column (24.03 Mm3/yr in 2017, 13.78 in 2021). It does not equal the sum of the per-dam rows and was not used.
 author: TahaGHZ
@@ -196,3 +199,9 @@ Medium.
 - Dam heightening studies: Bou Hertma, Rmel, Nebhana, Sidi Saad, Ghezala; new Mellègue amont dam (SRC-TG-402).
 - National soil and water conservation (CES) strategy adopted 2017; national strategy for planning and conservation of agricultural land to 2050 (SRC-TG-402, SRC-TG-429).
 - JICA reforestation projects in the Béja region (SRC-TG-429, Figure 18-23).
+
+## Verification
+
+**Independent review, 21 November 2026:** not passed. Checked against the DGBGTH bulletins of 2015, 2017, 2020-2023 and 2025 (SRC-TG-432, 434, 437, 438, 440, 442: Sidi Salem, Mellègue, Siliana, Nebhana and TOTAL GENERAL silt rows), the national water report 2017 (SRC-TG-402, section VII.1.2: 25% loss for 30 dams, 0.86%/yr, 43% by 2030, 2050 per-dam figures), JICA vol. 1 (SRC-TG-428: 191 Mm3, -23% water-use capacity, 100-year total of about 510 Mm3, 77 Mm3 design allowance, 6.6 Mm3/yr) and JICA vol. 2 (SRC-TG-429: 10.6 Mm3/yr budget, Mellègue 219 Mm3, Siliana 52%). The measured-silt indicators and the 25% and 22.6% national figures were confirmed. No corrections to values; status moved from in-review to draft because the headline and the projection indicator (18/42/88% water-use loss for Sidi Salem) could not be located in the JICA text, and the SRC-TG-430 figures could not be rechecked in the original edition (see data_gaps). Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.
+
+**Outstanding verification:** open JICA vol. 1 part 2 (12385258_02.pdf) or the Figure 3-2 and Figure 6 pages of SRC-TG-428 to confirm -18%, -42% and -88% (59, 138 and 288 Mm3) for the urgent scenario, and open the original Plan Bleu 2007 Tunisia report (SRC-TG-430 URL) to confirm the 1.07%/yr, 4.6%/yr and 2,200 to 1,800 Mm3 passages.
