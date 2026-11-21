@@ -21,7 +21,7 @@ needed, note the idea in the record body and stop there.
 ## Rule 2: stay in your lane
 
 Read `LANES.md`. Find your human's row by their GitHub username (`gh api user --jq .login`).
-Research only topics inside their lane. If asked for a topic in someone else's lane or in a
+Research only topics inside their lanes. If asked for a topic in someone else's lane or in a
 free lane, say so and stop; the human either takes the free lane in `LANES.md` first or
 passes the topic to its owner.
 
@@ -31,9 +31,9 @@ your human; they raise it with the owner.
 ## Rule 3: record IDs carry your initials
 
 `<TYPE>-<initials>-<nnn>`, for example `FND-TG-001`, `SRC-TG-014`. File name:
-`<ID>-<slug>.md`. The next number is the highest one already used with your initials, plus
-one. When running several agents at once, give each its own block of numbers (010-019,
-020-029, ...) before they start.
+`<ID>-<slug>.md`. Each lane has its own number range in `LANES.md`; the next number is the
+highest one already used in that range, plus one. When running several agents in one lane,
+give each its own block of ten before they start.
 
 ## Rule 4: every number has a source
 
@@ -67,8 +67,9 @@ and initials mean two people never write the same file, so there is nothing to m
 ## Picking a topic
 
 Phase 1 is open-ended: there is no fixed number of problems. `/status` shows which themes
-and timeframes in your lane are thin or missing. Cover past decisions and predicted problems,
-not only current ones. `/research <topic>` runs one topic end to end.
+and timeframes in your lanes are thin or missing. Cover past decisions and predicted problems,
+not only current ones. `/research <lane>` picks uncovered topics in a lane and researches
+them; `/research <topic>` runs a topic you name.
 
 ## Experts
 

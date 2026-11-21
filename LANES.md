@@ -1,15 +1,18 @@
 # Lanes
 
-Each person owns a lane. Research only inside your own lane. To take a free lane, add your
+Each lane has one owner. Research only inside your own lanes. To take a free lane, add your
 name, GitHub username and initials to its row and push.
 
-| Lane | Covers | Owner | GitHub | Initials |
-|---|---|---|---|---|
-| Energy | Findings whose only sector is `energy` | Taha | TahaGHZ | TG |
-| Water | Findings whose only sector is `water` | Taha | TahaGHZ | TG |
-| Agriculture | Findings whose only sector is `agriculture` | free | | |
-| Cross-sector | Findings with two or more sectors, and the `nexus` theme | free | | |
+| Lane | Covers | Owner | GitHub | Initials | Record numbers |
+|---|---|---|---|---|---|
+| Energy | Findings whose main sector is `energy` | Taha | TahaGHZ | TG | 100-399 |
+| Water | Findings whose main sector is `water` | Taha | TahaGHZ | TG | 400-699 |
+| Agriculture | Findings whose main sector is `agriculture` | Taha | TahaGHZ | TG | 700-999 |
+| Cross-sector | Problems with no main sector (the `nexus` theme) | free | | | 001-099 |
 
-A lane is decided by the `sectors` field of the finding. If a topic in your lane turns out
-to involve another sector, keep your finding to your own sector and write the link under
-"Links to other sectors"; the cross-sector owner picks it up from there.
+The main sector is the first one listed in a finding's `sectors` field. A finding may list
+other sectors after it and follow the problem into them; it stays in the lane of its main
+sector.
+
+Record numbers apply to every record type made in that lane (`FND`, `SRC`, and later `SOL`
+and `PRP`), so agents working different lanes at the same time never produce the same ID.

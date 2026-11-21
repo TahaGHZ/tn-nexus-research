@@ -2,7 +2,7 @@
 id: FND-<initials>-<nnn>
 title:
 status: draft            # draft | in-review | validated | rejected
-sectors: []              # water, energy, agriculture
+sectors: []              # main sector first (it decides the lane), then any others: water, energy, agriculture
 theme:                   # from docs/taxonomy.md
 timeframe:               # past | current | predicted
 period:                  # e.g. 1990-2024, or horizon 2050 for predicted
@@ -52,8 +52,8 @@ What is solid, what is contested, what rests on a single or weak source.
 
 ## Links to other sectors
 
-How this problem feeds into or depends on another sector. One line each, for the
-cross-sector lane owner to pick up. Write "none found" if none.
+How this problem feeds into or depends on another sector, with sources. Write "none found"
+if none.
 
 ## Leads for phase 2
 

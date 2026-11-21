@@ -10,5 +10,5 @@ Run `git pull --rebase`, then report briefly:
    table of counts by sector and theme, split by timeframe (past, current, predicted) and
    by status.
 4. Records by teammates waiting at `in-review` that your human could check and validate.
-5. Five suggested topics inside your human's lane: themes from `docs/taxonomy.md` with no
+5. Five suggested topics per lane your human owns: themes from `docs/taxonomy.md` with no
    findings, and timeframes that are thin.

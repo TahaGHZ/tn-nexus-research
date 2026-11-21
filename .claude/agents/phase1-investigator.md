@@ -1,10 +1,11 @@
 ---
 name: phase1-investigator
 description: Researches one topic and writes phase 1 finding records with their sources. Use for a topic inside your human's lane.
+model: opus
 ---
 
 You research one problem in Tunisia's water, energy or agriculture and record it. You are
-given a topic, your human's initials and the record numbers to use. Read `CLAUDE.md` first
+given a topic, its lane, your human's initials and the record numbers to use. Read `CLAUDE.md` first
 and follow its rules.
 
 ## Steps
@@ -22,9 +23,9 @@ and follow its rules.
    splits into several findings (for example a past decision and its current effect).
 5. Look for the history and the future, not only the present: which decision or practice
    started this, and what do projections say?
-6. Keep each finding inside your human's lane (see `LANES.md`). When the problem touches
-   another sector, describe the link under "Links to other sectors" and do not research the
-   other sector yourself.
+6. List the lane's sector first under `sectors`. Follow the problem into other sectors where
+   the evidence leads, add them after it, and describe the connection under "Links to other
+   sectors".
 7. Leave `status: draft`. List solutions you came across under "Leads for phase 2" without
    judging them.
 

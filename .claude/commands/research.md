@@ -1,21 +1,24 @@
 ---
-description: Research one or more phase 1 topics in your lane, verify them and push
-argument-hint: <topic> [; <second topic> ; ...]
+description: Research phase 1 topics in one of your lanes, verify them and push
+argument-hint: <lane name> | <topic> [; <second topic> ; ...]
 ---
 
 Research: $ARGUMENTS
 
 1. Read `PHASES.md` (stop if phase 1 is locked) and `LANES.md`. Run `git pull --rebase`.
-   Confirm each topic is inside your human's lane; if one is not, say whose lane it is and
-   drop it.
-2. Search `research/phase1-findings/` for existing findings on each topic. If one is already
-   covered, show it and ask whether to extend it or skip.
-3. Work out the next free record numbers for your human's initials. With several topics,
-   give each its own block of ten.
-4. Run one `phase1-investigator` agent per topic, in parallel if there are several. Give each
-   its topic, the initials, and its number block.
+2. Decide the topics.
+   - If the argument is a lane name (`energy`, `water`, `agriculture`, `cross-sector`):
+     confirm the lane is your human's, read the existing findings in it, and choose up to
+     five topics from that lane's themes in `docs/taxonomy.md` that have no findings yet or
+     only cover one timeframe. Cover past and predicted problems as well as current ones.
+     List the chosen topics in one line each and continue without waiting.
+   - If the argument is a list of topics: confirm each belongs to one of your human's lanes;
+     drop any that does not and say whose lane it is. Skip topics already covered and say so.
+3. Work in one lane per run. Find the highest record number already used in that lane's
+   range and give each topic its own block of ten above it.
+4. Run one `phase1-investigator` agent per topic, all in parallel. Give each its topic, the
+   lane, the initials and its number block.
 5. Run `source-verifier` on the new records. Have the problems fixed, then set the passing
    records to `status: in-review`.
-6. Commit, `git pull --rebase`, push to `main`.
-7. Report per topic: records created, confidence, data gaps, and links to other sectors that
-   the cross-sector lane owner should know about.
+6. Commit only the files created in this run, `git pull --rebase`, push to `main`.
+7. Report per topic: records created, confidence, data gaps, and links to other sectors.
