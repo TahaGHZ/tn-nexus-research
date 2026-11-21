@@ -2,7 +2,7 @@
 id: SRC-TG-282
 title: Energy management at SONEDE
 publisher: Société Nationale d'Exploitation et de Distribution des Eaux (SONEDE)
-year: 2024
+year: "undated"
 type: institutional-report
 tier: A
 url: https://www.sonede.com.tn/ar/%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A7%D8%AA%D9%86%D8%A7/%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85-%D9%81%D9%8A-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9/
@@ -33,3 +33,7 @@ Official SONEDE web page, opened in its Arabic text layer on 2026-11-21. The pag
 copyright footer shows 2024. The quoted energy figures are explicitly for 2023. This is a web-text
 extract, not a locally archived downloaded original; local evidence-cache writing was blocked by
 the workspace's external-path restriction.
+
+## Parallel French edition
+
+https://www.sonede.com.tn/strategie/maitrise-de-lenergie/ reproduces the figures for national electricity consumption, expenditure before tax and share of the cost of drinking water. The Arabic and French pages have the same publisher.

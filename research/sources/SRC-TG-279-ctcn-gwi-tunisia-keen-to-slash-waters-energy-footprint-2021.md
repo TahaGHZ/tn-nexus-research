@@ -1,6 +1,6 @@
 ---
 id: SRC-TG-279
-title: "CTCN in media: Tunisia keen to slash water's energy footprint" (reprint of a Global Water Intelligence article)
+title: "CTCN in media: Tunisia keen to slash water's energy footprint (reprint of a Global Water Intelligence article)"
 publisher: Climate Technology Centre and Network (CTCN), reproducing Global Water Intelligence (GWI)
 year: 2021
 type: press

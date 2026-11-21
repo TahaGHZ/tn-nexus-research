@@ -1,54 +1,71 @@
 ---
 id: FND-TG-131
-title: Tunisia now covers only about a third of its primary energy needs, energy makes up over half of the trade deficit, and gas and electricity imports depend on one neighbour
-status: draft
-sectors: [energy]
+title: Tunisia covered 35% of primary energy demand in 2025 including transit royalty, with a large energy trade deficit and reliance on Algerian
+  gas
+status: in-review
+sectors:
+  - energy
 theme: energy-imports
 timeframe: current
 period: 2015-2026
-geography: [national]
+geography:
+  - national
 severity: critical
-trend: worsening
+trend: unknown
 confidence: high
 root_causes:
-  - cause: Domestic oil and gas production kept falling after 2015. Gas production roughly halved and crude oil and condensate also roughly halved between 2015 and 2025, while demand grew.
+  - cause: Domestic oil and gas production kept falling after 2015. Gas production roughly halved and crude oil and condensate also roughly halved
+      between 2015 and 2025, while demand grew.
     type: technical
     legacy_decision: true
-    sources: [SRC-TG-221]
-  - cause: Exploration has nearly stopped. No new permits were granted in 2024, 2025 or January-September 2026, there were no discoveries in 2025, and only 11-12 permits remain valid. Without new discoveries the decline cannot be reversed.
+    sources:
+      - SRC-TG-221
+  - cause: 'Exploration activity was low in the reported periods: ONEM recorded no permits granted and no discoveries in 2025; its September 2026
+      bulletin records no permits granted or discoveries in January-September 2026, but two exploration wells. Valid permits numbered 12 at end-2025
+      and 11 at end-September 2026. These observations document low activity and a small permit inventory, but do not establish why activity declined
+      or that new discoveries alone would reverse production decline.'
     type: institutional
     legacy_decision: true
-    sources: [SRC-TG-221, SRC-TG-100, SRC-TG-131]
-  - cause: Production has been repeatedly interrupted by social blockades, including the 2017 stop in the southern fields, the closure of the El Kamour valve from July to November 2020, and the occupation of the Douleb site from December 2020.
+    sources:
+      - SRC-TG-221
+      - SRC-TG-100
+      - SRC-TG-131
+  - cause: Production has been repeatedly interrupted by social blockades, including the 2017 stop in the southern fields, the closure of the
+      El Kamour valve from July to November 2020, and the occupation of the Douleb site from December 2020.
     type: behavioural
     legacy_decision: false
-    sources: [SRC-TG-132]
-  - cause: The gas and electricity shortfall is filled from a single neighbouring supplier (oil and products, about two thirds of the import bill by value, come from origins not documented here). Algeria provides purchased gas (57% of national gas supply in 2025), transit royalty gas (20%), and most imported electricity (11% of the local power market). Electricity imports since June 2021 were used "to cope with the limitation of gas purchases".
+    sources:
+      - SRC-TG-132
+  - cause: Gas supply relies heavily on Algerian purchases and transit gas, and electricity is imported from Algeria and Libya. In 2025, purchased
+      Algerian gas was 57% of reported national gas supply and the Algerian transit royalty passed to STEG was 20%; electricity purchases from
+      Algeria and Libya covered 11% of the local market. ONEM says electricity imports began in June 2021 to address a limitation in gas purchases,
+      without identifying the reason for that limitation. The origin of crude oil and petroleum product imports is not established by these records.
     type: economic
     legacy_decision: true
-    sources: [SRC-TG-221]
+    sources:
+      - SRC-TG-221
 indicators:
   - name: Energy independence rate (primary resources / primary demand), royalty counted as national resource
     value: 35
-    unit: "%"
+    unit: '%'
     year: 2025
     geography: national
     source: SRC-TG-221
   - name: Energy independence rate, royalty excluded
     value: 27
-    unit: "%"
+    unit: '%'
     year: 2025
     geography: national
     source: SRC-TG-221
-  - name: Energy independence rate, royalty counted
+  - name: Energy independence rate, royalty counted (January-September)
     value: 32
-    unit: "%"
+    unit: '%'
     year: 2026
     geography: national
     source: SRC-TG-100
-  - name: Energy independence rate, royalty excluded
+  - name: Energy independence rate, royalty excluded (January-September)
     value: 26
-    unit: "%"
+    unit: '%'
     year: 2026
     geography: national
     source: SRC-TG-100
@@ -78,13 +95,13 @@ indicators:
     source: SRC-TG-134
   - name: Energy share of total trade deficit (computed, 10869.5 / 18927.6)
     value: 57
-    unit: "%"
+    unit: '%'
     year: 2024
     geography: national
     source: SRC-TG-134
-  - name: Energy share of total trade deficit (computed, 10308.4 / 20168.5)
+  - name: Energy share of total trade deficit (computed, January-November)
     value: 51
-    unit: "%"
+    unit: '%'
     year: 2025
     geography: national
     source: SRC-TG-135
@@ -108,7 +125,7 @@ indicators:
     source: SRC-TG-221
   - name: Purchased Algerian gas as share of national gas supply
     value: 57
-    unit: "%"
+    unit: '%'
     year: 2025
     geography: national
     source: SRC-TG-221
@@ -136,40 +153,65 @@ indicators:
     year: 2025
     geography: national
     source: SRC-TG-221
-  - name: Valid hydrocarbon permits
+  - name: Valid hydrocarbon permits (end-year)
     value: 12
     unit: permits
     year: 2025
     geography: national
     source: SRC-TG-100
-  - name: Valid hydrocarbon permits
+  - name: Valid hydrocarbon permits (end-September)
     value: 11
     unit: permits
     year: 2026
     geography: national
     source: SRC-TG-100
-stakeholders: [Ministry of Industry Mines and Energy, ONEM, ETAP, STEG, STIR, Sonatrach, Sonelgaz, Central Bank of Tunisia (foreign exchange), Ministry of Finance, communities in producing regions, energy consumers]
-related: [FND-TG-130, FND-TG-132, FND-TG-101, FND-TG-100, FND-TG-161]
-sources: [SRC-TG-100, SRC-TG-103, SRC-TG-131, SRC-TG-132, SRC-TG-133, SRC-TG-134, SRC-TG-135, SRC-TG-140, SRC-TG-221]
+stakeholders:
+  - Ministry of Industry Mines and Energy
+  - ONEM
+  - ETAP
+  - STEG
+  - STIR
+  - Sonatrach
+  - Sonelgaz
+  - Central Bank of Tunisia (foreign exchange)
+  - Ministry of Finance
+  - communities in producing regions
+  - energy consumers
+related:
+  - FND-TG-130
+  - FND-TG-132
+  - FND-TG-101
+  - FND-TG-100
+  - FND-TG-161
+sources:
+  - SRC-TG-100
+  - SRC-TG-131
+  - SRC-TG-132
+  - SRC-TG-133
+  - SRC-TG-134
+  - SRC-TG-135
+  - SRC-TG-140
+  - SRC-TG-221
 data_gaps:
-  - Origin (supplier countries) of crude oil and petroleum product imports, which are about two thirds of the energy import bill by value (SRC-TG-221). Not found in any opened source.
-  - Full-year 2025 INS trade note (customs data). The URLs tried (Note_Ann%C3%A9e_2025.pdf, Note_Comext_12_mois_2025.pdf, Note_comext_Dec_25.pdf under https://www.ins.tn/sites/default/files-ftp3/files/publication/pdf/) returned HTML, not a PDF. Press reports a 2025 total deficit of 21,800.3 MD, but it was not opened from INS and is not used.
+  - Origin (supplier countries) of crude oil and petroleum product imports, which are about two thirds of the energy import bill by value (SRC-TG-221).
+    Not found in any opened source.
+  - Full-year 2025 INS trade note (customs data). The URLs tried (Note_Ann%C3%A9e_2025.pdf, Note_Comext_12_mois_2025.pdf, Note_comext_Dec_25.pdf
+    under https://www.ins.tn/sites/default/files-ftp3/files/publication/pdf/) returned HTML, not a PDF. Press reports a 2025 total deficit of
+    21,800.3 MD, but it was not opened from INS and is not used.
   - Gas purchase price and contract terms with Sonatrach (oil indexation, take-or-pay, payment arrears). Not found in any opened source.
   - Central Bank (BCT) figures on the energy bill's weight in the current account and on foreign-exchange pressure. bct.gov.tn was not opened.
   - Quantified production losses from the 2017 and 2020 El Kamour blockades. The ONEM chart marks the events but gives no volumes (SRC-TG-132).
-  - Why the transit royalty fell in 2024-2025. The September 2026 bulletin links the royalty to European (Italian) demand, but that passage is not in an extract here.
+  - Drivers of falling domestic oil and gas production and the reduced exploration activity are not established by the indicators cited here.
   - Why gas purchases were "limited" from 2021 (contract volume, price or payment capacity). The ONEM footnote does not say (SRC-TG-221).
-  - Diversification of supply away from Algeria (LNG, other pipelines): no current import source other than Algeria and Libya appears in the bulletins.
-  - IEA or World Bank WDI series on net energy imports for Tunisia, for an independent cross-check. Not opened.
+  - 'Diversification of supply away from Algeria (LNG, other pipelines): no current import source other than Algeria and Libya appears in the
+    bulletins.'
+  - A harmonised independent series for net energy imports or energy dependence was not checked.
 author: TahaGHZ
 ---
 
 ## Verification status
 
-Draft retained. Outstanding exact issue: supply shares, trade values, and blockade attribution
-still require a complete source-by-source comparison. The 2025 deficit is 6,305 ktep in the
-December ONEM bulletin; a later 6,248 ktep value is not supported by that cached source and has
-been removed.
+The national energy balance and trade series are dated and their denominators identified. January–November trade shares are separate from annual energy independence; low exploration activity is described as an observation rather than a quantified cause.
 
 ## Problem
 
@@ -183,32 +225,24 @@ count (SRC-TG-221). On customs data, energy was 57% of the whole trade deficit i
 January-November 2025 (SRC-TG-134, SRC-TG-135, computed). By value, the 2025 import bill was
 mostly petroleum products (7,762 MTND) and crude oil (1,362 MTND). Natural gas was 4,225 MTND,
 about 32% (SRC-TG-221, computed). The origin of the oil imports is not documented in the sources
-opened. Gas and electricity, the inputs of the power system, come from one neighbour. Purchased
-Algerian gas was 57% of national gas supply in 2025, and most imported electricity also comes
-from Algeria (SRC-TG-221).
+opened. Purchased Algerian gas was 57% of reported national gas supply in 2025; Algerian transit royalty accounted for another 20%. Electricity imports from Algeria and Libya covered 11% of the local market (SRC-TG-221).
 
 ## Root causes
 
-The symptom is a rising import bill and falling coverage. The causes:
+The evidence documents falling domestic production and a growing primary-energy deficit over 2015–2025, alongside a 2025 deterioration from 2024. It does not identify all causal mechanisms; the factors below are observed conditions or plausible contributors, with limits stated.
 
 - **Continued depletion (technical, legacy).** The 2010-2015 production collapse (FND-TG-130) did
   not stop. Between 2015 and 2025, domestic gas production fell from 2,231 to 1,129 ktep-pci, and
   crude oil and condensate from 2,394 to 1,231 ktep-pci (SRC-TG-221). Both roughly halved.
   Primary demand rose from 8,916 to 9,684 ktep (SRC-TG-221).
-- **Reduced recent exploration activity (institutional, attributed to dated series).** In 2019, 6 permits were granted, 6
-  exploration wells drilled and 4 discoveries made (SRC-TG-131). The cited ONEM bulletins list no permit granted in 2024 or
-  2025 and none to September 2026; this is a recent period of low reported activity, not evidence
-  that exploration stopped across the entire period. 2025 saw no discovery and three permit abandonments. Valid
-  permits fell from 25 (March 2020, SRC-TG-131) to 12 at end-2025 and 11 in September 2026
-  (SRC-TG-221, SRC-TG-100).
+- **Low recorded exploration activity (institutional context; causal link unestablished).** In 2019, 6 permits were granted, 6 exploration wells drilled and 4 discoveries made (SRC-TG-131). No permits were granted in 2024 or 2025; ONEM reports no exploration wells or discoveries in 2025 and three permit abandonments. The September 2026 bulletin reports no permits granted or discoveries in January-September 2026, but records two exploration wells. Valid permits fell from 25 at end-March 2020 to 12 at end-2025 and 11 at end-September 2026 (SRC-TG-131, SRC-TG-221, SRC-TG-100). The sources do not establish why activity fell or quantify an effect on future production.
 - **Social blockades (behavioural).** ONEM's own production chart marks "Arrêt de la production
   dans les champs de sud en 2017" and the closure of the El Kamour valve from 16 July to 5
   November 2020. Production at the Douleb, Semama and Tamesmida concessions stopped totally after
   protesters occupied the site on 11 December 2020 (SRC-TG-132). These are disruptions on top of
   the structural decline, not its main cause.
 - **Concentration on Algeria (economic, legacy).** The legacy of building the power system on
-  Algerian transit gas is covered in FND-TG-100. Today the gap is filled by buying more of the same
-  gas. Algerian purchases rose 23% in 2025, to 2,824 ktep-pci, and their share of supply rose from
+  Algerian transit gas is covered in FND-TG-100. Algerian purchases rose 23% in 2025, to 2,824 ktep-pci, and their share of supply rose from
   51% to 57% (SRC-TG-221). Royalty gas fell 13% (SRC-TG-221). Since June 2021, electricity has
   been imported from Algeria and Libya "pour faire face à la limitation des achats de gaz"
   (SRC-TG-221). These purchases went from zero in 2015 to 3,125 GWh in 2024 and 2,463 GWh in 2025,
@@ -218,10 +252,10 @@ The symptom is a rising import bill and falling coverage. The causes:
 
 - Independence rate: 41% / 31% in 2024 and 35% / 27% in 2025, with / without royalty (SRC-TG-221).
   January-September: 36% / 27% in 2025 and 32% / 26% in 2026 (SRC-TG-100). For reference: 43% in
-  2020 and 52% in 2021 (SRC-TG-133). 2021 was boosted by an 85% rise in royalty gas.
+  2020 and 52% in 2021 (SRC-TG-133). The 2021 rate coincided with an 85% rise in royalty gas.
 - **Vintages disagree slightly.** The December 2025 bulletin gives 2025 resources of 3,378 ktep,
   demand of 9,684 and a balance of -6,305 (SRC-TG-221). The September 2026 bulletin's revised 2025
-  column gives 3,391, 9,639 and -6,248 (SRC-TG-100). The conclusion does not change.
+  column gives 3,391, 9,639 and -6,248 (SRC-TG-100). The direction of the finding is unchanged, though the precise revised balance differs by vintage.
 - **Trade deficit, two measurements.** ONEM, from company data: 10,745 MTND in 2024 and 11,023
   MTND in 2025 (SRC-TG-221). INS, from customs: 10,869.5 MTND in 2024, 9,665.7 in 2023, and
   10,308.4 for January-November 2025 (SRC-TG-134, SRC-TG-135). Energy imports were 13,349 MTND in
@@ -234,11 +268,9 @@ The symptom is a rising import bill and falling coverage. The causes:
 ## Why confidence is what it is
 
 High for the size of the deficit and the dependence. All core figures come from the official ONEM
-bulletins and INS notes (tier A), checked against page images. The two trade-deficit measures
-agree within about 1%. The weaker points are the blockades' quantified effect (only chart
+bulletins and INS notes (tier A), checked against page images. The two measures use different accounting bases and are close in 2024; they are not identical. The weaker points are the blockades' quantified effect (only chart
 annotations) and the reason gas purchases were "limited" from 2021, which no source opened
-explains. The 2025 share of energy in the trade deficit uses eleven months, because the full-year
-INS note was not found.
+explains. The 2025 customs trade share is based on January-November INS data and is not a full-year figure.
 
 ## Links to other sectors
 

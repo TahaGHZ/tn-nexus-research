@@ -1,5 +1,13 @@
 # Resume: energy lane, phase 1 (coordinated 2026-11-21)
 
+## Current checkpoint — 21 November 2026, source corrections
+
+23 findings: 22 in review, 1 draft. Drafts: FND-TG-222
+
+The remaining draft records the internally inconsistent 2030 adequacy result. Only a corrected publication or reproducible author output can establish a single estimate.
+
+The dated handoff below records prior states; use the frontmatter and verification sections of the findings for current decisions.
+
 ## Final coordination state
 
 Recomputed from finding frontmatter: 23 findings, 3 `in-review` (100, 101, 102) and 20

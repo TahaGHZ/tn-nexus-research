@@ -1,6 +1,6 @@
 ---
 id: SRC-TG-281
-title: "Tunisia: Desalination of sea water" (KfW Stories)
+title: "Tunisia: Desalination of sea water (KfW Stories)"
 publisher: KfW
 year: 2020
 type: company-material

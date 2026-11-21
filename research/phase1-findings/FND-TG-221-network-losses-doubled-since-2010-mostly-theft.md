@@ -1,28 +1,39 @@
 ---
 id: FND-TG-221
-title: ONEM reports total network losses rising from 11.4% in 2010 to 21.1% in 2024; the increase appears mainly non-technical, although the split is disputed
-status: draft
-sectors: [energy]
+title: ONEM reports national network losses rose from 11.4% in 2010 to 21.1% in 2024; theft attribution is unverified
+status: in-review
+sectors:
+  - energy
 theme: grid
 timeframe: current
-period: 2010-2026
-geography: [national]
+period: 2010-2024
+geography:
+  - national
 severity: high
 trend: stable
 confidence: medium
 root_causes:
-  - cause: Electricity theft (illegal connections, meter tampering) grew after 2011 and continues despite a TND 2,000 fine per offence set in 2018
+  - cause: ONEM attributes most losses to electricity diversion and says the practice continues despite the TND 2,000 fine per offence set in
+      2018; independent national measurement of theft volumes is unavailable
     type: behavioural
     legacy_decision: false
-    sources: [SRC-TG-222, SRC-TG-224, SRC-TG-105, SRC-TG-231, SRC-TG-232]
-  - cause: Insufficient advanced metering infrastructure (AMI) to detect fraud
+    sources:
+      - SRC-TG-222
+      - SRC-TG-224
+      - SRC-TG-105
+      - SRC-TG-231
+      - SRC-TG-232
+  - cause: The World Bank identifies lack of advanced metering infrastructure (AMI) as one contributor to commercial losses; installed coverage
+      is not established here
     type: institutional
     legacy_decision: false
-    sources: [SRC-TG-105]
+    sources:
+      - SRC-TG-105
   - cause: Under-spending on operation and maintenance and ageing network assets, linked to STEG's financial crisis
     type: economic
     legacy_decision: false
-    sources: [SRC-TG-105]
+    sources:
+      - SRC-TG-105
 indicators:
   - name: Total network loss rate (technical + commercial), share of gross production
     value: 11.4
@@ -42,7 +53,8 @@ indicators:
     year: 2023
     geography: national
     source: SRC-TG-222
-  - name: Total network losses, World Bank/STEG definition ((energy injected - sales incl. recovered fraud and pro-rata) / energy injected incl. imports and IPP output)
+  - name: Total network losses, World Bank/STEG definition (energy injected minus sales, divided by energy injected; injected supply includes
+      net STEG generation, imports and IPP output; sales include recovered fraud and pro-rata amounts)
     value: 18.4
     unit: percent
     year: 2023
@@ -72,21 +84,33 @@ indicators:
     year: 2024
     geography: national
     source: SRC-TG-222
-  - name: Distribution losses, lower end of the stated 7-9% range
+  - name: Distribution losses, lower end of ONEM-reported 7–9% range
     value: 7
     unit: percent
     year: 2024
     geography: national
     source: SRC-TG-222
-  - name: Distribution losses, upper end of the stated 7-9% range
+  - name: Distribution losses, upper end of ONEM-reported 7–9% range
     value: 9
     unit: percent
     year: 2024
     geography: national
     source: SRC-TG-222
-  - name: Unbilled electricity as a share of production, stated by an unnamed official (of which technical 12%, illegal consumption 7%)
+  - name: Unaccounted electricity as a share of production, stated by an unnamed official
     value: 19
-    unit: percent of production
+    unit: percent
+    year: 2026
+    geography: national
+    source: SRC-TG-231
+  - name: Technical losses as share of production, stated by an unnamed official
+    value: 12
+    unit: percent
+    year: 2026
+    geography: national
+    source: SRC-TG-231
+  - name: Illegal consumption as share of production, approximate value stated by an unnamed official
+    value: 7
+    unit: percent
     year: 2026
     geography: national
     source: SRC-TG-231
@@ -108,88 +132,77 @@ indicators:
     year: 2023
     geography: national
     source: SRC-TG-232
-stakeholders: [STEG, "Ministry of Industry, Mines and Energy", paying customers, State budget, World Bank]
-related: [FND-TG-101, FND-TG-161, FND-TG-220, FND-TG-222]
-sources: [SRC-TG-105, SRC-TG-220, SRC-TG-222, SRC-TG-224, SRC-TG-230, SRC-TG-231, SRC-TG-232]
+stakeholders:
+  - STEG
+  - Ministry of Industry, Mines and Energy
+  - paying customers
+  - State budget
+  - World Bank
+related:
+  - FND-TG-101
+  - FND-TG-161
+  - FND-TG-220
+  - FND-TG-222
+sources:
+  - SRC-TG-105
+  - SRC-TG-220
+  - SRC-TG-222
+  - SRC-TG-224
+  - SRC-TG-230
+  - SRC-TG-231
+  - SRC-TG-232
 data_gaps:
-  - "Official split between technical and non-technical losses: ONEM gives transmission ≤2.23% and distribution 7-9% (citing the STEG 2024 annual report) and says 'most' losses are theft (SRC-TG-222). A 2026 press source gives 12% technical and 7% illegal (SRC-TG-231). The STEG annual activity report 2024 cited by ONEM was not found online."
-  - "Loss rate by region or STEG district: not found."
-  - "Annual volume of detected theft in GWh and recovered revenue, as a time series: only one press figure for 2023 (SRC-TG-232), with ambiguous units."
-  - "The 18.4% (World Bank/STEG, 2023) and 20.0% (ONEM, 2023) use different definitions: injected energy, including imports and IPP output, with recovered fraud counted as sales (SRC-TG-105), against gross production (SRC-TG-222). We could not obtain the underlying energy balance to reconcile them exactly. No 2025 or 2026 loss rate from ONEM or STEG was found; the 2026 figures of about 19% are statements only (SRC-TG-230, SRC-TG-231)."
-  - "Number of smart meters installed under the AFD-financed STEG smart-grid project: not sourced here."
+  - 'Comparable measured split between technical and non-technical losses, by year: ONEM gives 2024 transmission losses no higher than 2.23% and
+    distribution losses of 7–9%, citing STEG’s annual report, and attributes the largest part of losses to electricity diversion (SRC-TG-222);
+    a tier C 2026 press report gives a separately attributed 12% technical / about 7% illegal split from an unnamed official (SRC-TG-231). Methods
+    and denominators are not disclosed or reconciled. The underlying STEG 2024 annual activity report was not obtained for independent inspection.'
+  - 'Loss rate by region or STEG district: not found.'
+  - 'Annual volume of detected theft in GWh and recovered revenue, as a time series: only one press report for 2023 states 18,000 cases and ‘200
+    gigawatts’; gigawatt is a power unit, not an energy unit, so this quantity is unusable without clarification (SRC-TG-232).'
+  - 'The 18.4% (World Bank, 2023) and 20.0% (ONEM, 2023) are reported on differently described bases: the World Bank gives an injected-energy
+    formula, while ONEM labels its indicator as a share of gross production (SRC-TG-105, SRC-TG-222). The underlying calculations and denominator
+    data were not reconciled. No 2025 or 2026 official ONEM/STEG observation was found; the 2026 figures of about 19% are attributed press statements
+    only (SRC-TG-230, SRC-TG-231).'
+  - 'Number and coverage of smart meters installed under the AFD-financed STEG smart-grid project: not sourced here.'
 author: TahaGHZ
 ---
 
 ## Problem
 
-STEG loses about a fifth of the electricity it produces before it is billed. ONEM puts the total
-loss rate (technical plus commercial, as a share of gross production) at 11.4% in 2010 and 21.1%
-in 2024, with a high of 21.7% in 2022 (SRC-TG-222). The World Bank reported 12% in 2010 and 21% in
-2021 (SRC-TG-224), and 18.4% in 2023 (SRC-TG-105). The 18.4% uses a different measure: STEG and the
-World Bank divide losses by energy injected into the grid, which includes imports and IPP output,
-and count recovered fraud as sales (SRC-TG-105). ONEM divides by gross production (SRC-TG-222). The
-two series should not be mixed. Technical losses alone are much lower:
-transmission ≤2.23% and distribution 7-9% in 2024 (SRC-TG-222). On those figures the increase since
-2010 looks mainly non-technical. That is our inference, but ONEM itself attributes "most" losses to
-electricity theft (SRC-TG-222). Since 2021 the rate has plateaued at 20-22% on ONEM's
-gross-production measure, which gives about 21% in 2024 (SRC-TG-222). The 2026 figures are
-statements, not statistics: about 19% from the chair of the parliamentary finance committee
-(SRC-TG-230) and from an unnamed official (SRC-TG-231). Their definition is not given, so they show
-no clear improvement on ONEM's 2024 value.
+ONEM’s national gross-production series reports that combined technical and commercial electricity network losses rose from 11.4% in 2010 to 21.1% in 2024, with a peak of 21.7% in 2022 (SRC-TG-222). This measures total network losses; it does not directly measure electricity theft or the quantity produced but unbilled. The World Bank reported total losses of 12% in 2010 and 21% in 2021 (SRC-TG-224). For 2023, ONEM reports 20.0% on its gross-production series (SRC-TG-222), while the World Bank reports 18.4% using energy injected as the denominator (SRC-TG-105). These are distinct series and cannot be treated as a directly comparable pair. The World Bank documentation defines injected supply as net STEG generation plus imports and IPP output, and sales as sold quantities plus recovered fraud and pro-rata amounts; it does not reconcile the 2023 result with ONEM’s series (SRC-TG-105).
+
+For 2024, ONEM says transmission losses did not exceed 2.23% and distribution losses were in the 7–9% range, citing STEG’s 2024 activity report (SRC-TG-222). ONEM also says the largest part of losses comes from electricity diversion and that the practice continues despite the TND 2,000 fine under Government Decree 2018-59 (SRC-TG-222). These are reported component figures and attribution, not a separately measured national theft time series. The STEG report was not independently inspected, and the cited component measures do not establish the technical/non-technical split over time or prove that non-technical losses drove the increase since 2010.
+
+Two press reports in 2026 relay statements of about 19%: the parliamentary finance committee chair describes losses during transmission and distribution as a share of electricity produced (SRC-TG-230), while a report citing an unnamed informed official gives about 19% unaccounted production, comprising 12% technical losses and about 7% illegal consumption (SRC-TG-231). These are tier C statements with no disclosed calculation method and are not comparable official observations against ONEM’s series. The World Bank’s 15% target for 2028 is a programme target, not an observed value (SRC-TG-105).
 
 ## Root causes
 
-The symptom is a high loss rate. The causes are:
+The cited sources identify plausible contributors to high losses, but do not quantify each cause’s contribution to the increase over time:
 
-- **Theft and fraud.** ONEM says theft "keeps growing" despite a TND 2,000 fine per offence under
-  Government Decree 2018-59 (SRC-TG-222). The World Bank says losses and non-payment worsened
-  "since the revolution" (SRC-TG-224) and names commercial losses ("mainly fraud") first among the
-  causes in 2023 (SRC-TG-105). STEG inspections found 18,000 theft cases in 2023 (SRC-TG-232,
-  tier C).
-- **No smart metering.** The World Bank cites the "lack of advanced metering infrastructure" as a
-  cause (SRC-TG-105).
-- **Ageing assets and under-spent maintenance (legacy of STEG's finances).** The World Bank cites
-  "under-spending on operation and maintenance (O&M), aging network assets" (SRC-TG-105). STEG's
-  financial crisis is covered by the subsidies/STEG finances lane. It feeds this problem through
-  maintenance budgets.
+- **Commercial losses, mainly fraud.** The World Bank lists commercial losses, mainly fraud, among the causes of the 2023 loss indicator (SRC-TG-105). ONEM says electricity diversion accounts for the largest part of losses and says the practice continues despite a TND 2,000 fine under Government Decree 2018-59 (SRC-TG-222). A tier C press report says STEG identified 18,000 theft cases in 2023 and estimates 80 million TND of losses; its accompanying “200 gigawatts” quantity is dimensionally inconsistent with an energy amount (SRC-TG-232). These sources do not provide a verified theft-volume time series.
+- **AMI availability.** The World Bank lists lack of advanced metering infrastructure as one cause (SRC-TG-105). Installed coverage is not established in this finding; an AFD smart-grid project is a lead for follow-up, not evidence that there is no AMI.
+- **Network assets and maintenance.** The World Bank identifies under-spending on operation and maintenance and ageing network assets among the causes (SRC-TG-105). The World Bank also describes STEG’s financial distress and cites high network losses among its causes; this does not establish that financial distress caused the loss trend (SRC-TG-105).
 
-Losses and non-payment are separate. Unpaid bills are electricity that was metered and billed but
-not paid; public customers leave about 50% unpaid (SRC-TG-224). They are noted only for clarity.
-Receivables belong to lane 160-189.
+Losses and non-payment are distinct. Non-payment concerns invoices already billed but unpaid; the World Bank reports that public customers’ non-payment was 50% in the cited 2023 context (SRC-TG-224). This is separate from electricity not billed because of network loss or illegal consumption.
 
 ## Evidence
 
-- ONEM loss series, read from Figure 33 (SRC-TG-222): 2010 11.4%, 2015 16.1%, 2019 16.6%, 2020
-  17.4%, 2021 21.1%, 2022 21.7%, 2023 20.0%, 2024 21.1%. The biggest jump is 2020 to 2021 (+3.7
-  points).
-- World Bank: 12% (2010) to 21% (2021) (SRC-TG-224); 18.4% in 2023 on the injected-energy
-  definition (SRC-TG-105). For 2023 ONEM's gross-production figure is 20.0% (SRC-TG-222). We read
-  the 1.6-point gap as a difference of definition: a larger denominator (injected energy includes
-  imports and IPP output) and a smaller numerator (recovered fraud counted as sales) both lower the
-  rate. Neither source states this comparison.
-- Technical losses: transmission ≤2.23%, distribution 7-9% (2024) (SRC-TG-222).
-- Derived (ours, not stated in any source): if technical losses are about 9-11% of production,
-  non-technical losses are about 10-12% of production in 2024. The 2026 press split of 12%
-  technical and 7% illegal (SRC-TG-231) implies a larger technical share and a smaller theft share
-  than ONEM's reading. The two do not agree.
-- Scale reference: 2023 production was 19,314 GWh (SRC-TG-220), so each percentage point of losses
-  is about 190 GWh (derived).
+- **ONEM total loss series:** Figure 33 reports 2010 11.4%, 2011 13.7%, 2012 15.2%, 2013 14.7%, 2014 14.8%, 2015 16.1%, 2016 15.8%, 2017 17.4%, 2018 17.1%, 2019 16.6%, 2020 17.4%, 2021 21.1%, 2022 21.7%, 2023 20.0%, and 2024 21.1% (SRC-TG-222). The largest one-year increase shown is 2020–2021, +3.7 percentage points.
+- **World Bank total-loss statements:** 12% in 2010 and 21% in 2021 in the ELMED project document (SRC-TG-224). The TEREG programme document reports 18.4% in 2023 and defines overall T&D losses using energy injected and electricity sales (SRC-TG-105). ONEM reports 20.0% for 2023 on its gross-production series (SRC-TG-222). The available documents do not reconcile these 2023 calculations; do not attribute the difference to a specific numerator or denominator effect.
+- **ONEM’s reported 2024 components:** transmission losses did not exceed 2.23%, and distribution losses were in the range 7–9%; ONEM attributes the largest part to diversion. ONEM cites STEG’s 2024 activity report for the component figures, which was not independently obtained (SRC-TG-222).
+- **Separate tier C 2026 statements:** the parliamentary finance committee chair gives 19% of electricity produced lost in transmission and distribution (SRC-TG-230). An anonymous source relayed through Mosaïque FM gives about 19% unaccounted, split into 12% technical and about 7% illegal consumption (SRC-TG-231). Methods and denominators are not disclosed; these do not validate a 2026 observation in the ONEM series.
+- **Theft cases and volume claim:** African Manager reports 18,000 detected cases in 2023, an estimate of 80 million TND in losses, and “200 gigawatts” (SRC-TG-232). Gigawatt measures power, not energy. No GWh estimate is derived from this report.
+- **Scale reference (derived):** ONEM’s 2023 production figure is 19,314 GWh (SRC-TG-220). One percentage point of that production is about 193 GWh (19,314 × 0.01), as a scale illustration only; it is not an estimate of losses or theft volume.
 
 ## Why confidence is what it is
 
-The trend is solid. ONEM (tier A) and two World Bank appraisal documents (tier B) agree that
-losses roughly doubled since 2010 to about 20%. The exact level differs by source and definition:
-for 2023, 20.0% (ONEM, gross production) against 18.4% (World Bank/STEG, injected energy). The
-technical versus non-technical split is the weak point. ONEM's transmission and distribution
+The trend is supported by ONEM’s official series (tier A): its gross-production loss indicator increased from 11.4% in 2010 to 21.1% in 2024. World Bank documents report 12% in 2010 and 21% in 2021, and 18.4% in 2023 on a different injected-energy indicator. The exact level differs by source and described basis: for 2023, ONEM reports 20.0% and the World Bank 18.4%. Their underlying calculations are not reconciled. The technical versus commercial split is the weak point. ONEM's transmission and distribution
 figures come second-hand from a STEG report we could not open. The alternative split rests on an
-anonymous official quoted in the press. That theft drives the growth is stated by ONEM and the
-World Bank, but neither publishes a theft volume. Confidence is medium.
+anonymous official quoted in the press. ONEM and the World Bank identify diversion/fraud as important contributors, but neither establishes the share of the historical increase attributable to theft or publishes a comparable theft-volume series. Confidence is medium.
 
 ## Links to other sectors
 
-Every unbilled kWh is still generated, mostly from gas largely of Algerian origin (see
-FND-TG-101). Losses therefore raise gas demand and the import bill for the same billed
-consumption. We found no source quantifying the gas volume lost this way. Links to water and
+Electricity network losses entail generation that does not reach billed end use. Tunisia’s generation mix and gas imports are covered in FND-TG-101, but the cited sources do not quantify the gas use or import cost attributable to these losses. Links to water and
 agriculture: none found.
 
 ## Leads for phase 2
@@ -202,6 +215,6 @@ agriculture: none found.
   https://www.tresor.economie.gouv.fr/Articles/2025/02/28/projet-smart-grid-de-la-steg-finance-par-l-afd-succes-de-la-phase-experimentale-et-lancement-de-la-mise-en-production
 - STEG anti-theft inspection campaigns (SRC-TG-232).
 
-## Verification status
+## Verification
 
-Draft retained. Outstanding exact issue: ONEM attributes most of the 2024 loss rate to electricity diversion, but the available series does not separately measure theft; technical-loss shares are also reported as ranges. Keep “mostly theft” attributed to ONEM and do not present the residual as an independently measured theft rate.
+The national loss series is directly observed. ONEM’s attribution of diversion is identified as the agency’s assessment. The studies’ incompatible theft and technical-loss estimates do not yield a measured national theft fraction.

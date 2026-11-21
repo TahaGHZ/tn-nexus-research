@@ -1,89 +1,135 @@
 ---
 id: FND-TG-290
-title: Reported industrial energy-audit counts fell after 2011, but compliance coverage remains unknown
-status: draft
-sectors: [energy]
+title: Tunisia recorded fewer industrial energy audits in 2018 than in 2011; official counts do not measure compliance
+status: in-review
+sectors:
+  - energy
 theme: industrial-efficiency
 timeframe: current
-period: 2011-2024
-geography: [national]
-severity: high
-trend: unknown
-confidence: high
+period: 2023-2024
+geography:
+  - national
+severity: medium
+trend: decreasing
+confidence: medium
 root_causes:
-  - cause: The mandatory audit regime applies only to industrial establishments consuming at least 800 toe per year, so reported audit counts do not establish coverage without the number of eligible establishments.
-    type: institutional
+  - cause: The industrial energy balance shows substantial petcoke use concentrated in non-metallic minerals (including cement), but the available
+      national balance does not identify facility-level users, operational choices, or the drivers of fuel substitution.
+    type: technical
     legacy_decision: false
-    sources: [SRC-TG-291, SRC-TG-295]
+    sources:
+      - SRC-TG-222
 indicators:
-  - name: Reported industrial energy audits
-    value: 103
-    unit: audits
-    year: 2011
-    geography: national
-    source: SRC-TG-295
-  - name: Reported industrial energy audits
-    value: 21
-    unit: audits
-    year: 2018
-    geography: national
-    source: SRC-TG-295
-  - name: Industrial final energy consumption
+  - name: Industrial final energy consumption (including biomass)
     value: 1914
     unit: ktep
     year: 2024
     geography: national
     source: SRC-TG-222
-  - name: Industrial share of final energy use
+  - name: Industrial final energy consumption (including biomass)
+    value: 1994
+    unit: ktep
+    year: 2023
+    geography: national
+    source: SRC-TG-222
+  - name: Industry share of national final energy demand (including biomass)
     value: 25
     unit: percent
     year: 2024
     geography: national
     source: SRC-TG-222
-  - name: Petcoke used by industry
+  - name: Industrial petcoke use
     value: 473
     unit: ktep
     year: 2024
     geography: national
     source: SRC-TG-222
-stakeholders: [cement producers, Ministry of Industry Mines and Energy, ANME, STEG]
-related: [FND-TG-191, FND-TG-221]
-sources: [SRC-TG-222, SRC-TG-290, SRC-TG-291, SRC-TG-295]
+  - name: Industrial petcoke use
+    value: 532
+    unit: ktep
+    year: 2023
+    geography: national
+    source: SRC-TG-222
+  - name: Petcoke use in non-metallic minerals industry
+    value: 473
+    unit: ktep
+    year: 2024
+    geography: national
+    source: SRC-TG-222
+  - name: Non-metallic minerals share of industrial final energy consumption
+    value: 50
+    unit: percent
+    year: 2024
+    geography: national
+    source: SRC-TG-222
+  - name: Reported industrial energy audits
+    value: 103
+    unit: reported audits
+    year: 2011
+    geography: national
+    source: SRC-TG-295
+  - name: Reported industrial energy audits
+    value: 21
+    unit: reported audits
+    year: 2018
+    geography: national
+    source: SRC-TG-295
+stakeholders:
+  - cement producers
+  - other non-metallic minerals producers
+  - Ministry of Industry Mines and Energy
+  - ANME
+related:
+  - FND-TG-191
+  - FND-TG-291
+sources:
+  - SRC-TG-222
+  - SRC-TG-290
+  - SRC-TG-295
 data_gaps:
-  - No establishment-level energy use or verified audit-coverage denominator was found; these national balances do not establish weak audit enforcement.
+  - The 2024 national balance assigns 473 ktep of petcoke to industry and to the non-metallic minerals branch, but does not disaggregate cement
+    from other non-metallic minerals or name individual facilities.
+  - The Ministry's industrial audit-count table reports annual counts but does not define whether these are completed audits, newly audited establishments,
+    or repeat audits; it gives no eligible-establishment denominator or compliance rate (SRC-TG-295).
+  - The 2014 energy strategy proposes industrial energy-efficiency actions and discusses audit obligations, but does not establish the implementation
+    status or effectiveness of those measures today (SRC-TG-290).
+  - The balance notes a 2023-2024 decline in both industrial final use and petcoke use, but does not determine whether activity, fuel substitution,
+    or efficiency explains the change (SRC-TG-222).
 author: TahaGHZ
 ---
 
 ## Problem
 
-The Ministry reports 103 industrial energy audits in 2011 and 21 in 2018, with no 2019 count
-(SRC-TG-295). Industry consumed 1,914 ktep in 2024, 25% of Tunisia's final energy demand
-(SRC-TG-222). The count series shows reduced recorded audit activity but does not establish weak
-enforcement: the eligible-establishment denominator and compliance outcomes are not published.
+Tunisia's 2024 national energy balance records 1,914 ktep of industrial final energy consumption, 25% of national final demand when biomass is included. In the same balance, industry used 473 ktep of petcoke in 2024, down from 532 ktep in 2023. The annex assigns all 473 ktep to the non-metallic minerals branch, which used 959 ktep in total (about half of industrial final use). ONEM identifies cement plants as the principal industrial users of petcoke, while the branch also includes other industries; the balance does not provide facility-level quantities. These are reported energy-balance values, not estimates of emissions or CBAM payments (SRC-TG-222).
+
+The reported industrial total also declined from 1,994 ktep in 2023 to 1,914 ktep in 2024 (about 4%). ONEM describes this as possibly reflecting slower activity or efficiency gains, without resolving the cause. Its narrative sentence about substitution between gas and petcoke is internally inconsistent with the reported shares, so this finding relies on the annex's year-specific quantities and does not use that sentence as causal evidence (SRC-TG-222).
 
 ## Root causes
 
-The audit obligation covers industrial establishments using at least 800 toe per year
-(SRC-TG-291). The sources do not explain the decline in reported audits or quantify compliance.
+The 2024 balance establishes the scale and concentration of petcoke use, but not why individual plants select the fuel or what caused its year-to-year decline. Facility-level fuel use, production, audit findings, and investment data are needed to test operational, economic, or regulatory explanations. The 2014 national energy-management strategy described energy audits and industrial efficiency actions as part of its policy plan; it is historical policy context, not evidence that the measures were implemented or effective (SRC-TG-290).
+
+The Ministry's published industrial-audit table reports 103 audits in 2011, 54 in 2016 and 21 in 2018, with 2019 shown as unavailable. This is a direct official count series, but the page does not define the counting unit or report the eligible-establishment denominator. The counts therefore cannot establish current audit coverage or enforcement (SRC-TG-295).
 
 ## Evidence
 
-The Ministry's audit-count series is in SRC-TG-295; the legal threshold is in SRC-TG-291; 2024
-energy use is in SRC-TG-222.
+- ONEM's 2024 energy balance: industrial final use 1,994 ktep in 2023 and 1,914 ktep in 2024; industry shares of 24% and 25% respectively; petcoke use of 532 ktep and 473 ktep; and 2024 non-metallic minerals use of 959 ktep including 473 ktep petcoke (SRC-TG-222).
+- ONEM's prose says petcoke is the principal petroleum product used in industry, especially cement, and represents 72% of industrial petroleum products in 2024. The annex quantities give 473 ktep petcoke out of 653 ktep total petroleum products, consistent with about 72% (SRC-TG-222).
+- The strategy published by ANME and GIZ in 2014 sets out industrial efficiency actions and proposed review of energy-audit rules. These are historical proposals, not current outcome measurements (SRC-TG-290).
+- The Ministry's table labels the annual industrial series “Nb d’audits”: 2010 101; 2011 103; 2012 50; 2013 38; 2014 38; 2015 44; 2016 54; 2017 29; 2018 21; 2019 “-”. The webpage does not define whether counts are audits completed, establishments audited, or repeat audits (SRC-TG-295).
 
 ## Why confidence is what it is
 
-Medium: audit counts and energy balances are official, but no denominator or compliance-rate data
-support an enforcement conclusion.
+Medium. The official ONEM energy balance directly reports the sector and fuel quantities and provides an internally additive annex. Attribution of all 2024 petcoke to non-metallic minerals is direct at the branch level; cement is identified as a principal user in the report's prose, but no facility-level split is published. The audit-count source is also official but underdefined and cannot support an enforcement rate or trend in compliance.
 
 ## Links to other sectors
 
-Industry is an energy end-use sector; cement's trade exposure is addressed separately in FND-TG-291.
+This is an industrial energy-use finding. Cement and other mineral products are exposed to separate trade-policy analysis in FND-TG-291, which does not estimate facility-specific emissions from the energy figures here.
 
 ## Leads for phase 2
 
-- Mandatory energy audits and related sanctions (SRC-TG-291).
+- Industrial energy audits and efficiency measures described in the 2014 strategy (SRC-TG-290).
+- Petcoke dependence and possible fuel substitution in cement and other non-metallic minerals production (SRC-TG-222).
 
-## Verification status
+## Verification
 
-Draft retained. Outstanding exact issue: the Ministry's reported audit count falls from 103 to 21, but there is no denominator for eligible establishments or compliance outcome; this evidence does not substantiate a claim of weak enforcement.
+The ministry publishes annual audit counts of 103 in 2011 and 21 in 2018; no eligible-establishment denominator or audit-outcome measure is provided (SRC-TG-295). Industrial energy use is separately defined in the official balance. Neither series measures compliance.

@@ -1,20 +1,24 @@
 ---
 id: FND-TG-310
-title: Transport was Tunisia's largest final-energy consumer in 2024 and relied predominantly on petroleum
-status: draft
-sectors: [energy]
+title: Transport was Tunisia's largest final-energy consumer in 2024, with petroleum products supplying about 90%
+status: in-review
+sectors:
+  - energy
 theme: transport-energy
 timeframe: current
 period: 2024
-geography: [national]
+geography:
+  - national
 severity: high
 trend: worsening
 confidence: high
 root_causes:
-  - cause: Road transport accounts for most transport-sector energy use, while petroleum products account for about 90% of sector demand.
+  - cause: Transport energy use is concentrated in road transport, and the transport balance is dominated by petroleum products; the available
+      balance describes this structure but does not establish its underlying behavioural, economic or policy causes.
     type: technical
     legacy_decision: false
-    sources: [SRC-TG-222]
+    sources:
+      - SRC-TG-222
 indicators:
   - name: Transport final energy consumption
     value: 2721
@@ -22,62 +26,89 @@ indicators:
     year: 2024
     geography: national
     source: SRC-TG-222
-  - name: Transport share of national final energy demand
+  - name: Transport share of national final energy demand (ONEM narrative)
     value: 35
     unit: percent
     year: 2024
     geography: national
     source: SRC-TG-222
-  - name: Petroleum share of transport demand
-    value: 90
+  - name: Petroleum-products subtotal in transport final energy balance
+    value: 2437
+    unit: ktep
+    year: 2024
+    geography: national
+    source: SRC-TG-222
+  - name: Petroleum products as share of transport final energy consumption (calculated from ONEM balance)
+    value: 89.6
     unit: percent
     year: 2024
     geography: national
     source: SRC-TG-222
-  - name: Road transport share of transport demand
+  - name: Road transport final energy consumption
+    value: 2423
+    unit: ktep
+    year: 2024
+    geography: national
+    source: SRC-TG-222
+  - name: Road transport as share of transport final energy consumption (calculated from ONEM balance)
     value: 89
     unit: percent
     year: 2024
     geography: national
     source: SRC-TG-222
-stakeholders: [transport users, Ministry of Transport, Ministry of Industry Mines and Energy, STIR, fuel importers]
-related: [FND-TG-131, FND-TG-161]
-sources: [SRC-TG-222, SRC-TG-311, SRC-TG-290]
+stakeholders:
+  - transport users
+  - Ministry of Transport
+  - Ministry of Industry Mines and Energy
+  - STIR
+  - fuel importers
+related:
+  - FND-TG-131
+  - FND-TG-161
+sources:
+  - SRC-TG-222
+  - SRC-TG-290
+  - SRC-TG-311
+  - SRC-TG-312
+  - SRC-TG-313
 data_gaps:
-  - No current fleet fuel-efficiency series or recent transport-mode split was verified; the finding does not estimate avoidable fuel imports.
+  - ONEM's 2024 report gives transport as 35% of final demand in its narrative and sector summary table when biomass is included, but gives 37%
+    in the same table excluding biomass. The report text also says the transport share rises to 37% excluding biomass. Because 37% is denominator-specific,
+    the finding uses the 35% with-biomass value; no unresolved conflict remains in the denominator-labelled published figures.
+  - No current fleet fuel-efficiency series or recent transport-mode split was verified; this finding does not estimate avoidable fuel imports.
+  - The national balance and sector profile describe the end-use mix, not causal drivers such as passenger versus freight activity, fleet age,
+    travel demand or modal policy.
 author: TahaGHZ
 ---
 
 ## Problem
 
-Transport consumed 2,721 ktep in 2024, or 35% of final energy demand, making it the largest
-end-use sector. Petroleum supplied about 90% of transport energy, and road transport represented
-89% of the sector (SRC-TG-222). ONEM's report indicates transport consumption rose 4% in 2024.
-This links transport activity to liquid-fuel demand, without repeating the national import-bill
-finding in FND-TG-131.
+ONEM's 2024 national energy balance records 2,721 ktep of final energy consumption by transport, the largest sector. The report narrative gives its share as 35%; Table 6 reports 35% with biomass included and 37% without biomass, and the accompanying text explicitly says the share rises to 37% when biomass is excluded. The percentage differs by denominator, not because of a second transport total (SRC-TG-222).
+
+In the detailed 2024 balance, petroleum products total 2,437 ktep of transport's 2,721 ktep, or 89.6% (calculated from the source values). The road row is 2,423 ktep, or 89.0% of transport consumption (also calculated from source values). These are distinct indicators: petroleum is an energy-carrier subtotal, while road is an end-use sub-sector. The table also shows non-petroleum inputs, so petroleum is dominant rather than exclusive (SRC-TG-222).
+
+ANME's transport profile independently describes transport as the largest energy-consuming sector and gives an undated 36% share, with road at 90% of transport use and transport responsible for more than 55% of national petroleum-product use. Because the page does not date those figures and its aggregate wording does not resolve ONEM's internal 2024 discrepancy, it is used only as a separate, undated corroboration of the broad sector pattern (SRC-TG-313). The finding links transport activity to liquid-fuel demand without repeating the national import-bill issue in FND-TG-131.
 
 ## Root causes
 
-Road transport's dominant share and petroleum dependence explain the sector's fuel exposure; the
-available statistics do not separate passenger, freight, fleet age or travel-demand effects.
+The balance establishes concentration in road transport and petroleum products, not why that pattern exists. It does not separate passenger and freight demand, fleet age or efficiency, travel demand, or the effects of transport policy. The structural description is therefore not presented as a demonstrated causal explanation.
 
 ## Evidence
 
-Official 2024 sector balance (SRC-TG-222); World Bank's 2022 fuel-supply context is in SRC-TG-311
-and is not used to infer 2024 imports.
+The dated primary evidence is ONEM's official 2024 national energy balance and accompanying report (SRC-TG-222). It directly reports the 2,721 ktep transport total, 2,437 ktep petroleum subtotal and 2,423 ktep road row; the 89.6% and 89.0% ratios are arithmetic derived from those reported values. The report presents the 35% share including biomass and the 37% share excluding biomass. ANME's undated profile (SRC-TG-313) offers secondary corroboration, not a replacement dated series. The World Bank's 2022 fuel-supply context in SRC-TG-311 is not used to infer 2024 imports. The national energy-management strategy (SRC-TG-290) is retained as context for the phase-2 lead, not as evidence for the 2024 indicators.
 
 ## Why confidence is what it is
 
-High for the 2024 national balance; no causal claim is made about why road transport dominates.
+High for the official 2024 transport total, its first-place ranking, and the two calculated composition ratios. ONEM's 35% share includes biomass; its 37% share excludes biomass. No causal claim is made about why road transport dominates.
 
 ## Links to other sectors
 
-Fuel use connects the transport sector to refining and imported petroleum supply.
+Fuel use connects transport to refining and imported petroleum supply. This finding describes end use and does not quantify the import-bill effect.
 
 ## Leads for phase 2
 
 - Transport efficiency actions described in the national energy-management strategy (SRC-TG-290).
 
-## Verification status
+## Verification
 
-Draft retained. Outstanding exact issue: the national 2024 sector shares and totals were confirmed against ONEM's original report text layer, but no independent second dataset was opened to cross-check the main figures.
+ONEM’s 2024 balance records 2,721 ktoe consumed by transport, including 2,437 ktoe of petroleum products. ANME independently identifies transport as the largest sector, without dating its percentage; use ONEM for the 2024 share (SRC-TG-312, SRC-TG-313).
