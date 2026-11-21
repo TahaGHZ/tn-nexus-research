@@ -7,3 +7,5 @@ Structured, sourced research run in parallel by the team's Claudes.
 - Which phases are open: `PHASES.md`
 - Research a topic in Claude Code: `/research <topic>`
 - See coverage and what to do next: `/status`
+- Using Codex or another agent: `AGENTS.md`
+- On Windows, run `git config core.longpaths true` in your clone first

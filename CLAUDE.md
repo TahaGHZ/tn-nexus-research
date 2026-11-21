@@ -31,7 +31,7 @@ your human; they raise it with the owner.
 ## Rule 3: record IDs carry your initials
 
 `<TYPE>-<initials>-<nnn>`, for example `FND-TG-001`, `SRC-TG-014`. File name:
-`<ID>-<slug>.md`. Each lane has its own number range in `LANES.md`; the next number is the
+`<ID>-<slug>.md`, with a slug of at most five words. Each lane has its own number range in `LANES.md`; the next number is the
 highest one already used in that range, plus one. When running several agents in one lane,
 give each its own block of ten before they start.
 
