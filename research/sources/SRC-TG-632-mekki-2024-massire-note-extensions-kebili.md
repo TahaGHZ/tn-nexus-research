@@ -23,6 +23,10 @@ L'essor des extensions (p. 2):
 
 > L'amélioration dans les années 1990 des techniques de forage et le fait que dans la région de Kébili, l'accès à l'eau souterraine est souvent facilement accessible ; L'augmentation des prix des dattes et notamment celles destinées à l'exportation ; [...] La faiblesse des alternatives hors agriculture pour l'investissement et la création de source d'emploi dans la région.
 
+Same page, on the old oases:
+
+> Ces difficultés expliquent que de nombreux agriculteurs familiaux donnent une moindre importance aux terres dans les anciennes oasis, voire parfois les abandonnent, et préfèrent se concentrer sur les extensions.
+
 English gloss: Drivers: better drilling techniques in the 1990s and easy access to groundwater; rising date prices, especially for export; small, fragmented, water-short and unprofitable plots in the old oases; few non-farm investment and job alternatives.
 
 (p. 3):

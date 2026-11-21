@@ -55,21 +55,13 @@ Footnote 99, printed page 26:
 
 English gloss: The report recommends revising, approving and implementing the new water code. Rural water distribution is run by 2,500 GDAs under the regional commissariats; most lack technical and operational capacity, which prevents cost recovery. Footnote 99 states that the 1975 code has never been amended.
 
-### Extracts merged from former SRC-TG-482 (same document, created in parallel)
+### Extracts merged from former SRC-TG-505 (same document, created in parallel)
 
-Section 1.2.1, printed page 8 (current baseline: groundwater and seawater intrusion):
+Section 1.2.1, printed pages 8-9 (current baseline: groundwater and seawater intrusion; the last sentence runs onto page 9):
 
 > En 2021, le nombre de forages d'eau autorisés pour les eaux souterraines était de 14 117, contre 20 350 forages illicites. Les taux d'extraction des aquifères ont augmenté jusqu'à 400 % dans certaines régions. Lorsque les eaux souterraines sont extraites en excès, la pression dans l'aquifère diminue, entraînant l'infiltration d'eau de mer salée qui se mélange avec l'eau douce de l'aquifère. Jusqu'à 85 % de toutes les ressources en eau souterraine présentent déjà des niveaux de salinité supérieurs à la valeur seuil minimale de 1,5 gramme par litre.
 
 English gloss: In 2021 there were 14,117 authorised boreholes against 20,350 illegal ones. Aquifer extraction rates reached up to 400% in some regions. Over-extraction lowers aquifer pressure and lets seawater in. Up to 85% of all groundwater resources already exceed the minimum salinity threshold of 1.5 g/L.
-
-Section 1.2.1, printed page 8 (energy cost of drinking water; irrigation tariff):
-
-> Après la mise en service de ses usines de dessalement, le coût énergétique moyen de l'eau potable de SONEDE est passé de 0,82 dinar tunisien par mètre cube (DT/m³) en 2015 à 1,30 DT/m³ en 2021, tandis que le prix de vente moyen est passé de 0,56 DT/m³ en 2015 à 0,94 DT/m³ en 2021.
-
-> le prix de l'eau d'irrigation pour les exploitations publiques (représentant 56 % de la superficie irrigable totale) à partir de grands barrages est resté inchangé depuis 2004, à 0,065 dinar tunisien par mètre cube (DT/m³), ne représentant que 15 % du coût en 201841.
-
-English gloss: After its desalination plants came online, SONEDE's average energy cost of drinking water rose from 0.82 DT/m3 (2015) to 1.30 DT/m3 (2021). The average sale price rose from 0.56 to 0.94 DT/m3. The irrigation water price for public schemes (56% of irrigable area) supplied from large dams has been unchanged since 2004 at 0.065 DT/m3, only 15% of cost in 2018.
 
 English executive summary, page vi (https://documents1.worldbank.org/curated/en/099112723090011281/pdf/P179130034985f0f50b126059dda2bfb584.pdf):
 
@@ -98,6 +90,12 @@ Figure 18, printed page 24 (title and plotted values as extracted):
 > Figure 18 : Offre et demande en eau en 2018 (sans conditions de sécheresse) et en l'absence de mesures sous le RCP 8.5 ... 4574 ... 3239 ... 4117 ... 2978
 
 English gloss: Supply and demand in 2018 (non-drought) and in 2050 under RCP8.5 with no action. Plotted values are 4,574 and 3,239 (2018) and 4,117 and 2,978 (2050).
+
+Footnote 86, printed page 24 (scope of the Figure 18 demand estimates):
+
+> 86 Agence française de développement, 2020. Pour les demandes et offres actuelles, les estimations de base reposent sur les besoins en eau potable, agricole, industrielle et touristique, ainsi que sur les sources d'approvisionnement en eau conventionnelles et non conventionnelles. Pour les demandes et offres futures, les estimations sont basées sur les besoins en eau potable et agricole, ainsi que sur les sources conventionnelles et non conventionnelles.
+
+English gloss: The current (2018) demand and supply estimates cover drinking, agricultural, industrial and tourism water. The future estimates cover drinking and agricultural water only.
 
 Footnote 87, printed page 24:
 
@@ -137,17 +135,13 @@ English gloss: Demand outstrips supply by 28% under RCP8.5, the most pessimistic
 - Footnote 99 is contradicted by the consolidated code text, which shows amendments in 1987, 1988, 2001 and 2004 (SRC-TG-406).
 - The 0.82 to 1.30 TND/m3 series is labelled "coût énergétique moyen". At those values it cannot be an energy-only cost if the energy share of SONEDE's costs is about 19% (SRC-TG-486); it is probably the average total cost and mislabelled in translation. Use it with that caveat.
 - The 0.065 TND/m3 price applies to water delivered from large dams to public irrigation schemes. It is not the price the farmer pays at the GDA level (see SRC-TG-485, SRC-TG-489).
-- Duplicate URL: SRC-TG-482, written in parallel by another agent, points to the same mirror file with different extracts. The two records should be merged.
-
-Notes carried over from former SRC-TG-482:
-
-- DUPLICATE URL. SRC-TG-482, written by a parallel agent in the same lane, cites the same inkyfada copy of the French CCDR. It was saved about 50 seconds before this record, so neither agent saw the other's file. The two records hold different extracts: SRC-TG-482 covers tariffs, governance and the water code; this one covers climate projections, the supply-demand gap and the coastal aquifers. Proposed consolidation for Taha: merge these extracts into SRC-TG-482 and repoint FND-TG-500, 501 and 502 to it. This agent was told not to edit existing records, so it did not do the merge.
-- SRC-TG-482 notes that the "coût énergétique moyen" series (0.82 to 1.30 DT/m3) is probably mislabelled total cost, not energy-only cost. Use it with that caveat.
-- Opened via: curl+pdftotext; saw: full text of the French full report, about 100+ pages. The official World Bank OpenKnowledge download returned an HTML page, not the PDF, so this mirror on inkyfada.com was used. The official English executive summary (https://documents1.worldbank.org/curated/en/099112723090011281/pdf/P179130034985f0f50b126059dda2bfb584.pdf) was also opened and holds the same 28% / RCP8.5 statement on page iv.
+- Merge history: this record absorbed former SRC-TG-505, created in parallel for the same inkyfada copy of the French CCDR. SRC-TG-505 no longer exists; FND-TG-500, 501 and 502 cite this record. Duplicated extracts from the merge were removed.
+- The official World Bank OpenKnowledge download returned an HTML page, not the PDF, so the inkyfada.com mirror was used. The official English executive summary (https://documents1.worldbank.org/curated/en/099112723090011281/pdf/P179130034985f0f50b126059dda2bfb584.pdf) was also opened and holds the same 28% / RCP8.5 statement on page iv.
+- Verified by the source-verifier on 2026-11-21: the mirror was re-downloaded, and the extracts on printed pages 8, 9, 23, 24, 31 and xi, plus English summary pages iv and vi, match the document verbatim. The extracts on pages 7 and 26 were not re-checked in that pass.
 - The CCDR's water projections are not independent. Nearly all of them cite the AFD study (SRC-TG-504). They also do not all match it:
   - Per capita: the CCDR gives 366→210 m3 (RCP4.5) and 122 m3 (RCP8.5). The AFD final version (April 2021) gives 366→200 m3 by 2050 and does not contain 210 or 122.
   - Surface water: the CCDR's -41% matches neither the AFD summary range (25-36%) nor its Table 6 (-34% RCP4.5).
-  - 2018 demand: Figure 18 plots 3,239 Mm3; AFD Table 30 gives 3,103 Mm3.
-  The CCDR probably drew on an earlier draft of the AFD study (dated "2020").
+  - 2018 demand: Figure 18 plots 3,239 Mm3; AFD Table 30 gives 3,103 Mm3. Footnote 86 explains the gap: the CCDR's current-demand baseline includes industrial and tourism water, while its future estimates (and AFD Table 30) cover drinking and agricultural water only.
+  The per-capita and surface-water differences are probably because the CCDR drew on an earlier draft of the AFD study (dated "2020").
 - Figure 18 series labels are lost in text extraction. The mapping (2050 demand 4,117, supply 2,978) is confirmed by the text's 1,139 Mm3 deficit and by AFD Table 30.
 - The 1.5 g/L "minimum threshold" statement on groundwater salinity has no visible footnote in the extracted text.

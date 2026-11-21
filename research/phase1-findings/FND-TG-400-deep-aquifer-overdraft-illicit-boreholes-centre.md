@@ -76,11 +76,11 @@ indicators:
     year: 2016
     geography: sidi-bouzid
     source: SRC-TG-402
-  - name: Deep-aquifer exploitation rate, North region
+  - name: Deep-aquifer exploitation rate, DGRE Nord region (whole north)
     value: 88
     unit: "% (276 of 314 Mm3)"
     year: 2016
-    geography: north-east
+    geography: national
     source: SRC-TG-402
   - name: Illicit boreholes, share of all boreholes
     value: 48
@@ -115,25 +115,25 @@ indicators:
   - name: Illicit boreholes, Kairouan
     value: 2500
     unit: boreholes (estimate)
-    year: 2017
+    year: 2016
     geography: kairouan
     source: SRC-TG-402
   - name: Illicit boreholes, Sidi Bouzid
     value: 2100
     unit: "boreholes (estimate; 4,700 in the 2023 indicators, SRC-TG-403)"
-    year: 2017
+    year: 2016
     geography: sidi-bouzid
     source: SRC-TG-402
   - name: Illicit boreholes, Kasserine
     value: 1300
     unit: "boreholes (estimate; 2,430 in the 2023 indicators, SRC-TG-403)"
-    year: 2017
+    year: 2016
     geography: kasserine
     source: SRC-TG-402
   - name: Illicit boreholes, Nabeul
     value: 1531
     unit: "boreholes (estimate; 1,796 in the 2023 indicators, SRC-TG-403)"
-    year: 2017
+    year: 2016
     geography: nabeul
     source: SRC-TG-402
   - name: Infraction reports by Sidi Bouzid CRDA, of which boreholes plugged
@@ -177,7 +177,7 @@ author: TahaGHZ
 
 ## Problem
 
-Tunisia's deep aquifers were drawn at 133% of their estimated resource in 2016 (1,895 Mm3 against 1,422 Mm3) and at 134% in 2020 (SRC-TG-402, SRC-TG-403). The national figure hides a sharp regional pattern. Withdrawals from the deep aquifers of the DGRE "Centre" region doubled from 262 Mm3 in 2006 to 534 Mm3 in 2016, 162% of its 330 Mm3 resource. Nabeul (Cap Bon) reached 195%, Kairouan 127%, Kasserine 120% and Sidi Bouzid 114%. The North as a whole stayed below its resource at 88% (SRC-TG-402). A growing part of the pumping goes through boreholes drilled without authorisation: an estimated 48% of boreholes in 2016, and 60% of deep-aquifer water points (21,279) in the 2023 indicators. These illicit boreholes drew 28% of the volume (SRC-TG-402, SRC-TG-403). On the Kairouan plain, pumping rose from 31.3 Mm3 in 1970 to 111.43 Mm3 in 2016, and the water table fell by 16 m at Draa Affane between 1987 and 2017 (SRC-TG-408).
+Tunisia's deep aquifers were drawn at 133% of their estimated resource in 2016 (1,895 Mm3 against 1,422 Mm3) and at 134% in 2020 (SRC-TG-402, SRC-TG-403). The national figure hides a sharp regional pattern. Withdrawals from the deep aquifers of the DGRE "Centre" region doubled from 262 Mm3 in 2006 to 534 Mm3 in 2016, 162% of its 330 Mm3 resource. Nabeul (Cap Bon) reached 195%, Kairouan 127%, Kasserine 120% and Sidi Bouzid 114%. The North as a whole stayed below its resource at 88% (SRC-TG-402). A growing part of the pumping goes through boreholes drilled without authorisation: an estimated 48% of boreholes in 2016, and 60% of deep-aquifer water points (21,279) in the 2023 indicators. These illicit boreholes drew 28% of the volume (SRC-TG-403; 22% in 2016, SRC-TG-402). On the Kairouan plain, pumping rose from 31.3 Mm3 in 1970 to 111.43 Mm3 in 2016, and the water table fell by 16 m at Draa Affane between 1987 and 2017 (SRC-TG-408).
 
 ## Root causes
 

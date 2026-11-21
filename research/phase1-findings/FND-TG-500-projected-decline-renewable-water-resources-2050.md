@@ -1,12 +1,12 @@
 ---
 id: FND-TG-500
 title: Climate change is projected to cut Tunisia's renewable surface and groundwater resources by 2050, with national estimates from about -20% to -41% and disputed timing
-status: draft
+status: in-review
 sectors: [water, agriculture]
 theme: surface-water
 timeframe: predicted
 period: baseline 1961-2022, horizon 2050 (some sources to 2100)
-geography: [national, north-west, north-east]
+geography: [national, north-west, north-east, siliana]
 severity: high
 trend: worsening
 confidence: medium
@@ -19,7 +19,7 @@ root_causes:
     type: climatic
     legacy_decision: false
     sources: [SRC-TG-504]
-  - cause: Population growth on a fixed resource base had already pushed renewable water per inhabitant below the 500 m3 absolute-scarcity threshold around 1990, before any climate signal
+  - cause: Population growth on a fixed resource base had already pushed per-capita renewable water below the 500 m3 absolute-scarcity threshold by 1990-91, so the climate-driven decline lands on structural scarcity (a cause of the per-capita scarcity, not of the resource decline itself)
     type: economic
     legacy_decision: false
     sources: [SRC-TG-507, SRC-TG-506]
@@ -90,11 +90,11 @@ indicators:
     year: 2050, RCP4.5
     geography: national
     source: SRC-TG-504
-  - name: Projected runoff change, CMIP6 composite, average over 2021-2100 (slight change until the 2040s, peak drop -37% in the 2060s)
+  - name: Projected runoff change, CMIP6 composite, Northern Tunisia (11 governorates across the north-west and north-east), average over 2021-2100 (slight change until the 2040s, peak drop -37% in the 2060s)
     value: -21
     unit: "%"
     year: 2021-2100, SSP2-4.5
-    geography: north-west, north-east (Northern Tunisia, 11 governorates)
+    geography: north-west
     source: SRC-TG-510
   - name: Projected change in surface quick flow, Siliana watershed
     value: +4.11 (SSP1) / -24.5 (SSP2) / -27.52 (SSP3)
@@ -124,6 +124,7 @@ data_gaps:
   - Peer-reviewed national-scale (not northern-only) runoff and recharge projections under CMIP6; none found open
   - Dakhlaoui et al. 2022, Deidda et al. 2013, Terink et al. 2013 cited in SRC-TG-510 were not opened
   - The Eau 2050 full stage-3 report (Modèles prévisionnels offre-demande); only the synthesis was opened
+  - "Independent check (source-verifier): Ben Nsir et al. 2022, Water 14(14):2242, doi:10.3390/w14142242, tier A, Lakhmass catchment (126 km2, north-west). The Crossref abstract gives discharge -12.5% (RCP4.5) and -36.6% (RCP8.5) by 2070-2099. This supports a later, smaller RCP4.5 decline than AFD's -34% at 2050. Only the abstract was read and no SRC record was created, so the figure is not used in the body"
 author: TahaGHZ
 ---
 
@@ -139,7 +140,7 @@ The baseline is already scarce. Renewable internal freshwater per inhabitant fel
 
 **Symptom vs cause.** Low dam storage and dry years are the symptoms. This finding is about the underlying shrinking of the renewable resource itself.
 
-1. **Historical, demographic (past to current).** The WDI series holds the resource at a constant 4.195 billion m3/yr, so the fall from 972 to 346 m3/person over 1961-2022 is entirely population growth (SRC-TG-507). Tunisia crossed the 500 m3/person absolute-scarcity threshold around 1990. Climate change therefore lands on a system already at structural scarcity.
+1. **Historical, demographic (past to current).** The WDI series holds the resource at a constant 4.195 billion m3/yr, so the fall from 972 to 346 m3/person over 1961-2022 is entirely population growth (SRC-TG-507). Tunisia crossed the 500 m3/person absolute-scarcity threshold in 1990-91 (504 m3 in 1990). This is a cause of per-capita scarcity, not of the projected shrinking of the resource. It matters because climate change lands on a system already at structural scarcity.
 2. **Climatic: less rain (predicted).** The AFD/PNA study projects a 6-9% fall in national annual precipitation by 2050 relative to 1981-2010. Lower rain explains about two thirds of the projected runoff decline (SRC-TG-504). The NDC synthesis gives a wider and more pessimistic range of -10% to -30% by 2050 without naming its source (SRC-TG-508).
 3. **Climatic: more evaporation (predicted).** With rainfall held constant, warming alone cuts runoff by 7-11% by 2050, about one third of the decline (SRC-TG-504).
 4. **Climatic: variability.** The AFD study argues that heavier but rarer storms are unlikely to refill dams and aquifers, because extreme rainfall may become less frequent and less intense south of the Mediterranean (SRC-TG-504). The CCDR projects dry years rising to 52% (RCP4.5) or 79% (RCP8.5) of years in 2031-2050 (SRC-TG-482).
@@ -184,7 +185,7 @@ No single past policy decision causes this finding. Policy decisions shape how t
 ## Links to other sectors
 
 - **Agriculture.** Irrigated agriculture uses about 80% of resources (SRC-TG-503, SRC-TG-504). A shrinking resource directly cuts the water allocated to public irrigated schemes. In the 2015-2018 drought, quotas were cut to 27% of normal supply (SRC-TG-504). Lower rainfall also reduces green water for rainfed cereals, though less than blue water: -6% vs -21% runoff on average to 2100 (SRC-TG-510).
-- **Energy.** Less surface water pushes supply towards desalination and deeper pumping, which raises energy demand (SRC-TG-482).
+- **Energy.** Less surface water pushes supply towards desalination. SONEDE's reliance on desalination has already raised its energy costs; it used 0.67 kWh/m3 in 2021 against a European median of 0.51 kWh/m3 (SRC-TG-482).
 
 ## Leads for phase 2
 

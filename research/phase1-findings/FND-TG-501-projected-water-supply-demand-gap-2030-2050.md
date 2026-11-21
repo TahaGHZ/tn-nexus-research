@@ -19,10 +19,10 @@ root_causes:
     type: economic
     legacy_decision: false
     sources: [SRC-TG-504, SRC-TG-482]
-  - cause: Supply-side development model built on a perception of abundance and subsidised tariffs disconnected from cost, which kept demand growing and groundwater exploitation above 100%
+  - cause: Supply-side development model built on a perception of abundance and subsidised tariffs disconnected from cost; low irrigation water prices led to over-exploitation, and groundwater exploitation exceeds 100% of resources
     type: policy
     legacy_decision: true
-    sources: [SRC-TG-503, SRC-TG-504]
+    sources: [SRC-TG-503, SRC-TG-504, SRC-TG-482]
 indicators:
   - name: Blue-water demand
     value: 3103
@@ -30,7 +30,7 @@ indicators:
     year: 2018
     geography: national
     source: SRC-TG-504
-  - name: Blue-water demand (CCDR figure 18, non-drought year)
+  - name: Blue-water demand (CCDR figure 18, non-drought year; includes industry and tourism per CCDR footnote 86, hence above the AFD 3103)
     value: 3239
     unit: Mm3/year
     year: 2018

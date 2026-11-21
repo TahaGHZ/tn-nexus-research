@@ -3,7 +3,7 @@ id: SRC-TG-509
 title: "Projection des ressources en eau de la Tunisie sous les effets des changements climatiques globaux"
 publisher: XIIIth World Water Congress (IWRA), Montpellier; authors R. Gafrej Lahache and G. Pillet
 year: 2008
-type: peer-reviewed
+type: institutional-report
 tier: B
 url: https://iwra.org/proceedings/congress/resource/abs70_article.pdf
 accessed: 2026-11-21
@@ -34,6 +34,8 @@ English gloss: Exploitable shallow-aquifer potential falls by 467 Mm3 by 2030. T
 ## Notes
 
 - Opened via: curl+pdftotext; saw: full text (12 pages).
-- These are congress proceedings, not a journal article, so tier B. The `type` field uses peer-reviewed as the nearest value, but the review status of the proceedings is not stated.
+- These are congress proceedings (IWRA XIIIth World Water Congress), not a journal article, and the review status of the proceedings is not stated. The source template has no conference type. `peer-reviewed` would imply tier A under CLAUDE.md, so the record uses `institutional-report` as the nearest value and keeps tier B.
+- Page 1 also states that 88% of shallow aquifers have salinity above 3 g/L (citing DGRE, 2000). This is not extracted above; add it as an extract before citing it.
+- Verified by the source-verifier on 2026-11-21: the IWRA file was re-downloaded, and the extracts match the document at the pages given.
 - Climate scenario: HadCM3, SRES A2, period 2006-2030. This is an older scenario generation than the RCP/SSP studies.
 - Most of the 28% decline is driven by overexploitation and salinity, not by climate. On page 6 the authors assume the small projected rainfall decline "n'affectera pas les écoulements ou plutôt les apports au niveau des barrages" (will not affect runoff or dam inflows). The "about 5%" surface-water figure relates to dam stocks and storage capacity (evaporation, less frequent desilting), not to inflow volumes. It is therefore not comparable with the inflow projections of the RCP-era studies. The "28%" must not be read as a climate-only signal, nor confused with other "28%" figures for Tunisia (the AFD resources decline by 2050, the CCDR unmet demand under RCP8.5).

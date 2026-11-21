@@ -21,6 +21,18 @@ Synthèse générale, "Usages agricoles et quotas réduits", printed page 8:
 
 English gloss: Agriculture is the largest water use, nearly 75% of total consumption, met largely from groundwater. Dam-water quotas for public irrigated perimeters (PPI) were cut considerably and distribution was limited to two months. PPIs fed by Sidi Salem actually received only 18.7 Mm3 against needs above 100 Mm3.
 
+Synthèse générale, printed page 8:
+
+> L'état a supporté les frais énergétiques du renforcement de transfert qui sont passés de 20 millions de dinars en 2022 à 41 millions de dinars en 2023.
+
+English gloss: The State paid the energy costs of reinforced transfers, which rose from 20 MTND in 2022 to 41 MTND in 2023.
+
+Section IV.2 "Restrictions au niveau des usages", printed page 37:
+
+> Des restrictions ont été décidées par le MARHP au niveau de l'exploitation des eaux des barrages. Ces restrictions concernent l'eau potable et l'irrigation. Ainsi, le volume facturé par la SECADENORD à la SONEDE et aux CRDA a baissé en 2023 de l'ordre de 13% par rapport à 2022 (de 456 Mm3 à 403 en 2023).
+
+English gloss: The ministry restricted use of dam water for both drinking water and irrigation; the volume billed by SECADENORD to SONEDE and CRDAs fell about 13% from 2022 (456 Mm3) to 2023 (403 Mm3).
+
 Section IV.1, printed page 37:
 
 > Les lâchers à partir de Sidi Salem étaient déjà interrompus depuis le mois de février 2023.
@@ -89,13 +101,15 @@ English gloss: PNEEI has equipped 424,700 of 442,000 ha of irrigated perimeters;
 
 Comparison table with targets, printed pages 83-84:
 
+> Plusieurs projets de réhabilitation des PPI en cours Un taux élevé d'équipement en économie d'eau Mais : problèmes récurrents de gestion locale par les GDAs et difficultés pour s'accorder sur des modèles alternatifs. Par ailleurs, les PIP dont la superficie approche les 50% de l'ensemble des PI ne sont pas concernés par ces projets de réhabilitation
+
 > Baisse sensible de la production agricole pour toutes les spéculations vitales avec pour causes les quotas sévères sur les eaux de surface et les impacts du CC (pénurie et impacts des températures élevées)
 
 > 2023 : consommation en eau AEP / irrigation dans une proportion 21 / 76
 
 > La surexploitation des eaux souterraines est une résultante de la réduction des quotas pour l'irrigation d'une part, qui a poussé des agriculteurs à exploiter les eaux souterraines en compensation, la multiplication des forages illicites (malgré l'accentuation des efforts de contrôle), et d'autre part les impacts du CC
 
-English gloss: A marked fall in agricultural production for all vital crops, caused by severe quotas on surface water and climate impacts. In 2023 drinking-water vs irrigation consumption split was 21/76 (target 30/70). Groundwater overexploitation results partly from reduced irrigation quotas that pushed farmers onto groundwater in compensation, plus illicit boreholes and climate.
+English gloss: Several PPI rehabilitation projects are under way and the water-saving equipment rate is high, but GDA local management problems recur; private irrigated perimeters (PIP), close to 50% of all irrigated perimeters, are not covered by these rehabilitation projects. A marked fall in agricultural production for all vital crops, caused by severe quotas on surface water and climate impacts. In 2023 drinking-water vs irrigation consumption split was 21/76 (target 30/70). Groundwater overexploitation results partly from reduced irrigation quotas that pushed farmers onto groundwater in compensation, plus illicit boreholes and climate.
 
 ## Notes
 

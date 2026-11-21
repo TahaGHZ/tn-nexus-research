@@ -5,7 +5,7 @@ status: draft
 sectors: [water, agriculture, energy]
 theme: legacy-policy
 timeframe: past
-period: 1975-2015
+period: 1975-1995
 geography: [national, centre-west, sidi-bouzid, kairouan, nabeul]
 severity: high
 trend: worsening
@@ -15,7 +15,7 @@ root_causes:
     type: policy
     legacy_decision: true
     sources: [SRC-TG-406, SRC-TG-408]
-  - cause: "State incentives for private irrigation development from the 1980s (subsidised credit, diesel, fertiliser, extensive rural electrification) made private shallow wells profitable in central Tunisia"
+  - cause: "State incentives (subsidised credit, diesel, fertiliser, rural electrification) facilitated private irrigation wells in arid and semi-arid regions; dates and instruments not sourced"
     type: policy
     legacy_decision: true
     sources: [SRC-TG-407]
@@ -23,7 +23,7 @@ root_causes:
     type: economic
     legacy_decision: true
     sources: [SRC-TG-408]
-  - cause: "Regulation existed on paper but was not effective; prohibition and safeguard perimeters decreed decades ago were not updated"
+  - cause: "Regulation existed on paper but was not effective; the ministry found in 2017 that some deep-aquifer prohibition and safeguard perimeters decreed decades ago (e.g. Nabeul) no longer matched the extent of pumping, although new safeguard zones were decreed in 2017 (decrees 2017-1400 and 2017-1401)"
     type: institutional
     legacy_decision: true
     sources: [SRC-TG-407, SRC-TG-402]
@@ -122,16 +122,16 @@ author: TahaGHZ
 
 ## Problem
 
-Tunisia's shallow aquifers (nappes phréatiques) have been drawn beyond their renewable resource for about thirty years. Nationally the exploitation rate went from 85% in 1985 (SRC-TG-404) to above 100% by 1995 (103%, SRC-TG-405). It then stayed between 103% and 112% to 2004 (SRC-TG-404, SRC-TG-405) and reached 114% in 2010, 117% in 2015 and 119% in 2020, when 914 Mm3 were drawn against 770 Mm3 exploitable (SRC-TG-402, SRC-TG-403). Central Tunisia's shallow aquifers were at about 140% in 2020 (SRC-TG-403). Locally the effect is a steadily falling water table. In Kharrouba-El Maloussy (Sidi Bouzid) wells went from 131 in 1987 to 850, and the decline sped up from 25-30 cm a year in the mid-1980s to about 1 m a year (SRC-TG-407). On the Kairouan plain one piezometer fell about 19 m between 1970 and 2017 (SRC-TG-408). The decisions that opened this path were taken in 1975-1990. The overdraft they started is not over, which is why this `past` finding has a worsening trend.
+Tunisia's shallow aquifers (nappes phréatiques) have been drawn beyond their renewable resource for about thirty years. Nationally the exploitation rate went from 85% in 1985 (SRC-TG-404) to above 100% by 1995 (103%, SRC-TG-405). It then stayed between 103% and 112% to 2004 (SRC-TG-404, SRC-TG-405) and reached 114% in 2010, 117% in 2015 and 119% in 2020, when 914 Mm3 were drawn against 770 Mm3 exploitable (SRC-TG-402, SRC-TG-403). Central Tunisia's shallow aquifers were at about 140% in 2020 (SRC-TG-403). Locally the effect is a steadily falling water table. In Kharrouba-El Maloussy (Sidi Bouzid) wells went from 131 in 1987 to 850, and the decline sped up from 25-30 cm a year in the mid-1980s to about 1 m a year (SRC-TG-407). On the Kairouan plain one piezometer fell about 19 m between 1970 and 2017 (SRC-TG-408). The decisions that opened this path were taken in 1975-1990. The overdraft they started is not over, which is why this `past` finding has a worsening trend. The decisions and the crossing of 100% (by 1995) happened before 2015, hence `period: 1975-1995`, while the effects continue today (see FND-TG-400 for the current deep-aquifer side).
 
 ## Root causes
 
 The symptom is an exploitation rate above 100% and falling water tables. The causes are older policy choices:
 
 1. **Free access to shallow groundwater in the 1975 Water Code.** Article 9 of Law 75-16 lets anyone dig a well or borehole up to 50 m deep without prior authorisation, outside decreed prohibition or safeguard perimeters. The owner only has to inform the administration (SRC-TG-406). Decree 78-814 of 1978 requires authorisation only beyond 50 m (SRC-TG-406). The 2001 official edition prints Article 9 without the "(nouveau)" marker used for amended articles, so the rule appears to be original 1975 text (SRC-TG-406, notes). *Our inference, not stated in any opened source:* in central Tunisia the productive shallow aquifers lie within this depth, so for decades the bulk of shallow pumping was legally unregulated. The Kairouan model paper supports the general point. It defines shallow wells as those under 50 m and says recent studies point to "legislation related to groundwater access" as a main factor (SRC-TG-408).
-2. **State incentives for private irrigation.** In central Tunisia, irrigation expansion was financed by private investment in wells and pumps. The state "facilitated this development" through subsidised credit, diesel and fertiliser and "extensive coverage of rural electrification" (SRC-TG-407). We did not open the incentive decrees themselves.
+2. **State incentives for private irrigation.** State incentives (subsidised credit, diesel, fertiliser, rural electrification) facilitated private irrigation wells in arid and semi-arid regions (SRC-TG-407). The dates and instruments are not sourced, and we did not open the incentive decrees themselves.
 3. **Groundwater replaced surface water as the irrigation base.** On the Kairouan plain, groundwater has been the main supply for irrigated agriculture since the 1980s. Pumping grew from 31.3 Mm3 (1970) to 111.43 Mm3 (2016), first through shallow wells and then deep wells over 100 m (SRC-TG-408). Upstream dams reduced runoff by about 45% over 1996-2011 and so cut recharge, but the model finds pumping to be the key factor (SRC-TG-408).
-4. **Tools left unused.** The Code allowed prohibition and safeguard perimeters (SRC-TG-406). In 2017 the ministry found that the perimeters decreed "depuis plusieurs dizaines d'années" (several decades ago), for example in Nabeul, no longer matched the extent of pumping (SRC-TG-402). A local study describes "a virtually absence of effective regulation" (SRC-TG-407).
+4. **Tools left partly unused.** The Code allowed prohibition and safeguard perimeters (SRC-TG-406). In 2017 the ministry found that the deep-aquifer perimeters decreed "depuis plusieurs dizaines d'années" (several decades ago), for example in Nabeul, no longer matched the extent of pumping (SRC-TG-402, PDF p59). This concerns deep aquifers, not the shallow ones that are this finding's subject. New safeguard zones were decreed in 2017 (decrees 2017-1400 and 2017-1401, SRC-TG-402, PDF p54), which qualifies the idea that the tools were left unused. A local study describes "a virtually absence of effective regulation" (SRC-TG-407).
 
 A second legacy is statistical. The resource estimate grew from 160 Mm3 (shallow) in 1968 to 745 Mm3 in 2005 through prospecting (SRC-TG-405), and DGRE now uses 770 Mm3 (SRC-TG-403). Each upward revision lowers the published exploitation rate without any change in pumping. The deep-aquifer rate, for example, fell from 83% to 75% in 1999 after a re-evaluation (SRC-TG-405).
 
@@ -140,7 +140,7 @@ A second legacy is statistical. The resource estimate grew from 160 Mm3 (shallow
 - 1985: 85% (SRC-TG-404). 1995-2004: 103%, 104%, 105%, 106%, 107%, then 106% each year (withdrawals 743 rising to 778 Mm3, against 720-737 Mm3) (SRC-TG-405). The same period is given as "plus de 108%" in 2003 with a 1998 peak of 112% in SRC-TG-404; the two sources disagree by up to 6 points.
 - 2010: 114%. 2015: 117% (SRC-TG-402). 2020: 119% (914 of 770 Mm3); Centre about 140%, South about 95% (SRC-TG-403).
 - Total groundwater withdrawals (shallow and deep): under 1,200 Mm3 in 1985, about 1,900 Mm3 around 2007 (SRC-TG-404).
-- As early as 2007-2008, the national sustainable development study warned that overexploitation was lowering well yields and salinising aquifers. It said this would eventually shrink irrigated areas in Cap Bon, the Sahel and Sidi Bouzid, and it singled out the Centre-West and North-East as extremes (SRC-TG-404).
+- As early as 2007-2008, the national sustainable development study warned that overexploitation was lowering well yields and salinising aquifers. It said this would eventually shrink irrigated areas in Cap Bon, the Sahel and Sidi Bouzid, and it singled out the Centre-West, North-East and South-West as extremes (SRC-TG-404).
 - Sidi Bouzid (Kharrouba-El Maloussy): wells went from 131 (1987) to ~700 (early 2000s) and 850, with densities up to 20 wells/km2. Pumping depth went from 21-23 m in the early 1990s to over 31 m in 2008 and 34-36 m at the time of writing (SRC-TG-407).
 - Kairouan plain: piezometer 12737/4 fell about 19 m over 1970-2017 (SRC-TG-408).
 - Cap Bon (Korba coastal shallow aquifer, Nabeul): heavy pumping by farmers had brought piezometric levels to about -12 m below sea level by 2006, with seawater intrusion in several zones (SRC-TG-511). The forward-looking salinisation risk is covered in FND-TG-502.

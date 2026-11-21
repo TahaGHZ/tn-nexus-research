@@ -11,10 +11,10 @@ severity: high
 trend: unknown
 confidence: low
 root_causes:
-  - cause: "Irrigation demand drawn largely from groundwater exceeds renewable groundwater (2,190 Mm3); the strategy scenario only closes the gap by cutting irrigation demand by about 26% and adding treated wastewater and desalination"
+  - cause: "Irrigation demand drawn largely from groundwater exceeds renewable groundwater (2,190 Mm3); the strategy scenario only closes the gap by cutting irrigation demand by about 26% and adding treated wastewater and desalination; groundwater supplies 84% of irrigation water (SRC-TG-504, p115)"
     type: economic
-    legacy_decision: true
-    sources: [SRC-TG-503]
+    legacy_decision: false
+    sources: [SRC-TG-503, SRC-TG-504]
   - cause: "Drivers of current overdraft (illicit drilling, weak enforcement, free shallow drilling to 50 m) remain in place; see FND-TG-400 and FND-TG-401"
     type: institutional
     legacy_decision: true
@@ -50,12 +50,12 @@ indicators:
     year: 2030
     geography: national
     source: SRC-TG-404
-  - name: Groundwater resource actually used by DGRE (shallow 770 in 2020 + deep 1,422 in 2016)
+  - name: Groundwater resource used by DGRE, derived sum (770 shallow from SRC-TG-403 + 1,422 deep from SRC-TG-402)
     value: 2192
     unit: Mm3/yr
     year: 2020
     geography: national
-    source: SRC-TG-403
+    source: SRC-TG-402
 projection:
   horizon: "2020-2050 (2030, 2035, 2040, 2050 milestones)"
   scenario: "EAU 2050 'Eau et développement durable' normative scenario: strategy fully implemented, irrigation demand stabilised and reduced from 3,382 to 2,502 Mm3, reuse and desalination expanded; RCP4.5 climate from 2040. Not a business-as-usual projection."
@@ -79,16 +79,16 @@ The 2050 national water strategy (EAU 2050) starts from an aquifer exploitation 
 
 ## Root causes
 
-The projection does not model a new cause. It carries forward the existing gap between irrigation demand and renewable groundwater (SRC-TG-503), and the drivers documented in FND-TG-400 (illicit drilling, weak enforcement, free solar pumping) and FND-TG-401 (free drilling to 50 m under Article 9, SRC-TG-406). Nothing in the opened sources shows these drivers changing. A new water code has been pending since at least 2017 (SRC-TG-402), and a bill to regularise unauthorised deep wells was under discussion in 2026 (SRC-TG-409, tier C).
+The projection does not model a new cause. It carries forward the existing gap between irrigation demand and renewable groundwater (SRC-TG-503), and the drivers documented in FND-TG-400 (illicit drilling, weak enforcement, free solar pumping) and FND-TG-401 (free drilling to 50 m under Article 9, SRC-TG-406). Nothing in the opened sources shows these drivers changing. A new water code was submitted to government in 2015 and again in February 2017 (SRC-TG-402, section II.1), and a bill to regularise unauthorised deep wells was under discussion in 2026 (SRC-TG-409, tier C).
 
 ## Evidence
 
 - EAU 2050 synthesis table: exploitation rate 139% (2020), 126% (2025), 115% (2030), 108% (2035), 106% (2040), 99% (2050). The overdraft balance is -865, -567, -334, -186, -142 and +28 Mm3 (SRC-TG-503).
 - The renewable groundwater figure in EAU 2050 (2,190 Mm3) matches the sum of the DGRE shallow resource (770 Mm3, 2020, SRC-TG-403) and deep resource (1,422 Mm3, 2016, SRC-TG-402).
-- **Disagreement on the 2020 starting point.** EAU 2050's 139% implies about 3,055 Mm3 of groundwater withdrawals. The DGRE-based indicators give 914 Mm3 shallow and, for deep aquifers, 1,381 Mm3 authorised plus 541 Mm3 illicit, or 1,922 Mm3 (SRC-TG-403). That is about 2,836 Mm3 in total, or roughly 129% of 2,190 Mm3. This is our calculation; the reference years differ slightly (2020 for shallow, about 2021 for deep). Both values are kept.
+- **Disagreement on the 2020 starting point.** EAU 2050's 139% implies about 3,055 Mm3 of groundwater withdrawals. The DGRE-based indicators give 914 Mm3 shallow and, for deep aquifers, 1,381 Mm3 authorised plus 541 Mm3 illicit, or 1,922 Mm3 (SRC-TG-403). That is about 2,836 Mm3 in total, or roughly 129% of 2,190 Mm3. This is our calculation; the reference years differ slightly (2020 for shallow, about 2021 for deep). AFD gives a third value: groundwater withdrawals above 123% of total resources in 2018 (SRC-TG-504, p115). All values are kept.
 - **Scope.** The Eau 2050 figure is national and includes the South's aquifers, where 60% of deep-aquifer exploitation takes place (SRC-TG-402). It does not show the path for the central hotspots. The 139% indicator is also carried by FND-TG-501, which covers the overall supply-demand balance; this finding covers only the groundwater path.
 - **Earlier projections proved unreliable.** The EAU 21 strategy (1998), as quoted in the 2008 national study, projected exploitable groundwater falling from 1,970 Mm3 (1996) to 1,620 Mm3 in 2020 and 1,550 Mm3 in 2030 (shallow 620 and deep 1,000 Mm3 in 2020) because of overexploitation (SRC-TG-404). DGRE's 2016-2020 resource figures are higher, at 770 + 1,422 Mm3 (SRC-TG-402, SRC-TG-403). The resource estimate went up through prospecting and re-evaluation, not down. Any projection framed as an exploitation rate depends heavily on how the denominator is revised.
-- **The denominator itself is projected to shrink.** EAU 2050 holds renewable groundwater constant at 2,190 Mm3 to 2050. Climate studies cited in FND-TG-500 project lower recharge. The AFD/PNA study has renewable groundwater going from 1,620 Mm3 (official) to 1,069 Mm3 (RCP4.5) or 1,150 Mm3 (RCP8.5) by 2050, and in its text from 1,524 to about 1,000 Mm3 (SRC-TG-504). The two studies also disagree on today's base: 1,524 or 1,620 Mm3 in the AFD/PNA study against 2,190 Mm3 in EAU 2050. The gap is about the size of the non-renewable share of deep aquifers (about 47% of 1,422 Mm3, SRC-TG-402), but neither source explains it. If recharge falls, the same withdrawals give higher exploitation rates than the EAU 2050 path. FND-TG-500 covers resource decline in general.
+- **The denominator itself is projected to shrink.** EAU 2050 holds renewable groundwater constant at 2,190 Mm3 to 2050. Climate studies cited in FND-TG-500 project lower recharge. The AFD/PNA study has renewable groundwater going from 1,620 Mm3 (official) to 1,069 Mm3 (RCP4.5) or 1,150 Mm3 (RCP8.5) by 2050, and in its text from 1,524 to about 1,000 Mm3 (SRC-TG-504). The two studies also disagree on today's base: 1,524 or 1,620 Mm3 in the AFD/PNA study against 2,190 Mm3 in EAU 2050. The gap is about the size of the non-renewable share of deep aquifers (about 47% of 1,422 Mm3, SRC-TG-402). AFD models only renewable aquifers and excludes the Saharan (SASS) reserves (SRC-TG-504, p43). If recharge falls, the same withdrawals give higher exploitation rates than the EAU 2050 path. FND-TG-500 covers resource decline in general.
 
 ## Why confidence is what it is
 

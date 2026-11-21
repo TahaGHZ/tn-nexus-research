@@ -49,6 +49,12 @@ Tableau 4 (p. 30):
 
 English gloss: Per the DGRE 2016 deep-aquifer yearbook, unauthorised boreholes number 4,549 in Kébili drawing 210.3 Mm3, against 20 in Tozeur (0.002 Mm3), 36 in Gafsa and 81 in Gabès. The table is presented separately from the "exploitation contrôlée" of Tableau 3.
 
+Text following Tableau 4 (p. 30):
+
+> L'usage agricole se situe à 791,3 Mm3/an dont 406.82 Mm3/an, 148.4 Mm3/an et 156.5Mm3/an sont exploités respectivement dans les régions de Kébili, Tozeur et Gabès. À signaler que Kébili, toute seule, exploite plus que 52% de total des ressources mobilisées dans la zone.
+
+English gloss: Kébili alone exploits more than 52% of the water mobilised in the four-governorate zone (the 156.5 attributed to Gabès here is the table's resource value, not its exploitation, an inconsistency in the source).
+
 Section 4.3.1 (p. 32):
 
 > A Kébili, la nappe phréatique des oasis de Kébili est très peu sollicitée à cause de la mauvaise qualité de ses eaux. Les nouvelles mises en valeur agricole ont recours au captage de l'eau du Complexe terminal accessible par des sondages artisanaux d'une centaine de mètres de profondeur.

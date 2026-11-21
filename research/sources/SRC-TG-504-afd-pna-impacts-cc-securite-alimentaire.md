@@ -46,6 +46,12 @@ Printed page 42, below Table 6:
 
 English gloss: Extreme rainfall may become less frequent and less intense south of the Mediterranean. The idea that bigger storms will refill dams and aquifers by 2050 is therefore "particularly optimistic".
 
+Printed page 42 (agriculture's share of resources):
+
+> Une nouvelle approche de l'allocation des ressources devient inéluctable et aura un impact très important sur les différents secteurs et surtout le secteur agricole qui exploite plus de 80% des ressources.
+
+English gloss: A new approach to allocating water becomes unavoidable and will hit agriculture hardest, since it uses more than 80% of resources.
+
 Printed page 43 (groundwater, coastal aquifers):
 
 > Les eaux souterraines renouvelables pourraient passer de 1524 millions de m3 actuellement à pratiquement 1000 millions de m3 en 2050 et 700 millions en 2100, soit la moitié des ressources actuelles. Au niveau des nappes côtières les pertes seront plus importantes à la suite de l'élévation du niveau de la mer et pourraient atteindre 50% de leurs ressources en 2050 et beaucoup plus en 2100.
@@ -81,7 +87,7 @@ Section 3.3.2, printed page 115:
 
 English gloss: Blue-water demand was 3.1 billion m3 in 2018, met by groundwater exploitation above 123% of total resources. In the third drought year of 2015-2018, quotas for public irrigated schemes were cut to 27% of normal supply. In 2018, agriculture used three quarters of exploited resources, 2.4 billion m3 for 406,540 ha, 84% of it from groundwater.
 
-Printed pages 115-116 (assumptions behind the balances):
+Printed pages 115-116 (assumptions behind the balances; the 913 Mm3 sentence starts on page 115, the other sentences are on page 116):
 
 > qui atteindrait 913 millions de M3 en 2050
 
@@ -112,7 +118,7 @@ Table 30, printed page 115 (`pdftotext -raw`). Columns: 2018 MARHP | ITES 2050 |
 
 English gloss: Total demand is 3,103 Mm3 (2018), 3,976 Mm3 (STUDI 2050), 4,117 Mm3 (PNA RCP8.5 2050) and 4,255 Mm3 (2100). Conventional resources go from 4,508 Mm3 (2018) to 3,101 (STUDI 2050), 2,912 (PNA RCP8.5 2050) and 1,689 Mm3 (2100). Total resources are 4,574, 4,594 (STUDI, including 626 non-conventional and 867 savings), 2,978 and 1,755 Mm3. The balance is +1,471, +1,208, +618, -1,139 and -2,500 Mm3. Coverage of demand is 147%, 137%, 116%, 72% and 41%.
 
-Printed page 115, text after Table 30:
+Printed page 116, text after Table 30:
 
 > Les ressources conventionnelles mobilisables (eaux bleues) pourraient diminuer de 35% en 2050 et de 63% en 2100 par rapport aux observations de 2018. L'estimation pour l'horizon 2050 est très proche (- 6%) de celle proposée par STUDI-GKW.
 
@@ -131,5 +137,8 @@ English gloss: Mobilisable conventional blue water could fall by 35% by 2050 and
   - Renewable groundwater is 1,524 Mm3 in the text but 1,620 Mm3 in Table 8.
   - The 2100 range for the runoff decline is 33-61% in the summary but 31-61% in the body.
   - The modelled reference runoff (2,494 Mm3) is below the official MARHP 2,700 Mm3.
+  - Page 40 gives blue-water potential of about 4.8 billion m3, or 436 m3 per inhabitant per year, while pages 11 and 43 give 366 m3 of renewable resources per inhabitant. The two figures use different numerators.
+- Independence: the 2050 balances reuse STUDI-GKW (Eau 2050) resource and demand calculations (page 116), and the 2018 column is MARHP data. Agreement with SRC-TG-503 is therefore not independent confirmation.
+- Verified by the source-verifier on 2026-11-21: the ONAGRI file was re-downloaded, and all extracts match the document at the pages given.
 - Table 30 values come from the `-raw` extraction. Row labels for the last two rows are printed after the numbers. The column mapping was checked by arithmetic: 4574-3103 = 1471, 2978-4117 = -1139, 2978/4117 = 72%, 4594-3976 = 618.
 - In the ITES column, the asterisked values (2000*, 1300**) mark different source studies, per the table footnote: "* ITES -Eau 2050 **MARHP stratégie Eau 2030 *** Rapport Eau 2050 Étape 3 vol2, STUDI."

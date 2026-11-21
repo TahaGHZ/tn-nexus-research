@@ -25,6 +25,10 @@ Synthèse générale, printed page 7:
 
 > Par ailleurs, le secteur irrigué s'est basé sur les ressources souterraines ce qui contribue à la croissance de leur surexploitation et la dégradation de leur qualité.
 
+> Ce secteur rencontre des limites en termes d'intensification avec un taux global moyen de l'ordre de 90% mais très variable d'un périmètre à un autre en fonction de la situation du contexte socioéconomique.
+
+English gloss (last sentence): The sector faces limits on intensification, with an overall average rate of about 90% but very variable from one perimeter to another.
+
 English gloss: Irrigation quotas were cut sharply to keep orchards alive; consumption from dams fell from 88.4 Mm3 (2022-23) to 46.7 Mm3 (2023-24). Drinking water was secured but irrigated agriculture was "clearly affected". Dam-fed perimeters got minimal volumes, insufficient even for orchards; Sidi Salem PPIs got 12 Mm3 against needs above 100 Mm3. Nebhana PPIs, specialised in greenhouse early vegetables, got no irrigation water and stopped entirely: lower national output and higher prices, no farmer income, land abandoned to urban sprawl, GDAs idle. The irrigated sector fell back on groundwater, worsening overexploitation and quality.
 
 Section II.1 "Restrictions d'usages" (irrigation), printed page 39:

@@ -6,7 +6,7 @@ sectors: [water, agriculture]
 theme: surface-water
 timeframe: current
 period: 2015-2025
-geography: [national, north-west, north-east, centre-east]
+geography: [national, north-west, north-east, centre-east, beja, kairouan]
 severity: critical
 trend: unknown
 confidence: high
@@ -131,7 +131,7 @@ related: [FND-TG-426, FND-TG-427, FND-TG-500, FND-TG-501]
 sources: [SRC-TG-432, SRC-TG-433, SRC-TG-434, SRC-TG-435, SRC-TG-436, SRC-TG-437, SRC-TG-438, SRC-TG-439, SRC-TG-440, SRC-TG-441, SRC-TG-442, SRC-TG-402, SRC-TG-428, SRC-TG-459, SRC-TG-460]
 data_gaps:
   - Rainfall series for the dam catchments over 2015-2025, needed to separate rainfall deficit from runoff-coefficient change. Only the 2016/17 statement in SRC-TG-402 was read.
-  - Breakdown of dam releases ("lâchers") by use (drinking water, irrigation, transfers between dams, ecological flows) and evaporation losses for 2019-2024. The bulletins give totals only, and their inflow and release totals do not close the stock balance. For 2022/23, opening stock 797.0 + inflow 693.5 - releases 984.5 = 506.0 Mm3, but the printed closing stock is 672.7 Mm3 (SRC-TG-439, SRC-TG-440). For 2023/24 the same sum gives 498.0 Mm3 against 542.1 Mm3 printed (SRC-TG-441). Releases from an upstream dam are presumably counted again as inflow to a downstream dam (e.g. Mellègue into Sidi Salem), and pumping and evaporation are not in the totals. So "releases minus inflows" cannot be read as net drawdown or as overuse.
+  - Breakdown of dam releases ("lâchers") by use (drinking water, irrigation, transfers between dams, ecological flows) and evaporation losses for 2019-2024. The bulletins give totals only, and their inflow and release totals do not close the stock balance. For 2022/23, opening stock 797.0 + inflow 693.5 - releases 984.5 = 506.0 Mm3, but the printed closing stock is 672.7 Mm3 (SRC-TG-439, SRC-TG-440). For 2023/24 the same sum gives 498.0 Mm3 against 542.1 Mm3 printed (SRC-TG-441); the 498.0 uses the revised opening stock of 667.325 Mm3 from SRC-TG-441 (503.3 Mm3 with the printed 672.650 Mm3 of SRC-TG-440). Releases from an upstream dam are presumably counted again as inflow to a downstream dam (e.g. Mellègue into Sidi Salem), and pumping and evaporation are not in the totals. So "releases minus inflows" cannot be read as net drawdown or as overuse.
   - National fill rate for 2015-2018. The bulletins of those years print stock but no percentage. SRC-TG-402 gives 32% on 31 August 2017 for 30 dams.
   - The Arabic summary page of each bulletin did not extract as text and was not used.
   - Mid-season minima (for example spring 2023 and winter 2024). Only 1 September bulletins were read, so the lowest points of the drought are not recorded here.
@@ -141,7 +141,7 @@ author: TahaGHZ
 
 ## Problem
 
-Tunisia's surface storage sits mainly in about forty large dams. About 90% of their mean annual inflow (1,613 of 1,802 Mm3) comes from the northern dams (SRC-TG-438). Over the ten hydrological years 2015/16 to 2024/25, inflows were below the long-term mean printed in the official bulletins in nine years and below half of it in six (SRC-TG-433 to SRC-TG-442). The national stock at the end of the hydrological year (1 September) fell from 1,184 Mm3 in 2015 to 542 Mm3 in 2024, a printed fill rate of 23.1% (SRC-TG-432, SRC-TG-441). On that date only 298 Mm3 of the 542 Mm3 was counted as still exploitable (SRC-TG-441). Sidi Salem, the largest reservoir, held 105 Mm3 (18.1%), of which 25 Mm3 was exploitable. Nebhana, which serves the Sahel, held 1.9 Mm3 (2.9%) with nothing exploitable (SRC-TG-441). One wet year (2018/19, 146% of mean) refilled the system to 1,450 Mm3 (64.4%) on 1 September 2019, and the following dry years emptied it again within four years (SRC-TG-436, SRC-TG-440).
+Tunisia's surface storage sits mainly in 37 large dams at end-2017 (SRC-TG-402). About 90% of their mean annual inflow (1,613 of 1,802 Mm3) comes from the northern dams (SRC-TG-438). Over the ten hydrological years 2015/16 to 2024/25, inflows were below the long-term mean printed in the official bulletins in nine years and below half of it in six (SRC-TG-433 to SRC-TG-442). The national stock at the end of the hydrological year (1 September) fell from 1,184 Mm3 in 2015 to 542 Mm3 in 2024, a printed fill rate of 23.1% (SRC-TG-432, SRC-TG-441). On that date only 298 Mm3 of the 542 Mm3 was counted as still exploitable (SRC-TG-441). Sidi Salem, the largest reservoir, held 105 Mm3 (18.1%), of which 25 Mm3 was exploitable. Nebhana, which serves the Sahel, held 1.9 Mm3 (2.9%) with nothing exploitable (SRC-TG-441). One wet year (2018/19, 146% of mean) refilled the system to 1,450 Mm3 (64.4%) on 1 September 2019, and the following dry years emptied it again within four years (SRC-TG-436, SRC-TG-440).
 
 ## Root causes
 
@@ -188,7 +188,7 @@ Tunisia's surface storage sits mainly in about forty large dams. About 90% of th
 
   The 2023 rise happened in a year when the inflow counted for Sidi Salem (86.8 Mm3) was below its releases (109.8 Mm3) (SRC-TG-440). The bulletin gives Sidi Salem a catchment of 7,950 km2 (SRC-TG-438), against about 18,000 km2 for the whole basin in JICA (SRC-TG-428). Our inference, not stated in the bulletin, is that the inflow column excludes water released from upstream dams. Mellègue released 157.2 Mm3 in 2022/23 (SRC-TG-440), which would explain the rise.
 - Nebhana, central system: 2.1 Mm3 (3.6%) in 2021 (SRC-TG-438) and 1.9 Mm3 (2.9%) in 2024 (SRC-TG-441).
-- The 2017 national report gives the same picture for 2016/17: inflows of 835 Mm3 were 43% of the average, two thirds of the 30 monitored dams were below 35% of useful capacity on 31 August 2017, and the overall fill rate was 32%. Sidi Salem held 116 Mm3 (21.5%), against 199 Mm3 (37%) a year earlier (SRC-TG-402, section IV.2, printed p. 29). Extract, not yet in SRC-TG-402:
+- The 2017 national report gives the same picture for 2016/17: inflows of 835 Mm3 were 43% of the average, two thirds of the 30 monitored dams were below 35% of useful capacity on 31 August 2017, and the overall fill rate was 32%. Sidi Salem held 116 Mm3 (21.5%), against 199 Mm3 (37%) a year earlier (SRC-TG-402, section IV.2, printed p. 29, PDF p51; extract in SRC-TG-402):
 
   > Au 31 août 2017, Sur 30 barrages suivis, les 2/3 avaient un stock inférieur à 35% de leur capacité utile. Le taux global de remplissage était de 32%. [...] En ce qui concerne le barrage de Sidi Salem, il a accusé à nouveau une baisse de stock par rapport à la même date en 2016. Avec 116 Mm3, son taux de remplissage était de 21,5% le 31 aout 2017 contre 199 Mm3 et un taux de 37% le 31 aout 2016.
 
