@@ -41,7 +41,9 @@ Section 3.3.1 "Intense groundwater use and its consequences":
 
 > "Available estimates suggest the number of illicit boreholes in extensions increased from several dozen in the 1970s to 1,500 in the 1990s, 3,500 in 2010 (Gharbi, 2010) and to 9,678 in 2017 (CRDA, 2018)."
 
-> "From the 2000s, water started to become scarce and the impacts of these "nearby" extensions on ancient oases were clearly perceptible. They led to reduced water resource availability within these oases. The intense exploitation of deep aquifer has also resulted in an increase of groundwater levels in shallow aquifers, which has caused drainage problems."
+Section 3.3.2 "Actors' discourse about causal relationship between extension development and overexploitation of groundwater resources" (what interviewed CRDA staff members said):
+
+> "Interviewed CRDA staff members underlined that the main threat to sustainability of agriculture in Kebili region was decreasing water resources. [...] From the 2000s, water started to become scarce and the impacts of these "nearby" extensions on ancient oases were clearly perceptible. They led to reduced water resource availability within these oases. The intense exploitation of deep aquifer has also resulted in an increase of groundwater levels in shallow aquifers, which has caused drainage problems."
 
 Section 3.4 "Limited attempts to manage palm grove extensions":
 

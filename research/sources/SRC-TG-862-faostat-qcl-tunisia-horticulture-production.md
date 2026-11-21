@@ -16,7 +16,7 @@ added_by: TahaGHZ
 Rows for Area = Tunisia, from the flagged CSV. Format: year value (flag). Flags: A official figure, E estimated value, I value imputed by a receiving agency, X figure from external organization.
 
 Dates, Area harvested (ha):
-> 2000 31610 (A); 2010 48253 (I); 2020 71382 (I); 2022 77404 (I); 2023 80123 (I)
+> 2000 31610 (A); 2009 45900 (A); 2010 48253 (I); 2011 51000 (A); 2012 49468 (I); 2013 45300 (A); 2014 48700 (A); 2015 49150 (A); 2016 61240 (A); 2017 60807 (I); 2018 65500 (E); 2019 62042 (I); 2020 71382 (I); 2021 73853 (I); 2022 77404 (I); 2023 80123 (I)
 
 Dates, Production (t):
 > 2000 105000 (A); 2010 174000 (A); 2020 332000 (A); 2022 369000 (A); 2023 387149.59 (I)
@@ -34,7 +34,7 @@ Watermelons, Area harvested (ha):
 > 2000 24500 (A); 2010 9700 (A); 2020 5312 (I); 2022 4595 (I); 2023 4459 (I)
 
 Oranges, Production (t):
-> 2000 115000 (A); 2010 136700 (A); 2020 366000 (A); 2022 345000 (A); 2023 357597.04 (I)
+> 2000 115000 (A); 2010 136700 (A); 2015 146500 (A); 2016 111700 (A); 2017 186900 (A); 2018 346000 (A); 2019 440000 (A); 2020 366000 (A); 2021 440000 (A); 2022 345000 (A); 2023 357597.04 (I)
 
 Oranges, Area harvested (ha):
 > 2000 10382 (I); 2010 12220 (I); 2020 5214 (I); 2022 9420 (I); 2023 9314 (I)
@@ -50,4 +50,4 @@ Olives, Area harvested (ha):
 
 ## Notes
 
-Production figures for 2022 are flagged official (A) and are the latest official year for most crops; 2023 values are imputed. Several area series are unreliable and should not be used: olives 2020 (3.6 Mha, estimated, larger than Tunisia's olive area), oranges 2020 (5,214 ha imputed, half the adjacent years), watermelon area (falls 80% from 2000 to 2023 while output rises 59%). Strawberry production is flat at about 10,000 t for two decades and estimated/imputed after 2020, which conflicts with the rapid growth of strawberry area reported for Cap Bon (SRC-TG-867); treat it as unknown. Date area since 2010 is imputed.
+Production figures for 2022 are flagged official (A) and are the latest official year for most crops; 2023 values are imputed. Several area series are unreliable and should not be used: olives 2020 (3.6 Mha, estimated, larger than Tunisia's olive area), oranges 2020 (5,214 ha imputed, half the adjacent years), watermelon area (falls 80% from 2000 to 2023 while output rises 59%). Strawberry production is flat at about 10,000 t for two decades and estimated/imputed after 2020, which conflicts with the rapid growth of strawberry area reported for Cap Bon (SRC-TG-867); treat it as unknown. Date area flags are official (A) for 2000, 2009, 2011 and 2013-2016, imputed for 2010 and 2012, and imputed or estimated from 2017 onwards; the 2022 imputed value (77,404 ha) is about 35% above the ministry figure of 57,385 ha relayed by ONAGRI (SRC-TG-743). Orange production nearly doubles between 2017 (186,900 t) and 2018 (346,000 t), both official; this may be a series break, so long-run comparisons of orange export shares should be read with care.

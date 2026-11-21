@@ -31,4 +31,4 @@ English gloss: the standard resale (rétrocession) prices are fixed at 66.675 TN
 
 ## Notes
 
-FAOLEX PDF is a two-column scan of JORT pp. 1639-1640 that also contains the end of an unrelated decree; text was re-extracted with `pdftotext -raw` to confirm that these prices belong to decree 2012-754 and to the 2011 harvest. Shows that cereal producer and resale prices are fixed by decree each campaign. Equivalent decrees for 2022-2023 were not opened (see GIEWS and USDA for later price levels).
+FAOLEX PDF is a two-column scan of JORT pp. 1639-1640 that also contains the end of an unrelated decree; text was re-extracted with `pdftotext -raw` to confirm that these prices belong to decree 2012-754 and to the 2011 harvest. Shows that cereal producer and resale prices are fixed by decree each campaign. `type: official-statistics` is used because the template has no legal-text type (same choice as the other JORT records, e.g. SRC-TG-783); the record is a legal text, not statistics. Taha may want to add a `legal-text` type to the template. Equivalent decrees for 2022-2023 were not opened (see GIEWS and USDA for later price levels).

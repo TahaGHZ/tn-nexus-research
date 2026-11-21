@@ -68,7 +68,7 @@ Tableau 17 "Evolution des effectifs des variétés de palmiers dattiers en Tunis
 
 > "Bien que le gouvernement tunisien ait pris conscience du risque d'érosion génétique, les primes et subventions accordées à l'agriculteur continuent à favoriser la « Deglet Nour » aux dépens des variétés communes."
 
-English gloss: Deglet Nour's share of palms rose from 44.9% (1977) to 61-63% (1996-2002), but the absolute number of common-variety palms also grew (by more than 500,000 in 26 years); state policy for decades maximised Deglet Nour for export, and premiums and subsidies still favour it.
+English gloss: Deglet Nour's share of palms rose from 44.9% (1977) to 61-63% (1996-2002), but the absolute number of common-variety palms also grew (the text says by more than 500,000 in 26 years, but its own Tableau 17 gives +402,886 between 1977 and 2002); state policy for decades maximised Deglet Nour for export, and premiums and subsidies still favour it.
 
 Pests and bayoud (Partie I, chapitre 2, section on emerging diseases):
 
@@ -115,6 +115,16 @@ English gloss: the Rjim Maatoug model was extended to Mohdeth (El Faouar), 300 h
 > "Au cours des dernières années, 2021 et 2022, les dattes occupent le 2ème rang des exportations agroalimentaires après l'huile d'olive à hauteur de 441.4 MDT en 2021 et 468.4 MDT en 2022." (§1.3)
 
 English gloss: Deglet Nour received the AOC "Deglet Nour Nefzaoua" only in 2018; the common-variety enrichment project is GEF Small Grants / UNDP funded; date exports were 441.4 MTND in 2021 and 468.4 MTND in 2022 (this conflicts with ONAGRI's 716.6 MTND for 2021, SRC-TG-743).
+
+Further extracts:
+
+> "Une part importante des variétés communes est composée de variétés précoces à dattes molles, que leur teneur en eau les rendentfacilement périssables même sur pieds." (Partie I, chapitre 2)
+
+English gloss: a large share of common varieties are early soft dates, perishable even on the tree.
+
+> "Ce dernier arrive en tête avec une enveloppe de 1 545 MDT en 2021/2022, soit 33 % des valeurs de l'exportation des produits alimentaires. Les dattes, en second rang, ont procuré 468.4 MDT pendant la même période, soit 15.2 % de la valeur des exportations." (§1.3.3)
+
+English gloss: olive oil earned 1,545 MDT in 2021/2022 (33% of food exports); dates 468.4 MDT (15.2%). These two pairs are inconsistent with each other: if 1,545 MDT is 33%, then 15.2% is about 710 MDT, close to ONAGRI's 716.6 MTND (SRC-TG-743). The report's 441.4 / 468.4 MDT figures are therefore not reliable.
 
 ## Notes
 

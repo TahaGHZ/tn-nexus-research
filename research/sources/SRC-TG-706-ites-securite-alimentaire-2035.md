@@ -41,6 +41,12 @@ PDF p. 33 (citing INS 2013, analysis of the impact of food subsidies on poverty)
 
 English gloss: in 2010 only 9.2% of subsidies went to the poorest households, 60.5% to middle-class households, 7.5% to the well-off, and 22.8% outside households, notably to out-of-home catering businesses.
 
+PDF p. 52 (stability of access):
+
+> Selon l'INC, le gaspillage du pain par les ménages a atteint les 900.000 pains/j, ce qui correspond à une valeur moyenne de l'ordre de 100 millions DT/an.
+
+English gloss: according to the INC, household bread waste reached 900,000 loaves a day, worth about 100 million TND a year (no year given).
+
 PDF p. 53:
 
 > Le taux de dépendance vis-à-vis des céréales importées reste en moyenne de l'ordre de 60%, soit : • 40% pour le blé dur ; • 80% pour le blé tendre ; • 50% pour l'orge
