@@ -1,0 +1,2905 @@
+{
+  "generatedAt": "2026-11-21T17:52:53.290Z",
+  "stats": {
+    "totalFindingsInRepo": 78,
+    "verifiedFindings": 56,
+    "inReviewFindings": 56,
+    "peerValidatedFindings": 0,
+    "draftFindings": 22,
+    "totalSources": 330,
+    "sourceTiers": {
+      "A": 133,
+      "B": 123,
+      "C": 74
+    },
+    "sectorCounts": {
+      "water": 18,
+      "energy": 12,
+      "agriculture": 26
+    },
+    "timeframeCounts": {
+      "past": 8,
+      "current": 35,
+      "predicted": 13
+    },
+    "themeCount": 24
+  },
+  "phases": [
+    {
+      "number": 1,
+      "name": "Findings",
+      "state": "UNLOCKED"
+    },
+    {
+      "number": 2,
+      "name": "Validation",
+      "state": "LOCKED"
+    },
+    {
+      "number": 3,
+      "name": "R&D",
+      "state": "LOCKED"
+    }
+  ],
+  "themes": [
+    "cereals",
+    "crop-choices",
+    "drinking-water",
+    "drought-climate",
+    "electricity-mix",
+    "energy-imports",
+    "energy-subsidies",
+    "food-loss",
+    "grid",
+    "groundwater",
+    "industrial-efficiency",
+    "inputs",
+    "irrigation",
+    "land-structure",
+    "legacy-policy",
+    "livestock-feed",
+    "olives",
+    "renewables",
+    "soil",
+    "surface-water",
+    "transport-energy",
+    "wastewater-reuse",
+    "water-governance",
+    "water-quality"
+  ],
+  "findings": [
+    {
+      "id": "FND-TG-100",
+      "slug": "FND-TG-100-power-system-locked-into-gas-1990s-2000s",
+      "title": "Tunisia locked its power system into gas in the 1990s and 2000s, when Algerian transit royalty gas and new domestic fields made gas look secure",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "electricity-mix",
+      "timeframe": "past",
+      "period": "1983-2015",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "From the early 1990s, Tunisia built almost all of its electricity generation on one fuel, natural gas. In 1992-1993 oil and gas still shared generation: gas supplied 53.6% and 50.2%, and oil 45.4% and 48.8%. Gas reached…",
+      "readTimeMinutes": 5,
+      "indicatorCount": 10,
+      "sourceCount": 10,
+      "topIndicator": {
+        "name": "Share of natural gas in electricity production",
+        "value": "53.6",
+        "unit": "%",
+        "year": "1992",
+        "geography": "national",
+        "source": "SRC-TG-102"
+      },
+      "stakeholders": [
+        "STEG",
+        "Ministry of Industry Mines and Energy",
+        "ETAP",
+        "Sonatrach",
+        "Carthage Power Company",
+        "British Gas / Shell (Miskar operator)",
+        "electricity consumers"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/15345341/pexels-photo-15345341.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Thermal power station and high-voltage transmission lines",
+        "credit": "Shuaizhi Tian / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-101",
+      "slug": "FND-TG-101-electricity-over-90-percent-gas-mostly-algerian",
+      "title": "Over 90% of Tunisian electricity comes from natural gas, and 78% of Tunisia's gas supply is not domestic (mainly Algerian purchases plus royalty gas)",
+      "status": "in-review",
+      "sectors": [
+        "energy",
+        "water",
+        "agriculture"
+      ],
+      "mainSector": "energy",
+      "theme": "electricity-mix",
+      "timeframe": "current",
+      "period": "2015-2026",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "stable",
+      "confidence": "high",
+      "excerpt": "Tunisia generates over 90% of its electricity from natural gas. The share was 91.3% for January-September 2026, counting renewable self-production. It was 93.9% in 2024 and 95% of generation input in 2023. In full-year…",
+      "readTimeMinutes": 5,
+      "indicatorCount": 15,
+      "sourceCount": 8,
+      "topIndicator": {
+        "name": "Share of natural gas in electricity production (including renewable self-production), January-September cumulative",
+        "value": "91.3",
+        "unit": "%",
+        "year": "2026",
+        "geography": "national",
+        "source": "SRC-TG-100"
+      },
+      "stakeholders": [
+        "STEG",
+        "Ministry of Industry Mines and Energy",
+        "ONEM",
+        "Sonatrach",
+        "Sonelgaz",
+        "Gecol",
+        "Ministry of Finance (subsidy budget)",
+        "industrial and household consumers",
+        "agricultural and water-pumping electricity users"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/38835689/pexels-photo-38835689.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Natural gas energy infrastructure in arid landscape",
+        "credit": "Phil Evenden / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-102",
+      "slug": "FND-TG-102-gas-dependence-persists-to-2035-without-strategy",
+      "title": "Official scenarios to 2035 see gas dependence growing under current trends, and the planned alternative relies on a large renewable build-out and new gas infrastructure",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "electricity-mix",
+      "timeframe": "predicted",
+      "period": "horizon 2035",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "low",
+      "excerpt": "The official outlook to 2035 does not show Tunisia leaving gas behind. In the ministry's business-as-usual scenario, natural gas rises from 56% of primary energy in 2021 to 59% in 2035, and the energy deficit could…",
+      "readTimeMinutes": 3,
+      "indicatorCount": 11,
+      "sourceCount": 5,
+      "topIndicator": {
+        "name": "Natural gas share of primary energy mix, business-as-usual scenario",
+        "value": "59",
+        "unit": "%",
+        "year": "2035",
+        "geography": "national",
+        "source": "SRC-TG-103"
+      },
+      "stakeholders": [
+        "Ministry of Industry Mines and Energy",
+        "STEG",
+        "ETAP",
+        "ANME",
+        "private renewable developers",
+        "Sonatrach",
+        "electricity consumers"
+      ],
+      "hasProjection": true,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/15345341/pexels-photo-15345341.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Thermal power station and high-voltage transmission lines",
+        "credit": "Shuaizhi Tian / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-132",
+      "slug": "FND-TG-132-empty-exploration-pipeline-and-gas-contract-expiry",
+      "title": "Tunisia's 2035 fossil-resource strategy faces a thin exploration pipeline",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "energy-imports",
+      "timeframe": "predicted",
+      "period": "horizon 2035",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "low",
+      "excerpt": "The Ministry of Industry and UNDP's 2035 energy-strategy synthesis sets out a supply-side pathway that includes developing the Zarat gas field by 2030 at the latest and relaunching oil and gas prospecting with an…",
+      "readTimeMinutes": 5,
+      "indicatorCount": 16,
+      "sourceCount": 4,
+      "topIndicator": {
+        "name": "Indicative cumulative oil and gas exploration-well target by 2035",
+        "value": "30",
+        "unit": "wells",
+        "year": "2035",
+        "geography": "national",
+        "source": "SRC-TG-103"
+      },
+      "stakeholders": [
+        "Ministry of Industry Mines and Energy",
+        "ETAP",
+        "STEG",
+        "international oil companies",
+        "Assembly of the Representatives of the People",
+        "energy consumers"
+      ],
+      "hasProjection": true,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/38835689/pexels-photo-38835689.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Natural gas production and flare infrastructure",
+        "credit": "Phil Evenden / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-162",
+      "slug": "FND-TG-162-steg-deficit-and-subsidy-need-projected-to-2028",
+      "title": "World Bank projects STEG annual losses before subsidy of 3.4-3.7 billion TND without TEREG and 2.3-3.1 billion with TEREG in 2026-2028",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "energy-subsidies",
+      "timeframe": "predicted",
+      "period": "2025-2028",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "The World Bank's April 2025 appraisal of Tunisia's 2025-2028 TEREG programme models STEG's net result before subsidy and corporate tax under two scenarios. Without TEREG, it forecasts a result of TND -3,720m in 2026 and…",
+      "readTimeMinutes": 4,
+      "indicatorCount": 25,
+      "sourceCount": 6,
+      "topIndicator": {
+        "name": "STEG projected net result before subsidy and corporate tax, without TEREG",
+        "value": "-5103",
+        "unit": "million TND",
+        "year": "2025",
+        "geography": "national",
+        "source": "SRC-TG-105"
+      },
+      "stakeholders": [
+        "STEG",
+        "Ministry of Finance",
+        "Ministry of Industry Mines and Energy",
+        "World Bank",
+        "households",
+        "industry",
+        "STEG suppliers and lenders"
+      ],
+      "hasProjection": true,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/15345341/pexels-photo-15345341.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "National power grid and generation infrastructure",
+        "credit": "Shuaizhi Tian / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-190",
+      "slug": "FND-TG-190-steg-wind-programme-stalled-at-245-mw",
+      "title": "Tunisia's installed wind capacity was 245 MW at end-2024, below the 2015 plan's 775 MW target for 2020",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "renewables",
+      "timeframe": "current",
+      "period": "2001-2025",
+      "geography": [
+        "national"
+      ],
+      "severity": "medium",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Tunisia's current wind-generation fleet was developed by STEG in two main build-outs: Sidi Daoud began operating in 2001 and reached 55 MW in 2008; Metline and Kchabta in Bizerte entered in 2012 with 190 MW combined…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 9,
+      "sourceCount": 8,
+      "topIndicator": {
+        "name": "Installed wind capacity",
+        "value": "245",
+        "unit": "MW",
+        "year": "2015",
+        "geography": "national",
+        "source": "SRC-TG-192"
+      },
+      "stakeholders": [
+        "STEG",
+        "Ministry of Industry",
+        "Mines and Energy",
+        "ANME",
+        "Ministry of National Defence",
+        "private wind developers",
+        "KfW",
+        "residents near wind sites"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/35741218/pexels-photo-35741218.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Wind turbines and solar panels on Mediterranean hillside",
+        "credit": "Reinhard Bruckner / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-192",
+      "slug": "FND-TG-192-gap-to-2030-renewable-target",
+      "title": "Tunisia's 2030 renewable-capacity targets are 3.5× and 4.4× IRENA's end-2024 baseline; delivery remains uncertain",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "renewables",
+      "timeframe": "predicted",
+      "period": "horizon 2030",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "low",
+      "excerpt": "Tunisia's 2030 renewable target is large compared with what is built. The 2015 Solar Plan set 3,815 MW, about 30% of generation and about 35% of installed capacity for 2030. The World Bank cites the updated strategy as…",
+      "readTimeMinutes": 5,
+      "indicatorCount": 11,
+      "sourceCount": 12,
+      "topIndicator": {
+        "name": "Renewable capacity target, Tunisian Solar Plan 2015",
+        "value": "3815",
+        "unit": "MW",
+        "year": "2030",
+        "geography": "national",
+        "source": "SRC-TG-192"
+      },
+      "stakeholders": [
+        "Ministry of Industry",
+        "Mines and Energy",
+        "ANME",
+        "STEG",
+        "private IPP developers",
+        "World Bank and other lenders",
+        "electricity consumers"
+      ],
+      "hasProjection": true,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/37684096/pexels-photo-37684096.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Solar power station in North African desert landscape",
+        "credit": "pierre matile / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-270",
+      "slug": "FND-TG-270-sonede-electricity-consumption-and-cost",
+      "title": "SONEDE's water supply used 563 GWh of electricity in 2023",
+      "status": "in-review",
+      "sectors": [
+        "energy",
+        "water"
+      ],
+      "mainSector": "energy",
+      "theme": "grid",
+      "timeframe": "current",
+      "period": "2023",
+      "geography": [
+        "national"
+      ],
+      "severity": "medium",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "SONEDE reports 563 GWh of electricity use in 2023 and an energy bill of 172 million TND before VAT, equal to 28% of the cost of potable water. The utility's key-figures page reports specific consumption of 0.725 kWh/m³…",
+      "readTimeMinutes": 2,
+      "indicatorCount": 4,
+      "sourceCount": 3,
+      "topIndicator": {
+        "name": "SONEDE electricity consumption",
+        "value": "563",
+        "unit": "GWh",
+        "year": "2023",
+        "geography": "national",
+        "source": "SRC-TG-282"
+      },
+      "stakeholders": [
+        "SONEDE",
+        "STEG",
+        "Ministry of Agriculture",
+        "households"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/32502650/pexels-photo-32502650.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Water distribution pipes and utility valves",
+        "credit": "adib aqil / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-271",
+      "slug": "FND-TG-271-desalination-expansion-energy-demand-risk",
+      "title": "Tunisia’s 2030 desalination scenario implies material electricity demand; its scale depends on the intensity assumed",
+      "status": "in-review",
+      "sectors": [
+        "energy",
+        "water"
+      ],
+      "mainSector": "energy",
+      "theme": "grid",
+      "timeframe": "predicted",
+      "period": "2030-2050",
+      "geography": [
+        "national"
+      ],
+      "severity": "medium",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "The Ministry's Eau 2050 synthesis gives a national seawater-desalination scenario of 192 million m³/year in 2030, 265 million m³/year in 2035, and 265 million m³/year in both 2040 and 2050. These are scenario…",
+      "readTimeMinutes": 3,
+      "indicatorCount": 5,
+      "sourceCount": 7,
+      "topIndicator": {
+        "name": "Scenario seawater desalination volume",
+        "value": "192",
+        "unit": "million cubic metres per year",
+        "year": "2030",
+        "geography": "national",
+        "source": "SRC-TG-276"
+      },
+      "stakeholders": [
+        "SONEDE",
+        "Ministry of Agriculture",
+        "STEG",
+        "Ministry of Industry Mines and Energy"
+      ],
+      "hasProjection": true,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/32502650/pexels-photo-32502650.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Water distribution pipes and utility valves",
+        "credit": "adib aqil / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-291",
+      "slug": "FND-TG-291-cement-cbam-exposure-estimate",
+      "title": "World Bank model places Tunisia third among selected cement exporters for CBAM trade exposure",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "industrial-efficiency",
+      "timeframe": "predicted",
+      "period": "2022 trade and 2017-benchmarked emissions; CBAM definitive regime from 2026",
+      "geography": [
+        "national"
+      ],
+      "severity": "medium",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "The World Bank’s model ranks Tunisia third in the cement chart and gives a trade exposure index of 6.59099% in its companion workbook. Its two inputs are how much of Tunisia’s cement exports go to the EU and how the…",
+      "readTimeMinutes": 2,
+      "indicatorCount": 2,
+      "sourceCount": 4,
+      "topIndicator": {
+        "name": "Tunisia position among ten countries shown in World Bank cement Trade Exposure Index chart",
+        "value": "3",
+        "unit": "rank",
+        "year": "2022",
+        "geography": "national",
+        "source": "SRC-TG-292"
+      },
+      "stakeholders": [
+        "cement producers",
+        "Ministry of Industry Mines and Energy",
+        "Ministry of Trade",
+        "European Union"
+      ],
+      "hasProjection": true,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/13990607/pexels-photo-13990607.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Heavy industrial plant and emissions stacks",
+        "credit": "Daniel Trylski / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-310",
+      "slug": "FND-TG-310-transport-is-tunisia-largest-energy-end-use",
+      "title": "Transport was Tunisia's largest final-energy consumer in 2024, with petroleum products supplying about 90%",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "transport-energy",
+      "timeframe": "current",
+      "period": "2024",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "high",
+      "excerpt": "ONEM's 2024 national energy balance records 2,721 ktep of final energy consumption by transport, the largest sector. The report narrative gives its share as 35%; Table 6 reports 35% with biomass included and 37% without…",
+      "readTimeMinutes": 2,
+      "indicatorCount": 6,
+      "sourceCount": 5,
+      "topIndicator": {
+        "name": "Transport final energy consumption",
+        "value": "2721",
+        "unit": "ktep",
+        "year": "2024",
+        "geography": "national",
+        "source": "SRC-TG-222"
+      },
+      "stakeholders": [
+        "transport users",
+        "Ministry of Transport",
+        "Ministry of Industry Mines and Energy",
+        "STIR",
+        "fuel importers"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/394797/pexels-photo-394797.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Highway transport corridor at dusk",
+        "credit": "Marcus Wöckel / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-311",
+      "slug": "FND-TG-311-informal-fuel-estimate-is-not-current",
+      "title": "Official energy accounts omit parallel-market fuel, but its historical scale is unresolved",
+      "status": "in-review",
+      "sectors": [
+        "energy"
+      ],
+      "mainSector": "energy",
+      "theme": "transport-energy",
+      "timeframe": "past",
+      "period": "2010-2019 (ONEM series); separate World Bank estimates published in 2013",
+      "geography": [
+        "national"
+      ],
+      "severity": "medium",
+      "trend": "unknown",
+      "confidence": "low",
+      "excerpt": "Tunisia's official energy accounts omit quantities of fuel supplied through the parallel market, leaving a material measurement gap in transport-fuel consumption. ONEM's retrospective national balance for 2010-2019 says…",
+      "readTimeMinutes": 3,
+      "indicatorCount": 2,
+      "sourceCount": 2,
+      "topIndicator": {
+        "name": "World Bank estimate of fuel consumed from informal Algerian imports (author estimate; method not demonstrated by its cited footnote)",
+        "value": "25",
+        "unit": "percent of fuel consumption",
+        "year": "2013",
+        "geography": "national",
+        "source": "SRC-TG-310"
+      },
+      "stakeholders": [
+        "STIR",
+        "Ministry of Industry Mines and Energy",
+        "Ministry of Finance",
+        "Ministry of Trade",
+        "border communities",
+        "fuel consumers"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/394797/pexels-photo-394797.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Highway transport corridor at dusk",
+        "credit": "Marcus Wöckel / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-400",
+      "slug": "FND-TG-400-deep-aquifer-overdraft-illicit-boreholes-centre",
+      "title": "Deep aquifers in central and north-eastern Tunisia are pumped far beyond their resources, increasingly through illicit boreholes the administration cannot close",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture",
+        "energy"
+      ],
+      "mainSector": "water",
+      "theme": "groundwater",
+      "timeframe": "current",
+      "period": "2006-2021",
+      "geography": [
+        "national",
+        "centre-west",
+        "north-east",
+        "kairouan",
+        "sidi-bouzid",
+        "kasserine",
+        "nabeul"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Tunisia's deep aquifers were drawn at 133% of their estimated resource in 2016 (1,895 Mm3 against 1,422 Mm3) and at 134% in 2020. The national figure hides a sharp regional pattern. Withdrawals from the deep aquifers of…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 22,
+      "sourceCount": 7,
+      "topIndicator": {
+        "name": "Deep-aquifer exploitation rate, national",
+        "value": "133",
+        "unit": "% of 1,422 Mm3 resource (1,895 Mm3 withdrawn)",
+        "year": "2016",
+        "geography": "national",
+        "source": "SRC-TG-402"
+      },
+      "stakeholders": [
+        "irrigating farmers",
+        "DGRE",
+        "CRDAs",
+        "Ministry of Agriculture (MARHP)",
+        "STEG",
+        "SONEDE",
+        "Garde nationale and courts",
+        "Parliament (water code and borehole regularisation bill)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/14869819/pexels-photo-14869819.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Arid dry terrain and depleted water channel",
+        "credit": "jd garrett / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-401",
+      "slug": "FND-TG-401-shallow-aquifers-past-100-percent-free-drilling-incentives",
+      "title": "Shallow aquifers crossed 100% exploitation by the mid-1990s under a Water Code that let anyone dig to 50 m and state incentives for private irrigation wells",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture",
+        "energy"
+      ],
+      "mainSector": "water",
+      "theme": "legacy-policy",
+      "timeframe": "past",
+      "period": "1975-1995",
+      "geography": [
+        "national",
+        "centre-west",
+        "sidi-bouzid",
+        "kairouan",
+        "nabeul"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Tunisia's shallow aquifers (nappes phréatiques) have been drawn beyond their renewable resource for about thirty years. Nationally the exploitation rate went from 85% in 1985 to above 100% by 1995. It then stayed…",
+      "readTimeMinutes": 5,
+      "indicatorCount": 13,
+      "sourceCount": 8,
+      "topIndicator": {
+        "name": "Shallow-aquifer exploitation rate, national",
+        "value": "85",
+        "unit": "% of ~720 Mm3 exploitable",
+        "year": "1985",
+        "geography": "national",
+        "source": "SRC-TG-404"
+      },
+      "stakeholders": [
+        "smallholder irrigators",
+        "Ministry of Agriculture (DGRE and CRDAs)",
+        "agricultural investment agencies and banks (subsidised credit)",
+        "STEG (rural electrification)",
+        "Parliament (Water Code)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/38114844/pexels-photo-38114844.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Tunisian canyon oasis in Tamerza",
+        "credit": "Narli's Journey Book / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-410",
+      "slug": "FND-TG-410-groundwater-overdraft-projected-to-persist-to-2040",
+      "title": "Even the national water strategy's own target scenario keeps aquifers overdrawn until the 2040s, and earlier projections of the groundwater resource have already proved unreliable",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture"
+      ],
+      "mainSector": "water",
+      "theme": "groundwater",
+      "timeframe": "predicted",
+      "period": "horizon 2050",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "low",
+      "excerpt": "The 2050 national water strategy (EAU 2050) starts from an aquifer exploitation rate of 139% in 2020: 865 Mm3 a year drawn beyond 2,190 Mm3 of renewable groundwater. Its target scenario lowers the rate to 115% in 2030…",
+      "readTimeMinutes": 4,
+      "indicatorCount": 7,
+      "sourceCount": 7,
+      "topIndicator": {
+        "name": "Aquifer exploitation rate, strategy scenario",
+        "value": "139",
+        "unit": "% (overdraft 865 Mm3 on 2,190 Mm3 renewable groundwater)",
+        "year": "2020",
+        "geography": "national",
+        "source": "SRC-TG-503"
+      },
+      "stakeholders": [
+        "Ministry of Agriculture (BPEH, DGRE and DGGREE)",
+        "irrigating farmers",
+        "SONEDE",
+        "Parliament"
+      ],
+      "hasProjection": true,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/14869819/pexels-photo-14869819.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Arid dry terrain and depleted water channel",
+        "credit": "jd garrett / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-425",
+      "slug": "FND-TG-425-dam-reserves-drawdown-low-inflow-years-2015-2024",
+      "title": "Nine of ten hydrological years from 2015/16 to 2024/25 brought below-average inflows to Tunisia's dams, and the national end-of-year stock fell from 1,184 Mm3 (2015) to 542 Mm3 (23.1%) on 1 September 2024, with only one wet year in between",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture"
+      ],
+      "mainSector": "water",
+      "theme": "surface-water",
+      "timeframe": "current",
+      "period": "2015-2025",
+      "geography": [
+        "national",
+        "north-west",
+        "north-east",
+        "centre-east",
+        "beja",
+        "kairouan"
+      ],
+      "severity": "critical",
+      "trend": "unknown",
+      "confidence": "high",
+      "excerpt": "Tunisia's surface storage sits mainly in 37 large dams at end-2017. About 90% of their mean annual inflow (1,613 of 1,802 Mm3) comes from the northern dams. Over the ten hydrological years 2015/16 to 2024/25, inflows…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 17,
+      "sourceCount": 15,
+      "topIndicator": {
+        "name": "Total stock in large dams on 1 September (end of hydrological year)",
+        "value": "1184.43",
+        "unit": "Mm3",
+        "year": "2015",
+        "geography": "national",
+        "source": "SRC-TG-432"
+      },
+      "stakeholders": [
+        "DGBGTH (Ministry of Agriculture)",
+        "SECADENORD",
+        "SONEDE",
+        "CRDA irrigation managers and GDA",
+        "irrigating farmers in the lower Medjerda, Cap Bon and Sahel",
+        "urban consumers of Grand Tunis, Cap Bon, Sahel and Sfax"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/13760476/pexels-photo-13760476.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Dam infrastructure bordering agricultural land",
+        "credit": "Quang Nguyen Vinh / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-426",
+      "slug": "FND-TG-426-supply-side-dam-and-transfer-strategy-legacy",
+      "title": "The 1970s-2011 \"mobilisation\" strategy built storage in the north and tied the drinking water of Tunis, Cap Bon, Sahel and Sfax to a handful of northern dams through long transfers. The plan's dam targets were not reached, and the canal's water has shifted from irrigation to drinking supply.",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture",
+        "energy"
+      ],
+      "mainSector": "water",
+      "theme": "legacy-policy",
+      "timeframe": "past",
+      "period": "1970-2011",
+      "geography": [
+        "national",
+        "north-west",
+        "north-east",
+        "centre-east"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Since the 1970s, Tunisia has managed water scarcity mainly by building storage and moving water. Large works were programmed under the Water Master Plans for the North, Centre and South. A national mobilisation…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 10,
+      "sourceCount": 5,
+      "topIndicator": {
+        "name": "Share of water investment spent on reservoir dams and transfer mains",
+        "value": "19",
+        "unit": "% of water-sector investment",
+        "year": "2007",
+        "geography": "national",
+        "source": "SRC-TG-430"
+      },
+      "stakeholders": [
+        "Ministry of Agriculture (DGBGTH, BPEH)",
+        "SECADENORD",
+        "SONEDE",
+        "Ministry of Finance (state budget covers energy overruns)",
+        "irrigators of Cap Bon (Nabeul) and the Sahel",
+        "urban consumers of Grand Tunis, Cap Bon, Sahel and Sfax",
+        "JICA and KfW (current financiers of Medjerda works)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/35644773/pexels-photo-35644773.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Historical landscape and palm groves in Tunisia",
+        "credit": "Elijah Cobb / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-427",
+      "slug": "FND-TG-427-dam-siltation-storage-loss-projections",
+      "title": "Silt already fills about a quarter of Tunisia's large-dam capacity (81% at Mellègue), and without sediment countermeasures Sidi Salem is projected to lose 42% of its usable water-use volume within 30 years. Official estimates of the loss disagree.",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture",
+        "energy"
+      ],
+      "mainSector": "water",
+      "theme": "surface-water",
+      "timeframe": "predicted",
+      "period": "dams commissioned 1954-2020; measured to 2014-2021 surveys; horizons 2030, 2050 and +10/+30/+100 years",
+      "geography": [
+        "national",
+        "north-west",
+        "kef",
+        "beja",
+        "siliana",
+        "kairouan"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Tunisia's large dams lose storage to silt every year. The 2021 DGBGTH bulletin records 674.89 Mm3 of measured silt against 2,988.11 Mm3 of initial capacity, about 22.6%. The 2017 national report puts the loss at 25% for…",
+      "readTimeMinutes": 8,
+      "indicatorCount": 12,
+      "sourceCount": 13,
+      "topIndicator": {
+        "name": "Capacity loss of 30 monitored dams (useful 2,078 vs initial 2,787)",
+        "value": "25",
+        "unit": "%",
+        "year": "2017",
+        "geography": "national",
+        "source": "SRC-TG-402"
+      },
+      "stakeholders": [
+        "DGBGTH",
+        "DGACTA/DGCES (soil and water conservation)",
+        "SECADENORD",
+        "SONEDE",
+        "irrigators of the Medjerda valley",
+        "downstream flood-exposed communities of the lower Medjerda",
+        "JICA and KfW as financiers"
+      ],
+      "hasProjection": true,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/13760476/pexels-photo-13760476.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Dam infrastructure bordering agricultural land",
+        "credit": "Quang Nguyen Vinh / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-451",
+      "slug": "FND-TG-451-summer-supply-cuts-2023-rationing",
+      "title": "Supply cuts went from \"very rare\" in 2009 to national rationing in 2023-2024, and they persist where regional transfer and network capacity lag, even when national dam stocks recover",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture"
+      ],
+      "mainSector": "water",
+      "theme": "drinking-water",
+      "timeframe": "current",
+      "period": "2009-2026",
+      "geography": [
+        "national",
+        "north-east",
+        "centre-east",
+        "tunis",
+        "ben-arous",
+        "nabeul",
+        "sousse",
+        "monastir",
+        "mahdia",
+        "sfax",
+        "gafsa"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "In 2009 the World Bank described SONEDE supply as running \"24 heures sur 24\", with cuts \"très rares\" and made only for operations. By 2016-2017, summer disruptions were routine: 224 SONEDE localities in summer 2016 and…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 8,
+      "sourceCount": 11,
+      "topIndicator": {
+        "name": "SONEDE systems with summer supply disruptions",
+        "value": "224",
+        "unit": "localities",
+        "year": "2016",
+        "geography": "national",
+        "source": "SRC-TG-402"
+      },
+      "stakeholders": [
+        "SONEDE",
+        "Ministry of Agriculture Water Resources and Fisheries (MARHP)",
+        "households",
+        "farmers using SONEDE water",
+        "municipalities (green spaces",
+        "street cleaning)",
+        "Observatoire Tunisien de l'Eau",
+        "SECADENORD (northern transfer)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/32502650/pexels-photo-32502650.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Water distribution pipes and utility valves",
+        "credit": "adib aqil / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-452",
+      "slug": "FND-TG-452-rural-drinking-water-delegated-to-gda",
+      "title": "Handing rural drinking water to volunteer user groups (AIC/GIC/GDA) from the 1980s raised coverage fast but left about 1.5 million people on under-funded, decaying systems",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "energy",
+        "agriculture"
+      ],
+      "mainSector": "water",
+      "theme": "legacy-policy",
+      "timeframe": "past",
+      "period": "1984-2014 (effects still felt in 2017-2025)",
+      "geography": [
+        "national",
+        "centre-west",
+        "kasserine",
+        "kairouan"
+      ],
+      "severity": "high",
+      "trend": "stable",
+      "confidence": "high",
+      "excerpt": "Tunisia raised rural drinking-water coverage from 25% in 1984 to 80% in 2000; the World Bank report records an average rural service rate of 90% in 2006, with at least 80% in each governorate. It did so largely by…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 18,
+      "sourceCount": 9,
+      "topIndicator": {
+        "name": "Rural drinking-water coverage",
+        "value": "25",
+        "unit": "%",
+        "year": "1984",
+        "geography": "national",
+        "source": "SRC-TG-458"
+      },
+      "stakeholders": [
+        "GDA members and boards",
+        "rural households (about 1.5 million people)",
+        "DGGREE and CRDA (Ministry of Agriculture)",
+        "SONEDE",
+        "STEG (electricity supplier and creditor)",
+        "donors (AFD",
+        "World Bank)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/38114844/pexels-photo-38114844.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Tunisian canyon oasis in Tamerza",
+        "credit": "Narli's Journey Book / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-476",
+      "slug": "FND-TG-476-sonede-tariffs-below-cost-structural-deficit",
+      "title": "Since about 2007 SONEDE has sold drinking water below its cost, because tariffs are frozen or raised ad hoc while energy, desalination and staff costs climb",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "energy"
+      ],
+      "mainSector": "water",
+      "theme": "water-governance",
+      "timeframe": "current",
+      "period": "2001-2021",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "SONEDE, the national utility supplying all urban and about half of rural drinking water to more than 2.7 million clients, sells water below what it costs to produce. In 2017 its average cost was 0.900 TND/m3 against an…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 20,
+      "sourceCount": 6,
+      "topIndicator": {
+        "name": "SONEDE operating ratio (operating revenues / operating costs incl. depreciation)",
+        "value": "1.07",
+        "unit": "ratio",
+        "year": "2001",
+        "geography": "national",
+        "source": "SRC-TG-455"
+      },
+      "stakeholders": [
+        "SONEDE",
+        "Ministry of Agriculture (MARHP",
+        "supervising ministry)",
+        "Ministry of Finance",
+        "STEG (electricity supplier)",
+        "households",
+        "World Bank and other lenders"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/32502650/pexels-photo-32502650.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Water distribution pipes and utility valves",
+        "credit": "adib aqil / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-500",
+      "slug": "FND-TG-500-projected-decline-renewable-water-resources-2050",
+      "title": "Climate change is projected to cut Tunisia's renewable surface and groundwater resources by 2050, with national estimates from about -20% to -41% and disputed timing",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture"
+      ],
+      "mainSector": "water",
+      "theme": "surface-water",
+      "timeframe": "predicted",
+      "period": "baseline 1961-2022, horizon 2050 (some sources to 2100)",
+      "geography": [
+        "national",
+        "north-west",
+        "north-east",
+        "siliana"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Tunisia's renewable water resources are projected to shrink by 2050 as rainfall falls and evapotranspiration rises. National estimates for 2050 range from about -20% to -41% of surface water, and sources disagree on…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 14,
+      "sourceCount": 8,
+      "topIndicator": {
+        "name": "Renewable internal freshwater resources per capita",
+        "value": "972",
+        "unit": "m3/person/year",
+        "year": "1961",
+        "geography": "national",
+        "source": "SRC-TG-507"
+      },
+      "stakeholders": [
+        "MARHP",
+        "DGRE",
+        "BPEH",
+        "SONEDE",
+        "irrigators in public irrigated schemes",
+        "rainfed cereal farmers in the north",
+        "CRDA regional offices"
+      ],
+      "hasProjection": true,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/10615217/pexels-photo-10615217.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Water dam and reservoir storage basin",
+        "credit": "Quang Nguyen Vinh / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-501",
+      "slug": "FND-TG-501-projected-water-supply-demand-gap-2030-2050",
+      "title": "Without action, Tunisia's water balance is projected to turn negative by 2030-2050, leaving about 28% of demand unmet by 2050 under RCP8.5",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture",
+        "energy"
+      ],
+      "mainSector": "water",
+      "theme": "water-governance",
+      "timeframe": "predicted",
+      "period": "baseline 2018-2020, horizons 2030 and 2050 (2100 in one source)",
+      "geography": [
+        "national"
+      ],
+      "severity": "critical",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Tunisia already meets its water demand partly by mining groundwater. In 2018, blue-water demand was about 3.1 billion m3, met with groundwater exploitation above 123% of resources. The Eau 2050 table puts the aquifer…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 15,
+      "sourceCount": 7,
+      "topIndicator": {
+        "name": "Blue-water demand",
+        "value": "3103",
+        "unit": "Mm3/year",
+        "year": "2018",
+        "geography": "national",
+        "source": "SRC-TG-504"
+      },
+      "stakeholders": [
+        "MARHP",
+        "SONEDE",
+        "irrigators and GDA water user groups",
+        "urban households",
+        "industry and tourism",
+        "Ministry of Finance (tariffs and subsidies)"
+      ],
+      "hasProjection": true,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/32502650/pexels-photo-32502650.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Public water utility pipelines and valves",
+        "credit": "adib aqil / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-502",
+      "slug": "FND-TG-502-sea-level-rise-coastal-aquifer-salinisation-2050",
+      "title": "Sea-level rise will aggravate seawater intrusion that pumping already causes in Tunisia's coastal aquifers; official 2050 loss estimates (50% vs 75%) differ and lack a published method",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture"
+      ],
+      "mainSector": "water",
+      "theme": "water-quality",
+      "timeframe": "predicted",
+      "period": "observed 2006-2021, horizon 2050",
+      "geography": [
+        "national",
+        "north-east",
+        "centre-east",
+        "nabeul"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Coastal shallow aquifers supply much of the eastern littoral. In parts of them, seawater intrusion is supported by field evidence and attributed to uncontrolled pumping. In Korba, piezometric levels were about 12 m…",
+      "readTimeMinutes": 4,
+      "indicatorCount": 8,
+      "sourceCount": 5,
+      "topIndicator": {
+        "name": "Piezometric level in Korba coastal aquifer depressions",
+        "value": "about -12",
+        "unit": "m relative to sea level",
+        "year": "2006",
+        "geography": "nabeul",
+        "source": "SRC-TG-511"
+      },
+      "stakeholders": [
+        "farmers irrigating from coastal shallow aquifers in Cap Bon and the Sahel",
+        "MARHP",
+        "DGRE",
+        "CRDA Nabeul",
+        "SONEDE",
+        "APAL, the coastal protection agency"
+      ],
+      "hasProjection": true,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/35627363/pexels-photo-35627363.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Water treatment and salinity monitoring infrastructure",
+        "credit": "Giant Asparagus / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-525",
+      "slug": "FND-TG-525-irrigation-water-saving-programme-no-demonstrated-national-saving",
+      "title": "PNEEI equipment coverage reached 96.9% of irrigable area by 2024, but evidence does not demonstrate national irrigation-water savings; one regional study found drip-related expansion offset savings locally",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture",
+        "energy"
+      ],
+      "mainSector": "water",
+      "theme": "legacy-policy",
+      "timeframe": "past",
+      "period": "1995-2024 (equipment coverage series 1995-2024)",
+      "geography": [
+        "national",
+        "centre-west"
+      ],
+      "severity": "high",
+      "trend": "stable",
+      "confidence": "medium",
+      "excerpt": "Since 1995, Tunisia's PNEEI has supported on-farm water-saving equipment. The reported equipped share rose from 37% in 1995 to 75% in 2005 and 94.5% in 2021, then reached 96.9% (428,500 of 442,500 ha) in 2024. Drip…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 16,
+      "sourceCount": 11,
+      "topIndicator": {
+        "name": "Share of irrigated perimeters equipped with water-saving equipment",
+        "value": "37",
+        "unit": "%",
+        "year": "1995",
+        "geography": "national",
+        "source": "SRC-TG-403"
+      },
+      "stakeholders": [
+        "Ministry of Agriculture (DGGREE, BPEH, CRDAs)",
+        "APIA (agricultural investment subsidies, FTI)",
+        "ANME (Energy Transition Fund, FTE)",
+        "irrigating farmers, especially private groundwater irrigators",
+        "equipment suppliers and installers",
+        "Ministry of Finance (subsidy budget)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/35644773/pexels-photo-35644773.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Historical landscape and palm groves in Tunisia",
+        "credit": "Elijah Cobb / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-526",
+      "slug": "FND-TG-526-dam-irrigation-quota-cuts-2021-2024-production-losses",
+      "title": "Dam-water irrigation allocations and consumption fell sharply from 2020-21 to 2023-24; lower Medjerda supply stopped temporarily in 2023 and Nebhana received no irrigation water in 2023-24",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture"
+      ],
+      "mainSector": "water",
+      "theme": "irrigation",
+      "timeframe": "current",
+      "period": "2018-2024 (quota policy since 2018; sharpest cuts 2021-22 to 2023-24)",
+      "geography": [
+        "national",
+        "north-east",
+        "north-west",
+        "centre-east",
+        "manouba",
+        "ariana",
+        "ben-arous",
+        "nabeul",
+        "sousse"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "high",
+      "excerpt": "Since 2018 Tunisia has applied quotas to dam water for its public irrigated perimeters (PPI) to protect drinking-water supply. In the drought of 2021-2024 the quotas were cut until several perimeters stopped. The…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 14,
+      "sourceCount": 6,
+      "topIndicator": {
+        "name": "Dam-water quota allocated to public irrigated perimeters",
+        "value": "235",
+        "unit": "Mm3",
+        "year": "2020-21",
+        "geography": "national",
+        "source": "SRC-TG-528"
+      },
+      "stakeholders": [
+        "MARHP (DGGREE, DGBGTH)",
+        "SECADENORD",
+        "CRDAs of Manouba, Ariana, Ben Arous, BÃƒÂ©ja, Bizerte, Jendouba, Nabeul, Sousse, Kairouan",
+        "GDAs managing public irrigated perimeters",
+        "farmers in the lower Medjerda, Cap Bon and Nebhana (Sahel) perimeters",
+        "SONEDE and urban consumers",
+        "UTAP (farmers' union)",
+        "consumers (vegetable prices)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/11678439/pexels-photo-11678439.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Irrigation canal supplying agricultural fields",
+        "credit": "Mark Stebnicki / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-527",
+      "slug": "FND-TG-527-public-irrigated-perimeters-network-efficiency-about-50-percent",
+      "title": "Diagnosed public irrigated perimeters averaged 59% distribution efficiency in 2010-2016; a separate 2022 rehabilitation estimate was near 50%, with administrative losses, aging networks and project delays",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture"
+      ],
+      "mainSector": "water",
+      "theme": "irrigation",
+      "timeframe": "current",
+      "period": "2003-2024",
+      "geography": [
+        "national",
+        "north-east",
+        "north-west",
+        "centre-west"
+      ],
+      "severity": "high",
+      "trend": "stable",
+      "confidence": "medium",
+      "excerpt": "In Tunisia's public irrigated perimeters, reported delivery efficiency is incomplete. In diagnosed public irrigated perimeters, efficiency between the central delivery point and farm hydrants ranged from 38% to 100% and…",
+      "readTimeMinutes": 4,
+      "indicatorCount": 6,
+      "sourceCount": 5,
+      "topIndicator": {
+        "name": "Distribution efficiency between delivery point and irrigators' hydrants, diagnosed PPIs (range 38-100%)",
+        "value": "59",
+        "unit": "% (mean 2010-2016)",
+        "year": "2010-2016",
+        "geography": "national",
+        "source": "SRC-TG-402"
+      },
+      "stakeholders": [
+        "DGGREE and CRDAs (bulk supply, rehabilitation)",
+        "GDAs (perimeter management)",
+        "irrigators in public perimeters",
+        "SECADENORD",
+        "World Bank (PIAIT)",
+        "AfDB (central PPI project)",
+        "JICA and KfW (lower Medjerda)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/31454647/pexels-photo-31454647.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Aerial view of irrigation canal and farmland plots",
+        "credit": "Kashif Shah / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-550",
+      "slug": "FND-TG-550-wastewater-treatment-and-reuse-gap",
+      "title": "Treated wastewater reuse remains limited and unevenly enabled",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture"
+      ],
+      "mainSector": "water",
+      "theme": "wastewater-reuse",
+      "timeframe": "current",
+      "period": "2021-2024",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "The national sector report gives actual irrigation use and area for 2023/24. These figures are narrower than national all-purpose reuse. Treated wastewater reuse in Tunisia remains limited in the available national…",
+      "readTimeMinutes": 3,
+      "indicatorCount": 7,
+      "sourceCount": 4,
+      "topIndicator": {
+        "name": "ONAS treatment plants reported with tertiary-treatment equipment",
+        "value": "28 of 125",
+        "unit": "plants",
+        "year": "2021",
+        "geography": "national",
+        "source": "SRC-TG-558"
+      },
+      "stakeholders": [
+        "ONAS",
+        "Ministry of Agriculture Water Resources and Fisheries",
+        "Ministry of Environment",
+        "farmers using treated wastewater"
+      ],
+      "hasProjection": true,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/35627363/pexels-photo-35627363.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Aerial view of wastewater treatment basins",
+        "credit": "Giant Asparagus / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-600",
+      "slug": "FND-TG-600-southern-water-salinity-and-quality",
+      "title": "Tunisia’s 2024 drinking-water salinity baseline spans 1.5–3 g/L from north to south",
+      "status": "in-review",
+      "sectors": [
+        "water"
+      ],
+      "mainSector": "water",
+      "theme": "water-quality",
+      "timeframe": "past",
+      "period": "2001–2024",
+      "geography": [
+        "national"
+      ],
+      "severity": "medium",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "Tunisia’s national climate contribution gives a 2024 drinking-water baseline of 1.5–3 g/L across the north and south. It does not assign a mean or a sampling distribution to any governorate. Salinity constrained water…",
+      "readTimeMinutes": 2,
+      "indicatorCount": 2,
+      "sourceCount": 3,
+      "topIndicator": {
+        "name": "2024 drinking-water salinity baseline, lower endpoint of national north–south range",
+        "value": "1.5",
+        "unit": "g/L",
+        "year": "2024",
+        "geography": "national",
+        "source": "SRC-TG-605"
+      },
+      "stakeholders": [
+        "SONEDE",
+        "DGRE",
+        "residents of southern Tunisia"
+      ],
+      "hasProjection": true,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/35627363/pexels-photo-35627363.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Water treatment and salinity monitoring infrastructure",
+        "credit": "Giant Asparagus / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-625",
+      "slug": "FND-TG-625-kebili-illicit-palm-extensions-deep-aquifer-overdraft",
+      "title": "Kébili's unauthorised date-palm extensions pump the Saharan deep aquifers at 171-177% of their resource or more, through thousands of illicit, increasingly solar-powered boreholes",
+      "status": "in-review",
+      "sectors": [
+        "water",
+        "agriculture",
+        "energy"
+      ],
+      "mainSector": "water",
+      "theme": "groundwater",
+      "timeframe": "current",
+      "period": "1996-2021",
+      "geography": [
+        "south-west",
+        "kebili",
+        "tozeur"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "In Kébili governorate (Nefzaoua), the deep aquifers of the Saharan system (Complexe Terminal and Continental Intercalaire) were exploited at 171% of their estimated resource in 2016, second only to Nabeul (195%) among…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 15,
+      "sourceCount": 8,
+      "topIndicator": {
+        "name": "Deep-aquifer exploitation rate, Kébili governorate",
+        "value": "171",
+        "unit": "%",
+        "year": "2016",
+        "geography": "kebili",
+        "source": "SRC-TG-402"
+      },
+      "stakeholders": [
+        "oasis extension farmers and investors",
+        "GDAs of the old oases",
+        "CRDA Kébili",
+        "DGRE",
+        "Ministry of Agriculture (MARHP)",
+        "collective-land management councils",
+        "ANME",
+        "STEG",
+        "solar installers",
+        "date collectors and exporters",
+        "Parliament"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/38114844/pexels-photo-38114844.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Palm oasis in Tamerza, Tunisia",
+        "credit": "Narli's Journey Book / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-700",
+      "slug": "FND-TG-700-cereal-import-dependence-soft-wheat",
+      "title": "Tunisia imports roughly half of its cereals and almost all of its soft (bread) wheat, even in good harvest years",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "cereals",
+      "timeframe": "current",
+      "period": "2018-2026",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "stable",
+      "confidence": "high",
+      "excerpt": "Tunisia depends on world markets for a large share of its staple cereals, and for almost all of its bread wheat. Dependence estimates vary by method and year. ONAGRI's 2021 balance sheet puts the foreign dependence…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 13,
+      "sourceCount": 8,
+      "topIndicator": {
+        "name": "Foreign dependence coefficient, soft wheat (net imports / consumption)",
+        "value": "93.1",
+        "unit": "%",
+        "year": "2021",
+        "geography": "national",
+        "source": "SRC-TG-701"
+      },
+      "stakeholders": [
+        "Office des Céréales",
+        "Caisse Générale de Compensation",
+        "Ministry of Agriculture",
+        "Ministry of Trade",
+        "millers",
+        "bakeries",
+        "consumers",
+        "cereal farmers"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/29793801/pexels-photo-29793801.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Expansive rainfed cereal farmland",
+        "credit": "Jan van der Wolf / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-701",
+      "slug": "FND-TG-701-rainfed-cereal-volatility-2023-collapse",
+      "title": "Rainfed cereal output swings with rainfall and collapsed in the 2023 drought, cutting the harvest by roughly two-thirds or more",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "cereals",
+      "timeframe": "current",
+      "period": "1990-2025",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "Tunisian cereals are mostly rainfed: irrigated wheat is under 15% of wheat area, and ITES says only 10% of cereal production comes from irrigated land. Output therefore moves with rainfall. Since 1990, cereal production…",
+      "readTimeMinutes": 5,
+      "indicatorCount": 24,
+      "sourceCount": 9,
+      "topIndicator": {
+        "name": "Cereal production 2023, FAO GIEWS estimate (Nov 2023)",
+        "value": "302000",
+        "unit": "t",
+        "year": "2023",
+        "geography": "national",
+        "source": "SRC-TG-700"
+      },
+      "stakeholders": [
+        "cereal farmers",
+        "Office des Céréales",
+        "Ministry of Agriculture",
+        "Institut National des Grandes Cultures",
+        "seed producers",
+        "livestock keepers (barley feed)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/11817009/pexels-photo-11817009.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Sunset over golden wheat ears",
+        "credit": "Tamhasip Khan / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-702",
+      "slug": "FND-TG-702-administered-cereal-prices-subsidy-system",
+      "title": "The state cereal system (Office des Céréales monopoly, decreed prices, CGC subsidies) built in 1962-1971 now strains public finances and blunts market signals",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "cereals",
+      "timeframe": "current",
+      "period": "1962-2024",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "Cereal marketing in Tunisia is run by state bodies created soon after independence. The Office des Céréales (OC) was created in 1962. It controls wheat imports and sells imported wheat at subsidised prices. Cereal…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 24,
+      "sourceCount": 8,
+      "topIndicator": {
+        "name": "CGC transfers due to OC, 2022-2023",
+        "value": "6625",
+        "unit": "million TND",
+        "year": "2022-2023",
+        "geography": "national",
+        "source": "SRC-TG-705"
+      },
+      "stakeholders": [
+        "Office des Céréales",
+        "Caisse Générale de Compensation",
+        "Ministry of Agriculture",
+        "Ministry of Trade",
+        "Ministry of Finance",
+        "Banque Nationale Agricole",
+        "millers",
+        "bakeries",
+        "private collectors and SMSA cooperatives",
+        "cereal farmers",
+        "consumers"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/7825037/pexels-photo-7825037.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Golden wheat field ready for cereal harvest",
+        "credit": "André Ulysses De Salis / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-722",
+      "slug": "FND-TG-722-olive-oil-climate-projection-decline",
+      "title": "The national adaptation study projects Tunisian olive oil output 11-35% below its modelled reference by 2050 and 20-70% below by 2100, with yield losses up to 51-86% in the Sfax-Kairouan-Sidi Bouzid-Mahdia core under RCP8.5",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "olives",
+      "timeframe": "predicted",
+      "period": "horizon 2050 (2036-2065) and 2100 (2071-2100)",
+      "geography": [
+        "national",
+        "centre-east",
+        "centre-west",
+        "south-west"
+      ],
+      "severity": "critical",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "The modelling study behind Tunisia's national adaptation plan (MARHP with AFD Adapt'Action, final version 2021) projects a large fall in olive oil production from a modelled reference of 207 kt/yr. Holding the 2015-2017…",
+      "readTimeMinutes": 5,
+      "indicatorCount": 9,
+      "sourceCount": 6,
+      "topIndicator": {
+        "name": "Median loss of climatically favourable olive area, RCP8.5 2100 (up to 34%)",
+        "value": "14",
+        "unit": "%",
+        "year": "2100",
+        "geography": "national",
+        "source": "SRC-TG-886"
+      },
+      "stakeholders": [
+        "olive farmers in Sfax, Sidi Bouzid, Kairouan, Mahdia and the South",
+        "seasonal harvest workers, many of them rural women",
+        "MARHP (national adaptation plan)",
+        "ONH",
+        "Institut de l'Olivier",
+        "water managers (CRDA, DGRE)"
+      ],
+      "hasProjection": true,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/28697751/pexels-photo-28697751.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Green olives growing in Jendouba, Tunisia",
+        "credit": "Mahmoud Yahyaoui / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-760",
+      "slug": "FND-TG-760-imported-feed-dependence",
+      "title": "Tunisian livestock runs on imported feed: all maize and soybeans and, in drought years, most barley come from abroad, so world prices, the dinar and import disruptions pass straight into farm costs",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "livestock-feed",
+      "timeframe": "current",
+      "period": "1990-2026",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Tunisia grows essentially no maize and no soybeans. In MY 2024/25 it imported 1,033 thousand t of maize, all of it for feed, 507 thousand t of soybeans (447 thousand t crushed and about 75 thousand t fed directly as…",
+      "readTimeMinutes": 5,
+      "indicatorCount": 17,
+      "sourceCount": 8,
+      "topIndicator": {
+        "name": "Maize production",
+        "value": "0",
+        "unit": "thousand t",
+        "year": "MY 2024/25",
+        "geography": "national",
+        "source": "SRC-TG-763"
+      },
+      "stakeholders": [
+        "poultry farmers",
+        "dairy farmers",
+        "sheep and goat herders",
+        "feed millers",
+        "Office des Céréales",
+        "Ministry of Agriculture",
+        "Ministry of Commerce",
+        "Central Bank (foreign exchange)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/28704685/pexels-photo-28704685.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Shepherd tending sheep flock in Jendouba, Tunisia",
+        "credit": "Mahmoud Yahyaoui / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-761",
+      "slug": "FND-TG-761-dairy-price-cost-squeeze-herd-decline",
+      "title": "The dairy sector built in the 1990s on imported Holstein cows and imported concentrates is contracting: milk output fell about 16% from its 2021 peak to 2025 and the herd shrinks about 2.5% a year after drought and feed price shocks; the ministry and farmers describe a lasting gap between feed costs and the administered milk price, frozen at 1,340 millimes since late 2022 or early 2023",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "livestock-feed",
+      "timeframe": "current",
+      "period": "1990-2026",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Fresh milk production peaked at about 1,462 thousand t in 2021 and fell to 1,230 thousand t in 2025, about 16% lower. Over 2016-2025 the average change was -1.5% a year. The dairy herd was estimated at 360,000 female…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 17,
+      "sourceCount": 8,
+      "topIndicator": {
+        "name": "Fresh milk production",
+        "value": "1230",
+        "unit": "thousand t",
+        "year": "2025",
+        "geography": "national",
+        "source": "SRC-TG-761"
+      },
+      "stakeholders": [
+        "dairy farmers (mostly small herds)",
+        "collection centres",
+        "dairy processors",
+        "consumers",
+        "Office de l'Élevage et des Pâturages (OEP)",
+        "Ministry of Agriculture",
+        "Ministry of Commerce",
+        "UTAP"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/35755878/pexels-photo-35755878.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Sheep grazing on pasture in Tunisia",
+        "credit": "Mahmoud Yahyaoui / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-780",
+      "slug": "FND-TG-780-micro-holdings-ageing-farm-heads",
+      "title": "Between 1961 and 2005 farms split into micro-holdings through inheritance while farm heads aged, and these small farms barely invest or borrow; no newer national data have been found",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "land-structure",
+      "timeframe": "current",
+      "period": "1961-2005 (survey data); no national update since 2004-05",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "Tunisia's farm count rose from 326,000 in 1961-62 to 516,000 in 2004-05 while the farmed area stayed near 5.2-5.3 million ha, so the average farm shrank from 16 ha to 10.2 ha. The growth is concentrated at the bottom…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 12,
+      "sourceCount": 4,
+      "topIndicator": {
+        "name": "Farmland held by heads aged 60 and over",
+        "value": "46",
+        "unit": "percent of UAA",
+        "year": "2004",
+        "geography": "national",
+        "source": "SRC-TG-780"
+      },
+      "stakeholders": [
+        "smallholder farmers",
+        "heirs of farm households",
+        "young people seeking land",
+        "Ministry of Agriculture (DGEDA)",
+        "BNA and other agricultural lenders",
+        "APIA"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/31454647/pexels-photo-31454647.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Fragmented agricultural land parcels from above",
+        "credit": "Kashif Shah / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-781",
+      "slug": "FND-TG-781-untitled-land-collective-tenure",
+      "title": "Collective land attribution and registration remain incomplete under the 2016 amendment, while evidence linking title gaps to small farmers’ bank-credit exclusion is thin and dated",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "land-structure",
+      "timeframe": "current",
+      "period": "1964-2026",
+      "geography": [
+        "national",
+        "centre-west",
+        "south-east",
+        "south-west"
+      ],
+      "severity": "medium",
+      "trend": "unknown",
+      "confidence": "low",
+      "excerpt": "A large part of Tunisian farmland does not carry a title that a bank can take as security, though the national figures are old and second-hand. Law 64-28 was substantially amended in 2016: collective land may now be…",
+      "readTimeMinutes": 5,
+      "indicatorCount": 6,
+      "sourceCount": 7,
+      "topIndicator": {
+        "name": "Share of land potential registered (immatriculé)",
+        "value": "50",
+        "unit": "percent",
+        "year": "c. 2006 (World Bank 2006, cited second-hand)",
+        "geography": "national",
+        "source": "SRC-TG-781"
+      },
+      "stakeholders": [
+        "smallholder farmers",
+        "heirs in undivided estates",
+        "collective land groups and their management councils",
+        "Ministry of State Domains and Land Affairs",
+        "Office de la Topographie et du Cadastre",
+        "Land Court (Tribunal immobilier)",
+        "Conservation de la propriété foncière",
+        "agricultural banks"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/38114844/pexels-photo-38114844.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Palm oasis in Tamerza, Tunisia",
+        "credit": "Narli's Journey Book / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-782",
+      "slug": "FND-TG-782-state-agricultural-land-governance",
+      "title": "State farmland built from 1964 nationalisation has gone through six decades of political reallocation; recent estimates of its area and unregularised operators rely on tier C press",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "land-structure",
+      "timeframe": "current",
+      "period": "1964-2026",
+      "geography": [
+        "national",
+        "north-west",
+        "north-east",
+        "kebili"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "low",
+      "excerpt": "Tunisia's state owns about 500,000 ha of agricultural land according to the minister of State Domains in 2026, of which only 38% is operated under lease contracts. A 2024 press breakdown gives 310,000 ha \"structured\"…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 15,
+      "sourceCount": 12,
+      "topIndicator": {
+        "name": "State land transferred to private operators (mainly leases)",
+        "value": "143000",
+        "unit": "ha",
+        "year": "1981-1995",
+        "geography": "national",
+        "source": "SRC-TG-785"
+      },
+      "stakeholders": [
+        "Ministry of State Domains and Land Affairs",
+        "Ministry of Agriculture",
+        "Office des Terres Domaniales (OTD)",
+        "SMVDA lessees",
+        "technician and young-farmer lessees",
+        "former cooperative members and farm workers",
+        "landless neighbours and occupiers",
+        "Jemna oasis association",
+        "sociétés communautaires",
+        "UTAP"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/35644773/pexels-photo-35644773.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Tunisian agricultural heritage landscape and palms",
+        "credit": "Elijah Cobb / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-800",
+      "slug": "FND-TG-800-water-erosion-cropland-north-centre",
+      "title": "Water erosion degrades rainfed cropland soils in the Tell, Dorsale and centre; two decadal soil-conservation strategies treated about a quarter of farmland but erosion control remained below expectations",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "soil",
+      "timeframe": "current",
+      "period": "1956-2023",
+      "geography": [
+        "north-west",
+        "centre-west",
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "Water erosion is a major soil problem in Tunisia's rainfed cereal belt in the Tell, the Dorsale and the central uplands. A 2020 government programme repeats older estimates: 3.56 million ha affected, 71% strongly to…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 10,
+      "sourceCount": 8,
+      "topIndicator": {
+        "name": "Land affected by water erosion",
+        "value": "3.56",
+        "unit": "million ha (71% strongly to very strongly eroded)",
+        "year": "2007 (MEDD/CNEA figure cited in a 2020 report)",
+        "geography": "national",
+        "source": "SRC-TG-800"
+      },
+      "stakeholders": [
+        "rainfed cereal farmers of the Tell and Dorsale",
+        "Ministry of Agriculture DG ACTA (CES)",
+        "CRDA regional offices",
+        "GDA farmer groups",
+        "dam and irrigation users downstream"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/14869819/pexels-photo-14869819.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Dry degraded soil in arid basin",
+        "credit": "jd garrett / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-801",
+      "slug": "FND-TG-801-steppe-ploughing-wind-erosion-desertification",
+      "title": "Ploughing of central and southern steppe rangelands for opportunistic cereals, following 1970s changes to collective tenure, contributes to wind erosion and grazing-land loss",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "soil",
+      "timeframe": "current",
+      "period": "1970-2020",
+      "geography": [
+        "centre-west",
+        "centre-east",
+        "south-east",
+        "south-west"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "In the central high and low steppes and in southern Tunisia, rangeland has been converted to rainfed barley and tree crops. Ploughing exposes fine-textured soils to wind erosion and leaves less grazing land for herds…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 11,
+      "sourceCount": 11,
+      "topIndicator": {
+        "name": "Land affected by strong wind erosion",
+        "value": "7.356",
+        "unit": "million ha",
+        "year": "not stated in source (cited in 2020 report)",
+        "geography": "national",
+        "source": "SRC-TG-800"
+      },
+      "stakeholders": [
+        "agro-pastoral households of the high and low steppes and the south",
+        "former right-holders of collective land",
+        "Conseils de gestion des terres collectives",
+        "Ministry of Agriculture DG Forêts and DG ACTA",
+        "Institut des Régions Arides (IRA)",
+        "livestock and feed markets"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/35741218/pexels-photo-35741218.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Wind turbines and solar panels on Mediterranean hillside",
+        "credit": "Reinhard Bruckner / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-802",
+      "slug": "FND-TG-802-irrigated-soil-salinisation-yield",
+      "title": "Salinisation of irrigated soils cuts yields in some saline-water perimeters, but the national affected area is poorly known",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "soil",
+      "timeframe": "current",
+      "period": "1994-2019",
+      "geography": [
+        "kairouan",
+        "mahdia",
+        "centre-west",
+        "centre-east",
+        "south-west"
+      ],
+      "severity": "medium",
+      "trend": "unknown",
+      "confidence": "low",
+      "excerpt": "Where Tunisian farmers irrigate with saline groundwater, salts can accumulate in soils and yields can fall. In a small applied study in Kairouan and Mahdia, summer crops irrigated with saline water often lost more than…",
+      "readTimeMinutes": 4,
+      "indicatorCount": 6,
+      "sourceCount": 4,
+      "topIndicator": {
+        "name": "Naturally salt-affected soils (PAN-LCD reported estimate)",
+        "value": "1.5",
+        "unit": "million ha (about 10% of the country)",
+        "year": "1994 (study cited in 2020 report)",
+        "geography": "national",
+        "source": "SRC-TG-800"
+      },
+      "stakeholders": [
+        "irrigating farmers in Kairouan, Mahdia and the oases",
+        "oasis GDAs",
+        "CRDA irrigation services",
+        "INRGREF",
+        "Ministry of Agriculture"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/13296840/pexels-photo-13296840.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Arid steppe landscape in Douiret, Tunisia",
+        "credit": "Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-821",
+      "slug": "FND-TG-821-seed-system-farm-saved-cereals-imported-vegetables",
+      "title": "Cereal seed is not import-dependent: over 80% of wheat seed is farm-saved and certified seed adoption is below 20%. Vegetable seed imports were US$16 million in 2023; local variety loss is reported but unmeasured",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "inputs",
+      "timeframe": "current",
+      "period": "1999-2026",
+      "geography": [
+        "national"
+      ],
+      "severity": "medium",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "The brief described a dependence on imported certified seed, cereals included, and an erosion of local varieties. The evidence supports only part of that. For **cereals**, seed is overwhelmingly domestic. More than 80%…",
+      "readTimeMinutes": 3,
+      "indicatorCount": 7,
+      "sourceCount": 6,
+      "topIndicator": {
+        "name": "Certified cereal seed adoption",
+        "value": "20",
+        "unit": "percent of national use (below; below 30% in irrigated or high-potential areas)",
+        "year": "2023",
+        "geography": "national",
+        "source": "SRC-TG-827"
+      },
+      "stakeholders": [
+        "cereal farmers",
+        "vegetable growers",
+        "Office des Céréales",
+        "Direction Générale de la Production Agricole (DGPA)",
+        "INRAT",
+        "Banque Nationale des Gènes (BNG)",
+        "seed companies and collectors-distributors",
+        "foreign seed suppliers",
+        "ministry of agriculture (official catalogue)"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/29793801/pexels-photo-29793801.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Cultivated cereal fields requiring seed and fertiliser inputs",
+        "credit": "Jan van der Wolf / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-822",
+      "slug": "FND-TG-822-pesticide-misuse-not-volume",
+      "title": "Tunisia's pesticide use per hectare is low (0.83 kg/ha of cropland in 2024, about one third of the world average); the evidence of harm points to misuse in greenhouse vegetables, with residues above EU limits, unprotected workers and weak monitoring",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "inputs",
+      "timeframe": "current",
+      "period": "1990-2026",
+      "geography": [
+        "national",
+        "sousse"
+      ],
+      "severity": "medium",
+      "trend": "worsening",
+      "confidence": "low",
+      "excerpt": "The brief framed pesticides as a problem of use, residues and regulation. Per-hectare use remains below the world average: FAOSTAT estimates Tunisian use at 0.83 kg of active ingredient per hectare of cropland in 2024…",
+      "readTimeMinutes": 4,
+      "indicatorCount": 11,
+      "sourceCount": 5,
+      "topIndicator": {
+        "name": "Pesticide use per area of cropland (FAOSTAT estimate)",
+        "value": "0.83",
+        "unit": "kg active ingredient/ha",
+        "year": "2024",
+        "geography": "national",
+        "source": "SRC-TG-831"
+      },
+      "stakeholders": [
+        "vegetable and greenhouse growers",
+        "farm workers",
+        "consumers",
+        "ministry of agriculture (pesticide registration commission)",
+        "ministry of health",
+        "ANGeD",
+        "pesticide importers and distributors",
+        "EU buyers of Tunisian produce"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/17606801/pexels-photo-17606801.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Intensive greenhouse horticulture in arid climate",
+        "credit": "Thắng-Nhật Trần / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-840",
+      "slug": "FND-TG-840-coastal-farmland-lost-to-urban-sprawl",
+      "title": "Urban sprawl and plot-by-plot changes of use consume fertile coastal and peri-urban farmland; there is no official series (only a secondary 2012 estimate of 2,000-3,000 ha/yr), and the widely quoted 20,000-25,000 ha/yr is not an urbanisation figure",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "land-structure",
+      "timeframe": "current",
+      "period": "1986-2026",
+      "geography": [
+        "north-east",
+        "centre-east",
+        "tunis",
+        "ariana",
+        "ben-arous",
+        "manouba",
+        "nabeul",
+        "sousse",
+        "gabes"
+      ],
+      "severity": "medium",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "Tunisia's coastal towns grow mostly onto the farmland around them, which is often the most fertile and best-watered land. In Greater Tunis, 2,440 of the 3,970 ha urbanised between 1986 and 1991 were farmland. The…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 12,
+      "sourceCount": 11,
+      "topIndicator": {
+        "name": "Agricultural land lost to urban pressure (secondary citation of Euronet Consortium 2012, Profil environnemental de la Tunisie)",
+        "value": "2,000-3,000",
+        "unit": "ha per year",
+        "year": "c. 2012 (reference period not stated)",
+        "geography": "national",
+        "source": "SRC-TG-854"
+      },
+      "stakeholders": [
+        "peri-urban farmers and herders (Manouba, Ariana, Ben Arous, Cap Bon, Sahel)",
+        "Ministry of Agriculture (CRDA, regional technical commissions on agricultural land)",
+        "Ministry of Equipment and Housing (urban planning, DGAT)",
+        "Agence Foncière d'Habitation (AFH) and other public land agencies",
+        "municipalities and governorates",
+        "households building informally"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/31454647/pexels-photo-31454647.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Fragmented agricultural land parcels from above",
+        "credit": "Kashif Shah / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-841",
+      "slug": "FND-TG-841-farmland-protection-law-83-87-weak-enforcement",
+      "title": "The 1983 farmland protection law (83-87) zones land on paper, but protected zones are redrawn decree by decree, deterrence is weak, and since 2019 the law has been loosened for investment projects",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "land-structure",
+      "timeframe": "current",
+      "period": "1983-2026",
+      "geography": [
+        "national",
+        "ben-arous",
+        "sfax",
+        "nabeul",
+        "gafsa"
+      ],
+      "severity": "medium",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Tunisia's main tool for protecting farmland is law 83-87 of 11 November 1983. It sorts agricultural land into prohibition zones, safeguard zones and a residual zone where any change of use needs authorisation. It also…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 7,
+      "sourceCount": 7,
+      "topIndicator": {
+        "name": "Maximum fine for changing the use of farmland (after 1996 amendment)",
+        "value": "20000",
+        "unit": "Tunisian dinars",
+        "year": "1996",
+        "geography": "national",
+        "source": "SRC-TG-842"
+      },
+      "stakeholders": [
+        "Ministry of Agriculture (minister, CRDA, regional technical consultative commissions on agricultural land)",
+        "Ministry of Equipment and Housing (urban planning)",
+        "Ministry of Industry and Tunisian Investment Authority (Commission des autorisations et des agréments)",
+        "municipalities and governorates (offence reporting)",
+        "investors and industrial promoters",
+        "farmers and landowners in peri-urban zones"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/28697747/pexels-photo-28697747.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Agricultural landscape in Jendouba, Tunisia",
+        "credit": "Mahmoud Yahyaoui / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-860",
+      "slug": "FND-TG-860-dates-blue-water-export-basket",
+      "title": "Dates are the export crop that ships Tunisia's scarce blue water abroad: exports grew about sixfold from 2000 to 2022 on the crop with the highest blue water footprint per tonne among Tunisia's main crops and a low return per m3",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "crop-choices",
+      "timeframe": "current",
+      "period": "1981-2023",
+      "geography": [
+        "national",
+        "south-west",
+        "kebili"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Olive oil and dates dominate Tunisia's agricultural exports: together they were 45% of agricultural export value in 2010. Of the two, dates depend most on blue water: - they are fully irrigated; - they have the highest…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 18,
+      "sourceCount": 10,
+      "topIndicator": {
+        "name": "Blue water footprint of dates, AquaCrop estimate (highest of three estimates; others 3,270 m3/t blue for 1996-2005 in SRC-TG-868 and about 2,900 m3/t total for 2013 exports in SRC-TG-861)",
+        "value": "5000",
+        "unit": "m3 per tonne",
+        "year": "1981-2010",
+        "geography": "national",
+        "source": "SRC-TG-860"
+      },
+      "stakeholders": [
+        "date farmers and khammès in the southern oases (Kebili)",
+        "date exporters and packers",
+        "Ministry of Agriculture (DGEDA",
+        "CRDA Kebili)",
+        "GIFruits",
+        "irrigators sharing the southern aquifers"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/38114844/pexels-photo-38114844.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Palm oasis in Tamerza, Tunisia",
+        "credit": "Narli's Journey Book / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-861",
+      "slug": "FND-TG-861-horticulture-domestic-not-export-driven",
+      "title": "Irrigated fresh tomatoes, watermelons and citrus are grown almost entirely for the home market (about 2.4-4.1% exported in 2022), and agricultural policy as assessed by the World Bank in 2014 was biased against exports, so export promotion is not the main driver of their water use",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "crop-choices",
+      "timeframe": "current",
+      "period": "1998-2023",
+      "geography": [
+        "national",
+        "nabeul",
+        "centre-west"
+      ],
+      "severity": "medium",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "A common view holds that Tunisia drains its water by exporting thirsty fruit and vegetables such as tomatoes, watermelons, citrus and strawberries. The evidence does not support this for these crops. In 2022, official…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 12,
+      "sourceCount": 9,
+      "topIndicator": {
+        "name": "Share of fresh tomato production exported (our calculation, 27,264 t exported / 1,160,000 t produced, both official FAOSTAT figures)",
+        "value": "2.4",
+        "unit": "percent",
+        "year": "2022",
+        "geography": "national",
+        "source": "SRC-TG-863"
+      },
+      "stakeholders": [
+        "vegetable and citrus growers in Cap Bon and central Tunisia",
+        "Tunisian consumers",
+        "Ministry of Agriculture (DGEDA",
+        "CRDA)",
+        "SONEDE",
+        "SECADENORD",
+        "GDA water user groups",
+        "exporters and GIL/GIFruits"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/17606801/pexels-photo-17606801.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Greenhouse vegetable production in dryland region",
+        "credit": "Thắng-Nhật Trần / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-880",
+      "slug": "FND-TG-880-projected-climate-losses-agriculture-2050",
+      "title": "Warming and drying are projected to cut Tunisian agricultural output and value added by roughly 15-33% by 2030-2050, but the circulating headline numbers trace back to two studies, and some are quoted at the wrong horizon or do not match the study they cite",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "drought-climate",
+      "timeframe": "predicted",
+      "period": "horizon 2030, 2050 (2036-2065) and 2100 (2071-2100), reference 1981-2010",
+      "geography": [
+        "national",
+        "north-west",
+        "centre-west",
+        "south-west",
+        "south-east"
+      ],
+      "severity": "high",
+      "trend": "worsening",
+      "confidence": "medium",
+      "excerpt": "Official and donor projections agree on direction: by 2050 Tunisia should be warmer by about 1.6°C (RCP 4.5) to 1.9°C (RCP 8.5) and drier by 6-9% in annual rainfall relative to 1981-2010, with the largest rainfall…",
+      "readTimeMinutes": 8,
+      "indicatorCount": 14,
+      "sourceCount": 8,
+      "topIndicator": {
+        "name": "Projected decrease in share of agricultural production in national GDP",
+        "value": "-5% to -10%",
+        "unit": "% (source does not say whether relative change or percentage points)",
+        "year": "2030",
+        "geography": "national",
+        "source": "SRC-TG-884"
+      },
+      "stakeholders": [
+        "rainfed cereal farmers of the north",
+        "olive growers of the centre and south",
+        "pastoralists and small livestock keepers of the centre and south",
+        "oasis farmers",
+        "rural women wage workers",
+        "Ministry of Agriculture (MARHP)",
+        "Ministry of Environment",
+        "INM",
+        "ONAGRI",
+        "Office des Céréales"
+      ],
+      "hasProjection": true,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/13296840/pexels-photo-13296840.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Arid climate terrain in southern Tunisia",
+        "credit": "Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-881",
+      "slug": "FND-TG-881-drought-2020-2023-agricultural-damage",
+      "title": "Tunisia’s 2023 drought coincided with a 16.1% contraction in real agriculture, forestry and fishing value added in the revised INS accounts",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "drought-climate",
+      "timeframe": "current",
+      "period": "2019-2025 (drought culminating in the 2022/23 season), long-term observations 1951-2020",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "A run of dry years culminated in the 2022/23 season. The latest INS annual previous-year-price series reports a 16.1% contraction for agriculture, forestry and fishing in 2023. In its spring 2024 publication, the World…",
+      "readTimeMinutes": 6,
+      "indicatorCount": 13,
+      "sourceCount": 9,
+      "topIndicator": {
+        "name": "Annual real value-added growth, agriculture, forestry and fishing, INS August 2026 release",
+        "value": "-16.1",
+        "unit": "percent",
+        "year": "2023",
+        "geography": "national",
+        "source": "SRC-TG-890"
+      },
+      "stakeholders": [
+        "rainfed cereal and fodder farmers",
+        "irrigated farmers subject to the 2023 irrigation restrictions",
+        "seed producers",
+        "rural wage workers",
+        "Office des Céréales",
+        "Ministry of Agriculture (MARHP)",
+        "Ministry of Finance (disaster compensation)",
+        "insurers"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/14869819/pexels-photo-14869819.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Dry river and canal bed during severe drought",
+        "credit": "jd garrett / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-900",
+      "slug": "FND-TG-900-household-waste-subsidised-bread",
+      "title": "Households throw away about a sixth of the subsidised bread they buy; the World Bank and FAO name the universal cereal price subsidy as a driver, though household surveys find little direct price effect",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "food-loss",
+      "timeframe": "current",
+      "period": "2008-2026",
+      "geography": [
+        "national"
+      ],
+      "severity": "medium",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "Tunisian households throw away a large share of the bread they buy. The Institut National de la Consommation (INC) estimated in 2014 that about 900,000 loaves were thrown away each day, equal to 102,000 tonnes and 100…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 23,
+      "sourceCount": 9,
+      "topIndicator": {
+        "name": "Bread thrown away per day (INC estimate)",
+        "value": "900000",
+        "unit": "loaves per day",
+        "year": "2014",
+        "geography": "national",
+        "source": "SRC-TG-906"
+      },
+      "stakeholders": [
+        "households",
+        "bakeries (classified and modern)",
+        "millers",
+        "Office des Céréales",
+        "Caisse Générale de Compensation",
+        "Ministry of Trade",
+        "Institut National de la Consommation",
+        "Ministry of Agriculture",
+        "FAO"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/36444996/pexels-photo-36444996.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Freshly baked bread loaves in traditional oven",
+        "credit": "Yasin Onuş / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-901",
+      "slug": "FND-TG-901-cereal-harvest-storage-losses",
+      "title": "Cereal losses at harvest, on-farm storage and collection are linked to poorly set harvesting machinery, an old farm machinery stock and open-air storage, but have been measured only once, in two governorates",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "food-loss",
+      "timeframe": "current",
+      "period": "2017-2026",
+      "geography": [
+        "north-west",
+        "north-east",
+        "bizerte",
+        "siliana"
+      ],
+      "severity": "medium",
+      "trend": "unknown",
+      "confidence": "low",
+      "excerpt": "Part of Tunisia's cereal harvest is lost before it reaches mills, at harvest, in on-farm storage and at collection centres. Until the FAO/Italy project of 2016-2018 no chain-level estimate existed; the FAO evaluation…",
+      "readTimeMinutes": 4,
+      "indicatorCount": 8,
+      "sourceCount": 7,
+      "topIndicator": {
+        "name": "Farm machines older than 25 years",
+        "value": "60",
+        "unit": "% of farm machinery",
+        "year": "2017",
+        "geography": "national",
+        "source": "SRC-TG-901"
+      },
+      "stakeholders": [
+        "cereal farmers",
+        "owners of combine harvesters",
+        "collection centres (private collectors and SMSA cooperatives)",
+        "Office des Céréales",
+        "millers",
+        "Ministry of Agriculture",
+        "FAO"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/11817009/pexels-photo-11817009.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Harvested cereal grain field at sunset",
+        "credit": "Tamhasip Khan / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-902",
+      "slug": "FND-TG-902-milk-chain-losses-cold-chain",
+      "title": "About 7-10% of milk is lost between farm and dairy in Bizerte and Mahdia, mostly at collection and processing, with on-farm cooling on fewer than one farm in six",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "food-loss",
+      "timeframe": "current",
+      "period": "2017-2021",
+      "geography": [
+        "bizerte",
+        "mahdia"
+      ],
+      "severity": "medium",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "The only measured estimate of milk losses in Tunisia, an FAO case study of the Bizerte and Mahdia milk chains surveyed in July-October 2017 and published in 2021, finds that 9.1% of milk is lost in Bizerte and 6.5% in…",
+      "readTimeMinutes": 3,
+      "indicatorCount": 10,
+      "sourceCount": 6,
+      "topIndicator": {
+        "name": "Milk lost per year, both governorates",
+        "value": "20.1",
+        "unit": "million litres per year",
+        "year": "2017",
+        "geography": "bizerte, mahdia",
+        "source": "SRC-TG-902"
+      },
+      "stakeholders": [
+        "dairy farmers (mostly small and medium)",
+        "milk collectors and transporters",
+        "collection centres",
+        "industrial dairies (centrales laitières)",
+        "Groupement interprofessionnel du lait",
+        "Ministry of Agriculture",
+        "FAO"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/28010165/pexels-photo-28010165.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Traditional North African bread production",
+        "credit": "Eslam Mohammed Abdelmaksoud / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-920",
+      "slug": "FND-TG-920-pasa-partial-liberalisation-1986-1995",
+      "title": "The 1986-1995 agricultural adjustment programme (PASA) removed most input subsidies but left administered wheat prices and the state offices' dual role in place",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "legacy-policy",
+      "timeframe": "past",
+      "period": "1980-1995",
+      "geography": [
+        "national"
+      ],
+      "severity": "medium",
+      "trend": "stable",
+      "confidence": "medium",
+      "excerpt": "Tunisia's agricultural structural adjustment programme (PASA, also MTASAP) ran from 1986 to about 1995 with two World Bank sector adjustment loans. It cut the input and credit subsidies that the state had paid through…",
+      "readTimeMinutes": 5,
+      "indicatorCount": 8,
+      "sourceCount": 4,
+      "topIndicator": {
+        "name": "Nominal protection coefficient, durum wheat (producer price vs actual world price, late 1987)",
+        "value": "1.37",
+        "unit": "ratio",
+        "year": "1987",
+        "geography": "national",
+        "source": "SRC-TG-920"
+      },
+      "stakeholders": [
+        "small and medium farmers",
+        "Office des Céréales",
+        "Office National de l'Huile",
+        "Office de l'Elevage et des Pâturages",
+        "El Louhoum",
+        "Caisse Générale de Compensation",
+        "Ministry of Agriculture",
+        "World Bank"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/38114844/pexels-photo-38114844.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Tunisian canyon oasis in Tamerza",
+        "credit": "Narli's Journey Book / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-921",
+      "slug": "FND-TG-921-support-biased-to-continental-products",
+      "title": "Price support and border protection favour cereals, milk and beef over Mediterranean crops and mostly benefit large farms; whether cereal growers are supported or taxed depends on the year",
+      "status": "in-review",
+      "sectors": [
+        "agriculture",
+        "energy",
+        "water"
+      ],
+      "mainSector": "agriculture",
+      "theme": "legacy-policy",
+      "timeframe": "current",
+      "period": "2000-2024",
+      "geography": [
+        "national",
+        "north-west",
+        "centre-west"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "Tunisian agricultural policy works mainly through guaranteed producer prices for cereals, intervention buying by state offices for milk, sugar beet and tobacco, high tariffs on agri-food imports and fixed consumer…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 9,
+      "sourceCount": 6,
+      "topIndicator": {
+        "name": "Milk share of market price support expenditure",
+        "value": "over 50",
+        "unit": "percent",
+        "year": "late 2000s",
+        "geography": "national",
+        "source": "SRC-TG-710"
+      },
+      "stakeholders": [
+        "large cereal and dairy farms in the north and north-west",
+        "small olive",
+        "fruit",
+        "vegetable and sheep farmers in the centre and south",
+        "consumers",
+        "Office des Céréales",
+        "Office du Commerce de la Tunisie",
+        "Office National de l'Huile",
+        "Caisse Générale de Compensation",
+        "Ministry of Agriculture",
+        "Ministry of Commerce"
+      ],
+      "hasProjection": false,
+      "isCrossSector": true,
+      "image": {
+        "url": "https://images.pexels.com/photos/35644773/pexels-photo-35644773.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Historical landscape and palm groves in Tunisia",
+        "credit": "Elijah Cobb / Pexels"
+      },
+      "author": "TahaGHZ"
+    },
+    {
+      "id": "FND-TG-922",
+      "slug": "FND-TG-922-farm-credit-exclusion-debt-amnesty-cycle",
+      "title": "Around 2011, fewer than one farmer in ten borrowed from banks while about a quarter were barred by old arrears; repeated debt write-offs since 1999 have not broken the cycle",
+      "status": "in-review",
+      "sectors": [
+        "agriculture"
+      ],
+      "mainSector": "agriculture",
+      "theme": "legacy-policy",
+      "timeframe": "current",
+      "period": "1999-2026",
+      "geography": [
+        "national"
+      ],
+      "severity": "high",
+      "trend": "unknown",
+      "confidence": "medium",
+      "excerpt": "Formal credit reached very few Tunisian farmers around 2010-2012: no more than 7% had bank loans, banks financed 11% of agricultural investment, and seasonal credit covered one-fourteenth of input use. At the same time…",
+      "readTimeMinutes": 7,
+      "indicatorCount": 14,
+      "sourceCount": 11,
+      "topIndicator": {
+        "name": "Share of farmers with bank loans",
+        "value": "7 (at most)",
+        "unit": "percent of farmers",
+        "year": "around 2010-2012",
+        "geography": "national",
+        "source": "SRC-TG-925"
+      },
+      "stakeholders": [
+        "small farmers",
+        "fishers",
+        "Banque Nationale Agricole (BNA)",
+        "private banks",
+        "Banque Centrale de Tunisie",
+        "Banque Tunisienne de Solidarité",
+        "microfinance institutions",
+        "CTAMA (mutual insurer)",
+        "Ministry of Agriculture",
+        "Ministry of Finance",
+        "Parliament"
+      ],
+      "hasProjection": false,
+      "isCrossSector": false,
+      "image": {
+        "url": "https://images.pexels.com/photos/10615217/pexels-photo-10615217.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Large hydraulic dam infrastructure",
+        "credit": "Quang Nguyen Vinh / Pexels"
+      },
+      "author": "TahaGHZ"
+    }
+  ]
+}
