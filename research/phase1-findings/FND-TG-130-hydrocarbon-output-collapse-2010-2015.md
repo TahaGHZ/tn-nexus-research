@@ -13,13 +13,14 @@ severity: high
 trend: worsening
 confidence: medium
 root_causes:
-  - cause: Article 13 changed the approval process in 2014. The production decline had already begun, and the evidence does not measure how much
-      the approval process contributed to subsequent exploration decisions.
+  - cause: The minister attributed the decline mainly to natural field decline and inadequate reserve replacement through discoveries
+      (press-relayed attribution, not a measured decomposition). ONEM's series shows primary production falling each year from 2010 to
+      2015, so the decline predates Article 13.
     type: technical
     legacy_decision: false
     sources:
-      - SRC-TG-130
       - SRC-TG-139
+      - SRC-TG-130
   - cause: In a 2021 hearing as reported by WMC/TAP, the minister attributed reluctance to invest partly to social protests. Oxford Business Group
       reported three wells drilled by international oil companies in 2015 and cited work stoppages and permit non-renewals. These tier-C reports
       do not establish an annual investment trend or quantify effects on production.

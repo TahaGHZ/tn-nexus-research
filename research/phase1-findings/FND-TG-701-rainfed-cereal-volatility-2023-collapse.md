@@ -175,7 +175,6 @@ data_gaps:
   - "A consistent national projection of cereal yields under climate change: only two single-study abstracts found, with conflicting results (SRC-TG-708, SRC-TG-709); the full CCDR agriculture chapter was not found (only the executive summary, which gives no cereal figure)."
   - "Irrigation water volume needed to reach the 120,000 ha irrigated wheat target."
   - "Economic losses to farmers from the 2023 failure and how much was compensated (FIDAC payouts)."
-  - "The SRC-TG-707 URL is the WDI cereal yield series (AG.YLD.CREL.KG). The 2023 production value of 612,415 t and the 1990-2024 production range come from the WDI production series AG.PRD.CREL.MT, api.worldbank.org/v2/country/TUN/indicator/AG.PRD.CREL.MT?format=json&date=1990:2024. The source record should be updated by its owner."
 author: TahaGHZ
 ---
 

@@ -112,7 +112,6 @@ data_gaps:
   - "A modelled projection of cereal import needs to 2030-2050: the only forward figures found are the ITES 2035 trend scenario, which holds the ten-year average constant (57% cereals, 84% soft wheat), and an unsourced-method '75%' in the ONAGRI Lettre citing Tanchum 2021."
   - "Whether food subsidies and energy subsidies compete within the same compensation budget (suspected, not sourced)."
   - "Calendar-year trade data (Comtrade) and July/June marketing-year balances (USDA, GIEWS) could not be reconciled."
-  - "The SRC-TG-702 URL is the HS 1001 (all wheat) 2023 query and does not return the HS 100199 2024 quantity or the HS 10 2023 value. Those come from comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=788&period=2024&partnerCode=0&cmdCode=100199&flowCode=M and the same query with period=2023 and cmdCode=10. The source record should be updated by its owner."
   - "not independently reopened: World Bank analysis of 2000-2008 data published in 2014 (publication year not seen in the copy of the chapter; SRC-TG-710)."
 author: TahaGHZ
 ---

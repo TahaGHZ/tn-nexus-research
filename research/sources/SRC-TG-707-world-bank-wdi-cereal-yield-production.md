@@ -11,6 +11,14 @@ language: en
 added_by: TahaGHZ
 ---
 
+## Query URLs
+
+The record covers several series. The `url` field is one of them; each figure cited from this record comes from the query listed here.
+
+- Cereal yield, AG.YLD.CREL.KG: https://api.worldbank.org/v2/country/TUN/indicator/AG.YLD.CREL.KG?format=json&date=1990:2024&per_page=100
+- Cereal production, AG.PRD.CREL.MT: https://api.worldbank.org/v2/country/TUN/indicator/AG.PRD.CREL.MT?format=json&date=1990:2024&per_page=100
+- Land under cereal production, AG.LND.CREL.HA: https://api.worldbank.org/v2/country/TUN/indicator/AG.LND.CREL.HA?format=json&date=1990:2024&per_page=100
+
 ## Extracts
 
 API responses (last updated 2026-11-11). Values as returned, rounded to the unit.

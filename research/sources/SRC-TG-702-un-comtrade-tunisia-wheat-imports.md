@@ -11,6 +11,14 @@ language: en
 added_by: TahaGHZ
 ---
 
+## Query URLs
+
+The record covers several series. The `url` field is one of them; each figure cited from this record comes from the query listed here.
+
+- HS 1001 (all wheat), 2023: https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=788&period=2023&partnerCode=0&cmdCode=1001&flowCode=M
+- HS 100199 (other wheat), 2024: https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=788&period=2024&partnerCode=0&cmdCode=100199&flowCode=M
+- HS 10 (cereals), 2023: https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=788&period=2023&partnerCode=0&cmdCode=10&flowCode=M
+
 ## Extracts
 
 Query: reporter 788 (Tunisia), partner 0 (World), flow M (imports), annual, calendar year. Values are CIF in US dollars as returned by the public preview API (`primaryValue`, `netWgt` in kg). Rounded by us.
