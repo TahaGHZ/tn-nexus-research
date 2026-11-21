@@ -29,23 +29,23 @@ export function ModulesPage({ data }: ModulesPageProps) {
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       {/* Header banner */}
-      <div className="overflow-hidden rounded-3xl bg-[#0B1320] p-8 text-white sm:p-10">
+      <div className="overflow-hidden rounded-3xl border border-stone-200 bg-[#FAF8F4] p-8 text-slate-950 sm:p-10">
         <div className="grid items-center gap-8 md:grid-cols-12">
           <div className="md:col-span-8">
-            <span className="inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-500/15 px-3 py-1 font-mono text-xs font-semibold text-sky-300">
+            <span className="inline-flex items-center gap-2 rounded-full border border-sky-300 bg-sky-50 px-3 py-1 font-mono text-xs font-semibold text-sky-800">
               Modular Architecture · Nexus TN
             </span>
             <h1 className="mt-4 font-display text-3xl font-bold tracking-tight sm:text-4xl">
               Platform Modules &amp; Roadmap
             </h1>
-            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-300 sm:text-base">
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-stone-600 sm:text-base">
               The Verified Findings Blog and the Phase 2 Solution Audits are live, both built on this
               repository’s structured Markdown records. Next up: Agent Recorded Sessions, a vetted
               Trusted Vendors &amp; Products directory, and Phase 3 R&amp;D proposals.
             </p>
           </div>
           <div className="flex justify-center md:col-span-4 md:justify-end">
-            <div className="rounded-2xl border border-slate-700/80 bg-slate-900/80 p-4">
+            <div className="p-2">
               <PixelGolem size={168} mode="nexus" animation="auto" interactive />
             </div>
           </div>

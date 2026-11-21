@@ -18,6 +18,7 @@ import {
   type GolemMode,
 } from '../components/PixelGolem';
 import { EvidenceDashboard } from '../components/EvidenceDashboard';
+import { InvestigationGraph } from '../components/InvestigationGraph';
 import { FindingCard } from '../components/FindingCard';
 import { SECTOR_META } from '../components/ResearchFormatting';
 import { NEXUS_MODULES } from '../modules/registry';
@@ -129,33 +130,32 @@ export function HomePage({ data }: HomePageProps) {
   return (
     <div>
       {/* HERO SECTION */}
-      <section className="relative overflow-hidden bg-[#0B1320] text-white">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-22 lg:px-8 lg:py-24">
-          <div className="grid items-center gap-12 lg:grid-cols-12">
+      <section className="border-b border-stone-200 bg-[#FAF8F4]">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+          <div className="grid items-center gap-10 lg:grid-cols-12">
             {/* Left copy */}
-            <div className="lg:col-span-7">
-              <div className="inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-500/10 px-3.5 py-1.5 text-xs font-medium text-emerald-300">
-                <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" />
+            <div className="lg:col-span-6">
+              <div className="inline-flex items-center gap-2 rounded-full border border-emerald-300 bg-emerald-50 px-3.5 py-1.5 text-xs font-medium text-emerald-800">
+                <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-500" />
                 Phase 1 Active · {stats.verifiedFindings} Source-Verified Findings Published
               </div>
 
-              <h1 className="mt-6 font-display text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-[3.4rem] lg:leading-[1.08]">
+              <h1 className="mt-6 font-display text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl lg:text-[3.3rem] lg:leading-[1.08]">
                 Mapping Tunisia’s{' '}
-                <span className="text-emerald-400">Water, Energy &amp; Agriculture</span>{' '}
-                Nexus.
+                <span className="text-emerald-700">Water, Energy &amp; Agriculture</span> Nexus.
               </h1>
 
-              <p className="mt-5 max-w-2xl text-base leading-relaxed text-slate-300 sm:text-lg">
-                <strong className="font-semibold text-white">Nexus TN</strong> is an open,
-                evidence-first research engine. Every finding is built from primary Tunisian
-                statistics, laws, and peer-reviewed studies — independently source-verified before
-                entering the blog.
+              <p className="mt-5 max-w-xl text-base leading-relaxed text-stone-600 sm:text-lg">
+                <strong className="font-semibold text-slate-950">Nexus TN</strong> is an open,
+                evidence-first research engine. It does not chase one headline number. It follows
+                documented links between findings across all three sectors, and every finding is
+                independently source-verified before it enters the blog.
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-3.5">
                 <Link
                   to="/blog"
-                  className="inline-flex items-center gap-2 rounded-xl bg-emerald-500 px-6 py-3.5 text-sm font-semibold text-slate-950 transition hover:bg-emerald-400"
+                  className="inline-flex items-center gap-2 rounded-xl bg-slate-950 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-slate-800"
                 >
                   <BookOpen className="h-4 w-4" />
                   Browse {stats.verifiedFindings} Verified Findings
@@ -163,103 +163,84 @@ export function HomePage({ data }: HomePageProps) {
                 </Link>
                 <Link
                   to="/modules"
-                  className="inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-slate-900/70 px-5 py-3.5 text-sm font-medium text-slate-200 transition hover:border-slate-500 hover:bg-slate-800/80"
+                  className="inline-flex items-center gap-2 rounded-xl border border-stone-300 bg-white px-5 py-3.5 text-sm font-medium text-slate-800 transition hover:border-stone-500"
                 >
                   Platform Roadmap
                 </Link>
               </div>
 
               {/* Headline numbers, counted from the repository at build time */}
-              <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
+              <dl className="mt-10 grid grid-cols-2 gap-x-6 gap-y-6 border-t border-stone-200 pt-6 sm:grid-cols-4">
                 {[
-                  { value: stats.verifiedFindings, label: 'Verified findings', tone: 'text-emerald-400' },
-                  { value: stats.totalIndicators, label: 'Sourced data points', tone: 'text-sky-400' },
-                  { value: stats.citedSources, label: 'Sources cited', tone: 'text-white' },
+                  { value: stats.verifiedFindings, label: 'Verified findings', tone: 'text-emerald-700' },
+                  { value: stats.totalIndicators, label: 'Sourced data points', tone: 'text-sky-700' },
+                  { value: stats.citedSources, label: 'Sources cited', tone: 'text-slate-950' },
                   {
                     value: stats.trustCounts.strong + stats.trustCounts.solid,
                     label: 'Rated strong or solid',
-                    tone: 'text-amber-300',
+                    tone: 'text-amber-600',
                   },
                 ].map((item) => (
-                  <div
-                    key={item.label}
-                    className="rounded-xl border border-slate-700 bg-slate-900 p-4"
-                  >
-                    <div className={`font-display text-4xl font-bold leading-none ${item.tone}`}>
+                  <div key={item.label}>
+                    <dd className={`font-display text-4xl font-bold leading-none ${item.tone}`}>
                       {item.value}
-                    </div>
-                    <div className="mt-2 text-xs font-medium text-slate-300">{item.label}</div>
+                    </dd>
+                    <dt className="mt-2 text-xs font-medium text-stone-600">{item.label}</dt>
                   </div>
                 ))}
-              </div>
+              </dl>
             </div>
 
-            {/* Right: Interactive Animated Pixel-Art Golem Stage */}
-            <div className="lg:col-span-5">
-              <div className="relative mx-auto max-w-md rounded-3xl border border-slate-700 bg-slate-900 p-6">
-                {/* Corner pixel accents */}
-                <div className="mb-3 flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <span className="h-2.5 w-2.5 rounded-xs bg-emerald-400" />
-                    <span className="h-2.5 w-2.5 rounded-xs bg-sky-400" />
-                    <span className="font-mono text-[11px] font-medium uppercase tracking-wider text-slate-400">
-                      NEXUS GUARDIAN · PIXEL CORE
-                    </span>
-                  </div>
-                  <span className="rounded-md bg-slate-800 px-2 py-0.5 font-mono text-[10px] text-emerald-300">
-                    CLICK ME
+            {/* Right: the research graph with the Golem at its centre */}
+            <div className="lg:col-span-6">
+              <Link
+                to={`/blog/${activeQuote.id}`}
+                className="group mx-auto mb-3 block max-w-[520px] rounded-xl border border-stone-200 bg-white px-4 py-3 text-xs leading-relaxed text-slate-700 transition hover:border-emerald-400"
+              >
+                <div className="mb-1 flex items-center justify-between">
+                  <span className="inline-flex items-center gap-1 font-mono text-[10px] font-semibold text-emerald-700">
+                    <Sparkles className="h-3 w-3" />
+                    {activeQuote.id}
+                  </span>
+                  <span className="font-mono text-[10px] text-sky-700 group-hover:underline">
+                    Read finding →
                   </span>
                 </div>
+                <p>“{activeQuote.text}”</p>
+              </Link>
 
-                {/* Speech bubble with verified Tunisia fact */}
-                <Link
-                  to={`/blog/${activeQuote.id}`}
-                  className="group mb-4 block rounded-2xl border border-slate-700/80 bg-slate-900/90 px-4 py-3 text-xs leading-relaxed text-slate-200 transition hover:border-emerald-400/50"
-                >
-                  <div className="mb-1 flex items-center justify-between">
-                    <span className="inline-flex items-center gap-1 font-mono text-[10px] font-semibold text-emerald-400">
-                      <Sparkles className="h-3 w-3" />
-                      {activeQuote.id}
-                    </span>
-                    <span className="font-mono text-[10px] text-sky-400 group-hover:underline">
-                      Read finding →
-                    </span>
-                  </div>
-                  <p className="text-slate-200">“{activeQuote.text}”</p>
-                </Link>
-
-                {/* Golem Canvas Stage */}
-                <div className="relative flex items-center justify-center rounded-2xl border border-slate-800 bg-slate-950 py-5">
+              <InvestigationGraph findings={findings} themeCount={stats.themeCount}>
+                {(golemSize) => (
                   <PixelGolem
-                    size={252}
+                    size={golemSize}
                     mode={golemMode}
                     animation={golemAnim}
                     interactive
                     onSurge={handleGolemSurge}
                   />
-                </div>
+                )}
+              </InvestigationGraph>
 
-                {/* Animation switcher: each move also sets the gem colour */}
-                <div className="mt-4 flex flex-wrap items-center justify-center gap-1.5">
-                  {GOLEM_ANIMATIONS.map((item) => {
-                    const active = golemAnim === item.id;
-                    return (
-                      <button
-                        key={item.id}
-                        type="button"
-                        onClick={() => handleSelectAnimation(item.id)}
-                        aria-pressed={active}
-                        className={`rounded-lg border px-2.5 py-1 font-mono text-[11px] transition ${
-                          active
-                            ? 'border-emerald-400 bg-emerald-500 text-slate-950'
-                            : 'border-slate-700 bg-slate-900 text-slate-300 hover:border-slate-500 hover:text-white'
-                        }`}
-                      >
-                        {item.label}
-                      </button>
-                    );
-                  })}
-                </div>
+              {/* Animation switcher: each move also sets the gem colour */}
+              <div className="mx-auto mt-4 flex max-w-[520px] flex-wrap items-center justify-center gap-1.5">
+                {GOLEM_ANIMATIONS.map((item) => {
+                  const active = golemAnim === item.id;
+                  return (
+                    <button
+                      key={item.id}
+                      type="button"
+                      onClick={() => handleSelectAnimation(item.id)}
+                      aria-pressed={active}
+                      className={`rounded-lg border px-2.5 py-1 font-mono text-[11px] transition ${
+                        active
+                          ? 'border-slate-950 bg-slate-950 text-white'
+                          : 'border-stone-300 bg-white text-slate-700 hover:border-stone-500'
+                      }`}
+                    >
+                      {item.label}
+                    </button>
+                  );
+                })}
               </div>
             </div>
           </div>

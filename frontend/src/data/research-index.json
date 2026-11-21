@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T00:26:28.764Z",
+  "generatedAt": "2026-11-22T00:43:48.489Z",
   "stats": {
     "totalFindingsInRepo": 78,
     "verifiedFindings": 65,
@@ -142,6 +142,10 @@
         "9 open data gaps are listed in the record"
       ],
       "dataGapCount": 9,
+      "related": [
+        "FND-TG-101",
+        "FND-TG-102"
+      ],
       "topIndicator": {
         "name": "Share of natural gas in electricity production",
         "value": "53.6",
@@ -206,6 +210,10 @@
         "6 open data gaps are listed in the record"
       ],
       "dataGapCount": 6,
+      "related": [
+        "FND-TG-100",
+        "FND-TG-102"
+      ],
       "topIndicator": {
         "name": "Share of natural gas in electricity production (including renewable self-production), January-September cumulative",
         "value": "91.3",
@@ -270,6 +278,10 @@
         "7 open data gaps are listed in the record"
       ],
       "dataGapCount": 7,
+      "related": [
+        "FND-TG-100",
+        "FND-TG-101"
+      ],
       "topIndicator": {
         "name": "Natural gas share of primary energy mix, business-as-usual scenario",
         "value": "59",
@@ -332,6 +344,11 @@
         "9 open data gaps are listed in the record"
       ],
       "dataGapCount": 9,
+      "related": [
+        "FND-TG-131",
+        "FND-TG-132",
+        "FND-TG-100"
+      ],
       "topIndicator": {
         "name": "National primary energy production (full national energy balance)",
         "value": "8293",
@@ -393,6 +410,12 @@
         "9 open data gaps are listed in the record"
       ],
       "dataGapCount": 9,
+      "related": [
+        "FND-TG-130",
+        "FND-TG-132",
+        "FND-TG-101",
+        "FND-TG-100"
+      ],
       "topIndicator": {
         "name": "Energy independence rate (primary resources / primary demand), royalty counted as national resource",
         "value": "35",
@@ -459,6 +482,13 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-130",
+        "FND-TG-131",
+        "FND-TG-102",
+        "FND-TG-101",
+        "FND-TG-222"
+      ],
       "topIndicator": {
         "name": "Indicative cumulative oil and gas exploration-well target by 2035",
         "value": "30",
@@ -520,6 +550,10 @@
         "6 open data gaps are listed in the record"
       ],
       "dataGapCount": 6,
+      "related": [
+        "FND-TG-102",
+        "FND-TG-222"
+      ],
       "topIndicator": {
         "name": "STEG projected net result before subsidy and corporate tax, without TEREG",
         "value": "-5103",
@@ -582,6 +616,12 @@
         "6 open data gaps are listed in the record"
       ],
       "dataGapCount": 6,
+      "related": [
+        "FND-TG-100",
+        "FND-TG-101",
+        "FND-TG-191",
+        "FND-TG-192"
+      ],
       "topIndicator": {
         "name": "Installed wind capacity",
         "value": "245",
@@ -650,6 +690,13 @@
         "7 open data gaps are listed in the record"
       ],
       "dataGapCount": 7,
+      "related": [
+        "FND-TG-101",
+        "FND-TG-102",
+        "FND-TG-190",
+        "FND-TG-192",
+        "FND-TG-220"
+      ],
       "topIndicator": {
         "name": "Renewable share of electricity generation, 2015 Solar Plan interim target",
         "value": "14",
@@ -716,6 +763,13 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-102",
+        "FND-TG-162",
+        "FND-TG-190",
+        "FND-TG-191",
+        "FND-TG-222"
+      ],
       "topIndicator": {
         "name": "Renewable capacity target, Tunisian Solar Plan 2015",
         "value": "3815",
@@ -778,6 +832,13 @@
         "12 open data gaps are listed in the record"
       ],
       "dataGapCount": 12,
+      "related": [
+        "FND-TG-101",
+        "FND-TG-102",
+        "FND-TG-131",
+        "FND-TG-221",
+        "FND-TG-222"
+      ],
       "topIndicator": {
         "name": "Annual peak electricity demand, observed through September (new national record)",
         "value": "5089",
@@ -842,6 +903,11 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-101",
+        "FND-TG-220",
+        "FND-TG-222"
+      ],
       "topIndicator": {
         "name": "Total network loss rate (technical + commercial), share of gross production",
         "value": "11.4",
@@ -902,6 +968,11 @@
         "7 open data gaps are listed in the record"
       ],
       "dataGapCount": 7,
+      "related": [
+        "FND-TG-220",
+        "FND-TG-221",
+        "FND-TG-102"
+      ],
       "topIndicator": {
         "name": "Projected maximum peak demand (highest hour across 36 climate years, Med-TSO mid-term)",
         "value": "6796",
@@ -965,6 +1036,9 @@
         "3 open data gaps are listed in the record"
       ],
       "dataGapCount": 3,
+      "related": [
+        "FND-TG-222"
+      ],
       "topIndicator": {
         "name": "BAU AC electricity consumption, approximate chart reading",
         "value": "3000",
@@ -1025,6 +1099,10 @@
         "1 open data gaps are listed in the record"
       ],
       "dataGapCount": 1,
+      "related": [
+        "FND-TG-450",
+        "FND-TG-476"
+      ],
       "topIndicator": {
         "name": "SONEDE electricity consumption",
         "value": "563",
@@ -1085,6 +1163,10 @@
         "2 open data gaps are listed in the record"
       ],
       "dataGapCount": 2,
+      "related": [
+        "FND-TG-270",
+        "FND-TG-450"
+      ],
       "topIndicator": {
         "name": "Scenario seawater desalination volume",
         "value": "192",
@@ -1144,6 +1226,10 @@
         "4 open data gaps are listed in the record"
       ],
       "dataGapCount": 4,
+      "related": [
+        "FND-TG-191",
+        "FND-TG-291"
+      ],
       "topIndicator": {
         "name": "Industrial final energy consumption (including biomass)",
         "value": "1914",
@@ -1203,6 +1289,9 @@
         "3 open data gaps are listed in the record"
       ],
       "dataGapCount": 3,
+      "related": [
+        "FND-TG-290"
+      ],
       "topIndicator": {
         "name": "Tunisia position among ten countries shown in World Bank cement Trade Exposure Index chart",
         "value": "3",
@@ -1262,6 +1351,9 @@
         "4 open data gaps are listed in the record"
       ],
       "dataGapCount": 4,
+      "related": [
+        "FND-TG-131"
+      ],
       "topIndicator": {
         "name": "Transport final energy consumption",
         "value": "2721",
@@ -1322,6 +1414,9 @@
         "4 open data gaps are listed in the record"
       ],
       "dataGapCount": 4,
+      "related": [
+        "FND-TG-310"
+      ],
       "topIndicator": {
         "name": "World Bank estimate of fuel consumed from informal Algerian imports (author estimate; method not demonstrated by its cited footnote)",
         "value": "25",
@@ -1392,6 +1487,12 @@
         "8 open data gaps are listed in the record"
       ],
       "dataGapCount": 8,
+      "related": [
+        "FND-TG-401",
+        "FND-TG-410",
+        "FND-TG-425",
+        "FND-TG-502"
+      ],
       "topIndicator": {
         "name": "Deep-aquifer exploitation rate, national",
         "value": "133",
@@ -1461,6 +1562,11 @@
         "7 open data gaps are listed in the record"
       ],
       "dataGapCount": 7,
+      "related": [
+        "FND-TG-400",
+        "FND-TG-410",
+        "FND-TG-502"
+      ],
       "topIndicator": {
         "name": "Shallow-aquifer exploitation rate, national",
         "value": "85",
@@ -1522,6 +1628,13 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-400",
+        "FND-TG-401",
+        "FND-TG-500",
+        "FND-TG-501",
+        "FND-TG-502"
+      ],
       "topIndicator": {
         "name": "Aquifer exploitation rate, strategy scenario",
         "value": "139",
@@ -1587,6 +1700,11 @@
         "7 open data gaps are listed in the record"
       ],
       "dataGapCount": 7,
+      "related": [
+        "FND-TG-426",
+        "FND-TG-500",
+        "FND-TG-501"
+      ],
       "topIndicator": {
         "name": "Total stock in large dams on 1 September (end of hydrological year)",
         "value": "1184.43",
@@ -1653,6 +1771,10 @@
         "6 open data gaps are listed in the record"
       ],
       "dataGapCount": 6,
+      "related": [
+        "FND-TG-425",
+        "FND-TG-501"
+      ],
       "topIndicator": {
         "name": "Share of water investment spent on reservoir dams and transfer mains",
         "value": "19",
@@ -1719,6 +1841,13 @@
         "6 open data gaps are listed in the record"
       ],
       "dataGapCount": 6,
+      "related": [
+        "FND-TG-451",
+        "FND-TG-452",
+        "FND-TG-476",
+        "FND-TG-426",
+        "FND-TG-501"
+      ],
       "topIndicator": {
         "name": "Volume produced by SONEDE",
         "value": "773.3",
@@ -1791,6 +1920,13 @@
         "9 open data gaps are listed in the record"
       ],
       "dataGapCount": 9,
+      "related": [
+        "FND-TG-450",
+        "FND-TG-452",
+        "FND-TG-425",
+        "FND-TG-426",
+        "FND-TG-501"
+      ],
       "topIndicator": {
         "name": "SONEDE systems with summer supply disruptions",
         "value": "224",
@@ -1859,6 +1995,11 @@
         "9 open data gaps are listed in the record"
       ],
       "dataGapCount": 9,
+      "related": [
+        "FND-TG-450",
+        "FND-TG-451",
+        "FND-TG-476"
+      ],
       "topIndicator": {
         "name": "Rural drinking-water coverage",
         "value": "25",
@@ -1922,6 +2063,11 @@
         "9 open data gaps are listed in the record"
       ],
       "dataGapCount": 9,
+      "related": [
+        "FND-TG-450",
+        "FND-TG-451",
+        "FND-TG-501"
+      ],
       "topIndicator": {
         "name": "SONEDE operating ratio (operating revenues / operating costs incl. depreciation)",
         "value": "1.07",
@@ -1988,6 +2134,12 @@
         "8 open data gaps are listed in the record"
       ],
       "dataGapCount": 8,
+      "related": [
+        "FND-TG-501",
+        "FND-TG-502",
+        "FND-TG-425",
+        "FND-TG-410"
+      ],
       "topIndicator": {
         "name": "Renewable internal freshwater resources per capita",
         "value": "972",
@@ -2052,6 +2204,14 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-500",
+        "FND-TG-502",
+        "FND-TG-400",
+        "FND-TG-410",
+        "FND-TG-426",
+        "FND-TG-476"
+      ],
       "topIndicator": {
         "name": "Blue-water demand",
         "value": "3103",
@@ -2117,6 +2277,12 @@
         "6 open data gaps are listed in the record"
       ],
       "dataGapCount": 6,
+      "related": [
+        "FND-TG-500",
+        "FND-TG-501",
+        "FND-TG-400",
+        "FND-TG-401"
+      ],
       "topIndicator": {
         "name": "Piezometric level in Korba coastal aquifer depressions",
         "value": "about -12",
@@ -2181,6 +2347,14 @@
         "8 open data gaps are listed in the record"
       ],
       "dataGapCount": 8,
+      "related": [
+        "FND-TG-400",
+        "FND-TG-401",
+        "FND-TG-410",
+        "FND-TG-501",
+        "FND-TG-526",
+        "FND-TG-527"
+      ],
       "topIndicator": {
         "name": "Share of irrigated perimeters equipped with water-saving equipment",
         "value": "37",
@@ -2251,6 +2425,16 @@
         "7 open data gaps are listed in the record"
       ],
       "dataGapCount": 7,
+      "related": [
+        "FND-TG-425",
+        "FND-TG-426",
+        "FND-TG-451",
+        "FND-TG-400",
+        "FND-TG-500",
+        "FND-TG-501",
+        "FND-TG-525",
+        "FND-TG-527"
+      ],
       "topIndicator": {
         "name": "Dam-water quota allocated to public irrigated perimeters",
         "value": "235",
@@ -2318,6 +2502,12 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-525",
+        "FND-TG-526",
+        "FND-TG-450",
+        "FND-TG-400"
+      ],
       "topIndicator": {
         "name": "Distribution efficiency between delivery point and irrigators' hydrants, diagnosed PPIs (range 38-100%)",
         "value": "59",
@@ -2381,6 +2571,7 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [],
       "topIndicator": {
         "name": "ONAS treatment plants reported with tertiary-treatment equipment",
         "value": "28 of 125",
@@ -2440,6 +2631,7 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [],
       "topIndicator": {
         "name": "2024 drinking-water salinity baseline, lower endpoint of national north–south range",
         "value": "1.5",
@@ -2502,6 +2694,10 @@
         "11 open data gaps are listed in the record"
       ],
       "dataGapCount": 11,
+      "related": [
+        "FND-TG-400",
+        "FND-TG-401"
+      ],
       "topIndicator": {
         "name": "Deep-aquifer exploitation rate, Kébili governorate",
         "value": "171",
@@ -2568,6 +2764,10 @@
         "7 open data gaps are listed in the record"
       ],
       "dataGapCount": 7,
+      "related": [
+        "FND-TG-701",
+        "FND-TG-702"
+      ],
       "topIndicator": {
         "name": "Foreign dependence coefficient, soft wheat (net imports / consumption)",
         "value": "93.1",
@@ -2632,6 +2832,10 @@
         "7 open data gaps are listed in the record"
       ],
       "dataGapCount": 7,
+      "related": [
+        "FND-TG-700",
+        "FND-TG-702"
+      ],
       "topIndicator": {
         "name": "Cereal production 2023, FAO GIEWS estimate (Nov 2023)",
         "value": "302000",
@@ -2693,6 +2897,11 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-700",
+        "FND-TG-701",
+        "FND-TG-900"
+      ],
       "topIndicator": {
         "name": "CGC transfers due to OC, 2022-2023",
         "value": "6625",
@@ -2763,6 +2972,13 @@
         "9 open data gaps are listed in the record"
       ],
       "dataGapCount": 9,
+      "related": [
+        "FND-TG-722",
+        "FND-TG-701",
+        "FND-TG-780",
+        "FND-TG-881",
+        "FND-TG-802"
+      ],
       "topIndicator": {
         "name": "Olive oil production, minimum of the 1990/91-2024/25 series",
         "value": "35",
@@ -2828,6 +3044,11 @@
         "6 open data gaps are listed in the record"
       ],
       "dataGapCount": 6,
+      "related": [
+        "FND-TG-720",
+        "FND-TG-880",
+        "FND-TG-701"
+      ],
       "topIndicator": {
         "name": "Median loss of climatically favourable olive area, RCP8.5 2100 (up to 34%)",
         "value": "14",
@@ -2889,6 +3110,14 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-761",
+        "FND-TG-700",
+        "FND-TG-701",
+        "FND-TG-702",
+        "FND-TG-920",
+        "FND-TG-860"
+      ],
       "topIndicator": {
         "name": "Maize production",
         "value": "0",
@@ -2953,6 +3182,12 @@
         "7 open data gaps are listed in the record"
       ],
       "dataGapCount": 7,
+      "related": [
+        "FND-TG-760",
+        "FND-TG-921",
+        "FND-TG-920",
+        "FND-TG-702"
+      ],
       "topIndicator": {
         "name": "Fresh milk production",
         "value": "1230",
@@ -3016,6 +3251,12 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-781",
+        "FND-TG-782",
+        "FND-TG-921",
+        "FND-TG-720"
+      ],
       "topIndicator": {
         "name": "Farmland held by heads aged 60 and over",
         "value": "46",
@@ -3080,6 +3321,10 @@
         "8 open data gaps are listed in the record"
       ],
       "dataGapCount": 8,
+      "related": [
+        "FND-TG-780",
+        "FND-TG-782"
+      ],
       "topIndicator": {
         "name": "Share of land potential registered (immatriculé)",
         "value": "50",
@@ -3146,6 +3391,12 @@
         "10 open data gaps are listed in the record"
       ],
       "dataGapCount": 10,
+      "related": [
+        "FND-TG-780",
+        "FND-TG-781",
+        "FND-TG-920",
+        "FND-TG-720"
+      ],
       "topIndicator": {
         "name": "State land transferred to private operators (mainly leases)",
         "value": "143000",
@@ -3214,6 +3465,10 @@
         "8 open data gaps are listed in the record"
       ],
       "dataGapCount": 8,
+      "related": [
+        "FND-TG-801",
+        "FND-TG-880"
+      ],
       "topIndicator": {
         "name": "Land affected by water erosion",
         "value": "3.56",
@@ -3278,6 +3533,12 @@
         "8 open data gaps are listed in the record"
       ],
       "dataGapCount": 8,
+      "related": [
+        "FND-TG-800",
+        "FND-TG-781",
+        "FND-TG-760",
+        "FND-TG-880"
+      ],
       "topIndicator": {
         "name": "Land affected by strong wind erosion",
         "value": "7.356",
@@ -3344,6 +3605,9 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-800"
+      ],
       "topIndicator": {
         "name": "Naturally salt-affected soils (PAN-LCD reported estimate)",
         "value": "1.5",
@@ -3404,6 +3668,11 @@
         "9 open data gaps are listed in the record"
       ],
       "dataGapCount": 9,
+      "related": [
+        "FND-TG-700",
+        "FND-TG-701",
+        "FND-TG-861"
+      ],
       "topIndicator": {
         "name": "Certified cereal seed adoption",
         "value": "20",
@@ -3469,6 +3738,9 @@
         "9 open data gaps are listed in the record"
       ],
       "dataGapCount": 9,
+      "related": [
+        "FND-TG-861"
+      ],
       "topIndicator": {
         "name": "Pesticide use per area of cropland (FAOSTAT estimate)",
         "value": "0.83",
@@ -3541,6 +3813,9 @@
         "8 open data gaps are listed in the record"
       ],
       "dataGapCount": 8,
+      "related": [
+        "FND-TG-841"
+      ],
       "topIndicator": {
         "name": "Agricultural land lost to urban pressure (secondary citation of Euronet Consortium 2012, Profil environnemental de la Tunisie)",
         "value": "2,000-3,000",
@@ -3606,6 +3881,9 @@
         "7 open data gaps are listed in the record"
       ],
       "dataGapCount": 7,
+      "related": [
+        "FND-TG-840"
+      ],
       "topIndicator": {
         "name": "Maximum fine for changing the use of farmland (after 1996 amendment)",
         "value": "20000",
@@ -3670,6 +3948,9 @@
         "7 open data gaps are listed in the record"
       ],
       "dataGapCount": 7,
+      "related": [
+        "FND-TG-861"
+      ],
       "topIndicator": {
         "name": "Blue water footprint of dates, AquaCrop estimate (highest of three estimates; others 3,270 m3/t blue for 1996-2005 in SRC-TG-868 and about 2,900 m3/t total for 2013 exports in SRC-TG-861)",
         "value": "5000",
@@ -3734,6 +4015,11 @@
         "8 open data gaps are listed in the record"
       ],
       "dataGapCount": 8,
+      "related": [
+        "FND-TG-860",
+        "FND-TG-700",
+        "FND-TG-702"
+      ],
       "topIndicator": {
         "name": "Share of fresh tomato production exported (our calculation, 27,264 t exported / 1,160,000 t produced, both official FAOSTAT figures)",
         "value": "2.4",
@@ -3802,6 +4088,13 @@
         "14 open data gaps are listed in the record"
       ],
       "dataGapCount": 14,
+      "related": [
+        "FND-TG-881",
+        "FND-TG-701",
+        "FND-TG-720",
+        "FND-TG-702",
+        "FND-TG-920"
+      ],
       "topIndicator": {
         "name": "Projected decrease in share of agricultural production in national GDP",
         "value": "-5% to -10%",
@@ -3868,6 +4161,13 @@
         "10 open data gaps are listed in the record"
       ],
       "dataGapCount": 10,
+      "related": [
+        "FND-TG-880",
+        "FND-TG-701",
+        "FND-TG-720",
+        "FND-TG-700",
+        "FND-TG-702"
+      ],
       "topIndicator": {
         "name": "Annual real value-added growth, agriculture, forestry and fishing, INS August 2026 release",
         "value": "-16.1",
@@ -3931,6 +4231,11 @@
         "9 open data gaps are listed in the record"
       ],
       "dataGapCount": 9,
+      "related": [
+        "FND-TG-702",
+        "FND-TG-700",
+        "FND-TG-901"
+      ],
       "topIndicator": {
         "name": "Bread thrown away per day (INC estimate)",
         "value": "900000",
@@ -3998,6 +4303,12 @@
         "6 open data gaps are listed in the record"
       ],
       "dataGapCount": 6,
+      "related": [
+        "FND-TG-702",
+        "FND-TG-701",
+        "FND-TG-700",
+        "FND-TG-900"
+      ],
       "topIndicator": {
         "name": "Farm machines older than 25 years",
         "value": "60",
@@ -4062,6 +4373,10 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-901",
+        "FND-TG-900"
+      ],
       "topIndicator": {
         "name": "Milk lost per year, both governorates",
         "value": "20.1",
@@ -4125,6 +4440,12 @@
         "5 open data gaps are listed in the record"
       ],
       "dataGapCount": 5,
+      "related": [
+        "FND-TG-702",
+        "FND-TG-921",
+        "FND-TG-922",
+        "FND-TG-761"
+      ],
       "topIndicator": {
         "name": "Nominal protection coefficient, durum wheat (producer price vs actual world price, late 1987)",
         "value": "1.37",
@@ -4192,6 +4513,15 @@
         "8 open data gaps are listed in the record"
       ],
       "dataGapCount": 8,
+      "related": [
+        "FND-TG-702",
+        "FND-TG-700",
+        "FND-TG-920",
+        "FND-TG-922",
+        "FND-TG-861",
+        "FND-TG-760",
+        "FND-TG-761"
+      ],
       "topIndicator": {
         "name": "Milk share of market price support expenditure",
         "value": "over 50",
@@ -4258,6 +4588,15 @@
         "10 open data gaps are listed in the record"
       ],
       "dataGapCount": 10,
+      "related": [
+        "FND-TG-920",
+        "FND-TG-921",
+        "FND-TG-701",
+        "FND-TG-702",
+        "FND-TG-780",
+        "FND-TG-781",
+        "FND-TG-881"
+      ],
       "topIndicator": {
         "name": "Share of farmers with bank loans",
         "value": "7 (at most)",

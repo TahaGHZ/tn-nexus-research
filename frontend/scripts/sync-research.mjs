@@ -697,6 +697,8 @@ const findingsIndex = allFindings.map((f) => {
     trust: f.trust,
     trustReasons: f.trustReasons,
     dataGapCount: f.dataGapCount,
+    // Documented links to other published findings (drafts and unknown ids are dropped)
+    related: f.related.filter((id) => verifiedById.has(id) && id !== f.id),
     topIndicator,
     stakeholders: f.stakeholders,
     hasProjection: Boolean(f.projection),
