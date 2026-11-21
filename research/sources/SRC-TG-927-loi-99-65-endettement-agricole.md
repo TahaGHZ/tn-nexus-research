@@ -31,6 +31,12 @@ Art. 3 (p. 1179):
 
 English gloss: the state takes over principal written off by banks on loans up to TND 2,000, repaying the banks over 20 years interest-free from 2000, up to TND 40 million.
 
+Art. 4 (p. 1179):
+
+> Les banques peuvent déduire de l'assiette soumise à l'impôt sur les sociétés 50% des intérêts conventionnels abandonnés et relatifs aux crédits agricoles de campagne obtenus jusqu'au 31 décembre 1998 [...]
+
+English gloss: banks may deduct 50% of waived contractual interest on qualifying seasonal agricultural loans from the corporate income-tax base.
+
 ## Notes
 
 Official gazette text (scanned; accents restored in the extracts). This is the earliest agricultural debt write-off law found in this research; it sets the template (amount threshold per farmer, cut-off date, state compensation of banks, tax deduction for banks in art. 4) reused in later measures.

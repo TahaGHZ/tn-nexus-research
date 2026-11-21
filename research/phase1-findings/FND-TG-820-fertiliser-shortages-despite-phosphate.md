@@ -1,28 +1,45 @@
 ---
 id: FND-TG-820
-title: "Farmers face recurrent fertiliser shortfalls although Tunisia mines phosphate and still exports DAP: phosphate and DAP output fell sharply after 2010, ammonium nitrate depends on imported ammonia, prices are administered below cost, and there is no regulating stock"
-status: draft
-sectors: [agriculture]
+title: 'Farmers face recurrent fertiliser shortfalls although Tunisia mines phosphate and exports DAP: phosphate and DAP output fell sharply after
+  2010, ammonium nitrate depends on imported ammonia, and administered prices complicate supply'
+status: in-review
+sectors:
+  - agriculture
 theme: inputs
 timeframe: current
 period: 2011-2026
-geography: [national]
+geography:
+  - national
 severity: high
 trend: unknown
 confidence: medium
 root_causes:
-  - cause: "Phosphate rock output and GCT processing collapsed after 2011 because of social conflict and blockades at mining and production sites, cutting domestic fertiliser supply"
+  - cause: Phosphate rock output and GCT processing fell after 2011 amid reported social conflict and blockades at production sites, constraining
+      domestic fertiliser supply
     type: institutional
     legacy_decision: false
-    sources: [SRC-TG-820, SRC-TG-821, SRC-TG-822, SRC-TG-835]
-  - cause: "Ammonium nitrate, about 200,000 t of the yearly need, is made from imported ammonia, and phosphate fertilisers need imported sulphur, so domestic supply depends on GCT's ability to finance imports"
+    sources:
+      - SRC-TG-820
+      - SRC-TG-821
+      - SRC-TG-822
+      - SRC-TG-835
+  - cause: Ammonium nitrate production depends on imported ammonia, and phosphate fertilisers need imported sulphur, so domestic supply depends
+      on GCT's ability to finance imports
     type: economic
     legacy_decision: false
-    sources: [SRC-TG-825, SRC-TG-824, SRC-TG-820]
-  - cause: "The state fixes ex-factory prices, distribution margins and farm-gate prices below cost and below world prices, so each shortfall becomes a loss for GCT or a cost to the budget; no regulating stock exists, and scarcity has been accompanied by speculation and a black market in distribution"
+    sources:
+      - SRC-TG-825
+      - SRC-TG-824
+      - SRC-TG-820
+  - cause: The state administers ammonium nitrate prices and margins; shortage episodes have been accompanied by reported distribution speculation,
+      while FAO found no fertiliser buffer stock in its 2023 assessment
     type: policy
-    legacy_decision: true
-    sources: [SRC-TG-820, SRC-TG-825, SRC-TG-826, SRC-TG-921]
+    legacy_decision: false
+    sources:
+      - SRC-TG-820
+      - SRC-TG-825
+      - SRC-TG-826
+      - SRC-TG-838
 indicators:
   - name: Phosphate rock mine production
     value: 7600
@@ -30,7 +47,7 @@ indicators:
     year: 2010
     geography: national
     source: SRC-TG-821
-  - name: Phosphate rock mine production (marketable, estimate)
+  - name: Phosphate rock mine production (estimate; marketable basis in 2024 edition)
     value: 3280
     unit: thousand tonnes
     year: 2024
@@ -60,49 +77,49 @@ indicators:
     year: 2023
     geography: national
     source: SRC-TG-824
-  - name: Estimated annual need, agricultural ammonium nitrate 33.5%
+  - name: Programmed (planned) quantity, agricultural ammonium nitrate 33.5%
     value: 200000
     unit: tonnes per year
-    year: 2021
+    year: 2020-2021
     geography: national
     source: SRC-TG-820
-  - name: Estimated annual need, DAP
+  - name: Programmed (planned) quantity, DAP
     value: 90000
     unit: tonnes per year
-    year: 2021
+    year: 2020-2021
     geography: national
     source: SRC-TG-820
-  - name: Estimated annual need, TSP (super 45%)
+  - name: Programmed (planned) quantity, TSP (super 45%)
     value: 45000
     unit: tonnes per year
-    year: 2021
+    year: 2020-2021
     geography: national
     source: SRC-TG-820
-  - name: Fertiliser consumption, ammonium nitrate, cereal season
+  - name: Fertiliser used on cereals, ammonium nitrate
     value: 153000
     unit: tonnes
     year: 2020-2021
     geography: national
     source: SRC-TG-820
-  - name: Fertiliser consumption, DAP, cereal season
+  - name: Fertiliser used on cereals, DAP
     value: 71000
     unit: tonnes
     year: 2020-2021
     geography: national
     source: SRC-TG-820
-  - name: Fertiliser consumption, TSP, cereal season
+  - name: Fertiliser used on cereals, TSP
     value: 9000
     unit: tonnes
     year: 2020-2021
     geography: national
     source: SRC-TG-820
-  - name: Emergency import of ammonium nitrate via GCT (FAO report)
+  - name: Emergency ammonium nitrate imports announced for December 2020–January 2021 (plan)
     value: 60000
     unit: tonnes (45 million TND)
     year: 2020
     geography: national
-    source: SRC-TG-820
-  - name: Recorded ammonium nitrate imports (FAOSTAT trade)
+    source: SRC-TG-839
+  - name: Recorded ammonium nitrate imports (FAOSTAT trade; estimated weight)
     value: 7255
     unit: tonnes
     year: 2020
@@ -138,25 +155,56 @@ indicators:
     year: 2025-2026
     geography: national
     source: SRC-TG-826
-stakeholders: [cereal and vegetable farmers, UTAP, Groupe Chimique Tunisien (GCT), Compagnie des Phosphates de Gafsa (CPG), ministry of agriculture, ministry of commerce (price setting), ministry of economy, fertiliser wholesalers and retailers, mining-basin communities (Gafsa) and Gabès]
-related: [FND-TG-920, FND-TG-701, FND-TG-702]
-sources: [SRC-TG-820, SRC-TG-821, SRC-TG-822, SRC-TG-823, SRC-TG-824, SRC-TG-825, SRC-TG-826, SRC-TG-835, SRC-TG-921]
+stakeholders:
+  - cereal and vegetable farmers
+  - UTAP
+  - Groupe Chimique Tunisien (GCT)
+  - Compagnie des Phosphates de Gafsa (CPG)
+  - ministry of agriculture
+  - ministry of commerce (price setting)
+  - ministry of economy
+  - fertiliser wholesalers and retailers
+  - mining-basin communities (Gafsa) and Gabès
+related:
+  - FND-TG-920
+  - FND-TG-701
+  - FND-TG-702
+sources:
+  - SRC-TG-820
+  - SRC-TG-821
+  - SRC-TG-822
+  - SRC-TG-823
+  - SRC-TG-824
+  - SRC-TG-825
+  - SRC-TG-826
+  - SRC-TG-835
+  - SRC-TG-836
+  - SRC-TG-837
+  - SRC-TG-838
+  - SRC-TG-839
+  - SRC-TG-921
 data_gaps:
-  - "GCT production of DAP, TSP and ammonium nitrate after 2012, and the split between domestic sales and exports; FAOSTAT production stops in 2012 and no GCT annual report could be opened."
-  - "An official decision or rule giving export priority to GCT output; none was found, so the export-priority explanation is not established."
-  - "Ammonium nitrate import volumes: FAOSTAT and Comtrade record 7,255 t (2020) and 8,100 t (2021), against the 60,000 t import via GCT reported by FAO for 2020. The gap is unresolved."
-  - "The fertiliser price regime from 1993 to 2020: SRC-TG-921 says product subsidies were eliminated in 1991-1993 (except Super 45), while FAO says the state has always kept prices below international levels. When and how administered pricing and below-cost sales resumed is not documented."
-  - "The legal text that fixes fertiliser prices today (commerce ministry arrêté or decree); FAO reports the December 2020 price decision but the text itself was not opened."
-  - "Official fertiliser consumption by type after 2020-21 (ONAGRI or DGEDA series), and the share of farmers' needs delivered in 2025-26 by governorate; 2025-26 figures rest on tier C press only."
-  - "The cost to GCT or the budget of selling below cost; the minister's statement gives no amount."
-  - "A sourced projection of domestic fertiliser supply or demand; none was found."
-  - "Yield loss attributable to fertiliser shortfalls; no study found."
+  - GCT production of DAP, TSP and ammonium nitrate after 2012, and the split between domestic sales and exports; FAOSTAT production stops in
+    2012 and no GCT annual report could be opened.
+  - An official decision or rule giving export priority to GCT output; none was found, so the export-priority explanation is not established.
+  - 'The fertiliser price regime from 1993 to 2020: SRC-TG-921 says product subsidies were eliminated in 1991-1993 (with TSP subsidy ending in
+    1994), while FAO says the state has always kept prices below international levels. When and how administered pricing and below-cost sales
+    resumed is not documented.'
+  - The legal text that fixes fertiliser prices today (commerce ministry arrêté or decree); FAO reports the December 2020 price decision but the
+    text itself was not opened.
+  - Official fertiliser consumption by type after 2020-21 (ONAGRI or DGEDA series), and the share of farmers' needs delivered in 2025-26 by governorate;
+    2025-26 figures rest on tier C press only.
+  - The cost to GCT or the budget of selling below cost; the minister's statement gives no amount.
+  - A sourced projection of domestic fertiliser supply or demand; none was found.
+  - Yield loss attributable to fertiliser shortfalls; no study found.
+  - No shipment-by-shipment evidence was found to reconcile the final emergency-programme deliveries to FAOSTAT’s calendar-year ammonium nitrate
+    trade series.
 author: TahaGHZ
 ---
 
 ## Problem
 
-Tunisian farmers report fertiliser shortfalls season after season, mostly of ammonium nitrate and DAP, even though the country mines phosphate and runs a large fertiliser industry (GCT). The ministry estimated yearly needs at about 200,000 t of ammonium nitrate, 90,000 t of DAP and 45,000 t of TSP (SRC-TG-820). In the 2020-21 cereal season only 153,000 t of ammonium nitrate, 71,000 t of DAP and 9,000 t of TSP were used. FAO reports that the state had to import 60,000 t of ammonium nitrate via GCT, mainly from Russia, for 45 million TND (SRC-TG-820). In the 2025-26 season the ministry still reported an ammonium nitrate deficit of about 18,000 t on the previous season and a 10-day supply delay, while DAP and TSP deliveries were higher than the year before (SRC-TG-826, tier C). Fertiliser use per hectare of arable land fell from 61.0 kg in 2022 to 43.0 kg in 2023 and 46.4 kg in 2024 (SRC-TG-823), though that series also moves with the cropped area.
+Tunisian farmers report fertiliser shortfalls season after season, mostly of ammonium nitrate and DAP, even though the country mines phosphate and runs a large fertiliser industry (GCT). Quantities programmed for distribution in the 2020/21 season were about 200,000 t of ammonium nitrate, 90,000 t of DAP and 45,000 t of TSP (SRC-TG-820, SRC-TG-836). These are planned quantities, not necessarily annual national needs. FAO's 2020/21 cereal-only series reports use of 153,000 t ammonium nitrate, 71,000 t DAP and 9,000 t TSP; these cereal figures cannot be compared directly with the all-crop programmed quantities. For ammonium nitrate, cereal use ranged from 152,000 to 214,000 t per season during 2010/11-2020/21, so 2020/21 was not exceptional (SRC-TG-820). FAO reports an import of 60,000 t ammonium nitrate via GCT, mainly from Russia, worth TND 45 million; TAP says the lots arrived in December 2020 and January 2021 (SRC-TG-820, SRC-TG-837). In the 2025/26 season the ministry reported a deficit of about 18,000 t against the previous season and a 10-day supply delay, while DAP and TSP deliveries were higher than the year before (SRC-TG-826, tier C). Fertiliser use per hectare of arable land fell from 61.0 kg in 2022 to 43.0 kg in 2023 and 46.4 kg in 2024 (SRC-TG-823), though that series also moves with the cropped area.
 
 ## Root causes
 
@@ -164,17 +212,17 @@ The shortage is the symptom. The causes sit upstream, in production and pricing.
 
 1. **Collapse of phosphate and GCT output after 2011.** USGS puts Tunisian phosphate rock output at 7.6 Mt in 2010 (SRC-TG-821) and 3.28 Mt in 2024 (SRC-TG-822), a fall of about 57%. DAP production fell from 1.28 Mt in 2010 to 0.43 Mt in 2011 (imputed) and 0.65 Mt in 2012, after which FAOSTAT has no production data (SRC-TG-835). Before the post-2011 crisis in mining, GCT could process about 6.5 Mt of rock a year at Gabès, Sfax, Skhira and M'dhilla (SRC-TG-820). FAO attributes the fall in supply to social tensions and blockades at production sites (SRC-TG-820).
 2. **Imported feedstock.** GCT has to import sulphur for phosphoric acid and TSP, and ammonia for agricultural ammonium nitrate (SRC-TG-825). Tunisia imported 153,559 t of anhydrous ammonia worth US$87.3 million in 2023 (SRC-TG-824). Each season's ammonium nitrate supply therefore depends on GCT's access to foreign currency and credit. In July 2026 parliament examined two loan bills to finance these raw material imports (SRC-TG-825).
-3. **Administered below-cost prices and no stock (past decision; sources disagree on continuity).** Under the agricultural adjustment programme, distribution margins were freed from 1987/88 and fertiliser product subsidies were removed in 1991 (Super 16), 1992 (ammonium nitrate 33) and 1993 (DAP); only Super 45 kept a declining subsidy (SRC-TG-921, see FND-TG-920). Price control is in place today, however. In December 2020 the commerce ministry fixed the ex-factory price of ammonium nitrate (430 TND/t), wholesale and retail margins (25 and 45 TND/t) and the farm-gate price (500 TND/t) (SRC-TG-820). FAO states that the government "est toujours intervenu" (has always intervened) to keep fertiliser prices below international prices (SRC-TG-820). This conflicts with the World Bank's account of subsidies being eliminated in 1991-93. Both are recorded here; the 1993-2020 regime is a data gap. The economy minister said in 2026 that GCT sells fertilisers at preferential prices, often below production cost and world prices, which partly explains its financial difficulties (SRC-TG-825). FAO also notes that there is no fertiliser regulating stock (SRC-TG-820). No source opened here shows whether administered prices caused the absence of a stock. When supply is short, speculation in distribution channels (SRC-TG-820) and a black market that raises ammonium nitrate prices (SRC-TG-826, tier C) have been reported.
+3. **Administered prices and buffer stocks.** Under the agricultural adjustment programme, distribution margins were freed from 1987/88 and product subsidies were removed in 1991 (Super 16), 1992 (ammonium nitrate 33) and 1993 (DAP); the borrower annex dates the end of TSP subsidy to 1994, so the claim that only Super 45 retained a declining subsidy holds only until about 1994 (SRC-TG-921, see FND-TG-920). In December 2020 the commerce ministry fixed ammonium nitrate ex-factory price (TND 430/t), wholesale and retail margins (TND 25 and 45/t) and farm-gate price (TND 500/t) (SRC-TG-820). FAO says government had long intervened to keep fertiliser prices below international prices (SRC-TG-820); the 2026 economy minister said GCT sells fertilisers at preferential prices, often below production cost and world prices (SRC-TG-825, tier C). The intervening 1993-2020 regime and cost to GCT or the budget remain undocumented. FAO reported no fertiliser buffer stock in 2023 (SRC-TG-820), while a June 2025 council decided to accelerate stock building for 2025/26 and keep prices unchanged (SRC-TG-838); the ministry said ammonium nitrate cannot be stored for long (SRC-TG-826). No evidence opened establishes that administered prices caused the earlier absence of stocks. FAO observed distribution speculation in 2021; in 2026, deputies alleged a black market, while the ministry cited GCT dysfunctions, logistics and hazardous-goods rules, and farmers claiming full quotas at once (SRC-TG-820, SRC-TG-826).
 
-**Export priority: not established.** The brief suggested GCT output goes to export first. FAO describes GCT's ammonium nitrate and DAP as intended mainly for the domestic market (SRC-TG-820). FAOSTAT and Comtrade, however, show DAP exports of 0.23-0.41 Mt a year in 2015 and 2019-2023 (the years extracted), including 409,468 t in 2020 and 286,190 t in 2023 (SRC-TG-835, SRC-TG-824). That is three to four times the 90,000 t domestic DAP need (SRC-TG-820). Large exports and domestic shortfalls therefore coexist. No document opened here shows an explicit rule giving exports priority, so this is kept as an observation, not a root cause.
+**Export priority: not established.** The brief suggested GCT output goes to export first. FAO describes GCT's ammonium nitrate and DAP as intended mainly for the domestic market (SRC-TG-820). FAOSTAT and Comtrade show DAP exports of 0.23-0.41 Mt in 2015 and 2018-2023, plus about 0.5 Mt in 2016-2017, including 409,468 t in 2020 and 286,190 t in 2023 (SRC-TG-835, SRC-TG-824). That ranges from about 2.7 to 5.6 times the 90,000 t programmed DAP quantity (SRC-TG-820). The 2026 ministry presentation said no locally produced ammonium nitrate was exported; thus the export observation concerns DAP (SRC-TG-826). Large DAP exports and domestic shortfalls coexist. No document opened here shows an explicit rule giving exports priority, so this is kept as an observation, not a root cause.
 
 ## Evidence
 
 - Needs and use in 2020-21, the emergency import, and price controls: SRC-TG-820 (FAO, 2023; the needs come from a 2021 ministerial press release, and consumption from DGEDA and ONAGRI data).
-- Phosphate rock output: SRC-TG-821 (2010: 7,600 kt; 2011 estimate: 5,000 kt) and SRC-TG-822 (2024: 3,280 kt; 2025 estimate: 3,300 kt).
+- Phosphate rock output: SRC-TG-821 (2010: 7,600 kt) and SRC-TG-822 (2024: 3,280 kt; both estimates; the editions use different wording on marketable status).
 - DAP and ammonium nitrate production up to 2012, DAP exports, and recorded ammonium nitrate imports: SRC-TG-835. Ammonium nitrate production was 155,150 t in 2010, 91,000 t in 2011 and 157,000 t in 2012, already below the 200,000 t need cited for 2021 (SRC-TG-835, SRC-TG-820).
 - DAP exports and ammonia imports: SRC-TG-824.
-- **Sources disagree on ammonium nitrate imports:** FAO reports 60,000 t imported via GCT in 2020 (SRC-TG-820). FAOSTAT trade data record 7,255 t in 2020 and 8,100 t in 2021 (SRC-TG-835). Both are recorded and neither is chosen.
+- **Announced, delivered and recorded amounts.** The December ministry announcement described a 60,000 t plan and a first delivered lot of 6,000 t (SRC-TG-839). FAO later described an emergency 60,000 t import (SRC-TG-820). FAOSTAT’s product series records 7,255 t in 2020 and 8,100 t in 2021 (SRC-TG-835). The announcement establishes the programme target, not fulfilment. Product coverage and actual final deliveries remain unresolved.
 - Fertiliser intensity: SRC-TG-823 (47.4 kg/ha in 2010, 62.7 in 2021, 61.0 in 2022, 43.0 in 2023, 46.4 in 2024).
 - 2025-26 deficit, delay and black market: SRC-TG-826 (press, tier C).
 - GCT pricing below cost, imported inputs and the 2026 loan bills: SRC-TG-825 (press account of the minister, tier C).
@@ -196,3 +244,7 @@ Energy: ammonium nitrate depends on imported ammonia (SRC-TG-825, SRC-TG-824), s
 - Extension campaigns against fertiliser over-use and waste (SRC-TG-820).
 - 2026 loan bills no. 50 and 51 (ITFC Murabaha agreements) for GCT raw material imports, and the GCT 2026-2030 financing programme including the Mdhilla 2 TSP plant (SRC-TG-825).
 - Plans to restore phosphate output at CPG (not researched here).
+
+## Verification
+
+The distinction between the programme announcement, subsequent reporting, and the customs series resolves the erroneous use of 60,000 t as a verified customs outturn. The indicator records the plan. The domestic supply shortfall and the dated planned cereal-season quantities remain independently evidenced.

@@ -1,7 +1,7 @@
 ---
 id: FND-TG-920
 title: "The 1986-1995 agricultural adjustment programme (PASA) removed most input subsidies but left administered wheat prices and the state offices' dual role in place"
-status: draft
+status: in-review
 sectors: [agriculture, water]
 theme: legacy-policy
 timeframe: past
@@ -15,7 +15,7 @@ root_causes:
     type: policy
     legacy_decision: true
     sources: [SRC-TG-920]
-  - cause: "The adjustment programme (ASAL I 1986, ASAL II 1989) was driven by fiscal targets; input subsidies, credit subsidies and irrigation underpricing were cut quickly, while cereals pricing and office reform advanced slowly"
+  - cause: "ASAL II (1989) was driven by fiscal targets; ASAL I's 1987-88 price rises put production incentives before budget cost. Input and credit subsidies and irrigation underpricing were cut, while cereals pricing and office reform advanced slowly"
     type: policy
     legacy_decision: true
     sources: [SRC-TG-921, SRC-TG-922]
@@ -24,8 +24,8 @@ root_causes:
     legacy_decision: true
     sources: [SRC-TG-921]
 indicators:
-  - name: Nominal protection coefficient, durum wheat (producer price vs formula price)
-    value: "0.89 (1980-85 average) to 1.04 (1988)"
+  - name: Nominal protection coefficient, durum wheat (1980-85 vs import-equivalent price; 1988 vs formula price)
+    value: "0.89 (1980-85) to 1.04 (1988; basis differs)"
     unit: ratio
     year: 1980-1988
     geography: national
@@ -86,22 +86,22 @@ author: TahaGHZ
 
 ## Problem
 
-Tunisia's agricultural structural adjustment programme (PASA, also MTASAP) ran from 1986 to about 1995 with two World Bank sector adjustment loans (SRC-TG-920, SRC-TG-921). It cut the input and credit subsidies that the state had paid through the Caisse Générale de Compensation: CGC-financed input subsidies fell from TND 73 million in 1989 to under TND 15 million in 1993 (SRC-TG-921). Fertiliser, seed, herbicide and most feed subsidies were removed, and real fertiliser prices rose about 6% a year over 1986-1992 (SRC-TG-921). The other half of the programme, ending administered prices and opening the state offices to competition, went much less far: wheat producer prices stayed above the agreed formula and the Office des Céréales kept both a commercial and a regulatory role (SRC-TG-921). The programme is the origin of today's mixed system: fertiliser, seed and most feed subsidies were removed in 1991-1993, while cereals, milk and some other products kept administered prices and state marketing. New input subsidies later appeared on fuel, milk collection and irrigation (SRC-TG-710).
+Tunisia's agricultural structural adjustment programme (PASA, also MTASAP) ran from 1986 to about 1995 with two World Bank sector adjustment loans (SRC-TG-920, SRC-TG-921). It cut the input and credit subsidies that the state had paid through the Caisse Générale de Compensation: CGC-financed input subsidies fell from TND 73 million in 1989 to under TND 15 million in 1993 (SRC-TG-921). Fertiliser, seed, herbicide and most feed subsidies were removed, and real fertiliser prices rose about 6% a year over 1986-1992 (SRC-TG-921). The other half of the programme, ending administered prices and opening the state offices to competition, went much less far: wheat producer prices stayed above the agreed formula and the Office des Céréales kept both a commercial and a regulatory role (SRC-TG-921). The programme is the origin of today's mixed system: fertiliser, seed and most feed subsidies were removed in 1991-1993, while cereals, milk and some other products kept administered prices and state marketing. By 2008-09 input subsidies went mainly to fuel, milk collection premia and irrigation (SRC-TG-710).
 
 ## Root causes
 
-**Before 1986 (symptom: low private investment; cause: implicit taxation).** Output and input prices were fixed below world prices on a cost-plus basis, and agriculture faced "negative protection rates" and worsening terms of trade with industry, which deterred private investment (SRC-TG-920). Cereal NPCs averaged 0.89 (durum), 0.98 (bread wheat) and 0.82 (barley) over 1980-1985 when compared with the Bank's formula price (SRC-TG-920).
+**Before 1986 (symptom: low private investment; cause: implicit taxation).** At the time ASAL I was designed, output and input prices were fixed below world prices on a cost-plus basis, and agriculture faced "negative protection rates" and worsening terms of trade with industry, which deterred private investment (SRC-TG-920). The PCR reports 1980-85 cereal NPCs of 0.89 (durum), 0.98 (bread wheat) and 0.82 (barley), but Annex 2 Table 1 shows those early ratios use import-equivalent prices, not the later formula; by 1985/86, the ratios were 1.16 for durum, 1.18 for bread wheat and 1.16 for barley. The 1988 leg (1.04 for durum) is against the formula, so the comparison mixes bases (SRC-TG-920).
 
-**The 1986 decision.** Under fiscal and balance-of-payments pressure, Tunisia adopted a structural adjustment plan from late 1986 with a large agricultural component (SRC-TG-922). Its stated aim was to bring producer prices to world levels with slight protection for "strategic" products, liberalise marketing and phase out production subsidies (SRC-TG-922).
+**The 1986 decision.** Under balance-of-payments and employment imbalances and pressure from international financial institutions, Tunisia adopted a structural adjustment plan from late 1986 with a large agricultural component (SRC-TG-922). Its stated aim was to bring producer prices to world levels with slight protection for "strategic" products, liberalise marketing and phase out production subsidies (SRC-TG-922).
 
-**Asymmetric implementation.** Producer prices for cereals were raised quickly (durum +12.6% real in 1987 and +8.3% in 1988), so that by late 1987, when world grain prices fell, NPCs against actual world prices reached 1.37 for durum wheat (SRC-TG-920). The Bank's completion report notes that implicit taxation had turned into over-protection (SRC-TG-920). Input subsidies were then removed under ASAL II (SRC-TG-921). The fiscal objectives were met. The structural objectives were not: only three private firms entered cereals collection, and privatising Office des Céréales centres failed because buyers had to keep all existing staff (SRC-TG-921). El Louhoum kept fixed-price purchasing and import privileges for beef, and the ONH's role in olive oil exports stayed ambiguous (SRC-TG-921).
+**Asymmetric implementation.** Producer prices for cereals were raised quickly (durum +12.6% real in 1987 and +8.3% in 1988), so that by late 1987, when world grain prices fell, NPCs against actual world prices reached 1.37 for durum wheat (SRC-TG-920). The Bank's completion report notes that implicit taxation had turned into over-protection (SRC-TG-920). Input subsidies were then removed under ASAL II (SRC-TG-921). ASAL II's fiscal objectives were met. The structural objectives were not: only three private firms entered cereals collection, and privatising Office des Céréales centres failed because buyers had to keep all existing staff (SRC-TG-921). El Louhoum kept fixed-price purchasing and import privileges for beef, and the ONH's role in olive oil exports stayed ambiguous (SRC-TG-921).
 
 **A known trade-off.** The Bank's own pre-appraisal analysis showed the ASAL II measures would produce "marginally negative" sector growth and farm incomes. This was not presented in the President's Report, so as not to lose the Ministry of Agriculture's support (SRC-TG-921).
 
 ## Evidence
 
 - Pre-1986 prices fixed below world prices, cost-plus (SRC-TG-920, para. 6.11).
-- Cereal NPCs: 0.89/0.98/0.82 in 1980-85 to 1.04/1.03/0.90 in 1988 against formula prices; 1.37/1.27/1.29 against actual world prices in late 1987 (SRC-TG-920, paras. 6.12-6.13).
+- Cereal NPCs: the PCR reports 0.89/0.98/0.82 in 1980-85 and 1.04/1.03/0.90 in 1988; Annex 2 Table 1 shows early values are against import-equivalent prices while 1988 is against formula prices. 1985/86 ratios were already above 1 (durum 1.16, bread wheat 1.18, barley 1.16). Late 1987 actual-world-price NPCs were 1.37/1.27/1.29 (SRC-TG-920, paras. 6.12-6.13 and Annex 2 Table 1).
 - Input subsidies (CGC): TND 73 million (1989) to under 15 million (1993). Fertiliser subsidy TND 20 million to 3 million. Fertiliser subsidies ended for Super 16 (1991), Ammonitre 33 (1992) and DAP (1993); Super 45, about a quarter of volumes, was still subsidised in 1995 (SRC-TG-921, paras. 26-27).
 - Feed subsidies: TND 49 million (1989) to 4 million (1992-93); maize subsidy ended 1992, soybean meal 1993 (SRC-TG-921, para. 28).
 - Irrigation tariffs: +40% in real terms; average 41 millimes/m3 in 1993, about 63-75% of O&M cost depending on definition (SRC-TG-921, paras. vi, 31).

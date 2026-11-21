@@ -68,7 +68,7 @@ Tableau 17 "Evolution des effectifs des variétés de palmiers dattiers en Tunis
 
 > "Bien que le gouvernement tunisien ait pris conscience du risque d'érosion génétique, les primes et subventions accordées à l'agriculteur continuent à favoriser la « Deglet Nour » aux dépens des variétés communes."
 
-English gloss: Deglet Nour's share of palms rose from 44.9% (1977) to 61-63% (1996-2002), but the absolute number of common-variety palms also grew (the text says by more than 500,000 in 26 years, but its own Tableau 17 gives +402,886 between 1977 and 2002); state policy for decades maximised Deglet Nour for export, and premiums and subsidies still favour it.
+English gloss: Deglet Nour's share of palms rose from 44.9% (1977) to 61-63% (1996-2002), but the absolute number of common-variety palms also grew. The report prose says more than 500,000 common-variety palms were added in 26 years; Tableau 17 instead gives +402,886 between 1977 and 2002 (1,635,886 minus 1,233,000), a contradiction within the source. State policy for decades maximised Deglet Nour for export, and premiums and subsidies still favour it.
 
 Pests and bayoud (Partie I, chapitre 2, section on emerging diseases):
 

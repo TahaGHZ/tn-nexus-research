@@ -1,11 +1,11 @@
 ---
 id: FND-TG-801
-title: "Ploughing of central and southern steppe rangelands for opportunistic cereals, opened by the 1970s privatisation of collective land, drives wind erosion and the loss of grazing land"
-status: draft
+title: "Ploughing of central and southern steppe rangelands for opportunistic cereals, following 1970s changes to collective tenure, contributes to wind erosion and grazing-land loss"
+status: in-review
 sectors: [agriculture, water]
 theme: soil
 timeframe: current
-period: 1970-2026
+period: 1970-2020
 geography: [centre-west, centre-east, south-east, south-west]
 severity: high
 trend: worsening
@@ -19,10 +19,6 @@ root_causes:
     type: behavioural
     legacy_decision: false
     sources: [SRC-TG-806, SRC-TG-807, SRC-TG-803, SRC-TG-800]
-  - cause: "High government procurement prices for barley encouraged mechanised barley cultivation on rangeland (stated for MENA as a whole, not measured in Tunisia)"
-    type: policy
-    legacy_decision: true
-    sources: [SRC-TG-770]
   - cause: "Shrinking rangeland concentrates herds on what is left, so overgrazing compounds the degradation"
     type: economic
     legacy_decision: false
@@ -35,28 +31,28 @@ indicators:
   - name: "Land affected by strong wind erosion"
     value: 7.356
     unit: "million ha"
-    year: "unstated (cited in a 2020 report)"
+    year: "not stated in source (cited in 2020 report)"
     geography: national
     source: SRC-TG-800
   - name: "Land affected by medium wind erosion"
     value: 4.792
     unit: "million ha"
-    year: "unstated (cited in a 2020 report)"
+    year: "not stated in source (cited in 2020 report)"
     geography: national
     source: SRC-TG-800
   - name: "Rangeland converted to cropping or degraded by overgrazing"
     value: 34000
     unit: "ha per year"
-    year: "about 2018 (recent studies cited in a 2020 report)"
+    year: "not stated (recent studies cited in 2020 report)"
     geography: national
     source: SRC-TG-800
   - name: "Rangeland area"
     value: "6.1 to 5.5"
     unit: "million ha"
-    year: 2005-2012
+    year: "2005-2012"
     geography: national
     source: SRC-TG-767
-  - name: "Share of the 3 million ha of collective land in the centre and south settled into private property"
+  - name: "Estimated share of 3 million ha collective land settled into private property"
     value: "about 50"
     unit: "%"
     year: "c. 1998 (Gharbi, cited second-hand)"
@@ -65,24 +61,24 @@ indicators:
   - name: "Remaining alfa (esparto) steppe in the centre"
     value: 350000
     unit: "ha"
-    year: "about 2018-2020"
+    year: "not stated (PAN-LCD report published 2020)"
     geography: "central Tunisia"
     source: SRC-TG-800
   - name: "Rangeland overgrazing rate"
     value: "80-91"
     unit: "% of rangeland"
-    year: 2012
+    year: "2012"
     geography: national
     source: SRC-TG-800
-  - name: "Share of territory threatened by desertification (MEAT)"
+  - name: "Share of land in desertification hazard classes, including already desertified land (MEAT)"
     value: 94
-    unit: "% of land"
-    year: 1998
+    unit: "% of land in low, moderate, high hazard or already desertified classes"
+    year: "1998"
     geography: national
     source: SRC-TG-805
-  - name: "Share of territory threatened by desertification (SNDD)"
-    value: "more than 75"
-    unit: "% of territory"
+  - name: "Land described as threatened by desertification (SNDD)"
+    value: 75
+    unit: "% of territory (more than)"
     year: "2014 (cited in a 2020 report)"
     geography: national
     source: SRC-TG-800
@@ -100,9 +96,10 @@ indicators:
     source: SRC-TG-800
 stakeholders: ["agro-pastoral households of the high and low steppes and the south", "former right-holders of collective land", "Conseils de gestion des terres collectives", "Ministry of Agriculture DG Forêts and DG ACTA", "Institut des Régions Arides (IRA)", "livestock and feed markets"]
 related: [FND-TG-800, FND-TG-781, FND-TG-760, FND-TG-880]
-sources: [SRC-TG-767, SRC-TG-770, SRC-TG-781, SRC-TG-800, SRC-TG-803, SRC-TG-804, SRC-TG-805, SRC-TG-806, SRC-TG-807, SRC-TG-881]
+sources: [SRC-TG-767, SRC-TG-770, SRC-TG-781, SRC-TG-800, SRC-TG-803, SRC-TG-804, SRC-TG-805, SRC-TG-806, SRC-TG-807, SRC-TG-881, SRC-TG-783]
 data_gaps:
   - "The task framing mentions collectivisation and a 1990s ploughing of the steppe. The sources opened support the privatisation of collective rangelands (laws of 1972-1975 per SRC-TG-806), not collectivisation, and none documents a specific 1990s ploughing campaign or its area. The framework law on collective land is loi n° 64-28 of 4 June 1964 (SRC-TG-783), which made collective land inalienable save for derogations; the 1970s amendments that opened allotment were not opened, so their numbers and dates are unverified."
+  - "The PAN-LCD's annual 34,000 ha combines rangeland converted to agriculture with area degraded by overgrazing; it does not measure steppe ploughing alone. Its source studies and method were not opened."
   - "Rangeland loss rates disagree: the PAN-LCD gives 34,000 ha/yr converted or degraded (SRC-TG-800), while 6.1 to 5.5 Mha over 2005-2012 (SRC-TG-767) works out at about 86,000 ha/yr (our arithmetic). The two may measure different things; neither gives a method."
   - "No time series of the area of steppe ploughed for cereals (e.g. 1970-2020) for the centre or south; the 34,000 ha/yr figure mixes conversion and overgrazing."
   - "No source or year for the wind-erosion areas (7.356 Mha strong, 4.792 Mha medium) in SRC-TG-800; the underlying map was not found."
@@ -114,7 +111,7 @@ author: TahaGHZ
 
 ## Problem
 
-In the central high and low steppes and in southern Tunisia, rangeland is being ploughed for rainfed barley and planted with trees. The ploughing exposes fine sandy soils to wind erosion and leaves less grazing land for the herds. The 2020 national desertification programme reports the following (SRC-TG-800):
+In the central high and low steppes and in southern Tunisia, rangeland has been converted to rainfed barley and tree crops. Ploughing exposes fine-textured soils to wind erosion and leaves less grazing land for herds. The 2020 national desertification programme reports the following (SRC-TG-800):
 
 - strong wind erosion on 7.356 Mha and medium wind erosion on 4.792 Mha, with no source or year given;
 - rangeland converted to cropping or degraded by overgrazing at 34,000 ha a year;
@@ -126,8 +123,8 @@ The scale is often quoted as "94%" or "three quarters" of Tunisia being threaten
 
 ## Root causes
 
-- **Privatisation of collective rangelands (legacy decision).** From the early 1970s the State settled southern nomads in new village centres, and cropping spread with special funds. The laws of 1972-1975 then allowed collective rangelands to be allotted as individual property. Bourbouze (2003) calls this a true agrarian revolution and says the process went further in Tunisia than anywhere else in North Africa (SRC-TG-806). The new private plots were sown with cereals or planted. Whole pastoral territories were cut up by "une agriculture à durabilité incertaine" that removed the most productive grazing land (SRC-TG-806).
-- **Opportunistic barley on sandy soils.** Rainfed barley spread with legal and illegal privatisation. Bourbouze says it yields grain only one year in three or four, a statement about North African steppes in general rather than a Tunisian measurement (SRC-TG-806). IFPRI adds that high government barley procurement prices encouraged mechanised barley on rangeland where it cannot be sustained; this is stated for MENA as a whole (SRC-TG-770). Remote sensing (ARZOTU project) linked sand mobilisation to frequent ploughing of the steppe (SRC-TG-807). The sandy steppes owe their degradation to ploughing and overgrazing (SRC-TG-803). In the Low Steppe, ploughing and aquifer overuse drive land degradation and overgrazing as rangeland shrinks (SRC-TG-803).
+- **Changes to collective tenure (legacy decision).** Bourbouze's 2003 synthesis reports that from the early 1970s the State settled southern nomads in new village centres and that laws passed between 1972 and 1975 allowed collective rangelands to be allotted as individual property. It links subsequent cropping and tree planting to fragmentation and loss of productive grazing land (SRC-TG-806). The specific laws and the legal mechanism were not independently checked against the JORT.
+- **Opportunistic barley on sandy soils.** Rainfed barley spread with legal and illegal privatisation. Bourbouze says it yields grain only one year in three or four, a statement about North African steppes in general rather than a Tunisian measurement (SRC-TG-806). Remote sensing (ARZOTU project) linked sand mobilisation to frequent ploughing of the steppe (SRC-TG-807). The sandy steppes owe their degradation to ploughing and overgrazing (SRC-TG-803). In the Low Steppe, ploughing and aquifer overuse drive land degradation and overgrazing as rangeland shrinks (SRC-TG-803). Evidence from the sources opened does not quantify the contribution of barley procurement prices in Tunisia.
 - **Overgrazing as a consequence.** With less rangeland, overgrazing reaches 73% in the north, 78% in the centre and over 80% in the south (80-91% nationally in 2012) (SRC-TG-800).
 - **Climate as the setting, not the cause.** The soils are fine-textured with thin cover (SRC-TG-800). The PAN-LCD cites +2.1 °C and 10-30% less rainfall by 2050 (SRC-TG-800), while the World Bank CCDR worst case is 1-14% less rainfall by 2050 (SRC-TG-881); see FND-TG-880.
 
@@ -136,12 +133,12 @@ The scale is often quoted as "94%" or "three quarters" of Tunisia being threaten
 - **Wind erosion.** 7.356 Mha are affected strongly and 4.792 Mha moderately (SRC-TG-800). Our own arithmetic: together about 12.1 Mha, roughly three quarters of the 16.4 Mha territory. Achievements against wind erosion have always been small compared with the area threatened. The 2015-2024 forest and rangeland strategy plans to treat no more than 150,000 ha (SRC-TG-800).
 - **Loss of steppe.** Rangeland converted or degraded by overgrazing: 34,000 ha a year (SRC-TG-800). An ICARDA workshop report gives rangeland area falling from 6.1 Mha (2005) to 5.5 Mha (2012), with clearing for agriculture first among the direct drivers (SRC-TG-767). That is about 86,000 ha a year (our arithmetic), so the two rates disagree. About half of the 3 Mha of collective land in the centre and south has been settled into private property (Gharbi 1998, cited in SRC-TG-781). Alfa steppe in the centre is down to 350,000 ha, and steppe rangelands and alfa steppes are "en régression constante", mainly through clearing for cereals and tree crops (SRC-TG-800). Irreversible land loss to the various forms of desertification: about 25,000 ha a year (SNDD 2014, cited in SRC-TG-800).
 - **Local case (Bled Amra, Gafsa, high steppes).** After allotment in 1977, private wells rose from 270 (1978) to 1,025 (1986) and 3,000 (2001). Aquifer exploitation rose from 13% to 182% and 18% of wells were abandoned. Between 20 and 30% of right-holders had to sell their land (Ben Saad 2002, cited in SRC-TG-806).
-- **How much is threatened: the sources disagree.**
-  - MEAT (1998): 94% of land is threatened, split into 24.6% lowly affected, 34.2% moderately, 18.3% highly and 22.9% already desertified (SRC-TG-805).
+- **Desertification hazard and sensitivity.**
+  - MEAT (1998): the seminar slide reports 94% across hazard classes: 24.6% lowly, 34.2% moderately, 18.3% highly affected and 22.9% already desertified (SRC-TG-805).
   - SNDD (2014): "plus des trois quarts" of the country is threatened (cited in SRC-TG-800).
   - PAN-LCD introduction: about 80% of agricultural land is threatened (SRC-TG-800).
 
-  These are sensitivity classes. The LADA project states that Tunisian maps show sensitivity to desertification, not desertification itself (SRC-TG-807). The national NDVI analysis for 2003-2009 gives a different picture: 78% of land showed no change in primary production, about 1.44 Mha (10%) declining productivity and about 12% improving (SRC-TG-800). The no-change class is mostly very arid land where cover is near zero, and the window is only seven years. This qualifies the headline figures rather than refuting them: they describe how much land is vulnerable, not how much is measurably degrading.
+  These hazard and sensitivity classes do not measure current degradation. The LADA project states that Tunisian maps show sensitivity to desertification, not desertification itself (SRC-TG-807). The national NDVI analysis for 2003-2009 gives a different picture: 78% of land showed no change in primary production, about 1.44 Mha (10%) declining productivity and about 12% improving (SRC-TG-800). The no-change class is mostly very arid land where cover is near zero, and the window is only seven years. These figures describe vulnerability and hazard mapping, not a measured current degraded area.
 - **Projection.** If the climate gets drier, steppes in the centre will lose much of their grazing function and those in the south may lose it entirely, pushing herds onto northern rangelands. Without rangeland improvement, the steppes' contribution to feed could fall to nothing between 2030 and 2050 (SRC-TG-800). This is a qualitative statement in a government document, so it is kept here as context and not filed as a separate predicted finding.
 
 ## Why confidence is what it is
@@ -149,8 +146,8 @@ The scale is often quoted as "94%" or "three quarters" of Tunisia being threaten
 Medium. The mechanism (privatisation, then ploughing, then wind erosion and overgrazing) is consistent across a CIHEAM synthesis (SRC-TG-806), two DG ACTA/FAO LADA reports (SRC-TG-803, SRC-TG-807) and the national programme (SRC-TG-800). The quantities are weak:
 
 - the wind-erosion areas have no source or year;
-- the conversion rate mixes conversion with overgrazing, and it disagrees with the 2005-2012 rangeland area series (34,000 vs about 86,000 ha/yr);
-- the "threatened" shares conflict (94% vs over 75%) and measure sensitivity.
+- the conversion rate mixes conversion with overgrazing, and it disagrees with the 2005-2012 rangeland area series (34,000 vs about 86,000 ha/yr); neither quantifies ploughing alone;
+- the hazard-class percentages include land already desertified and do not directly measure current degradation; the separate SNDD figure describes more than three quarters as threatened.
 
 No peer-reviewed time series of ploughed steppe area was opened. Trend is set to worsening because both the rangeland area series (SRC-TG-767) and the PAN-LCD ("en régression constante", SRC-TG-800) report continuing loss of steppe.
 

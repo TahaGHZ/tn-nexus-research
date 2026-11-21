@@ -39,4 +39,4 @@ Para. 6.15:
 
 ## Notes
 
-Bank self-evaluation of its own loan (ASAL I, approved 1986). The NPCs in para. 6.12 compare producer prices with the Bank's moving-average formula price; those in para. 6.13 compare with actual world prices of late 1987. The two series answer different questions and must not be mixed. The text file is OCR from a scanned original; obvious OCR errors (e.g. "Withie", "resoucces") are corrected above. Cereals-only NPCs; no aggregate PSE/NRA for all agriculture is given.
+Bank self-evaluation of its own loan (ASAL I, approved 1986). Para. 6.12 reports NPCs rising from .89/.98/.82 in 1980-85 to 1.04/1.03/.90 in 1988, but Annex 2 Table 1 shows the bases differ: early 1980s ratios are Actual/Import-equivalent; the formula row begins in 1986/87. Only the 1988 leg is against the moving-average formula. Para. 6.13 compares producer prices to actual world prices of late 1987. These series answer different questions and must not be mixed. The text file is OCR from a scanned original; obvious OCR errors (e.g. "Withie", "resoucces") are corrected above. Cereals-only NPCs; no aggregate PSE/NRA for all agriculture is given.

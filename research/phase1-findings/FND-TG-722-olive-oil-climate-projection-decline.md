@@ -1,110 +1,134 @@
 ---
 id: FND-TG-722
-title: "The national adaptation study projects Tunisian olive oil output 11-35% below its modelled reference by 2050 and 20-70% below by 2100, with yield losses up to 51-86% in the Sfax-Kairouan-Sidi Bouzid-Mahdia core under RCP8.5"
-status: draft
-sectors: [agriculture, water]
+title: The national adaptation study projects Tunisian olive oil output 11-35% below its modelled reference by 2050 and 20-70% below by 2100,
+  with yield losses up to 51-86% in the Sfax-Kairouan-Sidi Bouzid-Mahdia core under RCP8.5
+status: in-review
+sectors:
+  - agriculture
+  - water
 theme: olives
 timeframe: predicted
-period: "horizon 2050 (2036-2065) and 2100 (2071-2100)"
-geography: [national, centre-east, centre-west, south-west]
+period: horizon 2050 (2036-2065) and 2100 (2071-2100)
+geography:
+  - national
+  - centre-east
+  - centre-west
+  - south-west
 severity: critical
 trend: worsening
 confidence: medium
 root_causes:
-  - cause: "Warming of +1.5 to +1.9°C by 2050 and +1.9 to +3.9°C by 2100, and annual rainfall down 6-9% by 2050 and 9-18% by 2100 (vs 1981-2010). This brings more heatwave days with water stress, more days above 40°C, and milder winters that threaten the chill requirement for flowering, in the Centre and South, which give 77% of output."
+  - cause: Warming of +1.5 to +1.9°C by 2050 and +1.9 to +3.9°C by 2100, and annual rainfall down 6-9% by 2050 and 9-18% by 2100 (vs 1981-2010).
+      This brings more heatwave days with water stress, more days above 40°C, and milder winters that threaten the chill requirement for flowering,
+      in the Centre and South, which give 77% of output.
     type: climatic
     legacy_decision: false
-    sources: [SRC-TG-729, SRC-TG-886]
-  - cause: "Exposure is high because production is concentrated in rainfed groves in arid and semi-arid central and southern governorates (see FND-TG-720)."
+    sources:
+      - SRC-TG-729
+      - SRC-TG-886
+  - cause: Exposure is high because production is concentrated in rainfed groves in arid and semi-arid central and southern governorates (see
+      FND-TG-720).
     type: technical
     legacy_decision: true
-    sources: [SRC-TG-886, SRC-TG-726]
-  - cause: "The main expected offset, expansion of irrigated area, depends on conventional water resources that the same study expects to decline."
+    sources:
+      - SRC-TG-886
+      - SRC-TG-726
+  - cause: The main expected offset, expansion of irrigated area, depends on conventional water resources that the same study expects to decline.
     type: institutional
     legacy_decision: false
-    sources: [SRC-TG-886]
+    sources:
+      - SRC-TG-886
 indicators:
-  - name: "Study's modelled reference olive oil production (reference climate 1981-2010, 2015-2017 area)"
-    value: 207
-    unit: "1,000 t/yr"
-    year: "reference"
-    geography: national
-    source: SRC-TG-886
-  - name: "Simulated national oil-olive yield, reference period"
-    value: 663
-    unit: "kg olives/ha"
-    year: "reference"
-    geography: national
-    source: SRC-TG-886
-  - name: "Simulated national oil-olive yield change, RCP4.5 2050 / 2100"
-    value: "-17% / -26%"
-    unit: "% vs reference"
-    year: "2050, 2100"
-    geography: national
-    source: SRC-TG-886
-  - name: "Simulated national oil-olive yield change, RCP8.5 2050 / 2100"
-    value: "-32% / -61%"
-    unit: "% vs reference"
-    year: "2050, 2100"
-    geography: national
-    source: SRC-TG-886
-  - name: "Projected olive oil production, constant area, RCP4.5 2050 / 2100"
-    value: "184 / 165 (-11% / -20%)"
-    unit: "1,000 t/yr"
-    year: "2050, 2100"
-    geography: national
-    source: SRC-TG-886
-  - name: "Projected olive oil production, constant area, RCP8.5 2050 / 2100"
-    value: "148 / 82 (-28% / -60%)"
-    unit: "1,000 t/yr"
-    year: "2050, 2100"
-    geography: national
-    source: SRC-TG-886
-  - name: "Projected olive oil production, variable (climatically suitable) area, RCP4.5 2050 / 2100"
-    value: "158 / 149 (-23% / -28%)"
-    unit: "1,000 t/yr"
-    year: "2050, 2100"
-    geography: national
-    source: SRC-TG-886
-  - name: "Projected olive oil production, variable area, RCP8.5 2050 / 2100"
-    value: "134 / 61 (-35% / -70%)"
-    unit: "1,000 t/yr"
-    year: "2050, 2100"
-    geography: national
-    source: SRC-TG-886
-  - name: "Projected yield loss by 2100 in Sfax, Sidi Bouzid, Kairouan and Mahdia, RCP4.5"
-    value: "21-40"
-    unit: "% vs reference"
-    year: 2100
-    geography: centre-east
-    source: SRC-TG-886
-  - name: "Projected yield loss by 2100 in Sfax, Sidi Bouzid, Kairouan and Mahdia, RCP8.5"
-    value: "51-86"
-    unit: "% vs reference"
-    year: 2100
-    geography: centre-east
-    source: SRC-TG-886
-  - name: "Median loss of climatically favourable olive area, RCP8.5 2100 (up to 34%)"
+  - name: Median loss of climatically favourable olive area, RCP8.5 2100 (up to 34%)
     value: 14
-    unit: "%"
+    unit: '%'
+    year: 2100
+    geography: national
+    source: SRC-TG-886
+  - name: Modelled olive-oil production, RCP4.5, constant area
+    value: 184
+    unit: thousand tonnes/year
+    year: 2050
+    geography: national
+    source: SRC-TG-886
+  - name: Modelled olive-oil production, RCP4.5, constant area
+    value: 165
+    unit: thousand tonnes/year
+    year: 2100
+    geography: national
+    source: SRC-TG-886
+  - name: Modelled olive-oil production, RCP8.5, constant area
+    value: 148
+    unit: thousand tonnes/year
+    year: 2050
+    geography: national
+    source: SRC-TG-886
+  - name: Modelled olive-oil production, RCP8.5, constant area
+    value: 82
+    unit: thousand tonnes/year
+    year: 2100
+    geography: national
+    source: SRC-TG-886
+  - name: Modelled olive-oil production, RCP4.5, climate-suitable area
+    value: 158
+    unit: thousand tonnes/year
+    year: 2050
+    geography: national
+    source: SRC-TG-886
+  - name: Modelled olive-oil production, RCP4.5, climate-suitable area
+    value: 149
+    unit: thousand tonnes/year
+    year: 2100
+    geography: national
+    source: SRC-TG-886
+  - name: Modelled olive-oil production, RCP8.5, climate-suitable area
+    value: 134
+    unit: thousand tonnes/year
+    year: 2050
+    geography: national
+    source: SRC-TG-886
+  - name: Modelled olive-oil production, RCP8.5, climate-suitable area
+    value: 61
+    unit: thousand tonnes/year
     year: 2100
     geography: national
     source: SRC-TG-886
 projection:
-  horizon: "2050 (2036-2065) and 2100 (2071-2100)"
-  scenario: "RCP4.5 (12 climate models) and RCP8.5 (18 climate models), current technology"
-  method: "Olive yield modelling (method in annex 4 of the study, not opened), applied to the 2015-2017 olive area (constant-area case) or to areas shifted by climatic-suitability mapping (variable-area case). Olives converted to oil at 20%. No separation of irrigated and rainfed groves; 15 years of observations."
+  horizon: 2050 (2036-2065) and 2100 (2071-2100)
+  scenario: RCP4.5 (12 climate models) and RCP8.5 (18 climate models), current technology
+  method: Olive yield modelling (method in annex 4 of the study, not opened), applied to the 2015-2017 olive area (constant-area case) or to areas
+    shifted by climatic-suitability mapping (variable-area case). Olives converted to oil at 20%. No separation of irrigated and rainfed groves;
+    15 years of observations.
   source: SRC-TG-886
-stakeholders: ["olive farmers in Sfax, Sidi Bouzid, Kairouan, Mahdia and the South", "seasonal harvest workers, many of them rural women", "MARHP (national adaptation plan)", "ONH", "Institut de l'Olivier", "water managers (CRDA, DGRE)"]
-related: [FND-TG-720, FND-TG-721, FND-TG-880, FND-TG-701]
-sources: [SRC-TG-886, SRC-TG-729, SRC-TG-881, SRC-TG-720, SRC-TG-726, SRC-TG-724]
+stakeholders:
+  - olive farmers in Sfax, Sidi Bouzid, Kairouan, Mahdia and the South
+  - seasonal harvest workers, many of them rural women
+  - MARHP (national adaptation plan)
+  - ONH
+  - Institut de l'Olivier
+  - water managers (CRDA, DGRE)
+related:
+  - FND-TG-720
+  - FND-TG-721
+  - FND-TG-880
+  - FND-TG-701
+sources:
+  - SRC-TG-720
+  - SRC-TG-724
+  - SRC-TG-726
+  - SRC-TG-729
+  - SRC-TG-881
+  - SRC-TG-886
 data_gaps:
-  - "No peer-reviewed, process-based olive yield model for Tunisia was opened. The projections rest on one ministry/AFD consultancy study (tier B), whose olive yield method (annex 4) was not in the opened PDF."
-  - "The ITCEQ (2024) projection of olive production losses to 2050 is reported in the press either as 2.3% per year or as 23% over 2022-2050. The report was not found or opened."
-  - "ONAGRI report cited in the press (March 2022), with 61 kt and 149 kt by 2100. These match Table 22 of SRC-TG-886 (RCP8.5 and RCP4.5, 2100), so it is probably the same study, but the ONAGRI document itself was not opened."
-  - "Olive-specific uncertainty band: the plus or minus 15% given by the study is stated for cereals; no figure was found for olives."
-  - "Projected olive water demand and the sustainable groundwater yield available for irrigated olive expansion by region."
-  - "Projections that include adaptation such as drought-tolerant cultivars, supplemental irrigation or northward relocation."
+  - No peer-reviewed, process-based olive yield model for Tunisia was opened. The projections rest on one ministry/AFD consultancy study (tier
+    B), whose olive yield method (annex 4) was not in the opened PDF.
+  - The ITCEQ (2024) projection of olive production losses to 2050 is reported in the press either as 2.3% per year or as 23% over 2022-2050.
+    The report was not found or opened.
+  - ONAGRI report cited in the press (March 2022), with 61 kt and 149 kt by 2100. These match Table 22 of SRC-TG-886 (RCP8.5 and RCP4.5, 2100),
+    so it is probably the same study, but the ONAGRI document itself was not opened.
+  - 'Olive-specific uncertainty band: the plus or minus 15% given by the study is stated for cereals; no figure was found for olives.'
+  - Projected olive water demand and the sustainable groundwater yield available for irrigated olive expansion by region.
+  - Projections that include adaptation such as drought-tolerant cultivars, supplemental irrigation or northward relocation.
 author: TahaGHZ
 ---
 
@@ -146,3 +170,7 @@ Medium. The direction (decline) is consistent across the summary note, the full 
 - Intercropping cereals between olive trees, named in SRC-TG-886
 - ClimOliveMed (2021-2026) and AGRO-ECOLIVMED (PRIMA, from 2026) research on olive adaptation (SRC-TG-724)
 - Northward shift of olive suitability, with area growth in the Centre and North (SRC-TG-886)
+
+## Verification
+
+Reopened the national adaptation study, printed p. 105, Tables 21–22. Relative to the 207 kt oil reference, the 2050 outputs span 134–184 kt, and the 2100 outputs span 61–165 kt. The source converts olives to oil at 20% by weight. These are conditional projections under two pathways and two area assumptions, not observed harvests.

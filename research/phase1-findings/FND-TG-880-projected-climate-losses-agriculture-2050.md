@@ -1,7 +1,7 @@
 ---
 id: FND-TG-880
 title: "Warming and drying are projected to cut Tunisian agricultural output and value added by roughly 15-33% by 2030-2050, but the circulating headline numbers trace back to two studies, and some are quoted at the wrong horizon or do not match the study they cite"
-status: draft
+status: in-review
 sectors: [agriculture, water]
 theme: drought-climate
 timeframe: predicted

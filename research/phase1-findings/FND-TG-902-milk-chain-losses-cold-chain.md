@@ -1,7 +1,7 @@
 ---
 id: FND-TG-902
 title: "About 7-10% of milk is lost between farm and dairy in Bizerte and Mahdia, mostly at collection and processing, with on-farm cooling on fewer than one farm in six"
-status: draft
+status: in-review
 sectors: [agriculture, water]
 theme: food-loss
 timeframe: current
@@ -15,12 +15,16 @@ root_causes:
     type: technical
     legacy_decision: false
     sources: [SRC-TG-902]
-  - cause: "Milk refused at collection centres and dairies on quality grounds (acceptance standards, microbiological quality, antibiotic residues, fraud), applied unevenly across seasons"
+  - cause: "Milk quality problems associated with milking hygiene, antibiotic residues and fraud, alongside acceptance standards applied unevenly across seasons, contribute to milk loss through refusal at collection centres and dairies"
     type: institutional
     legacy_decision: false
     sources: [SRC-TG-902]
   - cause: "Long waits for milk reception at dairies in the high-lactation season, when supply exceeds processing and collection capacity"
     type: technical
+    legacy_decision: false
+    sources: [SRC-TG-902]
+  - cause: "Limited farm financing constrains loss prevention; this was the most frequently named cause by surveyed Mahdia farmers"
+    type: economic
     legacy_decision: false
     sources: [SRC-TG-902]
 indicators:
@@ -48,7 +52,7 @@ indicators:
     year: 2017
     geography: "bizerte, mahdia"
     source: SRC-TG-902
-  - name: "Loss rate at collection"
+  - name: "Loss rate at collection (transport + collection centres)"
     value: "4.38 (Bizerte); 2.65 (Mahdia)"
     unit: "%"
     year: 2017
@@ -90,7 +94,6 @@ sources: [SRC-TG-902, SRC-TG-903, SRC-TG-904, SRC-TG-906, SRC-TG-908, SRC-TG-909
 data_gaps:
   - "No national milk loss estimate: the FAO study covers two governorates (Bizerte, Mahdia) and one survey season (July-October 2017)."
   - "The summary rates (9.1% / 6.5%) and the table totals (9.84% / 6.88%) in the same FAO report are not reconciled; the table totals are a simple sum of stage rates on different volume bases."
-  - "Press reports of the same study give a Bizerte collection-centre rate of 2.28% (SRC-TG-908) against 4.38% in the report's Tableau 13."
   - "Whether the dairy-chain loss-reduction charter supported by the FAO project (SRC-TG-904) was signed and implemented, and any follow-up loss measurement: not found."
   - "A full water footprint of lost milk: the report's 10 L/L coefficient is unreferenced and far narrower than feed and drinking water; no Tunisian dairy water footprint source was opened."
   - "Losses after the dairy (retail, households): household dairy waste was reported at 2.3% of purchases in the INC 2016 survey (SRC-TG-906), but no retail figure was found."
@@ -99,19 +102,19 @@ author: TahaGHZ
 
 ## Problem
 
-The only measured estimate of milk losses in Tunisia, an FAO case study of the Bizerte and Mahdia milk chains surveyed in July-October 2017 and published in 2021, finds that 9.1% of milk is lost in Bizerte and 6.5% in Mahdia between farm and processed product, according to its summary (SRC-TG-902). Its own summary tables give 9.84% and 6.88%, which are simple sums of stage rates (SRC-TG-902). Both versions are recorded. The losses total 20.1 million litres of milk a year in the two governorates, worth 21.13 million TND, or 729 TND per farmer a year in Bizerte and 1,220 TND in Mahdia (SRC-TG-902). The FAO describes this, with the cereal study, as the first-ever loss estimate for these chains in Tunisia (SRC-TG-904).
+The only measured estimate of milk losses in Tunisia, an FAO case study of the Bizerte and Mahdia milk chains surveyed in July-October 2017 and published in 2021, finds that 9.1% of milk is lost in Bizerte and 6.5% in Mahdia between farm and processed product, according to its summary (SRC-TG-902). Its own summary tables give 9.84% and 6.88%, which are simple sums of stage rates (SRC-TG-902). Both versions are recorded. The losses total 20.1 million litres of milk a year in the two governorates, worth 21.13 million TND (SRC-TG-902). Table 13 uses a 180-million-litre transformation base for Mahdia against 130 million litres of local production; this suggests some milk processed there came from outside the governorate. The 1,220 TND per-farmer shortfall in Mahdia includes this dairy-stage loss (SRC-TG-902). The FAO describes this, with the cereal study, as the first-ever loss estimate for these chains in Tunisia (SRC-TG-904).
 
 ## Root causes
 
 - **No cold chain on the farm.** Only 3.7% of surveyed farms in Mahdia and 16.3% in Bizerte have milk cooling (SRC-TG-902). Milk that is not cooled loses quality before collection. One of the FAO's recommendations for producers is to develop on-farm cooling for small and medium farms with the involvement of dairies and collection centres (SRC-TG-902).
-- **Refusals on quality.** Most loss happens after the farm: 4.38% (Bizerte) and 2.65% (Mahdia) at collection, and 3.5% at industrial dairies, of which 3% is milk refused and 0.5% is processing loss (SRC-TG-902). Causes named in the survey include acceptance standards, microbiological quality, antibiotic residues and fraud, and the FAO recommends harmonising the application of acceptance standards across seasons (SRC-TG-902).
+- **Quality-related losses.** Most loss happens after the farm: 4.38% (Bizerte) and 2.65% (Mahdia) at collection, and 3.5% at industrial dairies, of which 3% is milk refused and 0.5% is processing loss (SRC-TG-902). The report identifies milking hygiene, antibiotic residues and fraud among the underlying issues, and the FAO recommends harmonising acceptance standards across seasons (SRC-TG-902). The report says 33 Bizerte farmers named antibiotic residues and 24 named high lactation; in Mahdia, lack of financing was the most frequently named cause (59 farmers) (SRC-TG-902).
 - **Seasonal glut.** The FAO recommends reducing the time milk waits for reception at dairies in the high-lactation season (SRC-TG-902), which points to processing and collection capacity that does not match seasonal supply.
 
 These are technical and organisational causes. No past policy decision is identified in the sources as their origin; milk is on the list of subsidised goods (SRC-TG-903), but no source links the subsidy to chain losses.
 
 ## Evidence
 
-Stage rates from Tableau 13 (SRC-TG-902): farm 1.96% (Bizerte) and 0.73% (Mahdia); collection 4.38% and 2.65%; processing 3.50% in both. Lost volumes: 9.75 million litres in Bizerte and 10.35 million litres in Mahdia. Value: 9.85 and 11.28 million TND. Press summaries of the same study report 9% and 6.5% (SRC-TG-909) and a Bizerte collection-centre rate of 2.28% (SRC-TG-908), which differs from the report's table.
+Stage rates from Tableau 13 (SRC-TG-902): farm 1.96% (Bizerte) and 0.73% (Mahdia); collection 4.38% and 2.65%; processing 3.50% in both. The collection stage combines transport losses (2.10% and 0.84%) with collection-centre losses (2.28% and 1.81%, Tableau 12); press SRC-TG-908 reports the collection-centre sub-stage. Lost volumes: 9.75 million litres in Bizerte and 10.35 million litres in Mahdia. Value: 9.85 and 11.28 million TND. Mahdia's processing loss is 6.30 million litres (7.56 million TND), about 61% of its reported 10.35-million-litre total; Tableau 13 shows a 180-million-litre transformation base against 130 million litres of local production, suggesting some milk processed there came from elsewhere (SRC-TG-902).
 
 ## Why confidence is what it is
 
@@ -127,5 +130,5 @@ Medium. The source is an FAO technical report (tier B) based on a field survey o
 - FAO action plans for each actor in Bizerte and Mahdia (producers, collection centres and transporters, dairies), adopted at regional and national workshops (SRC-TG-902)
 - Developing on-farm cooling for small and medium farms, a premium for cooled milk between farmer and collection centre, and chain financing (SRC-TG-902)
 - Charter between dairies (centrales laitières) to apply acceptance standards all year (SRC-TG-902) and FAO support for loss-reduction charters in the milk chain (SRC-TG-904)
-- Quality bonuses already paid at collection (bonus for low total germ counts, loyalty premium) (SRC-TG-902)
+- Quality-based payment by the Vitalait dairy (Mahdia) to farmers and to collection centres (SRC-TG-902)
 - FAO guide on good practices for reducing losses in dairies (seen on the FAO Near East platform, not opened)

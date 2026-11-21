@@ -53,4 +53,4 @@ English gloss: a lessee who breaches lease conditions loses the right three mont
 
 ## Notes
 
-The scan's running header reads "N° 15 Journal Officiel de la République Tunisienne - 21 février 1995" with page 367, confirming the JORT reference. Amended by law 96-48 of 10 June 1996 and law 98-11 (not opened). OCR of the scan is poor; extracts were transcribed from the OCR with obvious character errors corrected and should be checked against a clean JORT copy before validation. Template type "official-statistics" is used for legislation for lack of a "legislation" type.
+The scan's running header reads "N° 15 Journal Officiel de la République Tunisienne - 21 février 1995" with page 367, confirming the JORT reference. Amended by law 96-48 of 10 June 1996 and law 98-11 (not opened). OCR of the scan is poor; extracts match the OCR with obvious character errors corrected. No clean copy was found. Law 98-11 has not been checked; article 33 of the 1995 law repeals the 1948 decree and Law 70-25, while article 17 refers to those instruments for regularisation sales. Template type "official-statistics" is used for legislation for lack of a "legislation" type.

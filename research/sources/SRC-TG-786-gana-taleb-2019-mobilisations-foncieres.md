@@ -1,11 +1,11 @@
 ---
 id: SRC-TG-786
 title: "Mobilisations foncières en Tunisie : révélateur des paradoxes de l'après « révolution »"
-publisher: "Confluences Méditerranée n° 108 (2019/1), pp. 31-46; authors Alia Gana, Marouen Taleb; doi 10.3917/come.108.0031; HAL halshs-02432762"
+publisher: "Confluences Méditerranée n° 108 (2019/1), pp. 31-46; authors Alia Gana, Maouen Taleb; doi 10.3917/come.108.0031; HAL halshs-02432762"
 year: 2019
 type: peer-reviewed
 tier: A
-url: https://halshs.archives-ouvertes.fr/halshs-02432762v1/file/MOBILISATIONS%20FONCIERES%20EN%20TUNISIE_Gana_Taleb_2019.pdf
+url: https://web.archive.org/web/2id_/https://halshs.archives-ouvertes.fr/halshs-02432762/document
 accessed: 2026-11-21
 language: fr
 added_by: TahaGHZ
@@ -57,4 +57,4 @@ English gloss: from January 2011 Jemna residents occupied a state palm grove pre
 
 ## Notes
 
-Peer-reviewed political-geography article. Several figures come from interviews with Ministry of State Domains officials and from DGIA data (footnote 16); some claims about clientelism come from interviews and press. The date of creation of the Jemna association (March 2012) differs from Vico 2021 (SRC-TG-787), which places it right after 14 January 2011.
+Peer-reviewed political-geography article. HAL and Cairn were bot-blocked/returned 403; the full PDF was checked through this Wayback snapshot: https://web.archive.org/web/2id_/https://halshs.archives-ouvertes.fr/halshs-02432762/document. Several figures come from interviews with Ministry of State Domains officials and from DGIA data (footnote 16); some claims about clientelism come from interviews and press. The date of creation of the Jemna association (March 2012) differs from Vico 2021 (SRC-TG-787), which places it right after 14 January 2011.

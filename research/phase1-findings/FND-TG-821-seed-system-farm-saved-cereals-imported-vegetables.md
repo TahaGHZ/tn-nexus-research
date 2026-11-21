@@ -1,7 +1,7 @@
 ---
 id: FND-TG-821
-title: "Cereal seed is not import-dependent: over 80% of wheat seed is farm-saved and certified seed adoption is below 20%. Vegetable seed is imported (US$16 million in 2023), and loss of local varieties is reported but not measured"
-status: draft
+title: "Cereal seed is not import-dependent: over 80% of wheat seed is farm-saved and certified seed adoption is below 20%. Vegetable seed imports were US$16 million in 2023; local variety loss is reported but unmeasured"
+status: in-review
 sectors: [agriculture]
 theme: inputs
 timeframe: current
@@ -15,24 +15,16 @@ root_causes:
     type: institutional
     legacy_decision: false
     sources: [SRC-TG-827]
-  - cause: "Law 99-42 (1999) allows only seed of varieties listed in the official catalogue (distinct, stable, uniform, with significant cultivation value) to be marketed. This shapes which seed can be sold formally; its effect on local varieties is not documented"
-    type: policy
-    legacy_decision: true
-    sources: [SRC-TG-829, SRC-TG-828]
-  - cause: "Traditional varieties have been abandoned in favour of improved commercial seed and intensive cropping; in the Kebili oases, Deglet Nour dominance threatens other date varieties"
-    type: economic
-    legacy_decision: false
-    sources: [SRC-TG-830, SRC-TG-828]
 indicators:
   - name: Certified cereal seed adoption
-    value: "<20"
-    unit: percent of national use (below 30% in irrigated or high-potential areas)
+    value: 20
+    unit: percent of national use (below; below 30% in irrigated or high-potential areas)
     year: 2023
     geography: national
     source: SRC-TG-827
   - name: Share of wheat seed from farm-saved or informal channels
-    value: ">80"
-    unit: percent
+    value: 80
+    unit: percent (above)
     year: 2023
     geography: national
     source: SRC-TG-827
@@ -62,8 +54,8 @@ indicators:
     source: SRC-TG-830
   - name: Samples repatriated from foreign gene banks
     value: 7754
-    unit: samples
-    year: 2009-2021
+    unit: samples (cumulative total over period)
+    year: "2009-2021"
     geography: national
     source: SRC-TG-830
 stakeholders: [cereal farmers, vegetable growers, Office des Céréales, Direction Générale de la Production Agricole (DGPA), INRAT, Banque Nationale des Gènes (BNG), seed companies and collectors-distributors, foreign seed suppliers, ministry of agriculture (official catalogue)]
@@ -73,6 +65,7 @@ data_gaps:
   - "Share of imported seed in vegetable seed used (and share of F1 hybrids); trade data give value, not the share of needs. Claims of near-total dependence (for example 99% imported) were seen only in a 2015 press snippet and are not sourced."
   - "Seed potato import volumes and dependence; not researched."
   - "Any measure of genetic erosion (number of local varieties or area lost); the 2024 national treaty report states erosion assessment lacks baselines and standard criteria."
+  - "The gene-bank director's report that traditional varieties were abandoned in favour of commercial seed is a 2026 press account and is not independently corroborated here; some local varieties reportedly yield less."
   - "Evidence that the catalogue rule of law 99-42 (art. 9) has excluded landraces from the market; advocacy sources claim it but none was opened, so the causal link is not established."
   - "Whether farmers' right to save, exchange and sell farm seed is protected in practice; the treaty report leaves that question blank."
   - "Yield gap between certified and farm-saved wheat seed in Tunisia."
@@ -93,9 +86,9 @@ For **vegetables**, seed for sowing is imported: 372.6 t worth US$16.3 million i
 
 ## Root causes
 
-- **Cereal seed system (current, institutional).** The wheat seed system is highly centralised around the Office des Céréales and the DGPA, with regional services, cooperatives and collectors on the margins. That limits local adaptation and the spread of certified seed (SRC-TG-827). The symptom is the low adoption rate, and the cause sits in how production, information and distribution are organised.
-- **Seed law of 1999 (past decision).** Law 99-42 of 10 May 1999 (JORT no. 39, 14 May 1999, p. 706) replaced the 1976 law. It created an official catalogue for varieties that are distinct, stable, uniform and of significant cultivation value (art. 4), and it allows only seed of catalogued varieties to be marketed (art. 9). It also provides for the protection of plant varieties at their breeders' request (art. 15) (SRC-TG-829). This frames the formal market. Whether it pushed landraces out cannot be shown from the sources opened (see data_gaps).
-- **Variety replacement (economic and behavioural).** Commercial improved seed has displaced traditional varieties (SRC-TG-830). In the Kebili oases, Deglet Nour dominance makes most common date varieties rare (SRC-TG-828; see FND-TG-740).
+- **Cereal seed system (current, institutional).** The wheat seed system is highly centralised around the Office des Céréales and the DGPA, with regional services, cooperatives and collectors on the margins. The paper argues this limits local adaptability and innovation adoption (SRC-TG-827); the low certified-seed adoption figure is consistent with that diagnosis but is not shown to result from centralisation alone.
+- **Seed law (context, effect unproven).** Law 99-42 of 10 May 1999 (JORT no. 39, 14 May 1999, p. 706) replaced the 1976 law. It created an official catalogue for varieties that are distinct, stable, uniform and of significant cultivation value (art. 4), and allows only seed of catalogued varieties to be marketed (art. 9) (SRC-TG-829). Its effect on local varieties is not established in the sources opened.
+- **Reported variety replacement (low confidence).** The gene bank reports that traditional varieties have been abandoned in favour of improved commercial seed, while noting that some local varieties yield less (SRC-TG-830). The treaty report's Deglet Nour example is about date palms and belongs to the dates-and-oases finding, not cereal or vegetable seed (SRC-TG-828; see FND-TG-740).
 - **Vegetable seed imports.** Imports are recorded (SRC-TG-824), but the export query returned no record, which counts as missing data rather than zero. Why vegetable seed is imported (breeding capacity, F1 hybrids, plant breeders' rights) was not documented.
 
 ## Evidence

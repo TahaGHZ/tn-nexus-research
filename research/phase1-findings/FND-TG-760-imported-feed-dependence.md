@@ -1,7 +1,7 @@
 ---
 id: FND-TG-760
 title: "Tunisian livestock runs on imported feed: all maize and soybeans and, in drought years, most barley come from abroad, so world prices, the dinar and import disruptions pass straight into farm costs"
-status: draft
+status: in-review
 sectors: [agriculture]
 theme: livestock-feed
 timeframe: current
@@ -14,7 +14,7 @@ root_causes:
   - cause: "Early-1990s dairy and livestock policy guaranteed a regular supply of concentrate feed mainly through imports, building intensive systems on maize and soybean meal that Tunisia does not grow"
     type: policy
     legacy_decision: true
-    sources: [SRC-TG-760]
+    sources: [SRC-TG-760, SRC-TG-921]
   - cause: "Domestic barley and forage depend on rainfall; in drought years barley output collapses and the gap is imported"
     type: climatic
     legacy_decision: false
@@ -124,34 +124,34 @@ indicators:
     year: 2021
     geography: national
     source: SRC-TG-706
-  - name: "Projected livestock feed demand, 2035 (cited from SOLIDAR and WFP 2020)"
-    value: "double"
+  - name: "Scenario assumption: projected livestock feed demand by 2035 (cited from SOLIDAR and WFP 2020; base year unspecified)"
+    value: 2
     unit: multiple of current demand
     year: 2035
     geography: national
     source: SRC-TG-706
 stakeholders: [poultry farmers, dairy farmers, sheep and goat herders, feed millers, Office des Céréales, Ministry of Agriculture, Ministry of Commerce, Central Bank (foreign exchange)]
 related: [FND-TG-761, FND-TG-762, FND-TG-700, FND-TG-701, FND-TG-702, FND-TG-920, FND-TG-860]
-sources: [SRC-TG-760, SRC-TG-763, SRC-TG-764, SRC-TG-704, SRC-TG-706, SRC-TG-766, SRC-TG-921]
+sources: [SRC-TG-760, SRC-TG-763, SRC-TG-764, SRC-TG-704, SRC-TG-706, SRC-TG-766, SRC-TG-921, SRC-TG-771]
 data_gaps:
   - "Total feed import bill (maize + soybean/meal + barley) in TND and USD for 2022-2025 from INS/customs: ONAGRI's monthly trade balances give cereal shares only in a chart whose labels could not be matched to products"
   - "Breakdown of maize and barley use by species (poultry, dairy cattle, sheep); only the 70% poultry share of soybean meal is sourced"
   - "Share of imported feed in total livestock feed units (national bilan fourrager by OEP); ITES prints '30% des besoins', which reads oddly next to 'en grande partie importés' and was not confirmed"
   - "Dinar exchange rate path and its isolated contribution to feed costs; ITES names devaluation as a factor but gives no figure"
-  - "FAOSTAT trade series (server unreachable on 2026-11-21) to cross-check USDA volumes"
+  - "UN Comtrade calendar-year cross-check (SRC-TG-771) differs from USDA market-year estimates: 2024 soybeans 343 thousand t versus USDA MY 2024/25 507 thousand t; calendar years and market years are not directly comparable. Comtrade maize: 994 thousand t (2021), 975 thousand t (2023); soybeans: 544 thousand t (2021), 533 thousand t (2023); soybean meal: 75 thousand t (2021), 100 thousand t (2023), 122 thousand t (2024); barley: 1,009 thousand t (2021), 1,430 thousand t (2023), 745 thousand t (2024)."
 author: TahaGHZ
 ---
 
 ## Problem
 
-Tunisia grows essentially no maize and no soybeans. In MY 2024/25 it imported 1,033 thousand t of maize, all of it for feed (SRC-TG-763), 507 thousand t of soybeans for crushing and 158 thousand t of soybean meal (SRC-TG-764). Barley is the main home-grown feed grain, but it fails in dry years. The 2023 drought harvest gave 90 thousand t against domestic use of 965 thousand t, and 774 thousand t were imported (SRC-TG-763). Only 108 thousand of the 332 thousand ha seeded to barley were harvested (SRC-TG-704). As a result, feed costs follow world grain prices, the dinar and import logistics. ITES reports that feed import values rose 75% between 2019 and 2021. It attributes this mainly to larger volumes (soybean meal +85%, barley +64%), plus world price volatility and the dinar's devaluation; USDA volume data do not confirm the barley volume jump (see Evidence). Concentrate prices were 35% higher in 2022 than in 2019 (SRC-TG-706). In 2022 a fall in barley imports caused a temporary feed shortage, which reduced milk availability and produced "light shortages for a few weeks" (SRC-TG-706).
+Tunisia grows essentially no maize and no soybeans. In MY 2024/25 it imported 1,033 thousand t of maize, all of it for feed (SRC-TG-763), 507 thousand t of soybeans (447 thousand t crushed and about 75 thousand t fed directly as full-fat or expeller meal) and 158 thousand t of soybean meal (SRC-TG-764). Barley is the main home-grown feed grain, but it fails in dry years. The 2023 drought harvest gave 90 thousand t against domestic use of 965 thousand t, and 774 thousand t were imported (SRC-TG-763). Only 108 thousand of the 332 thousand ha seeded to barley were harvested (SRC-TG-704). As a result, feed costs follow world grain prices, the dinar and import logistics. ITES reports that feed import values rose 75% between 2019 and 2021. It attributes this mainly to larger volumes (soybean meal +85%, barley +64%), plus world price volatility and the dinar's devaluation; USDA volume data do not confirm the barley volume jump (see Evidence). Concentrate prices were 35% higher in 2022 than in 2019 (SRC-TG-706). In 2022 a fall in barley imports partly caused a temporary feed shortage, which reduced milk availability and produced "light shortages for a few weeks"; ITES says intermediaries’ opportunism and some traders’ speculation appear to have worsened the temporary crisis (SRC-TG-706).
 
 ## Root causes
 
-- **Past decision (legacy):** in the early 1990s the dairy take-off rested on several measures. These included facilities to import dairy cows and a "guaranteed regular supply of concentrate feed, mainly through imports" (SRC-TG-760). Intensive dairy, and the poultry industry fed on maize and soybean meal, were built on imported inputs from the start. Feed input subsidies were then cut under structural adjustment. They peaked at 49 million TND in the 1989 drought and fell to 4 million TND in 1992-93 (SRC-TG-921). The cuts removed the price buffer but left the import dependence in place (see FND-TG-920).
+- **Past decision (legacy):** in the early 1990s the dairy take-off rested on several measures. These included facilities to import dairy cows and a "guaranteed regular supply of concentrate feed, mainly through imports" (SRC-TG-760). Intensive dairy and poultry systems use imported inputs; the World Bank report also notes corn and soybean meal benefit poultry and dairy operations, especially larger farms (SRC-TG-921). Feed input subsidies were then cut under structural adjustment. They peaked at 49 million TND in the 1989 drought and fell to 4 million TND in 1992-93 (SRC-TG-921). The cuts removed the price buffer but left the import dependence in place (see FND-TG-920).
 - **Climate (driver of the barley gap):** barley and roughage are rainfed. In drought years barley output collapses (SRC-TG-763) and roughage production falls, so farmers rely more on compound feed (ministry, SRC-TG-766).
 - **Economics:** feed is bought in foreign currency. ITES names world price volatility and dinar devaluation alongside import volumes (SRC-TG-706).
-- **Demand growth:** USDA expects soybean demand to keep rising with animal-protein demand (SRC-TG-764). ITES cites a doubling of feed demand by 2035 (SRC-TG-706).
+- **Demand growth:** USDA expects soybean demand to keep rising with animal-protein demand (SRC-TG-764). ITES cites a scenario assumption of doubled feed demand by 2035, with no base year specified (SRC-TG-706).
 
 The symptom is that "feed is expensive or short". The cause is a production model built on grains Tunisia does not grow, plus rainfed barley that fails when it is most needed.
 

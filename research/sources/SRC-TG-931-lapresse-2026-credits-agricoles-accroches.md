@@ -29,4 +29,4 @@ English gloss: (BNA) whose loans to agriculture do not exceed 7% of its portfoli
 
 ## Notes
 
-Tier C. The article does not say which institution produced the TND 4.4 billion estimate or its reference date. Treat as indicative only.
+Tier C. The article says the TND 4.4 billion / 21.5% figures were revealed at a parliamentary study day in January 2026. A separate Tunisie Numérique report on 12 January 2026 (SRC-TG-933) quotes BCT officials reporting agricultural credit outstanding of about TND 4,600 million at end-November 2025. The 4.4 billion figure is likely outstanding credit (including performing loans), not arrears; it should not be described as total farmer debt without that qualification.

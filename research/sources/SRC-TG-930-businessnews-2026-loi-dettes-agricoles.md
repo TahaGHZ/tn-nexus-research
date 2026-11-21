@@ -29,7 +29,7 @@ English gloss: whose debts are classified in category 4 at the Central Bank.
 
 > versement préalable d'un montant équivalent à 5% du principal de la dette
 
-> dans un délai compris entre un et six mois [...] les bénéficiaires pourront prétendre à une remise de 50% sur les montants dus
+> dans un délai compris entre un et six mois [...] les bénéficiaires pourront prétendre à une remise de 50% sur les montants dus [...] intérêts contractuels compris [...]
 
 > Le texte a été adopté par 73 voix pour, deux abstentions et trois voix contre
 
@@ -41,4 +41,4 @@ English gloss: in the past, several exemption measures were granted to agricultu
 
 ## Notes
 
-Tier C press report on the bill that became Law n° 2026-5 of 11 March 2026 (regularisation of unpaid agricultural debts). The JORT text itself was not opened. Other press (La Presse, 13 March 2026) gives the same rescheduling terms and adds a cut-off of debts unpaid before 30 September 2025 and an application deadline of 31 December 2026; that article was read but is not separately recorded.
+Tier C press report on Law n° 2026-5 of 11 March 2026 (regularisation of unpaid agricultural debts). The official gazette text is recorded in SRC-TG-932. Other press (La Presse, 13 March 2026) gives the same rescheduling terms and adds a cut-off of debts unpaid before 30 September 2025 and an application deadline of 31 December 2026; that article was read but is not separately recorded.

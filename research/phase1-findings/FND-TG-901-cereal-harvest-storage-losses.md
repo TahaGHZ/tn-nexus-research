@@ -1,7 +1,7 @@
 ---
 id: FND-TG-901
 title: "Cereal losses at harvest, on-farm storage and collection are linked to poorly set harvesting machinery, an old farm machinery stock and open-air storage, but have been measured only once, in two governorates"
-status: draft
+status: in-review
 sectors: [agriculture]
 theme: food-loss
 timeframe: current
@@ -19,7 +19,7 @@ root_causes:
     type: technical
     legacy_decision: false
     sources: [SRC-TG-901]
-  - cause: "Administered cereal chain: the Office des Céréales fixes prices and margins at every stage and the state bears most storage and logistics costs, so collectors and millers have weak incentives to invest in storage; millers are not paid for storing grain"
+  - cause: "Administered cereal chain: the Office des Céréales fixes prices and margins at every stage and the state bears most storage and logistics costs; the study says millers are not paid for storing grain and have weak incentives to invest, while weak incentives for collectors are an inference from this system"
     type: institutional
     legacy_decision: true
     sources: [SRC-TG-901]
@@ -72,7 +72,7 @@ indicators:
     source: SRC-TG-901
   - name: "Projected change in hours suitable for aerating stored wheat"
     value: -25
-    unit: "% vs 1970-1997"
+    unit: "% vs historical period (abstract; 1970-1997 is stated as the baseline for the insect results)"
     year: "2041-2070"
     geography: north-west
     source: SRC-TG-905

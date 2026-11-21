@@ -69,6 +69,12 @@ Para. 28 (continued):
 
 > This consisted almost entirely of subsidies on barley, as subsidies on corn were eliminated in 1992 and those on soybean meal in 1993.
 
+Para. 28 (drought feed policy):
+
+> Barley is used to compensate pastoralists for grazing land that is taken out of use during rehabilitation programs, and also small livestock farmers during drought years with the intention of maintaining herd sizes and stabilizing incomes. Corn and soybean meal benefit poultry raisers and also dairy operations, mostly on larger scale farms.
+
+English gloss: the report describes subsidised barley as drought support intended to maintain smallholder herds and compensate pastoralists; corn and soybean meal are used by poultry and dairy, especially larger farms.
+
 Para. 31 (irrigation tariffs):
 
 > The tariffs vary by Region, but averaged 41 millimes /m3 in 1993. This is about 75 percent of the costs of operations and maintenance in the old MOA definition, which does not yet include amortisation and provisioning for repair of civil works and equipment within the perimeter, and about 63 percent of operations and maintenance costs which include these latter components.

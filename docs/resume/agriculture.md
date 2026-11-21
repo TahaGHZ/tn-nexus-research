@@ -1,8 +1,26 @@
 # Agriculture lane: resume notes (phase 1)
 
+## Current checkpoint — 21 November 2026, source corrections
+
+33 findings: 33 in review, 0 draft. Drafts: None.
+
+The dated handoff below records prior states; use the frontmatter and verification sections of the findings for current decisions.
+
 Paused on 2026-11-21 on Taha's instruction, mid-verification. Owner Taha (TahaGHZ, initials TG),
 lane range 700-999. All record files are on `origin/main` exactly as they were on disk when the
 agents were stopped, including partial edits.
+
+## Final coordination state (2026-11-21)
+
+Recomputed from the current finding frontmatter: 32 findings, 23 `in-review` and 9 `draft`.
+Drafts: 720, 721, 722, 740, 741, 742, 762, 820 and 881. Their specific blockers are in the
+record bodies and the corresponding block reports: olive causality/trade sources; oasis
+planting, enforcement, and projection passages; 762's unverified UNFCCC feed-share figures and
+unreconciled degradation costs; 820's fertilizer import discrepancy; and 881's unverified
+2023 agricultural value-added figure. The table below is the historical paused-state handoff.
+Structural lint is now clean: missing source-list citations were added to 760, 762 and 801,
+and FND-TG-921's commentary was removed from its `unit` field so its YAML parses. These fixes
+do not change the verification status of any finding.
 
 ## State in one table
 

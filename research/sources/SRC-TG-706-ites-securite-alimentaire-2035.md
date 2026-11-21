@@ -101,13 +101,21 @@ English gloss: concentrate feed prices rose 35% in 2022 compared with 2019; the 
 
 English gloss: some farmers partly or fully abandoned their activity (as in poultry and dairy farming).
 
+PDF p. 66, Covid-19 and 2021-2022 shocks (continuation):
+
+> D'autres ont abandonné partiellement ou totalement leurs activités (tel le cas pour l'élevage avicole et laitier).
+
+English gloss: some poultry and dairy farmers partly or fully abandoned their activity in the context of the Covid-19 and input-price shocks; the study cites the IACE/UTAP 2021 survey.
+
 PDF pp. 69-70 (2022 supply disruption):
 
 > Concrètement, les chiffres montrent que c'est surtout l'orge qui a subi de fortes baisses à l'importation d'où l'explication, en partie, de l'indisponibilité temporaire de quantités suffisantes d'aliments de bétail qui a agi sur la disponibilité du lait et autres sources alimentaires de protéines animales.
 
 > Au niveau du citoyen, ceci s'est ressenti sous forme de légères pénuries durant quelques semaines.
 
-English gloss: barley imports fell sharply (2022), partly explaining a temporary shortage of livestock feed that affected the availability of milk and other animal protein; consumers felt it as light shortages for a few weeks.
+> L'opportunisme des intermédiaires et la spéculation de certains commerçants semblent avoir accentué cette crise temporaire.
+
+English gloss: barley imports fell sharply (2022), partly explaining a temporary feed shortage affecting milk and other animal protein availability; consumers felt light shortages for a few weeks. Intermediary opportunism and some traders’ speculation appear to have worsened the crisis.
 
 ## Notes
 

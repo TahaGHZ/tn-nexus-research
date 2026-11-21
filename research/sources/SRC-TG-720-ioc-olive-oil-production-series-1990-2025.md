@@ -29,5 +29,5 @@ Read in column order: 1990/91 175; 1991/92 250; 1992/93 120; 1993/94 235; 1994/9
 ## Notes
 
 - Vintage November 2024. The last two columns are provisional (2023/24) and forecast (2024/25); later IOC balances revise them (see SRC-TG-721).
-- Derived statistics used in findings are our own calculation from this row (not published by IOC): mean 1990/91-2024/25 = 184.8 kt, population coefficient of variation = 48%; mean 2010/11-2024/25 = 215.6 kt, CV = 47%; minimum 35 kt (2001/02), maximum 440 kt (2019/20). Absolute year-on-year changes from 2011/12 to 2024/25 (%): 52, 21, 68, 386, 59, 29, 225, 57, 214, 68, 71, 10, 1, 55, so 10 of 14 are above 50%.
+- Derived statistics used in findings are our own calculation from this row (not published by IOC): mean 1990/91-2024/25 = 184.8 kt, population coefficient of variation = 48%; mean 2010/11-2024/25 = 215.6 kt, CV = 47%; minimum 35 kt (2001/02), maximum 440 kt (2019/20). Absolute year-on-year changes from 2011/12 to 2024/25 (%): 52, 21, 68, 386, 59, 29, 225, 57, 214, 68, 71, 10, 1, 55, manual recount: 9 of 14 exceed 50%; a previous recount of 10 was incorrect.
 - Text extracted with `pdftotext -raw`; column alignment checked against the 35 headers (35 values in the row).
