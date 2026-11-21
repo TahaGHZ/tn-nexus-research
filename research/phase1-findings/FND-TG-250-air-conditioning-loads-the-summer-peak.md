@@ -140,4 +140,6 @@ cited sources do not quantify the distribution of AC ownership, use, or expendit
 
 ONEM confirms the 2021 national peak. LBNL attributes the 44% estimate to STEG; the primary calculation was not available. It is an attributed estimate with undisclosed method, distinct from household ownership and annual consumption.
 
-**Outstanding verification:** The 2021 national peak is confirmed. The utility calculation underlying LBNL’s 44% attribution and the survey methodology have not been independently reproduced.
+**Independent review, 21 November 2026:** not passed. Checked LBNL Cost-Benefit Analysis for Air Conditioner in Tunisia (LBNL-2001527, 2023; SRC-TG-250): introduction (STEG's 4,472 MW August 2021 peak and the 44% AC estimate) and the market assessment section (47.9% ownership, 1,681,000 units, 757.3 GWh, 1,560 MW), all as reported values attributed to STEG; the STEG 2013 84% statement in the companion report (SRC-TG-251). No corrections. The STEG calculation behind the 44% and the STEG 2021 survey report ("Résultats synthétiques des huit enquêtes résidentielles") were searched for and not found online, so the record stays at draft.
+
+**Outstanding verification:** The 4,472 MW peak and the reported values were checked against the LBNL text; the STEG calculation behind the 44% and the STEG residential survey report or microdata behind 47.9%, 1,681,000 units, 757.3 GWh and 1,560 MW were not found. A STEG or ANME publication, or a reply from STEG or ANME, giving the 44% method (load data, date and hour basis) and the survey report would settle it.

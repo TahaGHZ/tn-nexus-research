@@ -87,7 +87,7 @@ indicators:
   - name: Peak-hour shortage risk (no year stated; as assessed in the April 2025 appraisal)
     value: 770
     unit: MW
-    year: 2025
+    year: n/a (appraisal April 2025)
     geography: national
     source: SRC-TG-105
 projection:
@@ -113,7 +113,7 @@ author: TahaGHZ
 
 The official outlook to 2035 does not show Tunisia leaving gas behind. In the ministry's
 business-as-usual scenario, natural gas rises from 56% of primary energy in 2021 to 59% in 2035, and
-the energy deficit could reach 95% of demand (SRC-TG-103). The strategy itself names electricity
+the energy deficit could reach 95% of demand if national resources and energy demand continue on the same current trend (SRC-TG-103). The strategy itself names electricity
 generation, "dépendante depuis plusieurs années du gaz naturel", as the most vulnerable part of the
 energy sector (SRC-TG-103). Even in the strategy scenario, gas would still be 44% of primary energy
 in 2035, the largest single source (SRC-TG-103). Energy dependence would be between 33% and 76%
@@ -126,8 +126,7 @@ of the electricity mix. No such projection was found (see data_gaps).
 
 ## Root causes
 
-- **Demand growth on a gas fleet.** Peak demand grew 5.5% a year in 2016-2022 while new generation
-  investment lagged. The appraisal estimates a 770 MW peak-hour shortage risk, about 16% of peak
+- **Demand growth on a gas fleet.** Peak demand grew 5.5% a year in 2016-2022 (SRC-TG-105). The appraisal estimates a 770 MW peak-hour shortage risk, about 16% of peak
   (SRC-TG-105). Peak demand reached a record 5,089 MW in January-September 2026 (SRC-TG-100). With a
   fleet that is over 90% gas (FND-TG-101), added demand is met by gas unless renewables grow faster.
 - **Gap between targets and the pace achieved.** The 30% renewable-electricity target for 2030 was set
@@ -145,7 +144,7 @@ of the electricity mix. No such projection was found (see data_gaps).
 
 - Primary energy mix, oil products / gas / renewables: 2021 43/56/1; 2035 BaU 39/59/1; 2035 strategy
   38/44/18 (SRC-TG-103, figure 5).
-- Deficit: 57% of demand in 2021 (excluding royalty), possibly 95% in 2035 on the trend (no qualifier stated for 2035)
+- Deficit: 57% of demand in 2021 (excluding royalty), possibly 95% in 2035 "if national resources and energy demand continue with the same current trend" (no royalty qualifier stated for 2035)
   (SRC-TG-103). The World Bank gives 52% for 2023 (SRC-TG-105). The definitions may differ.
 - Renewable targets: 8,530 MW (p. 12) and 8,350 MW (p. 17) for 2035 in the same strategy synthesis
   (SRC-TG-103); 8,350 MW and 4,800 MW for 2030 in SRC-TG-105. The Tunisian Solar Plan's earlier
@@ -176,3 +175,7 @@ agricultural electricity use is described in FND-TG-101.
 - World Bank TEREG programme (P507304), including STEG's least-cost 10-year generation and transmission plan (DLR 8.1): https://projects.worldbank.org/en/projects-operations/project-detail/P507304
 - Skhira 1 and 2 combined-cycle plants (SRC-TG-104).
 - Renewable concession, authorisation and self-generation regimes under Law 2015-12 (SRC-TG-105, SRC-TG-106).
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Originals checked: Strategie energetique 2035 synthesis (SRC-TG-103), p. 13 Figure 5 and section 3.2, p. 12 and p. 17 targets, p. 3 deficit sentence, and a search of the full text for model names (only ThreeME, for macro effects, appears); World Bank TEREG appraisal document, background paragraphs 5-6 and Challenge 3 (SRC-TG-105); World Bank Energy Sector Improvement Project PAD, pp. 9-10 (SRC-TG-104); IRENA RRA Tunisia 2021, pp. 1-2 (SRC-TG-106); ONEM Conjoncture energetique, September 2026, p. 34 (SRC-TG-100). Corrections made: the 770 MW indicator year changed from 2025 to "n/a (appraisal April 2025)" because the source gives no year for the estimate; the 95% deficit is now stated with the source's own condition (trend continuation) in the Problem and Evidence text; the unsupported clause "new generation investment lagged" removed from root cause 1. No reviewer objection was left unconfirmed. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

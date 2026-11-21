@@ -56,6 +56,7 @@ data_gaps:
     subsequent production changes, and is sensitive to the carbon-price assumption. Domestic carbon-price credits can lower incremental obligations.
   - Actual Tunisian cement exports to the EU, firm-level embedded emissions, and realized CBAM costs after the definitive regime begins are not
     established by these sources.
+  - 'Not independently reopened: the caveats of the note that firm-level emissions may differ from country-sector averages and that domestic carbon-price credits can lower obligations (SRC-TG-292). The carbon-price sensitivity statement was confirmed on PDF p. 13 of the note.'
 author: TahaGHZ
 ---
 
@@ -91,4 +92,6 @@ FND-TG-290 addresses Tunisia's broader industrial energy use and audit informati
 
 ## Verification
 
-The original World Bank results workbook confirms the cement trade exposure index (6.59099%, rank 3). ACER’s rounded 6.59% agrees (SRC-TG-296, SRC-TG-293). Neither is a realised cost to Tunisian firms.
+The original World Bank results workbook confirms the cement trade exposure index (6.59099%, rank 3). ACER’s rounded 6.59% agrees (SRC-TG-296, SRC-TG-293). Neither is a realised cost to Tunisian firms. CBAM's definitive regime, with financial obligations, applies from 1 January 2026 (SRC-TG-294).
+
+**Independent review, 21 November 2026:** pass after corrections. Checked the World Bank CBAM exposure note (SRC-TG-292: p. 11, cement panel ranking Belarus, Ukraine, Tunisia; p. 6, notional USD 100 per t CO2 and the price-sensitivity sentence; p. 2 and methodology text on 2022 WITS mirror trade benchmarked to 2017); the World Bank reproducibility workbook CBAM_RP.xlsx (SRC-TG-296: sheet fig1, row 14, Tunisia cement 6.5909919738769531, rank 3, EU share of exports 65.492%); the ACER CHEST page via the saved local copy only (SRC-TG-293: Cement, Tunisia, 6.59; the live page was not fetched); the European Commission CBAM page for the 2026 start. Corrections: the 2026 start date, previously uncited, is now cited to SRC-TG-294. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

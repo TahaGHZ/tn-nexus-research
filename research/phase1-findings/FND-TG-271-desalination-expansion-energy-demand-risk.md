@@ -1,6 +1,6 @@
 ---
 id: FND-TG-271
-title: Tunisia’s 2030 desalination scenario implies material electricity demand; its scale depends on the intensity assumed
+title: Tunisia’s 2030 seawater desalination scenario, at an assumed 2.4 kWh/m³, illustrates about 460 GWh/year of electricity; the source gives no electricity figure
 status: in-review
 sectors:
   - energy
@@ -117,3 +117,5 @@ This is an energy-framed finding about the interface between electricity plannin
 ## Verification status
 
 At 2.4 kWh/m³, the 192 million m³/year 2030 strategy volume would require 460.8 GWh/year; 265 million m³/year in 2035 would require 636 GWh/year. These are illustrative totals, not additional national load or an official forecast. The assumed intensity comes from 2022 operations (31.2 GWh for 12.9 million m³ of seawater), not from a national 2030 design. By contrast, SONEDE’s 1,000 GWh forecast for 2030 covers all its electricity use, including supply and treatment. Do not add these estimates together (SRC-TG-528, SRC-TG-529, SRC-TG-276).
+
+**Independent review, 21 November 2026:** pass after corrections. Checked the Eau 2050 synthesis balance table, printed p. 7 (SRC-TG-276: seawater desalination 18, 91, 192, 265, 265, 265 million m³, 2020 to 2050, and the renewable-energy statement); SONEDE 2022 energy figures (SRC-TG-528: 31.2 GWh for 12.9 million m³, 2.4 kWh/m³); Ministry of Agriculture 2023 water report, Tableau 48 (SRC-TG-529: 1,000 GWh in 2030) and the SONEDE energy page; JICA 2015 report, section 7.2.2 (SRC-TG-275: 192 GWh/year at 3.5 kWh/m³; checked on a local text copy, not the live PDF); SONEDE Djerba and Sfax project pages (SRC-TG-271, SRC-TG-273). Corrections: the title now presents the 460.8 GWh figure as illustrative arithmetic and says the source gives no electricity figure, instead of saying the scenario "implies material electricity demand". Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

@@ -36,7 +36,7 @@ indicators:
     year: 2024
     geography: national
     source: SRC-TG-102
-  - name: Share of natural gas in energy input to electricity generation
+  - name: Share of natural gas in electricity produced
     value: 95
     unit: "%"
     year: 2023
@@ -131,7 +131,7 @@ author: TahaGHZ
 
 Tunisia generates over 90% of its electricity from natural gas. The share was 91.3% for
 January-September 2026, counting renewable self-production (SRC-TG-100). It was 93.9% in 2024
-(SRC-TG-102) and 95% of generation input in 2023 (SRC-TG-101). In full-year 2025, STEG's gas-fired
+(SRC-TG-102) and 95% of electricity produced in 2023 (SRC-TG-101). In full-year 2025, STEG's gas-fired
 plants produced 19,183 GWh of 20,533 GWh of national production (SRC-TG-100). Power generation
 uses 75% of all gas consumed in the country (SRC-TG-100). That gas is now mostly of Algerian origin.
 In January-September 2026, purchases of Algerian gas were 56% of national gas supply and domestic
@@ -181,13 +181,13 @@ recorded side by side:
 | 91.3% | Jan-Sep 2026 | output, including renewable self-production | SRC-TG-100 (p. 34) |
 | about 91% | Jan-Sep 2026 | as stated in text | SRC-TG-100 (p. 28) |
 | 93.9% | 2024 | output, IEA data via WDI | SRC-TG-102 |
-| 95% | 2023 | energy input to generation | SRC-TG-101 |
+| 95% | 2023 | electricity produced (ONEM mix) | SRC-TG-101 |
 | 92-97% | recent years | range stated by ONEM | SRC-TG-101 |
 | 94.4% / "over 95%" | no year stated (published 2025) | World Bank, two values in one document | SRC-TG-105 |
 | 96.5% | 2016 | STEG plants only (tier C, company report) | SRC-TG-109 |
 
-The spread comes from scope (STEG only against national, with or without self-production), from
-the metric (input against output) and from the year. Every definition puts gas above 90%.
+The spread comes from scope (STEG only against national, with or without self-production) and
+from the year. Every definition puts gas above 90%.
 
 Gas supply by origin, January-September 2026 (SRC-TG-100, p. 24): Algerian purchases 2,240 ktep-pci
 (56%), "redevance cédée à la STEG" 22%, domestic 22%, total 3,979 ktep-pci. The source is internally
@@ -199,8 +199,8 @@ overdraw is a plausible explanation for the residual, but the source gives no co
 is our inference. Whatever the label, non-domestic gas is about 78% of supply. The World Bank put
 the Algerian share at "more than half" in 2018 (SRC-TG-104).
 
-STEG's share of national production is reported as 82% around 2019, when the Radès IPP supplied 18%
-(SRC-TG-104). It was 97% in mid-2024 (SRC-TG-105) and 92% in January-September 2026, as private
+STEG's share of national production is shown as 81% in a chart of the 2019 World Bank appraisal document, with the Radès IPP at 19%
+(SRC-TG-104; the chart gives no data year). It was 97% in mid-2024 (SRC-TG-105) and 92% in January-September 2026, as private
 solar grew (SRC-TG-100).
 
 ## Why confidence is what it is
@@ -234,3 +234,9 @@ trend.
 - Skhira 1 and 2 combined-cycle gas plants, about 500 MW each (SRC-TG-104).
 - ELMED Tunisia-Italy interconnector (SRC-TG-103, SRC-TG-105).
 - Rooftop PV in the residential sector (about 543 MW by September 2026) and on medium and high voltage (150 MW) (SRC-TG-100).
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Originals checked: ONEM Conjoncture energetique, September 2026 (SRC-TG-100), pp. 21-24, 28-29, 33-34 and the pie chart on p. 36 (the 12% pumping and 9% agriculture labels were confirmed on the rendered page); World Bank WDI EG.ELC.NGAS.ZS, 2024 (SRC-TG-102); ONEM Bilan energetique 2023, Electricite section (SRC-TG-101); World Bank Energy Sector Improvement Project PAD, p. 2 and p. 4 and the sector chart (SRC-TG-104); World Bank TEREG appraisal document, paragraph 5 (12% electricity imports in 2023) and Challenge sections (SRC-TG-105); STEG Rapport d'activite 2016, production table (SRC-TG-109). Corrections made: the 95% (2023) figure is a share of electricity produced, not of energy input (indicator name, Problem and Evidence table); the STEG and IPP shares changed from 82% and 18% to 81% and 19%, with the chart's missing data year stated (SRC-TG-104); the "metric (input against output)" explanation of the spread removed. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.
+
+Objections not confirmed: the reviewer could not locate the 12% electricity import share (2023) in SRC-TG-105; it is in the World Bank text, background paragraph on the grid ("electricity imports increased to cover 12 percent of electricity demand in 2023"), so the indicator is kept. The reviewer could not match the 12% and 9% pie labels to slices; on the rendered p. 36 of SRC-TG-100 the tan slice is "Pompages & ser. Sanitaires" (12%) and the magenta slice is "Agriculture" (9%), so the claim is kept.

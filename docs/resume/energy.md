@@ -2,29 +2,21 @@
 
 Updated 21 November 2026. Owner: TahaGHZ (TG), IDs 100–399.
 
-**23 findings: 12 in-review, 11 draft.** No teammate validation has been recorded.
+**23 findings: 20 in-review, 3 draft.** No finding is validated: the independent review below ran under the TahaGHZ identity, which is also the author, so teammate sign-off is outstanding on every in-review finding.
 
-## Findings in review
+## Findings in review (waiting only for teammate sign-off)
 
-100, 101, 102, 132, 162, 190, 192, 270, 271, 291, 310, 311.
+100, 101, 102, 130, 131, 132, 162, 190, 191, 192, 220, 221, 222, 251, 270, 271, 290, 291, 310, 311.
 
-## Outstanding verification
+## Outstanding verification (still missing evidence)
 
-- FND-TG-130: The competing accounts of the 2014 permit decisions have not been checked against the committee record.
-- FND-TG-131: The corrected annual energy balance is documented; the full claim-level recheck of the detailed import and trade series is outstanding.
-- FND-TG-160: The July 2016 order and IMF gross-subsidy outturn are now sourced. The earlier incidence studies still have unresolved observation periods and populations.
-- FND-TG-161: The staff-level agreement and July 2016 pricing rule are confirmed. The guarantee, 2025 budget-scope difference and cash-versus-booked treatment lack primary reconciliation.
-- FND-TG-191: The original laws and implementing decree are identified. The relative contribution of financing, procedural and project-specific delays remains unverified.
-- FND-TG-220: The observed peak is distinguished from the reported and modelled values. Event attribution and undated capacity-margin estimates remain unconfirmed.
-- FND-TG-221: The aggregate loss series is supported; the technical/commercial breakdowns use different methods and cannot establish a measured theft share.
-- FND-TG-222: The publisher’s figure and table still disagree on the 2030 model output; no reproducible correction was found.
-- FND-TG-250: The 2021 national peak is confirmed. The utility calculation underlying LBNL’s 44% attribution and the survey methodology have not been independently reproduced.
-- FND-TG-251: The stock-turnover model and climate projections are distinct. The model chart readings lack an underlying numeric series to verify their precision.
-- FND-TG-290: Industrial energy use and stated audit counts are documented. The counting unit, eligible establishments and compliance outcomes remain unknown.
+- FND-TG-160: The 29% bottom-40 share was traced only to WPS 7312's citation of "World Bank 2014"; the English report with its survey year and population (World Bank 2014, The Unfinished Revolution) and the ESCWA WP.9 (2019) metric and base would settle the incidence comparison.
+- FND-TG-161: The 974.1 million TND guarantee figure rests on one press article citing a state transfers-and-guarantees report that was not opened (removed); the column heading of the 2025 provisional Carburants value (7,112), the PLF 2026 subsidy table behind the 5,719 million TND line, and whether the 2024 "paid" amounts are cash would be settled by the Ministry of Finance execution table with its headings, the official PLF 2026 subsidy table, and the 2025 transfers-and-guarantees report annexed to the 2026 finance law.
+- FND-TG-250: The 4,472 MW peak and the reported values were checked against the LBNL text; the STEG calculation behind the 44% and the STEG residential survey report or microdata behind 47.9%, 1,681,000 units, 757.3 GWh and 1,560 MW were not found. A STEG or ANME publication, or a reply from STEG or ANME, giving the 44% method (load data, date and hour basis) and the survey report would settle it.
 
-## Corrections in this batch
+## Independent review, 21 November 2026
 
-ONEM’s December 2025 report (printed p. 30) dates the well reclassification to 21 November, resolving the interim versus year-end exploration count in 132. Parliament’s budget report supplies the proposed aggregate subsidy in 162. SONEDE and the 2023 ministry report establish both the rounded and precise 2023 consumption figures in 270. Source series for specific consumption differ slightly and are kept separate. The World Bank reproducibility package provides the cement index in 291, workbook fig1, row 14. Transport and parallel-market estimates remain dated and their coverage is explicit.
+Every finding was rechecked against the original publications or saved copies of them, and each record's Verification section now carries the result with page, table or row locators. Promoted from draft after narrowing or resolution: 130 (the 2014 committee refusal is limited to the three named permits, new SRC-TG-340), 131, 191 (procedure duration given as the source's two conflicting values), 220, 221 (theft share is ONEM's attribution, not a measurement; the rise is more than 10 points, not a doubling), 222 (Table 10 and Figures 3, 4 and 39 agree; only the section 5.5 prose reverses the modes), 251 (2030 and 2040 values are approximate chart readings), 290 (audit counts are as reported by the ministry). Corrected and kept in review: 100, 101 (95% is a share of electricity produced), 102, 162, 190, 192, 270, 271, 291, 310, 311. Passed unchanged: 132. Reviewer objections on 190 and 192 about missing pipeline dates did not hold: the dates are in image tables on pp. 39-41 of the Chiffres clés 2025 PDF. Still draft: 160, 161, 250.
 
 ## Leads not yet followed
 

@@ -10,7 +10,7 @@ period: 2024
 geography:
   - national
 severity: high
-trend: worsening
+trend: unknown
 confidence: high
 root_causes:
   - cause: Transport energy use is concentrated in road transport, and the transport balance is dominated by petroleum products; the available
@@ -38,7 +38,7 @@ indicators:
     year: 2024
     geography: national
     source: SRC-TG-222
-  - name: Petroleum products as share of transport final energy consumption (calculated from ONEM balance)
+  - name: Petroleum products as share of transport final energy consumption (calculated from ONEM balance; ONEM prints 89.5% in Figure 13)
     value: 89.6
     unit: percent
     year: 2024
@@ -50,7 +50,7 @@ indicators:
     year: 2024
     geography: national
     source: SRC-TG-222
-  - name: Road transport as share of transport final energy consumption (calculated from ONEM balance)
+  - name: Road transport as share of transport final energy consumption (calculated from ONEM balance; ONEM text says 89% and Figure 12 prints 89.1%)
     value: 89
     unit: percent
     year: 2024
@@ -75,6 +75,7 @@ data_gaps:
   - ONEM's 2024 report gives transport as 35% of final demand in its narrative and sector summary table when biomass is included, but gives 37%
     in the same table excluding biomass. The report text also says the transport share rises to 37% excluding biomass. Because 37% is denominator-specific,
     the finding uses the 35% with-biomass value; no unresolved conflict remains in the denominator-labelled published figures.
+  - 'Not independently reopened: the ANME transport profile figures (undated 36% share, road 90%, more than 55% of petroleum-product use) (SRC-TG-313).'
   - No current fleet fuel-efficiency series or recent transport-mode split was verified; this finding does not estimate avoidable fuel imports.
   - The national balance and sector profile describe the end-use mix, not causal drivers such as passenger versus freight activity, fleet age,
     travel demand or modal policy.
@@ -87,7 +88,7 @@ ONEM's 2024 national energy balance records 2,721 ktep of final energy consumpti
 
 In the detailed 2024 balance, petroleum products total 2,437 ktep of transport's 2,721 ktep, or 89.6% (calculated from the source values). The road row is 2,423 ktep, or 89.0% of transport consumption (also calculated from source values). These are distinct indicators: petroleum is an energy-carrier subtotal, while road is an end-use sub-sector. The table also shows non-petroleum inputs, so petroleum is dominant rather than exclusive (SRC-TG-222).
 
-ANME's transport profile independently describes transport as the largest energy-consuming sector and gives an undated 36% share, with road at 90% of transport use and transport responsible for more than 55% of national petroleum-product use. Because the page does not date those figures and its aggregate wording does not resolve ONEM's internal 2024 discrepancy, it is used only as a separate, undated corroboration of the broad sector pattern (SRC-TG-313). The finding links transport activity to liquid-fuel demand without repeating the national import-bill issue in FND-TG-131.
+ANME's transport profile independently describes transport as the largest energy-consuming sector and gives an undated 36% share, with road at 90% of transport use and transport responsible for more than 55% of national petroleum-product use. Because the page does not date those figures and its aggregate wording does not resolve ONEM's internal 2024 discrepancy, it is used only as a separate, undated corroboration of the broad sector pattern (SRC-TG-313). ONEM reports that transport final consumption rose 4% in 2024 compared with 2023; this is a single-year change, so no multi-year trend is claimed (SRC-TG-222). The finding links transport activity to liquid-fuel demand without repeating the national import-bill issue in FND-TG-131.
 
 ## Root causes
 
@@ -112,3 +113,5 @@ Fuel use connects transport to refining and imported petroleum supply. This find
 ## Verification
 
 ONEM’s 2024 balance records 2,721 ktoe consumed by transport, including 2,437 ktoe of petroleum products. ANME independently identifies transport as the largest sector, without dating its percentage; use ONEM for the 2024 share (SRC-TG-312, SRC-TG-313).
+
+**Independent review, 21 November 2026:** pass after corrections. Checked ONEM Rapport Bilan Énergétique 2024 (SRC-TG-222): Tableau 6 (printed p. 18, transport 2,721 ktep, 35% with biomass and 37% without), section 1.4 (p. 17, transport the first consuming sector), the national balance (petroleum products 2,437 ktep; road 2,423 ktep), Figures 12 and 13 (p. 20, printed 89.1% road and 89.5% petroleum products) and the transport text (p. 20, +4% against 2023, 89% road, about 90% petroleum products). Corrections: the calculated shares now note the percentages ONEM prints (89.5% and 89.1%); the trend field is set to unknown because the previous "worsening" rested on a single year (+4% in 2024, now stated as such). The ANME corroboration was not reopened and is listed in data_gaps. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

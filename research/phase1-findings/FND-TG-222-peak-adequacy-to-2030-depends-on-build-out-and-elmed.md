@@ -2,7 +2,7 @@
 id: FND-TG-222
 title: Med-TSO projects rising summer peaks and 2027 adequacy risk; its lower 2030 risk depends on assumed capacity build-out, while the 2026
   summer outlook reports separate seasonal stress
-status: draft
+status: in-review
 sectors:
   - energy
 theme: grid
@@ -151,9 +151,10 @@ sources:
 data_gaps:
   - 'Official Tunisian peak demand forecast (STEG generation plan, Ministry): not found. The Strategy 2035 synthesis (SRC-TG-103) gives no peak
     figure. The JICA power development plan report (https://openjicareport.jica.go.jp/pdf/12342291.pdf) was not opened.'
-  - Med-TSO 2030 loss of load is unresolved. The section 5.5 text says 3 h interconnected and negligible isolated; Figure 3 and Figure 39 say
-    3 h isolated and about 0 h interconnected; Table 12 shows zero adequacy exchanges on every Tunisian link, which fits neither reading cleanly
-    (SRC-TG-226).
+  - Med-TSO section 5.5 prose reverses the isolated and interconnected 2030 values; Table 10 and Figures 3, 4 and 39 agree with each other and
+    are used (isolated about 2.7-3 h and 1,013 MWh; interconnected about 0 h and 4 MWh). Table 12 shows zero adequacy exchanges on every Tunisian
+    link (SRC-TG-226).
+  - 'Not independently reopened: June and July 2027 and 2030 monthly peaks, the 2 GWh Algeria and Libya exchanges in 2027, and the 10,520 MW 2030 capacity (digit illegible in the local text copy) (SRC-TG-226).'
   - The mid-term study reports annual 2027 LOLE; the Summer Outlook reports seasonal 2026 LOLE and P95 LOLD (called LOLE in its country narrative).
     Their periods and model inputs differ, so the values cannot be compared directly and no source reconciles the assessments (SRC-TG-226, SRC-TG-234).
   - 'ELMED progress after December 2024: the latest World Bank ISR (SRC-TG-225) says procurement is still under way. No later official status
@@ -173,9 +174,7 @@ maximum falls in July-August because of air-conditioning load (SRC-TG-226). For 
 finds "structural adequacy risks". The thermal margin often "approaches zero" in July-August, and
 expected loss of load is 17 hours a year isolated against 2 hours interconnected. That relief
 comes from Algeria and Libya, since ELMED is not yet in service (SRC-TG-226). By 2030, risk falls
-mainly because installed capacity is assumed to grow from 7,316 MW to 10,520 MW (SRC-TG-226). The
-A separate Med-TSO Summer Outlook reports seasonal 2026 loss-of-load expectation of 81 h isolated and 39 h interconnected under normal conditions. Its P95 sensitivity gives 219 h and 122 h loss-of-load duration (LOLD), although the country narrative labels these values LOLE (SRC-TG-234). These are summer-season results, not directly comparable with the mid-term study's annual 2027 LOLE; the studies also use different models and inputs. They show material seasonal risk in the 2026 assessment but do not establish that the 2027 annual estimates are optimistic.
-models and inputs.
+mainly because installed capacity is assumed to grow from 7,316 MW to 10,520 MW (SRC-TG-226). A separate Med-TSO Summer Outlook reports seasonal 2026 loss-of-load expectation of 81 h isolated and 39 h interconnected under normal conditions. Its P95 sensitivity gives 219 h and 122 h loss-of-load duration (LOLD), although the country narrative labels these values LOLE (SRC-TG-234). These are summer-season results, not directly comparable with the mid-term study's annual 2027 LOLE; the studies also use different models and inputs. They show material seasonal risk in the 2026 assessment but do not establish that the 2027 annual estimates are optimistic.
 
 ## Root causes
 
@@ -214,8 +213,8 @@ is not the main driver of the projected 2027 risk; ELMED is not assumed in servi
   4,620 MWh and 554 MWh. Algeria and Libya each supply 2 GWh of the needed exchanges over 250 MW
   links (SRC-TG-226).
 - **Adequacy in 2030:** zero exchanges are needed on the Algeria, Libya and Italy links, with Tunisia
-  "able to rely more on internal resources". The loss of load figure is unresolved (SRC-TG-226; see
-  data_gaps).
+  "able to rely more on internal resources". Med-TSO Table 10 gives isolated loss of load of about 2.7 h (Figure 3 label: 3 h) and 1,013 MWh, and interconnected loss of load of about 0 h
+  (0.02 h) and 4 MWh; Figures 4 and 39 agree. The section 5.5 prose states the reverse modes and is not used (SRC-TG-226).
 - **Summer 2026 (seasonal outlook, not annual):** worst-case thermal margin zero throughout July and August, and the 500 MW of
   import capacity "a practical necessity" (SRC-TG-234).
 - **ELMED:** 600 MW, 500 kV, from Partanna (Sicily) to Mlaabi (Cap Bon), 220 km of which 200 km is
@@ -228,8 +227,7 @@ is not the main driver of the projected 2027 risk; ELMED is not assumed in servi
 ## Why confidence is what it is
 
 All projections come from tier B institutions and are model outputs that depend on capacity
-assumptions not checked here. The mid-term peak is an extreme-climate maximum, and the document is
-unresolved on the 2030 adequacy result. The seasonal 2026 outlook reports high risk for that season. Its seasonal duration is not directly comparable with the annual 2027 mid-term LOLE, so it does not independently contradict that estimate. No official Tunisian peak forecast was found
+assumptions not checked here. The mid-term peak is an extreme-climate maximum, and the 2030 adequacy values rest on assumed capacity build-out. The seasonal 2026 outlook reports high risk for that season. Its seasonal duration is not directly comparable with the annual 2027 mid-term LOLE, so it does not independently contradict that estimate. No official Tunisian peak forecast was found
 to cross-check, and the latest ELMED progress report dates from December 2024. Confidence is low.
 
 ## Links to other sectors
@@ -251,6 +249,6 @@ will be covered under buildings-cooling.
 
 ## Verification
 
-Med-TSO’s summary, figure and table disagree on the national 2030 loss-of-load estimate. The competing statements remain attributed individually. The source does not establish a unique number; an author correction or a reproducible result is still required for that indicator (SRC-TG-226).
+Med-TSO Table 10 (printed p. 23) and Figures 3, 4 and 39 (printed pp. 7, 8, 45) agree: Tunisia 2030 isolated LOLE about 2.7-3 h and EENS 1,013 MWh; interconnected LOLE about 0 h (0.02 h) and EENS 4 MWh. The section 5.5 prose (printed p. 45) states the reverse modes and is inconsistent with the tables and figures; it is quoted and attributed, not used as the value. No author correction was found. The tables and figures give one consistent set of values for 2030 (SRC-TG-226).
 
-**Outstanding verification:** The publisher’s figure and table still disagree on the 2030 model output; no reproducible correction was found.
+**Independent review, 21 November 2026:** pass after corrections. Checked Med-TSO Mid-Term Adequacy Assessment 2027-2030 (SRC-TG-226): Table 10, Tunisia row, 2030 (printed p. 23); Figures 3, 4 and 39 (printed pp. 7, 8, 45); executive summary 2030 results ("Tunisia: 3 LOLE hours", isolated); section 5.5 prose (printed p. 45); the 2027 and 2030 peak (6,796 and 7,678 MW) and installed-capacity (7,316 MW) statements in the Tunisia supply overview. Corrections: the 2030 loss-of-load disagreement is resolved in favour of the table and figures; the data gap, evidence bullet, confidence paragraph and this section are reworded accordingly, and a text-merge fault in the Problem section was removed. Not independently reopened and left as data gaps: the June and July monthly peaks, the 2 GWh exchanges, and the 2030 capacity of 10,520 MW (one digit is not legible in the local text copy; the value was read from the SRC-TG-226 record extract). Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

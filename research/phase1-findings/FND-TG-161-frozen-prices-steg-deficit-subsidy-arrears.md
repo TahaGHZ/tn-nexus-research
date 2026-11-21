@@ -245,12 +245,6 @@ indicators:
     year: 2027
     geography: national
     source: SRC-TG-170
-  - name: State guarantees reported for STEG (2025, press source; tier C)
-    value: 974.1
-    unit: million TND
-    year: 2025
-    geography: national
-    source: SRC-TG-170
 stakeholders:
   - households
   - industry
@@ -291,6 +285,7 @@ data_gaps:
   - STEG audited financial statements for 2024 and 2025 (net result, debt, receivables). Press reports cite a 2024 net loss of 229.76 million
     TND and debt of 7.356 billion TND at a June 2026 parliamentary hearing (e.g. https://www.lapresse.tn/2026/06/27/steg-un-endettement-de-7356-milliards-de-dinars-et-des-creances-impayees-de-plus-de-6-milliards/),
     but these were not opened and are not used.
+  - State guarantees for STEG in 2025: Mosaique FM (SRC-TG-170) reports a figure of 974.1 million TND from a state transfers-and-guarantees report that was not opened, and no source containing it was found; the figure was removed from the indicators and is not used.
   - Split of the 2022, 2023 and 2025 "Carburants" line between STIR and STEG from an official source (only the 2024 line is split in SRC-TG-161).
   - 'Reconciliation of 2025 subsidy figures with their definitions and vintages: 7,112 MDT for the Ministry’s “Carburants” execution line (provisional
     and equal to LF 2025 appropriation), versus 5,719 MDT for electricity and petroleum subsidies reported from PLF 2026. A reported 8,060 MDT
@@ -308,7 +303,7 @@ author: TahaGHZ
 
 ## Verification status
 
-Article 5 of the 15 July 2016 joint order documents the quarterly fuel-price procedure (SRC-TG-175). The IMF’s January 2014 benchmark and announced changes to the future review frequency are separate events (SRC-TG-163). The IMF announcement of 15 October 2022 confirms only a staff-level agreement conditional on Board approval (SRC-TG-165). STEG guarantees reported in the press are not an audited liability; the national budget execution figures are distinct from utility cash receipts.
+Article 5 of the 15 July 2016 joint order documents the quarterly fuel-price procedure (SRC-TG-175). The IMF’s January 2014 benchmark and announced changes to the future review frequency are separate events (SRC-TG-163). The IMF announcement of 15 October 2022 confirms only a staff-level agreement conditional on Board approval (SRC-TG-165). The national budget execution figures are distinct from utility cash receipts.
 
 ## Problem
 
@@ -395,4 +390,6 @@ Medium for the core finding: the subsidy scale is supported by a Ministry execut
 - Planned law establishing an independent electricity regulatory authority (mentioned in the
   TEREG PAD, para. 8, https://documents1.worldbank.org/curated/en/099041025150537909/text/BOSIB-5b68fe2f-7a73-435b-930b-ec670325463c.txt).
 
-**Outstanding verification:** The staff-level agreement and July 2016 pricing rule are confirmed. The guarantee, 2025 budget-scope difference and cash-versus-booked treatment lack primary reconciliation.
+**Independent review, 21 November 2026:** not passed. Checked in local copies: Mosaique FM, 31 October 2026 (SRC-TG-170, the 974.1 million TND guarantee sentence); Managers, 28 October 2025 (SRC-TG-166, the 5,719 million TND electricity and petroleum line); Ministry of Finance budget execution report, December 2025 (SRC-TG-160, Carburants row, seven values whose column headings did not survive text extraction); Ministry of Finance semi-annual report 2024 (SRC-TG-161, 7,086 million TND with STEG 4,019 and STIR 3,067); Webdo, 17 October 2023 (SRC-TG-173, the same 7,086, 4,019 and 3,067 as PLF 2024 allocations). Correction: the press-only STEG guarantee indicator (974.1 million TND, 2025) was removed and recorded as a data gap. The other indicators were not re-checked in this pass.
+
+**Outstanding verification:** The 974.1 million TND guarantee figure rests on one press article citing a state transfers-and-guarantees report that was not opened (removed); the column heading of the 2025 provisional Carburants value (7,112), the PLF 2026 subsidy table behind the 5,719 million TND line, and whether the 2024 "paid" amounts are cash would be settled by the Ministry of Finance execution table with its headings, the official PLF 2026 subsidy table, and the 2025 transfers-and-guarantees report annexed to the 2026 finance law.

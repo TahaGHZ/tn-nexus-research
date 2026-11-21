@@ -1,6 +1,6 @@
 ---
 id: FND-TG-100
-title: Tunisia locked its power system into gas in the 1990s and 2000s, when Algerian transit royalty gas and new domestic fields made gas look secure
+title: Tunisia locked its power system into gas in the 1990s and 2000s, when Algerian transit royalty gas and new domestic fields gave it a gas supply base
 status: in-review
 sectors: [energy]
 theme: electricity-mix
@@ -15,7 +15,7 @@ root_causes:
     type: policy
     legacy_decision: true
     sources: [SRC-TG-102, SRC-TG-110]
-  - cause: Gas looked secure for economic and geographical reasons. Tunisia received a share of the Algerian gas crossing its territory to Italy as an in-kind royalty instead of transit fees, and that share grew when the pipeline was expanded. Domestic gas (Miskar) was sold to STEG at international prices, so the economic case rested on the royalty and on supply security, not on cheap domestic gas.
+  - cause: Gas had a supply base. The authors of SRC-TG-107 attribute the choice of gas to "economic and geographical reasons". Tunisia received a share of the Algerian gas crossing its territory to Italy as an in-kind royalty instead of transit fees, and that share grew when the pipeline was expanded. Domestic gas (Miskar) was sold to STEG at international prices, so the economic case rested on the royalty, not on cheap domestic gas.
     type: economic
     legacy_decision: true
     sources: [SRC-TG-107, SRC-TG-108]
@@ -23,7 +23,7 @@ root_causes:
     type: technical
     legacy_decision: true
     sources: [SRC-TG-110, SRC-TG-106, SRC-TG-101]
-  - cause: Under Law 96-27 (1996), only one private concession was granted, the 471 MW gas-fired combined-cycle plant at Radès (2002). Private entry added gas capacity, not diversity.
+  - cause: Under Law 96-27 (1996), the main private concession was the 471 MW gas-fired combined-cycle plant at Radès (2002). A 27 MW concession at El Bibane (SEEB, 2003-2010) was also granted; SRC-TG-106 is internally inconsistent on the count. Private entry added gas capacity, not diversity.
     type: institutional
     legacy_decision: true
     sources: [SRC-TG-106, SRC-TG-104]
@@ -99,6 +99,7 @@ data_gaps:
   - The pre-2002 split of the fleet between steam units converted to gas and new turbines.
   - A consistent installed-capacity figure for 2018. IRENA gives 6,147 MW and 94.5% gas in its text, but the rows of its own Table 2 sum to 5,147 MW, with 4,774 MW of gas units (about 93%) (SRC-TG-106).
   - What happened to the Radès IPP after its 20-year PPA (2002-2022). The ONEM 2026 table (SRC-TG-100) has no gas-fired IPP row; the reason was not sourced.
+  - Not independently reopened: the 2018 capacity table values (5,147 MW total; 4,774 MW of gas units; about 93%). IRENA's Table 2 is garbled in text extraction and the columns could not be assigned reliably (SRC-TG-106).
   - Pages that could not be opened. IEA Tunisia electricity page (https://www.iea.org/countries/tunisia/electricity) returned HTTP 403. STEG history page (https://www.steg.com.tn/fr/institutionnel/historique.html) and STEG gas page (https://www.steg.com.tn/en/institutionnel/gaz.html) returned 404. AfDB electricity sector diagnostic (https://www.afdb.org/sites/default/files/2021/11/22/tunisia.pdf) was blocked by a bot check. UNEP energy profile (https://wedocs.unep.org/bitstream/handle/20.500.11822/20592/Energy_profile_Tunisia.pdf?sequence=1) returned an HTML page, not the PDF. The UW-Madison library copy of the USGS 1992 Minerals Yearbook returned only navigation text.
 author: TahaGHZ
 ---
@@ -124,7 +125,7 @@ The symptom is a single-fuel power system. The causes are past choices:
    article (SRC-TG-110, tier C). It reports that all oil-fired stations were due to be converted to
    gas and all future thermal plants were to be gas-fired. It also notes that Tunisia produced
    almost no gas before Miskar. No official planning document was found.
-2. **Royalty gas made supply look secure.** The TransMed pipeline from Algeria to Italy crosses
+2. **Royalty gas gave part of the supply base.** The TransMed pipeline from Algeria to Italy crosses
    Tunisia. It was built in 1978-1983 and expanded in 1991-1994 (SRC-TG-108). Instead of transit
    fees, Tunisia receives gas in kind (SRC-TG-108). One secondary source gives the rate as 5.625%
    of the gas exported, with no data year (SRC-TG-107). Press reports give 5.25% under the
@@ -137,15 +138,18 @@ The symptom is a single-fuel power system. The causes are past choices:
    long-term contract "at international market values and in hard currency" (SRC-TG-108). In 2007
    it was almost 80% of Tunisian gas output (SRC-TG-110, tier C). Domestic gas widened the supply
    base but gave no price advantage. Calling the gas "cheap" would be an inference not supported by
-   the sources; what they support is that gas looked available and secure.
+   the sources; what they support is that domestic gas widened the supply base.
 4. **Asset lock-in.** Once the oil units were due to be converted and new capacity was built as gas turbines,
    each expansion reused the same fuel chain (SRC-TG-110, SRC-TG-106). Later efficiency gains came
    from combined cycles replacing older gas units (SRC-TG-101), not from fuel change.
 5. **Private entry that added gas.** Law 96-27 (April 1996) ended STEG's generation monopoly,
-   which had run from 1962 (SRC-TG-106). It allowed only state-tendered concessions. The one
-   concession granted was the 471 MW gas-fired combined-cycle plant at Radès, opened in 2002
-   (SRC-TG-106). It supplied 18-19% of electricity around 2018-2019 (SRC-TG-104), or 25% in 2012
-   (SRC-TG-107).
+   which had run from 1962 (SRC-TG-106). It allowed only state-tendered concessions. The main
+   concession was the 471 MW gas-fired combined-cycle plant at Radès, opened in 2002
+   (SRC-TG-106). IRENA also describes a second concession, the 27 MW SEEB plant at El Bibane,
+   commissioned in 2003 and shut down in 2010, although the same paragraph says only one
+   concession was granted (SRC-TG-106). The Radès plant supplied 25% of electricity in 2012
+   (SRC-TG-107). A World Bank chart shows the IPP at 19% of generation (SRC-TG-104; the chart
+   gives no data year).
 
 The decision largely played out before 2015. Royalty gas fell from 1,210 ktoe (2000) to 317 ktoe
 (2015) as Algerian exports to Europe declined (SRC-TG-107). Domestic gas output declined after 2010
@@ -181,7 +185,7 @@ The explicit decision to convert to gas is documented only in tier C press (SRC-
 document opened (treaty, STEG planning document) states why gas was chosen or why coal or oil were
 not kept. Miskar's start date is unsourced. The two royalty rates come from one secondary source
 and one press source. The sources disagree on the Radès IPP share: 25% in 2012 (SRC-TG-107)
-against 18-19% around 2018-2019 (SRC-TG-104). The years differ, so both may be correct.
+against 19% in a World Bank chart with no data year (SRC-TG-104). The years differ or are unknown, so both may be correct.
 
 ## Links to other sectors
 
@@ -194,3 +198,9 @@ agriculture through electricity use (see FND-TG-101).
 - Law No. 2015-12 on renewable electricity, amended by Law 2019-47 (cited in SRC-TG-106).
 - ANME energy efficiency programmes since 1985 (SRC-TG-106, SRC-TG-107): http://www.anme.nat.tn
 - Renewed TransMed transit convention from 1 September 2019 (SRC-TG-111): https://www.webdo.tn/fr/actualite/national/gaz-algerien-exporte-vers-litalie-500-md-par-an-pour-la-tunisie/149322/
+
+## Verification
+
+**Independent review, 21 November 2026:** pass after corrections. Originals checked: World Bank WDI series EG.ELC.NGAS.ZS and EG.ELC.PETR.ZS (SRC-TG-102, rows 1992-2005, 2010, 2015); MEDRESET working paper, p. 7, Table 5 (SRC-TG-107); IRENA RRA Tunisia 2021, section 2.3 and the Law 96-27 passage (SRC-TG-106); Rosa Luxemburg Stiftung report, TransMed and Miskar sections (SRC-TG-108); MEED, 12 October 2007 (SRC-TG-110); webdo article on the 2019 convention (SRC-TG-111); ONEM Bilan energetique 2023, Electricite section (SRC-TG-101). Corrections made: title and root cause 2 reworded to the source's own attribution ("economic and geographical reasons") instead of "looked secure"; root cause 5 and the Radès paragraph now record the second 27 MW SEEB concession that IRENA also describes; the IPP share "18-19% around 2018-2019" corrected to 19%, chart year not stated (SRC-TG-104); the 2018 capacity table added to data_gaps as not independently reopened. One reviewer objection was not confirmed (see below). Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.
+
+Objection not confirmed: the reviewer said the 5.9% (2015) in SRC-TG-109 belongs to gasoil. In the STEG 2016 report (production table, evolution column -100% against 873.1 GWh in 2015 and 0.4 GWh in 2016) the 5.9% belongs to heavy fuel oil, so the evidence bullet is unchanged.

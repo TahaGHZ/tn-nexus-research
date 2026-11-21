@@ -1,7 +1,7 @@
 ---
 id: FND-TG-251
 title: LBNL projects rising AC electricity use through 2040; climate increment unquantified
-status: draft
+status: in-review
 sectors:
   - energy
 theme: buildings-cooling
@@ -76,8 +76,8 @@ data_gaps:
   - The LBNL BAU framework uses a stock-turnover model and climate-related inputs for baseline unit-use estimates, but does not apply future RCP
     climate conditions to project additional AC demand. An integrated climate-conditioned electricity-demand estimate for Tunisia remains unavailable
     in these sources.
-  - The SRC-TG-283 heatwave estimates and significance caveat are transcribed in the source record; no local original extract was available in
-    the evidence folder for this review, and a direct PDF fetch was blocked.
+  - 'Not independently reopened: the 2050 heatwave-day increases (31.9 and 39.1 days) and the significance caveat (SRC-TG-283). They are
+    transcribed in the source record; no local original extract was available in the evidence folder and a direct PDF fetch was blocked.'
 author: TahaGHZ
 ---
 
@@ -115,6 +115,6 @@ Higher cooling demand would contribute to electricity system load and potentiall
 
 ## Verification
 
-The dated equipment model supplies stock and electricity-use projections. Heatwave projections come from separate climate modelling. The finding does not combine their outputs into an unsupported additional power-demand forecast.
+The dated equipment model supplies stock and electricity-use projections. Heatwave projections come from separate climate modelling. The finding does not combine their outputs into an unsupported additional power-demand forecast. The 2030 and 2040 values (about 3,000 and 4,700 GWh/year) were checked against the rendered Figure 4 on PDF p. 27 of LBNL (2023); the report gives no numeric BAU series, so they remain approximate chart readings with unquantified precision.
 
-**Outstanding verification:** The stock-turnover model and climate projections are distinct. The model chart readings lack an underlying numeric series to verify their precision.
+**Independent review, 21 November 2026:** pass after corrections. Checked LBNL Cost-Benefit Analysis for Air Conditioner in Tunisia (SRC-TG-251), PDF p. 27, Figure 4 (chart read: about 1,500 GWh in 2020, 3,000 GWh in 2030, 4,700 GWh in 2040) and Tables 17-18 (savings only, no BAU consumption table); LBNL market assessment (SRC-TG-250), market section (238,000 units sold in 2020, 600,000 units by 2040). Corrections: the unchecked heatwave indicators (SRC-TG-283) are now listed in data_gaps as not independently reopened. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

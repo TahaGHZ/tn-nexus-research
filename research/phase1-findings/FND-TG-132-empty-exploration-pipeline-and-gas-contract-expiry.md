@@ -173,6 +173,8 @@ author: TahaGHZ
 
 The strategy target and ONEM activity series were checked separately. ONEM’s December 2025 well history explains the interim count of one and the final count of zero. Later permitting outcomes and the strategy’s field-level assumptions remain open questions.
 
+**Independent review, 21 November 2026:** pass. Originals checked: Strategie energetique 2035 synthesis (SRC-TG-103), p. 8, p. 13 section 3.2 and p. 17 investment list (30 wells, Zarat by 2030, 95% deficit, 33%-76% dependence); ONEM Conjoncture energetique, December 2025 (SRC-TG-221), printed p. 4 primary-balance table and printed pp. 29-30 exploration and permit table, reclassification note and Zarat expiry; ONEM September 2026 (SRC-TG-100), printed p. 30 exploration table and permit count; ONEM Chiffres cles energie 2021 (SRC-TG-133), printed p. 30. No corrections. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.
+
 ## Problem
 
 The Ministry of Industry and UNDP's 2035 energy-strategy synthesis sets out a supply-side pathway that includes developing the Zarat gas field by 2030 at the latest and relaunching oil and gas prospecting with an indicative target of 30 wells by 2035 (SRC-TG-103). It states that the strategy scenario's energy-dependence rate in 2035 would range from 33% to 76% depending on the pace of fossil-resource development. Separately, it says the deficit could reach 95% of demand by 2035 if current resource and demand trends continue; FND-TG-102 covers that aggregate outlook. These are scenario statements, not observed outcomes or a field-by-field forecast.

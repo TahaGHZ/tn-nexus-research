@@ -1,7 +1,7 @@
 ---
 id: FND-TG-130
 title: Tunisia national primary energy production fell 23% between 2010 and 2015 as the full-balance energy deficit more than doubled
-status: draft
+status: in-review
 sectors:
   - energy
 theme: energy-imports
@@ -36,6 +36,7 @@ root_causes:
       - SRC-TG-136
       - SRC-TG-138
       - SRC-TG-137
+      - SRC-TG-340
 indicators:
   - name: National primary energy production (full national energy balance)
     value: 8293
@@ -118,6 +119,7 @@ sources:
   - SRC-TG-139
   - SRC-TG-141
   - SRC-TG-221
+  - SRC-TG-340
 data_gaps:
   - A tier-A count of valid exploration permits during 2010-2015 and a consistent time series. The 56 permits in 2010 and 23 at end-2020 are the
     minister's statements reported by WMC/TAP (tier C, SRC-TG-139); ONEM's 25-permit count is for end-March 2020 (SRC-TG-131), so it is not a
@@ -128,9 +130,8 @@ data_gaps:
     the weight of each cause is unknown.
   - The JORT reference and law number of the April 2017 Hydrocarbons Code amendment; only the adoption date (18 April 2017) is sourced (SRC-TG-137).
   - Primary evidence for the 2014 refusal of hydrocarbon permit renewals by the parliamentary energy committee. OBG says all permits were refused
-    (SRC-TG-138, tier C), while an unresolved NRGI search-result lead suggests the decision concerned only El Franig and Baguel, later renewed.
-    The NRGI article and PDF were not accessible during this review (HTTP 522/403 and non-PDF response); the scope and outcome of the committee
-    decision remain unverified.
+    (SRC-TG-138, tier C), while a press report names three permits (Borj El Khadra, Baguel, El Franig; SRC-TG-340). An unresolved NRGI search-result lead suggests Baguel and El Franig were later renewed;
+    the NRGI article and PDF were not accessible (HTTP 522/403 and non-PDF response). The scope is now reported as three permits in press; the committee record and the later outcome remain unverified.
   - Whether the 2022 Constitution keeps the parliamentary approval rule for resource contracts (not checked).
   - 'Coordinator correction to existing source record SRC-TG-136: its template type is incorrectly set to official-statistics for constitutional
     legal text; choose an allowed type and retain the note identifying the French constitutional copy hosted by ICNL.'
@@ -176,9 +177,11 @@ social conflict or approval procedures.
   made natural resources the property of the people. It requires investment agreements to go to
   a parliamentary committee and the related conventions to be approved by the Assembly
   (SRC-TG-136). Under the old code, the executive approved conventions by decree and granted or
-  renewed permits by ministerial order (SRC-TG-137). According to OBG, in 2014 the energy
-  committee refused to renew all hydrocarbon permits until Article 13's implementing laws were in
-  place (SRC-TG-138). This is OBG's uncorroborated tier-C account, not a verified committee decision.
+  renewed permits by ministerial order (SRC-TG-137). In July 2014 the ANC energy committee
+  refused to extend three hydrocarbon permits (Borj El Khadra, Baguel, El Franig), according to a press report (SRC-TG-340, tier C).
+  OBG's statement that the committee refused renewal of "all" hydrocarbon permits, until Article 13's implementing laws were in
+  place, is not supported by that report (SRC-TG-138, tier C). The stated reasons in SRC-TG-340 are alleged legal and financial
+  infractions and, for two permits, the operator's 30-year cap argument; the committee record was not located.
   The Hydrocarbons Code amendment was adopted on 18 April 2017. A legal-expert presentation noted permits were
   expiring and others waiting (SRC-TG-137). These sources suggest possible administrative delay, but
   none measures its effect. Article 13 did not initiate the production decline already under way in
@@ -233,4 +236,4 @@ not another sector.
 
 The ONEM production series establishes the dated decline. Article 13 was adopted after the decline began, and the sources cannot apportion it between resource maturity, investment, disruption and regulation. Reported permit disputes provide context only.
 
-**Outstanding verification:** The competing accounts of the 2014 permit decisions have not been checked against the committee record.
+**Independent review, 21 November 2026:** pass after corrections. Checked in the original or a local copy: ONEM Bilan energetique 2019 production and deficit tables (SRC-TG-130, Tableau 7 and Tableau 18; net imports 2.1 to 6.5 Mtep in the text), ONEM classic balance 2015 (SRC-TG-221, 5,219 and 8,916 ktep), ONEM March 2020 bulletin permit count (SRC-TG-131, 25 permits), the WMC/TAP report of the minister's statement (SRC-TG-139), and L'Economiste Maghrebin, 10 July 2014 (SRC-TG-340). Correction: the 2014 permit refusal is now stated as three named permits per press, and OBG's "all permits" is recorded as unsupported; the data gap and the outstanding line were updated accordingly. The ANC committee record and the reasons remain unlocated. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

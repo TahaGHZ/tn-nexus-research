@@ -1,16 +1,16 @@
 ---
 id: FND-TG-290
-title: Tunisia recorded fewer industrial energy audits in 2018 than in 2011; official counts do not measure compliance
-status: draft
+title: Tunisia's ministry reported fewer industrial energy audits in 2018 than in 2011; the counts do not measure compliance
+status: in-review
 sectors:
   - energy
 theme: industrial-efficiency
 timeframe: current
-period: 2023-2024
+period: 2010-2024 (audit counts 2010-2019; energy balance 2023-2024)
 geography:
   - national
 severity: medium
-trend: decreasing
+trend: worsening
 confidence: medium
 root_causes:
   - cause: The industrial energy balance shows substantial petcoke use concentrated in non-metallic minerals (including cement), but the available
@@ -108,7 +108,7 @@ The reported industrial total also declined from 1,994 ktep in 2023 to 1,914 kte
 
 The 2024 balance establishes the scale and concentration of petcoke use, but not why individual plants select the fuel or what caused its year-to-year decline. Facility-level fuel use, production, audit findings, and investment data are needed to test operational, economic, or regulatory explanations. The 2014 national energy-management strategy described energy audits and industrial efficiency actions as part of its policy plan; it is historical policy context, not evidence that the measures were implemented or effective (SRC-TG-290).
 
-The Ministry's published industrial-audit table reports 103 audits in 2011, 54 in 2016 and 21 in 2018, with 2019 shown as unavailable. This is a direct official count series, but the page does not define the counting unit or report the eligible-establishment denominator. The counts therefore cannot establish current audit coverage or enforcement (SRC-TG-295).
+The Ministry's published industrial-audit table reports counts of 103 in 2011, 54 in 2016 and 21 in 2018, with 2019 shown as "-" (not reported, not zero). This is an official series of reported counts, but the page does not define the counting unit or report the eligible-establishment denominator. The reported counts therefore cannot establish current audit coverage or enforcement (SRC-TG-295).
 
 ## Evidence
 
@@ -134,4 +134,4 @@ This is an industrial energy-use finding. Cement and other mineral products are 
 
 The ministry publishes annual audit counts of 103 in 2011 and 21 in 2018; no eligible-establishment denominator or audit-outcome measure is provided (SRC-TG-295). Industrial energy use is separately defined in the official balance. Neither series measures compliance.
 
-**Outstanding verification:** Industrial energy use and stated audit counts are documented. The counting unit, eligible establishments and compliance outcomes remain unknown.
+**Independent review, 21 November 2026:** pass after corrections. Checked the Ministry of Industry, Mines and Energy "Principaux Indicateurs" page, table row "Nb d'audits" (Secteur Industriel), 2010-2019: 101, 103, 50, 38, 38, 44, 54, 29, 21, "-" (read directly on the page; no definition, footnote, denominator or compliance figure is given); ONEM Rapport Bilan Énergétique 2024 (SRC-TG-222: industrial final use 1,994 and 1,914 ktep, petcoke 532 and 473 ktep, non-metallic minerals 959 ktep, 72% petcoke share of industrial petroleum products). Corrections: the title now says the ministry "reported" the audits, since the counting unit is undefined; the period now covers the audit series; the 2019 dash is described as not reported. The ministry does not define the counting unit (completed audits, establishments audited, or repeat audits), the eligible establishments, or any compliance outcome; these remain unknown. Decree 2009-2269 (periodic audits) was not opened (access refused) and is not used. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

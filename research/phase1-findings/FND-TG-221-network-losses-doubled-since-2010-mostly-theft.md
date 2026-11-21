@@ -1,7 +1,7 @@
 ---
 id: FND-TG-221
 title: ONEM reports national network losses rose from 11.4% in 2010 to 21.1% in 2024; theft attribution is unverified
-status: draft
+status: in-review
 sectors:
   - energy
 theme: grid
@@ -13,7 +13,7 @@ severity: high
 trend: stable
 confidence: medium
 root_causes:
-  - cause: ONEM attributes most losses to electricity diversion and says the practice continues despite the TND 2,000 fine per offence set in
+  - cause: ONEM states that the largest part of losses comes from electricity diversion (the agency's attribution, not a measured theft share) and says the practice continues despite the TND 2,000 fine per offence set in
       2018; independent national measurement of theft volumes is unavailable
     type: behavioural
     legacy_decision: false
@@ -217,6 +217,6 @@ agriculture: none found.
 
 ## Verification
 
-The national loss series is directly observed. ONEM’s attribution of diversion is identified as the agency’s assessment. The studies’ incompatible theft and technical-loss estimates do not yield a measured national theft fraction.
+The national loss series is directly observed. ONEM’s attribution of diversion is identified as the agency’s assessment. The studies’ incompatible theft and technical-loss estimates do not yield a measured national theft fraction. ONEM's own text describes the 2010-2024 rise as "plus de 10 points" (11.4% to 21.1%, about 1.85 times), not a doubling, and says "la plus grande partie" (the largest part) of losses comes from diversion, not "most".
 
-**Outstanding verification:** The aggregate loss series is supported; the technical/commercial breakdowns use different methods and cannot establish a measured theft share.
+**Independent review, 21 November 2026:** pass after corrections. Checked ONEM Rapport Bilan Énergétique 2024 (SRC-TG-222, Figure 33 and the text below it, PDF page 38: 11.4% in 2010 to 21.1% in 2024, transmission losses not above 2.23% and distribution 7-9% in 2024, the diversion attribution, the TND 2,000 fine), the World Bank TEREG document (SRC-TG-105, 18.4% total losses in 2023), and the World Bank ELMED document (SRC-TG-224, 12% in 2010 to 21% in 2021). Corrections: root cause 1 now states ONEM's wording (largest part, agency attribution) instead of "most losses"; the "more than 10 points" wording is recorded above. Decree 2018-59 (footnote 19 of the ONEM report) was not opened. The file name still carries the earlier slug ("doubled", "mostly-theft"); the title and body no longer make those claims. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

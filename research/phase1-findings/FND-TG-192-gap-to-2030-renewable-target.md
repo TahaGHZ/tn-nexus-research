@@ -14,12 +14,13 @@ trend: unknown
 confidence: low
 root_causes:
   - cause: 'Observed delivery has been slow: Kairouan was commissioned about 7.5 years after the May 2018 prequalification; FNF reports procedures
-      take at least three years, but these sources do not establish that Law 2015-12 caused the delay.'
+      take at least three years in its Arabic text (two in its English text), but these sources do not establish that Law 2015-12 caused the delay.'
     type: institutional
     legacy_decision: true
     sources:
       - SRC-TG-106
       - SRC-TG-193
+      - SRC-TG-100
       - SRC-TG-195
   - cause: The updated 4,800 MW target cited by the World Bank has no year-by-year delivery pathway in the sources reviewed; the 2015 plan has
       intermediate milestones and TEREG has a 2028 milestone. The updated strategy's 35% share metric remains undefined in the official source
@@ -173,8 +174,8 @@ assumes it is: renewables at 46.9% of 10,520 MW of capacity in 2030, with wind a
 
 - **Delivery pace (institutional).** Under the 2015 framework the first concession tender took
   from pre-qualification in May 2018 (SRC-TG-106) to first output in December 2025 (SRC-TG-193),
-  and procedures take at least three years before production (SRC-TG-195). Projects awarded in
-  2024-2025 are expected in service in 2027 (SRC-TG-193). The causes of this pace are set out in
+  and procedures take at least three years before production in the Arabic text of the FNF paper and at least two years in its English text (SRC-TG-195). Projects awarded in
+  2024-2025 are expected in service in 2027 (SRC-TG-193); the later September 2026 bulletin gives 2027-2028 for the AO-01-2022 round 1 projects and 2028 for El Khobna (SRC-TG-100). The causes of this pace are set out in
   FND-TG-191.
 - **Targets without a delivery projection (policy).** The World Bank-cited updated strategy gives a 4,800 MW 2030 capacity target. The sources reviewed do not provide its year-by-year delivery pathway. The 2015 Solar Plan has intermediate milestones, and TEREG gives a 3,300 MW milestone for 2028; these are separate planning references, not a pathway proving delivery of the updated target. The 2035 strategy synthesis gives discrepant 2035 figures, 8,530 MW on p. 12 and 8,350 MW on p. 17 (SRC-TG-103).
 - **Finance (economic).** The World Bank says scale-up "will depend on the availability of
@@ -200,13 +201,13 @@ The ELMED appraisal also models a "reduced RE development scenario" in which Tun
 importer from Italy in 2030 and 2040 (SRC-TG-224), but its extract does not give the capacity
 assumed.
 
-**What is in the pipeline at end 2025 (SRC-TG-193).** Concessions not yet in service: Gafsa
-100 MW (2027), three 100 MW projects of AO-01-2022 (signed March 2025, service 2027), two 100 MW
-projects of the second round (awarded), El Khobna 198 MW (signed March 2025), one 75 MW wind
-project (awarded). The listed concessions total 873 MW of awarded or signed capacity. Separately, the fifth authorisation call produced agreements in principle for 288 MW; these are not equivalent to commissioned or signed capacity. Tozeur
-and Sidi Bouzid (100 MW together) entered service in early 2026, after the 2025 count.
+**What is in the pipeline at end 2025 (SRC-TG-193, pp. 39-41).** Concessions not yet in service: Gafsa
+100 MW (project agreement signed 8 May 2024, service planned 2027), three 100 MW projects of AO-01-2022 (agreements signed 24 March 2025, service planned 2027), two 100 MW
+projects of the second round (awarded), El Khobna 198 MW (agreements signed 24 March 2025), one 75 MW wind
+project (awarded). The later ONEM September 2026 bulletin (SRC-TG-100, pp. 37-39) updates these: Gafsa is at financial close with no service date, AO-01 round 1 is planned for 2027-2028, El Khobna for 2028, and the round 2 awards are dated January 2026. The listed concessions total 873 MW of awarded or signed capacity. Separately, the fifth authorisation call produced agreements in principle for 288 MW (SRC-TG-193); these are not equivalent to commissioned or signed capacity. Tozeur
+and Sidi Bouzid (100 MW together) entered service in early 2026 (SRC-TG-193; April 2026 in SRC-TG-100), after the 2025 count.
 
-**Our arithmetic, not a forecast.** 1,086 MW at end-2024 (SRC-TG-190) + 124 MW added during 2025 (SRC-TG-193) + 100 MW commissioned in early 2026 (SRC-TG-193) + 873 MW of awarded/signed concessions + 288 MW of authorization agreements in principle (SRC-TG-193) gives about 2,470 MW. This conditional order-of-magnitude calculation assumes every listed mixed-stage project is built by 2030 and includes no other additions; on that assumption, the total is about 1,350 MW below 3,815 MW and 2,330 MW below 4,800 MW. The sum mixes IRENA's all-regime total with ONEM's project list, so it is
+**Our arithmetic, not a forecast.** 1,086 MW at end-2024 (SRC-TG-190) + 124 MW added during 2025 (SRC-TG-193) + 100 MW commissioned in early 2026 (SRC-TG-193) + 873 MW of awarded/signed concessions (SRC-TG-193) + 288 MW of authorization agreements in principle (SRC-TG-193) gives about 2,470 MW. This conditional order-of-magnitude calculation assumes every listed mixed-stage project is built by 2030 and includes no other additions; on that assumption, the total is about 1,350 MW below 3,815 MW and 2,330 MW below 4,800 MW. The sum mixes IRENA's all-regime total with ONEM's project list, so it is
 only an order of magnitude. Rooftop solar is growing fast (543 MW residential at end September
 2026, SRC-TG-100), and further tender rounds of the 1,700 MW programme are planned (SRC-TG-105),
 so the gap could narrow; no source quantifies by how much.
@@ -220,8 +221,7 @@ cannot be compared directly.
 The targets are well sourced, but the finding is about a future gap and no projection was found.
 The gap shown is our own arithmetic on sources with different scopes (IRENA all regimes, ONEM
 project list, World Bank count excluding most rooftops). The official metric of the 35% target
-was not found in a ministry or ANME text. Recent acceleration (renewable output +66% in
-January-September 2026, SRC-TG-100) could change the picture faster than the historical pace
+was not found in a ministry or ANME text. Recent acceleration (renewable output up 66% year on year to end-September 2026, SRC-TG-100) could change the picture faster than the historical pace
 suggests.
 
 ## Links to other sectors
@@ -243,3 +243,5 @@ imports (FND-TG-102, FND-TG-222).
 ## Verification status
 
 The installed-capacity comparison uses MW in both numerator and denominator. Generation targets, capacity shares and mixed-stage projects are labelled separately. No unique 2030 generation share or unconditional delivery forecast is inferred.
+
+**Independent review, 21 November 2026:** pass after corrections. Originals checked: Tunisian Solar Plan 2015 (SRC-TG-192), p. 10; World Bank TEREG appraisal document, background and Challenge sections (SRC-TG-105); World Bank TERI brief, 25 January 2024 (SRC-TG-196); IRENA energy profile, p. 2 (SRC-TG-190); ONEM Chiffres cles 2025 (SRC-TG-193), pp. 18 and 39-41 (124 MW; the project table with Kairouan, Sidi Bouzid, Tozeur, Gafsa, AO-01, AO-03 and 24 March 2025 signings, read on the rendered pages); ONEM Conjoncture energetique, September 2026 (SRC-TG-100), pp. 34 and 37-38; Med-TSO mid-term adequacy 2027-2030, section 5.5, rendered pp. 42-43 (7,316 MW, 30.1%, 10,520 MW, 46.9%, solar 30%, wind 15%, battery 5% all read on the page and confirmed); FNF policy paper 2023 (SRC-TG-195), English p. 5 and Arabic p. 20. Corrections made: the later September 2026 ONEM project status (Gafsa at financial close, AO-01 round 1 planned 2027-2028, El Khobna 2028, Tozeur and Sidi Bouzid in April 2026) is recorded next to the end-2025 table; the +66% renewable output is year on year to end-September 2026; the FNF procedure duration is reported as three years in the Arabic text and two years in the English text. Objections not confirmed: the reviewer said the project pipeline, the signing dates and the 2027 service dates are not in SRC-TG-193; they are in its pp. 39-40 table, an image missing from the text transcript the reviewer used, so the SRC-TG-193 citations stay. The reviewer could not read the Med-TSO 2030 figures from the text layer; they were confirmed on the rendered pages, so the 2030 indicator and derived values stay. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.

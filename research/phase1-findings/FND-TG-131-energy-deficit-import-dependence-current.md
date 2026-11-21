@@ -2,7 +2,7 @@
 id: FND-TG-131
 title: Tunisia covered 35% of primary energy demand in 2025 including transit royalty, with a large energy trade deficit and reliance on Algerian
   gas
-status: draft
+status: in-review
 sectors:
   - energy
 theme: energy-imports
@@ -213,6 +213,8 @@ author: TahaGHZ
 
 The national energy balance and trade series are dated and their denominators identified. January–November trade shares are separate from annual energy independence; low exploration activity is described as an observation rather than a quantified cause.
 
+**Independent review, 21 November 2026:** pass. Checked in local copies of the originals: ONEM Conjoncture energetique, December 2025 (SRC-TG-221), the gas table (Achat row, 2,824 ktep-pci), import table (crude 1,362, products 7,762, gas 4,225, total 13,349 MTND), the Achat Sonelgaz and Gecol row (3,125 and 2,463 GWh) and the electricity paragraph ("ont couvert 11% des besoins du marche local en 2025"), the primary-balance table (2015 and 2025), and the trade-deficit paragraph (11,023 MTND); ONEM September 2026 (SRC-TG-100), independence 32% and 26% and 11 valid permits; INS 2024 note (SRC-TG-134, -10,869.5 MD, total -18,927.6 MD, Algeria -4,357 MD); INS January-November 2025 note (SRC-TG-135, -10,308.4 MD). No corrections. The reviewer's objection that the 11% electricity share is not stated in SRC-TG-221 was not confirmed: the sentence quoted above is in the December 2025 bulletin, so the figure stays as sourced. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.
+
 ## Problem
 
 In 2025 Tunisia's own primary energy resources covered 35% of its primary demand, counting the
@@ -284,5 +286,3 @@ water pumping and irrigation is covered in FND-TG-101.
 - Electricity imports from Sonelgaz (Algeria) and Gecol (Libya) as a stop-gap (SRC-TG-221).
 - New exploitation concessions granted in 2025: "Aziza" (7 July 2025) and "Sabah" (7 October 2025) (SRC-TG-221).
 - Agreements ending the El Kamour blockades (2017, 2020): seen only as the events marked on the ONEM chart (SRC-TG-132); no agreement text was opened.
-
-**Outstanding verification:** The corrected annual energy balance is documented; the full claim-level recheck of the detailed import and trade series is outstanding.

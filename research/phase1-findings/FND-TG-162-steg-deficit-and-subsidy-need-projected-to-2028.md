@@ -140,7 +140,7 @@ indicators:
     year: 2028
     geography: national
     source: SRC-TG-105
-  - name: Hydrocarbon and electricity subsidies planned in draft 2027 budget
+  - name: Hydrocarbon support grant planned in draft 2027 budget (distributed between STIR and STEG)
     value: 7090
     unit: million TND
     year: 2027
@@ -229,6 +229,8 @@ author: TahaGHZ
 ## Verification status
 
 The modelled losses in PAD Table 5 and the parliamentary proposal were checked independently as separate measures. No budget figure is presented as an outturn or as STEG’s realised loss. The 2026 comparison and 2027 company split are explicitly secondary.
+
+**Independent review, 21 November 2026:** pass after corrections. Originals checked: World Bank TEREG appraisal document, p. 18 Table 5 and paragraphs 46-47, p. 1 summary, p. 25 paragraph 76 (SRC-TG-105; every value in the indicators confirmed); ARP budget committee report on the 2027 draft budget, rendered pages PDF 51-52 (printed 50-51): 11,846 MD subsidy expenditure, Brent at USD 80, the 7,090 MD grant booked as hydrocarbon support and shared between STIR and STEG, the 600 MD performance measures, the 172 MD cost of a USD 1 rise in Brent, and no STEG or STIR amounts in that passage (SRC-TG-174); La Presse, 22 October 2026 (SRC-TG-167), Managers, 28 October 2025 (SRC-TG-166) and Mosaique FM, 31 October 2026 (SRC-TG-170) for the press figures. Correction: the 7,090 MD indicator was labelled "hydrocarbon and electricity subsidies"; the committee report labels it hydrocarbon support, so the name was changed. The reviewer could not read the Arabic text layer for the 7,090, 172 and non-itemisation points; they were confirmed on the rendered pages. Independent teammate sign-off is outstanding; reviewer and author share the TahaGHZ identity, so the record is not validated.
 
 ## Problem
 

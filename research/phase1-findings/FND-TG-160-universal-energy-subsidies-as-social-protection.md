@@ -181,7 +181,7 @@ The distributional evidence concerns absolute benefits and consumption. A World 
 estimate says the bottom 40% captured 29% of energy subsidy benefits, but its underlying
 observation year is not stated. A separate model using 2010 household survey data estimates that
 the poorest quintile received 14.9% of residential energy subsidy benefits and the richest
-quintile 25%; this does not cover industry or firms' electricity use. The paper also reports that
+quintile 25%; this does not cover industry or firms' electricity use. The World Bank's 2013 policy note, using the 2010 household survey with fuel prices adjusted to April 2013, gives a third basis for all energy products: 13% of benefits to the lowest-income quintile and 29% to the highest (SRC-TG-172, Figure 11). The paper also reports that
 a quintile-5 individual consumed 200 times as much gasoline as one in the poorest quintile. These
 findings concern absolute benefits and consumption, not subsidy burden as a share of household
 budgets (SRC-TG-162).
@@ -244,10 +244,10 @@ FND-TG-161.
   The IMF gross series gives 4,434 million TND or 5.9% of GDP in 2013, 2,689 million TND or
   3.8% in 2012, 3,112 million TND or 3.9% in 2014, and estimated 918 million TND or 1.1% in
   2015 (SRC-TG-163, Tables 4a-4b). These are distinct estimates/series, not a common outturn.
-- Incidence: the World Bank paper attributes a 29% bottom-40 share to World Bank 2014, but the
+- Incidence: the World Bank paper (WPS 7312, June 2015) attributes a 29% bottom-40 share to World Bank 2014, but the
   observation year is unstated (SRC-TG-162, p. 2). Its separate Table 7 model, based on 2010
   household survey data, estimates that the poorest quintile received 14.9% and the richest 25%
-  of residential energy-subsidy benefits; this is not an economy-wide estimate (SRC-TG-162).
+  of residential energy-subsidy benefits; this is not an economy-wide estimate (SRC-TG-162). The 2013 World Bank policy note's Figure 11 gives 13% (lowest quintile) and 29% (highest quintile) of all energy-subsidy benefits on the 2010 survey with April 2013 fuel prices; it is a different basis from both figures above and is not reconciled with them (SRC-TG-172).
 - Consolidated non-financial-SOE deficit 4.4% of GDP in 2013, with STEG among several leading
   loss-makers; transfers to public enterprises overall rose from about 2% of GDP in 2010 to
   about 7% in 2013. These are distinct aggregates (SRC-TG-163, p. 25).
@@ -295,4 +295,6 @@ opened quantifies the agricultural share of energy subsidies. Listed as a lead, 
 
 Article 5 of the 15 July 2016 joint order documents the quarterly fuel-price procedure (SRC-TG-175). The IMF’s January 2014 benchmark and announced changes to the future review frequency are separate events (SRC-TG-163). IMF Tables 4a/4b report gross subsidies of 4,434 million TND and 5.9% of GDP for 2013. The November estimate of 4.7% was a forecast on a different basis. The incidence comparisons retain their source populations, dates where known, and limits (SRC-TG-163, SRC-TG-172).
 
-**Outstanding verification:** The July 2016 order and IMF gross-subsidy outturn are now sourced. The earlier incidence studies still have unresolved observation periods and populations.
+**Independent review, 21 November 2026:** not passed. World Bank WPS 7312 (SRC-TG-162), introduction p. 2, section 4.2 and Table 7 (14.9% and 25% from the 2010 household survey confirmed in the text; the 29% bottom-40 share is cited there to "World Bank 2014" with no year) and the World Bank 2013 policy note 82712-TN (SRC-TG-172), paragraph 18 and Figure 11 were checked in local copies. Corrections made: the policy note's 13% and 29% quintile result, which the record omitted, is now stated with its own basis and flagged as unreconciled; the WPS 7312 date (June 2015) is stated. The English source of the 29% bottom-40 figure and the ESCWA WP.9 paper were not opened.
+
+**Outstanding verification:** The 29% bottom-40 share was traced only to WPS 7312's citation of "World Bank 2014"; the English report with its survey year and population (World Bank 2014, The Unfinished Revolution) and the ESCWA WP.9 (2019) metric and base would settle the incidence comparison.
