@@ -39,11 +39,12 @@ Printed page 51, with table "Evolution future du potentiel d'eaux profondes en m
 
 English gloss: Overexploitation has caused localised salinity increases or brackish intrusion and the depletion of exploitable potentials. The long-term water strategy (EAU 21) projected exploitable shallow potential falling from 720 Mm3 (1996) to 620 (2020) and 550 (2030), and deep potential from 1,250 to 1,000 Mm3.
 
-Printed page 53 (Programme 2 indicator):
+Printed page 52 (PDF page 51, Programme 2 indicator):
 
 > il est actuellement aux alentours de 106% pour les nappes phréatiques et de l'ordre de 80% pour les nappes souterraines profondes.
 
 English gloss: The groundwater exploitation index is currently about 106% for shallow aquifers and about 80% for deep aquifers.
+
 
 ## Notes
 

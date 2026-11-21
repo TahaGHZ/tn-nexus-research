@@ -1,11 +1,11 @@
 ---
 id: FND-TG-426
 title: The 1970s-2011 "mobilisation" strategy built storage in the north and tied the drinking water of Tunis, Cap Bon, Sahel and Sfax to a handful of northern dams through long transfers. The plan's dam targets were not reached, and the canal's water has shifted from irrigation to drinking supply.
-status: draft
+status: in-review
 sectors: [water, agriculture, energy]
 theme: legacy-policy
 timeframe: past
-period: 1970-2011 (decisions); effects observed 2008-2021
+period: 1970-2011
 geography: [national, north-west, north-east, centre-east]
 severity: high
 trend: worsening
@@ -21,7 +21,7 @@ root_causes:
     sources: [SRC-TG-428, SRC-TG-430]
   - cause: Transfer water is priced below its energy cost. SECADENORD pays about 75 millimes/m3 in extra energy to pump water from Sidi Barrak, but sells water to SONEDE at 56 millimes/m3, so the transfer system runs at a loss.
     type: economic
-    legacy_decision: true
+    legacy_decision: false
     sources: [SRC-TG-402]
 indicators:
   - name: Planned number of large dams (strategy target)
@@ -86,7 +86,7 @@ indicators:
     source: SRC-TG-402
 stakeholders: ["Ministry of Agriculture (DGBGTH, BPEH)", SECADENORD, SONEDE, "Ministry of Finance (state budget covers energy overruns)", "irrigators of Cap Bon (Nabeul) and the Sahel", "urban consumers of Grand Tunis, Cap Bon, Sahel and Sfax", "JICA and KfW (current financiers of Medjerda works)"]
 related: [FND-TG-425, FND-TG-427, FND-TG-501]
-sources: [SRC-TG-430, SRC-TG-402, SRC-TG-428, SRC-TG-503]
+sources: [SRC-TG-430, SRC-TG-402, SRC-TG-428, SRC-TG-503, SRC-TG-438]
 data_gaps:
   - Text of the 1990-2000 decennial water mobilisation strategy itself (number of dams planned, budget). A Selmi and Talineau (1994) paper quoted in search results gives "21 large dams" for it, but the IRD PDF returned an HTML page and was not read.
   - Original design allocation of the Medjerda-Cap Bon canal (commissioning year, design flow, irrigation vs drinking split in m3). SRC-TG-402 states only the reversal of shares from 2/3 irrigation to 2/3 drinking water.

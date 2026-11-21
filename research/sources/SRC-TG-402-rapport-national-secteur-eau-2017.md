@@ -128,7 +128,7 @@ Irrigation and water valuation (PDF page 95):
 
 English gloss: In irrigated perimeters devoted to high-export-potential crops (dates, early vegetables), the situation is one of overexploitation, driven by a race to increase income.
 
-### Extracts merged from former SRC-TG-402 (same document, created in parallel)
+### Additional extracts consolidated from duplicate source records
 
 Résumé, "Le secteur de l'eau potable" (PDF page 25):
 
@@ -236,7 +236,7 @@ Section XIV.4 and Tableau 28 (printed page 97):
 
 English gloss: End-2017 there were 2,754 GDAs: 1,441 rural drinking water, 1,182 irrigation and 131 mixed, serving 1.6 million people with drinking water. The difficulties named are end users not taking part, the limits of volunteer work, weak technical skills, and failing administrative and financial management. The results are unpaid bills and degraded service and equipment. Indicators (2016 / 2017, % of all GDAs): management contract 37 / 44; financial report produced 41 / 42; covering more than 50% of maintenance costs 17 / 21; affected by illegal connections 25 / 26.
 
-### Extracts merged from former SRC-TG-402 (same document, created in parallel)
+### Additional extracts consolidated from duplicate source records
 
 Chapter XIII.1.1 "Constat", page 90:
 
@@ -287,25 +287,109 @@ Résumé, page 3:
 
 English gloss: SONEDE tariff increases are indexed neither to costs, nor to charges, nor to the cost of living or incomes. The deficit is not only due to reluctance to raise tariffs: energy now exceeds 64% of purchases consumed, and staff costs rose steadily and faster after 2011. Water services cost 0.88% of an average household's income, below the 3.5% WHO ceiling cited. Rural GDA drinking-water tariffs range from 0.200 to 1.500 TND/m3; governorate averages range from 0.500 (Tataouine) to 0.796 TND/m3 (Béja). The absence of a tariff change in 2017 widened the cost-price gap.
 
+
+Section I.1, enjeux des ressources en eau (PDF page 35, printed page 13):
+
+> La Tunisie a établi depuis l’indépendance des stratégies des ressources en eau selon une approche axée essentiellement sur la gestion de l’offre.
+
+English gloss: Since independence, water strategies have mainly followed a supply-management approach.
+
+Section II.1, avancement du nouveau code des eaux (PDF page 60, printed page 38):
+
+> Après soumission à la présidence du gouvernement du projet du nouveau code en 2015, le dossier complet avec toutes les réponses aux observations des différents Ministères et tous les projets de textes d’application (décrets et arrêtés) a été transmis de nouveau à la présidence du gouvernement en Février 2017.
+
+English gloss: The draft code was submitted in 2015 and a complete file was resubmitted to the government presidency in February 2017.
+
+Section IV.2, situation des barrages (PDF page 51, printed page 29):
+
+> Au 31 août 2017, Sur 30 barrages suivis, les 2/3 avaient un stock inférieur à 35% de leur capacité utile. Le taux global de remplissage était de 32%.
+
+English gloss: On 31 August 2017, two thirds of 30 monitored dams had less than 35% of useful capacity; the overall fill rate was 32%.
+
+Section VII.1.2, envasement (PDF page 70, printed page 48):
+
+> La perte de capacité des retenues est estimée à 25% pour l’ensemble des barrages.
+> Le taux annuel moyen de perte de capacité de stockage est de 0,86%.
+
+English gloss: Storage capacity loss was estimated at 25% for all dams; the average annual storage-capacity loss rate was 0.86%.
+
+Section VII.1.2, projections (PDF page 70, printed page 48), footnote 16:
+
+> en 2030, la perte de capacité de stockage des barrages en exploitation pourrait atteindre 43 % de leur capacité initiale
+
+English gloss: By 2030, storage-capacity loss of operating dams could reach 43% of initial capacity (quoted by the report from Ben Mammou and Louati via ONAGRI).
+
+Section VII.1.2, per-dam 2050 estimates (PDF page 70, printed page 48):
+
+> Les estimations sur l'avenir de certains barrages en 2050 montrent que la capacité de stockage deviendra : 43% pour le barrage Sidi Salem, 38% pour le barrage de Nebhana, 6% pour le barrage de Siliana, 5% pour le barrage de Sidi Saad, 16% pour le barrage d'El Houareb, 18% pour le barrage de Chiba et 23% pour le barrage de Lebna.
+
+English gloss: The sentence lists 2050 per-dam storage-capacity percentages but does not clarify whether these are capacity remaining or capacity lost.
+
+Section VII.1.2, Tableau 12 (PDF page 72, printed page 50):
+
+> Capacité de transfert des eaux en millions de m3 — Réalisé 2016: 800; Prévu 2017: 800; Réalisé 2017: 800; Prévu 2018: 800.
+
+English gloss: Reported and planned surface-water transfer capacity is 800 million m3 in each of 2016, 2017 and 2018.
+
+Section VII.1.2, transfer energy cost (PDF page 74, printed page 52):
+
+> A titre indicatif, le transfert des eaux du barrage Sidi Barrak occasionne à la SECADENORD un coût supplémentaire d’énergie d’environ 75 millimes / m3. Sachant que le prix de l’eau de la SECADENORD pour la SONEDE, est actuellement à 56 millimes /m3, la vente de l’eau devient largement déficitaire pour la SECADENORD.
+
+English gloss: Transferring Sidi Barrak water costs SECADENORD about 75 millimes/m3 in additional energy, while its sale price to SONEDE is 56 millimes/m3, making the sale substantially loss-making.
+
+Drinking-water source mix (PDF page 96, printed page 74):
+
+> à partir des ouvrages gérés par la SECADENORD (ouvrages de transferts des barrages Sidi Barrak, Sejnane, Joumine, Ziatine, Sidi Salem, Bouhertma, et Nebhana) : 86,7% du total des eaux de surface prélevé.
+
+English gloss: SECADENORD-managed transfer works supplied 86.7% of surface water withdrawn by SONEDE, per this passage.
+
+Section on canal allocation in Nabeul (PDF page 94, printed page 72):
+
+> aujourd’hui deux tiers des eaux disponibles à partir du canal Medjerda – Cap Bon sont réservés à l’eau potable, alors qu’à l’ouverture du canal les proportions étaient inversées (2/3 pour l’irrigation)
+
+English gloss: In Nabeul, two thirds of Medjerda-Cap Bon canal water was then reserved for drinking water; at opening, two thirds had gone to irrigation.
+
+Section on canal withdrawals (PDF page 99, printed page 77):
+
+> Le volume prélevé sur le Canal Medjerda Cap Bon a évolué de 205 Mm3 en 2008 à 317 Mm3 en 2017.
+
+English gloss: Canal withdrawals rose from 205 Mm3 in 2008 to 317 Mm3 in 2017.
+
+Notes: section and page references above are from the opened native text extraction for SRC-TG-402.local.txt, whose title page identifies the 2017 national water report. Printed page numbering is PDF page minus 22. The brief Table 12 extract is included because the handoff flags it; numeric row values need the original table layout if used.
+
+
+PDF page 54, new safeguard zones created by decrees 2017-1400 and 2017-1401 (25 December 2017):
+
+> Au cours de l’année 2017, et par l’instauration des décrets n° 2017-1400 et n°2017-1401 du 25/12/2017 respectivement ont été portées en zones de sauvegarde : La nappe de Zarmdine-Beni Hassen au gouvernorat de Monastir; La nappe de Gabes-Sud : Kettana, Limaoua, El Medou-Nouvelle Matmata.
+
+English gloss: The decrees designated the Zarmdine-Beni Hassen aquifer in Monastir and the Gabes-Sud aquifer zones as safeguard areas.
+
+PDF page 109 (printed page 87), Tableaux 23-24, SECADENORD electricity use and transfer complexes:
+
+> Tableau 23 — Consommation totale (Gwh): 2015 71,573; 2016 101,850; 2017 156,855; évolution 2016-2017 54%. Coût total (MDT): 2015 12,989; 2016 18,342; 2017 29,980; évolution 63%.
+> Tableau 24 — Complexes de transfert, in order Sidi Barrak, Sedjnane-Joumine, Barbara, Zyatine, Total. Consommation totale (Gwh): 73,442; 31,629; 7,220; 6,340; 118,631. Coût total (MDT): 14,7; 5,1; 1,364; 1,011; 29,980.
+
+English gloss: SECADENORD electricity consumption and costs increased in 2017; Table 24 breaks consumption out by transfer complex. The source table's remaining columns are not quoted in this extract.
+
 ## Notes
 
 - Opened via: curl+pdftotext; saw: full text (about 9,500 lines of text).
 - Annual sector report of the Ministry of Agriculture, compiled from DGRE yearbooks; groundwater figures are DGRE estimates. Year of publication taken as 2018 because it reports 2017 data; the PDF does not show a publication date on the pages read.
 - Internal inconsistency: the same 119%/133% deep-aquifer series is labelled "non inclus les forages illicites" under Figure 5 and "y compris les forages illicites" in Tableau 9. Tableau 4 settles it arithmetically: 416 Mm3 is 22.0% of 1,895 Mm3 (and 273 is 16.0% of 1,705), so the 1,895 Mm3 total, and therefore the 133%, include the estimated illicit withdrawals. "Non inclus" is the outlier.
-- Duplicate URL: SRC-TG-402 and SRC-TG-402, created later by parallel agents, point to the same PDF.
+- Duplicate URL: The duplicate source records former SRC-TG-454 and SRC-TG-483 were merged into this record.
 - Illicit borehole counts are estimates; the footnote says CRDA inventories cover only part of the aquifers and vary by year.
 - The 119% (2015) and 133% (2016) figures are deep aquifers only; the shallow-aquifer rate for 2015 is 117%.
 
-Notes carried over from former SRC-TG-402:
+Notes carried over from duplicate source records:
 
 - Opened via: curl+pdftotext (layout); saw: full text. Printed page numbers equal PDF page minus 22 (e.g. Tableau 17 is PDF page 97).
 - In the `-layout` output, the rows of Tableau 17 are misaligned. "Volume produit Total 653,8 680,5 + 4,1%" was reassembled from the row label and the value line; the +4,1% matches the summary statement "volume produit (+4,1%)".
 - Official ministry report (BPEH), year of data 2017, published 2018 (the year is inferred: the report covers 2017 and gives forecasts for 2018). Hosted on pseau.org, not on the ministry site.
 - Within the report, "rendement global" (70.3%) and "rendement sur réseau de distribution" (76.3%) are distinct indicators. The 2017 consumed/produced ratio from Tableau 17 is 472/680.5 = 69.4% (derived), slightly below the stated 70.3%, so the official formula is not exactly consumed/produced.
 - The GDA indicators in Tableau 28 cover drinking-water and irrigation GDAs together.
-- Duplicate URL: SRC-TG-402 (same document) was created by another agent in parallel during this run; it was not present when this folder was checked before writing. SRC-TG-402 holds groundwater extracts and this record holds drinking-water and GDA extracts. Merge candidate.
+- Duplicate URL: Former duplicate source SRC-TG-454 was merged into this record.
 
-Notes carried over from former SRC-TG-402:
+Notes carried over from duplicate source records:
 
 - Opened via: curl+pdftotext; saw: full text.
 - Footnote call numbers (45, 46) are omitted from the extracts. In the table, the row assignment of the "3 oasis" line (22% / 16%) to the shared-management group follows the raw extraction order and should be checked against the printed table.
@@ -313,4 +397,4 @@ Notes carried over from former SRC-TG-402:
 - Internal inconsistency on page 92: "Le taux de recouvrement a reculé à 78% ; en 2017 il était de 89%". 900/700 gives 78% for 2017, so 89% is probably 2016. Recorded as written.
 - The 37 MTND GDA debt figure is cited in the report (footnote 46) from a DGGREE presentation of February 2017 as reported by africanmanager.com.
 - "Plus de 64% des achats consommés" is the energy share of purchased inputs, not of total costs. It does not conflict with the 19% energy share of total cost reported for 2018 (SRC-TG-486).
-- Duplicate URL: SRC-TG-402 (which appears to predate this record) and SRC-TG-402 point to the same report. They were written in parallel and hold none of the tariff chapter (XIII) extracts used here; this record should be merged into SRC-TG-402.
+- Duplicate URL: Former duplicate source SRC-TG-483 was merged into this record.

@@ -1,7 +1,7 @@
 ---
 id: FND-TG-451
 title: Supply cuts went from "very rare" in 2009 to national rationing in 2023-2024, and they persist where regional transfer and network capacity lag, even when national dam stocks recover
-status: draft
+status: in-review
 sectors: [water, agriculture]
 theme: drinking-water
 timeframe: current
@@ -11,9 +11,9 @@ severity: high
 trend: unknown
 confidence: medium
 root_causes:
-  - cause: Coastal demand centres (Grand Tunis, Cap Bon, Sahel, Sfax) depend on long transfers from northern and central dams whose capacity and back-up were not expanded in time; a peak-day deficit was forecast from 2020
+  - cause: Coastal demand centres (Grand Tunis, Cap Bon, Sahel, Sfax) depend on transfers from northern and central resources, while regional supply capacity lagged demand; a peak-day deficit was forecast from 2020
     type: technical
-    legacy_decision: true
+    legacy_decision: false
     sources: [SRC-TG-402, SRC-TG-464]
   - cause: Long delays in delivering supply projects (transfers, reservoirs, desalination plants)
     type: institutional
@@ -78,7 +78,7 @@ indicators:
     source: SRC-TG-503
 stakeholders: [SONEDE, Ministry of Agriculture Water Resources and Fisheries (MARHP), households, farmers using SONEDE water, municipalities (green spaces, street cleaning), Observatoire Tunisien de l'Eau, SECADENORD (northern transfer)]
 related: [FND-TG-450, FND-TG-452, FND-TG-425, FND-TG-426, FND-TG-501]
-sources: [SRC-TG-453, SRC-TG-402, SRC-TG-455, SRC-TG-459, SRC-TG-460, SRC-TG-461, SRC-TG-462, SRC-TG-463, SRC-TG-464, SRC-TG-503]
+sources: [SRC-TG-453, SRC-TG-402, SRC-TG-455, SRC-TG-459, SRC-TG-460, SRC-TG-461, SRC-TG-462, SRC-TG-463, SRC-TG-464, SRC-TG-503, SRC-TG-504]
 data_gaps:
   - Text of the ministerial decisions of 29 March 2023 and 28 September 2023. They were not located by web search; the ministry site and the JORT were not checked directly.
   - The official end date of the 2023 quota system. Press says it was extended into 2024 and not renewed for summer 2025, but no lifting decision was found.
@@ -102,8 +102,8 @@ The Observatoire Tunisien de l'Eau logged 1,592 citizen alerts on unannounced cu
 
 Low dams are the symptom and the trigger, not the whole cause. The evidence points to three structural causes beneath the drought.
 
-1. **Regional supply capacity, foreseen and not delivered in time.** The past choice is a supply model built on long transfers from the North and Centre to the coastal demand centres (see FND-TG-426), with expansion lagging demand. In 2017 the ministry warned that Grand Tunis, Cap Bon, the Sahel and Sfax faced a peak-day deficit of 1.6 m3/s from 2020. It called for faster delivery of reservoirs (Saïda, Kalaa), transfer reinforcement and desalination plants (SRC-TG-402). It named "les longs délais de réalisation des projets" as a problem in its own right (SRC-TG-402). In 2026 the north-to-centre transfer linked to the Kalaa Kebira dam was still delayed by land expropriation, and the Sousse desalination plant was still in testing (SRC-TG-464).
-2. **A network that wastes part of each cubic metre.** About a third of SONEDE production is not recorded as consumed (FND-TG-450; SRC-TG-453). In a supply crisis, every lost cubic metre has to be found in a dam that is already low.
+1. **Regional supply capacity, foreseen and still constrained.** The coastal demand centres rely on transfers from northern and central resources. In 2017 the ministry warned that Grand Tunis, Cap Bon, the Sahel and Sfax faced a peak-day deficit of 1.6 m3/s from 2020. It called for faster delivery of reservoirs (Saïda, Kalaa), transfer reinforcement and desalination plants (SRC-TG-402). It named "les longs délais de réalisation des projets" as a problem in its own right (SRC-TG-402). In 2026 WMC reported that the north-to-centre transfer linked to Kalaa Kebira was delayed by land expropriation and that the Sousse desalination plant remained in testing (SRC-TG-464).
+2. **Network efficiency limits delivered supply.** In SONEDE's 2023 figures, 773.3 Mm3 were produced and 516.0 Mm3 consumed; the difference is about one third of production, calculated from the published totals, and is not a direct measure of physical leakage or billed consumption (SRC-TG-453). This gap means more production is needed to deliver a given volume of recorded consumption.
 3. **Pressure asymmetry within networks.** In the Sahel, high neighbourhoods (Hay Riadh, Fgaiya, Ouled Ahmed) ran dry first because consumption in low zones emptied the pipes. SONEDE presented the 2026 night cuts as a way to rebalance pressure between high and low zones (SRC-TG-463, SRC-TG-464).
 
 The drought itself is the trigger cited by the decision (SRC-TG-459, SRC-TG-460) and by SONEDE (SRC-TG-461). Dam fill levels are covered by FND-TG-425.
@@ -141,3 +141,10 @@ The interpretation that cuts are driven by regional capacity and network problem
 - Sousse, Sfax, Djerba and Zarat seawater desalination plants (desalination lane).
 - Observatoire Tunisien de l'Eau citizen-alert map, https://watchwater.tn
 - Eau 2050 strategy: drinking-water system separated from the irrigation system, with transfers reserved for drinking water (SRC-TG-503 document).
+
+## Independent source verification (2026-11-21)
+
+- **Passed for in-review.** SRC-TG-402 was reopened from the archived original PDF after matching its title and edition; its report confirms the SONEDE disruption counts (224 localities in summer 2016; 185 in summer 2017), rural Génie Rural counts (202 in 2016; 159 in 2017), and the forecast peak-day deficit of 1.6 m3/s from 2020 for Grand Tunis, Cap Bon, the Sahel and Sfax. SRC-TG-455 confirms continuous SONEDE subscriber supply in 2009 and says cuts were very rare and operational. SRC-TG-503's Eau 2050 scenario table gives national drinking-water demand of 780 Mm3 in 2020 and 1,100 Mm3 in 2050.
+- The 2023 restrictions, 16-hour statement, citizen alerts, and 2026 Sahel interruptions are supported by the cited press originals and remain explicitly attributed to their reported ministry, SONEDE, or Observatoire Tunisien de l'Eau sources. They are tier C evidence and do not establish subscriber counts affected, actual hours supplied by region, or an official lifting date for the 2023 quotas. The 2026 press accounts differ in emphasis: Business News reports SONEDE's stated pressure-balancing, summer-demand and Sousse desalination-test reasons; WMC adds Nebhana's supply deficit and reports high-zone shortages. The 2017 ministry report independently documents the earlier regional supply-demand imbalance and forecast capacity deficit.
+- The original indicator values and claim context were checked with units, dates and geography. The 780-to-1,100 Mm3 values are the strategy's scenario, not measured consumption. The roughly one-third production-to-consumption difference is a calculation from SONEDE's published 2023 totals, not a direct leakage indicator. The 2023 16-hour figure is a CEO statement reported by Kapitalis; the 1,592 figure is citizen alerts for unannounced cuts, not a count of people or affected subscribers. No post-2017 locality count is claimed.
+- Remaining data gaps are listed above: the ministerial decision texts, official quota end date, regional supply hours and affected subscribers, post-2017 disrupted-locality counts, OTE's own annual report, and confirmation whether the 2050 demand value remained in the final strategy scenario.

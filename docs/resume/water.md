@@ -1,9 +1,30 @@
 # Resume notes: water lane, phase 1 (TG, numbers 400-699)
 
+## Current checkpoint — 21 November 2026, source corrections
+
+22 findings: 22 in review, 0 draft. Drafts: None.
+
+The dated handoff below records prior states; use the frontmatter and verification sections of the findings for current decisions.
+
 Paused on 2026-11-21 on Taha's instruction. Every record file was committed as it was on disk, including
 records from investigators stopped mid-run. Nothing was tidied after the stop.
 
-## Where things stand
+## Final coordination state (2026-11-21)
+
+This resume was reconciled against the current records after the lane audits. The water lane
+contains 22 findings: 16 `in-review` (400, 401, 410, 425, 426, 427, 500, 501, 502, 525, 526,
+527, 625, 451, 452 and 476) and 6 `draft` (450, 475, 477, 550, 600 and 626). The earlier
+paused-state counts below are historical handoff notes, not current totals.
+
+Draft blockers: 450 lacks an independently established physical/commercial loss split and
+current definition; 475 lacks an official post-2021 water-code/regulator status check; 477
+lacks current tariff/debt evidence and an opened tariff instrument; 550 lacks the underlying
+ONAS dataset and dated comparable reuse totals; 600 lacks current dated salinity data and
+verification of the reported Gabès stop decision; 626 conflicts with evidence of continued
+oasis tranches through 2023 and lacks the replacement-program extract. These findings remain
+draft until those specific evidence gaps are resolved.
+
+## Where things stood when paused
 
 - 20 findings: 2 `in-review` (FND-TG-500, 501), 18 `draft`.
 - Batch 1 (10 topics planned, 5 run): 15 findings, all source-checked by `source-verifier`. **No number was

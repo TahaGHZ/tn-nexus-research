@@ -1,7 +1,7 @@
 ---
 id: FND-TG-427
 title: Silt already fills about a quarter of Tunisia's large-dam capacity (81% at Mellègue), and without sediment countermeasures Sidi Salem is projected to lose 42% of its usable water-use volume within 30 years. Official estimates of the loss disagree.
-status: draft
+status: in-review
 sectors: [water, agriculture, energy]
 theme: surface-water
 timeframe: predicted
@@ -19,7 +19,7 @@ root_causes:
     type: technical
     legacy_decision: true
     sources: [SRC-TG-428, SRC-TG-438]
-  - cause: Catchment treatment (soil and water conservation, CES) not synchronised with dam construction. The ministry calls curative desilting very costly and recommends prevention in the catchments instead.
+  - cause: The ministry recommended stronger catchment treatment and better synchronisation with dam works because curative desilting is costly; this suggests those measures were insufficiently aligned, an inference rather than an explicit diagnosis (SRC-TG-402).
     type: institutional
     legacy_decision: true
     sources: [SRC-TG-402]
@@ -42,8 +42,14 @@ indicators:
     year: 2014
     geography: kef
     source: SRC-TG-438
-  - name: Mellègue useful capacity at 2014 survey / bulletin linear extrapolation ("capacité utile calculée") for 2025
-    value: 51.13 / 14.99
+  - name: Mellègue useful capacity at 2014 survey
+    value: 51.13
+    unit: Mm3
+    year: 2014
+    geography: kef
+    source: SRC-TG-438
+  - name: Mellègue bulletin linear extrapolation
+    value: 14.99
     unit: Mm3
     year: 2025
     geography: kef
@@ -66,10 +72,10 @@ indicators:
     year: 2020
     geography: siliana
     source: SRC-TG-438
-  - name: Nebhana measured silt / percentage silted
+  - name: Nebhana measured silt / percentage silted (2022 bathymetric survey, reported in 2023 bulletin)
     value: 21.89 of 86.50 (25.31%)
     unit: Mm3
-    year: 2023
+    year: 2022
     geography: kairouan
     source: SRC-TG-440
   - name: Annual capacity loss rate of large reservoirs (ministry figure in 2007 national report)
@@ -110,7 +116,7 @@ author: TahaGHZ
 
 ## Problem
 
-Tunisia's large dams lose storage to silt every year. The 2021 DGBGTH bulletin records 674.89 Mm3 of measured silt against 2,988.11 Mm3 of initial capacity, about 22.6% (SRC-TG-438). The 2017 national report puts the loss at 25% for 30 dams (SRC-TG-402). The oldest large dam, Mellègue (1954), is 81% silted: its useful capacity was 51.13 Mm3 at the 2014 survey, against 268 Mm3 initial (SRC-TG-438). The bulletin extrapolates this linearly to 14.99 Mm3 of "calculated useful capacity" by September 2025. That figure is not a measurement: the same bulletin shows 25.0 Mm3 stored in Mellègue on that date (SRC-TG-442). Sidi Salem, the hub of the northern transfer system, has lost between 20% and 34% of its capacity depending on the source and its base (see Evidence). JICA projects that, without countermeasures, Sidi Salem will lose 42% of its usable water-use volume within 30 years and 88% within 100 years. The percentages imply a base of about 328 Mm3; this is a smaller base than the water-use slice behind the "-23% to date" figure. Its water-use capacity could fall below the 270-300 Mm3/yr it supplies in as little as 10 years (SRC-TG-428). This is not a sudden event. The ministry had already forecast in 2007 that useful storage would decline from 2,200 Mm3 (2005) to 1,800 Mm3 (2020) (SRC-TG-430).
+Tunisia's large dams lose storage to silt every year. The 2021 DGBGTH bulletin records 674.89 Mm3 of measured silt against 2,988.11 Mm3 of initial capacity, about 22.6% (SRC-TG-438). The 2017 national report puts the loss at 25% for 30 dams (SRC-TG-402). Mellègue is one of Tunisia's two oldest large dams, alongside Ben Métir; its 2014 survey found 81% siltation: its useful capacity was 51.13 Mm3 at the 2014 survey, against 268 Mm3 initial (SRC-TG-438). The bulletin extrapolates this linearly to 14.99 Mm3 of "calculated useful capacity" by September 2025. That figure is not a measurement: the same bulletin shows 25.0 Mm3 stored in Mellègue on that date (SRC-TG-442). Sidi Salem, the hub of the northern transfer system, has lost between 20% and 34% of its capacity depending on the source and its base (see Evidence). JICA projects that, without countermeasures, Sidi Salem will lose 42% of its usable water-use volume within 30 years and 88% within 100 years. The percentages imply a base of about 328 Mm3; this is a smaller base than the water-use slice behind the "-23% to date" figure. Its water-use capacity could fall below the 270-300 Mm3/yr it supplies in as little as 10 years (SRC-TG-428). This is not a sudden event. The ministry had already forecast in 2007 that useful storage would decline from 2,200 Mm3 (2005) to 1,800 Mm3 (2020) (SRC-TG-430).
 
 ## Root causes
 
@@ -118,7 +124,7 @@ Tunisia's large dams lose storage to silt every year. The 2021 DGBGTH bulletin r
 - **Physical cause:** erosion of the Medjerda catchments. The mean sediment supply to Sidi Salem is 10.6 Mm3/yr, of which 2.6 comes from the Mellègue, 3.8 from the Tessa and 3.9 from the upper main stem (SRC-TG-429). The 2007 ministry report blames "pluies orageuses très intenses" (SRC-TG-430).
 - **Decision-level causes:**
   1. **Design allowance.** Sidi Salem's design sediment volume was 77 Mm3 on the 1972 height-volume curve (SRC-TG-428, Fig. 3-2 label). The measured volume is 191 Mm3 (JICA) to 233.65 Mm3 (DGBGTH, 2018 survey), and much of it has settled in the water-use and flood-control slices. JICA notes that no sediment countermeasures for the reservoir had been proposed before its 2017-2018 SAPI study (SRC-TG-428).
-  2. **Catchment treatment not synchronised with dams.** The 2017 report says curative desilting is very costly. It calls for more catchment treatment and better synchronisation of that work with dam construction, which implies the two were not synchronised (SRC-TG-402, section VII.3). Extract, not yet in SRC-TG-402:
+  2. **Catchment treatment and dam works.** The 2017 report recommends stronger catchment treatment and better synchronisation with hydraulic works because curative desilting is costly. This implies an alignment gap, but the report does not explicitly state that the two were not synchronised; that causal interpretation is an inference (SRC-TG-402, section VII.3).
      > Les opérations curatives de dévasement étant très coûteuses, l'accent serait à mettre sur un renforcement des actions de traitement des bassins versants et une meilleure synchronisation de celles-ci avec les travaux d'aménagement des ouvrages hydrauliques afin de ralentir / réduire l'envasement des barrages.
   3. **Stock-based strategy.** The mobilisation strategy counted on reservoir volumes that silt erodes (FND-TG-426).
 
@@ -153,7 +159,7 @@ The fall from 25% to 22.6% reflects the downward revision of Sidi Salem's silt (
 
 **Projections (predicted):**
 - **JICA, Sidi Salem, urgent scenario without countermeasures:** water-use capacity -18% (59 Mm3) after 10 years, -42% (138 Mm3) after 30 years and -88% (288 Mm3) after 100 years. Total sediment would reach about 510 Mm3 in 100 years, about 50% of 960 Mm3. With the project, the study gives reservoir sedimentation of 3.6 Mm3/yr instead of 8.1 Mm3/yr in its sediment budget, and says sedimentation could be controlled to 0.5 Mm3/yr in its water-use section (SRC-TG-428).
-- **National report 2017, 2050 per-dam figures.** Extract, not yet in SRC-TG-402:
+- **National report 2017, 2050 per-dam figures.** (SRC-TG-402):
   > Les estimations sur l'avenir de certains barrages en 2050 montrent que la capacité de stockage deviendra : 43% pour le barrage Sidi Salem, 38% pour le barrage de Nebhana, 6% pour le barrage de Siliana, 5% pour le barrage de Sidi Saad, 16% pour le barrage d'El Houareb, 18% pour le barrage de Chiba et 23% pour le barrage de Lebna.
 
   The sentence is ambiguous: it does not say whether these percentages are the capacity remaining or the capacity lost. No method is given.

@@ -1,7 +1,7 @@
 ---
 id: FND-TG-410
 title: Even the national water strategy's own target scenario keeps aquifers overdrawn until the 2040s, and earlier projections of the groundwater resource have already proved unreliable
-status: draft
+status: in-review
 sectors: [water, agriculture]
 theme: groundwater
 timeframe: predicted
@@ -56,6 +56,12 @@ indicators:
     year: 2020
     geography: national
     source: SRC-TG-402
+  - name: Groundwater withdrawals, AFD/PNA estimate
+    value: ">123"
+    unit: "% of total resources"
+    year: 2018
+    geography: national
+    source: SRC-TG-504
 projection:
   horizon: "2020-2050 (2030, 2035, 2040, 2050 milestones)"
   scenario: "EAU 2050 'Eau et développement durable' normative scenario: strategy fully implemented, irrigation demand stabilised and reduced from 3,382 to 2,502 Mm3, reuse and desalination expanded; RCP4.5 climate from 2040. Not a business-as-usual projection."

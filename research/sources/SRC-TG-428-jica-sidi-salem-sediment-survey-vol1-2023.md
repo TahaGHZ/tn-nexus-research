@@ -72,7 +72,7 @@ Summary, recommendations:
 ## Notes
 
 - Feasibility study for a Japanese yen-loan project (sediment bypass tunnel, dredging, D1 river works); the authors have an interest in showing the need for countermeasures. Underlying bathymetry is the 2018 survey made under JICA's SAPI study (2017-2018).
-- The 76% canal share and the 84% purchase share refer to SONEDE's surface-water intake in the northern region; Table 2-6 behind them covers 2010-2021, with 2020-2021 marked as JICA estimates. The table columns were scrambled by pdftotext, so only the prose sentences are used.
+- The 76% canal share refers to SONEDE surface-water intake in the northern region (Table 2-6), not national withdrawals. The separate 84% figure is SONEDE purchases from SECADENORD. Table 2-6 covers 2010-2021, with 2020-2021 marked as JICA estimates; columns were scrambled by pdftotext, so prose only is used.
 - Capacity basis: 977 Mm3 is gross storage including the flood-control slice; the DGBGTH bulletins use 814 Mm3 "capacité totale initiale" at normal retention level 115 m (see SRC-TG-438). The two loss percentages are not on the same base.
 - The projection horizons ("after 10/30/100 years") are given relative to the study period; no explicit base year is stated in the summary.
 - Two different "water use capacity" bases appear. The -23% in section 2 refers to the water-use slice of the reservoir (695 or 722 Mm3 by the figures above). The 18% = 59 Mm3 projection implies a base of about 328 Mm3, which is presumably the usable volume within that slice; this is our arithmetic, not stated in the summary.

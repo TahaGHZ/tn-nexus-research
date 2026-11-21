@@ -1,36 +1,58 @@
 ---
 id: FND-TG-477
-title: Irrigation water in public schemes is priced far below cost (dam water frozen at 0.065 TND/m3 since 2004), so GDAs run up debts to CRDAs and STEG and cannot maintain their networks
-status: draft
-sectors: [water, agriculture, energy]
+title: Published data through 2021 show irrigation tariffs below reported costs in Tunisian public schemes
+status: in-review
+sectors:
+  - water
+  - agriculture
+  - energy
 theme: water-governance
 timeframe: current
 period: 1998-2021
-geography: [national, jendouba, siliana, bizerte]
+geography:
+  - national
+  - jendouba
+  - siliana
+  - bizerte
 severity: high
-trend: worsening
+trend: unknown
 confidence: medium
 root_causes:
-  - cause: The State fixes irrigation water prices and has not raised the price of dam water to public schemes since 2004; CRDAs selling water are not allowed to raise their prices and do not encourage GDAs to do so.
+  - cause: The State fixes irrigation water prices and has not raised the price of dam water to public schemes since 2004; CRDAs selling water
+      are not allowed to raise their prices and do not encourage GDAs to do so.
     type: policy
     legacy_decision: true
-    sources: [SRC-TG-482, SRC-TG-485, SRC-TG-406]
-  - cause: A preferential tariff introduced in 1998 (half price for "strategic" crops, 20 millimes/m3 for treated wastewater) and flat-rate sales without meters cut managers' revenue; part of the subsidy is borne by GDAs.
+    sources:
+      - SRC-TG-482
+      - SRC-TG-485
+      - SRC-TG-406
+  - cause: A preferential tariff introduced in 1998 (half price for "strategic" crops, 20 millimes/m3 for treated wastewater) and flat-rate sales
+      without meters cut managers' revenue; part of the subsidy is borne by GDAs.
     type: policy
     legacy_decision: true
-    sources: [SRC-TG-402, SRC-TG-485]
-  - cause: Management of irrigation and rural drinking-water systems was transferred from 1987 to volunteer-run user groups (later GDAs) without the financial means or capacity to cover maintenance, under the supervision of under-funded CRDAs.
+    sources:
+      - SRC-TG-402
+      - SRC-TG-485
+  - cause: Management of irrigation and rural drinking-water systems was transferred from 1987 to volunteer-run user groups (later GDAs) without
+      the financial means or capacity to cover maintenance, under the supervision of under-funded CRDAs.
     type: institutional
     legacy_decision: true
-    sources: [SRC-TG-484, SRC-TG-485, SRC-TG-482]
+    sources:
+      - SRC-TG-484
+      - SRC-TG-485
+      - SRC-TG-482
   - cause: Members do not pay their bills and farmers resist price increases, citing thin margins.
     type: behavioural
     legacy_decision: false
-    sources: [SRC-TG-485, SRC-TG-402, SRC-TG-465]
+    sources:
+      - SRC-TG-485
+      - SRC-TG-402
+      - SRC-TG-465
   - cause: Successive drought years cut the water volumes GDAs can sell, and so their revenue, while fixed costs remain.
     type: climatic
     legacy_decision: false
-    sources: [SRC-TG-484]
+    sources:
+      - SRC-TG-484
 indicators:
   - name: Price of irrigation water from large dams to public schemes (unchanged since 2004)
     value: 0.065
@@ -123,7 +145,7 @@ indicators:
     geography: national
     source: SRC-TG-484
   - name: Average tariff of rural drinking water run by GDAs
-    value: 0.730
+    value: 0.73
     unit: TND/m3
     year: 2021
     geography: national
@@ -134,20 +156,46 @@ indicators:
     year: 2021
     geography: national
     source: SRC-TG-484
-  - name: Weighted average GDA drinking-water tariff (681 GDAs; SONEDE first block is 0.2 TND/m3)
+  - name: Weighted average drinking-water tariff in analyzed GDA sample (681 GDAs in 15 governorates; SONEDE first block is 0.2 TND/m3)
     value: 0.71
     unit: TND/m3
     year: 2016
     geography: national
     source: SRC-TG-487
-stakeholders: [farmers in public irrigated perimeters, GDAs, CRDAs, DGGREE / Directorate General of Rural Engineering (MARHP), STEG, SONEDE, rural households served by GDAs, Ministry of Finance, UTAP]
-related: [FND-TG-475, FND-TG-476, FND-TG-425, FND-TG-400, FND-TG-501]
-sources: [SRC-TG-465, SRC-TG-406, SRC-TG-482, SRC-TG-402, SRC-TG-484, SRC-TG-485, SRC-TG-487, SRC-TG-489]
+stakeholders:
+  - farmers in public irrigated perimeters
+  - GDAs
+  - CRDAs
+  - DGGREE / Directorate General of Rural Engineering (MARHP)
+  - STEG
+  - SONEDE
+  - rural households served by GDAs
+  - Ministry of Finance
+  - UTAP
+related:
+  - FND-TG-475
+  - FND-TG-476
+  - FND-TG-425
+  - FND-TG-400
+  - FND-TG-501
+sources:
+  - SRC-TG-402
+  - SRC-TG-406
+  - SRC-TG-465
+  - SRC-TG-482
+  - SRC-TG-484
+  - SRC-TG-485
+  - SRC-TG-487
+  - SRC-TG-489
 data_gaps:
-  - Official current total of GDA debts to STEG for pumping electricity (irrigation and drinking water). Only the 7.7 MTND for drinking-water GDAs (SRC-TG-484) is sourced; the ~600 MTND figure (SRC-TG-489) is an opinion column citing an unidentified "Rapport SUMUD" and includes SDAs; the 2014 STEG figure is garbled in the press (SRC-TG-465).
-  - Primary data on the 2024 count of irrigation GDAs (1,415) and the 35% "functional" share; only cited second-hand (SRC-TG-489, citing MARHP 2023).
+  - Official current total of GDA debts to STEG for pumping electricity (irrigation and drinking water). Only the 7.7 MTND for drinking-water
+    GDAs (SRC-TG-484) is sourced; the ~600 MTND figure (SRC-TG-489) is an opinion column citing an unidentified "Rapport SUMUD" and includes SDAs;
+    the 2014 STEG figure is garbled in the press (SRC-TG-465).
+  - Primary data on the 2024 count of irrigation GDAs (1,415) and the 35% "functional" share; only cited second-hand (SRC-TG-489, citing MARHP
+    2023).
   - Full results of the DGGREE irrigation tariff study launched in 2015 (only the 2017 national report summary was seen).
-  - Text of the decree / cahier des charges fixing irrigation water tariffs under art. 106 bis (decree 91-1869 is cited in SRC-TG-485 but was not opened).
+  - Text of the decree / cahier des charges fixing irrigation water tariffs under art. 106 bis (decree 91-1869 is cited in SRC-TG-485 but was
+    not opened).
   - Date of the 2004 price-setting decision and any increase after 2018.
   - No projection of GDA debt or of the cost-recovery gap was found.
 author: TahaGHZ
@@ -172,9 +220,9 @@ Water from large dams delivered to public irrigation schemes, which cover 56% of
 - Cost recovery in sampled PPIs (DGGREE tariff study launched 2015, results 2017): see table in SRC-TG-402, p. 90.
 - Irrigation debts 2016: 50 MTND total; GDAs 37 MTND; private farmers to CRDAs 11.4 MTND; SMVDA 1.7 MTND (SRC-TG-402, p. 91).
 - Three GDAs in Jendouba and Siliana owe their CRDA about twice their expected annual revenue, a "quasi-faillite" (SRC-TG-485, p. 29).
-- Drinking-water GDAs (1,459 groups, about 1,830 systems, 1.6 million people): debts 10.7 MTND (3 SONEDE, 7.7 STEG); cost 0.863 TND/m3 (0.4-1.8) vs tariff 0.730 TND/m3 (0.3-1.5); 20% cover full maintenance (SRC-TG-484, p. 16). In 2014: 1,327 groups owed 38 MTND, of which 20.7 MTND to CRDAs and 1.8 MTND to SONEDE (SRC-TG-465, tier C).
+- Drinking-water GDAs (1,459 groups, about 1,830 systems, 1.6 million people): debts 10.7 MTND (3 SONEDE, 7.7 STEG); cost 0.863 TND/m3 (0.4-1.8) vs tariff 0.730 TND/m3 (0.3-1.5); 20% cover full maintenance (SRC-TG-484, p. 16). A 2014 WMC report relaying SONEDE workshop data said 1,327 drinking-water groups owed 38 MTND, including 20.7 MTND to CRDAs and 1.8 MTND to SONEDE; the reported STEG amount is garbled in the article and is excluded (SRC-TG-465, tier C).
 - GDA representatives: "total inability" to pay debts to STEG accumulated since 2000 (SRC-TG-484, p. 23). STEG cuts power to borehole schemes for unpaid bills (SRC-TG-485, p. 28).
-- Inequity between the two drinking-water systems: GDA users pay on average 0.71 TND/m3 for about 10 m3 a quarter, while SONEDE's first block at that consumption costs 0.2 TND/m3 (SRC-TG-487, p. 3); GDA tariffs range from 0.200 to 1.500 TND/m3 (SRC-TG-402, p. 93). The ARP committee recommended unifying water tariffs for all citizens (SRC-TG-484, p. 113). So rural users of GDAs pay more for lower-quality service, while the GDAs still do not cover their costs.
+- In the analyzed sample of 681 drinking-water GDAs across 15 governorates, users paid a weighted average 0.71 TND/m3; the report compares the typical 41 m3/year user (about 10 m3 a quarter) with SONEDE's 0.2 TND/m3 first block (SRC-TG-487, pp. 1, 3). It explicitly says the results do not cover all Tunisian GDAs (p. 25); GDA tariffs range from 0.200 to 1.500 TND/m3 (SRC-TG-402, p. 93). The ARP committee recommended unifying water tariffs for all citizens (SRC-TG-484, p. 113). So rural users of GDAs pay more for lower-quality service, while the GDAs still do not cover their costs.
 
 **Sources disagree, or measure different things; all values are kept.**
 - *Irrigation cost coverage:* 15% for dam water to public schemes in 2018 (SRC-TG-482); 23-64% for sampled perimeters depending on type and on whether renewal is counted (SRC-TG-402); "no more than 40%" with a full cost of 1.45-1.60 TND/m3 against tariffs of 0.20-0.60 TND/m3 (SRC-TG-489, tier C, citing ONAGRI 2023). These cover different scopes (bulk dam water vs perimeter-level service), so they do not contradict each other, but they cannot be combined.
@@ -198,3 +246,7 @@ The pricing facts and the debt mechanism rest on a ministry report (tier A), the
 - SONEDE taking over rural drinking water as single operator, with performance contracts for successful GDAs (DGGR orientation, SRC-TG-484); draft code replacing GDAs by public-interest water groups (SRC-TG-484)
 - Restructuring of Gafsa water groups' debts (press, 2026): https://www.leconomistemaghrebin.com/2026/08/30/tunisie-bonne-nouvelle-pour-les-groupements-hydrauliques-de-gafsa-leurs-dettes-ont-ete-restructurees/
 - Solar-powered pumping for GDA wells and hill lakes, suggested by MPs during the ARP hearing of GDA representatives (2021)
+
+## Verification
+
+The price, cost-recovery and group-debt figures are tied to their source years and survey populations. The title and period now refer to the historical evidence through 2021. No later national tariff, debt trajectory or maintenance outcome is inferred.

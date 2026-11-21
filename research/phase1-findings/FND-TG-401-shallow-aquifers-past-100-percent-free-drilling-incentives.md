@@ -1,7 +1,7 @@
 ---
 id: FND-TG-401
 title: Shallow aquifers crossed 100% exploitation by the mid-1990s under a Water Code that let anyone dig to 50 m and state incentives for private irrigation wells
-status: draft
+status: in-review
 sectors: [water, agriculture, energy]
 theme: legacy-policy
 timeframe: past

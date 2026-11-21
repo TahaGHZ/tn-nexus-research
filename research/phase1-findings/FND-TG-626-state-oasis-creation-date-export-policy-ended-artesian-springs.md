@@ -1,116 +1,153 @@
 ---
 id: FND-TG-626
-title: State date-palm and oasis-creation policy (post-independence to the 1980s Southern Water Master Plan and Rjim Maâtoug) mined the Saharan aquifers past their recharge and ended the artesian springs, while the 1985 safeguard perimeters went unenforced
-status: draft
-sectors: [water, agriculture]
-theme: legacy-policy
-timeframe: past
-period: 1956-2012
-geography: [south-west, kebili, tozeur]
+title: State-supported oasis expansion extended into 2023 as southern aquifer withdrawals grew and natural springs declined
+status: in-review
+sectors:
+  - water
+  - agriculture
+theme: groundwater
+timeframe: current
+period: 1956–2023
+geography:
+  - south-west
+  - kebili
+  - tozeur
 severity: high
 trend: worsening
 confidence: medium
 root_causes:
-  - cause: "Post-independence choice to develop Deglet Nour date-palm growing in the Djerid and Nefzaoua to earn exports and balance trade, with state-built modern oases from the 1970s"
+  - cause: Post-independence choice to develop Deglet Nour date-palm growing in the Djerid and Nefzaoua to earn exports and balance trade, with
+      state-built modern oases from the 1970s
     type: policy
     legacy_decision: true
-    sources: [SRC-TG-630]
-  - cause: "Plan Directeur des Eaux du Sud (1980-1992) and the army-led Rjim Maâtoug programme (pilot 1984, office under the Defence Ministry from 1989): 2,500 ha of Deglet Nour on new deep boreholes in the open desert, with 2,000 l/s allocated, funded by Tunisia, the EU and Italy, and extended again in 2020 at El Mohdeth"
+    sources:
+      - SRC-TG-630
+  - cause: 'Plan Directeur des Eaux du Sud (1980-1992) and the army-led Rjim Maâtoug programme (pilot 1984, office under the Defence Ministry
+      from 1989): 2,500 ha of Deglet Nour on new deep boreholes in the open desert, with 2,000 l/s allocated, funded by Tunisia, the EU and Italy,
+      and extended again in 2020 at El Mohdeth'
     type: policy
     legacy_decision: true
-    sources: [SRC-TG-634, SRC-TG-630]
-  - cause: "Structural adjustment (PAS 1986, PASA 1987) and date-market liberalisation privatised access to water and land and moved the oases from free spring water to costly deep pumping"
+    sources:
+      - SRC-TG-634
+      - SRC-TG-630
+  - cause: Structural adjustment (PAS 1986, PASA 1987) and date-market liberalisation privatised access to water and land and moved the oases
+      from free spring water to costly deep pumping
     type: economic
     legacy_decision: true
-    sources: [SRC-TG-634, SRC-TG-631]
-  - cause: "1985 safeguard perimeters for the CI and CT in the Nefzaoua (Decrees 85-1104 and 85-1109) were declared but not enforced; regional officials tolerated and refused to map private extensions from at least 1991"
+    sources:
+      - SRC-TG-634
+      - SRC-TG-631
+  - cause: 1985 safeguard perimeters for the CI and CT in the Nefzaoua (Decrees 85-1104 and 85-1109) were declared but not enforced; regional
+      officials tolerated and refused to map private extensions from at least 1991
     type: institutional
     legacy_decision: true
-    sources: [SRC-TG-632, SRC-TG-631]
+    sources:
+      - SRC-TG-632
+      - SRC-TG-631
 indicators:
   - name: SASS withdrawals, all three countries
-    value: "0.6 (early 1970s); 2.5 (2000); 2.7 (2012)"
-    unit: "billion m3/yr (recharge about 1 billion m3/yr)"
+    value: 0.6 (early 1970s); 2.5 (2000); 2.7 (2012)
+    unit: billion m3/yr (recharge about 1 billion m3/yr)
     year: 2012
     geography: south-west
     source: SRC-TG-629
   - name: Tunisian SASS withdrawals (model reference year)
     value: 0.55
-    unit: "billion m3/yr (from about 1,200 water points)"
+    unit: billion m3/yr (from about 1,200 water points)
     year: 2000
     geography: south-west
     source: SRC-TG-628
   - name: Date at which the SASS crossed into overexploitation
-    value: "early 1980s"
+    value: early 1980s
     unit: period
     year: 1980
     geography: south-west
     source: SRC-TG-629
   - name: Oasis area, four southern governorates
-    value: "17,500 (1992); 56,589 (2017)"
+    value: 17,500 (1992); 56,589 (2017)
     unit: ha
     year: 2017
     geography: south-west
     source: SRC-TG-630
   - name: Oasis area, national oasis survey
     value: 56654
-    unit: "ha (doubled over 2007-2017; 37,387 ha 'new private oases')"
+    unit: ha (doubled over 2007-2017; 37,387 ha 'new private oases')
     year: 2018
     geography: south-west
     source: SRC-TG-634
   - name: Rjim Maâtoug state oases, area created
-    value: "300 (1984-87 pilot) + 1,152 (1990-2001) + 1,008 (2002-2012) + 350 (2013-2023); about 2,500 total"
+    value: 300 (1984-87 pilot) + 1,152 (1990-2001) + 1,008 (2002-2012) + 350 (2013-2023); about 2,500 total
     unit: ha
     year: 2023
     geography: kebili
     source: SRC-TG-634
   - name: Rjim Maâtoug water allocation
     value: 2000
-    unit: "l/s (stated as enough for 2,500 ha of palms)"
+    unit: l/s (stated as enough for 2,500 ha of palms)
     year: 2023
     geography: kebili
     source: SRC-TG-634
   - name: Rjim Maâtoug first tranche cost
-    value: "32 MDT (Tunisia 10, EU 15, Italy 7); 17 boreholes"
-    unit: "million TND"
+    value: 32 MDT (Tunisia 10, EU 15, Italy 7); 17 boreholes
+    unit: million TND
     year: 2001
     geography: kebili
     source: SRC-TG-634
   - name: Piezometric decline of the CT at Rjim Maâtoug
     value: 35
-    unit: "m over 1977-2016 (about 0.9 m/yr, about 1 m/yr now)"
+    unit: m over 1977-2016 (about 0.9 m/yr, about 1 m/yr now)
     year: 2016
     geography: kebili
     source: SRC-TG-630
   - name: Piezometric decline of the CT in the Djerid
     value: 1
-    unit: "m/yr (2000-2014)"
+    unit: m/yr (2000-2014)
     year: 2014
     geography: tozeur
     source: SRC-TG-630
   - name: Remaining natural springs and their yield, four oasis governorates
-    value: "17 springs; 2.85 Mm3/yr (of 791.3 Mm3 exploited)"
-    unit: "count; Mm3/yr"
+    value: 17 springs; 2.85 Mm3/yr (of 791.3 Mm3 exploited)
+    unit: count; Mm3/yr
     year: 2016
     geography: south-west
     source: SRC-TG-630
-stakeholders: ["Ministry of Agriculture (MARHP, DGRE, CRDAs)", "Ministry of National Defence (Office de développement de Rjim Maâtoug)", collective-land management councils, oasis farmers and former pastoralists, date exporters, "donors (EU, Italian cooperation)"]
-related: [FND-TG-625, FND-TG-627, FND-TG-401, FND-TG-426, FND-TG-475]
-sources: [SRC-TG-628, SRC-TG-629, SRC-TG-630, SRC-TG-631, SRC-TG-632, SRC-TG-634]
+stakeholders:
+  - Ministry of Agriculture (MARHP, DGRE, CRDAs)
+  - Ministry of National Defence (Office de développement de Rjim Maâtoug)
+  - collective-land management councils
+  - oasis farmers and former pastoralists
+  - date exporters
+  - donors (EU, Italian cooperation)
+related:
+  - FND-TG-625
+  - FND-TG-401
+  - FND-TG-426
+  - FND-TG-475
+sources:
+  - SRC-TG-402
+  - SRC-TG-628
+  - SRC-TG-629
+  - SRC-TG-630
+  - SRC-TG-631
+  - SRC-TG-632
+  - SRC-TG-634
 data_gaps:
-  - "The Plan Directeur des Eaux du Sud (PDES, 1980-1992) itself was not found or opened; its targets and the volumes it allocated are known only via SRC-TG-634."
-  - "Decrees 85-1104 (7 September 1985) and 85-1109 (29 August 1985) on Nefzaoua safeguard perimeters were not opened in the JORT; their content is known via SRC-TG-632, which calls the measure both a 'zone d'interdiction' and a 'périmètre de sauvegarde'."
-  - "Spring discharge series for the Nefzaoua and Djerid (DGRE yearbooks; Aïssa 2017 thesis, shown only as a figure in SRC-TG-630) were not found in a readable form, so the year springs dried up is not dated."
-  - "The Defence Ministry's Rjim Maâtoug site (drm.defense.tn) and Daoued (2011) were not opened; Rjim Maâtoug data are as cited in SRC-TG-634. Press reports give 1984 and 1988 as start years; SRC-TG-634 gives a 1984 pilot and a 1989 office."
-  - "Bisson (1991) on official tolerance of extensions is cited via SRC-TG-631, not opened."
-  - "ONAGRI/GIFruits date export series 1990-2015 were not opened; only the 2008-2018 ratio (volume x1.7, value x3.6) is sourced."
-  - "Extract to add to SRC-TG-402 (RNE 2017, PDF p. 196): 'Programme de remplacement des forages très profonds aux oasis': replacement of 55 very deep boreholes (over 850 m) irrigating 20,000 ha and supplying 1,500 drinking-water users, 150 MDT, EBRD, feasibility study started in 2017."
+  - The Plan Directeur des Eaux du Sud (PDES, 1980-1992) itself was not found or opened; its targets and the volumes it allocated are known only
+    via SRC-TG-634.
+  - Decrees 85-1104 (7 September 1985) and 85-1109 (29 August 1985) on Nefzaoua safeguard perimeters were not opened in the JORT; their content
+    is known via SRC-TG-632, which calls the measure both a 'zone d'interdiction' and a 'périmètre de sauvegarde'.
+  - Spring discharge series for the Nefzaoua and Djerid (DGRE yearbooks; Aïssa 2017 thesis, shown only as a figure in SRC-TG-630) were not found
+    in a readable form, so the year springs dried up is not dated.
+  - The Defence Ministry's Rjim Maâtoug site (drm.defense.tn) and Daoued (2011) were not opened; Rjim Maâtoug data are as cited in SRC-TG-634.
+    Press reports give 1984 and 1988 as start years; SRC-TG-634 gives a 1984 pilot and a 1989 office.
+  - Bisson (1991) on official tolerance of extensions is cited via SRC-TG-631, not opened.
+  - ONAGRI/GIFruits date export series 1990-2015 were not opened; only the 2008-2018 ratio (volume x1.7, value x3.6) is sourced.
 author: TahaGHZ
 ---
 
 ## Problem
 
-The oases of Kébili (Nefzaoua) and Tozeur (Djerid) were once watered by artesian springs fed from the Saharan deep aquifers. State policy after independence, and above all in the 1980s, replaced them with deep boreholes and expanded the irrigated area onto non-renewable water. Withdrawals from the shared Saharan aquifer system (SASS) rose from 0.6 billion m3/yr in the early 1970s to 2.5 billion in 2000, against recharge of about 1 billion m3/yr. The system crossed into overexploitation in the early 1980s (SRC-TG-629, SRC-TG-628). Tunisia's share in 2000 was 0.55 billion m3/yr (SRC-TG-628). The southern oasis area went from 17,500 ha in 1992 to about 56,600 ha in 2017-2018 (SRC-TG-630, SRC-TG-634). By 2016 the springs that once irrigated the southern oases yielded 2.85 Mm3, against 791 Mm3 pumped or flowing from boreholes (SRC-TG-630). At Rjim Maâtoug, described as the last flowing confined aquifer, the CT head fell about 35 m between 1977 and 2016 (SRC-TG-630). This finding records the decisions that produced the current overdraft (FND-TG-625) and the projected losses (FND-TG-627).
+The oases of Kébili (Nefzaoua) and Tozeur (Djerid) were once watered by artesian springs fed from the Saharan deep aquifers. State policy after independence, and above all in the 1980s, replaced them with deep boreholes and expanded the irrigated area onto non-renewable water. Withdrawals from the shared Saharan aquifer system (SASS) rose from 0.6 billion m3/yr in the early 1970s to 2.5 billion in 2000, against recharge of about 1 billion m3/yr. The system crossed into overexploitation in the early 1980s (SRC-TG-629, SRC-TG-628). Tunisia's share in 2000 was 0.55 billion m3/yr (SRC-TG-628). The southern oasis area went from 17,500 ha in 1992 to about 56,600 ha in 2017-2018 (SRC-TG-630, SRC-TG-634). By 2016 the springs that once irrigated the southern oases yielded 2.85 Mm3, against 791 Mm3 pumped or flowing from boreholes (SRC-TG-630). At Rjim Maâtoug, described as the last flowing confined aquifer, the CT head fell about 35 m between 1977 and 2016 (SRC-TG-630). This finding records the legacy decisions associated with the overdraft described in FND-TG-625.
 
 ## Root causes
 
@@ -119,12 +156,12 @@ The oases of Kébili (Nefzaoua) and Tozeur (Djerid) were once watered by artesia
 3. **Liberalisation.** The 1986 structural adjustment plan (PAS) and 1987 agricultural adjustment plan (PASA) privatised access to water and land. Irrigation water in the oases became a paid service (SRC-TG-634). Date-market liberalisation raised Deglet Nour prices, which farmers and the CRDA cite as a driver of extensions (SRC-TG-631). State disengagement and export prices in the 2000s are also cited by the 2019 water-balance study (SRC-TG-630). The state also created collective-land management councils that allocated land and triggered one type of extension (SRC-TG-631).
 4. **A rule declared but not applied.** In 1985 the government created safeguard perimeters for the CI and CT in the Nefzaoua (Decrees 85-1104 and 85-1109) (SRC-TG-632). The extensions that followed are illicit because they draw on boreholes inside these perimeters (SRC-TG-632), but enforcement was brief and weak, and in practice amounted to laisser-faire (SRC-TG-632). In 1991 regional officials already refused to map the extensions because they eased social tension (Bisson 1991, as cited in SRC-TG-631). Illicit extensions in Kébili were 4,085 ha in 1995 (Hajji 1996, as cited in SRC-TG-634).
 
-The symptom is the drying of springs and the loss of artesian pressure. The cause is a supply-side policy that treated fossil groundwater as a development resource, and an enforcement system that did not apply its own limits. This mirrors the national supply-side strategy in FND-TG-426 and the drilling incentives in FND-TG-401.
+The symptom is the severe reduction of natural spring flows and the loss of artesian pressure. The cause is a supply-side policy that treated fossil groundwater as a development resource, and an enforcement system that did not apply its own limits. This mirrors the national supply-side strategy in FND-TG-426 and the drilling incentives in FND-TG-401.
 
 ## Evidence
 
 - **SASS-wide trend.** 0.6 billion m3/yr (1970) to 2.5 billion m3/yr (2000), with 1,200 of the 8,800 water points in Tunisia (SRC-TG-628). Then 2.7 billion m3/yr (2012), overexploitation "dont le seuil a été franchi au début des années 1980" (SRC-TG-629). The overexploitation threshold was crossed in the same decade as the Southern Water Master Plan; the sources do not attribute it to Tunisia alone, since Algeria draws most of the SASS (1.5 of 2.5 billion m3 in 2000) (SRC-TG-628).
-- **Springs.** The 2019 water-balance study says over-exploitation caused a "tarissement total" of the springs that were the oases' main irrigation source (SRC-TG-630). Its own DGRE table still lists 17 springs giving 2.85 Mm3 in 2016, so "near-total" is more accurate. OSS lists spring and foggara drying, reduced artesian pressure and deeper boreholes as consequences across the basin (SRC-TG-629).
+- **Springs.** The 2019 water-balance study says over-exploitation caused a "tarissement total" of the springs that were the oases' main irrigation source (SRC-TG-630). Its own DGRE table still lists 17 springs giving 2.85 Mm3 in 2016, so aggregate evidence supports a severe reduction, not total disappearance. OSS lists spring and foggara drying, reduced artesian pressure and deeper boreholes as consequences across the basin (SRC-TG-629).
 - **Artesian pressure.** In 2016 Kébili still had 714 artesian points yielding 79 Mm3, against 2,848 pumped points yielding 327 Mm3 (SRC-TG-630). Rjim Maâtoug's CT head fell about 35 m over 1977-2016, accelerating after 1995 with rising exploitation in Kébili and Tozeur. The Djerid CT fell about 1 m/yr over 2000-2014. Downstream declines of 1-1.5 m/yr are making artesian flow disappear (SRC-TG-630).
 - **Area.** Southern oases grew from 17,500 ha (1992) to 56,589 ha (2017) (SRC-TG-630). The national oasis survey gives 56,654 ha in 2018, doubled over 2007-2017; 37,387 ha are "new private oases" (SRC-TG-634).
 - **Exports.** Over 2008-2018, date export volume rose 1.7-fold and export value 3.6-fold, with importing markets rising from 57 to 85 (SRC-TG-634).
@@ -133,6 +170,8 @@ The symptom is the drying of springs and the loss of artesian pressure. The caus
 ## Why confidence is what it is
 
 Medium. The trend data (SASS withdrawals, oasis areas, Rjim Maâtoug piezometry) come from OSS reports (tier B) and DGRE tables reproduced in a World Bank-filed study. The policy history rests on three tier B reports and one peer-reviewed article, and several key facts are second-hand: the PDES dates, Rjim Maâtoug figures (Defence Ministry website via an FAO-commissioned report), the 1985 decrees (via a research policy note) and official tolerance (Bisson 1991, via a peer-reviewed article). Primary texts (PDES, JORT decrees) were not opened. The causal weight of each decision cannot be separated with the data found: state oases (2,500 ha at Rjim Maâtoug) are small next to private extensions (32,700 ha). Their role is as a model and precedent, and as the source of the public boreholes that extensions later tapped (SRC-TG-631), more than as the main consumer. The year the springs stopped flowing is not dated.
+
+
 
 ## Links to other sectors
 
@@ -146,3 +185,7 @@ Medium. The trend data (SASS withdrawals, oasis areas, Rjim Maâtoug piezometry)
 - Diversification away from Deglet Nour monoculture: ANESRS/IRA project to enrich Nefzaoua oases with local salt- and drought-tolerant varieties (GEF Small Grants Programme), cited in SRC-TG-634.
 - FAO "centre d'excellence pour le développement durable des oasis" (SRC-TG-634).
 - World Bank/GEF Sustainable Oasis Landscape Management Project and desert ecotourism project (P120561) (SRC-TG-630).
+
+## Verification
+
+The scope now includes the historical policy and its documented continuation through 2023. The transboundary SASS series and Tunisia-only series retain distinct geographic coverage (SRC-TG-628, SRC-TG-629, SRC-TG-634).

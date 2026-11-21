@@ -1,7 +1,7 @@
 ---
 id: FND-TG-502
-title: Sea-level rise will aggravate seawater intrusion that pumping already causes in Tunisia's coastal aquifers; official projections of the 2050 loss (50% vs 75%) disagree and are unsupported by a published method
-status: draft
+title: Sea-level rise will aggravate seawater intrusion that pumping already causes in Tunisia's coastal aquifers; official 2050 loss estimates (50% vs 75%) differ and lack a published method
+status: in-review
 sectors: [water, agriculture]
 theme: water-quality
 timeframe: predicted
@@ -11,14 +11,14 @@ severity: high
 trend: worsening
 confidence: medium
 root_causes:
-  - cause: Groundwater pumping above recharge, largely for irrigation and with many illegal boreholes, lowers water tables below sea level and reverses the hydraulic gradient (the existing driver)
-    type: behavioural
-    legacy_decision: true
-    sources: [SRC-TG-482, SRC-TG-511]
+  - cause: In Korba, the field study attributes seawater intrusion to uncontrolled groundwater extraction modifying natural flows; it does not identify a specific policy cause (the existing driver)
+    type: institutional
+    legacy_decision: false
+    sources: [SRC-TG-511]
   - cause: Sea-level rise of 30-50 cm by 2050 is expected to accelerate intrusion into already overexploited coastal aquifers
     type: climatic
     legacy_decision: false
-    sources: [SRC-TG-504, SRC-TG-508]
+    sources: [SRC-TG-504]
   - cause: Reduced recharge under lower rainfall weakens freshwater outflow to the sea
     type: climatic
     legacy_decision: false
@@ -28,7 +28,7 @@ indicators:
     value: about -12
     unit: m relative to sea level
     year: 2006
-    geography: nabeul (Korba, Cap Bon)
+    geography: nabeul
     source: SRC-TG-511
   - name: Authorised vs illegal groundwater boreholes
     value: 14117 authorised / 20350 illegal
@@ -46,31 +46,31 @@ indicators:
     value: 30-50
     unit: cm
     year: 2050
-    geography: national coast
-    source: SRC-TG-508
+    geography: national
+    source: SRC-TG-504
   - name: Projected loss of coastal aquifer resources (AFD/PNA, repeated by CCDR)
     value: about 50
     unit: "% of resources"
     year: 2050 (RCP4.5 per CCDR footnote 83)
-    geography: national coast
+    geography: national
     source: SRC-TG-504
   - name: Projected loss of coastal shallow-aquifer resources (updated NDC)
     value: about 75 (about 220 Mm3/year)
     unit: "% of resources"
     year: 2050, RCP8.5
-    geography: national coast
+    geography: national
     source: SRC-TG-508
   - name: Share of Tunisian coastline classed vulnerable to very highly vulnerable
     value: 44
     unit: "%"
     year: 2021 (assessment)
-    geography: national coast
+    geography: national
     source: SRC-TG-508
   - name: Coastline length affected by sea-level rise
     value: 24 (SSP2/SSP3) / 15 (SSP1)
     unit: "% of coastline length"
     year: 2050
-    geography: national coast
+    geography: national
     source: SRC-TG-482
 projection:
   horizon: 2050
@@ -92,35 +92,35 @@ author: TahaGHZ
 
 ## Problem
 
-Coastal shallow aquifers supply much of the eastern littoral (SRC-TG-508). In parts of them, seawater is already entering because farmers pump more than recharge. In the Korba aquifer of Cap Bon, water tables were about 12 m below sea level in 2006, and chloride and ion-exchange evidence confirmed seawater intrusion (SRC-TG-511). Nationally, the World Bank reports 20,350 illegal boreholes against 14,117 authorised ones in 2021, and up to 85% of groundwater resources above 1.5 g/L salinity (SRC-TG-482).
+Coastal shallow aquifers supply much of the eastern littoral (SRC-TG-508). In parts of them, seawater intrusion is supported by field evidence and attributed to uncontrolled pumping. In Korba, piezometric levels were about 12 m below sea level in 2006; high chloride, inverse cation exchange and the low head supported the interpretation of seawater intrusion (SRC-TG-511). Nationally, the World Bank reports 20,350 illegal boreholes against 14,117 authorised ones in 2021, and up to 85% of groundwater resources above 1.5 g/L salinity (SRC-TG-482).
 
-Sea level is projected to rise 30-50 cm by 2050 (SRC-TG-504, SRC-TG-508). The PNA preparatory study estimates that coastal aquifers could lose about 50% of their resources by 2050 (SRC-TG-504). The updated NDC puts the loss at about 75%, roughly 220 Mm3 per year, under RCP8.5 (SRC-TG-508).
+Sea level is projected to rise 30-50 cm by 2050 (SRC-TG-504). The PNA preparatory study estimates coastal-aquifer resource losses could reach about 50% by 2050 (SRC-TG-504). The updated NDC estimates losses of about 75%, roughly 220 Mm3 per year, from coastal shallow-aquifer resources under RCP8.5 by 2050 (SRC-TG-508).
 
 ## Root causes
 
 **Symptom vs cause.** Salty wells are the symptom. The cause is a reversed hydraulic gradient: freshwater heads falling below sea level.
 
-1. **Human-made, existing (legacy practice).** Intensive private pumping for irrigation lowered the water table below sea level and drew the saltwater wedge inland (SRC-TG-511). Groundwater supplies 84% of irrigation water (SRC-TG-504), and illegal boreholes outnumber authorised ones (SRC-TG-482). The legacy decision is the historical policy focus on dams rather than aquifers, which the Eau 2050 synthesis names explicitly (SRC-TG-503). Overexploitation of inland aquifers in the north and centre is covered in FND-TG-400 (record block 400-424) and is not detailed here.
-2. **Climatic, predicted.** Sea-level rise raises the seaward head. The AFD study says overexploited coastal aquifers "will undergo an acceleration of seawater intrusion" (SRC-TG-504).
+1. **Human-made, existing (legacy policy and practice).** The Korba study attributes intrusion to uncontrolled groundwater extraction modifying natural flows; it does not establish that a particular policy caused the local pumping (SRC-TG-511). Groundwater supplies 84% of irrigation water (SRC-TG-504), and illegal boreholes outnumber authorised ones (SRC-TG-482). Eau 2050 identifies the historic focus on dams and surface water over aquifers as a sector-wide planning factor, but it does not connect that policy directly to Korba pumping (SRC-TG-503). Overexploitation of inland aquifers in the north and centre is covered in FND-TG-400 (record block 400-424) and is not detailed here.
+2. **Climatic, predicted.** Sea-level rise is projected at 30-50 cm by 2050. The AFD study says overexploited coastal aquifers will experience accelerated marine intrusion (SRC-TG-504, pp. 44, 48).
 3. **Climatic, predicted.** Recharge is projected to fall at the same rate as runoff, -29% to -34% by 2050 (SRC-TG-504; see FND-TG-500), which reduces freshwater pressure at the coast.
 
-The evidence therefore does not support framing this as mainly a sea-level-rise problem. At Korba, intrusion was already documented in 2006 and attributed to pumping, not to the sea (SRC-TG-511). Sea-level rise is an aggravating factor on top of it.
+The evidence therefore does not support framing this as mainly a sea-level-rise problem. At Korba, intrusion was already supported by field evidence in 2006 and attributed to uncontrolled extraction (SRC-TG-511). Sea-level rise is an aggravating factor on top of it.
 
 ## Evidence
 
 - **Observed (Korba, 2006).** Piezometric depressions with "negative piezometric levels on the order of –12 m". High-salinity zones at Diar El Hajjej, Garaet Sassi and Takelsa-Korba are explained by seawater intrusion (SRC-TG-511).
 - **Observed (national).** There were 14,117 authorised and 20,350 illegal boreholes in 2021. Extraction reaches up to 400% of resources in some regions. Up to 85% of groundwater resources are above 1.5 g/L (SRC-TG-482).
-- **Projected sea level.** 30-50 cm by 2050 (SRC-TG-504, SRC-TG-508). The CCDR notes sea-level rise is similar across SSPs to 2050 and diverges only towards 2100. It projects 24% of coastline length (SSP2/SSP3) or 15% (SSP1) affected by 2050 (SRC-TG-482).
+- **Projected sea level.** 30-50 cm by 2050 (SRC-TG-504, p. 44). The CCDR notes sea-level rise is similar across SSPs to 2050 and diverges only towards 2100. It projects 24% of coastline length (SSP2/SSP3) or 15% (SSP1) affected by 2050 (SRC-TG-482).
 - **Projected coastal-aquifer loss, two values.**
-  - About 50% by 2050, with "beaucoup plus" by 2100 (AFD/PNA, SRC-TG-504). The CCDR repeats this value and says only RCP4.5 information is available for it (footnote 83, SRC-TG-482).
-  - About 75% (about 220 Mm3/yr) by 2050 under RCP8.5 (updated NDC, SRC-TG-508).
+  - Losses could reach about 50% by 2050 and more by 2100 (AFD/PNA, SRC-TG-504, p. 43). The CCDR repeats this value and says only RCP4.5 information is available for it (footnote 83, SRC-TG-482).
+  - About 75% (about 220 Mm3/yr) of coastal shallow-aquifer resources by 2050 under RCP8.5 (updated NDC, SRC-TG-508, p. 28).
   The two figures differ in scenario and probably in method. Neither document gives the underlying model, so they cannot be reconciled here.
 - **Coastal vulnerability.** 44% of Tunisian coasts are classed vulnerable to very highly vulnerable (SRC-TG-508).
 
 ## Why confidence is what it is
 
 - **Solid.** That intrusion already happens and is pumping-driven is shown in a tier-A peer-reviewed field study, though only for Korba in 2006 (SRC-TG-511). The national illegal-borehole count comes from a tier-B World Bank report (SRC-TG-482).
-- **Weak.** The 2050 loss percentages (50% vs 75%) come from two tier-B government and donor documents without published methods. They differ by half. No peer-reviewed intrusion model under sea-level rise for a Tunisian aquifer was opened.
+- **Weak.** The 2050 loss percentages (50% vs 75%) come from two tier-B government and donor documents without published methods. The figures have different framings and cannot be reconciled here. No peer-reviewed intrusion model under sea-level rise for a Tunisian aquifer was opened.
 - **Imprecise.** The "85% above 1.5 g/L" figure is unsourced in the extracted CCDR text.
 - Hence `medium` for the direction and `low` for the magnitude. The overall record is set to `medium`.
 

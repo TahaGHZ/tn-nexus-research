@@ -1,7 +1,7 @@
 ---
 id: FND-TG-625
 title: Kébili's unauthorised date-palm extensions pump the Saharan deep aquifers at 171-177% of their resource or more, through thousands of illicit, increasingly solar-powered boreholes
-status: draft
+status: in-review
 sectors: [water, agriculture, energy]
 theme: groundwater
 timeframe: current
@@ -90,7 +90,7 @@ indicators:
     source: SRC-TG-631
   - name: Share of Kébili's Deglet Nour production from the extensions
     value: 80
-    unit: "% (approximate, no dataset cited)"
+    unit: "% (approximate)"
     year: 2024
     geography: kebili
     source: SRC-TG-632
@@ -101,11 +101,17 @@ indicators:
     geography: tozeur
     source: SRC-TG-630
   - name: Controlled deep-aquifer exploitation vs resource, Tozeur
-    value: "148.4 of 174.3 (85%); 156.1 of 189 (82.6%) in AGRIDATA 2019 via SRC-TG-634"
+    value: "148.4 of 174.3 (85%)"
     unit: "Mm3/yr"
     year: 2016
     geography: tozeur
     source: SRC-TG-630
+  - name: Deep-aquifer exploitation vs resource, Tozeur (AGRIDATA, as cited)
+    value: "156.1 of 189 (82.6%)"
+    unit: "Mm3/yr"
+    year: 2019
+    geography: tozeur
+    source: SRC-TG-634
   - name: Irrigation water use per hectare, Saharan oases of Kébili and Tozeur (survey)
     value: 16813
     unit: "m3/ha/yr (3,633 in the Jeffara)"
@@ -113,7 +119,7 @@ indicators:
     geography: south-west
     source: SRC-TG-629
 stakeholders: [oasis extension farmers and investors, GDAs of the old oases, "CRDA Kébili", DGRE, "Ministry of Agriculture (MARHP)", collective-land management councils, ANME, STEG, solar installers, date collectors and exporters, Parliament]
-related: [FND-TG-626, FND-TG-627, FND-TG-400, FND-TG-401, FND-TG-477, FND-TG-475]
+related: [FND-TG-626, FND-TG-400, FND-TG-401, FND-TG-477, FND-TG-475]
 sources: [SRC-TG-402, SRC-TG-484, SRC-TG-629, SRC-TG-630, SRC-TG-631, SRC-TG-632, SRC-TG-633, SRC-TG-634]
 data_gaps:
   - "Extract to add to SRC-TG-402 (RNE 2017, PDF p. 111, printed p. 89): 'le recours au solaire, cette énergie « gratuite », fait « sauter le verrou » du coût de l'électricité qui pouvait potentiellement limiter la consommation d'eau. Des exemples sont rapportés dans le gouvernorat de Kebili, d'accroissement du gaspillage d'eau dans les oasis, à la suite de l'installation de cette technologie en particulier sur les forages illicites' with footnote 44 'Qui ne peuvent avoir accès à un raccordement STEG'."
@@ -121,7 +127,7 @@ data_gaps:
   - "Whether the 171% Kébili rate (SRC-TG-402) and the 406.82 Mm3 controlled volume (SRC-TG-630) include the 210.3 Mm3 of illicit pumping is not stated. If the illicit volume is additional, Kébili's 2016 total would be about 617 Mm3, about 259% of 238 Mm3 (our arithmetic, not a published figure)."
   - "The DGRE 2021 deep-aquifer yearbook behind the 765 Mm3 / 47% illicit figure (cited in SRC-TG-631) was not found online; the geographic perimeter of 'cette région' is not defined."
   - "The CRDA Kébili census of extensions (2016: 26,020 ha) and the Mekki et al. (2021, Annales de l'INRGREF) extension analysis were not opened; figures come via SRC-TG-631."
-  - "Piezometric series specific to the Kébili CT and CI aquifers (DGRE annuaires piézométriques) were not found; only Rjim Maâtoug and Djerid trends are sourced (see FND-TG-626, FND-TG-627)."
+  - "Piezometric series specific to the Kébili CT and CI aquifers (DGRE annuaires piézométriques) were not found; only Rjim Maâtoug and Djerid trends are sourced (see FND-TG-626)."
   - "Groundwater salinity trends in the Nefzaoua CT (Zammouri et al. 2007, Hydrogeology Journal) could not be opened (HTTP 410 / paywall)."
   - "Tozeur illicit-well count: DGRE 2016 gives 20 unauthorised boreholes, local sources about 1,000 (SRC-TG-634); no primary inventory was found to settle it."
   - "Number of illicit boreholes in Kébili plugged or regularised per year was not found."
@@ -169,7 +175,7 @@ The study filed by the World Bank is of draft quality (see SRC-TG-630 notes), so
 
 - **Agriculture (dates-oases):** the extensions produce about 80% of Kébili's Deglet Nour dates (SRC-TG-632). Kébili produced about 250,000 t of dates, as cited in SRC-TG-634. Soil salinisation and waterlogging in undrained extensions are already cutting palm productivity in places such as Om Somâa Sud (SRC-TG-631). Old oases lose labour and water as farmers concentrate on the extensions (SRC-TG-632).
 - **Energy:** most extension pumping is off-grid. STEG representatives "had no idea" of the scale of solar pumping and ignored the existence of the illicit extensions (SRC-TG-631). Energy planning and the ANME installer scheme therefore operate without regard to groundwater limits (SRC-TG-631). The UNECE model gives Tunisia about 67 GWh/yr of irrigation pumping energy in the SASS area, highest in Kébili and Tozeur (SRC-TG-633, model output).
-- **Water quality:** the same pumping drives salinisation of soils and the CT near the chotts (SRC-TG-630); this is projected forward in FND-TG-627. Tap-water salinity is a separate topic (records 600-624).
+- **Water quality:** the same pumping is associated with salinisation of soils and the CT near the chotts (SRC-TG-630). Tap-water salinity is a separate topic (records 600-624).
 
 ## Leads for phase 2
 

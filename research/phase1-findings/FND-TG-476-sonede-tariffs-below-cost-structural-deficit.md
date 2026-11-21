@@ -1,7 +1,7 @@
 ---
 id: FND-TG-476
 title: Since about 2007 SONEDE has sold drinking water below its cost, because tariffs are frozen or raised ad hoc while energy, desalination and staff costs climb
-status: draft
+status: in-review
 sectors: [water, energy]
 theme: water-governance
 timeframe: current
@@ -102,13 +102,13 @@ indicators:
     year: 2018
     geography: national
     source: SRC-TG-486
-  - name: SONEDE average cost labelled "coût énergétique moyen" in CCDR
+  - name: SONEDE average energy cost of drinking water (CCDR wording; not established as total production cost)
     value: 0.82
     unit: TND/m3
     year: 2015
     geography: national
     source: SRC-TG-482
-  - name: SONEDE average cost labelled "coût énergétique moyen" in CCDR
+  - name: SONEDE average energy cost of drinking water (CCDR wording; not established as total production cost)
     value: 1.30
     unit: TND/m3
     year: 2021
@@ -177,12 +177,12 @@ SONEDE, the national utility supplying all urban and about half of rural drinkin
 - Operating ratio 1.07 (2001) to 1.03 (2005); tariff increases about 3.2% per year 1998-2005 (SRC-TG-455, pp. 45-46).
 - Tariff increases only in 2010, 2011, 2013 and 2016 since 2006; debt 441 MTND, ROE -0.01, debt/equity 0.35 in 2016 (SRC-TG-481, p. 4).
 - 2017: cost 900 millimes/m3, price 700 millimes/m3, recovery 78%, deficit 39 MTND (21 MTND in 2016); tariffs from 200 millimes/m3 (first block, <20 m3/quarter) to 1,315 millimes/m3 (SRC-TG-402, p. 92).
-- 2015-2021: average cost (labelled "coût énergétique moyen") 0.82 to 1.30 TND/m3; average selling price 0.56 to 0.94 TND/m3 (SRC-TG-482, p. 8). Calculation: 0.56/0.82 = 68% in 2015 and 0.94/1.30 = 72% in 2021.
+- 2015-2021: average energy cost of drinking water (CCDR wording: "coût énergétique moyen") 0.82 to 1.30 TND/m3; average selling price 0.56 to 0.94 TND/m3 (SRC-TG-482, p. 8). The ratios 68% and 72% are arithmetic comparisons of those reported values, not validated total-cost recovery rates.
 - After the 2021 increase, the first consumption block is about USD 0.06/m3 (SRC-TG-482, p. 7, fn. 32).
 - Affordability: water services cost 0.88% of an average household's income in 2017 (SRC-TG-402, p. 93).
 
 **Sources disagree, or use different metrics; all values are kept.**
-- Cost coverage: 78% in 2017 (ministry, cost price vs selling price, SRC-TG-402); 65.4% in 2019 against 100.4% in 2000 (press, undefined "taux de couverture des coûts", SRC-TG-486); about 68% in 2015 and 72% in 2021 (calculated from CCDR figures, SRC-TG-482). The 2015 CCDR ratio (68%) is lower than the 2017 ministry ratio (78%), so the series are not consistent with each other and probably measure different cost bases.
+- Cost coverage: 78% in 2017 (ministry, 900/700 millimes per m3, SRC-TG-402); 65.4% in 2019 against 100.4% in 2000 (press, undefined "taux de couverture des coûts", SRC-TG-486); 68% and 72% are calculated comparisons of CCDR energy-cost values against average selling prices, not comparable recovery rates (SRC-TG-482). These series use different definitions and are not joined into a single trend.
 - Prior-year recovery: the ministry report says "en 2017 il était de 89%" right after giving 78% for 2017, probably a typo for 2016 (SRC-TG-402).
 - The CCDR labels the 0.82-1.30 TND/m3 series an "energy cost". With energy at about 19% of total cost (SRC-TG-486), it is more likely the total average cost. It is used here with that caveat.
 
@@ -206,3 +206,7 @@ The direction of the problem is well supported: a ministry report (tier A), two 
 - SONEDE strategic organisational plan (étude PSO, PAPS-Eau) mentioned in the 2017 national water report
 - Water regulator proposed in the 2019 draft code (instance de régulation des services hydrauliques)
 - Eau 2050: change of SONEDE's status to public limited company; national regulation agency for tariffs
+
+## Independent source audit (2026-11-21)
+
+Original-source audit completed against the freshly downloaded texts and relevant surrounding passages. SRC-TG-455, 481, 482, 402, 484 and 486 were inspected. Numeric values, units, years, geography and claims are supported as written or explicitly attributed. Tier C claims from SRC-TG-486 remain attributed to the CEO/ministry report and are not represented as audited accounts. The CCDR's "coût énergétique moyen" is retained as an energy-cost measure; its 68% and 72% comparisons are not treated as total-cost recovery rates. The 2019 press coverage metric is explicitly undefined and is not combined with the other measures. The post-2021 financial trend, 2024 press figures, and implementation of the proposed World Bank programme remain data gaps; none is used as established evidence. Finding is ready for in-review.

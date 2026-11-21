@@ -1,7 +1,7 @@
 ---
 id: FND-TG-452
 title: Handing rural drinking water to volunteer user groups (AIC/GIC/GDA) from the 1980s raised coverage fast but left about 1.5 million people on under-funded, decaying systems
-status: draft
+status: in-review
 sectors: [water, energy, agriculture]
 theme: legacy-policy
 timeframe: past
@@ -151,9 +151,9 @@ author: TahaGHZ
 
 ## Problem
 
-Tunisia raised rural drinking-water coverage from 25% in 1984 to 80% in 2000 (SRC-TG-458), and above 90% by 2009 (SRC-TG-455). It did so largely by building systems with State money and handing their operation to user associations. These were first AIC, then GIC, now GDA. They grew from 100 in 1987 to 2,809 in 2005, of which 1,610 managed drinking water (SRC-TG-455).
+Tunisia raised rural drinking-water coverage from 25% in 1984 to 80% in 2000 (SRC-TG-458); the World Bank report records an average rural service rate of 90% in 2006, with at least 80% in each governorate (SRC-TG-455). It did so largely by building systems with State money and handing their operation to user associations. These were first AIC, then GIC, now GDA. They grew from 100 in 1987 to 2,809 in 2005, of which 1,610 managed drinking water (SRC-TG-455).
 
-The model left the groups too small and too poor to maintain what they ran. In 2009, 69% had turnover below 6,000 TND a year, ran mostly on volunteer work, and charged tariffs that were often higher than urban ones yet still did not cover maintenance or renewal (SRC-TG-455). By 2017 GDA-run systems still served about 1.5 million rural people (SRC-TG-402). Only 44% of GDAs had a management contract (SRC-TG-402), and cost recovery had fallen to about 30% (SRC-TG-457). The handover to SONEDE recommended in 2009 was still pending in 2017 (SRC-TG-402, SRC-TG-455).
+The model left the groups too small and too poor to maintain what they ran. In 2009, 69% had turnover below 6,000 TND a year, ran mostly on volunteer work, and charged tariffs that were often higher than urban ones yet still did not cover maintenance or renewal (SRC-TG-455). By 2017 GDA-run systems still served about 1.5 million rural people (SRC-TG-402). Only 44% of GDAs had a management contract (SRC-TG-402), and an all-GDA (irrigation and drinking-water) cost-recovery estimate was 30% around 2017 (SRC-TG-457). The handover to SONEDE recommended in 2009 was still pending in 2017 (SRC-TG-402, SRC-TG-455).
 
 ## Root causes
 
@@ -161,7 +161,7 @@ The symptoms are summer cuts, losses, breakdowns and debts. The cause is a desig
 
 1. **Delegation to volunteer associations.** From the 1980s, the State multiplied AIC/GIC/GDA to "ensure the continued operation" of the rural infrastructure it built (SRC-TG-455). The DGGREE created the groups, wrote their statutes and supervised them through CRDA cells (SRC-TG-455). This allowed fast coverage without direct State or SONEDE operation (SRC-TG-455).
 2. **Investment by the State, maintenance by the users.** Investment is State-financed. The groups' tariff, often much higher than SONEDE's for the same consumption, covers operation "but not proper maintenance and certainly not renewal" (SRC-TG-455). The World Bank warned that the groups would have no resources for major repairs when breakdowns came, and recommended a State maintenance fund (SRC-TG-455). By about 2017, 40% of GDA systems were dilapidated (SRC-TG-457).
-3. **Design and governance limits.** Standpipe-based schemes run by a paid keeper opened only one or two hours a day, with tariffs about 30% higher (SRC-TG-455). After 2011, refusal to pay, vandalism of meters and illegal connections increased (SRC-TG-465). Speakers at a 2020 conference described GDA governance as unchanged for more than 20 years, with opaque finances and boards often controlled by local authorities and influential actors (SRC-TG-466, tier C).
+3. **Design and governance limits.** Standpipe-based schemes run by a paid keeper opened only one or two hours a day, with tariffs about 30% higher (SRC-TG-455). After 2011, refusal to pay, vandalism of meters and illegal connections increased (SRC-TG-465). At a 2020 online conference, speakers described GDA governance as unchanged for more than 20 years and raised concerns about opaque finances and board legitimacy (SRC-TG-466, tier C); this is reported qualitative concern, not a measured national indicator. The same article’s 40% collection claim refers specifically to water consumed by farmers and must not be applied to drinking-water GDAs.
 4. **The exit route stalled.** In 2009 the World Bank called for a ten-year strategy to integrate GIC/GDA into SONEDE progressively, while warning that this would raise SONEDE's costs without tariff adjustments (SRC-TG-455). In 2014 AFD found that the rural centres it financed were an extra burden for SONEDE (SRC-TG-458). In 2017 the handover of large rural schemes was "toujours en suspens" (SRC-TG-402). In 2025 RVO described the transfer as "underway" (SRC-TG-456).
 
 ## Evidence
@@ -190,7 +190,7 @@ The symptoms are summer cuts, losses, breakdowns and debts. The cause is a desig
 
 ## Why confidence is what it is
 
-The diagnosis is consistent across a World Bank strategy (2009), the ministry's national water report (2017, tier A), an AFD evaluation (2014), an International Alert field study (2017) and RVO (2025). The core figures (coverage history, group counts, contracts, population served) come from tier A and B sources. The debt and loss figures for 2014 (SRC-TG-465) and the 2020 governance statements (SRC-TG-466) are tier C and are used only alongside tier A/B evidence.
+The diagnosis is consistent across a World Bank strategy (2009), the ministry's national water report (2017, tier A), an AFD evaluation (2014), an International Alert field study (2017) and RVO (2025). The 1984/2000 coverage figures come from AFD (tier B); the 2005, 2015 and 2017 group counts come from the World Bank (tier B), International Alert (tier B) and MARHP (tier A), respectively. The 2014 debt and loss figures (SRC-TG-465) are tier C dispatches relaying SONEDE workshop data; the 2020 qualitative governance statements (SRC-TG-466) are tier C conference reporting. Treat those as attributed lower-tier claims. The all-GDA recovery series (SRC-TG-457) does not isolate drinking-water GDAs.
 
 The timeframe is `past` because the decision and the build-out (1980s-2005) and the first diagnosis of failure (2009-2014) are complete. The effects are current and unresolved.
 
@@ -207,3 +207,9 @@ The timeframe is `past` because the decision and the build-out (1980s-2005) and 
 - Federation of GDAs into local, regional and national structures; SONEDE to take over drinking-water supply for "rural agglomerated habitat" (Eau 2050, SRC-TG-503 document; extract not yet in that record).
 - AFD rural drinking-water programmes AEP 1/AEP 2 (SRC-TG-458) and https://www.afd.fr/fr/projets/un-meilleur-acces-leau-potable-en-milieu-rural
 - Systematic individual connections in new Génie Rural schemes, and regularisation of illegal connections (SRC-TG-402, p. 80).
+
+## Independent source audit (2026-11-21)
+
+- Independent claim pass completed against the fresh source copies and the cited source records. No unresolved factual failure remains in the retained claims. The 2017 ministry report lists 1,441 rural drinking-water GDAs and 131 mixed GDAs separately; retain that distinction.
+- The 55% to 30% cost-recovery series in SRC-TG-457 covers all GDAs (irrigation and drinking water), not drinking-water GDAs alone. The 69% low-turnover figure in SRC-TG-455 is from a 2009 report and its underlying observation year is unstated. The 2020 40% collection statement in SRC-TG-466 concerns farmers; it is not used as a drinking-water indicator.
+- SRC-TG-465 debt and loss values remain tier C claims attributed to SONEDE workshop data, while SRC-TG-466 governance statements remain attributed tier C conference reporting. The 2025 transfer status is an institutional inventory statement. Later GDA counts and service continuity remain data gaps, not failures of the dated claims.
