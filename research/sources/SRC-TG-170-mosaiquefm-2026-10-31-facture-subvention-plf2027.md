@@ -16,6 +16,11 @@ added_by: TahaGHZ
 Article body (31 October 2026), citing the draft 2027 state budget and the 2027-2029
 medium-term budget framework:
 
+> تتجه نفقات الدعم في تونس إلى تسجيل ارتفاع ملحوظ خلال سنة 2027، وفق تقديرات مشروع ميزانية الدولة، لتبلغ نحو 11 مليارًا و846 مليون دينار، مقابل 9 مليارات و772 مليون دينار مرسمة بقانون المالية لسنة 2026، أي بزيادة تناهز 2 مليار و74 مليون دينار، وبنسبة 21.2 بالمائة.
+
+English gloss: subsidy spending is set to rise markedly in 2027 per the draft state budget, to
+about 11,846 MDT against 9,772 MDT in the 2026 finance law, an increase of about 2,074 MDT (21.2%).
+
 > وتربط وثيقة مشروع ميزانية الدولة الزيادة المسجلة في نفقات دعم المحروقات خلال سنة 2026، أساسًا، بارتفاع أسعار النفط في الأسواق العالمية. فقد بلغ معدل سعر برميل النفط من نوع «برنت» إلى موفى أوت 2026 نحو 91.21 دولارًا، مقابل 71.21 دولارًا خلال الفترة نفسها من سنة 2025.
 
 English gloss: the draft budget attributes the 2026 rise in hydrocarbon subsidy spending mainly

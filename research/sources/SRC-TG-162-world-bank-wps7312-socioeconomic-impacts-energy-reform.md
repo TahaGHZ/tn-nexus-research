@@ -41,7 +41,7 @@ PDF pp. 16-17 (printed pp. 14-15), section 4.2:
 
 PDF p. 15 (printed p. 13), on gasoline: "On average, an individual from quintile 5 consumes 200 times more gasoline than someone from the poorest quintile."
 
-PDF p. 15 (printed p. 13), on budget shares:
+PDF p. 16, on budget shares:
 
 > In fact, it is the households in the poorest and richest quintiles that spend a higher proportion of their budgets on energy (just over 6% of their total spending). But while the poorest spent its largest share on electricity, the richest does so on gasoline.
 

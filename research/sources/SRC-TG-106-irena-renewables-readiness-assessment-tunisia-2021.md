@@ -152,6 +152,17 @@ such as land access. Developers lacked standard bid documents, and there was no 
 against off-taker (STEG) risk, which reduced PPA bankability. Most offers in the May 2017 call
 were conditional on changing the PPA, and no wind project was selected in that round.
 
+p. 28, text and Table 7 (added for FND-TG-290):
+
+> In addition to the above tariffs, there were natural gas tariffs for grey cement industries. These related to high pressure and medium pressure lines (Table 7).
+
+> Table 7. Medium-voltage tariffs for grey cement industry, Tunis — High pressure | ≥ 41 868 | 105.99 | 0.06 | 1 xPg | 0.020 ; Medium pressure | 4 187 – 125 604 | 7.1 | 0.21 | 1.032 xPg | 0.020 ; Note: [...] Pg=purchase of natural gas [...] * Price of energy based on the purchase price of natural gas of 0.005 (USD/MJ).
+
+English gloss: grey cement plants have their own natural gas tariff, whose energy price is
+indexed to the purchase price of natural gas (Pg): 1 x Pg on high pressure and 1.032 x Pg on
+medium pressure. The table is mistitled "medium-voltage tariffs" but lists gas tariffs (columns:
+subscribed flow MJ/h, subscription fee, price of energy, indexation formula, energy price).
+
 ## Notes
 
 Prepared with ANME and the ministry. Some capacity data come from interviews with ANME and

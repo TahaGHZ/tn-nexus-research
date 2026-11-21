@@ -112,7 +112,7 @@ stakeholders: [STEG, "Ministry of Industry, Mines and Energy", paying customers,
 related: [FND-TG-101, FND-TG-161, FND-TG-220, FND-TG-222]
 sources: [SRC-TG-105, SRC-TG-220, SRC-TG-222, SRC-TG-224, SRC-TG-230, SRC-TG-231, SRC-TG-232]
 data_gaps:
-  - "Official split between technical and non-technical losses: ONEM gives transmission ≤2.23% and distribution 7-9% (citing the STEG 2024 annual report) and says "most" losses are theft (SRC-TG-222). A 2026 press source gives 12% technical and 7% illegal (SRC-TG-231). The STEG annual activity report 2024 cited by ONEM was not found online."
+  - "Official split between technical and non-technical losses: ONEM gives transmission ≤2.23% and distribution 7-9% (citing the STEG 2024 annual report) and says 'most' losses are theft (SRC-TG-222). A 2026 press source gives 12% technical and 7% illegal (SRC-TG-231). The STEG annual activity report 2024 cited by ONEM was not found online."
   - "Loss rate by region or STEG district: not found."
   - "Annual volume of detected theft in GWh and recovered revenue, as a time series: only one press figure for 2023 (SRC-TG-232), with ambiguous units."
   - "The 18.4% (World Bank/STEG, 2023) and 20.0% (ONEM, 2023) use different definitions: injected energy, including imports and IPP output, with recovered fraud counted as sales (SRC-TG-105), against gross production (SRC-TG-222). We could not obtain the underlying energy balance to reconcile them exactly. No 2025 or 2026 loss rate from ONEM or STEG was found; the 2026 figures of about 19% are statements only (SRC-TG-230, SRC-TG-231)."

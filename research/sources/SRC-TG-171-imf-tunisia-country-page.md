@@ -3,7 +3,7 @@ id: SRC-TG-171
 title: Tunisia and the IMF (country page)
 publisher: International Monetary Fund
 year: 2026
-type: dataset
+type: institutional-report
 tier: B
 url: https://www.imf.org/en/countries/tun
 accessed: 2026-11-21
@@ -35,6 +35,8 @@ still had SDR 303.06 million of IMF credit outstanding at end-September 2026.
 ## Notes
 
 - Live web page; content changes. Text copied from the browser-rendered page.
+- A verifier could not reproduce the outstanding-credit figure (saw SDR 399.87 million at 31 March
+  2026); that figure is not used in any finding.
 - The page does not state whether the 2022 staff-level EFF (SRC-TG-165) was approved or dropped.
   The absence of any Article IV since 2021 and of an EFF approval item in the first listing page
   is consistent with no programme, but is not proof of it.
