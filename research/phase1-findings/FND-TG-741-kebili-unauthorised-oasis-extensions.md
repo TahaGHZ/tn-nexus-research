@@ -11,7 +11,7 @@ severity: high
 trend: worsening
 confidence: medium
 root_causes:
-  - cause: "The 1985 decrees (85-1104, 85-1109) made almost all of Kebili a groundwater safeguard zone where drilling is banned, but the state did not enforce the ban and planned few new public oases (Rjim Maatoug and about 500 ha under the PDES), leaving demand for land and water to informal extension"
+  - cause: "The 1985 decrees (85-1104, 85-1109) made almost all of Kebili a groundwater safeguard zone where drilling is banned, but enforcement (rig seizures, prosecutions) was short-lived and ineffective, surveillance kept declining, and the state planned few new public oases (sources differ on how much the PDES created), leaving demand for land and water to informal extension"
     type: institutional
     legacy_decision: true
     sources: [SRC-TG-740, SRC-TG-742, SRC-TG-747]
@@ -112,9 +112,21 @@ indicators:
     year: 2023
     geography: kebili
     source: SRC-TG-742
+  - name: "Oasis area in Kebili (Enquête Oasis 2001)"
+    value: 15960
+    unit: ha
+    year: 2001
+    geography: kebili
+    source: SRC-TG-742
+  - name: "Private oasis holdings in Kebili (CRDA official quoted in press, tier C)"
+    value: 30000
+    unit: ha
+    year: 2023
+    geography: kebili
+    source: SRC-TG-748
 stakeholders: [extension farmers including migrants from other regions, traditional-oasis farmers and water user associations (GDA), CRDA Kebili, Ministry of Agriculture, APIA, Agence Foncière Agricole, STEG, solar pump suppliers]
 related: [FND-TG-740, FND-TG-742, FND-TG-781, FND-TG-802, FND-TG-860, FND-TG-920]
-sources: [SRC-TG-740, SRC-TG-741, SRC-TG-742, SRC-TG-743, SRC-TG-747]
+sources: [SRC-TG-740, SRC-TG-741, SRC-TG-742, SRC-TG-743, SRC-TG-747, SRC-TG-748]
 data_gaps:
   - "Kebili CRDA reports and the 2018 CRDA inventory of illicit boreholes not opened; figures relayed via SRC-TG-740"
   - "No official 2020s figure separating legal and unauthorised oasis area; the 32,700 ha is a research estimate"
@@ -126,13 +138,13 @@ author: TahaGHZ
 
 ## Problem
 
-Kebili's palm groves are now mostly unauthorised private "extensions" planted on collective land outside the official oases and irrigated from illicit boreholes. Ministry surveys counted about 5,240 ha of oases in Kebili in 1976 and about 7,000 ha of extensions by 1996. A research estimate puts extensions at 32,700 ha in 2020. Over the same period legal oases grew only from about 8,315 ha (1996) to at most 10,485 ha (2018) (SRC-TG-740). In 2020 the extensions produced about 85% of Kebili's dates (SRC-TG-740). A 2024 brief by the same team says about 80% (SRC-TG-747). The authors call them the largest illicit groundwater-based farming area in Tunisia (SRC-TG-740). They are illicit because their boreholes sit inside the groundwater safeguard perimeters created by decrees 85-1104 and 85-1109 of 1985, which cover almost all of Kebili (SRC-TG-747). Nationally, private new oases covered 37,387 ha in the 2018 survey (65.1% of oasis area), against 18,590 ha of traditional oases and 677 ha of organised state oases (SRC-TG-743). The FAO report says Kebili's oasis area grew fivefold, from 7,600 ha in 1992 to 36,560 ha in 2018 (SRC-TG-742). The 1992 figure probably leaves out extensions, which were not counted until the late 1990s (SRC-TG-740). Counting them, Mekki et al.'s figures give about 15,300 ha in 1996 (8,315 ha legal plus 7,000 ha extensions) (SRC-TG-740), so real growth is closer to two and a half times since the mid-1990s.
+Kebili's palm groves are now mostly unauthorised private "extensions" planted on collective land outside the official oases and irrigated from illicit boreholes. Ministry surveys counted about 5,240 ha of oases in Kebili in 1976 and about 7,000 ha of extensions by 1996. A research estimate puts extensions at 32,700 ha in 2020. Over the same period legal oases grew only from about 8,315 ha (1996) to at most 10,485 ha (2018) (SRC-TG-740). In 2020 the extensions produced about 85% of Kebili's dates (SRC-TG-740). A 2024 brief by the same team says about 80% (SRC-TG-747). The authors call them the largest illicit groundwater-based farming area in Tunisia (SRC-TG-740). They are illicit because their boreholes sit inside the groundwater safeguard perimeters created by decrees 85-1104 and 85-1109 of 1985, which cover almost all of Kebili (SRC-TG-747). Nationally, private new oases covered 37,387 ha in the 2018 survey (65.1% of oasis area), against 18,590 ha of traditional oases and 677 ha of organised state oases (SRC-TG-743). The FAO report says Kebili's oasis area grew fivefold, from 7,600 ha in 1992 to 36,560 ha in 2018 (SRC-TG-742). The 1992 figure probably leaves out extensions, which were not counted until the late 1990s (SRC-TG-740). Counting them, Mekki et al.'s figures give about 15,300 ha in 1996 (8,315 ha legal plus 7,000 ha extensions) (SRC-TG-740), so growth is about 2.8 times (2018 legal area plus 2020 extension estimate, about 43,200 ha, against 1996). The two end-points mix years, so this is approximate. A CRDA Kebili official quoted by the press in 2023 gives a similar split: about 40,000 ha in total, 10,500 ha of public irrigated areas and nearly 30,000 ha of private holdings around more than 8,000 unauthorised wells (SRC-TG-748; tier C).
 
 ## Root causes
 
 The symptom is uncontrolled growth of palm area. The causes go back to how the state handled demand for land and water:
 
-- **Ban without enforcement or alternative (legacy).** In 1985 the administration defined a drilling-ban zone covering almost all of Kebili to protect the barely renewable aquifers (SRC-TG-747). Farmers were not allowed to drill outside traditional oases. The government, however, had "no clear plans" for palm grove areas (SRC-TG-740). Apart from about 500 ha of new oases under the Plan Directeur des Eaux du Sud, the administration created few oases (SRC-TG-740). Rjim Maatoug, the flagship state programme started in 1984, reached only 2,500 ha (SRC-TG-742). In the late 1980s the state folded some extensions next to old oases into collective water turns. From the 1990s surveillance and sanctions declined (SRC-TG-740). The authors sum it up: the government treated these activities as illegal but chose not to act to limit them (SRC-TG-740). A CRDA manager regretted not creating public irrigated oases on collective land "we would have avoided all these illicit drillings" (SRC-TG-740).
+- **Ban without enforcement or alternative (legacy).** In 1985 the administration defined a drilling-ban zone covering almost all of Kebili to protect the barely renewable aquifers (SRC-TG-747). Farmers were not allowed to drill outside traditional oases. The government, however, had "no clear plans" for palm grove areas (SRC-TG-740). Interviewed administrators said that apart from about 500 ha of new oases created by the Plan Directeur des Eaux du Sud (PDES), the administration created few oases (SRC-TG-740). The FAO report, however, places Rjim Maatoug (2,500 ha, started 1984) within the PDES (SRC-TG-742). **The two sources conflict on how much the PDES created; both are recorded.** In the late 1980s the state folded some extensions next to old oases into collective water turns. By the mid-1990s a continuing decline in surveillance and sanctions was reported (SRC-TG-740). The administration did try coercive measures, such as seizing drilling rigs and prosecuting, but they were short-lived, had very little effect and led in practice to laisser-faire (SRC-TG-747). The authors sum it up: the government treated these activities as illegal but chose not to act to limit them (SRC-TG-740). A CRDA manager regretted not creating public irrigated oases on collective land "we would have avoided all these illicit drillings" (SRC-TG-740).
 - **Cheaper access to water and energy.** Low-cost drilling arrived in the mid-1980s. Owners of subsidised Deglet Nour cold stores passed their legal grid connection on to boreholes in extensions. Solar pumps spread from 2014, and 2,358 solar panels were detected in Kebili (SRC-TG-740).
 - **Push from the old oases and pull from prices.** Traditional oases became less profitable because of land fragmentation, falling fertility and water deficits; artesian wells had all dried out by the early 2000s. Meanwhile market liberalisation raised Deglet Nour prices (SRC-TG-740).
 - **2011.** After the revolution, thousands of boreholes were drilled in 2011 and the CRDA could not intervene. In places it even approved electricity connections it suspected would serve new groves (SRC-TG-740). The FAO report puts post-revolution illicit wells in Kebili at 9,000-10,000 (SRC-TG-742).
@@ -144,12 +156,12 @@ The symptom is uncontrolled growth of palm area. The causes go back to how the s
 - Illicit boreholes: several dozen in the 1970s, 1,500 in the 1990s, 3,500 in 2010 and 9,678 in 2017 (SRC-TG-740, relaying CRDA 2018).
 - **Area figures for Kebili disagree.** Legal 10,485 ha plus extensions 32,700 ha gives about 43,200 ha (SRC-TG-740). The 2018 oasis survey gives 36,560 ha (SRC-TG-742), and DGPA gives 38,000 ha for 2022 (SRC-TG-743). Unauthorised land is undercounted in official surveys (SRC-TG-740), which may explain the gap. Dagher et al. repeat the 32,700 ha (SRC-TG-741), so that figure has one origin, not two.
 - Mekki et al. also state that extensions give 80.7% of national date production (SRC-TG-740). This cannot match 85% of Kebili's output when Kebili is about 73% of national output (SRC-TG-742), so the figure is not used.
-- Effects on the old oases: from the 2000s the nearby extensions "led to reduced water resource availability within these oases". Deep pumping also raised shallow water tables and caused drainage problems (SRC-TG-740). In the extensions, farmers built drainage networks with no idea whether they work, and there is no negotiated way to deal with hydromorphy and soil salinisation (SRC-TG-740). See FND-TG-742.
+- Effects on the old oases: according to interviewed CRDA staff, from the 2000s the nearby extensions "led to reduced water resource availability within these oases", and deep pumping raised shallow water tables and caused drainage problems (SRC-TG-740, section 3.3.2, actors' discourse). In the extensions, farmers built drainage networks with no idea whether they work, and there is no negotiated way to deal with hydromorphy and soil salinisation (SRC-TG-740). See FND-TG-742.
 - Policy response: about 3,750 ha of mutakhma extensions (those adjoining old oases) were legalised after 2017 and given subsidies for drip irrigation, basins and sand amendment. These subsidies were later put on hold for lack of a legal basis. A 2018 CRDA plan to subsidise all other extensions was also put on hold (SRC-TG-740). In July 2021, with the AFA, the state tried to legalise extensions by creating irrigated public areas, starting with the mutakhma (SRC-TG-740). Other extensions still have no access to subsidies (SRC-TG-740). In the Douz districts the disconnected extensions cover 7,991 ha (76.9% of extension area there), far more than the mutakhma at 751 ha (SRC-TG-740).
 
 ## Why confidence is what it is
 
-Medium. The trajectory rests on one peer-reviewed study (SRC-TG-740), plus a later policy brief by the same team (SRC-TG-747) that is not independent of it, that combines Ministry and CRDA surveys with remote sensing and interviews. The FAO report independently shows the same fivefold growth from Ministry survey data (SRC-TG-742). The weak points:
+Medium. The trajectory rests on one peer-reviewed study (SRC-TG-740), plus a later policy brief by the same team (SRC-TG-747) that is not independent of it, that combines Ministry and CRDA surveys with remote sensing and interviews. The FAO report independently shows strong growth from Ministry survey data: 7,600 ha in 1992, 15,960 ha in 2001 and 36,560 ha in 2018 (SRC-TG-742). The 2001 figure is consistent with the mid-1990s reconstruction. A CRDA official quoted in the press in 2023 gives a similar legal/private split (SRC-TG-748). That is tier C and comes from the same office Mekki et al. draw on, so it corroborates rather than independently confirms. The weak points:
 
 - The 2020 extension area is a research estimate.
 - Official and research area totals disagree.

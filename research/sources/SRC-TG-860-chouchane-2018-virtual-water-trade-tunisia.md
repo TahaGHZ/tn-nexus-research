@@ -54,4 +54,4 @@ Discussion (p. 295):
 
 ## Notes
 
-AquaCrop-based water footprints, six crops, 1981-2010. Excludes grey water. Water availability from Ministry of Agriculture data without environmental flows. Data period ends 2010; date area and exports have grown strongly since (see SRC-TG-862, SRC-TG-863). Economic blue water productivity values come from Chouchane et al. (2015), not recomputed here.
+AquaCrop-based water footprints, six crops, 1981-2010. Excludes grey water. Water availability from Ministry of Agriculture data without environmental flows. Data period ends 2010; date area and exports have grown strongly since (see SRC-TG-862, SRC-TG-863). Economic blue water productivity values come from Chouchane et al. (2015), not recomputed here; they match the 1996-2005 "blue EWP in irrigated agriculture" column of Chouchane et al. (2013) Table 8 (SRC-TG-868), so they are 1996-2005 values even though Table 1 is headed 1981-2010.

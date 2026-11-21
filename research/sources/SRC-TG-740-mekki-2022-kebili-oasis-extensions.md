@@ -71,6 +71,8 @@ Additional extracts (sections 3.2-3.4):
 
 > "These subsidies were mainly water saving (drip irrigation; basins) and soil protection (the sandy amendment) equipment. However, subsidies to moutakhma extensions were later put on hold due to a lack of a legal basis for this new initiative. In 2018, Kebili CRDA announced a plan to provide subsidies to all other extensions, but this was later also put on hold."
 
+Abstract: "These private initiatives, called "extensions", have developed on collective unfarmed areas outside historical oases."
+
 ## Notes
 
 Peer-reviewed. Many figures are relayed from Kebili CRDA reports and databases (CRDA 2010-2020, CRDA 2018 inventory) that we did not open; the 2020 extension area (32,700 ha) is the authors' own estimate from Google Earth imagery 1984-2020. Internal inconsistency: extensions at 85% of Kebili output cannot equal 80.7% of national output when Kebili is about 73% of national output (SRC-TG-742); the 80.7% figure is not used as an indicator. The 751 / 1,645 / 7,991 ha typology covers only the Northern and Southern Douz districts, not the whole governorate. Actor quotations are interview material.

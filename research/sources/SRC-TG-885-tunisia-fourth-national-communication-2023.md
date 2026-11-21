@@ -46,7 +46,7 @@ p. 132-133 (MARHP/AFD 2021 downscaling, RCP 4.5 and 8.5, reference 1981-2010):
 
 > Les projections de la variation annuelle moyenne des précipitations montrent une réduction du volume global des précipitations moyennes sur l'ensemble du territoire tunisien à l'horizon 2050, variant entre (- 14 mm/an, RCP 8.5) et (- 22 mm/an, RCP 4.5), soit entre 6% et 9% par rapport à la période de référence (1981-2010).
 
-p. 134, Table 26 (extremes, horizon 2050):
+p. 134-135, Table 26 (extremes, horizon 2050; consecutive dry days on p. 134, heatwave days on p. 135):
 
 > Une augmentation du nombre de jours consécutifs secs (valeur moyenne sur le territoire) de l'ordre de + 9.3 jours/an à l'échéance 2050 [RCP 4.5] ... de l'ordre de + 17.1 jours/ an [RCP 8.5]
 > Statistiquement non significative en 2050, cette tendance deviendra significative en 2100.
@@ -98,4 +98,16 @@ English gloss: The largest negative economic impact on agriculture is a potentia
 - **Swapped scenario labels:** On p. 133 the mm values are attached to the opposite scenarios from the INM portal (SRC-TG-887: RCP 4.5 = -14 mm / -6%, RCP 8.5 = -22 mm / -9%). The labels in this document are swapped: the source study itself (SRC-TG-886, p. 23) gives -14 mm for RCP 4.5 and -22 mm for RCP 8.5.
 - **Horizon mismatch:** The "near 40% by 2050 under RCP 8.5" cereal figure does not match the source study's 2050 tables (SRC-TG-886).
 - **USD conversion error:** "4.669 MUSD" equals 10% of the 2021 GDP the document itself gives (USD 46.69 billion, footnote 88), i.e. the whole agricultural GDP, not 30-50% of it. The figure is not used.
+- **Local copy and verification:** Downloaded on 2026-11-21 with a browser User-Agent to C:\Users\Taha\AppData\Local\Temp\claude\84d5bad6dc087fc3\6e966d88-81b3-402c-88d3-7630ed4be8fc\scratchpad\dl-drought-climate\nc4.pdf (8,874,474 bytes, 292 pages); the Latin-1 text, re-encoded, is in nc48.txt in the same folder. On 2026-11-21 every extract above was re-grepped in that text. All are verbatim apart from line-break joins and the bracketed scenario labels. Printed page numbers were checked against the page footers:
+  - p. 19: observed climate, 1978-2012.
+  - p. 128: the 2006-2007 GIZ strategy.
+  - p. 129: 2.1°C over 1951-2010.
+  - p. 130: INM 2015 rainfall.
+  - p. 133: -14 mm (RCP 8.5) and -22 mm (RCP 4.5), as printed.
+  - p. 134: consecutive dry days.
+  - p. 135: heatwave days.
+  - p. 161-162: bioclimatic shift and suitable areas.
+  - p. 163: cereals "près de 40% à l'horizon 2050", 30% job loss.
+  - p. 164: rangelands 8-10%; share of GDP 5-10% by 2030.
+  - p. 165: groundwater substitution after the 2016-2018 drought; "au moins 20%" jobs.
 - **Unsourced job figures:** The two job-loss figures (30% for cereals citing the CCDR; at least 20% citing the PNA study) carry no method.

@@ -126,6 +126,10 @@ English gloss: a large share of common varieties are early soft dates, perishabl
 
 English gloss: olive oil earned 1,545 MDT in 2021/2022 (33% of food exports); dates 468.4 MDT (15.2%). These two pairs are inconsistent with each other: if 1,545 MDT is 33%, then 15.2% is about 710 MDT, close to ONAGRI's 716.6 MTND (SRC-TG-743). The report's 441.4 / 468.4 MDT figures are therefore not reliable.
 
+> "Il est intéressant de signaler aussi que l'enquête oasis de 2001 a relevé les chiffres suivants : • Kébili : 15 960 ha • Tozeur : 7 900 ha • Gabès : 6 940 ha • Gafsa : 1 860 ha" (§1.1.1)
+
+English gloss: the 2001 oasis survey recorded Kebili 15,960 ha, Tozeur 7,900 ha, Gabès 6,940 ha, Gafsa 1,860 ha.
+
 ## Notes
 
 Consultant report for FAO (Ben Saad, June 2023), drawing on DGEDA oasis surveys (2018 and earlier), ONAGRI and fieldwork (283 people contacted, April 2023). Tier B. Internal inconsistencies: total palm count given as 5.241 million in one place and 5,961,360 in another; Kebili area 36,560 ha (2018 survey) vs ">38,000 ha" from unnamed sources; the 72.3% Deglet Nour share differs from ONAGRI's 68.2% computed from the same 2018 survey (SRC-TG-743). The illicit-well counts (9,000-10,000) are attributed vaguely to "CRDA, experts oasis, politiciens". Rjim Maatoug data come from the Defence ministry website and Daoued (2011), not opened by us. Tables from the PDF were extracted with garbled layout; rows above were rebuilt and verified by sum.

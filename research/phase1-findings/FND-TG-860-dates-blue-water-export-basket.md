@@ -1,7 +1,7 @@
 ---
 id: FND-TG-860
 title: "Dates are the export crop that ships Tunisia's scarce blue water abroad: exports grew about sixfold from 2000 to 2022 on the crop with the highest blue water footprint per tonne among Tunisia's main crops and a low return per m3"
-status: draft
+status: in-review
 sectors: [agriculture, water]
 theme: crop-choices
 timeframe: current
@@ -138,7 +138,7 @@ sources: [SRC-TG-860, SRC-TG-861, SRC-TG-862, SRC-TG-863, SRC-TG-864, SRC-TG-866
 data_gaps:
   - "Blue water footprint of dates after 2010: three estimates were opened (5,000 m3/t blue for 1981-2010, SRC-TG-860; 3,270 m3/t blue for 1996-2005, SRC-TG-868; about 2,900 m3/t total implied for 2013 exports, SRC-TG-861). No estimate after 2013 was found."
   - "Blue virtual water exported through dates for a recent year: no published figure after 2013. Applying the per-tonne estimates to 2022 exports (130,307 t) would give roughly 430-650 million m3 of blue water, but this mixes periods and is not a published estimate. The 2013 published value is 283.6 million m3 (total, for 97.8 kt; FAOSTAT records 105,803 t of date exports in 2013)."
-  - "The 60% export share in the OTE report (SRC-TG-744) could not be verified: the PDF was unreachable (connection reset) for the author and for the source-verifier."
+  - "The OTE report (SRC-TG-744) live URL was unreachable on 2026-11-21; its 60% export share was confirmed verbatim by the source-verifier against the Wayback Machine copy (December 2020 report), but it is an NGO figure without a stated method."
   - "Irrigated olive area and the blue water exported through olive oil today: SRC-TG-860 gives 39% irrigated olive production for 1981-2010; no recent figure was opened."
   - "Export incentives specific to dates (FOPRODEX transport support, investment code advantages for export agriculture): found only in press reports, not in an official text, so not used."
   - "Farm income per m3 for date farms against alternative crops in the southern oases: only national 1996-2005 averages (SRC-TG-868)."
@@ -184,7 +184,7 @@ The symptom is a growing volume of irrigation water leaving the country embedded
 - **Export share sources disagree:**
   - 35% in 2022, from our FAOSTAT calculation (SRC-TG-862, SRC-TG-863);
   - 36.1% in 2021 and a 2011-2021 average of 44.4%, from ONAGRI (SRC-TG-743);
-  - 60%, from an NGO report (SRC-TG-744). This figure is unverified because the report could not be opened.
+  - 60%, from an NGO report (SRC-TG-744), checked against the Wayback Machine copy because the live URL was unreachable; no method is given.
 - **Exports in tonnes and value.** 22,411 t (2000), 84,282 t (2010), 130,307 t (2022), 129,929 t (2023). Export value was US$38.6 million in 2000 and US$256.7 million in 2023 (SRC-TG-863).
 - **Sources disagree on the water content of dates and of the export basket.** For dates, the estimates are:
   - 5,600 m3/t total, 5,000 blue (SRC-TG-860);
@@ -209,7 +209,7 @@ Confidence is not high because:
 - the per-tonne water content of dates ranges from about 2,900 to 5,600 m3/t across estimates;
 - the footprint series end in 2010 (model) and 2013 (survey);
 - FAOSTAT has imputed or estimated the date area since 2017, and its 2022 figure is about 35% above the ministry's;
-- the export share is our own calculation from FAOSTAT, and one source's figure (60%) is unverified.
+- the export share is our own calculation from FAOSTAT, and one source's figure (60%, NGO) gives no method.
 
 The policy causes rest on a tier B national report (SRC-TG-864), a tier B research report (SRC-TG-868) and a peer-reviewed study of Kebili (SRC-TG-740). No official text on export incentives for dates was opened.
 

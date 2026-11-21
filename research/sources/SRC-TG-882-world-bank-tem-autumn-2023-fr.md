@@ -33,9 +33,11 @@ Box 1, p. 3:
 
 > D'ici 2050, les ressources globales en eau par personne et par an pourraient diminuer jusqu'à 66 pour cent (de 366 m³ à 122 m³).
 
+> La Banque mondiale prévoit que la production d'olives, qui représentaient 40 pour cent du total des exportations agricoles en 2019, pourrait diminuer par 69 pour cent d'ici 2050.
+
 > La production agricole devrait chuter entre 29,1 et 33,1 pour cent par rapport aux projections dans un scénario sans stress climatique. Cela aura des conséquences négatives plus prononcées sur les ruraux pauvres, qui disposent de moins de ressources pour faire face aux impacts climatiques. Ces pertes se traduiraient par une réduction du PIB réel comprise entre 4,1 et 4,6 pour cent.
 
-English gloss: By 2050 water resources per person per year could fall up to 66% (366 to 122 m³). Agricultural production is projected to fall 29.1-33.1% relative to a no-climate-stress scenario, hitting the rural poor hardest; these losses would cut real GDP by 4.1-4.6%.
+English gloss: The World Bank projects that olive production (40% of agricultural exports in 2019) could fall 69% by 2050. By 2050 water resources per person per year could fall up to 66% (366 to 122 m³). Agricultural production is projected to fall 29.1-33.1% relative to a no-climate-stress scenario, hitting the rural poor hardest; these losses would cut real GDP by 4.1-4.6%.
 
 ## Notes
 
