@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
-import { BookOpen, Compass, Layers, Menu, Scale, X } from 'lucide-react';
+import { Bot, BookOpen, Compass, FlaskConical, Layers, Menu, Scale, X } from 'lucide-react';
 import { useState } from 'react';
 import { PixelGolem } from './PixelGolem';
 
@@ -36,7 +36,7 @@ export function Navbar({ verifiedCount, solutionCount }: NavbarProps) {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden items-center gap-1.5 md:flex">
+        <nav className="hidden items-center gap-1 lg:flex">
           <NavLink to="/" end className={navLinkClass}>
             <Compass className="h-4 w-4" />
             Overview
@@ -55,6 +55,14 @@ export function Navbar({ verifiedCount, solutionCount }: NavbarProps) {
               {solutionCount}
             </span>
           </NavLink>
+          <NavLink to="/rnd" className={navLinkClass}>
+            <FlaskConical className="h-4 w-4" />
+            R&amp;D
+          </NavLink>
+          <NavLink to="/runs" className={navLinkClass}>
+            <Bot className="h-4 w-4" />
+            Agent Runs
+          </NavLink>
           <NavLink to="/modules" className={navLinkClass}>
             <Layers className="h-4 w-4" />
             Modules
@@ -64,7 +72,7 @@ export function Navbar({ verifiedCount, solutionCount }: NavbarProps) {
           </NavLink>
         </nav>
 
-        <div className="hidden items-center gap-3 md:flex">
+        <div className="hidden items-center gap-3 xl:flex">
           <Link
             to="/blog"
             className="inline-flex items-center gap-2 rounded-lg bg-slate-950 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-800"
@@ -77,7 +85,7 @@ export function Navbar({ verifiedCount, solutionCount }: NavbarProps) {
         <button
           type="button"
           onClick={() => setMobileOpen((v) => !v)}
-          className="inline-flex items-center justify-center rounded-lg p-2 text-slate-700 hover:bg-stone-200/70 md:hidden"
+          className="inline-flex items-center justify-center rounded-lg p-2 text-slate-700 hover:bg-stone-200/70 lg:hidden"
           aria-label="Toggle navigation menu"
         >
           {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -86,7 +94,7 @@ export function Navbar({ verifiedCount, solutionCount }: NavbarProps) {
 
       {/* Mobile Dropdown */}
       {mobileOpen && (
-        <div className="border-t border-stone-200 bg-[#FAF8F4] px-4 py-3 md:hidden">
+        <div className="border-t border-stone-200 bg-[#FAF8F4] px-4 py-3 lg:hidden">
           <div className="flex flex-col gap-1.5">
             <NavLink to="/" end className={navLinkClass} onClick={() => setMobileOpen(false)}>
               <Compass className="h-4 w-4" />
@@ -99,6 +107,14 @@ export function Navbar({ verifiedCount, solutionCount }: NavbarProps) {
             <NavLink to="/solutions" className={navLinkClass} onClick={() => setMobileOpen(false)}>
               <Scale className="h-4 w-4" />
               Solution Audits ({solutionCount})
+            </NavLink>
+            <NavLink to="/rnd" className={navLinkClass} onClick={() => setMobileOpen(false)}>
+              <FlaskConical className="h-4 w-4" />
+              R&amp;D Proposals
+            </NavLink>
+            <NavLink to="/runs" className={navLinkClass} onClick={() => setMobileOpen(false)}>
+              <Bot className="h-4 w-4" />
+              Agent Runs
             </NavLink>
             <NavLink to="/modules" className={navLinkClass} onClick={() => setMobileOpen(false)}>
               <Layers className="h-4 w-4" />

@@ -251,6 +251,8 @@ export interface SiteStats {
   solutionCount: number;
   solutionDraftCount: number;
   verdictCounts: Record<Verdict, number>;
+  proposalCount: number;
+  runCount: number;
 }
 
 export interface ResearchIndex {
@@ -260,4 +262,114 @@ export interface ResearchIndex {
   themes: string[];
   findings: FindingSummary[];
   solutions: SolutionSummary[];
+  proposals: ProposalSummary[];
+  runs: RunSummary[];
 }
+
+// ---------- Phase 3: R&D proposals (PRP) and recorded agent runs (RUN) ----------
+
+export type OptionScoreKey =
+  | 'fixes_cause'
+  | 'speed'
+  | 'effect_10y'
+  | 'side_effects'
+  | 'cost_fairness'
+  | 'evidence';
+
+export interface ProposalOption {
+  name: string;
+  scores: Record<OptionScoreKey, number | null>;
+  total: number;
+  note: string;
+}
+
+export interface PlanStep {
+  phase: string;
+  action: string;
+  owner: string;
+  measure: string;
+}
+
+export interface Guardrail {
+  id: string;
+  name: string;
+  applied: string;
+}
+
+export interface ProposalSummary {
+  id: string;
+  slug: string;
+  title: string;
+  status: string;
+  type: string;
+  caseName: string;
+  question: string;
+  sectors: Sector[];
+  mainSector: Sector;
+  geography: string[];
+  addresses: string[];
+  buildsOn: string[];
+  run: string;
+  hypothesis: string;
+  rescoreTriggers: string[];
+  assumptions: string[];
+  validationPath: { reviewer: string; pilot: string; roughCost: string };
+  contributors: string[];
+  author: string;
+  excerpt: string;
+  image: CuratedImage;
+  citedSourceIds: string[];
+  topOption: ProposalOption | null;
+  optionCount: number;
+  planStepCount: number;
+}
+
+export interface ProposalDetail extends Omit<ProposalSummary, 'topOption' | 'optionCount' | 'planStepCount'> {
+  guardrails: Guardrail[];
+  options: ProposalOption[];
+  plan: PlanStep[];
+  dataNeeded: Array<{ item: string; holder: string }>;
+  sections: MarkdownSection[];
+  addressItems: FindingRef[];
+  buildsOnItems: SolutionRef[];
+  resolvedSources: SourceRecord[];
+}
+
+export type RunMode = 'gateway' | 'findings' | 'solutions' | 'rnd' | '';
+export type RunSector = Sector | 'nexus';
+
+export interface RunStep {
+  n: number;
+  role: 'user' | 'agent' | 'tool';
+  mode: RunMode;
+  sector: RunSector;
+  action: string;
+  content: string;
+}
+
+export interface RunSummary {
+  id: string;
+  slug: string;
+  title: string;
+  status: string;
+  simulatedNote: string;
+  askedBy: string;
+  question: string;
+  date: string;
+  modes: string[];
+  sectors: string[];
+  findingsUsed: string[];
+  solutionsUsed: string[];
+  proposalsOut: string[];
+  author: string;
+  stepCount: number;
+  citedSourceIds: string[];
+}
+
+export interface RunDetail extends RunSummary {
+  steps: RunStep[];
+  findingItems: FindingRef[];
+  solutionItems: SolutionRef[];
+  resolvedSources: SourceRecord[];
+}
+

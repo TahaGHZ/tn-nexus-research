@@ -84,14 +84,6 @@ export function Footer({ stats }: FooterProps) {
               </li>
               <li>
                 <Link to="/modules" className="text-slate-400 transition hover:text-white">
-                  Agent Recorded Sessions{' '}
-                  <span className="ml-1 rounded bg-sky-500/15 px-1.5 py-0.5 font-mono text-[10px] text-sky-300">
-                    NEXT
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link to="/modules" className="text-slate-400 transition hover:text-white">
                   Trusted Vendors &amp; Products{' '}
                   <span className="ml-1 rounded bg-amber-500/15 px-1.5 py-0.5 font-mono text-[10px] text-amber-300">
                     NEXT
@@ -107,10 +99,18 @@ export function Footer({ stats }: FooterProps) {
                 </Link>
               </li>
               <li>
-                <Link to="/modules" className="text-slate-400 transition hover:text-white">
+<Link to="/rnd" className="text-slate-300 transition hover:text-white">
                   Phase 3: R&amp;D Proposals{' '}
-                  <span className="ml-1 rounded bg-slate-800 px-1.5 py-0.5 font-mono text-[10px] text-slate-400">
-                    LOCKED
+                  <span className="ml-1 rounded bg-emerald-500/20 px-1.5 py-0.5 font-mono text-[10px] text-emerald-300">
+                    {stats.proposalCount}
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link to="/runs" className="text-slate-300 transition hover:text-white">
+                  Agent Runs{' '}
+                  <span className="ml-1 rounded bg-sky-500/20 px-1.5 py-0.5 font-mono text-[10px] text-sky-300">
+                    {stats.runCount}
                   </span>
                 </Link>
               </li>

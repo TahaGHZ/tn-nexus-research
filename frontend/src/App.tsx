@@ -9,6 +9,10 @@ import { FindingDetailPage } from './pages/FindingDetailPage';
 import { ModulesPage } from './pages/ModulesPage';
 import { SolutionsPage } from './pages/SolutionsPage';
 import { SolutionDetailPage } from './pages/SolutionDetailPage';
+import { ProposalsPage } from './pages/ProposalsPage';
+import { ProposalDetailPage } from './pages/ProposalDetailPage';
+import { RunsPage } from './pages/RunsPage';
+import { RunReplayPage } from './pages/RunReplayPage';
 
 const researchIndex = researchIndexRaw as unknown as ResearchIndex;
 
@@ -33,6 +37,10 @@ export function App() {
               path="/solutions/:id"
               element={<SolutionDetailPage indexData={researchIndex} />}
             />
+            <Route path="/rnd" element={<ProposalsPage data={researchIndex} />} />
+            <Route path="/rnd/:id" element={<ProposalDetailPage indexData={researchIndex} />} />
+            <Route path="/runs" element={<RunsPage data={researchIndex} />} />
+            <Route path="/runs/:id" element={<RunReplayPage indexData={researchIndex} />} />
             <Route path="/modules" element={<ModulesPage data={researchIndex} />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

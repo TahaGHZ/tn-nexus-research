@@ -7,7 +7,7 @@ export interface NexusModule {
   status: 'live' | 'upcoming' | 'locked';
   route?: string;
   /** Stat shown on the launch button; defaults to the verified findings count. */
-  countKey?: 'verifiedFindings' | 'solutionCount';
+  countKey?: 'verifiedFindings' | 'solutionCount' | 'proposalCount' | 'runCount';
   phaseLabel: string;
   accent: 'emerald' | 'sky' | 'amber' | 'slate';
   highlights: string[];
@@ -39,17 +39,19 @@ export const NEXUS_MODULES: NexusModule[] = [
   {
     id: 'agent-sessions',
     name: 'Agent Recorded Sessions',
-    shortName: 'Agent Sessions',
-    tagline: 'Replayable transcripts and audit logs from autonomous research runs',
+    shortName: 'Agent Runs',
+    tagline: 'Replay how the gateway agent answers a real question',
     description:
-      'Inspect how parallel research agents investigate a Tunisian policy, query official ONEM/DGRE/ONAGRI statistics, cross-check anomalies, and pass source-verifier reviews.',
-    status: 'upcoming',
-    phaseLabel: 'Next Module · Planned',
+      'Step-by-step replays of the gateway agent: the clarifying questions it asks, the findings it searches, the solution audits it reads and the R&D plan it writes, with every claim linked to its record.',
+    status: 'live',
+    route: '/runs',
+    countKey: 'runCount',
+    phaseLabel: 'Live',
     accent: 'sky',
     highlights: [
-      'Step-by-step investigator & source-verifier session recordings',
-      'Full provenance trail from raw PDF table extraction to structured YAML',
-      'Diffable verifier corrections and confidence rationales',
+      'Three modes behind one gateway: findings, solutions and R&D',
+      'Every message cites FND, SOL, SRC and PRP records you can open',
+      'Simulated runs are labelled as such',
     ],
   },
   {
@@ -89,17 +91,19 @@ export const NEXUS_MODULES: NexusModule[] = [
   {
     id: 'rd-proposals',
     name: 'R&D Proposals',
-    shortName: 'Phase 3',
-    tagline: 'Designing field-ready pilots for the gaps the audits leave open',
+    shortName: 'R&D',
+    tagline: 'From a real case to a phased, scored plan',
     description:
-      'Once Phase 3 is unlocked in PHASES.md, PRP records will populate here: the gap each proposal fills, its hypothesis, the pilot that would test it and the experts asked to review it.',
-    status: 'locked',
-    phaseLabel: 'Phase 3 · Locked',
-    accent: 'slate',
+      'Phase 3 PRP records: the case rebuilt as a timeline, its causes mapped, every option scored against seven economist-reviewed guardrails, and a phased plan with an owner and a measure for each step.',
+    status: 'live',
+    route: '/rnd',
+    countKey: 'proposalCount',
+    phaseLabel: 'Phase 3 · Live',
+    accent: 'emerald',
     highlights: [
-      'Proposals built on the gaps and blockers found in Phase 2',
-      'A named reviewer, a minimal pilot and a rough cost for each',
-      'Linked expert directory with full disclosure tracking',
+      'Options scored on cause, speed, 10-year effect, side effects, cost and fairness, evidence',
+      'Guardrails: static vs dynamic effects, rebound, who pays, do not move the problem, causation, honest data, humans decide',
+      'States what it does not know and who holds the data',
     ],
   },
 ];

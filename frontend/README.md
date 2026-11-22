@@ -1,7 +1,7 @@
 # Nexus TN frontend
 
 A static React site that publishes the research records in this repository: the phase 1
-findings and the phase 2 solution audits. There is no backend. A sync script reads the
+findings, the phase 2 solution audits, the phase 3 R&D proposals and the recorded agent runs. There is no backend. A sync script reads the
 Markdown records in `../research/`, writes JSON, and Vite bundles it.
 
 ## Run it
@@ -24,9 +24,11 @@ is absent; the script then keeps the existing data.
 
 ```
 research/phase1-findings/*.md  ┐
-research/phase2-solutions/*.md ├─ scripts/sync-research.mjs ─┬─ src/data/research-index.json   (bundled)
-research/sources/*.md          │                             ├─ public/data/findings/<id>.json (fetched per page)
-research/experts/*.md          │                             └─ public/data/solutions/<id>.json
+research/phase2-solutions/*.md ├─ scripts/sync-research.mjs ─┬─ src/data/research-index.json    (bundled)
+research/phase3-proposals/*.md │                             ├─ public/data/findings/<id>.json  (fetched per page)
+research/agent-runs/*.md       │                             ├─ public/data/solutions/<id>.json
+research/sources/*.md          │                             ├─ public/data/proposals/<id>.json
+research/experts/*.md          │                             └─ public/data/runs/<id>.json
 PHASES.md                      ┘
 ```
 
@@ -36,6 +38,10 @@ What the sync publishes, and what it holds back:
 - **Solution audits:** every record except `rejected`, drafts included, because phase 2 is new.
   Every list card and detail page shows the status and an "outstanding verification" banner,
   so a draft is never presented as a checked audit.
+- **R&D proposals:** every record except `refuted`, with its status shown.
+- **Agent runs:** every run file. The body is split into steps on headings of the form
+  `## [NN] role | mode: … | sector: … | action: …` (see `docs/agent-runs.md`). A run marked
+  `simulated` carries a banner saying it was reconstructed, not executed live.
 - **Confidential sources:** a source whose `url` is `none…` or whose extracts start with
   "Confidential" is published by title, publisher and tier only. Its URL, extracts and notes
   stay in the repository.
@@ -55,6 +61,10 @@ The site uses hash routing (`/#/...`) so it works from any static host or a file
 | `/blog/:id` | `FindingDetailPage` | One finding: indicators, root causes, sections, sources, audited solutions |
 | `/solutions` | `SolutionsPage` | Phase 2 audits; filter by verdict and lane |
 | `/solutions/:id` | `SolutionDetailPage` | One audit: verdict, scores, claims, blockers, criticisms, trade-offs, sources |
+| `/rnd` | `ProposalsPage` | Phase 3 R&D proposals |
+| `/rnd/:id` | `ProposalDetailPage` | One proposal: question, hypothesis, scored options, phased plan, guardrails, data still needed, re-score triggers |
+| `/runs` | `RunsPage` | Recorded agent runs |
+| `/runs/:id` | `RunReplayPage` | Step-by-step replay of one run, with the mascot reacting to each step |
 | `/modules` | `ModulesPage` | Platform modules and their status, from `src/modules/registry.ts` |
 
 ## Files
@@ -99,6 +109,10 @@ Do not edit generated files by hand; change the records in `research/` and re-ru
 | `FindingDetailPage.tsx` | Full finding: indicators, projection, root causes, Markdown sections with clickable citations, source list, related findings, and the solution audits that target it |
 | `SolutionsPage.tsx` | Phase 2 overview: verdict counts with their meaning, a draft warning, filters and the grid of audits |
 | `SolutionDetailPage.tsx` | Full audit: verdict and score strip, draft banner, claims with verification state, limits, blockers, criticisms, trade-offs, gap left, the Markdown narrative, disclosure, greenwashing flags, targeted findings and sources |
+| `ProposalsPage.tsx` | Grid of R&D proposals with their top-scored option |
+| `ProposalDetailPage.tsx` | Full proposal: the question and hypothesis, the options table coloured by score, the plan in now / next / later / always columns, how each guardrail was applied, the Markdown narrative, data still needed, re-score triggers, how to test it, linked findings, audits, run and sources |
+| `RunsPage.tsx` | List of agent runs |
+| `RunReplayPage.tsx` | Replays a run: user messages appear, tool steps pause, agent messages type out, then render as Markdown with record links. Controls for play/pause, next step, show all, restart and speed. The mascot waves when the person speaks, scans while a tool runs, and while the agent writes plays the move for the step's sector (rain for water, charge for energy, bloom for agriculture, a random move for cross-sector steps); paused or finished, it plays random idle moves |
 | `ModulesPage.tsx` | Module cards from the registry, with launch links for live modules |
 
 ### Components (`src/components/`)
@@ -110,18 +124,18 @@ Do not edit generated files by hand; change the records in `research/` and re-ru
 | `FindingCard.tsx` | Card for one finding in the blog grid |
 | `SolutionCard.tsx` | Card for one solution audit: verdict, status, compact score bars, source tier mix |
 | `EvidenceDashboard.tsx` | Charts of the published evidence: trust classes, source tiers, and findings by sector, severity, timeframe and trend |
-| `MarkdownArticle.tsx` | Safe Markdown renderer (no raw HTML). Turns `SRC-…` ids into source buttons and `FND-…` ids into links |
+| `MarkdownArticle.tsx` | Safe Markdown renderer (no raw HTML): paragraphs, lists, quotes, `###` headings and pipe tables. Turns `SRC-…` ids into source buttons and `FND-…`, `SOL-…`, `PRP-…` and `RUN-…` ids into links |
 | `SourceModal.tsx` | Drawer showing one source: tier, publisher, extracts and notes, with a link out when a public URL exists |
 | `ResearchFormatting.tsx` | Shared labels and colours for sectors, severity, timeframe, confidence, trend, status, trust and source tiers, plus `TierMixBar` and formatting helpers |
 | `SolutionFormatting.tsx` | Labels and colours for audit verdicts, the five score dimensions, claim verification and criticism assessment, plus `ScoreBars` |
 | `PixelGolem.tsx` | Animated pixel-art mascot with several animation modes |
 
-## Adding phase 3
+## Adding a new record type
 
-When `PHASES.md` unlocks phase 3, follow the phase 2 pattern:
+Follow the pattern of solutions, proposals and runs:
 
-1. In `scripts/sync-research.mjs`, read `research/phase3-proposals/`, write
-   `public/data/proposals/<id>.json`, and add a `proposals` array to the index.
+1. In `scripts/sync-research.mjs`, read the folder, write `public/data/<type>/<id>.json`, and
+   add a summary array to the index.
 2. Add the types to `src/types/research.ts`.
 3. Add a list page and a detail page, and their routes in `src/App.tsx`.
-4. In `src/modules/registry.ts`, set the `rd-proposals` module to `live` with its route.
+4. Add the module to `src/modules/registry.ts`, and a link in the navbar and footer.

@@ -6,6 +6,6 @@ Only Taha edits this file.
 |---|---|
 | 1. Findings | UNLOCKED |
 | 2. Validation | UNLOCKED |
-| 3. R&D | LOCKED |
+| 3. R&D | UNLOCKED |
 
 A locked phase means: no new records and no edits in its folder.

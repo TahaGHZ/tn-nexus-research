@@ -39,9 +39,9 @@ export function ModulesPage({ data }: ModulesPageProps) {
               Platform Modules &amp; Roadmap
             </h1>
             <p className="mt-3 max-w-2xl text-sm leading-relaxed text-stone-600 sm:text-base">
-              The Verified Findings Blog and the Phase 2 Solution Audits are live, both built on this
-              repository’s structured Markdown records. Next up: Agent Recorded Sessions, a vetted
-              Trusted Vendors &amp; Products directory, and Phase 3 R&amp;D proposals.
+              Findings, solution audits, R&amp;D proposals and agent run replays are live, all built on
+              this repository’s structured Markdown records. Next up: a vetted Trusted Vendors &amp;
+              Products directory.
             </p>
           </div>
           <div className="flex justify-center md:col-span-4 md:justify-end">

@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-22T00:55:08.694Z",
+  "generatedAt": "2026-11-22T01:22:31.139Z",
   "stats": {
     "totalFindingsInRepo": 78,
     "verifiedFindings": 65,
     "inReviewFindings": 65,
     "peerValidatedFindings": 0,
     "draftFindings": 13,
-    "totalSources": 359,
+    "totalSources": 366,
     "sourceTiers": {
       "A": 142,
       "B": 134,
-      "C": 83
+      "C": 90
     },
     "sectorCounts": {
       "water": 18,
@@ -52,6 +52,8 @@
     "nexusCount": 34,
     "citedSources": 277,
     "solutionCount": 7,
+    "proposalCount": 1,
+    "runCount": 1,
     "solutionDraftCount": 0,
     "verdictCounts": {
       "solves": 0,
@@ -75,7 +77,7 @@
     {
       "number": 3,
       "name": "R&D",
-      "state": "LOCKED"
+      "state": "UNLOCKED"
     }
   ],
   "themes": [
@@ -5149,6 +5151,149 @@
       "blockerCount": 4,
       "criticismCount": 4,
       "tradeOffCount": 3
+    }
+  ],
+  "proposals": [
+    {
+      "id": "PRP-TG-400",
+      "slug": "PRP-TG-400-kerker-phased-resilience-plan",
+      "title": "Protect the Kerker pumping station first: forecast risky days and pre-fill reservoirs now, win critical-load status with STEG next, then add a bigger buffer and solar with a farm water budget, rather than diesel, desalination alone or unlimited solar pumps",
+      "status": "draft",
+      "type": "combine",
+      "caseName": "Kerker pumping station (SONEDE), Mahdia and Sfax, summer 2026",
+      "question": "Why did our taps run dry this summer, and what can we actually do before next summer?",
+      "sectors": [
+        "water",
+        "energy",
+        "agriculture"
+      ],
+      "mainSector": "water",
+      "geography": [
+        "centre-east",
+        "mahdia",
+        "sfax"
+      ],
+      "addresses": [
+        "FND-TG-220",
+        "FND-TG-250",
+        "FND-TG-270",
+        "FND-TG-450",
+        "FND-TG-451",
+        "FND-TG-400"
+      ],
+      "buildsOn": [
+        "SOL-TG-420",
+        "SOL-TG-110",
+        "SOL-TG-100"
+      ],
+      "run": "RUN-TG-001",
+      "hypothesis": "If SONEDE can keep the Kerker area supplied for a few more hours after a power cut (through pre-filled reservoirs, a protected feeder and a larger downstream buffer), the 10 to 18 hour outages of summer 2026 should shrink to a fraction of that, because each stop also stops the reservoirs filling and restart takes hours (SRC-TG-687). The size of the gain is not yet estimated: no reservoir, pump or feeder data have been seen.",
+      "rescoreTriggers": [
+        "The 150 MW of grid batteries (case study, Ahmed) come online before summer 2027: if national cuts fall, the weight of local protection rises further; check whether Kerker still stops.",
+        "STEG confirms the 24 August cut was a local fault: the second power feed moves up and the forecast loses value, since faults are harder to predict than load shedding.",
+        "STEG confirms the cuts were load shedding: peak-demand measures and national supply rise in weight.",
+        "The new desalination plant for Sousse, Monastir and Mahdia starts: supply improves but grid load rises; re-check that the regional grid can carry it without cutting stations like Kerker (SOL-TG-420).",
+        "Reservoir or pump data show restart takes far longer or shorter than the 5-7 hours SONEDE cited (SRC-TG-687): the buffer option moves."
+      ],
+      "assumptions": [
+        "Kerker's two 2026 cuts and a restart delay are the dominant driver of the 10-18 hour outages, not the national supply deficit.",
+        "SONEDE can reach the reservoirs and operate pre-filling without new equipment.",
+        "STEG is willing to share the cut log and consider critical-load status for a pumping feeder.",
+        "A 10-year horizon and a 9-10% discount rate (our economist reviewer) are the right frame for a public utility; not tested against SONEDE's own investment rules."
+      ],
+      "validationPath": {
+        "reviewer": "SONEDE (Kerker operations), STEG (feeder and cut log), our economist reviewer (EXP-TG-002) for the scoring frame",
+        "pilot": "Run the risk score and pre-filling protocol on Kerker for summer 2027 and count hours of water kept per cut",
+        "roughCost": "Phase now: staff time and existing data, no cost estimate yet. Phases next and later: cost unknown until SONEDE, STEG and vendors provide quotes."
+      },
+      "contributors": [
+        "Ahmed (case study, 21 Nov 2026)",
+        "Economist reviewer (guardrails, name withheld)"
+      ],
+      "author": "TahaGHZ",
+      "excerpt": "If SONEDE can keep the Kerker area supplied for a few more hours after a power cut (through pre-filled reservoirs, a protected feeder and a larger downstream buffer), the 10 to 18 hour outages of summer 2026 should…",
+      "image": {
+        "url": "https://images.pexels.com/photos/32502650/pexels-photo-32502650.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Water distribution pipes and utility valves",
+        "credit": "adib aqil / Pexels"
+      },
+      "citedSourceIds": [
+        "SRC-TG-228",
+        "SRC-TG-685",
+        "SRC-TG-686",
+        "SRC-TG-687",
+        "SRC-TG-688",
+        "SRC-TG-689",
+        "SRC-TG-690",
+        "SRC-TG-691"
+      ],
+      "topOption": {
+        "name": "Forecast risky days, pre-fill reservoirs, alert users",
+        "scores": {
+          "fixes_cause": 3,
+          "speed": 5,
+          "effect_10y": 3,
+          "side_effects": 5,
+          "cost_fairness": 5,
+          "evidence": 3
+        },
+        "total": 24,
+        "note": "Cheapest and fastest, reuses existing staff and data, but only softens cuts and cannot help when a fault is hard to predict."
+      },
+      "optionCount": 8,
+      "planStepCount": 9
+    }
+  ],
+  "runs": [
+    {
+      "id": "RUN-TG-001",
+      "slug": "RUN-TG-001-kerker-water-cuts",
+      "title": "Why did Mahdia and Sfax lose water in summer 2026, and what can be done before next summer?",
+      "status": "simulated",
+      "simulatedNote": "Reconstructed from the team's hand-built Kerker case study (Ahmed, 21 November 2026); the steps show what the gateway would do, not a live execution.",
+      "askedBy": "Regional councillor, Mahdia",
+      "question": "Why did our taps run dry this summer, and what can we actually do before next summer?",
+      "date": "Sun Nov 22",
+      "modes": [
+        "findings",
+        "solutions",
+        "rnd"
+      ],
+      "sectors": [
+        "water",
+        "energy",
+        "agriculture"
+      ],
+      "findingsUsed": [
+        "FND-TG-220",
+        "FND-TG-250",
+        "FND-TG-270",
+        "FND-TG-271",
+        "FND-TG-400",
+        "FND-TG-450",
+        "FND-TG-451",
+        "FND-TG-476"
+      ],
+      "solutionsUsed": [
+        "SOL-TG-100",
+        "SOL-TG-110",
+        "SOL-TG-420"
+      ],
+      "proposalsOut": [
+        "PRP-TG-400"
+      ],
+      "author": "TahaGHZ",
+      "stepCount": 28,
+      "citedSourceIds": [
+        "SRC-TG-228",
+        "SRC-TG-685",
+        "SRC-TG-686",
+        "SRC-TG-687",
+        "SRC-TG-688",
+        "SRC-TG-689",
+        "SRC-TG-690",
+        "SRC-TG-691"
+      ]
     }
   ]
 }

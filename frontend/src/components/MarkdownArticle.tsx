@@ -24,7 +24,7 @@ export function MarkdownArticle({
   const renderInline = (text: string, keyPrefix: string): React.ReactNode[] => {
     // Tokenize bold, italic, code, markdown links, bare URLs, SRC IDs, FND IDs
     const tokenRegex =
-      /(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|\[[^\]]+\]\(https?:\/\/[^\s)]+\)|https?:\/\/[^\s)>,;]+|\bSRC-[A-Z]+-\d+\b|\bFND-[A-Z]+-\d+\b)/g;
+      /(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|\[[^\]]+\]\(https?:\/\/[^\s)]+\)|https?:\/\/[^\s)>,;]+|\bSRC-[A-Z]+-\d+\b|\bFND-[A-Z]+-\d+\b|\b(?:SOL|PRP|RUN)-[A-Z]+-\d+\b)/g;
     const parts: React.ReactNode[] = [];
     let lastIndex = 0;
     let match: RegExpExecArray | null;
@@ -143,6 +143,17 @@ export function MarkdownArticle({
             </span>
           );
         }
+      } else if (/^(SOL|PRP|RUN)-/.test(token)) {
+        const route = token.startsWith('SOL') ? 'solutions' : token.startsWith('PRP') ? 'rnd' : 'runs';
+        parts.push(
+          <Link
+            key={key}
+            to={`/${route}/${token}`}
+            className="mx-0.5 inline-flex items-center rounded bg-amber-50 px-1.5 py-0.5 font-mono text-[11px] font-semibold text-amber-900 ring-1 ring-amber-200 transition hover:bg-amber-100"
+          >
+            {token}
+          </Link>
+        );
       } else {
         parts.push(token);
       }
@@ -233,6 +244,46 @@ export function MarkdownArticle({
       continue;
     }
 
+    // Table: a header row, a |---| separator row, then body rows
+    if (line.trim().startsWith('|') && idx + 1 < lines.length && /^\s*\|?\s*:?-{2,}/.test(lines[idx + 1])) {
+      const splitRow = (row: string) =>
+        row.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map((c) => c.trim());
+      const header = splitRow(line);
+      idx += 2;
+      const rows: string[][] = [];
+      while (idx < lines.length && lines[idx].trim().startsWith('|')) {
+        rows.push(splitRow(lines[idx]));
+        idx++;
+      }
+      elements.push(
+        <div key={`tbl-${idx}`} className="my-4 overflow-x-auto rounded-xl border border-stone-200">
+          <table className="w-full border-collapse text-left text-[13.5px]">
+            <thead className="bg-stone-100/80">
+              <tr>
+                {header.map((h, j) => (
+                  <th key={j} className="px-3 py-2 font-semibold text-slate-900">
+                    {renderInline(h, `th-${idx}-${j}`)}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((r, i) => (
+                <tr key={i} className="border-t border-stone-200/80">
+                  {r.map((c, j) => (
+                    <td key={j} className="px-3 py-2 align-top text-slate-700">
+                      {renderInline(c, `td-${idx}-${i}-${j}`)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+      continue;
+    }
+
     // Sub-heading ###
     if (line.trim().startsWith('### ')) {
       elements.push(
@@ -255,6 +306,7 @@ export function MarkdownArticle({
       !/^\s*[-*]\s+/.test(lines[idx]) &&
       !/^\s*\d+\.\s+/.test(lines[idx]) &&
       !lines[idx].trim().startsWith('>') &&
+      !lines[idx].trim().startsWith('|') &&
       !lines[idx].trim().startsWith('### ')
     ) {
       pLines.push(lines[idx].trim());

@@ -421,7 +421,7 @@ if (fs.existsSync(expertsDir)) {
   for (const file of fs.readdirSync(expertsDir).filter((f) => f.endsWith('.md'))) {
     const { frontmatter } = parseMarkdownFile(path.join(expertsDir, file));
     const consent = String(frontmatter.consent_to_be_named || 'ask-first').trim();
-    if (consent !== 'yes' && frontmatter.name) {
+    if (consent !== 'yes' && frontmatter.name && !/withheld/i.test(String(frontmatter.name))) {
       nameRedactions.push({ name: String(frontmatter.name), label: 'name withheld' });
     }
   }
@@ -885,6 +885,174 @@ const solutionsIndex = allSolutions.map(
   })
 );
 
+// 4. Phase 3 R&D proposals (PRP records) and recorded agent runs (RUN records).
+const proposalsDir = path.join(repoRoot, 'research', 'phase3-proposals');
+const runsDir = path.join(repoRoot, 'research', 'agent-runs');
+const publicProposalsDir = path.join(frontendRoot, 'public', 'data', 'proposals');
+const publicRunsDir = path.join(frontendRoot, 'public', 'data', 'runs');
+
+function resetDir(dir) {
+  fs.mkdirSync(dir, { recursive: true });
+  for (const existing of fs.readdirSync(dir)) {
+    if (existing.endsWith('.json')) fs.unlinkSync(path.join(dir, existing));
+  }
+}
+function citedIds(text, prefix) {
+  const re = new RegExp(`\\b${prefix}-[A-Z]+-\\d+\\b`, 'g');
+  return Array.from(new Set(String(text).match(re) || [])).sort();
+}
+const solutionById = new Map(allSolutions.map((s) => [s.id, s]));
+const solutionRef = (sid) => {
+  const s = solutionById.get(sid);
+  return s ? { id: sid, name: s.name, verdict: s.verdict, status: s.status } : { id: sid, name: '', verdict: '', status: '' };
+};
+
+const allProposals = [];
+const proposalFiles = fs.existsSync(proposalsDir)
+  ? fs.readdirSync(proposalsDir).filter((f) => /^PRP-.*\.md$/.test(f)).sort()
+  : [];
+for (const file of proposalFiles) {
+  const raw = fs.readFileSync(path.join(proposalsDir, file), 'utf8');
+  const { frontmatter: fm, body } = parseMarkdownFile(path.join(proposalsDir, file));
+  const status = asText(fm.status || 'draft');
+  if (status === 'refuted') continue;
+  const sections = parseSections(body);
+  const questionSec = sections.find((s) => s.heading.toLowerCase().includes('question'));
+  const options = asList(fm.options).map((o) => {
+    const scores = {};
+    for (const k of ['fixes_cause', 'speed', 'effect_10y', 'side_effects', 'cost_fairness', 'evidence']) {
+      const v = Number(o?.[k]);
+      scores[k] = Number.isFinite(v) ? v : null;
+    }
+    const computed = Object.values(scores).reduce((a, b) => a + (b || 0), 0);
+    return { name: asText(o?.name), scores, total: Number(o?.total) || computed, note: asText(o?.note) };
+  });
+  options.sort((a, b) => b.total - a.total);
+  const prp = {
+    id: asText(fm.id || file.replace(/\.md$/, '')),
+    slug: file.replace(/\.md$/, ''),
+    title: asText(fm.title),
+    status,
+    type: asText(fm.type),
+    caseName: asText(fm.case),
+    question: asText(fm.question),
+    sectors: asList(fm.sectors).map(String),
+    mainSector: laneOf(fm.id),
+    geography: asList(fm.geography).map(String),
+    addresses: asList(fm.addresses).map(String),
+    buildsOn: asList(fm.builds_on).map(String),
+    run: asText(fm.run),
+    hypothesis: asText(fm.hypothesis),
+    guardrails: asList(fm.guardrails).map((g) => ({ id: asText(g?.id), name: asText(g?.name), applied: asText(g?.applied) })),
+    options,
+    plan: asList(fm.plan).map((p) => ({
+      phase: asText(p?.phase),
+      action: asText(p?.action),
+      owner: asText(p?.owner),
+      measure: asText(p?.measure),
+    })),
+    dataNeeded: asList(fm.data_needed).map((d) => ({ item: asText(d?.item), holder: asText(d?.holder) })),
+    rescoreTriggers: asList(fm.rescore_triggers).map(String),
+    assumptions: asList(fm.assumptions).map(String),
+    validationPath: {
+      reviewer: asText(fm.validation_path?.reviewer),
+      pilot: asText(fm.validation_path?.pilot),
+      roughCost: asText(fm.validation_path?.rough_cost),
+    },
+    contributors: asList(fm.contributors).map(String),
+    author: asText(fm.author || 'TahaGHZ'),
+    excerpt: cleanExcerpt(asText(fm.hypothesis) || questionSec?.content || body, 220),
+    sections,
+  };
+  prp.image = pickSolutionImage({ name: `${prp.title} ${prp.caseName}`, slug: prp.slug, mainSector: prp.mainSector });
+  prp.citedSourceIds = Array.from(new Set([...asList(fm.sources).map(String), ...citedIds(raw, 'SRC')]))
+    .filter((s) => sourcesMap.has(s))
+    .sort();
+  allProposals.push(redactNames(prp));
+}
+
+const allRuns = [];
+const runFiles = fs.existsSync(runsDir) ? fs.readdirSync(runsDir).filter((f) => /^RUN-.*\.md$/.test(f)).sort() : [];
+const STEP_HEADING = /^##\s*\[(\d+)\]\s*(user|agent|tool)\b(.*)$/;
+for (const file of runFiles) {
+  const { frontmatter: fm, body } = parseMarkdownFile(path.join(runsDir, file));
+  const steps = [];
+  let current = null;
+  for (const line of body.split(/\r?\n/)) {
+    const m = line.match(STEP_HEADING);
+    if (m) {
+      if (current) steps.push(current);
+      const attrs = {};
+      for (const part of m[3].split('|')) {
+        const kv = part.match(/^\s*(\w+)\s*:\s*(.+?)\s*$/);
+        if (kv) attrs[kv[1].toLowerCase()] = kv[2];
+      }
+      current = {
+        n: Number(m[1]),
+        role: m[2],
+        mode: attrs.mode || (m[2] === 'user' ? '' : 'gateway'),
+        sector: attrs.sector || 'nexus',
+        action: attrs.action || '',
+        lines: [],
+      };
+    } else if (current) {
+      current.lines.push(line);
+    }
+  }
+  if (current) steps.push(current);
+  const run = {
+    id: asText(fm.id || file.replace(/\.md$/, '')),
+    slug: file.replace(/\.md$/, ''),
+    title: asText(fm.title),
+    status: asText(fm.status || 'simulated'),
+    simulatedNote: asText(fm.simulated_note),
+    askedBy: asText(fm.asked_by),
+    question: asText(fm.question),
+    date: asText(fm.date).slice(0, 10),
+    modes: asList(fm.modes).map(String),
+    sectors: asList(fm.sectors).map(String),
+    findingsUsed: asList(fm.findings_used).map(String),
+    solutionsUsed: asList(fm.solutions_used).map(String),
+    proposalsOut: asList(fm.proposals_out).map(String),
+    author: asText(fm.author || 'TahaGHZ'),
+    steps: steps.map(({ lines, ...s }) => ({ ...s, content: lines.join('\n').trim() })),
+  };
+  run.stepCount = run.steps.length;
+  run.citedSourceIds = Array.from(
+    new Set([...asList(fm.sources_used).map(String), ...citedIds(body, 'SRC')])
+  ).filter((s) => sourcesMap.has(s)).sort();
+  allRuns.push(redactNames(run));
+}
+
+resetDir(publicProposalsDir);
+for (const prp of allProposals) {
+  const payload = {
+    ...prp,
+    addressItems: prp.addresses.map(findingRef),
+    buildsOnItems: prp.buildsOn.map(solutionRef),
+    resolvedSources: prp.citedSourceIds.map((s) => sourcesMap.get(s)),
+  };
+  fs.writeFileSync(path.join(publicProposalsDir, `${prp.id}.json`), JSON.stringify(payload), 'utf8');
+}
+resetDir(publicRunsDir);
+for (const run of allRuns) {
+  const payload = {
+    ...run,
+    findingItems: run.findingsUsed.map(findingRef),
+    solutionItems: run.solutionsUsed.map(solutionRef),
+    resolvedSources: run.citedSourceIds.map((s) => sourcesMap.get(s)),
+  };
+  fs.writeFileSync(path.join(publicRunsDir, `${run.id}.json`), JSON.stringify(payload), 'utf8');
+}
+const proposalsIndex = allProposals.map(({ sections, guardrails, plan, dataNeeded, ...rest }) => ({
+  ...rest,
+  topOption: rest.options[0] || null,
+  optionCount: rest.options.length,
+  planStepCount: plan.length,
+  options: undefined,
+}));
+const runsIndex = allRuns.map(({ steps, ...rest }) => ({ ...rest }));
+
 // Write per-finding detail files
 for (const f of allFindings) {
   const citedSourceIds = collectCitedSourceIds(f);
@@ -947,6 +1115,8 @@ const indexPayload = {
     nexusCount,
     citedSources: citedSourceIdsAll.size,
     solutionCount: allSolutions.length,
+    proposalCount: allProposals.length,
+    runCount: allRuns.length,
     solutionDraftCount,
     verdictCounts,
   },
@@ -954,6 +1124,8 @@ const indexPayload = {
   themes: Array.from(themeSet).sort(),
   findings: findingsIndex,
   solutions: solutionsIndex,
+  proposals: proposalsIndex,
+  runs: runsIndex,
 };
 
 fs.writeFileSync(
@@ -963,5 +1135,5 @@ fs.writeFileSync(
 );
 
 console.log(
-  `[sync-research] Synced ${verifiedCount} verified findings (${inReviewCount} in-review, ${peerValidatedCount} validated; ${draftCount} drafts excluded), ${allSolutions.length} solution audits (${solutionDraftCount} draft) and ${sourcesMap.size} sources.`
+  `[sync-research] Synced ${verifiedCount} verified findings (${inReviewCount} in-review, ${peerValidatedCount} validated; ${draftCount} drafts excluded), ${allSolutions.length} solution audits (${solutionDraftCount} draft), ${allProposals.length} R&D proposals, ${allRuns.length} agent runs and ${sourcesMap.size} sources.`
 );

@@ -1,0 +1,374 @@
+import { useEffect, useMemo, useRef, useState } from 'react';
+import type { ReactNode } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import {
+  ArrowLeft,
+  Bot,
+  FastForward,
+  FlaskConical,
+  Info,
+  Pause,
+  Play,
+  RotateCcw,
+  SkipForward,
+  User,
+  Wrench,
+} from 'lucide-react';
+import { MarkdownArticle } from '../components/MarkdownArticle';
+import { PixelGolem } from '../components/PixelGolem';
+import type { GolemAnimation, GolemMode } from '../components/PixelGolem';
+import { SourceModal } from '../components/SourceModal';
+import type { ResearchIndex, RunDetail, RunStep, SourceRecord } from '../types/research';
+
+interface RunReplayPageProps {
+  indexData: ResearchIndex;
+}
+
+const MODE_META: Record<string, { label: string; className: string }> = {
+  gateway: { label: 'Gateway', className: 'bg-slate-100 text-slate-700 ring-slate-200' },
+  findings: { label: 'Findings', className: 'bg-emerald-50 text-emerald-800 ring-emerald-200' },
+  solutions: { label: 'Solutions', className: 'bg-amber-50 text-amber-900 ring-amber-200' },
+  rnd: { label: 'R&D', className: 'bg-sky-50 text-sky-800 ring-sky-200' },
+};
+
+const SECTOR_ANIMATION: Record<string, GolemAnimation> = {
+  water: 'rain',
+  energy: 'charge',
+  agriculture: 'bloom',
+};
+const NEXUS_MOVES: GolemAnimation[] = ['scan', 'wave', 'stomp'];
+
+/**
+ * The mascot follows the replay: it waves when the person speaks, scans while a tool runs,
+ * and while the agent writes it plays the move of the step's sector (rain for water, charge for
+ * energy, bloom for agriculture), or a random move for cross-sector steps. Paused or finished,
+ * it falls back to its own random idle moves.
+ */
+function golemFor(step: RunStep | undefined, active: boolean): { animation: GolemAnimation; mode: GolemMode } {
+  if (!step || !active) return { animation: 'auto', mode: 'nexus' };
+  const mode: GolemMode = (['water', 'energy', 'agriculture'] as string[]).includes(step.sector)
+    ? (step.sector as GolemMode)
+    : 'nexus';
+  if (step.role === 'user') return { animation: 'wave', mode: 'nexus' };
+  if (step.role === 'tool') return { animation: 'scan', mode };
+  return { animation: SECTOR_ANIMATION[step.sector] || NEXUS_MOVES[step.n % NEXUS_MOVES.length], mode };
+}
+
+const SPEEDS = [1, 2, 4];
+
+/** Replays one RUN record step by step, typing the agent's messages. */
+export function RunReplayPage({ indexData }: RunReplayPageProps) {
+  const { id } = useParams<{ id: string }>();
+  const [run, setRun] = useState<RunDetail | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [shown, setShown] = useState(0); // number of steps fully or partly visible
+  const [typed, setTyped] = useState(0); // characters typed in the last visible step
+  const [playing, setPlaying] = useState(true);
+  const [speed, setSpeed] = useState(2);
+  const [selectedSource, setSelectedSource] = useState<SourceRecord | null>(null);
+  const bottomRef = useRef<HTMLDivElement | null>(null);
+
+  const verifiedIds = useMemo(() => new Set(indexData.findings.map((f) => f.id)), [indexData.findings]);
+
+  useEffect(() => {
+    setRun(null);
+    setError(null);
+    setShown(0);
+    setTyped(0);
+    setPlaying(true);
+    if (!id || !/^RUN-[A-Z]+-\d+$/.test(id)) {
+      setError('Invalid run identifier.');
+      return;
+    }
+    let cancelled = false;
+    fetch(`./data/runs/${id}.json`)
+      .then((r) => {
+        if (!r.ok) throw new Error('Run not found.');
+        return r.json() as Promise<RunDetail>;
+      })
+      .then((r) => {
+        if (!cancelled) {
+          setRun(r);
+          setShown(1);
+        }
+      })
+      .catch((e: unknown) => !cancelled && setError(e instanceof Error ? e.message : 'Unable to load run.'));
+    return () => {
+      cancelled = true;
+    };
+  }, [id]);
+
+  const sourcesById = useMemo(() => {
+    const m = new Map<string, SourceRecord>();
+    for (const s of run?.resolvedSources || []) m.set(s.id, s);
+    return m;
+  }, [run]);
+
+  const total = run?.steps.length || 0;
+  const current = run && shown > 0 ? run.steps[shown - 1] : undefined;
+  const currentDone = !current || current.role !== 'agent' || typed >= current.content.length;
+  const finished = shown >= total && currentDone;
+
+  // Drive the replay: type agent messages, pause briefly on user and tool steps.
+  useEffect(() => {
+    if (!run || !playing || !current) return;
+    if (!currentDone) {
+      const t = window.setTimeout(() => setTyped((n) => Math.min(current.content.length, n + 6 * speed)), 16);
+      return () => window.clearTimeout(t);
+    }
+    if (shown >= total) return;
+    const pause = current.role === 'tool' ? 900 : current.role === 'user' ? 1100 : 700;
+    const t = window.setTimeout(() => {
+      setShown((n) => n + 1);
+      setTyped(0);
+    }, pause / speed);
+    return () => window.clearTimeout(t);
+  }, [run, playing, current, currentDone, shown, total, speed, typed]);
+
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  }, [shown, Math.floor(typed / 240)]);
+
+  if (error) {
+    return (
+      <div className="mx-auto max-w-3xl px-4 py-20 text-center text-sm text-stone-600">
+        {error}{' '}
+        <Link to="/runs" className="font-semibold text-sky-800">
+          Back to runs
+        </Link>
+      </div>
+    );
+  }
+  if (!run) return <div className="mx-auto h-96 max-w-5xl animate-pulse rounded-3xl bg-stone-200 px-4 py-16" />;
+
+  const golem = golemFor(current, playing && !finished);
+  const next = () => {
+    if (!currentDone && current) setTyped(current.content.length);
+    else if (shown < total) {
+      setShown((n) => n + 1);
+      setTyped(0);
+    }
+  };
+  const showAll = () => {
+    setShown(total);
+    setTyped(Number.MAX_SAFE_INTEGER);
+    setPlaying(false);
+  };
+  const restart = () => {
+    setShown(1);
+    setTyped(0);
+    setPlaying(true);
+  };
+
+  return (
+    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <Link to="/runs" className="inline-flex items-center gap-1.5 text-xs font-medium text-stone-500 hover:text-slate-900">
+        <ArrowLeft className="h-3.5 w-3.5" /> All agent runs
+      </Link>
+
+      <div className="mt-4 grid gap-8 lg:grid-cols-12">
+        {/* Mascot and controls */}
+        <aside className="lg:col-span-4">
+          <div className="space-y-4 lg:sticky lg:top-24">
+            <div className="rounded-3xl bg-[#0B1320] p-5 text-white">
+              <div className="flex justify-center">
+                <PixelGolem size={210} mode={golem.mode} animation={golem.animation} interactive />
+              </div>
+              <div className="mt-3 text-center font-mono text-xs text-slate-300">
+                {finished
+                  ? 'Run complete'
+                  : !playing
+                    ? 'Paused'
+                    : current?.role === 'user'
+                      ? 'Listening…'
+                      : current?.role === 'tool'
+                        ? `Running: ${current.action || 'tool'}…`
+                        : 'Writing…'}
+              </div>
+              {current && current.role !== 'user' && (
+                <div className="mt-2 flex justify-center gap-2">
+                  <span className={`rounded-full px-2 py-0.5 font-mono text-[10px] ring-1 ${MODE_META[current.mode]?.className || MODE_META.gateway.className}`}>
+                    {MODE_META[current.mode]?.label || current.mode}
+                  </span>
+                  <span className="rounded-full bg-white/10 px-2 py-0.5 font-mono text-[10px] text-slate-200">{current.sector}</span>
+                </div>
+              )}
+
+              <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-slate-700">
+                <div className="h-full bg-sky-400 transition-all" style={{ width: `${(shown / Math.max(total, 1)) * 100}%` }} />
+              </div>
+              <p className="mt-1 text-center font-mono text-[11px] text-slate-400">
+                Step {shown} of {total}
+              </p>
+
+              <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
+                <Ctrl onClick={() => setPlaying((p) => !p)} label={playing ? 'Pause' : 'Play'} disabled={finished}>
+                  {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
+                </Ctrl>
+                <Ctrl onClick={next} label="Next step" disabled={finished}>
+                  <SkipForward className="h-4 w-4" />
+                </Ctrl>
+                <Ctrl onClick={showAll} label="Show all" disabled={finished}>
+                  <FastForward className="h-4 w-4" />
+                </Ctrl>
+                <Ctrl onClick={restart} label="Restart">
+                  <RotateCcw className="h-4 w-4" />
+                </Ctrl>
+                <button
+                  type="button"
+                  onClick={() => setSpeed(SPEEDS[(SPEEDS.indexOf(speed) + 1) % SPEEDS.length])}
+                  className="rounded-lg bg-white/10 px-2.5 py-1.5 font-mono text-xs text-white hover:bg-white/20"
+                  title="Replay speed"
+                >
+                  {speed}×
+                </button>
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-stone-200 bg-white p-5 text-sm shadow-xs">
+              <p className="font-mono text-[11px] font-semibold uppercase tracking-wider text-stone-500">{run.id}</p>
+              <h1 className="mt-1 font-display text-lg font-bold leading-snug text-slate-950">{run.title}</h1>
+              <p className="mt-1 text-xs text-stone-500">
+                Asked by {run.askedBy} · {run.date}
+              </p>
+              {run.status === 'simulated' && (
+                <p className="mt-3 flex gap-2 rounded-xl border border-sky-200 bg-sky-50 p-3 text-xs leading-relaxed text-sky-900">
+                  <Info className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+                  <span>
+                    <strong>Simulated run.</strong> {run.simulatedNote}
+                  </span>
+                </p>
+              )}
+              {run.proposalsOut.length > 0 && (
+                <div className="mt-4 space-y-2">
+                  {run.proposalsOut.map((p) => (
+                    <Link
+                      key={p}
+                      to={`/rnd/${p}`}
+                      className="flex items-center gap-2 rounded-xl bg-slate-950 px-3 py-2.5 text-xs font-semibold text-white hover:bg-slate-800"
+                    >
+                      <FlaskConical className="h-4 w-4 text-emerald-300" /> R&amp;D result: {p}
+                    </Link>
+                  ))}
+                </div>
+              )}
+              <div className="mt-4 grid grid-cols-3 gap-2 text-center">
+                <Stat n={run.findingsUsed.length} label="findings" />
+                <Stat n={run.solutionsUsed.length} label="audits" />
+                <Stat n={run.citedSourceIds.length} label="sources" />
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        {/* Transcript */}
+        <div className="space-y-4 lg:col-span-8">
+          {run.steps.slice(0, shown).map((step, i) => {
+            const isLast = i === shown - 1;
+            const partial = isLast && step.role === 'agent' && typed < step.content.length;
+            const text = partial ? step.content.slice(0, typed) : step.content;
+            const mode = MODE_META[step.mode] || MODE_META.gateway;
+
+            if (step.role === 'user') {
+              return (
+                <div key={step.n} className="flex justify-end">
+                  <div className="max-w-[85%] rounded-2xl rounded-br-sm bg-slate-900 px-4 py-3 text-sm leading-relaxed text-white">
+                    <p className="mb-1 flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-wider text-slate-400">
+                      <User className="h-3 w-3" /> {run.askedBy}
+                    </p>
+                    <p className="whitespace-pre-wrap">{step.content}</p>
+                  </div>
+                </div>
+              );
+            }
+
+            if (step.role === 'tool') {
+              return (
+                <div key={step.n} className="rounded-2xl border border-dashed border-stone-300 bg-stone-50/80 px-4 py-3">
+                  <p className="flex flex-wrap items-center gap-2 font-mono text-[11px] text-stone-600">
+                    <Wrench className="h-3.5 w-3.5" />
+                    <span className="font-semibold text-slate-800">{step.action || 'tool'}</span>
+                    <span className={`rounded-full px-2 py-0.5 ring-1 ${mode.className}`}>{mode.label}</span>
+                    <span className="text-stone-400">{step.sector}</span>
+                  </p>
+                  <div className="mt-1 text-[13px] [&_p]:my-1.5 [&_p]:text-[13.5px]">
+                    <MarkdownArticle
+                      content={step.content}
+                      sourcesById={sourcesById}
+                      verifiedFindingIds={verifiedIds}
+                      onSelectSource={setSelectedSource}
+                    />
+                  </div>
+                </div>
+              );
+            }
+
+            return (
+              <div key={step.n} className="flex gap-3">
+                <div className="mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#0B1320] text-emerald-300">
+                  <Bot className="h-4 w-4" />
+                </div>
+                <div className="min-w-0 flex-1 rounded-2xl rounded-tl-sm border border-stone-200 bg-white px-4 py-3 shadow-xs">
+                  <p className="mb-1 flex items-center gap-2 font-mono text-[10px] uppercase tracking-wider text-stone-500">
+                    Nexus agent
+                    <span className={`rounded-full px-2 py-0.5 normal-case ring-1 ${mode.className}`}>{mode.label}</span>
+                  </p>
+                  {partial ? (
+                    <p className="whitespace-pre-wrap text-[15px] leading-relaxed text-slate-700">
+                      {text}
+                      <span className="ml-0.5 inline-block h-4 w-1.5 animate-pulse bg-emerald-500 align-middle" />
+                    </p>
+                  ) : (
+                    <MarkdownArticle
+                      content={text}
+                      sourcesById={sourcesById}
+                      verifiedFindingIds={verifiedIds}
+                      onSelectSource={setSelectedSource}
+                    />
+                  )}
+                </div>
+              </div>
+            );
+          })}
+          <div ref={bottomRef} />
+        </div>
+      </div>
+
+      <SourceModal source={selectedSource} onClose={() => setSelectedSource(null)} />
+    </div>
+  );
+}
+
+function Ctrl({
+  onClick,
+  label,
+  disabled,
+  children,
+}: {
+  onClick: () => void;
+  label: string;
+  disabled?: boolean;
+  children: ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={disabled}
+      title={label}
+      aria-label={label}
+      className="rounded-lg bg-white/10 p-2 text-white transition hover:bg-white/20 disabled:opacity-40"
+    >
+      {children}
+    </button>
+  );
+}
+
+function Stat({ n, label }: { n: number; label: string }) {
+  return (
+    <div className="rounded-xl bg-stone-50 py-2">
+      <div className="font-display text-lg font-bold text-slate-900">{n}</div>
+      <div className="text-[10px] text-stone-500">{label}</div>
+    </div>
+  );
+}

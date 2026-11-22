@@ -10,7 +10,7 @@ both the pitch content and the blueprint for the coded engine later.
 |---|---|---|---|
 | 1. Findings | What are the real problems (past, current, predicted), backed by data? | `FND` records + `SRC` records | `research/phase1-findings/`, `research/sources/` |
 | 2. Validation | Do existing solutions (products, laws, programmes, practices) solve the root cause? What are their limits, blockers, criticisms and side effects? | `SOL` records | `research/phase2-solutions/` |
-| 3. R&D | What gap is left, and what improvement, combination or new path could fill it? Who should test it? | `PRP` records | `research/phase3-proposals/` |
+| 3. R&D | What gap is left, and which options (improve, combine, new, transfer) could fill it? Score them against 7 guardrails, turn the best into a phased plan, name who should test it. | `PRP` records | `research/phase3-proposals/` |
 
 ## Rule 1: check the phase lock
 
@@ -77,3 +77,8 @@ People who contribute research are recorded in `research/experts/` from the temp
 unpublished material is confidential: summarise only what they agreed to share, and record
 any link between them and a solution we evaluate under `conflict_of_interest`. Solutions from
 our own contacts get the same audit as everything else.
+
+## R&D method
+
+Phase 3 follows `docs/rnd-method.md`: the 7 guardrails, the scoring on six criteria and the
+phased plan. Read it before writing a `PRP` record.
