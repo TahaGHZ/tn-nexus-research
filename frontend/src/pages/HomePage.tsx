@@ -8,6 +8,7 @@ import {
   CircleHelp,
   Droplets,
   FlaskConical,
+  Github,
   GraduationCap,
   Landmark,
   ListOrdered,
@@ -24,7 +25,7 @@ import {
   Zap,
 } from 'lucide-react';
 import { GOLEM_ANIMATIONS, PixelGolem, type GolemAnimation, type GolemMode } from '../components/PixelGolem';
-import { EvidenceDashboard } from '../components/EvidenceDashboard';
+import { GITHUB_URL } from '../config';
 import { InvestigationGraph } from '../components/InvestigationGraph';
 import type { ProposalDetail, ResearchIndex } from '../types/research';
 
@@ -646,10 +647,7 @@ export function HomePage({ data }: HomePageProps) {
         </div>
       </section>
 
-      {/* 10. THE EVIDENCE BEHIND IT */}
-      <EvidenceDashboard data={data} />
-
-      {/* 11. CONCLUSION */}
+      {/* 10. CONCLUSION AND CALL TO CONTRIBUTE */}
       <section className="bg-[#0B1320] py-16 text-white">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <Droplets className="mx-auto h-8 w-8 text-sky-300" />
@@ -673,6 +671,39 @@ export function HomePage({ data }: HomePageProps) {
             >
               <FlaskConical className="h-4 w-4" /> R&amp;D proposals
             </Link>
+          </div>
+
+          {/* Call to contribute */}
+          <div className="mt-12 rounded-3xl border border-emerald-500/30 bg-emerald-500/10 p-6 text-left sm:p-8">
+            <p className="font-mono text-xs font-semibold uppercase tracking-widest text-emerald-300">
+              Your turn
+            </p>
+            <h2 className="mt-2 font-display text-2xl font-bold">Every case makes the next one easier. Add yours.</h2>
+            <div className="mt-5 grid gap-3 sm:grid-cols-3">
+              {[
+                { icon: GraduationCap, who: 'Researchers', what: 'Check a finding, add a source, challenge a score.' },
+                { icon: Users, who: 'Citizens', what: 'Report a cut, a dry well or a failing programme near you.' },
+                { icon: Landmark, who: 'Companies & decision makers', what: 'Bring a solution to audit, or a case to solve.' },
+              ].map((c) => (
+                <div key={c.who} className="rounded-2xl bg-slate-900/70 p-4">
+                  <c.icon className="h-5 w-5 text-emerald-300" />
+                  <p className="mt-2 text-sm font-semibold">{c.who}</p>
+                  <p className="mt-1 text-sm leading-relaxed text-slate-300">{c.what}</p>
+                </div>
+              ))}
+            </div>
+            <div className="mt-6 flex flex-wrap items-center gap-3">
+              <a
+                href={GITHUB_URL || undefined}
+                target={GITHUB_URL ? '_blank' : undefined}
+                rel="noopener noreferrer"
+                title={GITHUB_URL ? undefined : 'Repository link coming soon'}
+                className="inline-flex items-center gap-2 rounded-xl bg-emerald-400 px-6 py-3.5 text-sm font-semibold text-slate-950 transition hover:bg-emerald-300"
+              >
+                <Github className="h-4 w-4" /> Contribute on GitHub
+              </a>
+              <span className="text-xs text-slate-400">Open source · Free · and always will be</span>
+            </div>
           </div>
         </div>
       </section>

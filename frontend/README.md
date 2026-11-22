@@ -56,7 +56,7 @@ The site uses hash routing (`/#/...`) so it works from any static host or a file
 
 | Route | Page | Shows |
 |---|---|---|
-| `/` | `HomePage` | Landing page: the general problem and the platform, the 2026 numbers with sources, the failure chain, why single fixes move the problem, the three strengths, how it works, the Kerker case study as a highlight, voices from the field, and the evidence dashboard |
+| `/` | `HomePage` | Landing page: the general problem and the platform, the 2026 numbers with sources, the failure chain, why single fixes move the problem, the three strengths, how it works, the Kerker case study as a highlight, and voices from the field, ending with a call to contribute |
 | `/blog` | `BlogPage` | Published findings; filters in the URL (`?q=`, `?sector=`, `?timeframe=`) |
 | `/blog/:id` | `FindingDetailPage` | One finding: indicators, root causes, sections, sources, audited solutions |
 | `/solutions` | `SolutionsPage` | Phase 2 audits; filter by verdict and lane |
@@ -76,6 +76,7 @@ The site uses hash routing (`/#/...`) so it works from any static host or a file
 | `vite.config.ts` | Vite with React and Tailwind plugins; relative `base` for static hosting; CORS origins and allowed hosts for the ngrok tunnel |
 | `tsconfig.json` | TypeScript settings for `src/` |
 | `index.html` | Page shell, fonts and meta description |
+| `src/config.ts` | Site settings: `GITHUB_URL`, used by the navbar icon and the landing page's Contribute button |
 | `.gitignore` | Ignores `node_modules/`, `dist/`, Vite cache and `*.tsbuildinfo` |
 
 ### Data pipeline
@@ -102,7 +103,7 @@ Do not edit generated files by hand; change the records in `research/` and re-ru
 
 | File | Purpose |
 |---|---|
-| `HomePage.tsx` | The landing page: general hook and platform pitch, numbers, chain, moving fixes, three strengths, how it works (five steps, each linking to its section), the Kerker case study highlight (loads the PRP-TG-400 scorecard), voices from the field, why a platform, evidence dashboard, conclusion. Every figure shows its source id |
+| `HomePage.tsx` | The landing page: general hook and platform pitch, numbers, chain, moving fixes, three strengths, how it works (five steps, each linking to its section), the Kerker case study highlight (loads the PRP-TG-400 scorecard), voices from the field, why a platform, and the conclusion with a call to contribute. Every figure shows its source id |
 | `BlogPage.tsx` | Searchable, filterable grid of published findings |
 | `FindingDetailPage.tsx` | Full finding: indicators, projection, root causes, Markdown sections with clickable citations, source list, related findings, and the solution audits that target it |
 | `SolutionsPage.tsx` | Phase 2 overview: verdict counts with their meaning, a draft warning, filters and the grid of audits |
@@ -116,11 +117,10 @@ Do not edit generated files by hand; change the records in `research/` and re-ru
 
 | File | Purpose |
 |---|---|
-| `Navbar.tsx` | Sticky header with links to overview, findings, solution audits, R&D and agent runs, a GitHub icon (set `GITHUB_URL` at the top of the file once the repository is public), plus a mobile menu |
+| `Navbar.tsx` | Sticky header with links to overview, findings, solution audits, R&D and agent runs, a GitHub icon (its link is `GITHUB_URL` in `src/config.ts`), plus a mobile menu |
 | `Footer.tsx` | Sector and module links with live counts |
 | `FindingCard.tsx` | Card for one finding in the blog grid |
 | `SolutionCard.tsx` | Card for one solution audit: verdict, status, compact score bars, source tier mix |
-| `EvidenceDashboard.tsx` | Charts of the published evidence: trust classes, source tiers, and findings by sector, severity, timeframe and trend |
 | `MarkdownArticle.tsx` | Safe Markdown renderer (no raw HTML): paragraphs, lists, quotes, `###` headings and pipe tables. Turns `SRC-…` ids into source buttons and `FND-…`, `SOL-…`, `PRP-…` and `RUN-…` ids into links |
 | `SourceModal.tsx` | Drawer showing one source: tier, publisher, extracts and notes, with a link out when a public URL exists |
 | `ResearchFormatting.tsx` | Shared labels and colours for sectors, severity, timeframe, confidence, trend, status, trust and source tiers, plus `TierMixBar` and formatting helpers |

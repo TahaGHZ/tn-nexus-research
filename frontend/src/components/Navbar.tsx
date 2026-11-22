@@ -2,9 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { Bot, BookOpen, Compass, FlaskConical, Github, Menu, Scale, X } from 'lucide-react';
 import { useState } from 'react';
 import { PixelGolem } from './PixelGolem';
-
-// Set to the public repository URL once it is published; until then the icon links nowhere.
-const GITHUB_URL = '';
+import { GITHUB_URL } from '../config';
 
 function GithubLink({ className = '' }: { className?: string }) {
   return (
