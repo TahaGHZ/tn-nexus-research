@@ -7,6 +7,7 @@ import {
   FastForward,
   FlaskConical,
   Info,
+  List,
   Pause,
   Play,
   RotateCcw,
@@ -65,6 +66,8 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
   const [typed, setTyped] = useState(0); // characters typed in the last visible step
   const [playing, setPlaying] = useState(true);
   const [speed, setSpeed] = useState(2);
+  // 'step': steps appear one by one and agent messages stream in; 'full': the whole conversation at once.
+  const [view, setView] = useState<'step' | 'full'>('step');
   const [selectedSource, setSelectedSource] = useState<SourceRecord | null>(null);
   const bottomRef = useRef<HTMLDivElement | null>(null);
 
@@ -125,9 +128,10 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
     return () => window.clearTimeout(t);
   }, [run, playing, current, currentDone, shown, total, speed, typed]);
 
+  // Follow the replay in step mode; the full view keeps the reader where they are.
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
-  }, [shown, Math.floor(typed / 240)]);
+    if (view === 'step') bottomRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  }, [shown, Math.floor(typed / 240), view]);
 
   if (error) {
     return (
@@ -159,6 +163,12 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
     setTyped(0);
     setPlaying(true);
   };
+  const switchView = (v: 'step' | 'full') => {
+    setView(v);
+    if (v === 'full') showAll();
+    else restart();
+  };
+  const isFull = view === 'full';
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
@@ -175,7 +185,9 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
                 <PixelGolem size={210} mode={golem.mode} animation={golem.animation} interactive />
               </div>
               <div className="mt-3 text-center font-mono text-xs text-slate-300">
-                {finished
+                {isFull
+                  ? 'Full conversation'
+                  : finished
                   ? 'Run complete'
                   : !playing
                     ? 'Paused'
@@ -194,6 +206,8 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
                 </div>
               )}
 
+              {!isFull && (
+              <>
               <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-slate-700">
                 <div className="h-full bg-sky-400 transition-all" style={{ width: `${(shown / Math.max(total, 1)) * 100}%` }} />
               </div>
@@ -223,6 +237,8 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
                   {speed}×
                 </button>
               </div>
+              </>
+              )}
             </div>
 
             <div className="rounded-2xl border border-stone-200 bg-white p-5 text-sm shadow-xs">
@@ -263,6 +279,31 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
 
         {/* Transcript */}
         <div className="space-y-4 lg:col-span-8">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="inline-flex rounded-xl border border-stone-200 bg-white p-1 shadow-xs" role="tablist">
+              {(
+                [
+                  { id: 'step', label: 'Step by step', icon: Play },
+                  { id: 'full', label: 'Full conversation', icon: List },
+                ] as const
+              ).map((opt) => (
+                <button
+                  key={opt.id}
+                  type="button"
+                  role="tab"
+                  aria-selected={view === opt.id}
+                  onClick={() => switchView(opt.id)}
+                  className={`inline-flex items-center gap-1.5 rounded-lg px-3.5 py-1.5 text-sm font-medium transition ${
+                    view === opt.id ? 'bg-slate-950 text-white' : 'text-slate-700 hover:bg-stone-100'
+                  }`}
+                >
+                  <opt.icon className="h-3.5 w-3.5" />
+                  {opt.label}
+                </button>
+              ))}
+            </div>
+            <span className="font-mono text-xs text-stone-500">{total} steps</span>
+          </div>
           {run.steps.slice(0, shown).map((step, i) => {
             const isLast = i === shown - 1;
             const partial = isLast && step.role === 'agent' && typed < step.content.length;

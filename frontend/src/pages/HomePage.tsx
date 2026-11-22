@@ -120,31 +120,37 @@ const GUARDRAILS = [
   'Humans decide',
 ];
 
-const KERKER_STEPS: Array<{ icon: typeof Zap; title: string; text: string }> = [
+// How the platform works on any case.
+const HOW_STEPS: Array<{ icon: typeof Zap; title: string; text: string; to: string }> = [
   {
     icon: ShieldCheck,
     title: 'Collect and rate',
-    text: 'SONEDE notices, STEG statements, official statistics, research and citizen reports, each with a trust rating.',
+    text: 'Official statistics, research, press and citizen reports, each source rated for trust.',
+    to: '/blog',
   },
   {
     icon: Timer,
-    title: 'Rebuild the timeline',
-    text: 'First surprise: both cuts began outside the 13h–17h air-conditioning peak. More plants alone may not have saved those taps.',
+    title: 'Find the real problem',
+    text: 'Rebuild what happened, separate causes from coincidences, and show contested numbers as contested.',
+    to: '/blog',
   },
   {
-    icon: Network,
-    title: 'Map the factors',
-    text: 'The real weak point: one station feeding two governorates, with no protected power and no water buffer.',
+    icon: Scale,
+    title: 'Audit what exists',
+    text: 'Check every existing product, law and programme against the root cause, and its side effects.',
+    to: '/solutions',
   },
   {
     icon: ListOrdered,
     title: 'Score the options',
-    text: 'Eight options against the guardrails. Diesel and unlimited solar pumps come last: they move the problem.',
+    text: 'Score each option against seven guardrails, today and over ten years, and turn the best into a phased plan.',
+    to: '/rnd',
   },
   {
     icon: CircleHelp,
     title: 'Say what it does not know',
-    text: 'And who holds that data: SONEDE, STEG, farmers. Researchers refine the plan before decision makers see it.',
+    text: 'Name the missing data and who holds it. Researchers refine the plan; decision makers decide.',
+    to: '/runs',
   },
 ];
 
@@ -188,23 +194,20 @@ export function HomePage({ data }: HomePageProps) {
         <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="grid items-center gap-10 lg:grid-cols-12">
             <div className="lg:col-span-6">
-              <p className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-3.5 py-1.5 font-mono text-xs font-semibold text-white">
-                <span className="h-2 w-2 animate-pulse rounded-full bg-sky-400" />
-                24 August 2026, 10:00
+              <p className="inline-flex items-center gap-2 rounded-full border border-emerald-300 bg-emerald-50 px-3.5 py-1.5 text-xs font-medium text-emerald-800">
+                <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-500" />
+                Water · Energy · Agriculture in Tunisia
               </p>
               <h1 className="mt-6 font-display text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl lg:text-[3.2rem] lg:leading-[1.08]">
-                Nobody in El Jem turned off their tap.
-                <span className="block text-sky-700">A power cut did it for them.</span>
+                When the grid fails, the taps and the farms fail with it.
+                <span className="block text-emerald-700">Nexus finds the fixes that hold.</span>
               </h1>
               <p className="mt-5 max-w-xl text-base leading-relaxed text-stone-600 sm:text-lg">
-                A cut at the Kerker pumping station left parts of Mahdia and Sfax without water from
-                10:00 to 20:00. A month earlier, the same station: from Sunday 22:00 to Monday
-                afternoon.{' '}
-                <span className="font-mono text-xs text-stone-500">SRC-TG-685 · SRC-TG-686</span>
-              </p>
-              <p className="mt-4 max-w-xl text-base font-semibold text-slate-900 sm:text-lg">
-                Every fix tried so far pushed the problem somewhere else. So we asked: how do you solve a
-                problem that keeps moving?
+                Tunisia’s water, energy and farms are one system. Every fix tried so far has pushed the
+                problem somewhere else. <strong className="font-semibold text-slate-900">Nexus</strong> is
+                an open platform that researches solutions like a research team, faster and cheaper: verified
+                data, an AI analyst bound by an economist’s rules, and researchers, companies, decision makers
+                and citizens working on the same case.
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -213,7 +216,7 @@ export function HomePage({ data }: HomePageProps) {
                   className="inline-flex items-center gap-2 rounded-xl bg-slate-950 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-slate-800"
                 >
                   <PlayCircle className="h-4 w-4" />
-                  Watch the agent solve Kerker
+                  See it in action
                   <ArrowRight className="h-4 w-4" />
                 </Link>
                 <Link
@@ -295,11 +298,10 @@ export function HomePage({ data }: HomePageProps) {
               cite="SRC-TG-228"
             />
             <Stat
-              value="10 h"
-              label="Without water in Mahdia and Sfax on 24 August, after one power cut at Kerker."
-              note="The same station had stopped a month earlier, from Sunday night to Monday afternoon."
-              cite="SRC-TG-685 · SRC-TG-686"
-              link={`/rnd/${KERKER_PRP}`}
+              value="361"
+              label="Unannounced drinking-water cuts and disruptions in August 2026 alone."
+              note="Counted by the Observatoire tunisien de l’eau. SONEDE’s pumping stations depend on the same grid."
+              cite="SRC-TG-690"
             />
             <div className="rounded-2xl border border-slate-700 bg-slate-900/70 p-5">
               <p className="font-display text-3xl font-bold text-amber-300">68%</p>
@@ -432,86 +434,135 @@ export function HomePage({ data }: HomePageProps) {
         </div>
       </section>
 
-      {/* 6. KERKER INSIDE THE APP */}
+      {/* 6. HOW IT WORKS */}
       <section className="bg-[#0B1320] py-16 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="font-mono text-xs font-semibold uppercase tracking-widest text-emerald-300">Inside the app</p>
-          <h2 className="mt-2 font-display text-2xl font-bold sm:text-3xl">We ran Kerker through it</h2>
-
+          <p className="font-mono text-xs font-semibold uppercase tracking-widest text-emerald-300">How it works</p>
+          <h2 className="mt-2 font-display text-2xl font-bold sm:text-3xl">From a question to a plan people can act on</h2>
+          <p className="mt-3 max-w-3xl text-base leading-relaxed text-slate-300">
+            Anyone can bring a case: a cut, a drying aquifer, a failing programme. The gateway agent runs it
+            through the same steps, using the findings, audits and R&amp;D method in this repository.
+          </p>
           <div className="mt-8 grid gap-3 md:grid-cols-5">
-            {KERKER_STEPS.map((s, i) => (
-              <div key={s.title} className="rounded-2xl border border-slate-700 bg-slate-900/70 p-4">
+            {HOW_STEPS.map((s, i) => (
+              <Link
+                key={s.title}
+                to={s.to}
+                className="rounded-2xl border border-slate-700 bg-slate-900/70 p-4 transition hover:border-emerald-400"
+              >
                 <div className="flex items-center gap-2">
                   <span className="font-mono text-xs text-slate-400">0{i + 1}</span>
                   <s.icon className="h-4 w-4 text-emerald-300" />
                 </div>
                 <p className="mt-2 font-semibold">{s.title}</p>
                 <p className="mt-1 text-sm leading-relaxed text-slate-300">{s.text}</p>
-              </div>
+              </Link>
             ))}
           </div>
-
-          {options.length > 0 && (
-            <div className="mt-8 grid gap-6 lg:grid-cols-12">
-              <div className="rounded-2xl border border-slate-700 bg-slate-900/70 p-5 lg:col-span-7">
-                <p className="font-mono text-xs font-semibold uppercase tracking-wider text-slate-400">
-                  The scorecard · {options.length} options, out of 30
-                </p>
-                <ul className="mt-4 space-y-2.5">
-                  {options.map((o, i) => (
-                    <li key={o.name}>
-                      <div className="flex items-center justify-between gap-3 text-sm">
-                        <span className={i === 0 ? 'font-semibold text-white' : 'text-slate-300'}>{o.name}</span>
-                        <span className="font-mono text-xs text-slate-300">{o.total}</span>
-                      </div>
-                      <div className="mt-1 h-1.5 rounded-full bg-slate-800">
-                        <div
-                          className={`h-full rounded-full ${i === 0 ? 'bg-emerald-400' : i >= options.length - 2 ? 'bg-rose-400' : 'bg-sky-400'}`}
-                          style={{ width: `${(o.total / 30) * 100}%` }}
-                        />
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="flex flex-col justify-between rounded-2xl border border-emerald-500/40 bg-emerald-500/10 p-5 lg:col-span-5">
-                <div>
-                  <p className="font-mono text-xs font-semibold uppercase tracking-wider text-emerald-300">
-                    First, at almost no cost
-                  </p>
-                  <ul className="mt-3 space-y-2 text-sm text-slate-100">
-                    {firstPhase.map((s) => (
-                      <li key={s.action} className="flex gap-2">
-                        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-400" />
-                        {s.action}
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="mt-4 text-xs leading-relaxed text-slate-400">
-                    Scores are a first assessment for SONEDE, STEG and our experts to challenge.
-                  </p>
-                </div>
-                <div className="mt-5 flex flex-wrap gap-2">
-                  <Link
-                    to={`/runs/${KERKER_RUN}`}
-                    className="inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2.5 text-sm font-semibold text-slate-950 hover:bg-stone-100"
-                  >
-                    <PlayCircle className="h-4 w-4" /> Replay the run
-                  </Link>
-                  <Link
-                    to={`/rnd/${KERKER_PRP}`}
-                    className="inline-flex items-center gap-2 rounded-xl border border-slate-500 px-4 py-2.5 text-sm font-semibold text-white hover:border-white"
-                  >
-                    <FlaskConical className="h-4 w-4" /> Full R&amp;D plan
-                  </Link>
-                </div>
-              </div>
-            </div>
-          )}
         </div>
       </section>
 
-      {/* 7. VOICES FROM THE FIELD */}
+      {/* 7. CASE STUDY HIGHLIGHT: the system in action */}
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="overflow-hidden rounded-3xl border border-stone-200 bg-white shadow-sm">
+          <div className="grid lg:grid-cols-12">
+            <div className="p-6 sm:p-8 lg:col-span-5">
+              <p className="inline-flex items-center gap-2 rounded-full bg-sky-50 px-3 py-1 font-mono text-[11px] font-semibold uppercase tracking-wider text-sky-800 ring-1 ring-sky-200">
+                <Sparkles className="h-3.5 w-3.5" />
+                Case study · the system in action
+              </p>
+              <h2 className="mt-4 font-display text-2xl font-bold text-slate-950 sm:text-3xl">
+                Kerker: two power cuts, two governorates without water
+              </h2>
+              <p className="mt-3 text-sm leading-relaxed text-stone-600">
+                In July and August 2026, power cuts stopped the Kerker pumping station and left parts of
+                Mahdia and Sfax without water for ten hours or more{' '}
+                <span className="font-mono text-[11px] text-stone-500">(SRC-TG-685, SRC-TG-686)</span>. A
+                councillor asked the gateway agent why, and what to do before next summer.
+              </p>
+              <ul className="mt-5 space-y-2.5 text-sm text-slate-700">
+                <li className="flex gap-2">
+                  <Timer className="mt-0.5 h-4 w-4 shrink-0 text-sky-700" />
+                  Both cuts began outside the afternoon air-conditioning peak: more power plants alone may not
+                  have saved those taps.
+                </li>
+                <li className="flex gap-2">
+                  <Network className="mt-0.5 h-4 w-4 shrink-0 text-sky-700" />
+                  The weak point is local: one station with no protected power and no water buffer.
+                </li>
+                <li className="flex gap-2">
+                  <CircleHelp className="mt-0.5 h-4 w-4 shrink-0 text-sky-700" />
+                  It names what it does not know, starting with the cause of each cut, and who holds the data.
+                </li>
+              </ul>
+              <div className="mt-6 flex flex-wrap gap-2">
+                <Link
+                  to={`/runs/${KERKER_RUN}`}
+                  className="inline-flex items-center gap-2 rounded-xl bg-slate-950 px-4 py-2.5 text-sm font-semibold text-white hover:bg-slate-800"
+                >
+                  <PlayCircle className="h-4 w-4" /> Replay the agent run
+                </Link>
+                <Link
+                  to={`/rnd/${KERKER_PRP}`}
+                  className="inline-flex items-center gap-2 rounded-xl border border-stone-300 px-4 py-2.5 text-sm font-semibold text-slate-800 hover:border-stone-500"
+                >
+                  <FlaskConical className="h-4 w-4" /> Read the R&amp;D plan
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-[#0B1320] p-6 text-white sm:p-8 lg:col-span-7">
+              {options.length > 0 ? (
+                <>
+                  <p className="font-mono text-xs font-semibold uppercase tracking-wider text-slate-400">
+                    {options.length} options scored against the guardrails · out of 30
+                  </p>
+                  <ul className="mt-4 space-y-2.5">
+                    {options.map((o, i) => (
+                      <li key={o.name}>
+                        <div className="flex items-center justify-between gap-3 text-sm">
+                          <span className={i === 0 ? 'font-semibold text-white' : 'text-slate-300'}>{o.name}</span>
+                          <span className="font-mono text-xs text-slate-300">{o.total}</span>
+                        </div>
+                        <div className="mt-1 h-1.5 rounded-full bg-slate-800">
+                          <div
+                            className={`h-full rounded-full ${
+                              i === 0 ? 'bg-emerald-400' : i >= options.length - 2 ? 'bg-rose-400' : 'bg-sky-400'
+                            }`}
+                            style={{ width: `${(o.total / 30) * 100}%` }}
+                          />
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                  {firstPhase.length > 0 && (
+                    <div className="mt-6 rounded-2xl border border-emerald-500/40 bg-emerald-500/10 p-4">
+                      <p className="font-mono text-[11px] font-semibold uppercase tracking-wider text-emerald-300">
+                        First step, at almost no cost
+                      </p>
+                      <ul className="mt-2 space-y-1.5 text-sm text-slate-100">
+                        {firstPhase.map((s) => (
+                          <li key={s.action} className="flex gap-2">
+                            <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-400" />
+                            {s.action}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  <p className="mt-4 text-xs text-slate-400">
+                    Scores are a first assessment for SONEDE, STEG and our experts to challenge.
+                  </p>
+                </>
+              ) : (
+                <p className="text-sm text-slate-300">Loading the scorecard…</p>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 8. VOICES FROM THE FIELD */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionTitle
           kicker="Voices from the field"
@@ -543,7 +594,7 @@ export function HomePage({ data }: HomePageProps) {
         </p>
       </section>
 
-      {/* 8. WHY THIS KIND OF SOLUTION */}
+      {/* 9. WHY THIS KIND OF SOLUTION */}
       <section className="border-y border-stone-200 bg-[#F3EFE7] py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionTitle kicker="Why a platform" title="We could have built one more app. We chose not to." />
@@ -579,15 +630,15 @@ export function HomePage({ data }: HomePageProps) {
         </div>
       </section>
 
-      {/* 9. THE EVIDENCE BEHIND IT */}
+      {/* 10. THE EVIDENCE BEHIND IT */}
       <EvidenceDashboard data={data} />
 
-      {/* 10. CONCLUSION */}
+      {/* 11. CONCLUSION */}
       <section className="bg-[#0B1320] py-16 text-white">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <Droplets className="mx-auto h-8 w-8 text-sky-300" />
           <p className="mt-4 font-display text-2xl font-bold leading-snug sm:text-3xl">
-            Kerker was ten hours without water. Next summer, it will be another station, another town.
+            Next summer will be hotter. It will be another station, another town, another aquifer.
           </p>
           <p className="mt-4 text-base leading-relaxed text-slate-300 sm:text-lg">
             We don’t bring one more fix. We bring a way to find the right fix, every time: verified data, an
@@ -598,7 +649,7 @@ export function HomePage({ data }: HomePageProps) {
               to={`/runs/${KERKER_RUN}`}
               className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3.5 text-sm font-semibold text-slate-950 hover:bg-stone-100"
             >
-              <PlayCircle className="h-4 w-4" /> Watch the Kerker run
+              <PlayCircle className="h-4 w-4" /> See it in action
             </Link>
             <Link
               to="/rnd"

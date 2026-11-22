@@ -56,7 +56,7 @@ The site uses hash routing (`/#/...`) so it works from any static host or a file
 
 | Route | Page | Shows |
 |---|---|---|
-| `/` | `HomePage` | Landing page: the Kerker hook, the 2026 numbers with sources, the failure chain, why single fixes move the problem, the platform's three strengths, the Kerker case with its live scorecard, voices from the field, and the evidence dashboard |
+| `/` | `HomePage` | Landing page: the general problem and the platform, the 2026 numbers with sources, the failure chain, why single fixes move the problem, the three strengths, how it works, the Kerker case study as a highlight, voices from the field, and the evidence dashboard |
 | `/blog` | `BlogPage` | Published findings; filters in the URL (`?q=`, `?sector=`, `?timeframe=`) |
 | `/blog/:id` | `FindingDetailPage` | One finding: indicators, root causes, sections, sources, audited solutions |
 | `/solutions` | `SolutionsPage` | Phase 2 audits; filter by verdict and lane |
@@ -64,7 +64,7 @@ The site uses hash routing (`/#/...`) so it works from any static host or a file
 | `/rnd` | `ProposalsPage` | Phase 3 R&D proposals |
 | `/rnd/:id` | `ProposalDetailPage` | One proposal: question, hypothesis, scored options, phased plan, guardrails, data still needed, re-score triggers |
 | `/runs` | `RunsPage` | Recorded agent runs |
-| `/runs/:id` | `RunReplayPage` | Step-by-step replay of one run, with the mascot reacting to each step |
+| `/runs/:id` | `RunReplayPage` | One run, either step by step with streaming text or as the full conversation, with the mascot reacting to each step |
 
 ## Files
 
@@ -102,7 +102,7 @@ Do not edit generated files by hand; change the records in `research/` and re-ru
 
 | File | Purpose |
 |---|---|
-| `HomePage.tsx` | The landing page, following the pitch: hook, numbers, chain, moving fixes, three strengths, Kerker inside the app (loads the PRP-TG-400 scorecard), voices from the field, why a platform, evidence dashboard, conclusion. Every figure shows its source id |
+| `HomePage.tsx` | The landing page: general hook and platform pitch, numbers, chain, moving fixes, three strengths, how it works (five steps, each linking to its section), the Kerker case study highlight (loads the PRP-TG-400 scorecard), voices from the field, why a platform, evidence dashboard, conclusion. Every figure shows its source id |
 | `BlogPage.tsx` | Searchable, filterable grid of published findings |
 | `FindingDetailPage.tsx` | Full finding: indicators, projection, root causes, Markdown sections with clickable citations, source list, related findings, and the solution audits that target it |
 | `SolutionsPage.tsx` | Phase 2 overview: verdict counts with their meaning, a draft warning, filters and the grid of audits |
@@ -110,7 +110,7 @@ Do not edit generated files by hand; change the records in `research/` and re-ru
 | `ProposalsPage.tsx` | Grid of R&D proposals with their top-scored option |
 | `ProposalDetailPage.tsx` | Full proposal: the question and hypothesis, the options table coloured by score, the plan in now / next / later / always columns, how each guardrail was applied, the Markdown narrative, data still needed, re-score triggers, how to test it, linked findings, audits, run and sources |
 | `RunsPage.tsx` | List of agent runs |
-| `RunReplayPage.tsx` | Replays a run: user messages appear, tool steps pause, agent messages type out, then render as Markdown with record links. Controls for play/pause, next step, show all, restart and speed. The mascot waves when the person speaks, scans while a tool runs, and while the agent writes plays the move for the step's sector (rain for water, charge for energy, bloom for agriculture, a random move for cross-sector steps); paused or finished, it plays random idle moves |
+| `RunReplayPage.tsx` | Two views, switched at the top: **Step by step** replays the run (user messages appear, tool steps pause, agent messages type out, then render as Markdown with record links. with controls for play/pause, next step, show all, restart and speed); **Full conversation** shows every step at once, rendered, with no animation. The mascot waves when the person speaks, scans while a tool runs, and while the agent writes plays the move for the step's sector (rain for water, charge for energy, bloom for agriculture, a random move for cross-sector steps); paused or finished, it plays random idle moves |
 
 ### Components (`src/components/`)
 
