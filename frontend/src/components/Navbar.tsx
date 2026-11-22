@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
-import { Bot, BookOpen, Compass, FlaskConical, Layers, Menu, Scale, X } from 'lucide-react';
+import { Bot, BookOpen, Compass, FlaskConical, Menu, Scale, X } from 'lucide-react';
 import { useState } from 'react';
 import { PixelGolem } from './PixelGolem';
 
@@ -63,23 +63,7 @@ export function Navbar({ verifiedCount, solutionCount }: NavbarProps) {
             <Bot className="h-4 w-4" />
             Agent Runs
           </NavLink>
-          <NavLink to="/modules" className={navLinkClass}>
-            <Layers className="h-4 w-4" />
-            Modules
-            <span className="rounded-full bg-sky-100 px-1.5 py-0.5 font-mono text-[10px] font-medium text-sky-800">
-              Roadmap
-            </span>
-          </NavLink>
         </nav>
-
-        <div className="hidden items-center gap-3 xl:flex">
-          <Link
-            to="/blog"
-            className="inline-flex items-center gap-2 rounded-lg bg-slate-950 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-800"
-          >
-            Read Findings
-          </Link>
-        </div>
 
         {/* Mobile menu button */}
         <button
@@ -115,10 +99,6 @@ export function Navbar({ verifiedCount, solutionCount }: NavbarProps) {
             <NavLink to="/runs" className={navLinkClass} onClick={() => setMobileOpen(false)}>
               <Bot className="h-4 w-4" />
               Agent Runs
-            </NavLink>
-            <NavLink to="/modules" className={navLinkClass} onClick={() => setMobileOpen(false)}>
-              <Layers className="h-4 w-4" />
-              Platform Modules
             </NavLink>
           </div>
         </div>

@@ -56,7 +56,7 @@ The site uses hash routing (`/#/...`) so it works from any static host or a file
 
 | Route | Page | Shows |
 |---|---|---|
-| `/` | `HomePage` | Overview, phase states from `PHASES.md`, evidence dashboard, featured findings |
+| `/` | `HomePage` | Landing page: the Kerker hook, the 2026 numbers with sources, the failure chain, why single fixes move the problem, the platform's three strengths, the Kerker case with its live scorecard, voices from the field, and the evidence dashboard |
 | `/blog` | `BlogPage` | Published findings; filters in the URL (`?q=`, `?sector=`, `?timeframe=`) |
 | `/blog/:id` | `FindingDetailPage` | One finding: indicators, root causes, sections, sources, audited solutions |
 | `/solutions` | `SolutionsPage` | Phase 2 audits; filter by verdict and lane |
@@ -65,7 +65,6 @@ The site uses hash routing (`/#/...`) so it works from any static host or a file
 | `/rnd/:id` | `ProposalDetailPage` | One proposal: question, hypothesis, scored options, phased plan, guardrails, data still needed, re-score triggers |
 | `/runs` | `RunsPage` | Recorded agent runs |
 | `/runs/:id` | `RunReplayPage` | Step-by-step replay of one run, with the mascot reacting to each step |
-| `/modules` | `ModulesPage` | Platform modules and their status, from `src/modules/registry.ts` |
 
 ## Files
 
@@ -98,13 +97,12 @@ Do not edit generated files by hand; change the records in `research/` and re-ru
 | `src/App.tsx` | Loads the research index, renders the navbar and footer, and declares the routes |
 | `src/index.css` | Tailwind import, font families and base styles |
 | `src/types/research.ts` | TypeScript types for every JSON shape the sync writes: findings, sources, solutions, stats |
-| `src/modules/registry.ts` | The list of platform modules (live, upcoming or locked) shown on the home and modules pages. Add a module here and wire its route in `App.tsx` |
 
 ### Pages (`src/pages/`)
 
 | File | Purpose |
 |---|---|
-| `HomePage.tsx` | Landing page: headline stats, the three phases and their lock state, evidence dashboard, featured findings, module teaser |
+| `HomePage.tsx` | The landing page, following the pitch: hook, numbers, chain, moving fixes, three strengths, Kerker inside the app (loads the PRP-TG-400 scorecard), voices from the field, why a platform, evidence dashboard, conclusion. Every figure shows its source id |
 | `BlogPage.tsx` | Searchable, filterable grid of published findings |
 | `FindingDetailPage.tsx` | Full finding: indicators, projection, root causes, Markdown sections with clickable citations, source list, related findings, and the solution audits that target it |
 | `SolutionsPage.tsx` | Phase 2 overview: verdict counts with their meaning, a draft warning, filters and the grid of audits |
@@ -113,13 +111,12 @@ Do not edit generated files by hand; change the records in `research/` and re-ru
 | `ProposalDetailPage.tsx` | Full proposal: the question and hypothesis, the options table coloured by score, the plan in now / next / later / always columns, how each guardrail was applied, the Markdown narrative, data still needed, re-score triggers, how to test it, linked findings, audits, run and sources |
 | `RunsPage.tsx` | List of agent runs |
 | `RunReplayPage.tsx` | Replays a run: user messages appear, tool steps pause, agent messages type out, then render as Markdown with record links. Controls for play/pause, next step, show all, restart and speed. The mascot waves when the person speaks, scans while a tool runs, and while the agent writes plays the move for the step's sector (rain for water, charge for energy, bloom for agriculture, a random move for cross-sector steps); paused or finished, it plays random idle moves |
-| `ModulesPage.tsx` | Module cards from the registry, with launch links for live modules |
 
 ### Components (`src/components/`)
 
 | File | Purpose |
 |---|---|
-| `Navbar.tsx` | Sticky header with links to overview, findings, solution audits and modules, plus a mobile menu |
+| `Navbar.tsx` | Sticky header with links to overview, findings, solution audits, R&D and agent runs, plus a mobile menu |
 | `Footer.tsx` | Sector and module links with live counts |
 | `FindingCard.tsx` | Card for one finding in the blog grid |
 | `SolutionCard.tsx` | Card for one solution audit: verdict, status, compact score bars, source tier mix |
@@ -138,4 +135,4 @@ Follow the pattern of solutions, proposals and runs:
    add a summary array to the index.
 2. Add the types to `src/types/research.ts`.
 3. Add a list page and a detail page, and their routes in `src/App.tsx`.
-4. Add the module to `src/modules/registry.ts`, and a link in the navbar and footer.
+4. Add a link in the navbar and footer, and a section on the landing page if it belongs in the pitch.

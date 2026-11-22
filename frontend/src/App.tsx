@@ -6,7 +6,6 @@ import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
 import { BlogPage } from './pages/BlogPage';
 import { FindingDetailPage } from './pages/FindingDetailPage';
-import { ModulesPage } from './pages/ModulesPage';
 import { SolutionsPage } from './pages/SolutionsPage';
 import { SolutionDetailPage } from './pages/SolutionDetailPage';
 import { ProposalsPage } from './pages/ProposalsPage';
@@ -41,7 +40,6 @@ export function App() {
             <Route path="/rnd/:id" element={<ProposalDetailPage indexData={researchIndex} />} />
             <Route path="/runs" element={<RunsPage data={researchIndex} />} />
             <Route path="/runs/:id" element={<RunReplayPage indexData={researchIndex} />} />
-            <Route path="/modules" element={<ModulesPage data={researchIndex} />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>

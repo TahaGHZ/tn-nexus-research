@@ -71,27 +71,19 @@ export function Footer({ stats }: FooterProps) {
 
           <div className="md:col-span-4">
             <h3 className="font-mono text-xs font-semibold uppercase tracking-wider text-slate-400">
-              Platform Modules
+              Platform
             </h3>
             <ul className="mt-3 space-y-2.5 text-sm">
               <li>
                 <Link to="/blog" className="text-slate-300 transition hover:text-white">
-                  Phase 1: Verified Findings Blog{' '}
+                  Phase 1: Verified Findings{' '}
                   <span className="ml-1 rounded bg-emerald-500/20 px-1.5 py-0.5 font-mono text-[10px] text-emerald-300">
-                    LIVE
+                    {stats.verifiedFindings}
                   </span>
                 </Link>
               </li>
               <li>
-                <Link to="/modules" className="text-slate-400 transition hover:text-white">
-                  Trusted Vendors &amp; Products{' '}
-                  <span className="ml-1 rounded bg-amber-500/15 px-1.5 py-0.5 font-mono text-[10px] text-amber-300">
-                    NEXT
-                  </span>
-                </Link>
-              </li>
-              <li>
-<Link to="/solutions" className="text-slate-300 transition hover:text-white">
+                <Link to="/solutions" className="text-slate-300 transition hover:text-white">
                   Phase 2: Solution Audits{' '}
                   <span className="ml-1 rounded bg-amber-500/15 px-1.5 py-0.5 font-mono text-[10px] text-amber-300">
                     {stats.solutionCount}
@@ -99,7 +91,7 @@ export function Footer({ stats }: FooterProps) {
                 </Link>
               </li>
               <li>
-<Link to="/rnd" className="text-slate-300 transition hover:text-white">
+                <Link to="/rnd" className="text-slate-300 transition hover:text-white">
                   Phase 3: R&amp;D Proposals{' '}
                   <span className="ml-1 rounded bg-emerald-500/20 px-1.5 py-0.5 font-mono text-[10px] text-emerald-300">
                     {stats.proposalCount}
