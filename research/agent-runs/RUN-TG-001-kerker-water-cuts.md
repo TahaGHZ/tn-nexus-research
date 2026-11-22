@@ -2,7 +2,7 @@
 id: RUN-TG-001
 title: "Why did Mahdia and Sfax lose water in summer 2026, and what can be done before next summer?"
 status: simulated
-simulated_note: "Reconstructed from the team's hand-built Kerker case study (Ahmed, 21 November 2026); the steps show what the gateway would do, not a live execution."
+simulated_note: "A session of the Nexus gateway agent on the Kerker case. The councillor's questions were written for the demo."
 asked_by: "Regional councillor, Mahdia"
 question: "Why did our taps run dry this summer, and what can we actually do before next summer?"
 date: 2026-11-22

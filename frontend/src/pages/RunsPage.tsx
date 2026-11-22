@@ -50,7 +50,7 @@ export function RunsPage({ data }: RunsPageProps) {
               <div className="flex items-center justify-between gap-2">
                 <span className="font-mono text-xs font-semibold text-sky-800">{r.id}</span>
                 <span className="rounded-full bg-sky-50 px-2.5 py-0.5 font-mono text-[10px] font-semibold uppercase text-sky-800 ring-1 ring-sky-200">
-                  {r.status}
+                  {r.status === 'simulated' ? 'replay' : r.status}
                 </span>
               </div>
               <h3 className="mt-3 font-display text-lg font-bold leading-snug text-slate-950 group-hover:text-sky-800">

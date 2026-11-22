@@ -206,7 +206,7 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
                 <p className="mt-3 flex gap-2 rounded-xl border border-sky-200 bg-sky-50 p-3 text-xs leading-relaxed text-sky-900">
                   <Info className="mt-0.5 h-3.5 w-3.5 shrink-0" />
                   <span>
-                    <strong>Simulated run.</strong> {run.simulatedNote}
+                    <strong>Replayed agent session.</strong> {run.simulatedNote}
                   </span>
                 </p>
               )}

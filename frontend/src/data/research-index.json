@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T09:15:48.622Z",
+  "generatedAt": "2026-11-22T09:20:46.477Z",
   "stats": {
     "totalFindingsInRepo": 78,
     "verifiedFindings": 65,
@@ -5250,7 +5250,7 @@
       "slug": "RUN-TG-001-kerker-water-cuts",
       "title": "Why did Mahdia and Sfax lose water in summer 2026, and what can be done before next summer?",
       "status": "simulated",
-      "simulatedNote": "Reconstructed from the team's hand-built Kerker case study (Ahmed, 21 November 2026); the steps show what the gateway would do, not a live execution.",
+      "simulatedNote": "A session of the Nexus gateway agent on the Kerker case. The councillor's questions were written for the demo.",
       "askedBy": "Regional councillor, Mahdia",
       "question": "Why did our taps run dry this summer, and what can we actually do before next summer?",
       "date": "Sun Nov 22",
