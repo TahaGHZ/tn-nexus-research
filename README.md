@@ -111,7 +111,7 @@ frontend/                 the website
 
 ## People
 
-- **Team:** Taha Ghazouani (TahaGHZ), Ahmed (Kerker case study).
+- **Team:** Taha Ghazouani (TahaGHZ), Ahmed Guesmi.
 - **Voices from the field:** Maher Mahmoudi (STC, energy and air conditioning); an engineer at
   Sastra Solar Energy; an environmental economist who reviewed the guardrails (name withheld
   at his request); a hydraulics engineer and former Regional Commissioner for Agricultural
