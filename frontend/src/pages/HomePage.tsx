@@ -563,7 +563,7 @@ export function HomePage({ data }: HomePageProps) {
         <div className="mt-8 grid gap-5 md:grid-cols-2">
           <Voice
             icon={Zap}
-            role="Engineer at a solar panel company"
+            role="Engineer at Sastra Solar Energy"
             points={[
               'Rooftop solar connected to the grid shuts down when the grid does.',
               'Every project hits the same walls: connection delays, taxes and financing.',
