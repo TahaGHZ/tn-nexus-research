@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T00:21:18.096Z",
+  "generatedAt": "2026-11-22T00:26:28.764Z",
   "stats": {
     "totalFindingsInRepo": 78,
     "verifiedFindings": 65,
@@ -4320,7 +4320,7 @@
         "impact shifted elsewhere: the cap defers cooling load out of 13:00-17:00 rather than removing it, and the sources give no measure of what happens after the capped hours"
       ],
       "gapLeft": "The residential split-AC stock (47.9% of households own an AC, 1,681,000 units in 2019, as reported by STEG via LBNL) and the evening peak; the cause of the growing AC stock; how much cooling demand is avoidable through building envelope, shading and standards rather than equipment.",
-      "conflictOfInterest": "Proposed by EXP-TG-001 (name withheld), a technical sales engineer at STC, which sells Daikin and Hisense HVAC in Tunisia and would profit from adoption. The proposal's savings figures are assumed values, not measurements. Audited here with the same method as any other solution; the audit did not use STC data beyond the proposal itself.",
+      "conflictOfInterest": "Proposed by EXP-TG-001 (Maher Mahmoudi), a technical sales engineer at STC, which sells Daikin and Hisense HVAC in Tunisia and would profit from adoption. The proposal's savings figures are assumed values, not measurements. Audited here with the same method as any other solution; the audit did not use STC data beyond the proposal itself.",
       "sources": [
         "SRC-TG-234",
         "SRC-TG-250",
@@ -4530,7 +4530,7 @@
         "impact shifted elsewhere: the product is a flood-attenuation tool presented here as a water-supply and recharge answer; no source gives a yield, and the infiltration option moves road and roof pollutants towards groundwater (SRC-TG-643)"
       ],
       "gapLeft": "Both targets, regional supply capacity and network losses behind the 2023 rationing (FND-TG-451) and the groundwater overdraft of 865 Mm3 a year (FND-TG-410), stay untouched. Urban flooding itself, the problem this product best fits, has no finding yet.",
-      "conflictOfInterest": "Proposed by expert EXP-TG-001 (name withheld), a Technical Sales Engineer at STC, the exclusive Tunisian distributor of ACO (SRC-TG-341). STC would profit from sales of StormBrixx. His proposal is treated as vendor material (tier C); the checks below use sources that do not come from STC or ACO, apart from the manufacturer datasheet used for product specifications only.",
+      "conflictOfInterest": "Proposed by expert EXP-TG-001 (Maher Mahmoudi), a Technical Sales Engineer at STC, the exclusive Tunisian distributor of ACO (SRC-TG-341). STC would profit from sales of StormBrixx. His proposal is treated as vendor material (tier C); the checks below use sources that do not come from STC or ACO, apart from the manufacturer datasheet used for product specifications only.",
       "sources": [
         "SRC-TG-341",
         "SRC-TG-640",

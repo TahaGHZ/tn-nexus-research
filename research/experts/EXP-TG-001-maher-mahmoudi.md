@@ -4,7 +4,7 @@ name: Maher Mahmoudi
 affiliation: Société Tunisienne de Chauffage (STC), Technical Sales Engineer (recently joined)
 domain: [energy, water, buildings-cooling, hydrogen]
 contact_via: TahaGHZ
-consent_to_be_named: ask-first
+consent_to_be_named: yes
 conflict_of_interest: Employed by STC, the exclusive Tunisian distributor of Daikin, Hisense HVAC, ACO, Chaffoteaux, Ariston and Delabie. The two solutions he proposed (Daikin VRV / Hisense VRF and ACO StormBrixx) are products STC sells, so SOL-TG-100 and SOL-TG-400 are audited as company-proposed solutions.
 ---
 
@@ -33,5 +33,6 @@ water); not yet shared.
 
 ## What we sent them, and their response
 
-Nothing sent yet. Planned: send SOL-TG-100 and SOL-TG-400 for his comments once audited, and
-ask whether he agrees to be named in the pitch.
+- He sent the team his use-case document (SRC-TG-341) himself and discussed it with Taha in a
+  phone call. He agreed to be named (consent confirmed to Taha, 22 November 2026).
+- Planned: send SOL-TG-100 and SOL-TG-400 for his comments.
