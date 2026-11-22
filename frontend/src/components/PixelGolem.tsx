@@ -71,11 +71,11 @@ const MAX_PARTICLES = 90;
 const PARTICLE_RGB: Record<ParticleKind, string> = {
   green: '52, 211, 153',
   blue: '56, 189, 248',
-  spark: '240, 253, 250',
-  dust: '148, 163, 184',
-  drop: '56, 189, 248',
-  splash: '186, 230, 253',
-  yellow: '254, 240, 138',
+  spark: '245, 158, 11',
+  dust: '120, 134, 156',
+  drop: '14, 165, 233',
+  splash: '2, 132, 199',
+  yellow: '245, 158, 11',
 };
 
 // Color legend for our 36x36 articulated pixel-art Golem
@@ -579,12 +579,12 @@ export function PixelGolem({
         }
         for (const path of boltsRef.current.paths) {
           for (let i = 0; i < path.length - 1; i++) {
-            plotLine(ctx, path[i][0], path[i][1], path[i + 1][0], path[i + 1][1], scale, '#FDE047');
+            plotLine(ctx, path[i][0], path[i][1], path[i + 1][0], path[i + 1][1], scale, '#F59E0B');
           }
         }
         for (const path of boltsRef.current.paths) {
           for (let i = 0; i < path.length - 1; i += 2) {
-            px(ctx, path[i + 1][0], path[i + 1][1], scale, '#FFFFFF');
+            px(ctx, path[i + 1][0], path[i + 1][1], scale, '#FDE68A');
           }
         }
         if (frame % 6 === 0) {
@@ -616,7 +616,7 @@ export function PixelGolem({
           px(ctx, 18, 3 + crownY, scale, leaf);
         }
         if (stage >= 5) {
-          const petal = '#F9FAFB';
+          const petal = '#F472B6';
           px(ctx, 16, 1 + crownY, scale, petal);
           px(ctx, 18, 1 + crownY, scale, petal);
           px(ctx, 17, 0 + crownY, scale, petal);
@@ -666,7 +666,7 @@ export function PixelGolem({
           });
         }
         const ripple = Math.floor(a * 3) % 3;
-        ctx.fillStyle = 'rgba(125, 211, 252, 0.45)';
+        ctx.fillStyle = 'rgba(14, 165, 233, 0.4)';
         ctx.fillRect((11 - ripple) * scale, 33 * scale, (14 + ripple * 2) * scale, scale);
       }
 

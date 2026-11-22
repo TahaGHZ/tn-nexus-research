@@ -97,6 +97,7 @@ export interface FindingSummary {
   trust: TrustLevel;
   trustReasons: string[];
   dataGapCount: number;
+  related: string[];
   topIndicator: Indicator | null;
   stakeholders: string[];
   hasProjection: boolean;
