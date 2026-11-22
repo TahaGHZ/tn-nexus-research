@@ -5,8 +5,9 @@ crisis, like a research team, but faster and cheaper.**
 
 Open source · Free · and always will be.
 
-- **Live site:** https://tn-nexus-research.vercel.app/
-- **Demo film (45 s):** https://claude.ai/artifact/2anDhHaFKFWno9KptTcAJW
+**Live site:** https://tn-nexus-research.vercel.app/
+
+![Nexus TN demo](docs/demo.gif)
 
 ## Why
 
