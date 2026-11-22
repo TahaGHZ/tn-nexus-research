@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-21T19:06:50.223Z",
+  "generatedAt": "2026-11-22T00:21:18.096Z",
   "stats": {
     "totalFindingsInRepo": 78,
     "verifiedFindings": 65,
     "inReviewFindings": 65,
     "peerValidatedFindings": 0,
     "draftFindings": 13,
-    "totalSources": 331,
+    "totalSources": 358,
     "sourceTiers": {
-      "A": 133,
-      "B": 123,
-      "C": 75
+      "A": 142,
+      "B": 134,
+      "C": 82
     },
     "sectorCounts": {
       "water": 18,
@@ -50,7 +50,16 @@
     "totalDataGaps": 445,
     "projectionCount": 16,
     "nexusCount": 34,
-    "citedSources": 277
+    "citedSources": 277,
+    "solutionCount": 7,
+    "solutionDraftCount": 7,
+    "verdictCounts": {
+      "solves": 0,
+      "partially-solves": 3,
+      "superficial": 3,
+      "counterproductive": 1,
+      "unverifiable": 0
+    }
   },
   "phases": [
     {
@@ -61,7 +70,7 @@
     {
       "number": 2,
       "name": "Validation",
-      "state": "LOCKED"
+      "state": "UNLOCKED"
     },
     {
       "number": 3,
@@ -4278,6 +4287,527 @@
         "credit": "Quang Nguyen Vinh / Pexels"
       },
       "author": "TahaGHZ"
+    }
+  ],
+  "solutions": [
+    {
+      "id": "SOL-TG-100",
+      "slug": "SOL-TG-100-vrv-vrf-central-ac-demand-limiting",
+      "name": "VRV/VRF central air conditioning with zone control, scheduling and peak demand limiting (Daikin VRV, Hisense VRF), proposed by STC",
+      "status": "draft",
+      "type": "product",
+      "owner": "Daikin and Hisense (manufacturers); proposed for Tunisia by Société Tunisienne de Chauffage (STC), their exclusive Tunisian distributor",
+      "mainSector": "energy",
+      "targets": [
+        "FND-TG-220",
+        "FND-TG-250",
+        "FND-TG-251"
+      ],
+      "creates": [],
+      "statusInTunisia": "proposed",
+      "verdict": "superficial",
+      "scores": {
+        "root_cause_coverage": 1,
+        "evidence_quality": 1,
+        "adoption": 0,
+        "side_effects": 2,
+        "cost_accessibility": 0
+      },
+      "scoreTotal": 4,
+      "scoreMax": 15,
+      "greenwashingFlags": [
+        "unverifiable claim: the demand-limiting capability and the 40-80% cap are attributed to a Daikin guide we did not open; no installed Tunisian case or measured saving is given",
+        "impact shifted elsewhere: the cap defers cooling load out of 13:00-17:00 rather than removing it, and the sources give no measure of what happens after the capped hours"
+      ],
+      "gapLeft": "The residential split-AC stock (47.9% of households own an AC, 1,681,000 units in 2019, as reported by STEG via LBNL) and the evening peak; the cause of the growing AC stock; how much cooling demand is avoidable through building envelope, shading and standards rather than equipment.",
+      "conflictOfInterest": "Proposed by EXP-TG-001 (name withheld), a technical sales engineer at STC, which sells Daikin and Hisense HVAC in Tunisia and would profit from adoption. The proposal's savings figures are assumed values, not measurements. Audited here with the same method as any other solution; the audit did not use STC data beyond the proposal itself.",
+      "sources": [
+        "SRC-TG-234",
+        "SRC-TG-250",
+        "SRC-TG-251",
+        "SRC-TG-341",
+        "SRC-TG-350",
+        "SRC-TG-351",
+        "SRC-TG-352"
+      ],
+      "author": "TahaGHZ",
+      "outstanding": "(1) The Daikin DTA104A61/62 adaptor guide and the 40-80% cap. (2) The ANME/STEG 2024 study behind \"~50% residential\" (not found; ask ANME/STEG). (3) An independent field or simulation study of VRF against efficient inverter splits, and a Tunisian price and payback. (4) The number of VRV/VRF buildings in Tunisia and their share of commercial AC. (5) Refrigerant safety rules (ASHRAE 15, ISO 5149 R-32) from the standard texts and any Tunisian regulation; VRV technician training in Tunisia. (6) Share of ordinary Tunisian AC sales that are already inverter units. (7) Evening load effect of the cap.",
+      "excerpt": "A central air-conditioning system where one outdoor unit serves several indoor units through a refrigerant pipe network (VRV is Daikin's name, VRF the generic term; Hisense sells a lower-cost VRF line). Each room has…",
+      "readTimeMinutes": 6,
+      "image": {
+        "url": "https://images.pexels.com/photos/16928001/pexels-photo-16928001.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "High-voltage electricity transmission tower",
+        "credit": "Necip Duman / Pexels"
+      },
+      "citedSourceIds": [
+        "SRC-TG-234",
+        "SRC-TG-250",
+        "SRC-TG-251",
+        "SRC-TG-341",
+        "SRC-TG-350",
+        "SRC-TG-351",
+        "SRC-TG-352"
+      ],
+      "tierMix": {
+        "A": 0,
+        "B": 6,
+        "C": 1
+      },
+      "claimCount": 5,
+      "blockerCount": 5,
+      "criticismCount": 4,
+      "tradeOffCount": 4
+    },
+    {
+      "id": "SOL-TG-110",
+      "slug": "SOL-TG-110-solar-pv-irrigation-pumping-subsidies",
+      "name": "Subsidised solar photovoltaic pumping for irrigation (FTE via ANME, FTI via APIA)",
+      "status": "draft",
+      "type": "programme",
+      "owner": "ANME (Fonds de Transition Énergétique, FTE) and APIA (Fonds Tunisien de l'Investissement, FTI), under the Ministry of Energy and the Ministry of Agriculture (MARHP); CRDAs check well authorisation",
+      "mainSector": "energy",
+      "targets": [
+        "FND-TG-400",
+        "FND-TG-401",
+        "FND-TG-410",
+        "FND-TG-625"
+      ],
+      "creates": [
+        "FND-TG-400",
+        "FND-TG-625"
+      ],
+      "statusInTunisia": "deployed",
+      "verdict": "counterproductive",
+      "scores": {
+        "root_cause_coverage": 0,
+        "evidence_quality": 2,
+        "adoption": 2,
+        "side_effects": 0,
+        "cost_accessibility": 1
+      },
+      "scoreTotal": 5,
+      "scoreMax": 15,
+      "greenwashingFlags": [
+        "impact shifted elsewhere: the energy and climate benefit is claimed while the cost falls on aquifers; the ministry's own national water report says the subsidy works against water conservation (SRC-TG-402)"
+      ],
+      "gapLeft": "The overdraft itself: cap on abstraction volume, enforcement against unauthorised boreholes, and a legal regime for shallow wells. Also unsolved: measurable pumped volumes per well and a registry linking each solar system to a permit.",
+      "conflictOfInterest": "none identified. The owner agencies (ANME, APIA) are not linked to team members or to expert EXP-TG-001 (STC) in the sources opened. The source authors (GIZ, FAO, GFA) ran the programme studies and recommended reforms; they promote solar irrigation, not criticise it.",
+      "sources": [
+        "SRC-TG-360",
+        "SRC-TG-361",
+        "SRC-TG-362",
+        "SRC-TG-532",
+        "SRC-TG-402",
+        "SRC-TG-406",
+        "SRC-TG-503",
+        "SRC-TG-631",
+        "SRC-TG-632"
+      ],
+      "author": "TahaGHZ",
+      "outstanding": "open the 2017 decree on FTE and FTI solar pumping and the CRDA specification (cahier des charges) to confirm the rates, the flow cap and the meter rule as currently in force; add the two RNE 2017 extracts on solar pumping to SRC-TG-402 (FND-TG-625 data_gaps) and confirm the page numbers; open Closas and Rap (2017, Energy Policy) and the Science forum itself for the international rebound evidence on India and Morocco; find an ANME or APIA count of subsidised systems after 2017 and any national register of solar pumps; check whether the 2017 reform and the 2023 ANME installer list changed practice; look for any before and after metered study in Tunisia.",
+      "excerpt": "Two public funds pay part of the cost of solar photovoltaic pumping systems (SPIS) on farms. The Fonds de Transition Énergétique (FTE), run by ANME, started a premium in 2009 at 40% of cost, capped at 20,000 DT. In 2017…",
+      "readTimeMinutes": 8,
+      "image": {
+        "url": "https://images.pexels.com/photos/11678439/pexels-photo-11678439.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Irrigation canal supplying agricultural fields",
+        "credit": "Mark Stebnicki / Pexels"
+      },
+      "citedSourceIds": [
+        "SRC-TG-360",
+        "SRC-TG-361",
+        "SRC-TG-362",
+        "SRC-TG-402",
+        "SRC-TG-406",
+        "SRC-TG-503",
+        "SRC-TG-532",
+        "SRC-TG-631",
+        "SRC-TG-632"
+      ],
+      "tierMix": {
+        "A": 3,
+        "B": 5,
+        "C": 1
+      },
+      "claimCount": 5,
+      "blockerCount": 5,
+      "criticismCount": 5,
+      "tradeOffCount": 4
+    },
+    {
+      "id": "SOL-TG-120",
+      "slug": "SOL-TG-120-decree-law-2022-68-renewables-land",
+      "name": "Decree-law 2022-68 (19 Oct 2022): faster public and private projects, with renewables allowed on farmland without a change of use",
+      "status": "draft",
+      "type": "law-regulation",
+      "owner": "Presidency of the Republic (decree-law); applied by the Ministries of Industry/Energy, Agriculture and Equipment, and the Tunisian Investment Authority",
+      "mainSector": "energy",
+      "targets": [
+        "FND-TG-191",
+        "FND-TG-192",
+        "FND-TG-841"
+      ],
+      "creates": [
+        "FND-TG-841"
+      ],
+      "statusInTunisia": "deployed",
+      "verdict": "partially-solves",
+      "scores": {
+        "root_cause_coverage": 1,
+        "evidence_quality": 1,
+        "adoption": 2,
+        "side_effects": 1,
+        "cost_accessibility": 2
+      },
+      "scoreTotal": 7,
+      "scoreMax": 15,
+      "greenwashingFlags": [],
+      "gapLeft": "Delivery speed is not shown to improve; the 2030 gap (FND-TG-192) rests mainly on offtaker finance, procedures and grid. No registry of land used by solar plants by class and former use; no siting rule that steers plants to degraded, State or non-productive land; dual use (agrivoltaics) is only a pilot.",
+      "conflictOfInterest": "none found. Owner is the State; no link to our team or experts. EXP-TG-001 (STC employee) did not propose this text. Developers named in the sources (Qair) have no known link to our team.",
+      "sources": [
+        "SRC-TG-201",
+        "SRC-TG-202",
+        "SRC-TG-370",
+        "SRC-TG-371",
+        "SRC-TG-372",
+        "SRC-TG-373",
+        "SRC-TG-853"
+      ],
+      "author": "TahaGHZ",
+      "outstanding": "(1) SRC-TG-202 holds no extract of arts. 17, 21, 22 and 28; the exact text was read in the gazette PDF for this record and should be added to that source record by its owner. (2) Check whether art. 8 ter as applied needs a joint arrêté (gazette text) or is granted \"d'office\" (SRC-TG-853), and whether renewable projects count as \"direct investment\"; FND-TG-841 should be reconciled with art. 17. (3) Reconcile Khobna 237 MW (SRC-TG-371) with 198 MW (SRC-TG-372) and its area with the ONEM list. (4) Find hectares and land class for the other concessions (Mazzouna, El Ksour, Sagdoud, Menzel El Habib) and for authorisation-regime projects, from ESIAs or the concession laws. (5) Open the Legal Agenda, Nawaat and BHRRC items and seek a farmers' union (UTAP) position. (6) Confirm whether the ANME agrivoltaics call produced any funded pilot. (7) Independent teammate check before validated.",
+      "excerpt": "Decree-law 2022-68 of 19 October 2022 contains \"special provisions to improve the efficiency of public and private projects\". Three groups of articles matter here. - **Art. 21: renewables.** It adds art. 5 bis and a…",
+      "readTimeMinutes": 7,
+      "image": {
+        "url": "https://images.pexels.com/photos/37684096/pexels-photo-37684096.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Solar power station in North African desert landscape",
+        "credit": "pierre matile / Pexels"
+      },
+      "citedSourceIds": [
+        "SRC-TG-201",
+        "SRC-TG-202",
+        "SRC-TG-370",
+        "SRC-TG-371",
+        "SRC-TG-372",
+        "SRC-TG-373",
+        "SRC-TG-853"
+      ],
+      "tierMix": {
+        "A": 2,
+        "B": 0,
+        "C": 5
+      },
+      "claimCount": 6,
+      "blockerCount": 3,
+      "criticismCount": 2,
+      "tradeOffCount": 3
+    },
+    {
+      "id": "SOL-TG-400",
+      "slug": "SOL-TG-400-stormbrixx-stormwater-retention-tanks",
+      "name": "On-site storm-water retention, infiltration and reuse with geocellular tanks (ACO StormBrixx), as proposed by STC",
+      "status": "draft",
+      "type": "product",
+      "owner": "ACO (manufacturer, plastic geocellular tanks); proposed for Tunisia by STC, its exclusive Tunisian distributor",
+      "mainSector": "water",
+      "targets": [
+        "FND-TG-451",
+        "FND-TG-410"
+      ],
+      "creates": [],
+      "statusInTunisia": "proposed",
+      "verdict": "superficial",
+      "scores": {
+        "root_cause_coverage": 1,
+        "evidence_quality": 1,
+        "adoption": 0,
+        "side_effects": 2,
+        "cost_accessibility": 1
+      },
+      "scoreTotal": 5,
+      "scoreMax": 15,
+      "greenwashingFlags": [
+        "self-certified: 97% void ratio, 50/60-year design life and 'recyclable' come from the manufacturer's own datasheet (SRC-TG-641)",
+        "unverifiable claim: water-supply benefit is stated with assumed values and no measured Tunisian case (SRC-TG-341)",
+        "impact shifted elsewhere: the product is a flood-attenuation tool presented here as a water-supply and recharge answer; no source gives a yield, and the infiltration option moves road and roof pollutants towards groundwater (SRC-TG-643)"
+      ],
+      "gapLeft": "Both targets, regional supply capacity and network losses behind the 2023 rationing (FND-TG-451) and the groundwater overdraft of 865 Mm3 a year (FND-TG-410), stay untouched. Urban flooding itself, the problem this product best fits, has no finding yet.",
+      "conflictOfInterest": "Proposed by expert EXP-TG-001 (name withheld), a Technical Sales Engineer at STC, the exclusive Tunisian distributor of ACO (SRC-TG-341). STC would profit from sales of StormBrixx. His proposal is treated as vendor material (tier C); the checks below use sources that do not come from STC or ACO, apart from the manufacturer datasheet used for product specifications only.",
+      "sources": [
+        "SRC-TG-341",
+        "SRC-TG-640",
+        "SRC-TG-641",
+        "SRC-TG-642",
+        "SRC-TG-643",
+        "SRC-TG-503",
+        "SRC-TG-504",
+        "SRC-TG-508"
+      ],
+      "author": "TahaGHZ",
+      "outstanding": "open the text of Decree 2018-171 (Articles 3, 6, 7, 8, 9) and Decree 2016-1125 and check how ANME paraphrases them, including whether run-off from paved areas is covered; find a StormBrixx or equivalent price in Tunisia and a cost per m3 stored for open basins and SuDS; find Tunisian rain-event statistics (events per year, intensity) and soil infiltration suitability; open the full text of Tedoldi et al. 2016; check the AllAfrica claim on combined sewers and the ONAS rule on storm water in sewers; confirm the ACO datasheet table values from an official ACO page; ask EXP-TG-001 for any Tunisian installed case.",
+      "excerpt": "ACO StormBrixx is a patented, injection-moulded polypropylene crate system that is buried to form a tank holding 95-97% water by volume. It is used to hold run-off from roofs and paved areas and release it slowly…",
+      "readTimeMinutes": 6,
+      "image": {
+        "url": "https://images.pexels.com/photos/35627363/pexels-photo-35627363.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Aerial view of wastewater treatment basins",
+        "credit": "Giant Asparagus / Pexels"
+      },
+      "citedSourceIds": [
+        "SRC-TG-341",
+        "SRC-TG-503",
+        "SRC-TG-504",
+        "SRC-TG-508",
+        "SRC-TG-640",
+        "SRC-TG-641",
+        "SRC-TG-642",
+        "SRC-TG-643"
+      ],
+      "tierMix": {
+        "A": 1,
+        "B": 5,
+        "C": 2
+      },
+      "claimCount": 6,
+      "blockerCount": 5,
+      "criticismCount": 4,
+      "tradeOffCount": 4
+    },
+    {
+      "id": "SOL-TG-410",
+      "slug": "SOL-TG-410-treated-wastewater-reuse-irrigation",
+      "name": "Reuse of treated wastewater for irrigation (ONAS plants, national reuse strategy, perimeters supplied with treated water)",
+      "status": "draft",
+      "type": "programme",
+      "owner": "ONAS (treatment and tertiary upgrades); MARHP and its regional offices (CRDA) and water user groups (GDA) for distribution and irrigated perimeters; Ministries of Environment and Health for authorisation",
+      "mainSector": "water",
+      "targets": [
+        "FND-TG-550",
+        "FND-TG-501"
+      ],
+      "creates": [],
+      "statusInTunisia": "deployed",
+      "verdict": "partially-solves",
+      "scores": {
+        "root_cause_coverage": 1,
+        "evidence_quality": 1,
+        "adoption": 1,
+        "side_effects": 2,
+        "cost_accessibility": 1
+      },
+      "scoreTotal": 6,
+      "scoreMax": 15,
+      "greenwashingFlags": [],
+      "gapLeft": "Reuse adds a modest, bounded volume (about 290 to 300 Mm3 a year, possibly doubling by 2050 per AfDB). It does not touch the demand-side root causes in FND-TG-501 (subsidised tariffs, 80% of resources to irrigation, groundwater use above 100%). Actual uptake is not tracked on a consistent basis, so the benefit to the water balance is unknown. Salt and boron accumulation in reuse soils and groundwater has no monitoring owner and no phase 1 finding.",
+      "conflictOfInterest": "none. The owner (ONAS) and the financiers (AfDB, AFD, JICA, World Bank) have no link to TahaGHZ or to expert EXP-TG-001 (STC) in the records read. The AfDB and World Bank appraise and describe projects they fund, so their benefit figures are treated as claims.",
+      "sources": [
+        "SRC-TG-530",
+        "SRC-TG-556",
+        "SRC-TG-557",
+        "SRC-TG-558",
+        "SRC-TG-559",
+        "SRC-TG-650",
+        "SRC-TG-651",
+        "SRC-TG-652",
+        "SRC-TG-653",
+        "SRC-TG-654",
+        "SRC-TG-655",
+        "SRC-TG-504"
+      ],
+      "author": "TahaGHZ",
+      "outstanding": "(1) The SRC-TG-530 record lacks the extracts for Tables VI.5, VI.6, XI.8 and the REUT text (80% target, 10% stagnation, 31 tertiary plants, 72.42% compliance); the owner should add them. They were read from the original PDF on 2026-11-22. (2) Open the Water REUSE 2050 reports (AFD) for the diagnosis and the transfer-cost estimates. (3) Open the full texts of SRC-TG-654 and SRC-TG-655 (abstracts only seen). (4) Find the ex-post evaluation of PAQEE 1 and actual irrigated area at upgraded plants. (5) Find kWh per m3 for tertiary treatment and for conveyance in Tunisia. (6) Check the JORT texts of Decree 89-1047, Decree 93-2447 and the crop-list order, and the status of the new Water Code. (7) Open the original Abu-Madi et al. (2008) and GWI (2010) cited in SRC-TG-652. (8) Reconcile the 8%, 19% and 3.8% reuse series with ONAS and DGGREE. (9) Regional comparison (Jordan, Morocco, Egypt) was not done.",
+      "excerpt": "Tunisia treats about 293 million m3 of sewage a year in 127 ONAS plants and aims to turn it into irrigation water. The solution has four parts: - Tertiary upgrades at selected plants: sand filter, UV and similar. -…",
+      "readTimeMinutes": 6,
+      "image": {
+        "url": "https://images.pexels.com/photos/35627363/pexels-photo-35627363.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Aerial view of wastewater treatment basins",
+        "credit": "Giant Asparagus / Pexels"
+      },
+      "citedSourceIds": [
+        "SRC-TG-504",
+        "SRC-TG-530",
+        "SRC-TG-556",
+        "SRC-TG-557",
+        "SRC-TG-558",
+        "SRC-TG-559",
+        "SRC-TG-650",
+        "SRC-TG-651",
+        "SRC-TG-652",
+        "SRC-TG-653",
+        "SRC-TG-654",
+        "SRC-TG-655"
+      ],
+      "tierMix": {
+        "A": 5,
+        "B": 7,
+        "C": 0
+      },
+      "claimCount": 5,
+      "blockerCount": 7,
+      "criticismCount": 5,
+      "tradeOffCount": 5
+    },
+    {
+      "id": "SOL-TG-420",
+      "slug": "SOL-TG-420-seawater-desalination-programme",
+      "name": "National seawater desalination programme for drinking water (SONEDE plants at Djerba, Zarat, Sfax, Sousse and planned ones)",
+      "status": "draft",
+      "type": "programme",
+      "owner": "SONEDE (state utility), under the Ministry of Agriculture, Water Resources and Fisheries; financed by KfW, AFD, JICA and the State",
+      "mainSector": "water",
+      "targets": [
+        "FND-TG-271",
+        "FND-TG-451",
+        "FND-TG-501"
+      ],
+      "creates": [],
+      "statusInTunisia": "deployed",
+      "verdict": "partially-solves",
+      "scores": {
+        "root_cause_coverage": 1,
+        "evidence_quality": 1,
+        "adoption": 2,
+        "side_effects": 1,
+        "cost_accessibility": 1
+      },
+      "scoreTotal": 6,
+      "scoreMax": 15,
+      "greenwashingFlags": [
+        "unverifiable claim: renewable-powered desalination is a stated aim (Eau 2050, SONEDE energy director) but the only renewable unit found is a 212 kW solar installation for a 50 m3/day station (SRC-TG-661)"
+      ],
+      "gapLeft": "The programme does not reduce groundwater overdraft, irrigation demand or network losses; it adds supply while demand and losses stay high, and its energy and brine costs are unquantified at national level.",
+      "conflictOfInterest": "none known for the owner (SONEDE). The programme is not proposed by EXP-TG-001 (STC employee). SRC-TG-279 reports statements by SONEDE officials, so the owner's own claims are treated as claims.",
+      "sources": [
+        "SRC-TG-270",
+        "SRC-TG-271",
+        "SRC-TG-272",
+        "SRC-TG-273",
+        "SRC-TG-275",
+        "SRC-TG-276",
+        "SRC-TG-277",
+        "SRC-TG-278",
+        "SRC-TG-279",
+        "SRC-TG-402",
+        "SRC-TG-464",
+        "SRC-TG-482",
+        "SRC-TG-503",
+        "SRC-TG-660",
+        "SRC-TG-661",
+        "SRC-TG-662"
+      ],
+      "author": "TahaGHZ",
+      "outstanding": "(1) open the full text of SRC-TG-660 and confirm the 13.6% and 58 tons/day figures and their basis; (2) find measured kWh/m3 and output for Djerba, Sfax and Zarat from SONEDE or STEG; (3) confirm whether any plant has a renewable power arrangement; (4) find the environmental impact studies and the legal texts on brine discharge and EIA categories; (5) open civil-society and expert critiques (a Rosa Luxemburg Stiftung article of December 2024 appeared in search and was not opened) and Gulf of Gabes brine modelling; (6) check Sousse capacity (50,000 vs 100,000 m3/day) and the Zarat commissioning date; (7) confirm publication years of SRC-TG-660 and SRC-TG-662.",
+      "excerpt": "SONEDE is building reverse-osmosis seawater plants to supply drinking water to coastal and southern areas. Djerba (50,000 m3/day, extendable to 75,000) started in 2018 at 169 million dinars. Zarat in Gabes (50,000…",
+      "readTimeMinutes": 6,
+      "image": {
+        "url": "https://images.pexels.com/photos/32502650/pexels-photo-32502650.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Water distribution pipes and utility valves",
+        "credit": "adib aqil / Pexels"
+      },
+      "citedSourceIds": [
+        "SRC-TG-270",
+        "SRC-TG-271",
+        "SRC-TG-272",
+        "SRC-TG-273",
+        "SRC-TG-275",
+        "SRC-TG-276",
+        "SRC-TG-277",
+        "SRC-TG-278",
+        "SRC-TG-279",
+        "SRC-TG-402",
+        "SRC-TG-464",
+        "SRC-TG-482",
+        "SRC-TG-503",
+        "SRC-TG-660",
+        "SRC-TG-661",
+        "SRC-TG-662"
+      ],
+      "tierMix": {
+        "A": 4,
+        "B": 10,
+        "C": 2
+      },
+      "claimCount": 4,
+      "blockerCount": 4,
+      "criticismCount": 4,
+      "tradeOffCount": 3
+    },
+    {
+      "id": "SOL-TG-700",
+      "slug": "SOL-TG-700-pneei-irrigation-equipment-subsidies",
+      "name": "National irrigation water-saving programme (PNEEI) and subsidies for drip and sprinkler equipment",
+      "status": "draft",
+      "type": "programme",
+      "owner": "Ministry of Agriculture (DGGREE, CRDAs); APIA for investment subsidies; ANME for solar-pump subsidies",
+      "mainSector": "agriculture",
+      "targets": [
+        "FND-TG-525",
+        "FND-TG-527",
+        "FND-TG-410"
+      ],
+      "creates": [],
+      "statusInTunisia": "deployed",
+      "verdict": "superficial",
+      "scores": {
+        "root_cause_coverage": 1,
+        "evidence_quality": 1,
+        "adoption": 3,
+        "side_effects": 1,
+        "cost_accessibility": 1
+      },
+      "scoreTotal": 7,
+      "scoreMax": 15,
+      "greenwashingFlags": [
+        "vague label: the programme indicator is equipped area, not water saved or withdrawals avoided",
+        "impact shifted elsewhere: per-plot savings may be offset by expansion of irrigated area (local evidence only)"
+      ],
+      "gapLeft": "Allocation: no cap, no metering, no enforcement against illicit boreholes, no check on net basin withdrawals. Who benefits by farm size is not known (no source found).",
+      "conflictOfInterest": "none known. Owner is a ministry, not our expert EXP-TG-001 (an STC employee); no link to our team found.",
+      "sources": [
+        "SRC-TG-402",
+        "SRC-TG-403",
+        "SRC-TG-430",
+        "SRC-TG-503",
+        "SRC-TG-504",
+        "SRC-TG-528",
+        "SRC-TG-529",
+        "SRC-TG-530",
+        "SRC-TG-531",
+        "SRC-TG-532",
+        "SRC-TG-940",
+        "SRC-TG-941",
+        "SRC-TG-942"
+      ],
+      "author": "TahaGHZ",
+      "outstanding": "(1) read the full text of Molle and Tanouti (SRC-TG-940), Grafton et al. (SRC-TG-941) and Berbel et al. (SRC-TG-942; open access); (2) open Poussin et al. in full for plain, sample and 2005 method; (3) find the ministry's PNEEI evaluation and the 2025 Tunisian evaluation seen only in a search result; (4) open the legal text of the subsidy rates (1995 decision, 2016 Investment Code) and confirm the \"up to 60%\" claim; (5) find data on who receives the subsidy by farm size; (6) search for Tunisian evidence on irrigated area expansion after drip adoption (Kairouan, Sidi Bouzid); (7) check FND-TG-525's SRC-TG-402 figures for illicit boreholes and meters against the PDF (taken from the local source record).",
+      "excerpt": "The PNEEI, launched in 1995, pays part of the cost of on-farm water-saving equipment (drip, sprinkler, improved gravity). It is run by the Ministry of Agriculture and financed through the agricultural investment…",
+      "readTimeMinutes": 5,
+      "image": {
+        "url": "https://images.pexels.com/photos/31454647/pexels-photo-31454647.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "alt": "Aerial view of irrigation canal and farmland plots",
+        "credit": "Kashif Shah / Pexels"
+      },
+      "citedSourceIds": [
+        "SRC-TG-402",
+        "SRC-TG-403",
+        "SRC-TG-430",
+        "SRC-TG-503",
+        "SRC-TG-504",
+        "SRC-TG-528",
+        "SRC-TG-529",
+        "SRC-TG-530",
+        "SRC-TG-531",
+        "SRC-TG-532",
+        "SRC-TG-940",
+        "SRC-TG-941",
+        "SRC-TG-942"
+      ],
+      "tierMix": {
+        "A": 9,
+        "B": 4,
+        "C": 0
+      },
+      "claimCount": 3,
+      "blockerCount": 4,
+      "criticismCount": 4,
+      "tradeOffCount": 3
     }
   ]
 }

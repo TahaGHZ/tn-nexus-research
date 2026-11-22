@@ -10,10 +10,13 @@ const repoRoot = path.resolve(frontendRoot, '..');
 
 const findingsDir = path.join(repoRoot, 'research', 'phase1-findings');
 const sourcesDir = path.join(repoRoot, 'research', 'sources');
+const solutionsDir = path.join(repoRoot, 'research', 'phase2-solutions');
+const expertsDir = path.join(repoRoot, 'research', 'experts');
 const phasesFile = path.join(repoRoot, 'PHASES.md');
 
 const dataOutDir = path.join(frontendRoot, 'src', 'data');
 const publicFindingsDir = path.join(frontendRoot, 'public', 'data', 'findings');
+const publicSolutionsDir = path.join(frontendRoot, 'public', 'data', 'solutions');
 
 if (!fs.existsSync(findingsDir) || !fs.existsSync(sourcesDir)) {
   console.log('[sync-research] ../research not found; using pre-synced data files.');
@@ -412,6 +415,37 @@ function parsePhases() {
   return phases;
 }
 
+// Experts who have not agreed to be named are replaced by their record ID in published text.
+const nameRedactions = [];
+if (fs.existsSync(expertsDir)) {
+  for (const file of fs.readdirSync(expertsDir).filter((f) => f.endsWith('.md'))) {
+    const { frontmatter } = parseMarkdownFile(path.join(expertsDir, file));
+    const consent = String(frontmatter.consent_to_be_named || 'ask-first').trim();
+    if (consent !== 'yes' && frontmatter.name) {
+      nameRedactions.push({ name: String(frontmatter.name), label: 'name withheld' });
+    }
+  }
+}
+function redactNames(value) {
+  if (typeof value === 'string') {
+    let out = value;
+    for (const { name, label } of nameRedactions) out = out.split(name).join(label);
+    return out;
+  }
+  if (Array.isArray(value)) return value.map(redactNames);
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, redactNames(v)]));
+  }
+  return value;
+}
+
+// A source shared privately (no public URL, or extracts marked confidential) is published by
+// title, publisher and tier only: its extracts and notes stay in the repository.
+function isConfidentialSource(frontmatter, extracts) {
+  const url = String(frontmatter.url || '').trim().toLowerCase();
+  return url.startsWith('none') || /^\s*confidential/im.test(extracts);
+}
+
 // 1. Load all sources
 const sourcesMap = new Map();
 const sourceFiles = fs.readdirSync(sourcesDir).filter((f) => f.endsWith('.md')).sort();
@@ -439,8 +473,15 @@ for (const file of sourceFiles) {
     addedBy: String(frontmatter.added_by || ''),
     extracts: extractsSection?.content || '',
     notes: notesSection?.content || '',
+    confidential: false,
   };
-  sourcesMap.set(srcObj.id, srcObj);
+  if (isConfidentialSource(frontmatter, srcObj.extracts)) {
+    srcObj.confidential = true;
+    srcObj.url = '';
+    srcObj.extracts = '';
+    srcObj.notes = 'Shared privately with the team. Extracts are kept in the repository and not published.';
+  }
+  sourcesMap.set(srcObj.id, redactNames(srcObj));
 }
 
 // Every SRC id a finding relies on: frontmatter, indicators, root causes, projection, inline body.
@@ -676,6 +717,172 @@ for (const existing of fs.readdirSync(publicFindingsDir)) {
   }
 }
 
+// 3. Load phase 2 solution audits. All non-rejected records are published, drafts included,
+// because phase 2 is new; every page shows the record's status so a draft is never mistaken
+// for a checked audit.
+const SCORE_KEYS = [
+  'root_cause_coverage',
+  'evidence_quality',
+  'adoption',
+  'side_effects',
+  'cost_accessibility',
+];
+const SOLUTION_IMAGE_RULES = [
+  [/desalin/i, 'drinking-water', 0],
+  [/wastewater|reuse/i, 'wastewater-reuse', 0],
+  [/storm|rain/i, 'water-governance', 0],
+  [/drip|irrigation-equipment|water-saving|pneei/i, 'irrigation', 1],
+  [/pump/i, 'irrigation', 0],
+  [/decree|renewable|solar/i, 'renewables', 0],
+  [/air condition|vrv|vrf|cooling/i, 'grid', 0],
+];
+function pickSolutionImage(sol) {
+  const key = `${sol.name} ${sol.slug}`;
+  for (const [re, theme, i] of SOLUTION_IMAGE_RULES) {
+    if (re.test(key)) return PHOTO_LIBRARY[theme][i % PHOTO_LIBRARY[theme].length];
+  }
+  return SECTOR_FALLBACK_PHOTOS[sol.mainSector] || PHOTO_LIBRARY['legacy-policy'][0];
+}
+// Record numbers follow LANES.md: 100-399 energy, 400-699 water, 700-999 agriculture.
+function laneOf(id) {
+  const n = parseInt(String(id).match(/(\d+)\s*$/)?.[1] || '0', 10);
+  return n < 400 ? 'energy' : n < 700 ? 'water' : 'agriculture';
+}
+const asList = (v) => (Array.isArray(v) ? v : []);
+const asText = (v) => (v === undefined || v === null ? '' : String(v));
+
+const allSolutions = [];
+const solutionsByFinding = new Map();
+const solutionFiles = fs.existsSync(solutionsDir)
+  ? fs.readdirSync(solutionsDir).filter((f) => /^SOL-.*\.md$/.test(f)).sort()
+  : [];
+const verdictCounts = {
+  solves: 0,
+  'partially-solves': 0,
+  superficial: 0,
+  counterproductive: 0,
+  unverifiable: 0,
+};
+let solutionDraftCount = 0;
+
+for (const file of solutionFiles) {
+  const { frontmatter: fm, body } = parseMarkdownFile(path.join(solutionsDir, file));
+  const status = asText(fm.status || 'draft').trim();
+  if (status === 'rejected') continue;
+  const sections = parseSections(body);
+  const whatSec = sections.find((s) => s.heading.toLowerCase().startsWith('what it is'));
+  const scores = {};
+  for (const k of SCORE_KEYS) {
+    const v = Number(fm.scores?.[k]);
+    scores[k] = fm.scores?.[k] === undefined || !Number.isFinite(v) ? null : v;
+  }
+  const scoreValues = Object.values(scores).filter((v) => v !== null);
+  const outstanding = body.match(/\*\*Outstanding verification:\*\*\s*([\s\S]*?)(?=\n## |$)/);
+
+  const sol = {
+    id: asText(fm.id || file.replace(/\.md$/, '')),
+    slug: file.replace(/\.md$/, ''),
+    name: asText(fm.name),
+    status,
+    type: asText(fm.type),
+    owner: asText(fm.owner),
+    mainSector: laneOf(fm.id),
+    targets: asList(fm.targets).map(String),
+    creates: asList(fm.creates).map(String),
+    statusInTunisia: asText(fm.status_in_tunisia),
+    verdict: asText(fm.verdict || 'unverifiable'),
+    scores,
+    scoreTotal: scoreValues.reduce((a, b) => a + b, 0),
+    scoreMax: SCORE_KEYS.length * 3,
+    claims: asList(fm.claims).map((c) => ({
+      claim: asText(c?.claim),
+      evidence: asText(c?.evidence),
+      verified: asText(c?.verified),
+    })),
+    greenwashingFlags: asList(fm.greenwashing_flags).map(String),
+    limits: asList(fm.limits).map(String),
+    blockers: asList(fm.blockers).map((b) => ({
+      blocker: asText(b?.blocker),
+      type: asText(b?.type),
+      source: asText(b?.source),
+    })),
+    criticisms: asList(fm.criticisms).map((c) => ({
+      criticism: asText(c?.criticism),
+      from: asText(c?.from),
+      source: asText(c?.source),
+      assessment: asText(c?.assessment),
+    })),
+    tradeOffs: asList(fm.trade_offs).map((t) => ({
+      effect: asText(t?.effect),
+      on: asText(t?.on),
+      horizon: asText(t?.horizon),
+      source: asText(t?.source),
+    })),
+    gapLeft: asText(fm.gap_left),
+    conflictOfInterest: asText(fm.conflict_of_interest),
+    sources: asList(fm.sources).map(String),
+    author: asText(fm.author || 'TahaGHZ'),
+    outstanding: outstanding ? outstanding[1].trim() : '',
+    excerpt: cleanExcerpt(whatSec?.content || body, 220),
+    readTimeMinutes: Math.max(2, Math.round(body.split(/\s+/).filter(Boolean).length / 210)),
+    sections,
+  };
+  sol.image = pickSolutionImage(sol);
+
+  // Every SRC id the record relies on: frontmatter list, structured fields and body text.
+  const cited = new Set(sol.sources);
+  const structured = JSON.stringify([sol.claims, sol.blockers, sol.criticisms, sol.tradeOffs]);
+  for (const m of structured.matchAll(/\bSRC-[A-Z]+-\d+\b/g)) cited.add(m[0]);
+  for (const sec of sol.sections) {
+    for (const m of sec.content.matchAll(/\bSRC-[A-Z]+-\d+\b/g)) cited.add(m[0]);
+  }
+  sol.citedSourceIds = Array.from(cited).filter((s) => sourcesMap.has(s)).sort();
+  sol.tierMix = { A: 0, B: 0, C: 0 };
+  for (const s of sol.citedSourceIds) {
+    const tier = sourcesMap.get(s).tier;
+    if (sol.tierMix[tier] !== undefined) sol.tierMix[tier]++;
+  }
+
+  if (verdictCounts[sol.verdict] !== undefined) verdictCounts[sol.verdict]++;
+  if (status === 'draft') solutionDraftCount++;
+  for (const fid of sol.targets) {
+    if (!solutionsByFinding.has(fid)) solutionsByFinding.set(fid, []);
+    solutionsByFinding.get(fid).push({ id: sol.id, name: sol.name, verdict: sol.verdict, status });
+  }
+  allSolutions.push(redactNames(sol));
+}
+
+const findingRef = (fid) => {
+  const target = verifiedById.get(fid);
+  return target
+    ? { id: fid, title: target.title, mainSector: target.mainSector, verified: true }
+    : { id: fid, verified: false };
+};
+
+fs.mkdirSync(publicSolutionsDir, { recursive: true });
+for (const existing of fs.readdirSync(publicSolutionsDir)) {
+  if (existing.endsWith('.json')) fs.unlinkSync(path.join(publicSolutionsDir, existing));
+}
+for (const sol of allSolutions) {
+  const payload = {
+    ...sol,
+    targetItems: sol.targets.map(findingRef),
+    createsItems: sol.creates.map(findingRef),
+    resolvedSources: sol.citedSourceIds.map((s) => sourcesMap.get(s)),
+  };
+  fs.writeFileSync(path.join(publicSolutionsDir, `${sol.id}.json`), JSON.stringify(payload), 'utf8');
+}
+
+const solutionsIndex = allSolutions.map(
+  ({ sections, claims, limits, blockers, criticisms, tradeOffs, ...rest }) => ({
+    ...rest,
+    claimCount: claims.length,
+    blockerCount: blockers.length,
+    criticismCount: criticisms.length,
+    tradeOffCount: tradeOffs.length,
+  })
+);
+
 // Write per-finding detail files
 for (const f of allFindings) {
   const citedSourceIds = collectCitedSourceIds(f);
@@ -705,6 +912,7 @@ for (const f of allFindings) {
     ...f,
     resolvedSources,
     relatedItems: relatedVerified,
+    auditedSolutions: solutionsByFinding.get(f.id) || [],
   };
 
   fs.writeFileSync(
@@ -736,10 +944,14 @@ const indexPayload = {
     projectionCount,
     nexusCount,
     citedSources: citedSourceIdsAll.size,
+    solutionCount: allSolutions.length,
+    solutionDraftCount,
+    verdictCounts,
   },
   phases: parsePhases(),
   themes: Array.from(themeSet).sort(),
   findings: findingsIndex,
+  solutions: solutionsIndex,
 };
 
 fs.writeFileSync(
@@ -749,5 +961,5 @@ fs.writeFileSync(
 );
 
 console.log(
-  `[sync-research] Synced ${verifiedCount} verified findings (${inReviewCount} in-review, ${peerValidatedCount} validated; ${draftCount} drafts excluded) and ${sourcesMap.size} sources.`
+  `[sync-research] Synced ${verifiedCount} verified findings (${inReviewCount} in-review, ${peerValidatedCount} validated; ${draftCount} drafts excluded), ${allSolutions.length} solution audits (${solutionDraftCount} draft) and ${sourcesMap.size} sources.`
 );

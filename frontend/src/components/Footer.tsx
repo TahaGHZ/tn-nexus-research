@@ -99,8 +99,16 @@ export function Footer({ stats }: FooterProps) {
                 </Link>
               </li>
               <li>
+<Link to="/solutions" className="text-slate-300 transition hover:text-white">
+                  Phase 2: Solution Audits{' '}
+                  <span className="ml-1 rounded bg-amber-500/15 px-1.5 py-0.5 font-mono text-[10px] text-amber-300">
+                    {stats.solutionCount}
+                  </span>
+                </Link>
+              </li>
+              <li>
                 <Link to="/modules" className="text-slate-400 transition hover:text-white">
-                  Phase 2 Validation &amp; Phase 3 R&amp;D{' '}
+                  Phase 3: R&amp;D Proposals{' '}
                   <span className="ml-1 rounded bg-slate-800 px-1.5 py-0.5 font-mono text-[10px] text-slate-400">
                     LOCKED
                   </span>

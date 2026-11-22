@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import { MarkdownArticle } from '../components/MarkdownArticle';
 import { SourceModal } from '../components/SourceModal';
+import { VERDICT_META } from '../components/SolutionFormatting';
 import {
   CONFIDENCE_META,
   SECTOR_META,
@@ -714,6 +715,38 @@ export function FindingDetailPage({ indexData }: FindingDetailPageProps) {
                       >
                         {st}
                       </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Phase 2 audits of solutions aimed at this finding */}
+              {(finding.auditedSolutions?.length ?? 0) > 0 && (
+                <div className="rounded-2xl border border-amber-200 bg-amber-50/60 p-5 shadow-xs">
+                  <h3 className="font-mono text-xs font-semibold uppercase tracking-wider text-amber-800">
+                    Existing Solutions Audited
+                  </h3>
+                  <div className="mt-3 space-y-2.5">
+                    {finding.auditedSolutions!.map((sol) => (
+                      <Link
+                        key={sol.id}
+                        to={`/solutions/${sol.id}`}
+                        className="group block rounded-xl border border-amber-200/80 bg-white p-3 transition hover:border-amber-400"
+                      >
+                        <div className="flex items-center justify-between gap-2">
+                          <span className="font-mono text-xs font-semibold text-amber-900">{sol.id}</span>
+                          <span
+                            className={`rounded-full border px-2 py-0.5 text-[10px] font-semibold ${
+                              (VERDICT_META[sol.verdict] || VERDICT_META.unverifiable).badge
+                            }`}
+                          >
+                            {(VERDICT_META[sol.verdict] || VERDICT_META.unverifiable).label}
+                          </span>
+                        </div>
+                        <p className="mt-1 line-clamp-2 text-xs font-medium leading-snug text-slate-900">
+                          {sol.name}
+                        </p>
+                      </Link>
                     ))}
                   </div>
                 </div>

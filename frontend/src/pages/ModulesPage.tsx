@@ -5,6 +5,7 @@ import {
   CheckCircle2,
   FlaskConical,
   Lock,
+  Scale,
   Sparkles,
   Store,
 } from 'lucide-react';
@@ -20,7 +21,8 @@ const MODULE_ICONS: Record<string, typeof Sparkles> = {
   'verified-findings': Sparkles,
   'agent-sessions': Bot,
   'trusted-vendors': Store,
-  'solution-validation': FlaskConical,
+  'solution-audits': Scale,
+  'rd-proposals': FlaskConical,
 };
 
 export function ModulesPage({ data }: ModulesPageProps) {
@@ -37,9 +39,9 @@ export function ModulesPage({ data }: ModulesPageProps) {
               Platform Modules &amp; Roadmap
             </h1>
             <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-300 sm:text-base">
-              The Verified Findings Blog is the first live module built on top of this repository’s
-              structured Markdown records. Next up: interactive Agent Recorded Sessions and a vetted
-              Trusted Vendors &amp; Products directory tied directly to Tunisia’s root causes.
+              The Verified Findings Blog and the Phase 2 Solution Audits are live, both built on this
+              repository’s structured Markdown records. Next up: Agent Recorded Sessions, a vetted
+              Trusted Vendors &amp; Products directory, and Phase 3 R&amp;D proposals.
             </p>
           </div>
           <div className="flex justify-center md:col-span-4 md:justify-end">
@@ -119,13 +121,13 @@ export function ModulesPage({ data }: ModulesPageProps) {
                     to={mod.route}
                     className="inline-flex items-center gap-2 rounded-xl bg-slate-950 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-800"
                   >
-                    Launch {mod.shortName} ({data.stats.verifiedFindings})
+                    Launch {mod.shortName} ({data.stats[mod.countKey || 'verifiedFindings']})
                     <ArrowRight className="h-4 w-4" />
                   </Link>
                 ) : (
                   <div className="inline-flex items-center gap-2 rounded-xl border border-stone-200 bg-stone-50 px-4 py-2 font-mono text-xs text-stone-500">
                     {isLocked
-                      ? 'Locked in PHASES.md — awaiting Phase 1 peer validation'
+                      ? 'Locked in PHASES.md until Taha unlocks it'
                       : 'Architecture ready in src/modules/registry.ts'}
                   </div>
                 )}

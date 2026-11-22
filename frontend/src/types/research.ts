@@ -60,6 +60,8 @@ export interface SourceRecord {
   addedBy: string;
   extracts: string;
   notes: string;
+  /** True when the source was shared privately: its URL and extracts are withheld from the site. */
+  confidential?: boolean;
 }
 
 export interface RelatedFindingItem {
@@ -113,7 +115,111 @@ export interface FindingDetail extends Omit<FindingSummary, 'indicatorCount' | '
   sections: MarkdownSection[];
   resolvedSources: SourceRecord[];
   relatedItems: RelatedFindingItem[];
+  /** Phase 2 solution audits whose `targets` include this finding. */
+  auditedSolutions?: SolutionRef[];
 }
+
+// ---------- Phase 2: solution audits (SOL records) ----------
+
+export type Verdict =
+  | 'solves'
+  | 'partially-solves'
+  | 'superficial'
+  | 'counterproductive'
+  | 'unverifiable';
+
+export type ScoreKey =
+  | 'root_cause_coverage'
+  | 'evidence_quality'
+  | 'adoption'
+  | 'side_effects'
+  | 'cost_accessibility';
+
+export interface SolutionRef {
+  id: string;
+  name: string;
+  verdict: Verdict;
+  status: RecordStatus;
+}
+
+export interface SolutionClaim {
+  claim: string;
+  evidence: string;
+  verified: string;
+}
+
+export interface SolutionBlocker {
+  blocker: string;
+  type: string;
+  source: string;
+}
+
+export interface SolutionCriticism {
+  criticism: string;
+  from: string;
+  source: string;
+  assessment: string;
+}
+
+export interface SolutionTradeOff {
+  effect: string;
+  on: string;
+  horizon: string;
+  source: string;
+}
+
+export interface FindingRef {
+  id: string;
+  verified: boolean;
+  title?: string;
+  mainSector?: Sector;
+}
+
+export interface SolutionSummary {
+  id: string;
+  slug: string;
+  name: string;
+  status: RecordStatus;
+  type: string;
+  owner: string;
+  mainSector: Sector;
+  targets: string[];
+  creates: string[];
+  statusInTunisia: string;
+  verdict: Verdict;
+  scores: Record<ScoreKey, number | null>;
+  scoreTotal: number;
+  scoreMax: number;
+  greenwashingFlags: string[];
+  gapLeft: string;
+  conflictOfInterest: string;
+  sources: string[];
+  author: string;
+  outstanding: string;
+  excerpt: string;
+  readTimeMinutes: number;
+  image: CuratedImage;
+  citedSourceIds: string[];
+  tierMix: TierMix;
+  claimCount: number;
+  blockerCount: number;
+  criticismCount: number;
+  tradeOffCount: number;
+}
+
+export interface SolutionDetail
+  extends Omit<SolutionSummary, 'claimCount' | 'blockerCount' | 'criticismCount' | 'tradeOffCount'> {
+  claims: SolutionClaim[];
+  limits: string[];
+  blockers: SolutionBlocker[];
+  criticisms: SolutionCriticism[];
+  tradeOffs: SolutionTradeOff[];
+  sections: MarkdownSection[];
+  targetItems: FindingRef[];
+  createsItems: FindingRef[];
+  resolvedSources: SourceRecord[];
+}
+
 
 export interface PhaseInfo {
   number: number;
@@ -141,6 +247,9 @@ export interface SiteStats {
   projectionCount: number;
   nexusCount: number;
   citedSources: number;
+  solutionCount: number;
+  solutionDraftCount: number;
+  verdictCounts: Record<Verdict, number>;
 }
 
 export interface ResearchIndex {
@@ -149,4 +258,5 @@ export interface ResearchIndex {
   phases: PhaseInfo[];
   themes: string[];
   findings: FindingSummary[];
+  solutions: SolutionSummary[];
 }

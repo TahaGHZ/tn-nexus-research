@@ -6,6 +6,8 @@ export interface NexusModule {
   description: string;
   status: 'live' | 'upcoming' | 'locked';
   route?: string;
+  /** Stat shown on the launch button; defaults to the verified findings count. */
+  countKey?: 'verifiedFindings' | 'solutionCount';
   phaseLabel: string;
   accent: 'emerald' | 'sky' | 'amber' | 'slate';
   highlights: string[];
@@ -67,18 +69,36 @@ export const NEXUS_MODULES: NexusModule[] = [
     ],
   },
   {
-    id: 'solution-validation',
-    name: 'Solution Audits & R&D Proposals',
-    shortName: 'Phase 2 & 3',
-    tagline: 'Auditing existing laws & programmes before designing field-ready R&D',
+    id: 'solution-audits',
+    name: 'Solution Audits',
+    shortName: 'Solution Audits',
+    tagline: 'Do existing products, laws and programmes fix the root cause?',
     description:
-      'Once Phase 1 teammate validation unlocks Phase 2 and Phase 3 in PHASES.md, SOL and PRP records will automatically populate here alongside expert reviews.',
+      'Phase 2 SOL records: existing solutions scored against the root causes in the verified findings, with their limits, blockers, criticisms, trade-offs for other sectors and conflicts of interest.',
+    status: 'live',
+    route: '/solutions',
+    countKey: 'solutionCount',
+    phaseLabel: 'Phase 2 · Live',
+    accent: 'amber',
+    highlights: [
+      'Verdict per solution: solves, partially solves, superficial, counterproductive or unverifiable',
+      'Five 0-3 scores, from root-cause coverage to side effects on water, energy and farming',
+      'Vendor proposals audited like everything else, with conflicts of interest shown',
+    ],
+  },
+  {
+    id: 'rd-proposals',
+    name: 'R&D Proposals',
+    shortName: 'Phase 3',
+    tagline: 'Designing field-ready pilots for the gaps the audits leave open',
+    description:
+      'Once Phase 3 is unlocked in PHASES.md, PRP records will populate here: the gap each proposal fills, its hypothesis, the pilot that would test it and the experts asked to review it.',
     status: 'locked',
-    phaseLabel: 'Phase 2–3 · Locked',
+    phaseLabel: 'Phase 3 · Locked',
     accent: 'slate',
     highlights: [
-      'Phase 2 SOL audits: do existing laws and subsidies fix the root cause?',
-      'Phase 3 PRP proposals: targeted pilots and expert testbeds in Tunisia',
+      'Proposals built on the gaps and blockers found in Phase 2',
+      'A named reviewer, a minimal pilot and a rough cost for each',
       'Linked expert directory with full disclosure tracking',
     ],
   },
