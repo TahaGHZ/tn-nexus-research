@@ -1,27 +1,27 @@
 ---
 id: SOL-TG-110
 name: Subsidised solar photovoltaic pumping for irrigation (FTE via ANME, FTI via APIA)
-status: draft
+status: in-review
 type: programme
 owner: "ANME (Fonds de Transition Énergétique, FTE) and APIA (Fonds Tunisien de l'Investissement, FTI), under the Ministry of Energy and the Ministry of Agriculture (MARHP); CRDAs check well authorisation"
 targets: [FND-TG-400, FND-TG-401, FND-TG-410, FND-TG-625]
 status_in_tunisia: deployed
 claims:
-  - claim: "Solar pumping cuts diesel and grid electricity costs for farms; the main reason farmers adopt it is to save energy spending, especially those on diesel (50% of the surveyed farms)"
+  - claim: "The main reason surveyed farmers give for adopting solar pumping is saving on energy spending, notably for farms that pumped with diesel before (50% of the 24 surveyed farms; 17% used grid electricity, 33% none); the saving itself was not measured"
     evidence: SRC-TG-361
-    verified: partial
-  - claim: "Subsidies are paid only for systems on wells authorised by the CRDA and meeting a specification that caps pump flow and requires a meter, so the scheme itself guards the aquifer"
+    verified: yes
+  - claim: "As reported by GIZ in 2019, subsidies are paid only for systems on wells authorised by the CRDA and meeting a specification that sets a maximum pump flow and requires a meter; the same report finds this insufficient to protect the aquifer because meters are not read"
     evidence: SRC-TG-360
-    verified: no
+    verified: yes
   - claim: "Subsidy rules: FTE premium since 2009 (40%, cap 20,000 DT), raised in 2017 to a 50,000 DT cap on a sliding per-kWp scale, off-grid farms only; FTI 50% up to 500,000 DT (60% for service cooperatives and development groups)"
     evidence: SRC-TG-360
     verified: partial
-  - claim: "Adoption: more than 1,000 systems installed since 2015 (inferred from 1,340 converters with import tax privileges in 2015-2018); at least 2,358 photovoltaic stations detected in the Kébili region in 2021 alone"
+  - claim: "Adoption: more than 1,000 systems installed since 2015 (inferred from 1,340 converters with import tax privileges in 2015-2018); 2,358 photovoltaic stations were detected in the Kébili region by mapping in 2021 (a stock, not 2021 installations; SRC-TG-631)"
     evidence: SRC-TG-361
-    verified: partial
-  - claim: "Pumping rises after installation: almost 90% of surveyed farmers pump more water than before, and a third started farming arid or unused land"
+    verified: yes
+  - claim: "Pumping rises after installation: almost 90% of surveyed farmers (sample of 20) say they pump more water than before, and a third started farming arid or unused land"
     evidence: SRC-TG-532
-    verified: partial
+    verified: yes
 scores:
   root_cause_coverage: 0
   evidence_quality: 2
@@ -65,11 +65,11 @@ criticisms:
     from: "Mekki et al. 2024 (Massire policy note)"
     source: SRC-TG-632
     assessment: partly-supported
-  - criticism: "Promoting solar irrigation without controls on allocation is likely to deepen depletion in stressed aquifers"
+  - criticism: "Solar pumps are likely to increase groundwater depletion, and could worsen it in already stressed aquifers; the authors call for enhanced regulation and planning"
     from: "Garrick, Balasubramanya et al. (Science policy forum, 2024), via a news release"
     source: SRC-TG-362
     assessment: partly-supported
-  - criticism: "Farmers installing solar systems vote against collective boreholes and believe the water is free and inexhaustible"
+  - criticism: "Surveyed farmers believe the water is free and inexhaustible and all refused to give up individual boreholes for a collective one (reason given: difficulty of managing shared assets and risk of too little water)"
     from: "GIZ/FAO case study"
     source: SRC-TG-361
     assessment: supported
@@ -78,7 +78,7 @@ trade_offs:
     on: water
     horizon: long-term
     source: SRC-TG-402
-  - effect: "New irrigated land opened in dry-farming or unused zones (a third of surveyed farmers); in Kébili, 2,358 PV stations serve private extensions on collective land"
+  - effect: "New irrigated land opened in dry-farming or unused zones (a third of surveyed farmers); in Kébili, 2,358 PV stations were detected in a region where private extensions on collective land are mostly irrigated from illicit boreholes (SRC-TG-631)"
     on: agriculture
     horizon: short-term
     source: SRC-TG-532
@@ -92,26 +92,26 @@ trade_offs:
     source: SRC-TG-361
 creates: [FND-TG-400, FND-TG-625]
 gap_left: "The overdraft itself: cap on abstraction volume, enforcement against unauthorised boreholes, and a legal regime for shallow wells. Also unsolved: measurable pumped volumes per well and a registry linking each solar system to a permit."
-conflict_of_interest: "none identified. The owner agencies (ANME, APIA) are not linked to team members or to expert EXP-TG-001 (STC) in the sources opened. The source authors (GIZ, FAO, GFA) ran the programme studies and recommended reforms; they promote solar irrigation, not criticise it."
+conflict_of_interest: none
 sources: [SRC-TG-360, SRC-TG-361, SRC-TG-362, SRC-TG-532, SRC-TG-402, SRC-TG-406, SRC-TG-503, SRC-TG-631, SRC-TG-632]
 author: TahaGHZ
 ---
 
 ## What it is
 
-Two public funds pay part of the cost of solar photovoltaic pumping systems (SPIS) on farms. The Fonds de Transition Énergétique (FTE), run by ANME, started a premium in 2009 at 40% of cost, capped at 20,000 DT. In 2017 the cap went to 50,000 DT, computed per kWp on a sliding scale from 6,000 TND/kWp for tiny systems down to 1,000 TND/kWp above 10 kW. It goes only to farms with no grid connection. The FTI, run by APIA, pays 50% of the investment up to 500,000 DT, and 60% for service cooperatives and development groups (SRC-TG-360). From 2018 a farmer had to choose one fund (SRC-TG-360). Grid-connected farms qualify only for small self-generation premiums, because grid pumping electricity is already heavily subsidised (SRC-TG-360, SRC-TG-532). The stated rules are as the GIZ consultants described them in 2019; the decree texts were not opened.
+Two public funds pay part of the cost of solar photovoltaic pumping systems (SPIS) on farms. The Fonds de Transition Énergétique (FTE), run by ANME, started a premium in 2009 at 40% of cost, capped at 20,000 DT. In 2017 the cap went to 50,000 DT, computed per kWp on a sliding scale from 6,000 TND/kWp for tiny systems down to 1,000 TND/kWp above 10 kW. It goes only to farms with no grid connection. The FTI, run by APIA, pays 50% of the investment up to 500,000 DT, and 60% for service cooperatives and development groups (SRC-TG-360). From 2018 a farmer had to choose one fund (SRC-TG-360). Grid-connected farms qualify only for FTE self-generation premiums capped at 5,000 DT (SRC-TG-360), and grid-connected solar pumps have long payback because the pumping tariff is already heavily subsidised (SRC-TG-532). The stated rules are as the GIZ consultants described them in 2019; the decree texts were not opened.
 
 ## What it claims, and what the evidence shows
 
-- **Saves energy cost.** Farmers' main reason for adopting is saving on energy spending, most of all those on diesel (SRC-TG-361). This matches the programme's aim. Evidence is a 20-24 farm survey, not a measurement of bills or emissions.
-- **Guards the aquifer through conditions.** The scheme pays only on CRDA-authorised wells, with a flow cap and a meter (SRC-TG-360). In practice the CRDA specification sets no volume limit, meter readings are not required by law, and a major part of farmers remove or ignore meters after the inspection visit (SRC-TG-360, SRC-TG-532). On slide 20 of the case study, 10 of 24 farms had no meter at all (SRC-TG-361). So the safeguard exists on paper and is weak in use.
-- **Adoption.** 1,340 converters got import tax privileges in 2015-2018, so the authors infer more than 1,000 systems since 2015 (SRC-TG-361). ANME paid subsidies on only 124 systems between 2010 and 2017 (SRC-TG-532), so most systems sit outside the paid scheme, and the authors suspect many are on unauthorised wells (SRC-TG-532). In Kébili alone researchers detected 2,358 photovoltaic stations in 2021 (SRC-TG-631). There is no national register of installed systems in the sources we opened.
+- **Saves energy cost.** Farmers' main reason for adopting is saving on energy spending, notably those who pumped with diesel before (50% of the 24 farms, slide 8; SRC-TG-361). This matches the programme's aim. Evidence is a 20-24 farm survey, not a measurement of bills or emissions.
+- **Guards the aquifer through conditions.** The scheme pays only on CRDA-authorised wells, with a flow cap and a meter (SRC-TG-360). In practice the CRDA specification sets no volume limit, meter readings are not required by law, and a major part of farmers remove or ignore meters after the inspection visit (SRC-TG-360, SRC-TG-532). On slide 20 of the case study, 12 of 24 farms had no working meter (10 none, 1 removed, 1 never installed), and 16 of 24 said they do not track the volumes they pump (SRC-TG-361). GIZ adds that several farmers removed meters to cut head loss and raise flow (SRC-TG-360). So the safeguard exists on paper and is weak in use.
+- **Adoption.** 1,340 converters got import tax privileges in 2015-2018, so the authors infer more than 1,000 systems since 2015 (SRC-TG-361). ANME paid subsidies on only 124 systems between 2010 and 2017 (SRC-TG-532), so most systems sit outside the paid scheme, and the authors suspect many are on unauthorised wells (SRC-TG-532). In the Kébili region alone, researchers mapped 2,358 photovoltaic stations in 2021 (a stock, not 2021 installations; SRC-TG-631). There is no national register of installed systems in the sources we opened.
 - **Rebound.** Almost 90% of the surveyed farmers pump more than before the installation, and a third started using arid or unused land (SRC-TG-532). More than 80% say solar raised the volumes they irrigate (SRC-TG-361). This is self-reported and has no before and after metering, so it is a strong signal but not a measurement (the authors say so). International evidence that cheap solar energy raises groundwater development is argued in a Science policy forum, seen here only through a news release (SRC-TG-362).
 - **Unauthorised wells.** In the case study, 4 of 24 farms had illicit solar systems. The authors write that missing subsidy for illicit wells does not stop solar equipment and that these systems escape inspection (SRC-TG-361). The Ministry's national report says solar pumps are installed on illicit boreholes in Kébili, where STEG connection is impossible (FND-TG-625 data_gaps, quoted from SRC-TG-402; the extract is not yet in that record). Researchers confirm solar enabled the extensions since about 2015 (SRC-TG-631, SRC-TG-632).
 
 ## Audit
 
-**Root cause coverage (0).** The overdraft in FND-TG-400, 401, 410 and 625 comes from illicit and unregulated drilling, weak enforcement and cheap access to water. The programme acts on the energy bill, which is a cost brake on pumping, not a cause the findings want removed. It makes the cost brake weaker. The ministry names the subsidy as one of four root causes in FND-TG-400 (SRC-TG-402).
+**Root cause coverage (0).** The overdraft in FND-TG-400, 401, 410 and 625 comes from illicit and unregulated drilling, weak enforcement and cheap access to water. The programme acts on the energy bill, which is a cost brake on pumping, not a cause the findings want removed. It makes the cost brake weaker. The ministry's national water report lists the subsidy among the factors behind the overexploitation, next to drought and weak control of the public water domain (SRC-TG-402, printed p. 36).
 
 **Evidence quality (2).** Several independent sources point the same way: the ministry's national report (tier A), a peer-reviewed article on Kébili (SRC-TG-631), a policy note (SRC-TG-632) and the GIZ/FAO survey. But the Tunisian quantitative evidence is two small surveys (20-24 farms), self-reported, with no metering of pumped volumes before and after. No source measures groundwater change attributable to solar pumps. The 2017 reform is unmeasured.
 
@@ -119,7 +119,7 @@ Two public funds pay part of the cost of solar photovoltaic pumping systems (SPI
 
 **Side effects (0).** Under the scale used here, 0 means it worsens the targeted problem. Extra pumping on aquifers already above 100% (FND-TG-400), opening new irrigated land (SRC-TG-532), and in Kébili feeding the illicit extensions (FND-TG-625). The effect is observed in surveys; the aquifer-level consequence is argued, not measured.
 
-**Cost and accessibility (1).** Small farmers find the investment onerous even with the subsidy; large farmers hit the cap; farmers use their own funds, with no bank credit (SRC-TG-361). FTI pays after the farmer has spent the whole amount and has delays; FTE pays the installer directly (SRC-TG-360). Costs ran from 2,600 to 4,100 DT/kWp without pumps (SRC-TG-361). Operating cost is near zero, which is the issue.
+**Cost and accessibility (1).** Small farmers find the investment onerous even with the subsidy; large farmers hit the cap; farmers use their own funds, with no bank credit (SRC-TG-361). FTI pays the farmer after the whole amount is spent and farmers report delays; FTE can pay the installer directly, or the farmer after commissioning (SRC-TG-360, SRC-TG-361). Costs ran from 2,600 to 4,100 DT/kWp without pumps (SRC-TG-361). Operating cost is near zero, which is the issue.
 
 ## Limits and blockers
 
@@ -135,7 +135,7 @@ Listed in the frontmatter. The strongest is the ministry's own: the subsidy make
 
 ## Trade-offs and consequences
 
-- **Water (long-term):** more pumping on over-drawn aquifers. Central and Kébili aquifers are already above their resource (FND-TG-400, FND-TG-625). The ministry names the subsidy in its root causes. Aquifer-level consequences are argued from this, not measured.
+- **Water (long-term):** more pumping on over-drawn aquifers. Central and Kébili aquifers are already above their resource (FND-TG-400, FND-TG-625). The ministry lists the subsidy among the factors of overexploitation (SRC-TG-402). Aquifer-level consequences are argued from this, not measured.
 - **Agriculture (short-term):** new orchards and dates on land previously unused (SRC-TG-532). Jobs created in lagging regions (SRC-TG-361). But in Kébili the extensions face salinisation and waterlogging with no drainage (FND-TG-625).
 - **Energy (short-term):** fewer diesel and grid kWh per cubic metre. But no opened source quantifies it, and the study found STEG and ANME planning do not account for groundwater limits (SRC-TG-631).
 - **Public finance (long-term):** funds subsidise equipment that raises demand while the EAU 2050 strategy depends on cutting irrigation demand by about 26% (FND-TG-410, SRC-TG-503). Projection, not measured.
@@ -149,4 +149,5 @@ Phase 3 could build on: ties between subsidy and a volume cap per authorised wel
 
 ## Verification
 
-**Outstanding verification:** open the 2017 decree on FTE and FTI solar pumping and the CRDA specification (cahier des charges) to confirm the rates, the flow cap and the meter rule as currently in force; add the two RNE 2017 extracts on solar pumping to SRC-TG-402 (FND-TG-625 data_gaps) and confirm the page numbers; open Closas and Rap (2017, Energy Policy) and the Science forum itself for the international rebound evidence on India and Morocco; find an ANME or APIA count of subsidised systems after 2017 and any national register of solar pumps; check whether the 2017 reform and the 2023 ANME installer list changed practice; look for any before and after metered study in Tunisia.
+**Independent review, 22 November 2026:** pass after corrections. Originals checked (pdftotext of the published PDFs, or the page itself): SRC-TG-360 (introduction on authorised wells, flow cap and meter; sections 3.1.2, 4.1 on FTE and FTI rates, 2018 fund choice, 5,000 DT cap for grid-connected farms, payment modes; section 5.1 on meters removed), SRC-TG-361 (slides 2, 8, 9, 12, 19, 20, 21, 24 and 29: sample of 24 farms, pre-solar energy 50% diesel, sizing basis, satisfaction 96%, meter table, 1,340 converters), SRC-TG-532 (pages 2-4: 124 subsidised systems 2010-2017, third of farmers on new land, almost 90% pumping more, meters removed after the site visit, grid-connected payback), SRC-TG-402 (printed p. 36 subsidy sentence; PDF section on solar pumping in Kébili), SRC-TG-503 (irrigation demand 3,382 to 2,502 Mm3, 2020 to 2050, a 26% cut, normative scenario), SRC-TG-406 (Article 9), SRC-TG-631 (2,358 stations, oversizing, STEG statement), SRC-TG-632 (free-energy over-pumping, meter and resale ideas) and the University of Waterloo release (SRC-TG-362). Corrections: the meter count is 12 of 24 farms without a working meter (10 none, 1 removed, 1 never installed), not 10; the 2,358 Kébili stations are a stock mapped in 2021, not 2021 installations, and are not stated to serve the extensions; the diesel figure is the pre-solar energy source of 24 farms (50%), and the cost saving is a motivation, not a measured result; the claim that the conditions mean the scheme "guards the aquifer" was replaced by the rule as reported plus GIZ's finding that it is insufficient; the ministry lists the subsidy among factors of overexploitation rather than as one of four root causes; the GIZ/FAO collective-borehole point was reworded to what the slide says; the FTE payment route is installer or farmer. Scores and verdict unchanged. Not confirmed in any original: the decree texts and CRDA specification (rates and rules rest on the GIZ 2019 report), and the Closas and Rap and Science forum originals (only the news release was read); neither is essential to the verdict.
+Teammate sign-off is outstanding.

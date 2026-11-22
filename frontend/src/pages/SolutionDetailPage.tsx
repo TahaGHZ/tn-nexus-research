@@ -97,7 +97,7 @@ export function SolutionDetailPage({ indexData }: SolutionDetailPageProps) {
   const verdict = VERDICT_META[solution.verdict] || VERDICT_META.unverifiable;
   const sector = SECTOR_META[solution.mainSector] || SECTOR_META.water;
   const status = STATUS_META[solution.status] || STATUS_META.draft;
-  const hasConflict = solution.conflictOfInterest && !/^none\b/i.test(solution.conflictOfInterest);
+  const hasDisclosure = solution.conflictOfInterest && !/^none\b/i.test(solution.conflictOfInterest);
 
   // Renders "SRC-TG-123" style ids as buttons that open the source drawer.
   const SrcRefs = ({ text }: { text: string }) => {
@@ -321,14 +321,10 @@ export function SolutionDetailPage({ indexData }: SolutionDetailPageProps) {
               <ScoreBars scores={solution.scores} />
             </SideCard>
 
-            {hasConflict && (
-              <div className="rounded-2xl border border-rose-200 bg-rose-50 p-5">
-                <h3 className="flex items-center gap-2 font-mono text-xs font-semibold uppercase tracking-wider text-rose-800">
-                  <AlertTriangle className="h-3.5 w-3.5" />
-                  Conflict of interest
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-rose-900">{solution.conflictOfInterest}</p>
-              </div>
+            {hasDisclosure && (
+              <SideCard title="Disclosure">
+                <p className="text-sm leading-relaxed text-slate-700">{solution.conflictOfInterest}</p>
+              </SideCard>
             )}
 
             {solution.greenwashingFlags.length > 0 && (

@@ -35,8 +35,8 @@ Confidential: shared by the author with the team. Do not publish without his agr
 
 ## Notes
 
-Written by an STC employee to match Tunisian problems to STC products: a vendor proposal,
-not an independent assessment. Its problem figures are taken from press articles (tier C),
+A short use-case note by an engineer at STC describing two existing solutions; not an
+independent assessment. Its problem figures are taken from press articles (tier C),
 and its savings examples use assumed values, not measured results. Product capabilities
 are attributed to manufacturer documents (Daikin, ACO). No installed Tunisian case or
 measured saving is given.

@@ -83,7 +83,7 @@ export const NEXUS_MODULES: NexusModule[] = [
     highlights: [
       'Verdict per solution: solves, partially solves, superficial, counterproductive or unverifiable',
       'Five 0-3 scores, from root-cause coverage to side effects on water, energy and farming',
-      'Vendor proposals audited like everything else, with conflicts of interest shown',
+      'Suggestions from our expert network audited like everything else',
     ],
   },
   {

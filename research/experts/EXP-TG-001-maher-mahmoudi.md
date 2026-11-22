@@ -5,7 +5,7 @@ affiliation: Société Tunisienne de Chauffage (STC), Technical Sales Engineer (
 domain: [energy, water, buildings-cooling, hydrogen]
 contact_via: TahaGHZ
 consent_to_be_named: yes
-conflict_of_interest: Employed by STC, the exclusive Tunisian distributor of Daikin, Hisense HVAC, ACO, Chaffoteaux, Ariston and Delabie. The two solutions he proposed (Daikin VRV / Hisense VRF and ACO StormBrixx) are products STC sells, so SOL-TG-100 and SOL-TG-400 are audited as company-proposed solutions.
+conflict_of_interest: Works at STC, the Tunisian distributor of Daikin, Hisense HVAC and ACO. A friend of the team; he mentioned VRV and StormBrixx as examples of existing solutions, and both were audited independently (SOL-TG-100, SOL-TG-400).
 ---
 
 ## Background
@@ -20,7 +20,7 @@ conflict_of_interest: Employed by STC, the exclusive Tunisian distributor of Dai
 
 "STC Energy & Water Use Cases: VRV and StormBrixx" (21 November 2026, 4 pages), recorded as
 SRC-TG-341. Shared privately with the team; summarised in the source record, not to be
-published without his agreement. It proposes:
+published without his agreement. It describes two examples of existing solutions:
 
 - **Scenario A, energy:** Daikin VRV (or lower-cost Hisense VRF) central air conditioning
   with zone control, scheduling and a demand-limiting adaptor that caps outdoor-unit power

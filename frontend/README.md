@@ -98,7 +98,7 @@ Do not edit generated files by hand; change the records in `research/` and re-ru
 | `BlogPage.tsx` | Searchable, filterable grid of published findings |
 | `FindingDetailPage.tsx` | Full finding: indicators, projection, root causes, Markdown sections with clickable citations, source list, related findings, and the solution audits that target it |
 | `SolutionsPage.tsx` | Phase 2 overview: verdict counts with their meaning, a draft warning, filters and the grid of audits |
-| `SolutionDetailPage.tsx` | Full audit: verdict and score strip, draft banner, claims with verification state, limits, blockers, criticisms, trade-offs, gap left, the Markdown narrative, conflict of interest, greenwashing flags, targeted findings and sources |
+| `SolutionDetailPage.tsx` | Full audit: verdict and score strip, draft banner, claims with verification state, limits, blockers, criticisms, trade-offs, gap left, the Markdown narrative, disclosure, greenwashing flags, targeted findings and sources |
 | `ModulesPage.tsx` | Module cards from the registry, with launch links for live modules |
 
 ### Components (`src/components/`)
@@ -108,7 +108,7 @@ Do not edit generated files by hand; change the records in `research/` and re-ru
 | `Navbar.tsx` | Sticky header with links to overview, findings, solution audits and modules, plus a mobile menu |
 | `Footer.tsx` | Sector and module links with live counts |
 | `FindingCard.tsx` | Card for one finding in the blog grid |
-| `SolutionCard.tsx` | Card for one solution audit: verdict, status, conflict-of-interest flag, compact score bars, source tier mix |
+| `SolutionCard.tsx` | Card for one solution audit: verdict, status, compact score bars, source tier mix |
 | `EvidenceDashboard.tsx` | Charts of the published evidence: trust classes, source tiers, and findings by sector, severity, timeframe and trend |
 | `MarkdownArticle.tsx` | Safe Markdown renderer (no raw HTML). Turns `SRC-…` ids into source buttons and `FND-…` ids into links |
 | `SourceModal.tsx` | Drawer showing one source: tier, publisher, extracts and notes, with a link out when a public URL exists |

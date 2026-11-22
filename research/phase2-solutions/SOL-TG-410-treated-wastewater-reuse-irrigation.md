@@ -1,27 +1,27 @@
 ---
 id: SOL-TG-410
 name: Reuse of treated wastewater for irrigation (ONAS plants, national reuse strategy, perimeters supplied with treated water)
-status: draft
+status: in-review
 type: programme
 owner: ONAS (treatment and tertiary upgrades); MARHP and its regional offices (CRDA) and water user groups (GDA) for distribution and irrigated perimeters; Ministries of Environment and Health for authorisation
 targets: [FND-TG-550, FND-TG-501]
 status_in_tunisia: deployed
 claims:
   - claim: Tunisia aims for a treated-wastewater use rate of 80% by 2050 (ministry sector report) and earlier set a goal of reusing 50% or more of treated water (2016-2020 plan, as reported by JICA).
-    evidence: SRC-TG-530
-    verified: no
-  - claim: Low reuse is mainly a treatment-quality problem; upgrading plants to tertiary treatment will make the water usable and bring about 3,357 ha under irrigation from 18 to 19 plants (PAQEE-RCC).
+    evidence: SRC-TG-530, SRC-TG-558
+    verified: yes
+  - claim: Quality is, in the lender's words, "sometimes the main hindrance" to reuse projects according to some stakeholders in the REUSE 2050 survey; the AfDB-financed upgrade of 19 plants (PAQEE-RCC) is projected to supply about 3,357 ha of farmland (a target, not an outcome).
     evidence: SRC-TG-650
     verified: partial
-  - claim: The first phase (PAQEE, 2012) rehabilitated about thirty plants with potential to irrigate 12,500 ha and 4,000 farmers, with positive farmer feedback.
+  - claim: The first phase (PAQEE, 2012) rehabilitated about thirty plants "providing the potential to irrigate" 12,500 ha (4,000 farmers), with positive feedback from officials, citizens and farmers (the AfDB's own statement; no ex-post area data).
     evidence: SRC-TG-650
-    verified: no
-  - claim: Farmers accept treated water (80% hypothetical acceptance) and it is cheap (TND 0.02/m3 since 1997).
+    verified: yes
+  - claim: Farmers' hypothetical acceptance of treated water is 80% (Abu-Madi et al. 2008, as cited); the ONAS/CRDA tariff has been TND 0.02/m3 since 1997 and at Ouardanine the GDA resells to farmers at TND 0.035/m3.
     evidence: SRC-TG-652
-    verified: partial
-  - claim: Solar PV at tertiary plants (6,000 kWc, 1,887 tCO2eq/year avoided) offsets the energy cost of added treatment.
+    verified: yes
+  - claim: Planned solar PV at tertiary plants (13 systems, about 6,000 kWp) and reduced consumption are estimated by the AfDB to avoid 1,887 tCO2eq/year (a preliminary estimate to be confirmed by technical studies); no source shows it offsets the energy cost of added treatment.
     evidence: SRC-TG-650
-    verified: no
+    verified: partial
 scores:
   root_cause_coverage: 1
   evidence_quality: 1
@@ -31,18 +31,18 @@ scores:
 greenwashing_flags: []
 verdict: partially-solves
 limits:
-  - Treated water is a fixed volume tied to sewage collected, about 293 million m3 a year (SRC-TG-530, SRC-TG-650). Even 100% use would equal about 26% of the 1,139 Mm3 deficit projected for 2050 (SRC-TG-504 via FND-TG-501), before any growth in effluent.
+  - Treated water is a volume tied to sewage collected, about 293 million m3 a year (SRC-TG-530; 292 Mm3 for 105 plants in 2017 per SRC-TG-650). Even 100% use of today's volume would equal about 26% of the 1,139 Mm3 deficit projected for 2050 (SRC-TG-504 via FND-TG-501, PNA RCP 8.5 scenario). The ministry's own plan envisages 80% use, about 450 Mm3 a year, in 2050 (SRC-TG-530), which implies effluent growth to about 560 Mm3 and would still cover under half of that deficit.
   - Where plants are far from farmland (Greater Tunis, coast), reuse needs conveyance that the plant upgrade projects do not fund (SRC-TG-559, SRC-TG-652).
   - Salinity of effluent (industrial inputs, high-salt source water in the centre and south) is not removed by sand filtration and UV; reuse there needs salt-tolerant crops and drainage (SRC-TG-652, SRC-TG-654, SRC-TG-655).
   - Seasonal mismatch: effluent flows all year, irrigation demand peaks in summer and falls in wet years (SRC-TG-651, SRC-TG-652).
 blockers:
-  - blocker: Reuse for agriculture needs authorisation by the Minister of Agriculture, with the agreement of the Ministers of Environment and Public Health (Decree 89-1047 of 28 July 1989, amended by Decree 93-2447 of 13 December 1993). The AfDB finds the framework "incomplete and not based on a risk analysis" and the NT 106.03 standard (1989) takes a prescriptive approach, unlike the WHO health-risk approach.
+  - blocker: Reuse for agriculture needs authorisation by the Minister of Agriculture, with the agreement of the Ministers of Environment and Public Health (Decree 89-1047 of 28 July 1989, amended by Decree 93-2447 of 13 December 1993). The Water REUSE 2050 diagnosis, as relayed by the AfDB, finds the regulations "incomplete and not based on a risk analysis", and the AfDB notes that the normative approach behind the NT 106.03 standard (1989) differs from the WHO health-risk approach.
     type: legal
     source: SRC-TG-650
   - blocker: Crop restriction. Irrigating vegetables and crops eaten raw with treated wastewater is prohibited, as is direct grazing on irrigated plots. This keeps reuse on orchards, fodder, cereals and industrial crops, which earn less than vegetables. FAO (2002) says the water is "not suitable for crops that are economically profitable".
     type: regulatory
     source: SRC-TG-557
-  - blocker: Farmers can substitute shallow groundwater, which costs only pumping up to about 50 m, and the treated-water price (unchanged since 1997 at TND 0.02/m3) is already far below treatment cost (TND 0.3 to 0.7/m3), so a price cut cannot raise uptake and a price rise would compete with free-pumped groundwater.
+  - blocker: Farmers can substitute shallow groundwater, which costs only pumping up to about 50 m, and the treated-water tariff (unchanged since 1997 at TND 0.02/m3) is already far below treatment cost (TND 0.3 to 0.7/m3, GWI 2010 as cited). The source infers that demand stayed modest despite the low price; whether a higher price would push farmers to groundwater is our inference, not measured.
     type: economic
     source: SRC-TG-652
   - blocker: Only 31 of 127 plants have tertiary treatment; 72.42% of treated water met the standards in 2024; the older plant stock (36% over 20 years old) produces effluent designed for discharge to rivers, not for users.
@@ -54,7 +54,7 @@ blockers:
   - blocker: Farmer distrust of water quality and worries about marketing of crops, even where stated acceptance is high.
     type: social
     source: SRC-TG-652
-  - blocker: Sanitation charges cover only about 60 to 65% of ONAS operating costs (assessments of 2014/16), so ONAS depends on state subsidy; a 30% tariff rise was decided in October 2022 and further rises are forecast. Plant upgrades are financed by foreign loans (EUR 81.9 million for PAQEE-RCC, state-guaranteed).
+  - blocker: Sanitation charges cover only about 60 to 65% of ONAS operating costs (SRC-TG-652, undated "so far"), so ONAS depends on state subsidy; a tariff rise of about 30% was decided in October 2022 and further rises are forecast (SRC-TG-650). Plant upgrades are financed by foreign loans (EUR 81.9 million for PAQEE-RCC, with a Republic of Tunisia guarantee).
     type: market
     source: SRC-TG-650
 criticisms:
@@ -66,7 +66,7 @@ criticisms:
     from: Deputies on the Finance Committee of the Assembly (2024)
     source: SRC-TG-559
     assessment: supported
-  - criticism: The reuse rules are not based on risk analysis, pathogen removal "has rarely been considered as a goal", and plants fail BOD5, COD and suspended-solids limits.
+  - criticism: The reuse rules are not based on risk analysis, pathogen removal "has rarely been considered as a goal", and in many cases treated water does not comply with the BOD5, COD and suspended-solids provisions.
     from: AfDB appraisal team, citing the Water REUSE 2050 study
     source: SRC-TG-650
     assessment: supported
@@ -79,7 +79,7 @@ criticisms:
     source: SRC-TG-651
     assessment: supported
 trade_offs:
-  - effect: Salinity. Soil irrigated with treated wastewater was 127% more saline than groundwater-irrigated soil, particularly deeper down, though sodicity indexes were lower (abstract only, two perimeters).
+  - effect: Salinity. Soil irrigated with treated wastewater was 127% more saline than groundwater-irrigated soil, particularly deeper down, though sodium adsorption ratio and a structural-stability cation ratio were lowest under treated water (abstract only; two perimeters irrigated for 38 and 20 years).
     on: agriculture (soil quality, long-term yields)
     horizon: long-term
     source: SRC-TG-654
@@ -95,13 +95,13 @@ trade_offs:
     on: energy
     horizon: short-term
     source: SRC-TG-652
-  - effect: Benefits outside the target. Reuse reduces effluent discharge to rivers and the sea (Raoued sea samples compliant after the outfall, SRC-TG-556 via FND-TG-550), cuts fertiliser need through nutrients in the water, and in coastal aquifers could replace pumped groundwater.
+  - effect: Benefits outside the target. Reuse reduces effluent discharge to rivers and the sea (the World Bank feature reports 96% of Raoued seawater samples from 2020 within bacteria limits and 97% for detergents, attributed to the Gulf of Tunis outfall; timing relative to project completion is unclear, SRC-TG-556 via FND-TG-550). Nutrients in the water can raise nutrient supply to crops (SRC-TG-652), and in coastal aquifers reuse could replace pumped groundwater (SRC-TG-653, not re-checked here).
     on: environment, agriculture, water
     horizon: long-term
-    source: SRC-TG-651
+    source: SRC-TG-556
 creates: []
 gap_left: Reuse adds a modest, bounded volume (about 290 to 300 Mm3 a year, possibly doubling by 2050 per AfDB). It does not touch the demand-side root causes in FND-TG-501 (subsidised tariffs, 80% of resources to irrigation, groundwater use above 100%). Actual uptake is not tracked on a consistent basis, so the benefit to the water balance is unknown. Salt and boron accumulation in reuse soils and groundwater has no monitoring owner and no phase 1 finding.
-conflict_of_interest: none. The owner (ONAS) and the financiers (AfDB, AFD, JICA, World Bank) have no link to TahaGHZ or to expert EXP-TG-001 (STC) in the records read. The AfDB and World Bank appraise and describe projects they fund, so their benefit figures are treated as claims.
+conflict_of_interest: none
 sources: [SRC-TG-530, SRC-TG-556, SRC-TG-557, SRC-TG-558, SRC-TG-559, SRC-TG-650, SRC-TG-651, SRC-TG-652, SRC-TG-653, SRC-TG-654, SRC-TG-655, SRC-TG-504]
 author: TahaGHZ
 ---
@@ -119,7 +119,7 @@ Phase 1 of the AfDB-financed upgrade programme (PAQEE, 2012) rehabilitated about
 ## What it claims, and what the evidence shows
 
 **Volumes do not match the target.** Three official series disagree, which is itself a finding:
-- 22 of 292 Mm3 reused in 2017, a direct rate of 8% (SRC-TG-650).
+- 22 of 292 Mm3 reused in 2017 (105 plants analysed), a direct rate of 8% (SRC-TG-650).
 - 57 of 293 Mm3 per year at end-2023 (about 19%), stated orally by ONAS to a parliamentary committee (SRC-TG-559).
 - 10 Mm3 (2023) and 11.3 Mm3 (2024) used for irrigation out of 293 and 295.7 Mm3 treated, about 3.4% and 3.8% (SRC-TG-530).
 
@@ -127,7 +127,7 @@ The ministry report itself says the use rate "stagne" at 10% at most (SRC-TG-530
 
 **Potential versus actual is an old gap.** In 2000-2009 the area actually irrigated averaged 47% of equipped area (SRC-TG-651). Demand for treated water plateaued at 25 to 30% of treated volume even though it was priced 3 to 4 times below freshwater (SRC-TG-652). FAO's 2002 paper already said the water was available but "not suitable for crops that are economically profitable", is still echoed in the crop restrictions (SRC-TG-653, SRC-TG-557).
 
-**Upgrades act on a real bottleneck.** The AfDB reports that stakeholders in the REUSE 2050 survey called quality "sometimes the main hindrance" (SRC-TG-650), and the ministry says treatment ignores user needs (SRC-TG-530). JICA reports 28 of 125 plants with tertiary treatment in 2021 (SRC-TG-558); the ministry reports 31 of 127 in 2024 (SRC-TG-530). That is a rise of three plants in three years. Outcomes of the 2012 phase (how many hectares were actually irrigated after upgrades) were not found.
+**Upgrades act on a real bottleneck.** The AfDB reports that stakeholders in the REUSE 2050 survey called quality "sometimes the main hindrance" (SRC-TG-650), and the ministry says treatment ignores user needs (SRC-TG-530). JICA, citing ONAS 2021, reports 28 of 125 plants with tertiary treatment (SRC-TG-558); the ministry reports 31 of 127 in 2024 (SRC-TG-530). That is a rise of three plants in three years, on slightly different plant counts. Outcomes of the 2012 phase (how many hectares were actually irrigated after upgrades) were not found.
 
 ## Audit
 
@@ -153,7 +153,7 @@ Listed in front matter. Two points stand out. First, the sources disagree on the
 
 - **Agriculture (long-term, observed):** soil salinity and boron accumulation under long-term irrigation (SRC-TG-654, SRC-TG-655). Whether this lowers yields was not shown. No existing finding covers this. It should go to the agriculture lane owner for phase 1 as a candidate: "Salt and boron accumulation in soils and aquifers under treated-wastewater irrigation".
 - **Water (observed locally):** boron reaching groundwater at Cebala Borj-Touil (SRC-TG-655).
-- **Energy (not quantified):** energy is about 60% of ONAS operating cost (SRC-TG-652); tertiary treatment and pumping add load. The only offset figure is the AfDB's own projection (SRC-TG-650). Any energy figure here needs a kWh per m3 source.
+- **Energy (not quantified):** energy is about 60% of ONAS operating cost (SRC-TG-652); tertiary treatment and pumping add load. The only offset figure is the AfDB's own preliminary estimate (1,887 tCO2eq/year, mixing solar and lower consumption, to be confirmed; SRC-TG-650). Any energy figure here needs a kWh per m3 source.
 - **Health (risk flagged, not measured):** AfDB names illness among farmers and consumers as a project risk (SRC-TG-650).
 - **Public finance:** ONAS operates at a deficit covered by state balancing subsidies; new loans add guaranteed debt (SRC-TG-559, SRC-TG-650).
 - **Projection, not observation:** the AfDB statement that treated water "will possibly more than double by 2050" is a projection (SRC-TG-650).
@@ -166,4 +166,6 @@ Phase 3 could examine: pairing upgrades with funded transfer lines and storage; 
 
 ## Verification
 
-**Outstanding verification:** (1) The SRC-TG-530 record lacks the extracts for Tables VI.5, VI.6, XI.8 and the REUT text (80% target, 10% stagnation, 31 tertiary plants, 72.42% compliance); the owner should add them. They were read from the original PDF on 2026-11-22. (2) Open the Water REUSE 2050 reports (AFD) for the diagnosis and the transfer-cost estimates. (3) Open the full texts of SRC-TG-654 and SRC-TG-655 (abstracts only seen). (4) Find the ex-post evaluation of PAQEE 1 and actual irrigated area at upgraded plants. (5) Find kWh per m3 for tertiary treatment and for conveyance in Tunisia. (6) Check the JORT texts of Decree 89-1047, Decree 93-2447 and the crop-list order, and the status of the new Water Code. (7) Open the original Abu-Madi et al. (2008) and GWI (2010) cited in SRC-TG-652. (8) Reconcile the 8%, 19% and 3.8% reuse series with ONAS and DGGREE. (9) Regional comparison (Jordan, Morocco, Egypt) was not done.
+**Independent review, 22 November 2026:** pass after corrections. Originals opened: AfDB PAQEE-RCC appraisal report (SRC-TG-650; paras 1.2.2-1.2.6, 1.3.2-1.3.3, 2.2.3, 2.5.1, 3.1.1, 3.2.2, 3.2.7-3.2.9, 4.6.2-4.6.3, component 3, results framework); MARHP Rapport national du secteur de l'eau 2024 (SRC-TG-530; tables VI.5-VI.7, XI.6-XI.9, REUT sections, 72.42% / 31 tertiary plants / 80% target / 450 Mm3); Drechsel and Hanjra case (SRC-TG-652; market environment, tariffs, acceptance, 25-30% plateau, 60-65% cost recovery, 60% energy share, shallow groundwater); World Bank 2011 consultation (SRC-TG-651; 47% for 2000-2009); JICA 2023 (SRC-TG-558; 28 of 125 tertiary, 50% goal 2016-2020); JICA 2012 (SRC-TG-557; vegetables and grazing prohibition, section 1.3.3); ARP report 2024/30 (SRC-TG-559; pages 6 and 7 viewed as images: 57 of 293 Mm3, deputies' remarks); AFD PNA (SRC-TG-504; -1139 Mm3 balance, 2050 PNA RCP 8.5 column); FAO Bazza 2002 (SRC-TG-653; "not suitable for crops that are economically profitable", medical care for workers); abstracts of SRC-TG-654 and SRC-TG-655 via Crossref; World Bank feature (SRC-TG-556). Corrections: (1) "low reuse is mainly a quality problem" softened to the AfDB wording "sometimes the main hindrance"; (2) the TND 0.02/m3 tariff is not the farmer price at Ouardanine (GDA resells at TND 0.035/m3); (3) solar claim reworded: 6,000 kWp is a plan and 1,887 tCO2eq/year a preliminary estimate mixing solar and lower consumption, and no source shows it offsets added energy cost; (4) "AfDB finds the framework incomplete" corrected to the Water REUSE 2050 diagnosis relayed by AfDB, and "prescriptive" to the AfDB's "normative approach"; (5) "plants fail BOD5/COD/SS" corrected to "in many cases do not comply"; (6) unconfirmed "assessments of 2014/16" removed and the 60-65% figure attributed to SRC-TG-652; (7) price-elasticity sentence marked as inference; (8) Raoued figures restated (96% bacteria, 97% detergent, 2020 samples, timing unclear); (9) JICA SRC-TG-558 added as evidence for the 50% goal; (10) 2050 deficit comparison now notes the ministry's 450 Mm3 plan. Scores and verdict are unchanged. Teammate sign-off is outstanding.
+
+Not confirmed in an original and left as stated limits: full texts of SRC-TG-654 and SRC-TG-655; Abu-Madi et al. (2008), GWI (2010) and Qadir et al. (2010) as cited in SRC-TG-652; JORT texts of the decrees and the crop-list order; status of the new Water Code; ex-post results of PAQEE 1; kWh per m3 figures; the SRC-TG-530 record still lacks the extracts for tables VI.5-VI.7 and XI.8 and the REUT text (its owner should add them; all were read in the original PDF in this review).

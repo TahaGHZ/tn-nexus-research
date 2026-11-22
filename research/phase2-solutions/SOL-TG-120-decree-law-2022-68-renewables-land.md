@@ -1,7 +1,7 @@
 ---
 id: SOL-TG-120
 name: "Decree-law 2022-68 (19 Oct 2022): faster public and private projects, with renewables allowed on farmland without a change of use"
-status: draft
+status: in-review
 type: law-regulation
 owner: Presidency of the Republic (decree-law); applied by the Ministries of Industry/Energy, Agriculture and Equipment, and the Tunisian Investment Authority
 targets: [FND-TG-191, FND-TG-192, FND-TG-841]
@@ -13,10 +13,10 @@ claims:
   - claim: "Art. 21 also lets the public body pay grid-connection and grid-reinforcement costs when the State proposes the site."
     evidence: SRC-TG-202
     verified: yes
-  - claim: "Art. 17 rewrites art. 8 ter of law 83-87: change of use of farmland for public projects and direct-investment operations is by joint arrêté of the agriculture and urbanism ministers on the regional commission's opinion, within three months; if the administration stays silent, the file goes to the Investment Authority's approvals commission."
+  - claim: "Art. 17 rewrites art. 8 ter of law 83-87: change of use of farmland for public projects and direct-investment operations (except projects falling under the Tunisian Investment Authority) is by joint arrêté of the agriculture and urbanism ministers on the regional commission's opinion, within three months; if the administration stays silent, the file goes to the Investment Authority's approvals commission."
     evidence: SRC-TG-202
     verified: yes
-  - claim: "The measures are meant to remove land-access and grid problems that slow renewable projects."
+  - claim: "The measures are meant to remove land-access and grid problems that slow renewable projects (as presented in a tier C press summary; the decree-law text itself states no such aim for art. 21)."
     evidence: SRC-TG-370
     verified: partial
   - claim: "The reform speeds up renewable roll-out."
@@ -35,8 +35,8 @@ greenwashing_flags: []
 verdict: partially-solves
 limits:
   - "Acts on land access and, for State-proposed sites, grid-connection cost. It does not touch the other documented causes of slow delivery: STEG as sole offtaker and its finances, the multi-step authorisation and parliament procedure, ageing grid (FND-TG-191)."
-  - "Art. 5 bis sets no land-class limit, no 'degraded land first' rule, no area cap and no agrivoltaic or dual-use requirement. Whatever land safeguards exist come from elsewhere (law 83-87 does not apply to renewables once art. 5 bis is read as written)."
-  - "Because the land is not re-zoned, a plant on farmland leaves no change-of-use decree or commission file that would let anyone count the area affected."
+  - "Art. 5 bis sets no land-class limit, no 'degraded land first' rule, no area cap and no agrivoltaic or dual-use requirement. Whatever land safeguards exist come from elsewhere (art. 5 bis overrides only arts. 6 and 8 of law 83-87, the change-of-use rules; whether other provisions of that law still apply to renewables was not checked)."
+  - "Because the land is not re-zoned, a plant on farmland would leave no change-of-use decree or commission file from which to count the area affected (inference from the text; no register was looked for beyond the sources opened)."
 blockers:
   - blocker: "Grid capacity and STEG finances remain the binding constraints on utility-scale plants; the 2022 text only shifts connection costs for State-proposed sites."
     type: institutional
@@ -61,17 +61,17 @@ trade_offs:
     on: "agriculture, pastoral communities"
     horizon: long-term
     source: SRC-TG-371
-  - effect: "Because converting farmland to energy use no longer needs a change-of-use procedure, the legal protection of law 83-87 (zones, regional commission opinion) is not triggered for renewables."
+  - effect: "Because art. 5 bis says renewable projects do not require a change of use of farmland, notwithstanding arts. 6 and 8 of law 83-87, the change-of-use procedure of that law (regional commission opinion, ministerial decision) is not required for renewables."
     on: "agriculture"
     horizon: long-term
     source: SRC-TG-202
-  - effect: "The same decree-law (art. 17 and art. 28) loosens change of use for other investment projects and allows regularisation of industrial plants already built on farmland; this is a farmland effect of the decree-law as a whole, not of its renewables article."
+  - effect: "The same decree-law (art. 17 and art. 28) sets a three-month deadline with an Investment Authority fallback for change of use for other investment projects and allows regularisation of industrial plants already built on farmland; this is a farmland effect of the decree-law as a whole, not of its renewables article."
     on: "agriculture"
     horizon: long-term
     source: SRC-TG-202
 creates: [FND-TG-841]
 gap_left: "Delivery speed is not shown to improve; the 2030 gap (FND-TG-192) rests mainly on offtaker finance, procedures and grid. No registry of land used by solar plants by class and former use; no siting rule that steers plants to degraded, State or non-productive land; dual use (agrivoltaics) is only a pilot."
-conflict_of_interest: "none found. Owner is the State; no link to our team or experts. EXP-TG-001 (STC employee) did not propose this text. Developers named in the sources (Qair) have no known link to our team."
+conflict_of_interest: none
 sources: [SRC-TG-201, SRC-TG-202, SRC-TG-370, SRC-TG-371, SRC-TG-372, SRC-TG-373, SRC-TG-853]
 author: TahaGHZ
 ---
@@ -82,7 +82,7 @@ Decree-law 2022-68 of 19 October 2022 contains "special provisions to improve th
 
 - **Art. 21: renewables.** It adds art. 5 bis and a second paragraph to art. 8 of law 2015-12 on electricity from renewables. Art. 5 bis: "Les projets de production des énergies renouvelables sont réalisés sur les terrains appartenant aux privés", with leased public agricultural and non-agricultural or local-authority land as an option after a feasibility check by the technical committee, subject to military-domain legislation. Then: "Nonobstant les dispositions des articles 6 et 8 de la loi n° 83-87 [...] la réalisation des projets de production de l'électricité des énergies renouvelables ne requiert pas le changement d'affectation des terres agricoles." Art. 8 para. 2: where the State proposes the site, the public body may bear grid-connection and reinforcement costs (SRC-TG-202; same reading in SRC-TG-370).
 - **Art. 22.** Replaces art. 31 of law 2015-12: on State land the producer gets a special real right over buildings and equipment, not over the land (SRC-TG-202).
-- **Art. 17 and 28: farmland and investment.** Art. 17 rewrites art. 8 ter of law 83-87. Change of use for public projects and direct-investment operations is by joint arrêté of the agriculture and urbanism ministers, on the regional commission's opinion, within three months, with a reasoned rejection within ten days. After silence, the file goes to the Investment Authority's approvals commission, which grants the authorisation after checking conditions and deadlines (SRC-TG-202). Art. 28 covers regularisation of industrial projects built on farmland before the decree-law (SRC-TG-202; conditions in SRC-TG-853, tier C).
+- **Art. 17 and 28: farmland and investment.** Art. 17 rewrites art. 8 ter of law 83-87. Change of use for public projects and direct-investment operations, except projects falling under the Tunisian Investment Authority, is by joint arrêté of the agriculture and urbanism ministers, on the regional commission's opinion, within three months, with a reasoned rejection within ten days. After silence, the file goes to the Investment Authority's approvals commission, with the authorisation granted after checking conditions and deadlines (art. 15 bis of law 2016-71) (SRC-TG-202). Art. 28 covers change of use, by joint arrêté, of farmland on which industrial projects were built before the decree-law; conditions (investment size, jobs, tax regularisation, environment) are set by a joint arrêté, and the Investment Authority lists the projects (SRC-TG-202; the 3 May 2023 arrêté criteria in SRC-TG-853, tier C).
 
 Related texts not opened: law 2019-47 (first version of art. 8 ter), the industry arrêté of 3 May 2023, the 2022 and 2026 concession laws.
 
@@ -90,7 +90,7 @@ Related texts not opened: law 2019-47 (first version of art. 8 ter), the industr
 
 The decree-law's stated purpose is to speed up projects. For renewables, press summaries present art. 21 as solving "problèmes d'ordre foncier et de raccordement" (SRC-TG-370). The legal text is confirmed. No source opened measures its effect on delivery time or capacity built. FND-TG-191 records that no source quantifies how often land access blocked a project, and that delays rest on finance, procedure and grid as well. The record therefore treats art. 21 as a plausible fix for one cause.
 
-Note on FND-TG-841: the gazette text of art. 8 ter (nouveau) says the change of use is by joint arrêté on commission opinion, and after silence the Investment Authority commission grants the authorisation after verification (SRC-TG-202). SRC-TG-853 says "accordée d'office" and says the minister's authorisation was replaced by the commission opinion alone. The text read here differs on form (arrêté) and on "d'office" wording. This may also explain the 2022 Mhamdia joint arrêté that FND-TG-841 found hard to fit.
+Note on FND-TG-841: the gazette text of art. 8 ter (nouveau) says the change of use is by joint arrêté on commission opinion, and after silence the Investment Authority commission grants the authorisation after verification (SRC-TG-202). SRC-TG-853 says "accordée d'office" and says the minister's authorisation was replaced by the commission opinion alone. The gazette text does not use the word "d'office"; it says the authorisation is granted after verification of conditions and deadlines, so "d'office" is the summary's gloss. The gazette text also excludes projects falling under the Investment Authority from the arrêté route. Whether this explains the Mhamdia arrêté in FND-TG-841 was not checked.
 
 ## Audit
 
@@ -100,7 +100,7 @@ Note on FND-TG-841: the gazette text of art. 8 ter (nouveau) says the change of 
 
 **adoption: 2.** The text is in force. Projects on State sites are going ahead: the five concession bills approved in April 2026 (SRC-TG-372) and Khobna on State land (SRC-TG-371). Whether art. 5 bis was actually invoked for farmland, as opposed to State land used for grazing, is not shown.
 
-**side_effects: 1.** Art. 21 removes the only formal land-protection step for renewables without any replacement rule: no class limit, no degraded-land-first rule, no area register, no dual-use requirement. The farmland effect of the same decree-law's arts. 17 and 28 adds to this. The one measured project (Khobna, 267.74 ha) was grazing land with no cropping (developer's statement, SRC-TG-371), so observed loss to cropland is not shown. Score 1 and not 0 because actual loss is unmeasured and the one documented site was not cropland.
+**side_effects: 1.** Art. 21 removes the change-of-use step of law 83-87 (arts. 6 and 8) for renewables and the text adds no replacement rule: no class limit, no degraded-land-first rule, no area register, no dual-use requirement. The farmland effect of the same decree-law's arts. 17 and 28 adds to this. The one measured project (Khobna, 267.74 ha) was grazing land with no cropping (developer's statement, SRC-TG-371), so observed loss to cropland is not shown. Score 1 and not 0 because actual loss is unmeasured and the one documented site was not cropland.
 
 **cost_accessibility: 2.** The legal change costs the State little. When the State proposes the site it may pay connection and grid-reinforcement costs (SRC-TG-202), which falls on STEG and the public budget (see FND-TG-161 for STEG's finances).
 
@@ -108,7 +108,7 @@ Note on FND-TG-841: the gazette text of art. 8 ter (nouveau) says the change of 
 
 - Art. 5 bis (SRC-TG-202) is permissive and has no siting criteria. Nothing in it ranks degraded or State land ahead of fertile land; the preference for private land and leased public land is not a land-quality test.
 - Grid and offtaker constraints are untouched (FND-TG-191). The 2022 text does not create a tariff or regulator change.
-- Other legal blockers: the technical committee's feasibility test and the military-domain legislation for leased public land (SRC-TG-202). The 2015 domestic authorisation ceilings (10 MW PV) sit in a decree not changed here (SRC-TG-201).
+- Other legal blockers: the technical committee's feasibility test and the military-domain legislation for leased public land (SRC-TG-202). Decree 2016-1123 (art. 14) caps projects for local consumption that need a ministerial authorisation at 10 MW for PV; that decree is not amended by the text read here (SRC-TG-201).
 - Agrivoltaics is not mandated. ANME has launched a call for demonstration projects after GIZ-funded strategic studies (SRC-TG-373, 2025); no pilot result was found.
 
 ## Criticisms
@@ -118,9 +118,9 @@ Note on FND-TG-841: the gazette text of art. 8 ter (nouveau) says the change of 
 
 ## Trade-offs and consequences
 
-- **Agriculture, long term (risk, not observation).** Solar plants on farmland would take land out of production for the life of the plant. No source gives the area. Illustrative arithmetic from one project only: Khobna is 237 MW on 267.74 ha, about 1.1 ha per MW (SRC-TG-371). The 2030 capacity gap in FND-TG-192 is about 1,350-2,330 MW. If all of it were utility PV at that density, it would take roughly 1,500-2,600 ha. This mixes wind, rooftop and PV and rests on one site, so it is an order of magnitude only and says nothing on land class.
+- **Agriculture, long term (risk, not observation).** Solar plants on farmland would take land out of production for the life of the plant. No source gives the area. Illustrative arithmetic from one project only: Khobna is 237 MW on 267.74 ha, about 1.1 ha per MW (SRC-TG-371). The conditional 2030 gap in FND-TG-192 (about 1,350 MW below 3,815 MW and 2,330 MW below 4,800 MW if every listed pipeline project is built) is a calculation, not a forecast. If all of it were utility PV at that density, it would take roughly 1,500-2,600 ha. This mixes wind, rooftop and PV and rests on one site, so it is an order of magnitude only and says nothing on land class.
 - **Agriculture and pastoral communities.** The Khobna study says the direct impact zone covers "terres agricoles et pastorales" and that local agriculture is mainly olive, almond and pistachio trees and market gardening (SRC-TG-371). Loss of grazing land is a possible effect on herders; the developer reports no objection from consulted communities.
-- **Loss of the legal tool.** Under law 83-87, change of use of farmland goes through a regional commission opinion and a decree or arrêté, which leave a traceable record (FND-TG-841). Art. 5 bis removes that step for renewables, so land use change can happen with no such record. This is why the area affected cannot be counted today.
+- **Loss of the legal tool.** Under law 83-87, change of use of farmland goes through a regional commission opinion and a decree or arrêté, which leave a traceable record (FND-TG-841). Art. 5 bis says renewables need no change of use of farmland, so land could be used with no such record (inference from the text). This is why the area affected cannot be counted today.
 - **Whole decree-law.** Art. 17 (three-month deadline, Investment Authority fallback) and art. 28 (regularisation of industrial plants built on farmland) weaken farmland protection for other investments. This belongs to FND-TG-841, linked under `creates`.
 - **Water and energy.** Not examined beyond the grid-cost rule. Water use by plants is raised by Tozeur farmers in a press piece that could not be read in full, so no water claim is made.
 
@@ -132,4 +132,5 @@ For phase 3: a siting rule (State, degraded or non-productive land first, limits
 
 ## Verification
 
-**Outstanding verification:** (1) SRC-TG-202 holds no extract of arts. 17, 21, 22 and 28; the exact text was read in the gazette PDF for this record and should be added to that source record by its owner. (2) Check whether art. 8 ter as applied needs a joint arrêté (gazette text) or is granted "d'office" (SRC-TG-853), and whether renewable projects count as "direct investment"; FND-TG-841 should be reconciled with art. 17. (3) Reconcile Khobna 237 MW (SRC-TG-371) with 198 MW (SRC-TG-372) and its area with the ONEM list. (4) Find hectares and land class for the other concessions (Mazzouna, El Ksour, Sagdoud, Menzel El Habib) and for authorisation-regime projects, from ESIAs or the concession laws. (5) Open the Legal Agenda, Nawaat and BHRRC items and seek a farmers' union (UTAP) position. (6) Confirm whether the ANME agrivoltaics call produced any funded pilot. (7) Independent teammate check before validated.
+**Independent review, 22 November 2026:** pass after corrections. Originals opened: gazette PDF of decree-law 2022-68 (JORT No. 114, 21 October 2022, arts. 17, 21, 22, 28; SRC-TG-202 url), decree 2016-1123 art. 14 table (SRC-TG-201), the EIB-hosted Khobna ESIA summary (sections 1, 1.2, impact zone, local economy; 237 MW, 267.74 ha, grazing, no objection), the allAfrica/La Presse article of 28 April 2026 (five concessions, farmland, tariff and arbitration remarks), La Presse of 12 September 2025 (ANME demonstrators, GIZ-funded studies), L'Economiste Maghrébin of 29 October 2022; FND-TG-192 for the 1,350-2,330 MW arithmetic. Corrections: art. 17 excludes projects falling under the Investment Authority (added); the 2016 decree, not 2015, and its 10 MW ceiling concerns local-consumption projects (fixed); claims that art. 5 bis removes "the only" land protection or that law 83-87 "does not apply" narrowed to what the text says (it overrides arts. 6 and 8 only); the "d'office" wording is the Juridoc summary's, not the gazette's; the 1,350-2,330 MW gap now stated as conditional; the claim that the measures aim at land and grid problems is marked as the press summary's framing. Scores and verdict unchanged. Not verified in any original: the Khobna 237 MW versus 198 MW difference, hectares of the other concessions, any farmers' union or NGO criticism, and any ANME pilot result; the record states these as unconfirmed.
+Teammate sign-off is outstanding. Note for the SRC-TG-202 owner: that record holds no extract of arts. 17, 21, 22, 28 and should get the gazette text.

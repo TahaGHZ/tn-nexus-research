@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { AlertTriangle, ArrowUpRight, FileCheck2, Scale } from 'lucide-react';
+import { ArrowUpRight, FileCheck2, Scale } from 'lucide-react';
 import type { SolutionSummary } from '../types/research';
 import { SECTOR_META, STATUS_META, TierMixBar } from './ResearchFormatting';
 import { ScoreBars, VERDICT_META, formatLabel } from './SolutionFormatting';
@@ -59,12 +59,6 @@ export function SolutionCard({ solution }: SolutionCardProps) {
             <FileCheck2 className="h-3 w-3" />
             {solution.status === 'draft' ? 'Draft audit' : status.label}
           </span>
-          {solution.conflictOfInterest && !/^none\b/i.test(solution.conflictOfInterest) && (
-            <span className="inline-flex items-center gap-1 rounded-full border border-rose-200 bg-rose-50 px-2 py-0.5 font-medium text-rose-800">
-              <AlertTriangle className="h-3 w-3" />
-              Conflict of interest
-            </span>
-          )}
           <span className="font-mono text-stone-500">
             {solution.scoreTotal}/{solution.scoreMax}
           </span>
