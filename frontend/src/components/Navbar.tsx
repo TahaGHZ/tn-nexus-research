@@ -14,7 +14,7 @@ function GithubLink({ className = '' }: { className?: string }) {
       rel="noopener noreferrer"
       aria-label="Nexus TN on GitHub"
       title={GITHUB_URL ? 'Nexus TN on GitHub' : 'GitHub repository (link coming soon)'}
-      className={`inline-flex items-center justify-center rounded-lg p-2 text-black transition hover:bg-stone-200/70 ${className}`}
+      className={`inline-flex h-9 w-9 items-center justify-center rounded-full bg-black text-white transition hover:bg-slate-700 ${className}`}
     >
       <Github className="h-5 w-5" />
     </a>

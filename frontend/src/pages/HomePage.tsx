@@ -235,6 +235,14 @@ export function HomePage({ data }: HomePageProps) {
                   {stats.verifiedFindings} verified findings
                 </Link>
               </div>
+              <p className="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-xs text-stone-500">
+                <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+                Open source
+                <span aria-hidden="true">·</span>
+                Free
+                <span aria-hidden="true">·</span>
+                and always will be
+              </p>
             </div>
 
             <div className="lg:col-span-6">
