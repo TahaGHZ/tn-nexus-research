@@ -34,15 +34,15 @@ export function SolutionsPage({ data }: SolutionsPageProps) {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-      <div className="overflow-hidden rounded-3xl bg-[#0B1320] p-8 text-white sm:p-10">
-        <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-500/15 px-3 py-1 font-mono text-xs font-semibold text-amber-300">
+      <div className="overflow-hidden rounded-3xl border border-stone-200 bg-white p-6 shadow-xs sm:p-8">
+        <span className="inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-3 py-1 font-mono text-xs font-semibold text-amber-800">
           <Scale className="h-3.5 w-3.5" />
           Phase 2 · {phase2?.state === 'UNLOCKED' ? 'Unlocked' : 'Locked'}
         </span>
-        <h1 className="mt-4 font-display text-3xl font-bold tracking-tight sm:text-4xl">
+        <h1 className="mt-3 font-display text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
           Solution Audits
         </h1>
-        <p className="mt-3 max-w-3xl text-sm leading-relaxed text-slate-300 sm:text-base">
+        <p className="mt-3 max-w-3xl text-sm leading-relaxed text-stone-600 sm:text-base">
           Existing products, laws and programmes, checked against the root causes in our verified
           findings. Each audit asks whether the solution acts on the cause, what the independent
           evidence shows, what blocks it, who criticises it, and what it costs the other sectors.
@@ -50,13 +50,13 @@ export function SolutionsPage({ data }: SolutionsPageProps) {
 
         <div className="mt-6 grid gap-3 sm:grid-cols-5">
           {VERDICT_ORDER.map((v) => (
-            <div key={v} className="rounded-xl border border-slate-700/80 bg-slate-900/70 p-3">
+            <div key={v} className="rounded-xl border border-stone-200 bg-[#FAF8F4] p-3">
               <div className="flex items-center gap-2">
                 <span className={`h-2 w-2 rounded-full ${VERDICT_META[v].dot}`} />
-                <span className="text-xs font-semibold text-slate-200">{VERDICT_META[v].label}</span>
+                <span className="text-xs font-semibold text-slate-800">{VERDICT_META[v].label}</span>
               </div>
-              <div className="mt-1 font-display text-2xl font-bold">{stats.verdictCounts[v] ?? 0}</div>
-              <p className="mt-1 text-[11px] leading-snug text-slate-400">{VERDICT_META[v].meaning}</p>
+              <div className="mt-1 font-display text-2xl font-bold text-slate-950">{stats.verdictCounts[v] ?? 0}</div>
+              <p className="mt-1 text-[11px] leading-snug text-stone-500">{VERDICT_META[v].meaning}</p>
             </div>
           ))}
         </div>

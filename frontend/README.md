@@ -64,7 +64,7 @@ The site uses hash routing (`/#/...`) so it works from any static host or a file
 | `/rnd` | `ProposalsPage` | Phase 3 R&D proposals |
 | `/rnd/:id` | `ProposalDetailPage` | One proposal: question, hypothesis, scored options, phased plan, guardrails, data still needed, re-score triggers |
 | `/runs` | `RunsPage` | Recorded agent runs |
-| `/runs/:id` | `RunReplayPage` | One run, either step by step with streaming text or as the full conversation, with the mascot reacting to each step |
+| `/runs/:id` | `RunReplayPage` | One run, either step by step (one click per step, agent replies stream in) or as the full conversation, with the mascot reacting to each step |
 
 ## Files
 
@@ -110,13 +110,13 @@ Do not edit generated files by hand; change the records in `research/` and re-ru
 | `ProposalsPage.tsx` | Grid of R&D proposals with their top-scored option |
 | `ProposalDetailPage.tsx` | Full proposal: the question and hypothesis, the options table coloured by score, the plan in now / next / later / always columns, how each guardrail was applied, the Markdown narrative, data still needed, re-score triggers, how to test it, linked findings, audits, run and sources |
 | `RunsPage.tsx` | List of agent runs |
-| `RunReplayPage.tsx` | Two views, switched at the top: **Step by step** replays the run (user messages appear, tool steps pause, agent messages type out, then render as Markdown with record links. with controls for play/pause, next step, show all, restart and speed); **Full conversation** shows every step at once, rendered, with no animation. The mascot waves when the person speaks, scans while a tool runs, and while the agent writes plays the move for the step's sector (rain for water, charge for energy, bloom for agriculture, a random move for cross-sector steps); paused or finished, it plays random idle moves |
+| `RunReplayPage.tsx` | Two views, switched at the top. **Step by step**: nothing plays on its own; each click on **Next step** reveals one more step, and an agent reply streams in as it appears (a second click finishes it at once). **Full conversation**: every step at once, rendered. The mascot waves for the person's messages, scans for tool steps, and for agent replies plays the move of the step's sector (rain for water, charge for energy, bloom for agriculture, a random move otherwise) |
 
 ### Components (`src/components/`)
 
 | File | Purpose |
 |---|---|
-| `Navbar.tsx` | Sticky header with links to overview, findings, solution audits, R&D and agent runs, plus a mobile menu |
+| `Navbar.tsx` | Sticky header with links to overview, findings, solution audits, R&D and agent runs, a GitHub icon (set `GITHUB_URL` at the top of the file once the repository is public), plus a mobile menu |
 | `Footer.tsx` | Sector and module links with live counts |
 | `FindingCard.tsx` | Card for one finding in the blog grid |
 | `SolutionCard.tsx` | Card for one solution audit: verdict, status, compact score bars, source tier mix |

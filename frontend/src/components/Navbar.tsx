@@ -1,7 +1,25 @@
 import { Link, NavLink } from 'react-router-dom';
-import { Bot, BookOpen, Compass, FlaskConical, Menu, Scale, X } from 'lucide-react';
+import { Bot, BookOpen, Compass, FlaskConical, Github, Menu, Scale, X } from 'lucide-react';
 import { useState } from 'react';
 import { PixelGolem } from './PixelGolem';
+
+// Set to the public repository URL once it is published; until then the icon links nowhere.
+const GITHUB_URL = '';
+
+function GithubLink({ className = '' }: { className?: string }) {
+  return (
+    <a
+      href={GITHUB_URL || undefined}
+      target={GITHUB_URL ? '_blank' : undefined}
+      rel="noopener noreferrer"
+      aria-label="Nexus TN on GitHub"
+      title={GITHUB_URL ? 'Nexus TN on GitHub' : 'GitHub repository (link coming soon)'}
+      className={`inline-flex items-center justify-center rounded-lg p-2 text-slate-700 transition hover:bg-stone-200/70 hover:text-slate-950 ${className}`}
+    >
+      <Github className="h-5 w-5" />
+    </a>
+  );
+}
 
 interface NavbarProps {
   verifiedCount: number;
@@ -63,9 +81,13 @@ export function Navbar({ verifiedCount, solutionCount }: NavbarProps) {
             <Bot className="h-4 w-4" />
             Agent Runs
           </NavLink>
+          <span className="mx-1 h-6 w-px bg-stone-300" aria-hidden="true" />
+          <GithubLink />
         </nav>
 
-        {/* Mobile menu button */}
+        {/* Mobile: GitHub icon and menu button */}
+        <div className="flex items-center gap-1 lg:hidden">
+        <GithubLink />
         <button
           type="button"
           onClick={() => setMobileOpen((v) => !v)}
@@ -74,6 +96,7 @@ export function Navbar({ verifiedCount, solutionCount }: NavbarProps) {
         >
           {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
+        </div>
       </div>
 
       {/* Mobile Dropdown */}

@@ -172,16 +172,24 @@ export function HomePage({ data }: HomePageProps) {
     };
   }, []);
 
-  const handleSelectAnimation = (id: GolemAnimation) => {
-    const entry = GOLEM_ANIMATIONS.find((a) => a.id === id);
-    const nextMode = entry?.mode ?? 'nexus';
-    setGolemAnim(id);
-    setGolemMode(nextMode);
-    if (nextMode !== 'nexus') {
-      const match = GOLEM_QUOTES.findIndex((q) => q.sector === nextMode);
-      if (match >= 0) setQuoteIdx(match);
-    }
-  };
+  // The mascot shuffles through its moves on its own; a sector move also shows a fact from that sector.
+  useEffect(() => {
+    const moves = GOLEM_ANIMATIONS.filter((a) => a.id !== 'auto');
+    let last = '';
+    const timer = window.setInterval(() => {
+      const pool = moves.filter((m) => m.id !== last);
+      const pick = pool[Math.floor(Math.random() * pool.length)];
+      last = pick.id;
+      setGolemAnim(pick.id);
+      setGolemMode(pick.mode);
+      if (pick.mode !== 'nexus') {
+        const sameSector = GOLEM_QUOTES.map((q, i) => ({ q, i })).filter(({ q }) => q.sector === pick.mode);
+        if (sameSector.length) setQuoteIdx(sameSector[Math.floor(Math.random() * sameSector.length)].i);
+      }
+    }, 4200);
+    return () => window.clearInterval(timer);
+  }, []);
+
   const activeQuote = GOLEM_QUOTES[quoteIdx % GOLEM_QUOTES.length];
 
   const options = kerker?.options || [];
@@ -256,23 +264,6 @@ export function HomePage({ data }: HomePageProps) {
                 )}
               </InvestigationGraph>
 
-              <div className="mx-auto mt-4 flex max-w-[520px] flex-wrap items-center justify-center gap-1.5">
-                {GOLEM_ANIMATIONS.map((item) => (
-                  <button
-                    key={item.id}
-                    type="button"
-                    onClick={() => handleSelectAnimation(item.id)}
-                    aria-pressed={golemAnim === item.id}
-                    className={`rounded-lg border px-2.5 py-1 font-mono text-[11px] transition ${
-                      golemAnim === item.id
-                        ? 'border-slate-950 bg-slate-950 text-white'
-                        : 'border-stone-300 bg-white text-slate-700 hover:border-stone-500'
-                    }`}
-                  >
-                    {item.label}
-                  </button>
-                ))}
-              </div>
             </div>
           </div>
         </div>
@@ -587,6 +578,23 @@ export function HomePage({ data }: HomePageProps) {
               'He pointed us to these systems as examples of solutions that exist; our audit shows why they have not changed the national peak.',
             ]}
             link={{ to: '/solutions/SOL-TG-100', label: 'Our audit of central air conditioning' }}
+          />
+          <Voice
+            icon={GraduationCap}
+            role="Environmental economist (name withheld at his request)"
+            points={[
+              'Helped us tailor and validate the AI system’s instructions and its outputs.',
+              'Set the guardrails’ working values: a ten-year horizon, a 9–10% discount rate, and rebound effects of about 35% for air conditioning and 50% for solar pumping.',
+            ]}
+            link={{ to: '/rnd', label: 'See the guardrails at work' }}
+          />
+          <Voice
+            icon={Droplets}
+            role="Hydraulics engineer, former Regional Commissioner for Agricultural Development (CRDA) in Kef, Jendouba and Kasserine"
+            points={[
+              'Helped us understand what is actually happening on the ground in Tunisia.',
+              'Guided the investigation of our case study with a great deal of insightful advice.',
+            ]}
           />
         </div>
         <p className="mt-8 text-center font-display text-xl font-semibold text-slate-900">

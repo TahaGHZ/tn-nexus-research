@@ -13,22 +13,22 @@ export function RunsPage({ data }: RunsPageProps) {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-      <div className="overflow-hidden rounded-3xl bg-[#0B1320] p-8 text-white sm:p-10">
+      <div className="overflow-hidden rounded-3xl border border-stone-200 bg-white p-6 shadow-xs sm:p-8">
         <div className="grid items-center gap-8 md:grid-cols-12">
           <div className="md:col-span-8">
-            <span className="inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-500/15 px-3 py-1 font-mono text-xs font-semibold text-sky-300">
+            <span className="inline-flex items-center gap-2 rounded-full border border-sky-200 bg-sky-50 px-3 py-1 font-mono text-xs font-semibold text-sky-800">
               <Bot className="h-3.5 w-3.5" />
               Agent Runs
             </span>
-            <h1 className="mt-4 font-display text-3xl font-bold tracking-tight sm:text-4xl">Recorded Agent Runs</h1>
-            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-300 sm:text-base">
+            <h1 className="mt-3 font-display text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">Recorded Agent Runs</h1>
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-stone-600 sm:text-base">
               Replay how the gateway agent answers a real question: it asks what it needs to know,
               searches the verified findings, reads the solution audits, and runs the R&amp;D method to
               a phased plan, saying what it does not know and who holds the data.
             </p>
           </div>
           <div className="flex justify-center md:col-span-4 md:justify-end">
-            <div className="rounded-2xl border border-slate-700/80 bg-slate-900/80 p-4">
+            <div className="rounded-2xl bg-[#0B1320] p-4">
               <PixelGolem size={150} mode="nexus" animation="auto" interactive />
             </div>
           </div>

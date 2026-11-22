@@ -13,13 +13,13 @@ export function ProposalsPage({ data }: ProposalsPageProps) {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-      <div className="overflow-hidden rounded-3xl bg-[#0B1320] p-8 text-white sm:p-10">
-        <span className="inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-500/15 px-3 py-1 font-mono text-xs font-semibold text-emerald-300">
+      <div className="overflow-hidden rounded-3xl border border-stone-200 bg-white p-6 shadow-xs sm:p-8">
+        <span className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 font-mono text-xs font-semibold text-emerald-800">
           <FlaskConical className="h-3.5 w-3.5" />
           Phase 3 · R&amp;D
         </span>
-        <h1 className="mt-4 font-display text-3xl font-bold tracking-tight sm:text-4xl">R&amp;D Proposals</h1>
-        <p className="mt-3 max-w-3xl text-sm leading-relaxed text-slate-300 sm:text-base">
+        <h1 className="mt-3 font-display text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">R&amp;D Proposals</h1>
+        <p className="mt-3 max-w-3xl text-sm leading-relaxed text-stone-600 sm:text-base">
           Each proposal starts from a real case, rebuilds what happened, maps the causes, scores
           every option against seven guardrails reviewed by an economist, and ends with a phased plan,
           an owner and a measure for each step. Scores are a first assessment for operators and

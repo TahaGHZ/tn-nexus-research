@@ -1,20 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import {
-  ArrowLeft,
-  Bot,
-  FastForward,
-  FlaskConical,
-  Info,
-  List,
-  Pause,
-  Play,
-  RotateCcw,
-  SkipForward,
-  User,
-  Wrench,
-} from 'lucide-react';
+import { ArrowLeft, Bot, ChevronDown, FlaskConical, Info, List, ListOrdered, User, Wrench } from 'lucide-react';
 import { MarkdownArticle } from '../components/MarkdownArticle';
 import { PixelGolem } from '../components/PixelGolem';
 import type { GolemAnimation, GolemMode } from '../components/PixelGolem';
@@ -40,10 +27,10 @@ const SECTOR_ANIMATION: Record<string, GolemAnimation> = {
 const NEXUS_MOVES: GolemAnimation[] = ['scan', 'wave', 'stomp'];
 
 /**
- * The mascot follows the replay: it waves when the person speaks, scans while a tool runs,
- * and while the agent writes it plays the move of the step's sector (rain for water, charge for
- * energy, bloom for agriculture), or a random move for cross-sector steps. Paused or finished,
- * it falls back to its own random idle moves.
+ * The mascot follows the step on screen: it waves for the person's messages, scans for tool
+ * steps, and for the agent's messages plays the move of the step's sector (rain for water,
+ * charge for energy, bloom for agriculture, a random move for cross-sector steps).
+ * In the full-conversation view it plays its own random idle moves.
  */
 function golemFor(step: RunStep | undefined, active: boolean): { animation: GolemAnimation; mode: GolemMode } {
   if (!step || !active) return { animation: 'auto', mode: 'nexus' };
@@ -55,19 +42,18 @@ function golemFor(step: RunStep | undefined, active: boolean): { animation: Gole
   return { animation: SECTOR_ANIMATION[step.sector] || NEXUS_MOVES[step.n % NEXUS_MOVES.length], mode };
 }
 
-const SPEEDS = [1, 2, 4];
-
-/** Replays one RUN record step by step, typing the agent's messages. */
+/**
+ * Shows one RUN record. Step by step: nothing plays on its own; each click on "Next step"
+ * reveals one more step, and an agent message streams in as it appears. Full conversation:
+ * every step at once.
+ */
 export function RunReplayPage({ indexData }: RunReplayPageProps) {
   const { id } = useParams<{ id: string }>();
   const [run, setRun] = useState<RunDetail | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [shown, setShown] = useState(0); // number of steps fully or partly visible
-  const [typed, setTyped] = useState(0); // characters typed in the last visible step
-  const [playing, setPlaying] = useState(true);
-  const [speed, setSpeed] = useState(2);
-  // 'step': steps appear one by one and agent messages stream in; 'full': the whole conversation at once.
   const [view, setView] = useState<'step' | 'full'>('step');
+  const [shown, setShown] = useState(1); // steps visible in the step-by-step view
+  const [typed, setTyped] = useState(0); // characters streamed in the newest agent step
   const [selectedSource, setSelectedSource] = useState<SourceRecord | null>(null);
   const bottomRef = useRef<HTMLDivElement | null>(null);
 
@@ -76,9 +62,8 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
   useEffect(() => {
     setRun(null);
     setError(null);
-    setShown(0);
+    setShown(1);
     setTyped(0);
-    setPlaying(true);
     if (!id || !/^RUN-[A-Z]+-\d+$/.test(id)) {
       setError('Invalid run identifier.');
       return;
@@ -89,12 +74,7 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
         if (!r.ok) throw new Error('Run not found.');
         return r.json() as Promise<RunDetail>;
       })
-      .then((r) => {
-        if (!cancelled) {
-          setRun(r);
-          setShown(1);
-        }
-      })
+      .then((r) => !cancelled && setRun(r))
       .catch((e: unknown) => !cancelled && setError(e instanceof Error ? e.message : 'Unable to load run.'));
     return () => {
       cancelled = true;
@@ -108,30 +88,23 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
   }, [run]);
 
   const total = run?.steps.length || 0;
-  const current = run && shown > 0 ? run.steps[shown - 1] : undefined;
-  const currentDone = !current || current.role !== 'agent' || typed >= current.content.length;
-  const finished = shown >= total && currentDone;
+  const isFull = view === 'full';
+  const visible = isFull ? total : Math.min(shown, total);
+  const current = run && visible > 0 ? run.steps[visible - 1] : undefined;
+  const streaming = !isFull && !!current && current.role === 'agent' && typed < current.content.length;
+  const atEnd = visible >= total;
 
-  // Drive the replay: type agent messages, pause briefly on user and tool steps.
+  // Stream the newest agent message once it has been revealed.
   useEffect(() => {
-    if (!run || !playing || !current) return;
-    if (!currentDone) {
-      const t = window.setTimeout(() => setTyped((n) => Math.min(current.content.length, n + 6 * speed)), 16);
-      return () => window.clearTimeout(t);
-    }
-    if (shown >= total) return;
-    const pause = current.role === 'tool' ? 900 : current.role === 'user' ? 1100 : 700;
-    const t = window.setTimeout(() => {
-      setShown((n) => n + 1);
-      setTyped(0);
-    }, pause / speed);
+    if (!streaming || !current) return;
+    const t = window.setTimeout(() => setTyped((n) => Math.min(current.content.length, n + 10)), 16);
     return () => window.clearTimeout(t);
-  }, [run, playing, current, currentDone, shown, total, speed, typed]);
+  }, [streaming, current, typed]);
 
-  // Follow the replay in step mode; the full view keeps the reader where they are.
+  // In the step view, keep the newest step in sight.
   useEffect(() => {
-    if (view === 'step') bottomRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
-  }, [shown, Math.floor(typed / 240), view]);
+    if (!isFull) bottomRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  }, [shown, Math.floor(typed / 300), isFull]);
 
   if (error) {
     return (
@@ -145,30 +118,36 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
   }
   if (!run) return <div className="mx-auto h-96 max-w-5xl animate-pulse rounded-3xl bg-stone-200 px-4 py-16" />;
 
-  const golem = golemFor(current, playing && !finished);
   const next = () => {
-    if (!currentDone && current) setTyped(current.content.length);
-    else if (shown < total) {
+    if (streaming && current) {
+      setTyped(current.content.length); // finish the message being written
+      return;
+    }
+    if (!atEnd) {
       setShown((n) => n + 1);
       setTyped(0);
     }
   };
-  const showAll = () => {
-    setShown(total);
-    setTyped(Number.MAX_SAFE_INTEGER);
-    setPlaying(false);
-  };
-  const restart = () => {
-    setShown(1);
-    setTyped(0);
-    setPlaying(true);
-  };
   const switchView = (v: 'step' | 'full') => {
     setView(v);
-    if (v === 'full') showAll();
-    else restart();
+    setShown(1);
+    setTyped(0);
   };
-  const isFull = view === 'full';
+
+  const golem = golemFor(current, !isFull);
+  const nextLabel = streaming ? 'Finish this message' : atEnd ? 'End of the conversation' : 'Next step';
+
+  const NextButton = () => (
+    <button
+      type="button"
+      onClick={next}
+      disabled={atEnd && !streaming}
+      className="inline-flex items-center justify-center gap-2 rounded-xl bg-slate-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:cursor-default disabled:bg-stone-300 disabled:text-stone-600"
+    >
+      <ChevronDown className="h-4 w-4" />
+      {nextLabel}
+    </button>
+  );
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
@@ -177,7 +156,7 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
       </Link>
 
       <div className="mt-4 grid gap-8 lg:grid-cols-12">
-        {/* Mascot and controls */}
+        {/* Mascot and run details */}
         <aside className="lg:col-span-4">
           <div className="space-y-4 lg:sticky lg:top-24">
             <div className="rounded-3xl bg-[#0B1320] p-5 text-white">
@@ -187,17 +166,17 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
               <div className="mt-3 text-center font-mono text-xs text-slate-300">
                 {isFull
                   ? 'Full conversation'
-                  : finished
-                  ? 'Run complete'
-                  : !playing
-                    ? 'Paused'
-                    : current?.role === 'user'
-                      ? 'Listening…'
-                      : current?.role === 'tool'
-                        ? `Running: ${current.action || 'tool'}…`
-                        : 'Writing…'}
+                  : streaming
+                    ? 'Writing…'
+                    : current?.role === 'tool'
+                      ? `Ran: ${current.action || 'tool'}`
+                      : current?.role === 'user'
+                        ? 'Question received'
+                        : atEnd
+                          ? 'Conversation complete'
+                          : 'Waiting for you'}
               </div>
-              {current && current.role !== 'user' && (
+              {current && current.role !== 'user' && !isFull && (
                 <div className="mt-2 flex justify-center gap-2">
                   <span className={`rounded-full px-2 py-0.5 font-mono text-[10px] ring-1 ${MODE_META[current.mode]?.className || MODE_META.gateway.className}`}>
                     {MODE_META[current.mode]?.label || current.mode}
@@ -205,39 +184,15 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
                   <span className="rounded-full bg-white/10 px-2 py-0.5 font-mono text-[10px] text-slate-200">{current.sector}</span>
                 </div>
               )}
-
               {!isFull && (
-              <>
-              <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-slate-700">
-                <div className="h-full bg-sky-400 transition-all" style={{ width: `${(shown / Math.max(total, 1)) * 100}%` }} />
-              </div>
-              <p className="mt-1 text-center font-mono text-[11px] text-slate-400">
-                Step {shown} of {total}
-              </p>
-
-              <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
-                <Ctrl onClick={() => setPlaying((p) => !p)} label={playing ? 'Pause' : 'Play'} disabled={finished}>
-                  {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
-                </Ctrl>
-                <Ctrl onClick={next} label="Next step" disabled={finished}>
-                  <SkipForward className="h-4 w-4" />
-                </Ctrl>
-                <Ctrl onClick={showAll} label="Show all" disabled={finished}>
-                  <FastForward className="h-4 w-4" />
-                </Ctrl>
-                <Ctrl onClick={restart} label="Restart">
-                  <RotateCcw className="h-4 w-4" />
-                </Ctrl>
-                <button
-                  type="button"
-                  onClick={() => setSpeed(SPEEDS[(SPEEDS.indexOf(speed) + 1) % SPEEDS.length])}
-                  className="rounded-lg bg-white/10 px-2.5 py-1.5 font-mono text-xs text-white hover:bg-white/20"
-                  title="Replay speed"
-                >
-                  {speed}×
-                </button>
-              </div>
-              </>
+                <>
+                  <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-slate-700">
+                    <div className="h-full bg-sky-400 transition-all" style={{ width: `${(visible / Math.max(total, 1)) * 100}%` }} />
+                  </div>
+                  <p className="mt-1 text-center font-mono text-[11px] text-slate-400">
+                    Step {visible} of {total}
+                  </p>
+                </>
               )}
             </div>
 
@@ -283,7 +238,7 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
             <div className="inline-flex rounded-xl border border-stone-200 bg-white p-1 shadow-xs" role="tablist">
               {(
                 [
-                  { id: 'step', label: 'Step by step', icon: Play },
+                  { id: 'step', label: 'Step by step', icon: ListOrdered },
                   { id: 'full', label: 'Full conversation', icon: List },
                 ] as const
               ).map((opt) => (
@@ -304,9 +259,10 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
             </div>
             <span className="font-mono text-xs text-stone-500">{total} steps</span>
           </div>
-          {run.steps.slice(0, shown).map((step, i) => {
-            const isLast = i === shown - 1;
-            const partial = isLast && step.role === 'agent' && typed < step.content.length;
+
+          {run.steps.slice(0, visible).map((step, i) => {
+            const isNewest = i === visible - 1;
+            const partial = isNewest && streaming;
             const text = partial ? step.content.slice(0, typed) : step.content;
             const mode = MODE_META[step.mode] || MODE_META.gateway;
 
@@ -371,6 +327,15 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
               </div>
             );
           })}
+
+          {!isFull && (
+            <div className="flex flex-col items-center gap-2 pt-2">
+              <NextButton />
+              <span className="font-mono text-[11px] text-stone-500">
+                Step {visible} of {total}
+              </span>
+            </div>
+          )}
           <div ref={bottomRef} />
         </div>
       </div>
@@ -380,32 +345,7 @@ export function RunReplayPage({ indexData }: RunReplayPageProps) {
   );
 }
 
-function Ctrl({
-  onClick,
-  label,
-  disabled,
-  children,
-}: {
-  onClick: () => void;
-  label: string;
-  disabled?: boolean;
-  children: ReactNode;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      disabled={disabled}
-      title={label}
-      aria-label={label}
-      className="rounded-lg bg-white/10 p-2 text-white transition hover:bg-white/20 disabled:opacity-40"
-    >
-      {children}
-    </button>
-  );
-}
-
-function Stat({ n, label }: { n: number; label: string }) {
+function Stat({ n, label }: { n: number; label: string }): ReactNode {
   return (
     <div className="rounded-xl bg-stone-50 py-2">
       <div className="font-display text-lg font-bold text-slate-900">{n}</div>
